@@ -67,7 +67,7 @@
     "title": "Midjourney V8 Pro",
     "description": "Latest AI image generation with photorealistic quality, consistent characters, text-in-images, and real-time interactive generation at 4K resolution.",
     "price": "$80/month",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&h=800&fit=crop&q=80",
+    "image": "https://picsum.photos/seed/aiworldnext-products-8/1200/800",
     "link": "https://www.midjourney.com",
     "category": "Creative AI"
   },
@@ -76,7 +76,7 @@
     "title": "ElevenLabs Creator Max",
     "description": "Professional AI voice cloning and synthesis with real-time generation in 32 languages. Autonomous voice agents for customer service and content creation.",
     "price": "$132/month",
-    "image": "https://images.unsplash.com/photo-1589903308904-1010c2294adc?w=1200&h=800&fit=crop&q=80",
+    "image": "https://picsum.photos/seed/aiworldnext-products-9/1200/800",
     "link": "https://elevenlabs.io/pricing",
     "category": "Voice AI"
   },
@@ -103,7 +103,7 @@
     "title": "Microsoft 365 Copilot with GPT-6 Agents",
     "description": "GPT-6 powered autonomous agents across Word, Excel, PowerPoint, Outlook, and Teams. Multi-agent orchestration for enterprise workflow automation.",
     "price": "$40/user/month",
-    "image": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=1200&h=800&fit=crop&q=80",
+    "image": "https://picsum.photos/seed/aiworldnext-products-12/1200/800",
     "link": "https://www.microsoft.com/microsoft-365/copilot",
     "category": "Enterprise"
   }
