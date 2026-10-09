@@ -3,7 +3,7 @@
     "id": 1,
     "title": "AI Alignment Forum",
     "description": "Research forum focused on autonomous AI agent alignment, safety frameworks, and ensuring AI systems remain aligned with human values.",
-    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&h=800&fit=crop&q=80",
+    "image": "https://picsum.photos/seed/aiworldnext-websites-1/1200/800",
     "link": "https://www.alignmentforum.org",
     "category": "Research"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "title": "ML News",
     "description": "Curated daily newsletter and website covering autonomous agents, frontier model releases, and the latest in machine learning research.",
-    "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1200&h=800&fit=crop&q=80",
+    "image": "https://picsum.photos/seed/aiworldnext-websites-2/1200/800",
     "link": "https://www.mlnews.com",
     "category": "News"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "title": "AI Weekly",
     "description": "Weekly roundup of the most important AI news, autonomous agent developments, research papers, and industry trends.",
-    "image": "https://images.unsplash.com/photo-1586892478025-2b5472316c22?w=1200&h=800&fit=crop&q=80",
+    "image": "https://picsum.photos/seed/aiworldnext-websites-3/1200/800",
     "link": "https://aiweekly.co",
     "category": "Newsletter"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "title": "The Batch by deeplearning.ai",
     "description": "Andrew Ng's weekly newsletter providing insights on autonomous agents, AI trends, and practical applications for enterprise.",
-    "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=1200&h=800&fit=crop&q=80",
+    "image": "https://picsum.photos/seed/aiworldnext-websites-4/1200/800",
     "link": "https://www.deeplearning.ai/the-batch",
     "category": "Newsletter"
   },
@@ -51,7 +51,7 @@
     "id": 7,
     "title": "AI Business",
     "description": "Enterprise AI news covering autonomous agent adoption, business applications, and industry transformation at Fortune 500 scale.",
-    "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=1200&h=800&fit=crop&q=80",
+    "image": "https://picsum.photos/seed/aiworldnext-websites-7/1200/800",
     "link": "https://aibusiness.com",
     "category": "Business"
   },
