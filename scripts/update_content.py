@@ -199,9 +199,7 @@ def main():
 
     # Unverified job listings and events must not be presented as confirmed.
     # Re-enable these sections only after adding reliable direct listing feeds.
-    write_json("jobs.json", [])
-    write_json("events.json", [])
-
+ 
     print("Content update completed.")
 
 if __name__ == "__main__":
