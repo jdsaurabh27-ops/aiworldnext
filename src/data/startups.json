@@ -5,7 +5,7 @@
     "description": "Leading AI research company behind GPT-6 with autonomous agent framework. 5M context windows and self-directed task planning. Valued at $500B with global enterprise adoption.",
     "founded": "2015",
     "funding": "$65B",
-    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80",
     "link": "https://openai.com",
     "category": "Foundation Models"
   },
@@ -15,7 +15,7 @@
     "description": "AI safety leader behind Claude 5 with self-improving code generation and 99.8% SWE-bench. Constitutional AI v3 with real-time alignment monitoring.",
     "founded": "2021",
     "funding": "$35B",
-    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.anthropic.com",
     "category": "AI Safety"
   },
@@ -25,7 +25,7 @@
     "description": "AI search and operating system company reaching 300M users. Launches Perplexity OS for AI-first computing with native agentic search and task automation.",
     "founded": "2022",
     "funding": "$2B",
-    "image": "https://images.unsplash.com/photo-1561144257-e32e8efc6b5a?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.perplexity.ai",
     "category": "Search AI"
   },
@@ -35,7 +35,7 @@
     "description": "Humanoid robotics leader with 5,000+ robots deployed across 500+ factories. Figure 03 achieves human-level dexterity with 99.95% operational uptime.",
     "founded": "2022",
     "funding": "$3.5B",
-    "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.figure.ai",
     "category": "Robotics"
   },
@@ -45,7 +45,7 @@
     "description": "Video AI pioneer with Gen-5 powering first Oscar-nominated AI film. Real-time 4K video generation at 60fps adopted by major game studios and filmmakers.",
     "founded": "2018",
     "funding": "$950M",
-    "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80",
     "link": "https://runwayml.com",
     "category": "Video AI"
   },
@@ -55,7 +55,7 @@
     "description": "Chinese AI lab behind DeepSeek R2 matching GPT-6 at $80M training cost. Novel sparse attention architecture with 2T parameter MoE design.",
     "founded": "2023",
     "funding": "$5B",
-    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.deepseek.com",
     "category": "Foundation Models"
   },
@@ -65,7 +65,7 @@
     "description": "European AI champion building efficient frontier models. Valued at $15B with EU government contracts for sovereign AI infrastructure.",
     "founded": "2023",
     "funding": "$1.5B",
-    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80",
     "link": "https://mistral.ai",
     "category": "Foundation Models"
   },
@@ -75,7 +75,7 @@
     "description": "Home humanoid robotics startup scaling NEO to mass production. 10,000 units planned for 2026 with 1,000-family home testing program across 15 countries.",
     "founded": "2014",
     "funding": "$400M",
-    "image": "https://images.unsplash.com/photo-1535378620166-273708d44e4c?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.1x.tech",
     "category": "Home Robotics"
   },
@@ -85,7 +85,7 @@
     "description": "AI-first code editor with codebase understanding. Integrates Claude 5 and GPT-6 for autonomous coding, reaching $500M ARR and 5M developers.",
     "founded": "2023",
     "funding": "$300M",
-    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80",
     "link": "https://cursor.sh",
     "category": "Dev Tools"
   },
@@ -95,7 +95,7 @@
     "description": "Phoenix Gen 10 achieves full hand autonomy with sub-millimeter precision. 100+ deployment sites across manufacturing and healthcare sectors.",
     "founded": "2018",
     "funding": "$450M",
-    "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
     "link": "https://sanctuary.ai",
     "category": "Robotics"
   },
@@ -105,7 +105,7 @@
     "description": "Leading voice AI with real-time voice cloning in 32 languages. Powering voice synthesis for 50M+ creators and expanding into autonomous AI voice agents.",
     "founded": "2022",
     "funding": "$500M",
-    "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80",
     "link": "https://elevenlabs.io",
     "category": "Voice AI"
   },
@@ -115,7 +115,7 @@
     "description": "Enterprise AI search with autonomous agent capabilities. Reaches $1B ARR helping Fortune 500 companies deploy coordinated AI agent swarms across internal systems.",
     "founded": "2019",
     "funding": "$650M",
-    "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.glean.com",
     "category": "Enterprise Search"
   }
