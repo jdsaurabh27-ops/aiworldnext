@@ -4,7 +4,7 @@
     "title": "ChatGPT Pro with GPT-6 Autonomous Agents",
     "description": "Access to GPT-6 with 5M context, autonomous agent framework, Sora 3.0 real-time 4K video, DALL-E 4, web execution, and multi-step task automation.",
     "price": "$200/month",
-    "image": "https://picsum.photos/seed/aiworldnext-products-1/1200/800",
+    "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80",
     "link": "https://openai.com/chatgpt/pricing",
     "category": "AI Assistant"
   },
@@ -13,7 +13,7 @@
     "title": "Claude Pro with Claude 5 Self-Improving Code",
     "description": "Access to Claude 5 with 99.8% SWE-bench, recursive self-improvement for code generation, constitutional AI v3, and autonomous coding agent mode.",
     "price": "$30/month",
-    "image": "https://picsum.photos/seed/aiworldnext-products-2/1200/800",
+    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.anthropic.com/claude",
     "category": "AI Assistant"
   },
@@ -22,7 +22,7 @@
     "title": "Google One AI Premium with Gemini 3",
     "description": "Access to Gemini 3 with superhuman performance on 40+ benchmarks, agentic Workspace automation, 2TB storage, and advanced AI features across Google products.",
     "price": "$25/month",
-    "image": "https://picsum.photos/seed/aiworldnext-products-3/1200/800",
+    "image": "https://images.unsplash.com/photo-1561144257-e32e8efc6b5a?auto=format&fit=crop&w=1200&q=80",
     "link": "https://one.google.com",
     "category": "AI Assistant"
   },
@@ -31,7 +31,7 @@
     "title": "Perplexity OS Pro",
     "description": "AI-first operating system with native agentic search, autonomous task automation, and real-time knowledge synthesis. 300M users. GPT-6 and Claude 5 powered.",
     "price": "$50/month",
-    "image": "https://picsum.photos/seed/aiworldnext-products-4/1200/800",
+    "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.perplexity.ai/pro",
     "category": "Research AI"
   },
@@ -40,7 +40,7 @@
     "title": "Cursor Pro with Claude 5 & GPT-6",
     "description": "AI code editor with autonomous coding from Claude 5 and GPT-6. Codebase understanding, self-improving code generation, and full repo refactoring.",
     "price": "$25/month",
-    "image": "https://picsum.photos/seed/aiworldnext-products-5/1200/800",
+    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80",
     "link": "https://cursor.sh",
     "category": "Development"
   },
@@ -49,7 +49,7 @@
     "title": "GitHub Copilot X2 with GPT-6 Agents",
     "description": "AI pair programmer powered by GPT-6 autonomous agents. Full codebase awareness, autonomous PR generation, and multi-agent team collaboration.",
     "price": "$44/user/month",
-    "image": "https://picsum.photos/seed/aiworldnext-products-6/1200/800",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80",
     "link": "https://github.com/features/copilot",
     "category": "Development"
   },
@@ -58,7 +58,7 @@
     "title": "Runway Gen-5 Studio",
     "description": "Create feature-length films from text. Gen-5 with real-time 4K video at 60fps, interactive scene editing, and Oscar-nominated cinematic quality.",
     "price": "$120/month",
-    "image": "https://picsum.photos/seed/aiworldnext-products-7/1200/800",
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
     "link": "https://runwayml.com/pricing",
     "category": "Video AI"
   },
@@ -67,7 +67,7 @@
     "title": "Midjourney V8 Pro",
     "description": "Latest AI image generation with photorealistic quality, consistent characters, text-in-images, and real-time interactive generation at 4K resolution.",
     "price": "$80/month",
-    "image": "https://picsum.photos/seed/aiworldnext-products-8/1200/800",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.midjourney.com",
     "category": "Creative AI"
   },
@@ -76,7 +76,7 @@
     "title": "ElevenLabs Creator Max",
     "description": "Professional AI voice cloning and synthesis with real-time generation in 32 languages. Autonomous voice agents for customer service and content creation.",
     "price": "$132/month",
-    "image": "https://picsum.photos/seed/aiworldnext-products-9/1200/800",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80",
     "link": "https://elevenlabs.io/pricing",
     "category": "Voice AI"
   },
@@ -85,7 +85,7 @@
     "title": "NVIDIA Rubin Ultra GPU",
     "description": "100x faster AI training than H100. 4nm process with 288GB HBM4 memory and 18TB/s bandwidth for training next-generation frontier models.",
     "price": "$45,000",
-    "image": "https://picsum.photos/seed/aiworldnext-products-10/1200/800",
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.nvidia.com/rubin",
     "category": "Hardware"
   },
@@ -94,7 +94,7 @@
     "title": "Apple iPhone 17 Pro with Intelligence 3.0",
     "description": "GPT-6 class AI entirely on-device with A19 chip. Zero cloud dependency for AGI-level performance. Autonomous app automation and predictive task completion.",
     "price": "$1,299",
-    "image": "https://picsum.photos/seed/aiworldnext-products-11/1200/800",
+    "image": "https://images.unsplash.com/photo-1535378620166-273708d44e4c?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.apple.com/iphone-17-pro",
     "category": "Hardware"
   },
@@ -103,7 +103,7 @@
     "title": "Microsoft 365 Copilot with GPT-6 Agents",
     "description": "GPT-6 powered autonomous agents across Word, Excel, PowerPoint, Outlook, and Teams. Multi-agent orchestration for enterprise workflow automation.",
     "price": "$40/user/month",
-    "image": "https://picsum.photos/seed/aiworldnext-products-12/1200/800",
+    "image": "https://images.unsplash.com/photo-1561144257-e32e8efc6b5a?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.microsoft.com/microsoft-365/copilot",
     "category": "Enterprise"
   }
