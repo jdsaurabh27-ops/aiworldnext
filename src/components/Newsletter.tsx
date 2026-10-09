@@ -24,16 +24,20 @@ export default function Newsletter() {
         })
       });
 
-      if (response.ok) {
-        setStatus('success');
-        setMessage('Successfully subscribed! Check your email for confirmation.');
-        setEmail('');
-      } else {
-        throw new Error('Subscription failed');
+      const result = await response.json().catch(() => null);
+
+      if (!response.ok || result?.success === false || result?.success === 'false') {
+        throw new Error(result?.message || 'Subscription could not be confirmed. Please try again.');
       }
+
+      setStatus('success');
+      setMessage('Your request was accepted. If this is the first submission, check the site owner’s inbox for FormSubmit activation.');
+      setEmail('');
     } catch (error) {
       setStatus('error');
-      setMessage('Something went wrong. Please try again.');
+      setMessage(error instanceof Error
+        ? error.message
+        : 'Could not reach the subscription service. Please try again or email business@aiworldnext.com.');
     }
   };
 
