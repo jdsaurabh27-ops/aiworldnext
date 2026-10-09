@@ -1,1 +1,57 @@
-[]
+[
+{
+"id": 1,
+"title": "World AI Summit India 2026",
+"date": "2026-10-14",
+"endDate": "2026-10-15",
+"location": "Bengaluru, India",
+"type": "AI Summit",
+"description": "A global AI summit bringing together enterprise leaders, policymakers, researchers and AI builders. Check the official website for registration details.",
+"url": "https://www.worldaisummit.com/",
+"featured": true
+},
+{
+"id": 2,
+"title": "AI Engineer New York 2026",
+"date": "2026-10-12",
+"endDate": "2026-10-14",
+"location": "New York, United States",
+"type": "AI Engineering Conference",
+"description": "A conference for AI engineers and technical leaders focused on building and deploying production AI systems.",
+"url": "https://ai.engineer/nyc/2026",
+"featured": true
+},
+{
+"id": 3,
+"title": "AI Congress Barcelona 2026",
+"date": "2026-10-20",
+"endDate": "2026-10-22",
+"location": "Barcelona, Spain",
+"type": "AI Conference",
+"description": "Explore business applications of artificial intelligence, emerging technologies and real-world AI use cases. The official website reports that general registration is closed.",
+"url": "https://aicongress.barcelona/en/",
+"featured": true
+},
+{
+"id": 4,
+"title": "EMNLP 2026",
+"date": "2026-10-24",
+"endDate": "2026-10-29",
+"location": "Budapest, Hungary",
+"type": "NLP Research Conference",
+"description": "An international research conference covering natural language processing, language technologies and machine learning.",
+"url": "https://2026.emnlp.org/",
+"featured": true
+},
+{
+"id": 5,
+"title": "European AI Innovation Month",
+"date": "2026-10-14",
+"endDate": "2026-11-17",
+"location": "Europe and online",
+"type": "AI Innovation Programme",
+"description": "A European Commission initiative featuring events on AI innovation, adoption and policy. Visit the official page for the programme and event details.",
+"url": "https://digital-strategy.ec.europa.eu/en/policies/european-ai-innovation-month",
+"featured": false
+}
+]
