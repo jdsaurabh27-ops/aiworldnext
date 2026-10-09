@@ -5,7 +5,7 @@
     "description": "Leading AI research company behind GPT-6 with autonomous agent framework. 5M context windows and self-directed task planning. Valued at $500B with global enterprise adoption.",
     "founded": "2015",
     "funding": "$65B",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=800&fit=crop&q=80",
+    "image": "https://picsum.photos/seed/aiworldnext-startups-1/1200/800",
     "link": "https://openai.com",
     "category": "Foundation Models"
   },
@@ -15,7 +15,7 @@
     "description": "AI safety leader behind Claude 5 with self-improving code generation and 99.8% SWE-bench. Constitutional AI v3 with real-time alignment monitoring.",
     "founded": "2021",
     "funding": "$35B",
-    "image": "https://images.unsplash.com/photo-1535378620166-273708d44e4c?w=1200&h=800&fit=crop&q=80",
+    "image": "https://picsum.photos/seed/aiworldnext-startups-2/1200/800",
     "link": "https://www.anthropic.com",
     "category": "AI Safety"
   },
@@ -25,7 +25,7 @@
     "description": "AI search and operating system company reaching 300M users. Launches Perplexity OS for AI-first computing with native agentic search and task automation.",
     "founded": "2022",
     "funding": "$2B",
-    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&h=800&fit=crop&q=80",
+    "image": "https://picsum.photos/seed/aiworldnext-startups-3/1200/800",
     "link": "https://www.perplexity.ai",
     "category": "Search AI"
   },
@@ -45,7 +45,7 @@
     "description": "Video AI pioneer with Gen-5 powering first Oscar-nominated AI film. Real-time 4K video generation at 60fps adopted by major game studios and filmmakers.",
     "founded": "2018",
     "funding": "$950M",
-    "image": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=1200&h=800&fit=crop&q=80",
+    "image": "https://picsum.photos/seed/aiworldnext-startups-5/1200/800",
     "link": "https://runwayml.com",
     "category": "Video AI"
   },
@@ -55,7 +55,7 @@
     "description": "Chinese AI lab behind DeepSeek R2 matching GPT-6 at $80M training cost. Novel sparse attention architecture with 2T parameter MoE design.",
     "founded": "2023",
     "funding": "$5B",
-    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=800&fit=crop&q=80",
+    "image": "https://picsum.photos/seed/aiworldnext-startups-6/1200/800",
     "link": "https://www.deepseek.com",
     "category": "Foundation Models"
   },
@@ -65,7 +65,7 @@
     "description": "European AI champion building efficient frontier models. Valued at $15B with EU government contracts for sovereign AI infrastructure.",
     "founded": "2023",
     "funding": "$1.5B",
-    "image": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&h=800&fit=crop&q=80",
+    "image": "https://picsum.photos/seed/aiworldnext-startups-7/1200/800",
     "link": "https://mistral.ai",
     "category": "Foundation Models"
   },
@@ -85,7 +85,7 @@
     "description": "AI-first code editor with codebase understanding. Integrates Claude 5 and GPT-6 for autonomous coding, reaching $500M ARR and 5M developers.",
     "founded": "2023",
     "funding": "$300M",
-    "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1200&h=800&fit=crop&q=80",
+    "image": "https://picsum.photos/seed/aiworldnext-startups-9/1200/800",
     "link": "https://cursor.sh",
     "category": "Dev Tools"
   },
