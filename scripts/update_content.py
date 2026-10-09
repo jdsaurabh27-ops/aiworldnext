@@ -1,10 +1,10 @@
-
+```python
 import json
 import re
 import time
 import html
 import urllib.request
-from datetime import date, timedelta
+from datetime import date
 from pathlib import Path
 
 import feedparser
@@ -12,7 +12,6 @@ import feedparser
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "src" / "data"
 
-# Public RSS feeds. No paid AI API or API key is needed.
 FEEDS = [
     {
         "url": "https://openai.com/news/rss.xml",
@@ -69,10 +68,12 @@ IMAGES = {
     "robotics": "https://images.unsplash.com/photo-1563770660941-20978e870e26?w=1200",
 }
 
+
 def clean_text(value):
     value = html.unescape(value or "")
     value = re.sub(r"<[^>]+>", " ", value)
     return re.sub(r"\s+", " ", value).strip()
+
 
 def fetch_feed(source):
     request = urllib.request.Request(
@@ -82,13 +83,22 @@ def fetch_feed(source):
     with urllib.request.urlopen(request, timeout=25) as response:
         payload = response.read(5_000_000)
     parsed = feedparser.parse(payload)
+
+    if parsed.bozo and not parsed.entries:
+        raise RuntimeError("RSS feed could not be parsed")
+
     return parsed.entries
+
 
 def published_date(entry):
     parsed = entry.get("published_parsed") or entry.get("updated_parsed")
     if not parsed:
         return None
-    return date.fromtimestamp(time.mktime(parsed)).isoformat()
+
+    # Convert the feed timestamp to a calendar date.
+    import calendar
+    return date.fromtimestamp(calendar.timegm(parsed)).isoformat()
+
 
 def collect(kind):
     today = date.today()
@@ -123,22 +133,23 @@ def collect(kind):
             except ValueError:
                 continue
 
-            # Reject stale and future-dated feed entries.
             if age < 0 or age > max_age:
                 continue
 
             if kind == "robotics":
-                dedicated_robotics_feed = (
+                dedicated_feed = (
                     source["publisher"] == "IEEE Spectrum Robotics"
                 )
                 text = f"{title} {description}".lower()
-                if not dedicated_robotics_feed and not any(
+
+                if not dedicated_feed and not any(
                     word in text for word in ROBOTICS_WORDS
                 ):
                     continue
 
             if link in seen:
                 continue
+
             seen.add(link)
 
             item = {
@@ -167,8 +178,8 @@ def collect(kind):
 
     results.sort(key=lambda item: item["date"], reverse=True)
 
-    # Fail safely rather than publishing an empty feed as an update.
     minimum = {"news": 5, "blogs": 5, "robotics": 1}[kind]
+
     if len(results) < minimum:
         raise RuntimeError(
             f"Only {len(results)} valid {kind} entries found; "
@@ -176,6 +187,7 @@ def collect(kind):
         )
 
     return results[:15]
+
 
 def write_json(filename, data):
     path = DATA / filename
@@ -185,10 +197,11 @@ def write_json(filename, data):
     )
     print(f"Updated {path.relative_to(ROOT)}: {len(data)} entries")
 
+
 def main():
     DATA.mkdir(parents=True, exist_ok=True)
 
-    # Collect all three feeds before changing any files.
+    # Collect all content before writing any files.
     news = collect("news")
     blogs = collect("blogs")
     robotics = collect("robotics")
@@ -197,10 +210,12 @@ def main():
     write_json("blogs.json", blogs)
     write_json("robotics.json", robotics)
 
-    # Unverified job listings and events must not be presented as confirmed.
-    # Re-enable these sections only after adding reliable direct listing feeds.
- 
-    print("Content update completed.")
+    # Preserve jobs.json and events.json.
+    # Add verified job and event sources before automating those sections.
+
+    print("Content update completed successfully.")
+
 
 if __name__ == "__main__":
     main()
+```
