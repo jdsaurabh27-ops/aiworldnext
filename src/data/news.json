@@ -1,137 +1,137 @@
 [
   {
     "id": 1,
-    "title": "OpenAI Launches GPT-6 with Autonomous Agent Framework and 5M Token Context",
-    "description": "OpenAI unveils GPT-6 with a 5 million token context window, native autonomous agent capabilities, and real-time web execution. The model can independently plan, browse, and complete multi-step tasks without human intervention.",
-    "date": "2026-10-08",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=800&fit=crop&q=80",
-    "link": "https://openai.com/blog",
-    "category": "AI Models"
+    "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+    "description": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+    "date": "2026-10-09",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
+    "link": "https://openai.com/index/sophos",
+    "category": "AI News"
   },
   {
     "id": 2,
-    "title": "Google DeepMind's Gemini 3 Achieves Superhuman Performance on 40+ Benchmarks",
-    "description": "Gemini 3 surpasses human experts across 40+ academic benchmarks including medical diagnosis, legal reasoning, and advanced mathematics. Google integrates Gemini 3 into all Workspace products with agentic automation.",
-    "date": "2026-10-07",
-    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=1200&h=800&fit=crop&q=80",
-    "link": "https://blog.google",
-    "category": "AI Models"
+    "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+    "description": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+    "date": "2026-10-09",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
+    "link": "https://openai.com/index/asana-browser-agent",
+    "category": "AI News"
+  },
+  {
+    "id": 181,
+    "title": "Impactful scheduling for GPU clusters",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-10-09",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
+    "link": "https://huggingface.co/blog/allenai/impactful-scheduling",
+    "category": "AI Tools & Research"
+  },
+  {
+    "id": 235,
+    "title": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
+    "description": "Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to hundreds of proposed and enacted moratoriums from New York to San Francisco. Meanwhile, a wave of startups is betting that consumers will hand AI agents access […]",
+    "date": "2026-10-09",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
+    "link": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/",
+    "category": "AI Industry"
+  },
+  {
+    "id": 236,
+    "title": "Amazon drops data center NDAs, and AI agents want your credit card",
+    "description": "Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to hundreds of proposed and enacted moratoriums from New York to San Francisco. Meanwhile, a wave of startups is betting that consumers will hand AI agents access […]",
+    "date": "2026-10-09",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
+    "link": "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card/",
+    "category": "AI Industry"
+  },
+  {
+    "id": 237,
+    "title": "Danu Robotics’ fight to build a better recycling robot",
+    "description": "For six years, Danu founder Amy Ma has been working on a better way to sort recyclable waste.",
+    "date": "2026-10-09",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
+    "link": "https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot/",
+    "category": "AI Industry"
+  },
+  {
+    "id": 238,
+    "title": "We can’t help treating AI like it’s human. But should we?",
+    "description": "\"When we are drawn into even the most primitive exchanges with a relational artifact, we believe it cares for us,\" Dr. Sherry Turkle writes. \"And we are wired to care for it in return.\"",
+    "date": "2026-10-09",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
+    "link": "https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we/",
+    "category": "AI Industry"
+  },
+  {
+    "id": 239,
+    "title": "a16z’s Olivia Moore on the state of consumer AI",
+    "description": "Moore sees a huge opportunity in consumer AI, particularly if the industry can tap into revenue streams beyond just subscriptions and API charges.",
+    "date": "2026-10-09",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
+    "link": "https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai/",
+    "category": "AI Industry"
+  },
+  {
+    "id": 240,
+    "title": "TechCrunch Disrupt 2026 starts in 4 days — lock in your pass savings of up to $100 before prices rise",
+    "description": "Four days until TechCrunch Disrupt 2026 starts, when 10,000 founders, investors, and tech leaders gather in San Francisco's Moscone West on October 13-15. Save up to $100 on your price. Plus, save 50% on a second pass of the same type.",
+    "date": "2026-10-09",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
+    "link": "https://techcrunch.com/2026/10/09/techcrunch-disrupt-2026-starts-in-4-days-lock-in-your-pass-savings-of-up-to-100-before-prices-rise/",
+    "category": "AI Industry"
+  },
+  {
+    "id": 255,
+    "title": "The Download: AI’s refusal problem and weight-loss drug side effects",
+    "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. We’re putting too much faith in AI’s ability to say no Today’s AI models are trained to refuse a vast number of prompts. If you ask your chatbot how to poison…",
+    "date": "2026-10-09",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
+    "link": "https://www.technologyreview.com/2026/10/09/1146250/the-download-ai-refusal-problem-weight-loss-drug-side-effects/",
+    "category": "AI Research"
+  },
+  {
+    "id": 256,
+    "title": "We’re putting too much faith in AI’s ability to say no",
+    "description": "Ever since people first seriously contemplated giving machines an intelligence modeled on our own, there has never been any question that they would, like us, be able to say no. The sci-fi canon is full of stories of robotic disobedience. Most of these capers are, of course, cautionary. But recently, the idea that AI shouldn’t…",
+    "date": "2026-10-09",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
+    "link": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
+    "category": "AI Research"
+  },
+  {
+    "id": 257,
+    "title": "Job titles of the future: Delivery drone air traffic controller",
+    "description": "The moment Trevor Wischnewsky heard that drones were delivering pizza and sushi around his Texas neighborhood, his mind was made up. “It was super fascinating,” he says. “I just immediately wanted to be a part of it.” Wischnewsky is now an RPIC, or “remote pilot in command,” at a company called FlyTrex. An RPIC is…",
+    "date": "2026-10-09",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
+    "link": "https://www.technologyreview.com/2026/10/09/1145737/job-titles-delivery-drone-air-traffic-controller-trevor-wischnewsky/",
+    "category": "AI Research"
+  },
+  {
+    "id": 258,
+    "title": "We’re still figuring out the side effects of GLP-1 weight-loss drugs",
+    "description": "This week my colleague Antonio Regalado had an interesting update on GLP-1 weight-loss drugs. According to research presented at an aging meeting in Boston, these drugs seem to affect at least some measures of biological age. Overweight and diabetic people who take GLP-1s have a biological age around two to three years younger than similar…",
+    "date": "2026-10-09",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
+    "link": "https://www.technologyreview.com/2026/10/09/1146094/were-still-figuring-out-the-side-effects-of-glp-1-weight-loss-drugs/",
+    "category": "AI Research"
+  },
+  {
+    "id": 259,
+    "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+    "description": "Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Join senior AI reporter…",
+    "date": "2026-10-09",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
+    "link": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+    "category": "AI Research"
   },
   {
     "id": 3,
-    "title": "Anthropic Releases Claude 5 with Self-Improving Code Generation",
-    "description": "Claude 5 introduces recursive self-improvement for code generation, achieving 99.8% on SWE-bench Verified. New safety framework includes constitutional AI v3 with real-time alignment monitoring.",
-    "date": "2026-10-06",
-    "image": "https://images.unsplash.com/photo-1535378620166-273708d44e4c?w=1200&h=800&fit=crop&q=80",
-    "link": "https://www.anthropic.com",
-    "category": "AI Models"
-  },
-  {
-    "id": 4,
-    "title": "Tesla Optimus Gen 4 Begins Home Deliveries at $20K Price Point",
-    "description": "Tesla starts consumer deliveries of Optimus Gen 4 humanoid robots at $20,000. The new model handles laundry, cooking, and cleaning tasks with 99.2% reliability in home environments.",
-    "date": "2026-10-05",
-    "image": "https://images.unsplash.com/photo-1563770660941-20978e870e26?w=1200&h=800&fit=crop&q=80",
-    "link": "https://www.tesla.com",
-    "category": "Robotics"
-  },
-  {
-    "id": 5,
-    "title": "Meta Releases Llama 5 with 1T Parameters Under Open Source License",
-    "description": "Meta launches Llama 5 with 1 trillion parameters, the largest open-source model ever released. Outperforms GPT-5 on reasoning tasks while remaining free for commercial use under modified license.",
-    "date": "2026-10-04",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=800&fit=crop&q=80",
-    "link": "https://ai.meta.com",
-    "category": "Open Source"
-  },
-  {
-    "id": 6,
-    "title": "Apple Intelligence 3.0 Brings On-Device AGI to iPhone 17 with A19 Chip",
-    "description": "Apple's A19 chip delivers GPT-6 class AI entirely on-device with zero cloud dependency. Intelligence 3.0 includes autonomous app automation, predictive task completion, and private health monitoring.",
-    "date": "2026-10-03",
-    "image": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=1200&h=800&fit=crop&q=80",
-    "link": "https://www.apple.com",
-    "category": "Consumer AI"
-  },
-  {
-    "id": 7,
-    "title": "NVIDIA Unveils Rubin Ultra GPU with 100x H100 Training Performance",
-    "description": "NVIDIA announces Rubin Ultra at GPU Technology Conference, delivering 100x training performance over H100. The new architecture uses 4nm process with 288GB HBM4 memory and 18TB/s bandwidth.",
-    "date": "2026-10-02",
-    "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=1200&h=800&fit=crop&q=80",
-    "link": "https://www.nvidia.com",
-    "category": "Hardware"
-  },
-  {
-    "id": 8,
-    "title": "China's DeepSeek R2 Matches GPT-6 at One-Tenth the Training Cost",
-    "description": "DeepSeek R2 achieves parity with GPT-6 across major benchmarks while costing only $80M to train. Uses novel sparse attention architecture with 2T parameter mixture-of-experts design.",
-    "date": "2026-10-01",
-    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=800&fit=crop&q=80",
-    "link": "https://www.deepseek.com",
-    "category": "AI Models"
-  },
-  {
-    "id": 9,
-    "title": "Runway Gen-5 Produces First AI-Generated Film Nominated for Academy Award",
-    "description": "Runway's Gen-5 model powers 'Echoes of Tomorrow,' the first AI-generated feature film nominated for an Academy Award. The 110-minute film was created from a 2-page text prompt with human creative direction.",
-    "date": "2026-09-30",
-    "image": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=1200&h=800&fit=crop&q=80",
-    "link": "https://runwayml.com",
-    "category": "Generative AI"
-  },
-  {
-    "id": 10,
-    "title": "OpenAI Sora 3.0 Enables Real-Time 4K Video Generation at 60fps",
-    "description": "Sora 3.0 delivers real-time 4K video generation at 60fps with interactive scene editing. Major game studios and filmmakers adopt the platform for previsualization and virtual production.",
-    "date": "2026-09-29",
-    "image": "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=1200&h=800&fit=crop&q=80",
-    "link": "https://openai.com/sora",
-    "category": "Video AI"
-  },
-  {
-    "id": 11,
-    "title": "Figure 03 Humanoid Robots Deployed in 500+ Factories Worldwide",
-    "description": "Figure AI announces deployment of 5,000+ Figure 03 humanoid robots across 500+ factories globally. New model handles complex assembly tasks with human-level dexterity and 99.95% uptime.",
-    "date": "2026-09-28",
-    "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1200&h=800&fit=crop&q=80",
-    "link": "https://www.figure.ai",
-    "category": "Robotics"
-  },
-  {
-    "id": 12,
-    "title": "Perplexity Reaches 300M Users, Launches Perplexity OS for AI-First Computing",
-    "description": "Perplexity launches Perplexity OS, an AI-first operating system with native agentic search, task automation, and real-time knowledge synthesis. Platform reaches 300M monthly active users.",
-    "date": "2026-09-27",
-    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&h=800&fit=crop&q=80",
-    "link": "https://www.perplexity.ai",
-    "category": "Search AI"
-  },
-  {
-    "id": 13,
-    "title": "96% of Fortune 500 Companies Now Run Autonomous AI Agents in Production",
-    "description": "McKinsey's 2026 AI Report shows 96% of Fortune 500 companies deploy autonomous AI agents in production. Average ROI reaches 40-60% with $1.2T in global AI investment this year.",
-    "date": "2026-09-26",
-    "image": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&h=800&fit=crop&q=80",
-    "link": "https://www.mckinsey.com",
-    "category": "Industry"
-  },
-  {
-    "id": 14,
-    "title": "EU AI Act Phase 3 Takes Effect: Full Compliance Required for Frontier Models",
-    "description": "The EU AI Act enters its final enforcement phase, requiring full compliance for frontier AI models. Companies face fines up to 7% of global revenue for violations related to transparency and safety.",
-    "date": "2026-09-25",
-    "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&h=800&fit=crop&q=80",
-    "link": "https://digital-strategy.ec.europa.eu",
-    "category": "Policy"
-  },
-  {
-    "id": 15,
-    "title": "Microsoft Copilot Studio 2.0 Enables Multi-Agent Orchestration for Enterprises",
-    "description": "Microsoft launches Copilot Studio 2.0 with multi-agent orchestration, allowing enterprises to deploy coordinated AI agent swarms. Over 50,000 companies already building agent workflows on the platform.",
-    "date": "2026-09-24",
-    "image": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=1200&h=800&fit=crop&q=80",
-    "link": "https://blogs.microsoft.com",
-    "category": "Enterprise"
+    "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+    "description": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+    "date": "2026-10-08",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
+    "link": "https://openai.com/index/oracle",
+    "category": "AI News"
   }
 ]
