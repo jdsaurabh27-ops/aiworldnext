@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Hugging Face",
     "description": "The AI community platform with 1.5M+ models, datasets, agent hubs, and spaces. Hub for open-source LLMs, transformers, and autonomous agents.",
-    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&h=800&fit=crop&q=80",
+    "image": "https://picsum.photos/seed/aiworldnext-resources-1/1200/800",
     "link": "https://huggingface.co",
     "category": "Platform"
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "title": "Papers With Code",
     "description": "100,000+ ML papers with code implementations, benchmarks, and datasets for reproducible research and autonomous agent development.",
-    "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=1200&h=800&fit=crop&q=80",
+    "image": "https://picsum.photos/seed/aiworldnext-resources-5/1200/800",
     "link": "https://paperswithcode.com",
     "category": "Research"
   },
@@ -67,7 +67,7 @@
     "id": 9,
     "title": "Fast.ai Practical Deep Learning",
     "description": "Free course making state-of-the-art deep learning accessible. Learn to build autonomous AI agents and real-world AI applications.",
-    "image": "https://images.unsplash.com/photo-1513258496099-48168024aec0?w=1200&h=800&fit=crop&q=80",
+    "image": "https://picsum.photos/seed/aiworldnext-resources-9/1200/800",
     "link": "https://course.fast.ai",
     "category": "Education"
   },
@@ -99,7 +99,7 @@
     "id": 13,
     "title": "Andrej Karpathy's AI Course",
     "description": "Free YouTube course on building neural networks and autonomous agents from scratch by former Tesla AI director and OpenAI researcher.",
-    "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1200&h=800&fit=crop&q=80",
+    "image": "https://picsum.photos/seed/aiworldnext-resources-13/1200/800",
     "link": "https://www.youtube.com/@AndrejKarpathy",
     "category": "Education"
   },
