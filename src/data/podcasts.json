@@ -31,7 +31,7 @@
     "title": "Dario Amodei: Claude 5's Self-Improving Code and Constitutional AI v3",
     "host": "Latent Space",
     "description": "Anthropic CEO explains how Claude 5 achieves 99.8% SWE-bench with recursive self-improvement and discusses the new constitutional AI v3 safety framework. October 5, 2026.",
-    "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.latent.space/podcast",
     "category": "Interview"
   },
@@ -40,7 +40,7 @@
     "title": "Tesla Optimus Gen 4: $20K Home Robots Are Here",
     "host": "CNBC Technology",
     "description": "Elon Musk reveals Optimus Gen 4 consumer deliveries at $20K. Discussion of home robotics market, capabilities, and why it will surpass Tesla's car business. October 4, 2026.",
-    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.cnbc.com",
     "category": "Robotics"
   },
@@ -49,7 +49,7 @@
     "title": "Meta's Llama 5: The 1 Trillion Parameter Open Source Revolution",
     "host": "The AI Daily",
     "description": "Mark Zuckerberg on releasing Llama 5 with 1T parameters as open source, matching GPT-5 performance, and democratizing frontier AI. October 3, 2026.",
-    "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=1200&q=80",
     "link": "https://ai.meta.com",
     "category": "Open Source"
   },
@@ -58,7 +58,7 @@
     "title": "Apple Intelligence 3.0: On-Device AGI with the A19 Chip",
     "host": "The Talk Show with John Gruber",
     "description": "Apple executives reveal how the A19 chip delivers GPT-6 class AI entirely on-device in iPhone 17, with zero cloud dependency. October 2, 2026.",
-    "image": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?auto=format&fit=crop&w=1200&q=80",
     "link": "https://daringfireball.net/thetalkshow",
     "category": "Consumer Tech"
   },
@@ -67,7 +67,7 @@
     "title": "NVIDIA Rubin Ultra: 100x H100 and the Future of AI Compute",
     "host": "Hardware Pioneers",
     "description": "Jensen Huang unveils Rubin Ultra with 100x H100 training performance. Discussion of 4nm process, HBM4 memory, and AI infrastructure through 2030. October 1, 2026.",
-    "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.nvidia.com/gtc",
     "category": "Hardware"
   },
@@ -76,7 +76,7 @@
     "title": "China's DeepSeek R2: GPT-6 Parity at $80M Training Cost",
     "host": "ChinaTalk",
     "description": "Deep dive into DeepSeek R2's sparse attention architecture achieving GPT-6 performance at one-tenth the cost. Implications for US-China AI competition. September 30, 2026.",
-    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.chinatalk.media",
     "category": "Geopolitics"
   },
@@ -85,7 +85,7 @@
     "title": "Runway Gen-5: The First Oscar-Nominated AI Film",
     "host": "The Filmmaker's Podcast",
     "description": "Runway CEO on Gen-5 powering 'Echoes of Tomorrow,' the first AI-generated film nominated for an Academy Award. The future of AI in cinema. September 29, 2026.",
-    "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?auto=format&fit=crop&w=1200&q=80",
     "link": "https://runwayml.com",
     "category": "Creative AI"
   },
@@ -94,7 +94,7 @@
     "title": "Figure AI: 5,000 Humanoids in 500 Factories Worldwide",
     "host": "Robotics Today",
     "description": "Figure AI executives discuss deploying 5,000+ Figure 03 robots across 500+ factories with 99.95% uptime and human-level dexterity. September 28, 2026.",
-    "image": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.roboticstoday.com",
     "category": "Robotics"
   },
@@ -103,7 +103,7 @@
     "title": "EU AI Act Phase 3: Frontier Model Compliance Explained",
     "host": "Tech Policy Podcast",
     "description": "Policy experts break down the EU AI Act's final enforcement phase, transparency requirements for frontier models, and how companies can avoid 7% revenue fines. September 27, 2026.",
-    "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=1200&q=80",
     "link": "https://techpolicy.press",
     "category": "Policy"
   }
