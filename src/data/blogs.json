@@ -4,164 +4,164 @@
     "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
     "description": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
     "date": "2026-10-09",
-    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=1200",
+    "image": "https://picsum.photos/seed/aiworldnext-blogs-1/1200/800",
     "link": "https://openai.com/index/sophos",
     "category": "AI News",
     "author": "OpenAI",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext"
+    "authorImage": "https://picsum.photos/seed/aiworldnext-blogs-1/1200/800"
   },
   {
     "id": 2,
     "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
     "description": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
     "date": "2026-10-09",
-    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=1200",
+    "image": "https://picsum.photos/seed/aiworldnext-blogs-2/1200/800",
     "link": "https://openai.com/index/asana-browser-agent",
     "category": "AI News",
     "author": "OpenAI",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext"
+    "authorImage": "https://picsum.photos/seed/aiworldnext-blogs-2/1200/800"
   },
   {
     "id": 333,
     "title": "Impactful scheduling for GPU clusters",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-09",
-    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=1200",
+    "image": "https://picsum.photos/seed/aiworldnext-blogs-333/1200/800",
     "link": "https://huggingface.co/blog/allenai/impactful-scheduling",
     "category": "AI Tools & Research",
     "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext"
+    "authorImage": "https://picsum.photos/seed/aiworldnext-blogs-333/1200/800"
   },
   {
     "id": 449,
     "title": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
     "description": "Anthropic did not discover this behavior until over two months after its AI submitted the false tip.",
     "date": "2026-10-09",
-    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=1200",
+    "image": "https://picsum.photos/seed/aiworldnext-blogs-449/1200/800",
     "link": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
     "category": "AI Industry",
     "author": "Amanda Silberling",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext"
+    "authorImage": "https://picsum.photos/seed/aiworldnext-blogs-449/1200/800"
   },
   {
     "id": 450,
     "title": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
     "description": "Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to hundreds of proposed and enacted moratoriums from New York to San Francisco. Meanwhile, a wave of startups is betting that consumers will hand AI agents access […]",
     "date": "2026-10-09",
-    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=1200",
+    "image": "https://picsum.photos/seed/aiworldnext-blogs-450/1200/800",
     "link": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/",
     "category": "AI Industry",
     "author": "Theresa Loconsolo",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext"
+    "authorImage": "https://picsum.photos/seed/aiworldnext-blogs-450/1200/800"
   },
   {
     "id": 451,
     "title": "Amazon drops data center NDAs, and AI agents want your credit card",
     "description": "Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to hundreds of proposed and enacted moratoriums from New York to San Francisco. Meanwhile, a wave of startups is betting that consumers will hand AI agents access […]",
     "date": "2026-10-09",
-    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=1200",
+    "image": "https://picsum.photos/seed/aiworldnext-blogs-451/1200/800",
     "link": "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card/",
     "category": "AI Industry",
     "author": "Theresa Loconsolo, Anthony Ha, Rebecca Bellan, Sean O'Kane",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext"
+    "authorImage": "https://picsum.photos/seed/aiworldnext-blogs-451/1200/800"
   },
   {
     "id": 452,
     "title": "Danu Robotics’ fight to build a better recycling robot",
     "description": "For six years, Danu founder Amy Ma has been working on a better way to sort recyclable waste.",
     "date": "2026-10-09",
-    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=1200",
+    "image": "https://picsum.photos/seed/aiworldnext-blogs-452/1200/800",
     "link": "https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot/",
     "category": "AI Industry",
     "author": "Russell Brandom",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext"
+    "authorImage": "https://picsum.photos/seed/aiworldnext-blogs-452/1200/800"
   },
   {
     "id": 453,
     "title": "We can’t help treating AI like it’s human. But should we?",
     "description": "\"When we are drawn into even the most primitive exchanges with a relational artifact, we believe it cares for us,\" Dr. Sherry Turkle writes. \"And we are wired to care for it in return.\"",
     "date": "2026-10-09",
-    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=1200",
+    "image": "https://picsum.photos/seed/aiworldnext-blogs-453/1200/800",
     "link": "https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we/",
     "category": "AI Industry",
     "author": "Amanda Silberling",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext"
+    "authorImage": "https://picsum.photos/seed/aiworldnext-blogs-453/1200/800"
   },
   {
     "id": 454,
     "title": "a16z’s Olivia Moore on the state of consumer AI",
     "description": "Moore sees a huge opportunity in consumer AI, particularly if the industry can tap into revenue streams beyond just subscriptions and API charges.",
     "date": "2026-10-09",
-    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=1200",
+    "image": "https://picsum.photos/seed/aiworldnext-blogs-454/1200/800",
     "link": "https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai/",
     "category": "AI Industry",
     "author": "Russell Brandom",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext"
+    "authorImage": "https://picsum.photos/seed/aiworldnext-blogs-454/1200/800"
   },
   {
     "id": 455,
     "title": "TechCrunch Disrupt 2026 starts in 4 days — lock in your pass savings of up to $100 before prices rise",
     "description": "Four days until TechCrunch Disrupt 2026 starts, when 10,000 founders, investors, and tech leaders gather in San Francisco's Moscone West on October 13-15. Save up to $100 on your price. Plus, save 50% on a second pass of the same type.",
     "date": "2026-10-09",
-    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=1200",
+    "image": "https://picsum.photos/seed/aiworldnext-blogs-455/1200/800",
     "link": "https://techcrunch.com/2026/10/09/techcrunch-disrupt-2026-starts-in-4-days-lock-in-your-pass-savings-of-up-to-100-before-prices-rise/",
     "category": "AI Industry",
     "author": "TechCrunch Events",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext"
+    "authorImage": "https://picsum.photos/seed/aiworldnext-blogs-455/1200/800"
   },
   {
     "id": 469,
     "title": "The Download: AI’s refusal problem and weight-loss drug side effects",
     "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. We’re putting too much faith in AI’s ability to say no Today’s AI models are trained to refuse a vast number of prompts. If you ask your chatbot how to poison…",
     "date": "2026-10-09",
-    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=1200",
+    "image": "https://picsum.photos/seed/aiworldnext-blogs-469/1200/800",
     "link": "https://www.technologyreview.com/2026/10/09/1146250/the-download-ai-refusal-problem-weight-loss-drug-side-effects/",
     "category": "AI Research",
     "author": "Thomas Macaulay",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext"
+    "authorImage": "https://picsum.photos/seed/aiworldnext-blogs-469/1200/800"
   },
   {
     "id": 470,
     "title": "We’re putting too much faith in AI’s ability to say no",
     "description": "Ever since people first seriously contemplated giving machines an intelligence modeled on our own, there has never been any question that they would, like us, be able to say no. The sci-fi canon is full of stories of robotic disobedience. Most of these capers are, of course, cautionary. But recently, the idea that AI shouldn’t…",
     "date": "2026-10-09",
-    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=1200",
+    "image": "https://picsum.photos/seed/aiworldnext-blogs-470/1200/800",
     "link": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
     "category": "AI Research",
     "author": "Arthur Holland Michel",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext"
+    "authorImage": "https://picsum.photos/seed/aiworldnext-blogs-470/1200/800"
   },
   {
     "id": 471,
     "title": "Job titles of the future: Delivery drone air traffic controller",
     "description": "The moment Trevor Wischnewsky heard that drones were delivering pizza and sushi around his Texas neighborhood, his mind was made up. “It was super fascinating,” he says. “I just immediately wanted to be a part of it.” Wischnewsky is now an RPIC, or “remote pilot in command,” at a company called FlyTrex. An RPIC is…",
     "date": "2026-10-09",
-    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=1200",
+    "image": "https://picsum.photos/seed/aiworldnext-blogs-471/1200/800",
     "link": "https://www.technologyreview.com/2026/10/09/1145737/job-titles-delivery-drone-air-traffic-controller-trevor-wischnewsky/",
     "category": "AI Research",
     "author": "Eamon Whalen",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext"
+    "authorImage": "https://picsum.photos/seed/aiworldnext-blogs-471/1200/800"
   },
   {
     "id": 472,
     "title": "We’re still figuring out the side effects of GLP-1 weight-loss drugs",
     "description": "This week my colleague Antonio Regalado had an interesting update on GLP-1 weight-loss drugs. According to research presented at an aging meeting in Boston, these drugs seem to affect at least some measures of biological age. Overweight and diabetic people who take GLP-1s have a biological age around two to three years younger than similar…",
     "date": "2026-10-09",
-    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=1200",
+    "image": "https://picsum.photos/seed/aiworldnext-blogs-472/1200/800",
     "link": "https://www.technologyreview.com/2026/10/09/1146094/were-still-figuring-out-the-side-effects-of-glp-1-weight-loss-drugs/",
     "category": "AI Research",
     "author": "Jessica Hamzelou",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext"
+    "authorImage": "https://picsum.photos/seed/aiworldnext-blogs-472/1200/800"
   },
   {
     "id": 473,
     "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
     "description": "Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Join senior AI reporter…",
     "date": "2026-10-09",
-    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=1200",
+    "image": "https://picsum.photos/seed/aiworldnext-blogs-473/1200/800",
     "link": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
     "category": "AI Research",
     "author": "MIT Technology Review",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext"
+    "authorImage": "https://picsum.photos/seed/aiworldnext-blogs-473/1200/800"
   }
 ]
