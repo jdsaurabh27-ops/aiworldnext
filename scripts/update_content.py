@@ -1,6 +1,5 @@
-```python
-import json
-import re
+import json 
+import re 
 import time
 import html
 import urllib.request
@@ -218,4 +217,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
