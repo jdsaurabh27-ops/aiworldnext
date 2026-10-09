@@ -22,7 +22,7 @@
     "title": "AI Meetups Global",
     "description": "Local AI meetup groups in 500+ cities worldwide hosting talks on autonomous agents, robotics, and AI careers.",
     "members": "350,000+",
-    "image": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.meetup.com/topics/artificial-intelligence",
     "category": "Events"
   },
@@ -31,7 +31,7 @@
     "title": "Women in AI",
     "description": "Global community of 100,000+ members promoting diversity and inclusion in artificial intelligence and autonomous systems.",
     "members": "100,000+",
-    "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.womeninai.co",
     "category": "Diversity"
   },
@@ -40,7 +40,7 @@
     "title": "AI Stack Exchange",
     "description": "Q&A platform for AI researchers and practitioners with 50,000+ expert-verified answers on autonomous agents and ML.",
     "members": "50,000+",
-    "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=80",
     "link": "https://ai.stackexchange.com",
     "category": "Q&A"
   },
@@ -49,7 +49,7 @@
     "title": "MLOps Community",
     "description": "Community of 120,000+ dedicated to autonomous agent deployment, MLOps, and production AI systems at scale.",
     "members": "120,000+",
-    "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1200&q=80",
     "link": "https://mlops.community",
     "category": "Professional"
   },
@@ -58,7 +58,7 @@
     "title": "NeurIPS Conference Community",
     "description": "Premier annual AI research conference bringing together 20,000+ researchers worldwide for autonomous agent and AGI research.",
     "members": "20,000+",
-    "image": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1200&q=80",
     "link": "https://neurips.cc",
     "category": "Conference"
   },
@@ -67,7 +67,7 @@
     "title": "AI Ethics Forum",
     "description": "Global forum of 30,000+ discussing ethical implications of autonomous AI agents, safety frameworks, and AI governance.",
     "members": "30,000+",
-    "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.aiethicsforum.org",
     "category": "Ethics"
   },
@@ -76,7 +76,7 @@
     "title": "Robotics Discord Server",
     "description": "Community of 80,000+ robotics enthusiasts, engineers, and professionals sharing humanoid robot projects and research.",
     "members": "80,000+",
-    "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1200&q=80",
     "link": "https://discord.gg/robotics",
     "category": "Robotics"
   },
@@ -85,7 +85,7 @@
     "title": "LinkedIn AI Group",
     "description": "Professional network of 2M+ AI practitioners, researchers, autonomous agent developers, and business leaders.",
     "members": "2,000,000+",
-    "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.linkedin.com/groups/artificial-intelligence",
     "category": "Professional"
   }
