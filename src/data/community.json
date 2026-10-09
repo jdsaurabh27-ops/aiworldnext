@@ -4,7 +4,7 @@
     "title": "r/MachineLearning",
     "description": "Reddit's largest ML community with 5M+ members discussing research, autonomous agents, and AI careers.",
     "members": "5,000,000+",
-    "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=1200&h=800&fit=crop&q=80",
+    "image": "https://picsum.photos/seed/aiworldnext-community-1/1200/800",
     "link": "https://www.reddit.com/r/MachineLearning",
     "category": "Forum"
   },
@@ -13,7 +13,7 @@
     "title": "Hugging Face Discord",
     "description": "Active community of 200,000+ ML practitioners sharing models, agents, datasets, and building open-source AI together.",
     "members": "200,000+",
-    "image": "https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?w=1200&h=800&fit=crop&q=80",
+    "image": "https://picsum.photos/seed/aiworldnext-community-2/1200/800",
     "link": "https://hf.co/join/discord",
     "category": "Chat"
   },
@@ -22,7 +22,7 @@
     "title": "AI Meetups Global",
     "description": "Local AI meetup groups in 500+ cities worldwide hosting talks on autonomous agents, robotics, and AI careers.",
     "members": "350,000+",
-    "image": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?w=1200&h=800&fit=crop&q=80",
+    "image": "https://picsum.photos/seed/aiworldnext-community-3/1200/800",
     "link": "https://www.meetup.com/topics/artificial-intelligence",
     "category": "Events"
   },
@@ -31,7 +31,7 @@
     "title": "Women in AI",
     "description": "Global community of 100,000+ members promoting diversity and inclusion in artificial intelligence and autonomous systems.",
     "members": "100,000+",
-    "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=1200&h=800&fit=crop&q=80",
+    "image": "https://picsum.photos/seed/aiworldnext-community-4/1200/800",
     "link": "https://www.womeninai.co",
     "category": "Diversity"
   },
@@ -40,7 +40,7 @@
     "title": "AI Stack Exchange",
     "description": "Q&A platform for AI researchers and practitioners with 50,000+ expert-verified answers on autonomous agents and ML.",
     "members": "50,000+",
-    "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&h=800&fit=crop&q=80",
+    "image": "https://picsum.photos/seed/aiworldnext-community-5/1200/800",
     "link": "https://ai.stackexchange.com",
     "category": "Q&A"
   },
@@ -49,7 +49,7 @@
     "title": "MLOps Community",
     "description": "Community of 120,000+ dedicated to autonomous agent deployment, MLOps, and production AI systems at scale.",
     "members": "120,000+",
-    "image": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&h=800&fit=crop&q=80",
+    "image": "https://picsum.photos/seed/aiworldnext-community-6/1200/800",
     "link": "https://mlops.community",
     "category": "Professional"
   },
@@ -58,7 +58,7 @@
     "title": "NeurIPS Conference Community",
     "description": "Premier annual AI research conference bringing together 20,000+ researchers worldwide for autonomous agent and AGI research.",
     "members": "20,000+",
-    "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1200&h=800&fit=crop&q=80",
+    "image": "https://picsum.photos/seed/aiworldnext-community-7/1200/800",
     "link": "https://neurips.cc",
     "category": "Conference"
   },
@@ -67,7 +67,7 @@
     "title": "AI Ethics Forum",
     "description": "Global forum of 30,000+ discussing ethical implications of autonomous AI agents, safety frameworks, and AI governance.",
     "members": "30,000+",
-    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1200&h=800&fit=crop&q=80",
+    "image": "https://picsum.photos/seed/aiworldnext-community-8/1200/800",
     "link": "https://www.aiethicsforum.org",
     "category": "Ethics"
   },
@@ -76,7 +76,7 @@
     "title": "Robotics Discord Server",
     "description": "Community of 80,000+ robotics enthusiasts, engineers, and professionals sharing humanoid robot projects and research.",
     "members": "80,000+",
-    "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1200&h=800&fit=crop&q=80",
+    "image": "https://picsum.photos/seed/aiworldnext-community-9/1200/800",
     "link": "https://discord.gg/robotics",
     "category": "Robotics"
   },
@@ -85,7 +85,7 @@
     "title": "LinkedIn AI Group",
     "description": "Professional network of 2M+ AI practitioners, researchers, autonomous agent developers, and business leaders.",
     "members": "2,000,000+",
-    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1200&h=800&fit=crop&q=80",
+    "image": "https://picsum.photos/seed/aiworldnext-community-10/1200/800",
     "link": "https://www.linkedin.com/groups/artificial-intelligence",
     "category": "Professional"
   }
