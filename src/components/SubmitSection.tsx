@@ -125,7 +125,25 @@ export default function SubmitSection() {
       }
 
       if (result.error) {
-        throw result.error;
+        // A configured Supabase project can still be missing a table or insert policy.
+        // In that case, preserve the user's submission by trying the email inbox fallback.
+        const fallbackResponse = await fetch('https://formsubmit.co/ajax/business@aiworldnext.com', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+          body: JSON.stringify({
+            _subject: `New AIWorldNext ${selectedType} submission (database fallback)`,
+            _template: 'table',
+            submissionType: selectedType,
+            ...formData
+          })
+        });
+        const fallbackPayload = await fallbackResponse.json().catch(() => null);
+        if (!fallbackResponse.ok || fallbackPayload?.success === false || fallbackPayload?.success === 'false') {
+          throw new Error(result.error.message || fallbackPayload?.message || 'Submission failed. Please try again or email business@aiworldnext.com.');
+        }
       }
 
       setSubmitStatus('success');
