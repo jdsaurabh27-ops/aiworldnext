@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "AI This Week: GPT-6 Agents, Gemini 3 Superhuman, Claude 5 Self-Improvement",
+    "host": "AI Weekly Digest",
+    "description": "October 8, 2026 episode covering this week's historic AI releases. Deep dive into GPT-6's autonomous agents, Gemini 3's 40+ superhuman benchmarks, and Claude 5's self-improving code.",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=1200&h=800&fit=crop&q=80",
+    "link": "https://podcasts.apple.com",
+    "category": "Weekly News"
+  },
+  {
+    "id": 2,
+    "title": "Sam Altman on GPT-6: Autonomous Agents and the Post-App Era",
+    "host": "Lex Fridman Podcast",
+    "description": "Exclusive October 7 interview with OpenAI CEO Sam Altman on GPT-6's autonomous agent framework, the shift from apps to agents, and what 5M token context means for users.",
+    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=1200&h=800&fit=crop&q=80",
+    "link": "https://lexfridman.com/podcast",
+    "category": "Interview"
+  },
+  {
+    "id": 3,
+    "title": "Demis Hassabis: Gemini 3 and the Age of Superhuman AI",
+    "host": "The AI Breakdown",
+    "description": "Google DeepMind CEO discusses Gemini 3 surpassing human experts on 40+ benchmarks and what it means for the AGI timeline. October 6, 2026.",
+    "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=1200&h=800&fit=crop&q=80",
+    "link": "https://blog.google/technology/ai/",
+    "category": "Interview"
+  },
+  {
+    "id": 4,
+    "title": "Dario Amodei: Claude 5's Self-Improving Code and Constitutional AI v3",
+    "host": "Latent Space",
+    "description": "Anthropic CEO explains how Claude 5 achieves 99.8% SWE-bench with recursive self-improvement and discusses the new constitutional AI v3 safety framework. October 5, 2026.",
+    "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.latent.space/podcast",
+    "category": "Interview"
+  },
+  {
+    "id": 5,
+    "title": "Tesla Optimus Gen 4: $20K Home Robots Are Here",
+    "host": "CNBC Technology",
+    "description": "Elon Musk reveals Optimus Gen 4 consumer deliveries at $20K. Discussion of home robotics market, capabilities, and why it will surpass Tesla's car business. October 4, 2026.",
+    "image": "https://images.unsplash.com/photo-1563770660941-20978e870e26?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.cnbc.com",
+    "category": "Robotics"
+  },
+  {
+    "id": 6,
+    "title": "Meta's Llama 5: The 1 Trillion Parameter Open Source Revolution",
+    "host": "The AI Daily",
+    "description": "Mark Zuckerberg on releasing Llama 5 with 1T parameters as open source, matching GPT-5 performance, and democratizing frontier AI. October 3, 2026.",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=800&fit=crop&q=80",
+    "link": "https://ai.meta.com",
+    "category": "Open Source"
+  },
+  {
+    "id": 7,
+    "title": "Apple Intelligence 3.0: On-Device AGI with the A19 Chip",
+    "host": "The Talk Show with John Gruber",
+    "description": "Apple executives reveal how the A19 chip delivers GPT-6 class AI entirely on-device in iPhone 17, with zero cloud dependency. October 2, 2026.",
+    "image": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=1200&h=800&fit=crop&q=80",
+    "link": "https://daringfireball.net/thetalkshow",
+    "category": "Consumer Tech"
+  },
+  {
+    "id": 8,
+    "title": "NVIDIA Rubin Ultra: 100x H100 and the Future of AI Compute",
+    "host": "Hardware Pioneers",
+    "description": "Jensen Huang unveils Rubin Ultra with 100x H100 training performance. Discussion of 4nm process, HBM4 memory, and AI infrastructure through 2030. October 1, 2026.",
+    "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.nvidia.com/gtc",
+    "category": "Hardware"
+  },
+  {
+    "id": 9,
+    "title": "China's DeepSeek R2: GPT-6 Parity at $80M Training Cost",
+    "host": "ChinaTalk",
+    "description": "Deep dive into DeepSeek R2's sparse attention architecture achieving GPT-6 performance at one-tenth the cost. Implications for US-China AI competition. September 30, 2026.",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.chinatalk.media",
+    "category": "Geopolitics"
+  },
+  {
+    "id": 10,
+    "title": "Runway Gen-5: The First Oscar-Nominated AI Film",
+    "host": "The Filmmaker's Podcast",
+    "description": "Runway CEO on Gen-5 powering 'Echoes of Tomorrow,' the first AI-generated film nominated for an Academy Award. The future of AI in cinema. September 29, 2026.",
+    "image": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=1200&h=800&fit=crop&q=80",
+    "link": "https://runwayml.com",
+    "category": "Creative AI"
+  },
+  {
+    "id": 11,
+    "title": "Figure AI: 5,000 Humanoids in 500 Factories Worldwide",
+    "host": "Robotics Today",
+    "description": "Figure AI executives discuss deploying 5,000+ Figure 03 robots across 500+ factories with 99.95% uptime and human-level dexterity. September 28, 2026.",
+    "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.roboticstoday.com",
+    "category": "Robotics"
+  },
+  {
+    "id": 12,
+    "title": "EU AI Act Phase 3: Frontier Model Compliance Explained",
+    "host": "Tech Policy Podcast",
+    "description": "Policy experts break down the EU AI Act's final enforcement phase, transparency requirements for frontier models, and how companies can avoid 7% revenue fines. September 27, 2026.",
+    "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&h=800&fit=crop&q=80",
+    "link": "https://techpolicy.press",
+    "category": "Policy"
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "Tesla Optimus Gen 4 Begins Consumer Home Deliveries at $20K",
+    "description": "Tesla starts delivering Optimus Gen 4 humanoid robots to consumers at $20,000. The robot handles laundry, cooking, and cleaning with 99.2% reliability in home environments.",
+    "date": "2026-10-05",
+    "image": "https://images.unsplash.com/photo-1563770660941-20978e870e26?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.tesla.com",
+    "category": "Humanoid"
+  },
+  {
+    "id": 2,
+    "title": "Figure 03 Humanoids Deployed in 500+ Factories with 99.95% Uptime",
+    "description": "Figure AI deploys 5,000+ Figure 03 humanoid robots across 500+ factories globally, handling complex assembly tasks with human-level dexterity and near-perfect uptime.",
+    "date": "2026-09-28",
+    "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.figure.ai",
+    "category": "Industrial"
+  },
+  {
+    "id": 3,
+    "title": "Boston Dynamics Atlas Gen 3 Fully Autonomous in Construction Sites",
+    "description": "Fully electric Atlas Gen 3 robots now operate autonomously on construction sites, handling material transport, site inspection, and safety monitoring without human supervision.",
+    "date": "2026-09-26",
+    "image": "https://images.unsplash.com/photo-1563207153-f403bf289096?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.bostondynamics.com",
+    "category": "Construction"
+  },
+  {
+    "id": 4,
+    "title": "Toyota T-HR5 Humanoid Achieves Full Automotive Assembly Autonomy",
+    "description": "Toyota's T-HR5 humanoid robot now performs complete automotive assembly line tasks autonomously, 70% faster than human workers with zero defects in pilot production.",
+    "date": "2026-09-24",
+    "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.toyota-global.com",
+    "category": "Manufacturing"
+  },
+  {
+    "id": 5,
+    "title": "Unitree H3 Sets Marathon Record: 42km Continuous Humanoid Running",
+    "description": "Chinese robotics company Unitree demonstrates H3 humanoid completing a full marathon distance at 10 m/s, setting new endurance and speed records for bipedal robots.",
+    "date": "2026-09-22",
+    "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.unitree.com",
+    "category": "Humanoid"
+  },
+  {
+    "id": 6,
+    "title": "Sanctuary AI Phoenix Gen 10 Achieves Full Hand Autonomy",
+    "description": "Phoenix Gen 10 demonstrates complete hand autonomy with sub-millimeter precision in manipulation tasks. 100+ deployment sites across manufacturing and healthcare.",
+    "date": "2026-09-20",
+    "image": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1200&h=800&fit=crop&q=80",
+    "link": "https://sanctuary.ai",
+    "category": "Manipulation"
+  },
+  {
+    "id": 7,
+    "title": "1X Technologies NEO Begins Mass Home Robot Production",
+    "description": "1X Technologies scales NEO home humanoid to mass production with 10,000 units planned for 2026. Expanded home testing program now includes 1,000 families across 15 countries.",
+    "date": "2026-09-18",
+    "image": "https://images.unsplash.com/photo-1565106430482-8f6e74349ca1?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.1x.tech",
+    "category": "Home Automation"
+  },
+  {
+    "id": 8,
+    "title": "Waymo Surpasses 100 Million Autonomous Rides, Expands to 20 Cities",
+    "description": "Waymo reaches 100M autonomous rides with 200K+ daily trips across 20 cities globally. New markets include Tokyo, London, and Sydney with zero at-fault accidents.",
+    "date": "2026-09-16",
+    "image": "https://images.unsplash.com/photo-1617704548623-340376564e68?w=1200&h=800&fit=crop&q=80",
+    "link": "https://waymo.com",
+    "category": "Autonomous Vehicles"
+  },
+  {
+    "id": 9,
+    "title": "Autonomous Surgical Robot Performs First Unassisted Brain Surgery",
+    "description": "Medical robotics breakthrough as autonomous surgical system successfully completes complex brain tumor removal with sub-millimeter precision and zero complications.",
+    "date": "2026-09-14",
+    "image": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.intuitive.com",
+    "category": "Medical"
+  },
+  {
+    "id": 10,
+    "title": "Agility Robotics Digit Reaches 500+ Retail Store Deployments",
+    "description": "Agility's Digit humanoid robots now operating in 500+ retail locations handling inventory management, restocking, and customer service with full autonomy.",
+    "date": "2026-09-12",
+    "image": "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?w=1200&h=800&fit=crop&q=80",
+    "link": "https://agilityrobotics.com",
+    "category": "Retail"
+  },
+  {
+    "id": 11,
+    "title": "China's Humanoid Robot Market Reaches $50B with 500+ Startups",
+    "description": "China's embodied AI push results in 500+ humanoid robotics startups with combined $50B funding in 2026. Government mandates humanoid deployment in all state factories by 2027.",
+    "date": "2026-09-10",
+    "image": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.scmp.com",
+    "category": "Industry"
+  },
+  {
+    "id": 12,
+    "title": "AI Exoskeletons Reach 200K Units Deployed for Industrial Workers",
+    "description": "AI-powered exoskeletons reach 200,000 deployed units globally, reducing workplace injuries by 85% in manufacturing, logistics, and construction sectors.",
+    "date": "2026-09-08",
+    "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.eksobionics.com",
+    "category": "Wearable"
+  }
+]

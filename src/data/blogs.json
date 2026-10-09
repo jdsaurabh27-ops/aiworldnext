@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "title": "GPT-6 Orion: How OpenAI's Autonomous Agent Framework Changes Everything",
+    "description": "Complete technical analysis of GPT-6's autonomous agent architecture. How 5M context windows, real-time web execution, and self-directed task planning redefine what AI can do independently.",
+    "date": "2026-10-08",
+    "author": "Dr. Sarah Chen",
+    "authorImage": "https://i.pravatar.cc/150?img=1",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=800&fit=crop&q=80",
+    "link": "https://openai.com/research",
+    "category": "AI Models"
+  },
+  {
+    "id": 2,
+    "title": "Gemini 3's Superhuman Benchmarks: What 40+ Expert-Level Scores Really Mean for AGI",
+    "description": "Deep analysis of Google DeepMind's Gemini 3 surpassing human experts on 40+ benchmarks. What this means for the AGI timeline and the race toward artificial general intelligence.",
+    "date": "2026-10-07",
+    "author": "Prof. James Liu",
+    "authorImage": "https://i.pravatar.cc/150?img=15",
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=1200&h=800&fit=crop&q=80",
+    "link": "https://blog.google",
+    "category": "AGI"
+  },
+  {
+    "id": 3,
+    "title": "Claude 5's Self-Improving Code: The Technical Architecture Behind 99.8% SWE-bench",
+    "description": "How Anthropic built Claude 5 with recursive self-improvement for code generation. Technical breakdown of constitutional AI v3 and real-time alignment monitoring systems.",
+    "date": "2026-10-06",
+    "author": "Dr. Priya Sharma",
+    "authorImage": "https://i.pravatar.cc/150?img=10",
+    "image": "https://images.unsplash.com/photo-1535378620166-273708d44e4c?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.anthropic.com/blog",
+    "category": "Coding AI"
+  },
+  {
+    "id": 4,
+    "title": "Tesla Optimus Gen 4: Inside the $20K Home Humanoid Robot Revolution",
+    "description": "Exclusive hands-on with Tesla Optimus Gen 4 in home environments. Laundry, cooking, and cleaning with 99.2% reliability. Why Musk says consumer robotics is Tesla's biggest market.",
+    "date": "2026-10-05",
+    "author": "Marcus Johnson",
+    "authorImage": "https://i.pravatar.cc/150?img=16",
+    "image": "https://images.unsplash.com/photo-1563770660941-20978e870e26?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.tesla.com/blog",
+    "category": "Robotics"
+  },
+  {
+    "id": 5,
+    "title": "Llama 5 1T: How Meta's Open Source Megamodel Is Democratizing Frontier AI",
+    "description": "Comprehensive benchmarks showing Llama 5 with 1T parameters matching GPT-5. How open-source AI is closing the gap with closed models and what it means for the industry.",
+    "date": "2026-10-04",
+    "author": "Dr. Emily Rodriguez",
+    "authorImage": "https://i.pravatar.cc/150?img=5",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=800&fit=crop&q=80",
+    "link": "https://ai.meta.com/blog",
+    "category": "Open Source"
+  },
+  {
+    "id": 6,
+    "title": "Apple Intelligence 3.0: Running GPT-6 Class AI on the A19 Chip",
+    "description": "Technical deep dive into Apple's A19 chip enabling on-device AGI-level performance. How zero-cloud AI works, privacy implications, and the future of edge computing.",
+    "date": "2026-10-03",
+    "author": "Rachel Green",
+    "authorImage": "https://i.pravatar.cc/150?img=20",
+    "image": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.apple.com/newsroom",
+    "category": "Edge AI"
+  },
+  {
+    "id": 7,
+    "title": "The $1.2T AI Economy: McKinsey's 2026 Report on Enterprise Agent Adoption",
+    "description": "Analysis of McKinsey's latest report showing 96% Fortune 500 adoption of autonomous AI agents. ROI data, implementation strategies, and the shift from copilots to autonomous agents.",
+    "date": "2026-10-02",
+    "author": "Prof. Michael Chang",
+    "authorImage": "https://i.pravatar.cc/150?img=12",
+    "image": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.mckinsey.com",
+    "category": "Industry Trends"
+  },
+  {
+    "id": 8,
+    "title": "DeepSeek R2: How China Built a GPT-6 Competitor for $80 Million",
+    "description": "Technical analysis of DeepSeek R2's sparse attention architecture achieving GPT-6 parity at one-tenth the cost. Implications for US-China AI competition and cost efficiency.",
+    "date": "2026-10-01",
+    "author": "Prof. David Martinez",
+    "authorImage": "https://i.pravatar.cc/150?img=11",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.deepseek.com/blog",
+    "category": "AI Competition"
+  },
+  {
+    "id": 9,
+    "title": "AI Cinema: How Runway Gen-5 Produced an Oscar-Nominated Film",
+    "description": "Behind the scenes of 'Echoes of Tomorrow,' the first AI-generated feature film nominated for an Academy Award. How Gen-5 turned a 2-page prompt into a 110-minute cinematic experience.",
+    "date": "2026-09-30",
+    "author": "Alexandra Kim",
+    "authorImage": "https://i.pravatar.cc/150?img=9",
+    "image": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=1200&h=800&fit=crop&q=80",
+    "link": "https://runwayml.com/blog",
+    "category": "Creative AI"
+  },
+  {
+    "id": 10,
+    "title": "NVIDIA Rubin Ultra: The 100x GPU Leap That Will Define AI in 2027",
+    "description": "Technical breakdown of NVIDIA's Rubin Ultra architecture. 4nm process, 288GB HBM4, and why 100x H100 performance matters for the next generation of frontier model training.",
+    "date": "2026-09-29",
+    "author": "Dr. Robert Zhang",
+    "authorImage": "https://i.pravatar.cc/150?img=13",
+    "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.nvidia.com/blog",
+    "category": "Hardware"
+  },
+  {
+    "id": 11,
+    "title": "Perplexity OS: The AI-First Operating System Reaching 300M Users",
+    "description": "How Perplexity evolved from a search engine to a full operating system. Native agentic search, task automation, and the shift from app-based to agent-based computing.",
+    "date": "2026-09-28",
+    "author": "Kevin Park",
+    "authorImage": "https://i.pravatar.cc/150?img=14",
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.perplexity.ai/blog",
+    "category": "Search AI"
+  },
+  {
+    "id": 12,
+    "title": "EU AI Act Phase 3: A Practical Compliance Guide for AI Companies",
+    "description": "Comprehensive guide to the EU AI Act's final enforcement phase. Transparency requirements, frontier model regulations, and how companies can avoid 7% revenue fines.",
+    "date": "2026-09-27",
+    "author": "Dr. Lisa Anderson",
+    "authorImage": "https://i.pravatar.cc/150?img=8",
+    "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&h=800&fit=crop&q=80",
+    "link": "https://digital-strategy.ec.europa.eu",
+    "category": "Policy"
+  }
+]

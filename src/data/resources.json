@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Hugging Face",
+    "description": "The AI community platform with 1.5M+ models, datasets, agent hubs, and spaces. Hub for open-source LLMs, transformers, and autonomous agents.",
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&h=800&fit=crop&q=80",
+    "link": "https://huggingface.co",
+    "category": "Platform"
+  },
+  {
+    "id": 2,
+    "title": "LangChain & LangGraph",
+    "description": "Framework for building autonomous AI agents and multi-agent orchestration systems. Production-ready with graph-based agent workflows and RAG pipelines.",
+    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.langchain.com",
+    "category": "Framework"
+  },
+  {
+    "id": 3,
+    "title": "PyTorch 3.0",
+    "description": "Leading deep learning framework with distributed training, compiled execution, and native support for frontier model training at scale.",
+    "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=1200&h=800&fit=crop&q=80",
+    "link": "https://pytorch.org",
+    "category": "Framework"
+  },
+  {
+    "id": 4,
+    "title": "Anthropic API",
+    "description": "Access Claude 5 with self-improving code generation, 99.8% SWE-bench, and constitutional AI v3 for enterprise-grade AI applications.",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.anthropic.com/api",
+    "category": "API"
+  },
+  {
+    "id": 5,
+    "title": "Papers With Code",
+    "description": "100,000+ ML papers with code implementations, benchmarks, and datasets for reproducible research and autonomous agent development.",
+    "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=1200&h=800&fit=crop&q=80",
+    "link": "https://paperswithcode.com",
+    "category": "Research"
+  },
+  {
+    "id": 6,
+    "title": "Ollama",
+    "description": "Run open-source LLMs locally with ease. Download and run Llama 5, Mistral Large 3, DeepSeek R2, and other frontier models on your machine.",
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200&h=800&fit=crop&q=80",
+    "link": "https://ollama.ai",
+    "category": "Tools"
+  },
+  {
+    "id": 7,
+    "title": "OpenAI Platform",
+    "description": "Access GPT-6 with autonomous agent framework, Sora 3.0, DALL-E 4, and Whisper through comprehensive developer API with usage-based pricing.",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=800&fit=crop&q=80",
+    "link": "https://platform.openai.com",
+    "category": "API"
+  },
+  {
+    "id": 8,
+    "title": "Replicate",
+    "description": "Run and deploy ML models in the cloud with simple API. Access 10,000+ open-source models including latest autonomous agent frameworks.",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=800&fit=crop&q=80",
+    "link": "https://replicate.com",
+    "category": "Platform"
+  },
+  {
+    "id": 9,
+    "title": "Fast.ai Practical Deep Learning",
+    "description": "Free course making state-of-the-art deep learning accessible. Learn to build autonomous AI agents and real-world AI applications.",
+    "image": "https://images.unsplash.com/photo-1513258496099-48168024aec0?w=1200&h=800&fit=crop&q=80",
+    "link": "https://course.fast.ai",
+    "category": "Education"
+  },
+  {
+    "id": 10,
+    "title": "Kaggle",
+    "description": "Data science platform with 25M users, 100K+ datasets, competitions, and free GPU/TPU notebooks for AI research and agent development.",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.kaggle.com",
+    "category": "Community"
+  },
+  {
+    "id": 11,
+    "title": "Pinecone Vector Database",
+    "description": "Specialized vector database for building RAG applications, autonomous agent memory, and AI-powered search at enterprise scale.",
+    "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.pinecone.io",
+    "category": "Infrastructure"
+  },
+  {
+    "id": 12,
+    "title": "Weights & Biases",
+    "description": "MLOps platform for experiment tracking, agent evaluation, and collaboration used by OpenAI, Google DeepMind, NVIDIA, and frontier AI labs.",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=800&fit=crop&q=80",
+    "link": "https://wandb.ai",
+    "category": "MLOps"
+  },
+  {
+    "id": 13,
+    "title": "Andrej Karpathy's AI Course",
+    "description": "Free YouTube course on building neural networks and autonomous agents from scratch by former Tesla AI director and OpenAI researcher.",
+    "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.youtube.com/@AndrejKarpathy",
+    "category": "Education"
+  },
+  {
+    "id": 14,
+    "title": "LlamaIndex",
+    "description": "Data framework for connecting custom data sources to LLMs and autonomous agents. Essential for building RAG and agent memory systems.",
+    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.llamaindex.ai",
+    "category": "Framework"
+  },
+  {
+    "id": 15,
+    "title": "Modal",
+    "description": "Serverless platform for running AI workloads and autonomous agents. Deploy ML models, training jobs, and agent pipelines with auto-scaling.",
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200&h=800&fit=crop&q=80",
+    "link": "https://modal.com",
+    "category": "Infrastructure"
+  }
+]

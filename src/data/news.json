@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "OpenAI Launches GPT-6 with Autonomous Agent Framework and 5M Token Context",
+    "description": "OpenAI unveils GPT-6 with a 5 million token context window, native autonomous agent capabilities, and real-time web execution. The model can independently plan, browse, and complete multi-step tasks without human intervention.",
+    "date": "2026-10-08",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=800&fit=crop&q=80",
+    "link": "https://openai.com/blog",
+    "category": "AI Models"
+  },
+  {
+    "id": 2,
+    "title": "Google DeepMind's Gemini 3 Achieves Superhuman Performance on 40+ Benchmarks",
+    "description": "Gemini 3 surpasses human experts across 40+ academic benchmarks including medical diagnosis, legal reasoning, and advanced mathematics. Google integrates Gemini 3 into all Workspace products with agentic automation.",
+    "date": "2026-10-07",
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=1200&h=800&fit=crop&q=80",
+    "link": "https://blog.google",
+    "category": "AI Models"
+  },
+  {
+    "id": 3,
+    "title": "Anthropic Releases Claude 5 with Self-Improving Code Generation",
+    "description": "Claude 5 introduces recursive self-improvement for code generation, achieving 99.8% on SWE-bench Verified. New safety framework includes constitutional AI v3 with real-time alignment monitoring.",
+    "date": "2026-10-06",
+    "image": "https://images.unsplash.com/photo-1535378620166-273708d44e4c?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.anthropic.com",
+    "category": "AI Models"
+  },
+  {
+    "id": 4,
+    "title": "Tesla Optimus Gen 4 Begins Home Deliveries at $20K Price Point",
+    "description": "Tesla starts consumer deliveries of Optimus Gen 4 humanoid robots at $20,000. The new model handles laundry, cooking, and cleaning tasks with 99.2% reliability in home environments.",
+    "date": "2026-10-05",
+    "image": "https://images.unsplash.com/photo-1563770660941-20978e870e26?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.tesla.com",
+    "category": "Robotics"
+  },
+  {
+    "id": 5,
+    "title": "Meta Releases Llama 5 with 1T Parameters Under Open Source License",
+    "description": "Meta launches Llama 5 with 1 trillion parameters, the largest open-source model ever released. Outperforms GPT-5 on reasoning tasks while remaining free for commercial use under modified license.",
+    "date": "2026-10-04",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=800&fit=crop&q=80",
+    "link": "https://ai.meta.com",
+    "category": "Open Source"
+  },
+  {
+    "id": 6,
+    "title": "Apple Intelligence 3.0 Brings On-Device AGI to iPhone 17 with A19 Chip",
+    "description": "Apple's A19 chip delivers GPT-6 class AI entirely on-device with zero cloud dependency. Intelligence 3.0 includes autonomous app automation, predictive task completion, and private health monitoring.",
+    "date": "2026-10-03",
+    "image": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.apple.com",
+    "category": "Consumer AI"
+  },
+  {
+    "id": 7,
+    "title": "NVIDIA Unveils Rubin Ultra GPU with 100x H100 Training Performance",
+    "description": "NVIDIA announces Rubin Ultra at GPU Technology Conference, delivering 100x training performance over H100. The new architecture uses 4nm process with 288GB HBM4 memory and 18TB/s bandwidth.",
+    "date": "2026-10-02",
+    "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.nvidia.com",
+    "category": "Hardware"
+  },
+  {
+    "id": 8,
+    "title": "China's DeepSeek R2 Matches GPT-6 at One-Tenth the Training Cost",
+    "description": "DeepSeek R2 achieves parity with GPT-6 across major benchmarks while costing only $80M to train. Uses novel sparse attention architecture with 2T parameter mixture-of-experts design.",
+    "date": "2026-10-01",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.deepseek.com",
+    "category": "AI Models"
+  },
+  {
+    "id": 9,
+    "title": "Runway Gen-5 Produces First AI-Generated Film Nominated for Academy Award",
+    "description": "Runway's Gen-5 model powers 'Echoes of Tomorrow,' the first AI-generated feature film nominated for an Academy Award. The 110-minute film was created from a 2-page text prompt with human creative direction.",
+    "date": "2026-09-30",
+    "image": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=1200&h=800&fit=crop&q=80",
+    "link": "https://runwayml.com",
+    "category": "Generative AI"
+  },
+  {
+    "id": 10,
+    "title": "OpenAI Sora 3.0 Enables Real-Time 4K Video Generation at 60fps",
+    "description": "Sora 3.0 delivers real-time 4K video generation at 60fps with interactive scene editing. Major game studios and filmmakers adopt the platform for previsualization and virtual production.",
+    "date": "2026-09-29",
+    "image": "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=1200&h=800&fit=crop&q=80",
+    "link": "https://openai.com/sora",
+    "category": "Video AI"
+  },
+  {
+    "id": 11,
+    "title": "Figure 03 Humanoid Robots Deployed in 500+ Factories Worldwide",
+    "description": "Figure AI announces deployment of 5,000+ Figure 03 humanoid robots across 500+ factories globally. New model handles complex assembly tasks with human-level dexterity and 99.95% uptime.",
+    "date": "2026-09-28",
+    "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.figure.ai",
+    "category": "Robotics"
+  },
+  {
+    "id": 12,
+    "title": "Perplexity Reaches 300M Users, Launches Perplexity OS for AI-First Computing",
+    "description": "Perplexity launches Perplexity OS, an AI-first operating system with native agentic search, task automation, and real-time knowledge synthesis. Platform reaches 300M monthly active users.",
+    "date": "2026-09-27",
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.perplexity.ai",
+    "category": "Search AI"
+  },
+  {
+    "id": 13,
+    "title": "96% of Fortune 500 Companies Now Run Autonomous AI Agents in Production",
+    "description": "McKinsey's 2026 AI Report shows 96% of Fortune 500 companies deploy autonomous AI agents in production. Average ROI reaches 40-60% with $1.2T in global AI investment this year.",
+    "date": "2026-09-26",
+    "image": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.mckinsey.com",
+    "category": "Industry"
+  },
+  {
+    "id": 14,
+    "title": "EU AI Act Phase 3 Takes Effect: Full Compliance Required for Frontier Models",
+    "description": "The EU AI Act enters its final enforcement phase, requiring full compliance for frontier AI models. Companies face fines up to 7% of global revenue for violations related to transparency and safety.",
+    "date": "2026-09-25",
+    "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&h=800&fit=crop&q=80",
+    "link": "https://digital-strategy.ec.europa.eu",
+    "category": "Policy"
+  },
+  {
+    "id": 15,
+    "title": "Microsoft Copilot Studio 2.0 Enables Multi-Agent Orchestration for Enterprises",
+    "description": "Microsoft launches Copilot Studio 2.0 with multi-agent orchestration, allowing enterprises to deploy coordinated AI agent swarms. Over 50,000 companies already building agent workflows on the platform.",
+    "date": "2026-09-24",
+    "image": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=1200&h=800&fit=crop&q=80",
+    "link": "https://blogs.microsoft.com",
+    "category": "Enterprise"
+  }
+]

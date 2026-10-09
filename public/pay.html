@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support AI World Next - Choose Your Plan</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #000000 0%, #1a1a2e 100%);
+            color: white;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        .header h1 {
+            font-size: 48px;
+            margin-bottom: 16px;
+            background: linear-gradient(135deg, #00d4ff 0%, #0099ff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .header p {
+            font-size: 20px;
+            color: #a0a0a0;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .plans-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 32px;
+            margin-bottom: 40px;
+        }
+        .plan-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 32px;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        .plan-card:hover {
+            transform: translateY(-4px);
+            border-color: #00d4ff;
+            box-shadow: 0 8px 32px rgba(0, 212, 255, 0.2);
+        }
+        .plan-card.popular {
+            border-color: #9333ea;
+            box-shadow: 0 8px 32px rgba(147, 51, 234, 0.3);
+        }
+        .popular-badge {
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: linear-gradient(135deg, #9333ea 0%, #ec4899 100%);
+            padding: 6px 20px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+        .plan-icon {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+        .plan-name {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        .plan-price {
+            font-size: 42px;
+            font-weight: bold;
+            margin-bottom: 4px;
+            background: linear-gradient(135deg, #00d4ff 0%, #0099ff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .plan-price span {
+            font-size: 18px;
+            color: #a0a0a0;
+        }
+        .plan-description {
+            color: #a0a0a0;
+            margin-bottom: 24px;
+            line-height: 1.6;
+        }
+        .plan-features {
+            list-style: none;
+            margin-bottom: 32px;
+        }
+        .plan-features li {
+            padding: 8px 0;
+            color: #d0d0d0;
+            display: flex;
+            align-items: flex-start;
+        }
+        .plan-features li:before {
+            content: "✓";
+            color: #00d4ff;
+            font-weight: bold;
+            margin-right: 12px;
+            font-size: 18px;
+        }
+        .button-container {
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .back-link {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .back-link a {
+            color: #00d4ff;
+            text-decoration: none;
+            font-size: 16px;
+            transition: opacity 0.3s;
+        }
+        .back-link a:hover {
+            opacity: 0.8;
+        }
+        .security-note {
+            text-align: center;
+            color: #808080;
+            font-size: 14px;
+            margin-top: 40px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 8px;
+        }
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 32px;
+            }
+            .plans-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Support AI World Next</h1>
+            <p>Choose a plan that works for you. Help us maintain the world's most comprehensive AI hub.</p>
+        </div>
+
+        <div class="plans-grid">
+            <div class="plan-card">
+                <div class="plan-icon">☕</div>
+                <div class="plan-name">Supporter</div>
+                <div class="plan-price">$5<span>/month</span></div>
+                <p class="plan-description">Buy us a coffee and help keep the platform running</p>
+                <ul class="plan-features">
+                    <li>Support AI education</li>
+                    <li>Help maintain free content</li>
+                    <li>Community supporter badge</li>
+                </ul>
+                <div class="button-container">
+                    <div id="paypal-button-container-P-0SU27159YY1816710NDWUXVA"></div>
+                </div>
+            </div>
+
+            <div class="plan-card popular">
+                <div class="popular-badge">MOST POPULAR</div>
+                <div class="plan-icon">❤️</div>
+                <div class="plan-name">Contributor</div>
+                <div class="plan-price">$25<span>/month</span></div>
+                <p class="plan-description">Contribute to AI advancement and community growth</p>
+                <ul class="plan-features">
+                    <li>All Supporter benefits</li>
+                    <li>Priority support</li>
+                    <li>Exclusive content access</li>
+                    <li>Featured contributor badge</li>
+                </ul>
+                <div class="button-container">
+                    <div id="paypal-button-container-P-96301414T35712327NDWU4TQ"></div>
+                </div>
+            </div>
+
+            <div class="plan-card">
+                <div class="plan-icon">⚡</div>
+                <div class="plan-name">Champion</div>
+                <div class="plan-price">$100<span>/month</span></div>
+                <p class="plan-description">Become a champion of AI education and innovation</p>
+                <ul class="plan-features">
+                    <li>All Contributor benefits</li>
+                    <li>Direct input on content</li>
+                    <li>VIP support</li>
+                    <li>Permanent recognition</li>
+                </ul>
+                <div class="button-container">
+                    <div id="paypal-button-container-P-0G020310C6670715FNDWU6IQ"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="security-note">
+            🔒 Secure payments processed by PayPal. Cancel anytime. 100% of donations support platform maintenance and AI education worldwide.
+        </div>
+
+        <div class="back-link">
+            <a href="/">← Back to AI World Next</a>
+        </div>
+    </div>
+
+    <script src="https://www.paypal.com/sdk/js?client-id=AcJXrz3HGj7WCN2L-PzEMhnqirYs-LfN_0Vw4b6q0k6qh2YoVD_jNWDOh_AwDXyq2jfbBKu4LUWcWpUO&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+    <script>
+        paypal.Buttons({
+            style: {
+                shape: 'pill',
+                color: 'gold',
+                layout: 'vertical',
+                label: 'subscribe'
+            },
+            createSubscription: function(data, actions) {
+                return actions.subscription.create({
+                    plan_id: 'P-0SU27159YY1816710NDWUXVA'
+                });
+            },
+            onApprove: function(data, actions) {
+                alert('Thank you for becoming a Supporter! Subscription ID: ' + data.subscriptionID);
+                window.location.href = '/?subscribed=supporter';
+            }
+        }).render('#paypal-button-container-P-0SU27159YY1816710NDWUXVA');
+
+        paypal.Buttons({
+            style: {
+                shape: 'pill',
+                color: 'blue',
+                layout: 'vertical',
+                label: 'subscribe'
+            },
+            createSubscription: function(data, actions) {
+                return actions.subscription.create({
+                    plan_id: 'P-96301414T35712327NDWU4TQ'
+                });
+            },
+            onApprove: function(data, actions) {
+                alert('Thank you for becoming a Contributor! Subscription ID: ' + data.subscriptionID);
+                window.location.href = '/?subscribed=contributor';
+            }
+        }).render('#paypal-button-container-P-96301414T35712327NDWU4TQ');
+
+        paypal.Buttons({
+            style: {
+                shape: 'pill',
+                color: 'blue',
+                layout: 'vertical',
+                label: 'subscribe'
+            },
+            createSubscription: function(data, actions) {
+                return actions.subscription.create({
+                    plan_id: 'P-0G020310C6670715FNDWU6IQ'
+                });
+            },
+            onApprove: function(data, actions) {
+                alert('Thank you for becoming a Champion! Subscription ID: ' + data.subscriptionID);
+                window.location.href = '/?subscribed=champion';
+            }
+        }).render('#paypal-button-container-P-0G020310C6670715FNDWU6IQ');
+    </script>
+</body>
+</html>

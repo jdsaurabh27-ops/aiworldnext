@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "AI Alignment Forum",
+    "description": "Research forum focused on autonomous AI agent alignment, safety frameworks, and ensuring AI systems remain aligned with human values.",
+    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.alignmentforum.org",
+    "category": "Research"
+  },
+  {
+    "id": 2,
+    "title": "ML News",
+    "description": "Curated daily newsletter and website covering autonomous agents, frontier model releases, and the latest in machine learning research.",
+    "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.mlnews.com",
+    "category": "News"
+  },
+  {
+    "id": 3,
+    "title": "AI Weekly",
+    "description": "Weekly roundup of the most important AI news, autonomous agent developments, research papers, and industry trends.",
+    "image": "https://images.unsplash.com/photo-1586892478025-2b5472316c22?w=1200&h=800&fit=crop&q=80",
+    "link": "https://aiweekly.co",
+    "category": "Newsletter"
+  },
+  {
+    "id": 4,
+    "title": "The Batch by deeplearning.ai",
+    "description": "Andrew Ng's weekly newsletter providing insights on autonomous agents, AI trends, and practical applications for enterprise.",
+    "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.deeplearning.ai/the-batch",
+    "category": "Newsletter"
+  },
+  {
+    "id": 5,
+    "title": "AI Hub",
+    "description": "Comprehensive directory of AI tools, autonomous agent frameworks, and resources for developers building AI applications.",
+    "image": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.aihub.org",
+    "category": "Directory"
+  },
+  {
+    "id": 6,
+    "title": "Import AI",
+    "description": "Jack Clark's weekly analysis of autonomous AI progress, frontier model policy, and safety research developments.",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=800&fit=crop&q=80",
+    "link": "https://importai.com",
+    "category": "Analysis"
+  },
+  {
+    "id": 7,
+    "title": "AI Business",
+    "description": "Enterprise AI news covering autonomous agent adoption, business applications, and industry transformation at Fortune 500 scale.",
+    "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=1200&h=800&fit=crop&q=80",
+    "link": "https://aibusiness.com",
+    "category": "Business"
+  },
+  {
+    "id": 8,
+    "title": "Robot Report",
+    "description": "News and analysis covering humanoid robotics, home robots, autonomous systems, and AI-powered manufacturing automation.",
+    "image": "https://images.unsplash.com/photo-1563770660941-20978e870e26?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.therobotreport.com",
+    "category": "Robotics"
+  },
+  {
+    "id": 9,
+    "title": "AI Ethics Lab",
+    "description": "Research and resources on ethical autonomous AI development, agent safety frameworks, and responsible innovation.",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=800&fit=crop&q=80",
+    "link": "https://www.aiethicslab.com",
+    "category": "Ethics"
+  },
+  {
+    "id": 10,
+    "title": "Future of Life Institute",
+    "description": "Organization working to reduce existential risks from advanced autonomous AI and ensure safe development of AGI systems.",
+    "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=1200&h=800&fit=crop&q=80",
+    "link": "https://futureoflife.org",
+    "category": "Safety"
+  }
+]
