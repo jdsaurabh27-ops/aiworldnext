@@ -1,7 +1,7 @@
 import { useState, FormEvent } from 'react';
 import { Send, Briefcase, Wrench, FileText, Calendar, CheckCircle, AlertCircle } from 'lucide-react';
 import Card from './Card';
-import { supabase } from '../lib/supabase';
+import { supabase, isSupabaseAvailable } from '../lib/supabase';
 
 type SubmissionType = 'job' | 'tool' | 'blog' | 'event';
 
@@ -39,6 +39,32 @@ export default function SubmitSection() {
     setErrorMessage('');
 
     try {
+      // If database credentials are not configured, route submissions to the site inbox.
+      if (!isSupabaseAvailable || !supabase) {
+        const response = await fetch('https://formsubmit.co/ajax/business@aiworldnext.com', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+          body: JSON.stringify({
+            _subject: `New AIWorldNext ${selectedType} submission`,
+            _template: 'table',
+            submissionType: selectedType,
+            ...formData
+          })
+        });
+        const payload = await response.json().catch(() => null);
+        if (!response.ok || payload?.success === false || payload?.success === 'false') {
+          throw new Error(payload?.message || 'The submission service did not accept the request. Please email business@aiworldnext.com.');
+        }
+        setSubmitStatus('success');
+        setFormData({});
+        (e.target as HTMLFormElement).reset();
+        setErrorMessage('');
+        return;
+      }
+
       let result;
 
       switch (selectedType) {
@@ -107,7 +133,9 @@ export default function SubmitSection() {
       (e.target as HTMLFormElement).reset();
     } catch (error) {
       setSubmitStatus('error');
-      setErrorMessage(error instanceof Error ? error.message : 'Failed to submit. Please try again.');
+      setErrorMessage(error instanceof Error
+        ? error.message
+        : 'Failed to submit. Please try again or email business@aiworldnext.com.');
     } finally {
       setIsSubmitting(false);
     }
@@ -156,7 +184,7 @@ export default function SubmitSection() {
               <div>
                 <p className="text-green-400 font-semibold">Submission Successful!</p>
                 <p className="text-green-300 text-sm mt-1">
-                  Thank you for your submission. We'll review it within 24-48 hours and contact you at the provided email.
+                  Thank you! Your submission was accepted by the configured submission service. We'll review it and contact you at the provided email.
                 </p>
               </div>
             </div>
