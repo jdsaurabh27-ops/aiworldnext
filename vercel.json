@@ -4,6 +4,11 @@
       "source": "/pay",
       "destination": "https://paypal.me/priyasharma1810",
       "permanent": true
+    },
+    {
+      "source": "/terms",
+      "destination": "/terms.html",
+      "permanent": true
     }
   ]
 }
