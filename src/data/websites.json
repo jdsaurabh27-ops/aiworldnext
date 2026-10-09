@@ -3,7 +3,7 @@
     "id": 1,
     "title": "AI Alignment Forum",
     "description": "Research forum focused on autonomous AI agent alignment, safety frameworks, and ensuring AI systems remain aligned with human values.",
-    "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.alignmentforum.org",
     "category": "Research"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "title": "ML News",
     "description": "Curated daily newsletter and website covering autonomous agents, frontier model releases, and the latest in machine learning research.",
-    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.mlnews.com",
     "category": "News"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "title": "AI Weekly",
     "description": "Weekly roundup of the most important AI news, autonomous agent developments, research papers, and industry trends.",
-    "image": "https://images.unsplash.com/photo-1456324504439-367cee3b3c32?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&w=1200&q=80",
     "link": "https://aiweekly.co",
     "category": "Newsletter"
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "title": "AI Hub",
     "description": "Comprehensive directory of AI tools, autonomous agent frameworks, and resources for developers building AI applications.",
-    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.aihub.org",
     "category": "Directory"
   },
@@ -43,7 +43,7 @@
     "id": 6,
     "title": "Import AI",
     "description": "Jack Clark's weekly analysis of autonomous AI progress, frontier model policy, and safety research developments.",
-    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80",
     "link": "https://importai.com",
     "category": "Analysis"
   },
@@ -51,7 +51,7 @@
     "id": 7,
     "title": "AI Business",
     "description": "Enterprise AI news covering autonomous agent adoption, business applications, and industry transformation at Fortune 500 scale.",
-    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&w=1200&q=80",
     "link": "https://aibusiness.com",
     "category": "Business"
   },
@@ -59,7 +59,7 @@
     "id": 8,
     "title": "Robot Report",
     "description": "News and analysis covering humanoid robotics, home robots, autonomous systems, and AI-powered manufacturing automation.",
-    "image": "https://images.unsplash.com/photo-1535378620166-273708d44e4c?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.therobotreport.com",
     "category": "Robotics"
   },
@@ -67,7 +67,7 @@
     "id": 9,
     "title": "AI Ethics Lab",
     "description": "Research and resources on ethical autonomous AI development, agent safety frameworks, and responsible innovation.",
-    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.aiethicslab.com",
     "category": "Ethics"
   },
@@ -75,7 +75,7 @@
     "id": 10,
     "title": "Future of Life Institute",
     "description": "Organization working to reduce existential risks from advanced autonomous AI and ensure safe development of AGI systems.",
-    "image": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80",
     "link": "https://futureoflife.org",
     "category": "Safety"
   }
