@@ -1,1 +1,50 @@
-[]
+[
+{
+"id": 1,
+"title": "Applied AI Engineer",
+"description": "Explore current AI engineering opportunities and check role requirements on the official careers page.",
+"image": "https://images.unsplash.com/photo-1677442136019-21780ecad995",
+"link": "https://openai.com/careers/search/",
+"company": "OpenAI",
+"location": "Multiple locations; check individual listing",
+"salary": "Not specified",
+"date": "Checked October 2026",
+"category": "AI Engineering"
+},
+{
+"id": 2,
+"title": "AI Deployment and Technical Success Roles",
+"description": "Explore AI deployment, technical success, and engineering roles. Check each listing for location and eligibility.",
+"image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e",
+"link": "https://openai.com/careers/search/",
+"company": "OpenAI",
+"location": "India and international locations; check listing",
+"salary": "Not specified",
+"date": "Checked October 2026",
+"category": "Applied AI"
+},
+{
+"id": 3,
+"title": "Research Engineer / Research Scientist",
+"description": "Explore AI research, machine learning, alignment, and related opportunities on the official careers page.",
+"image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa",
+"link": "https://www.anthropic.com/careers/jobs",
+"company": "Anthropic",
+"location": "International; see individual role",
+"salary": "Not specified",
+"date": "Checked October 2026",
+"category": "AI Research"
+},
+{
+"id": 4,
+"title": "Machine Learning and AI Engineering Roles",
+"description": "Browse current openings in AI engineering, machine learning, and research. Requirements vary by position.",
+"image": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+"link": "https://www.anthropic.com/careers/jobs",
+"company": "Anthropic",
+"location": "International; see individual role",
+"salary": "Not specified",
+"date": "Checked October 2026",
+"category": "Machine Learning"
+}
+]
