@@ -40,7 +40,7 @@ export default function Card(props: CardProps) {
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
           loading="lazy"
           onError={(e) => {
-            (e.target as HTMLImageElement).src = 'https://source.unsplash.com/800x600/?technology,abstract';
+            (e.target as HTMLImageElement).src = `https://picsum.photos/seed/aiworldnext-fallback-${encodeURIComponent(props.title)}/800/600`;
           }}
         />
         {props.category && (
