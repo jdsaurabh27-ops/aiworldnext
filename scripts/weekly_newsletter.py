@@ -48,14 +48,32 @@ def render(today):
 
 
 def api(key, path, payload=None):
-    request = urllib.request.Request('https://api.brevo.com/v3' + path, data=json.dumps(payload).encode() if payload is not None else None, headers={'api-key': key, 'Content-Type': 'application/json', 'Accept': 'application/json'})
+    request = urllib.request.Request('https://api.brevo.com/v3' + path, data=json.dumps(payload).encode() if payload is not None else None, headers={'User-Agent': 'AIWorldNext-Newsletter/1.0', 'api-key': key, 'Content-Type': 'application/json', 'Accept': 'application/json'})
     try:
         with urllib.request.urlopen(request, timeout=30) as response:
             body = response.read()
             return json.loads(body) if body else {}
     except urllib.error.HTTPError as exc:
-        # Avoid printing response bodies containing account data or credentials.
-        raise RuntimeError(f'Brevo API returned HTTP {exc.code}; check configuration in Brevo.') from None
+        # Classify the response locally; never print raw bodies, IPs or keys.
+        body = exc.read(8192).decode('utf-8', errors='replace').lower()
+        if 'unrecogn' in body or 'unauthorized ip' in body or 'authorised ip' in body:
+            reason = 'Brevo rejected the source IP; review Security > Authorized IPs.'
+        elif 'permission' in body or 'access denied' in body:
+            reason = 'Brevo denied API permissions; review account/key access with Brevo support.'
+        elif 'not activated' in body or 'account' in body and ('blocked' in body or 'suspend' in body):
+            reason = 'Brevo account access is restricted; complete account checks or contact support.'
+        elif 'key' in body and ('invalid' in body or 'not found' in body or 'unauthorized' in body):
+            reason = 'API key was rejected; replace GitHub secret with the complete standard API key.'
+        elif '<html' in body or '<!doctype' in body or 'cloudflare' in body:
+            reason = 'An HTML security gateway rejected the API call; contact Brevo support about GitHub-hosted runners.'
+        else:
+            reason = 'Unclassified API rejection; contact Brevo support with endpoint and HTTP status.'
+        detail = f'Brevo API HTTP {exc.code} at {path.split("?")[0]}: {reason}'
+        summary = os.getenv('GITHUB_STEP_SUMMARY')
+        if summary:
+            with open(summary, 'a', encoding='utf-8') as handle:
+                handle.write('## Newsletter API failure\n\n' + detail + '\n')
+        raise RuntimeError(detail) from None
 
 
 def main():
@@ -70,7 +88,7 @@ def main():
         return
     if mode not in ('draft', 'send'):
         raise RuntimeError('BREVO_MODE must be preview, draft or send')
-    key = os.getenv('BREVO_API_KEY', '')
+    key = os.getenv('BREVO_API_KEY', '').strip()
     sender = os.getenv('BREVO_SENDER_EMAIL', '').strip()
     list_id = int(os.getenv('BREVO_LIST_ID', '3'))
     if not key or not sender:
