@@ -1,114 +1,17 @@
-import { trackEvent } from '../lib/analytics';
-import { useState } from 'react';
 import { Mail, CheckCircle } from 'lucide-react';
-
+import { trackEvent } from '../lib/analytics';
+const signupUrl = 'https://c3df661c.sibforms.com/serve/MUIFAGdL3nxY6qiKi3_9h0eCiDH5w-fqpHSR0wNmKt3R4PRv60wCKwDwAd_jQ9r-_lZm9Jf82g7NCu0zh96I5YZblu-PZ3hmWWd4nC58wkOXgvjDJoIYygwjrYYh6N_mjwtaJ8g6akTMwv2T256k7S5dL9DX4XKpABisy0Wmr2cN_yhP8M9QPDb1WwEImeLBS-Dyd1EY52fs7Qn1Ew==';
 export default function Newsletter() {
-  const [email, setEmail] = useState('');
-  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
-  const [message, setMessage] = useState('');
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setStatus('loading');
-
-    try {
-      const response = await fetch('https://formsubmit.co/ajax/business@aiworldnext.com', {
-        method: 'POST',
-          signal: AbortSignal.timeout(20000),
-        headers: {
-          'Content-Type': 'application/json',
-          'Accept': 'application/json'
-        },
-        body: JSON.stringify({
-          email,
-          _subject: 'New Newsletter Subscription - AIWorldNext',
-          _template: 'table'
-        })
-      });
-
-      const result = await response.json().catch(() => null);
-
-      if (!response.ok || !(result?.success === true || result?.success === 'true')) {
-        throw new Error(result?.message || 'Subscription could not be confirmed. Please try again.');
-      }
-
-      trackEvent('newsletter_request', { method: 'email_form' });
-      setStatus('success');
-      setMessage('Your newsletter request was accepted. This is not yet a confirmed mailing-list subscription; we will contact you about availability.');
-      setEmail('');
-    } catch (error) {
-      setStatus('error');
-      setMessage(error instanceof Error
-        ? error.message
-        : 'Could not reach the subscription service. Please try again or email business@aiworldnext.com.');
-    }
-  };
-
-  return (
-    <section id="newsletter" className="py-20 bg-gradient-to-br from-neon-blue/10 via-gray-900 to-black border-y border-gray-800">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="max-w-3xl mx-auto text-center">
-          <div className="relative inline-flex items-center justify-center w-20 h-20 bg-neon-blue/20 rounded-2xl mb-6">
-            <Mail className="w-10 h-10 text-neon-blue" />
-            <div className="absolute inset-0 bg-neon-blue blur-xl opacity-20 animate-pulse"></div>
-          </div>
-
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Stay Updated with <span className="text-neon-blue">AI Innovation</span>
-          </h2>
-
-          <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-            Request updates about AI news, jobs and tools. Website content is refreshed weekly; email delivery starts after the mailing list is configured.
-          </p>
-
-          {import.meta.env.VITE_NEWSLETTER_SIGNUP_URL?.startsWith('https://') ? <a className="inline-block px-8 py-4 rounded-xl bg-neon-blue text-black font-bold" href={import.meta.env.VITE_NEWSLETTER_SIGNUP_URL} target="_blank" rel="noopener noreferrer">Join the mailing list</a> : status === 'success' ? (
-            <div className="bg-green-500/20 border-2 border-green-500/50 rounded-xl p-8 flex items-center justify-center space-x-3 shadow-lg shadow-green-500/20">
-              <CheckCircle className="w-8 h-8 text-green-400" />
-              <p className="text-green-400 font-semibold text-lg">{message}</p>
-            </div>
-          ) : (
-            <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-4 max-w-xl mx-auto">
-              <input
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="Enter your email address"
-                required
-                disabled={status === 'loading'}
-                className="flex-1 px-6 py-4 bg-gray-900 border-2 border-gray-700 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-neon-blue focus:border-neon-blue transition-all duration-200 disabled:opacity-50"
-              />
-              <button
-                type="submit"
-                disabled={status === 'loading'}
-                className="px-8 py-4 bg-neon-blue text-black font-bold rounded-xl hover:bg-neon-cyan hover:shadow-xl hover:shadow-neon-blue/50 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed whitespace-nowrap transform hover:scale-105"
-              >
-                {status === 'loading' ? 'Subscribing...' : 'Request Updates'}
-              </button>
-            </form>
-          )}
-
-          {status === 'error' && (
-            <p className="text-red-400 mt-4 font-medium">{message}</p>
-          )}
-
-          <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 text-gray-400 text-sm">
-            <p className="flex items-center gap-2">
-              <CheckCircle className="w-4 h-4 text-neon-blue" />
-              AI news, tools and resources
-            </p>
-            <span className="hidden sm:block">•</span>
-            <p className="flex items-center gap-2">
-              <CheckCircle className="w-4 h-4 text-neon-blue" />
-              Weekly updates
-            </p>
-            <span className="hidden sm:block">•</span>
-            <p className="flex items-center gap-2">
-              <CheckCircle className="w-4 h-4 text-neon-blue" />
-              See our privacy policy
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
+  const configured = import.meta.env.VITE_NEWSLETTER_SIGNUP_URL;
+  const url = configured?.startsWith('https://') ? configured : signupUrl;
+  return <section id="newsletter" className="py-20 bg-gradient-to-br from-neon-blue/10 via-gray-900 to-black border-y border-gray-800">
+    <div className="max-w-3xl mx-auto px-6 text-center">
+      <Mail className="w-14 h-14 text-neon-blue mx-auto mb-6" />
+      <h2 className="text-4xl md:text-5xl font-bold text-white mb-5">Join the AIWorldNext Newsletter</h2>
+      <p className="text-xl text-gray-300 mb-8">Subscribe for curated AI news, tools, jobs and learning resources.</p>
+      <a href={url} target="_blank" rel="noopener noreferrer" onClick={() => trackEvent('newsletter_signup_click', { method: 'brevo' })} className="inline-block px-8 py-4 bg-neon-blue text-black font-bold rounded-xl hover:bg-neon-cyan focus-visible:outline focus-visible:outline-white">Subscribe Now</a>
+      <p className="text-gray-300 mt-5">Sign up on our secure Brevo form, then check your inbox and confirm your email to complete your subscription.</p>
+      <div className="flex flex-wrap justify-center gap-5 text-gray-300 text-sm mt-6"><span className="inline-flex items-center gap-2"><CheckCircle className="w-4 h-4 text-neon-blue" />Unsubscribe using the link in any newsletter</span><a href="/privacy-policy.html" className="text-neon-blue underline">Privacy policy</a></div>
+    </div>
+  </section>;
 }
