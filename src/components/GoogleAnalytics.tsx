@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { trackEvent } from '../lib/analytics';
 export default function GoogleAnalytics() {
   useEffect(() => {
-    const id = import.meta.env.VITE_GOOGLE_ANALYTICS_ID;
+    const id = import.meta.env.VITE_GOOGLE_ANALYTICS_ID || 'G-JX6LMBFL2Q';
     if (!/^G-[A-Z0-9]+$/.test(id || '')) return;
     if (!document.getElementById('aiworldnext-ga')) {
       window.dataLayer = window.dataLayer || [];
