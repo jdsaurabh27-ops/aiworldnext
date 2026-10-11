@@ -30,7 +30,7 @@
   {
     "id": 3,
     "name": "Google DeepMind",
-    "description": "Gemini 3 achieves superhuman performance on 40+ benchmarks. Leading AGI research and integration across Google products.",
+    "description": "Artificial intelligence could be one of humanity’s most useful inventions. We research and build safe artificial intelligence systems. We're committed to solving intelligence, to advance science and …",
     "logo": "https://www.google.com/s2/favicons?domain=deepmind.google&sz=256",
     "category": "Research & AGI",
     "valuation": "See official company information",
@@ -38,7 +38,9 @@
     "founded": "2023",
     "notable": "See official products and research",
     "url": "https://deepmind.google",
-    "featured": true
+    "featured": true,
+    "sourceUrl": "https://deepmind.google",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 4,
@@ -88,7 +90,7 @@
   {
     "id": 7,
     "name": "Hugging Face",
-    "description": "We\u2019re on a journey to advance and democratize artificial intelligence through open source and open science.",
+    "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
     "logo": "https://www.google.com/s2/favicons?domain=huggingface.co&sz=256",
     "category": "Platform & Tools",
     "valuation": "See official company information",

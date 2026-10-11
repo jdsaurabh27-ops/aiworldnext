@@ -23,13 +23,13 @@
     },
     "products": {
       "status": "updated",
-      "checked": 6,
-      "retained": 6
+      "checked": 7,
+      "retained": 5
     },
     "companies": {
       "status": "updated",
-      "checked": 9,
-      "retained": 3
+      "checked": 10,
+      "retained": 2
     },
     "startups": {
       "status": "updated",
