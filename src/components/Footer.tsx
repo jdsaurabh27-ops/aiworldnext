@@ -1,4 +1,4 @@
-import { Zap, Mail, Globe, Linkedin, Twitter, Instagram, Youtube, Facebook } from 'lucide-react';
+import { Mail, Globe, Linkedin, Twitter, Instagram, Youtube, Facebook } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -6,13 +6,16 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
-            <div className="flex items-center space-x-2 mb-4">
-              <Zap className="w-8 h-8 text-neon-blue" />
-              <div>
-                <h2 className="text-xl font-bold text-white">AIWorldNext</h2>
-                <p className="text-sm text-neon-blue">Global Hub for AI & Robotics</p>
-              </div>
-            </div>
+            <a href="#home" className="block w-fit max-w-full mb-4" aria-label="AIWorldNext home">
+              <img
+                src="/brand/aiworldnext-logo-transparent.png"
+                alt="AIWorldNext — The Global Search Engine for AI"
+                width={1983}
+                height={793}
+                loading="lazy"
+                className="w-80 max-w-full h-auto"
+              />
+            </a>
             <p className="text-gray-400 text-sm mb-4">
               Your trusted source for AI news, job opportunities, resources, and community connections.
               Empowering the future of artificial intelligence and robotics.

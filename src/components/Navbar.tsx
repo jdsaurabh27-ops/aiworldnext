@@ -1,4 +1,4 @@
-import { Menu, X, Zap, Search, Bell } from 'lucide-react';
+import { Menu, X, Search } from 'lucide-react';
 import { useState } from 'react';
 
 export default function Navbar() {
@@ -18,17 +18,19 @@ export default function Navbar() {
 
   return (
     <nav className="bg-black border-b border-gray-800 sticky top-0 z-50 backdrop-blur-lg bg-opacity-95">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
-          <div className="flex items-center space-x-3">
-            <Zap className="w-8 h-8 text-neon-blue" />
-            <div>
-              <h1 className="text-xl font-bold text-white">AIWorldNext</h1>
-              <p className="text-xs text-neon-blue hidden sm:block">The Global Search Engine for AI</p>
-            </div>
-          </div>
+      <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between items-center h-24 gap-4">
+          <a href="#home" className="block shrink-0 rounded-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-neon-blue" aria-label="AIWorldNext home">
+            <img
+              src="/brand/aiworldnext-logo-transparent.png"
+              alt="AIWorldNext — The Global Search Engine for AI"
+              width={1983}
+              height={793}
+              className="w-60 sm:w-64 h-auto"
+            />
+          </a>
 
-          <div className="hidden lg:flex items-center space-x-1">
+          <div className="hidden 2xl:flex items-center space-x-1">
             {navLinks.map((link) => (
               <a
                 key={link.name}
@@ -40,7 +42,7 @@ export default function Navbar() {
             ))}
           </div>
 
-          <div className="hidden lg:flex items-center space-x-3">
+          <div className="hidden 2xl:flex items-center space-x-3">
             <button
               onClick={() => setIsSearchOpen(!isSearchOpen)}
               className="p-2 rounded-md text-gray-400 hover:text-neon-blue hover:bg-gray-900 transition-all duration-200"
@@ -70,14 +72,14 @@ export default function Navbar() {
 
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="lg:hidden p-2 rounded-md text-gray-400 hover:text-neon-blue hover:bg-gray-900 transition-all duration-200"
+            className="2xl:hidden p-2 rounded-md text-gray-400 hover:text-neon-blue hover:bg-gray-900 transition-all duration-200"
           >
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
         </div>
 
         {isSearchOpen && (
-          <div className="hidden lg:block pb-4">
+          <div className="hidden 2xl:block pb-4">
             <div className="relative">
               <input
                 type="text"
@@ -92,7 +94,7 @@ export default function Navbar() {
       </div>
 
       {isOpen && (
-        <div className="lg:hidden bg-gray-900 border-t border-gray-800">
+        <div className="2xl:hidden bg-gray-900 border-t border-gray-800">
           <div className="px-2 pt-2 pb-3 space-y-1">
             <div className="px-3 py-2">
               <input
