@@ -1,0 +1,40 @@
+name: AIWorldNext Weekly Newsletter
+on:
+  schedule:
+    # Monday 10:30 IST; content refresh starts at 09:00 IST.
+    - cron: '0 5 * * 1'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Preview, create a Brevo draft, or send to the confirmed subscriber list'
+        type: choice
+        options: [preview, draft, send]
+        default: preview
+permissions:
+  contents: read
+concurrency:
+  group: weekly-newsletter
+  cancel-in-progress: false
+jobs:
+  newsletter:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Prepare weekly newsletter
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          BREVO_SENDER_EMAIL: ${{ vars.BREVO_SENDER_EMAIL }}
+          BREVO_LIST_ID: ${{ vars.BREVO_LIST_ID || '3' }}
+          BREVO_MODE: ${{ inputs.mode || vars.BREVO_MODE || 'preview' }}
+        run: python scripts/weekly_newsletter.py
+      - name: Save newsletter preview
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: newsletter-preview
+          path: newsletter-preview/digest.html
+          if-no-files-found: ignore
