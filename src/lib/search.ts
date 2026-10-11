@@ -34,14 +34,13 @@ export const searchItems: SearchItem[] = sources.flatMap(([section, items]) =>
       description: String(value.description || ''),
       link: String(value.link || value.url || ''),
       section,
-      keywords: Object.values(value).filter(v => typeof v === 'string').join(' ').toLowerCase(),
+      keywords: (section + ' ' + (section === 'Directories' ? 'directory websites ' : section === 'Companies' ? 'company ' : section === 'Community' ? 'communities ' : '') + Object.values(value).filter(v => typeof v === 'string').join(' ')).toLowerCase(),
     };
   }).filter(item => item.title && item.link.startsWith('https://'))
 );
 
 export function searchContent(query: string, section = 'All'): SearchItem[] {
   const words = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
-  if (!words.length) return [];
   return searchItems.filter(item =>
     (section === 'All' || item.section === section) &&
     words.every(word => item.keywords.includes(word))
