@@ -14,26 +14,28 @@
   {
     "id": 2,
     "title": "Hugging Face Discord",
-    "description": "We're working to democratize good machine learning 🤗Verify to link your Hub and Discord accounts! | 242136 members",
+    "description": "We're working to democratize good machine learning 🤗Verify to link your Hub and Discord accounts! | 242144 members",
     "members": "Not verified",
-    "image": "/brand/categories/community.svg",
+    "image": "https://discord.com/assets/favicon.ico",
     "link": "https://hf.co/join/discord",
     "category": "Chat",
     "sourceUrl": "https://hf.co/join/discord",
     "checkedAt": "2026-10-11",
-    "imageKind": "placeholder"
+    "imageKind": "logo",
+    "imageSource": "https://hf.co/join/discord"
   },
   {
     "id": 3,
     "title": "AI Meetups Global",
     "description": "Find Meetup events so you can do more of what matters to you. Or create your own group and meet people near you who share your interests.",
     "members": "Not verified",
-    "image": "/brand/categories/community.svg",
+    "image": "https://secure.meetupstatic.com/next/images/favicon.ico",
     "link": "https://www.meetup.com/topics/artificial-intelligence",
     "category": "Events",
     "sourceUrl": "https://www.meetup.com/topics/artificial-intelligence",
     "checkedAt": "2026-10-11",
-    "imageKind": "placeholder"
+    "imageKind": "logo",
+    "imageSource": "https://www.meetup.com/topics/artificial-intelligence"
   },
   {
     "id": 4,
@@ -101,7 +103,7 @@
     "title": "Robotics Discord Server",
     "description": "Check out the Centreville Robotics community on Discord - hang out with 513 other members and enjoy free voice and text chat.",
     "members": "Not verified",
-    "image": "https://www.google.com/s2/favicons?domain=discord.gg&sz=128",
+    "image": "https://discord.com/assets/favicon.ico",
     "link": "https://discord.gg/robotics",
     "category": "Robotics",
     "sourceUrl": "https://discord.gg/robotics",
@@ -115,7 +117,7 @@
     "title": "LinkedIn AI Group",
     "description": "Login to LinkedIn to keep in touch with people you know, share ideas, and build your career.",
     "members": "Not verified",
-    "image": "https://www.google.com/s2/favicons?domain=www.linkedin.com&sz=128",
+    "image": "https://static.licdn.com/sc/h/9lb1g1kp916tat669q9r5g2kz",
     "link": "https://www.linkedin.com/groups/artificial-intelligence",
     "category": "Professional",
     "sourceUrl": "https://www.linkedin.com/groups/artificial-intelligence",
