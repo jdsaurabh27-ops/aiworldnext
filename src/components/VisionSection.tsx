@@ -59,39 +59,7 @@ export default function VisionSection() {
           </div>
         </div>
 
-        {/* Partnerships */}
-        <div>
-          <h2 className="text-4xl font-bold text-white text-center mb-4">Trusted Partners</h2>
-          <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
-            Collaborating with leading organizations to advance AI research, education, and ethical development
-          </p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {visionData.partnerships.map((partnership) => (
-              <div
-                key={partnership.partner}
-                className="bg-gray-900/50 backdrop-blur-sm rounded-xl p-6 border border-gray-800 hover:border-cyan-500/50 transition-all duration-300 hover:scale-105"
-              >
-                <div className="flex items-center justify-center h-16 mb-4">
-                  <img
-                    src={partnership.logo}
-                    alt={partnership.partner}
-                    className="max-h-12 max-w-full object-contain filter brightness-90 hover:brightness-110 transition-all"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.style.display = 'none';
-                      const parent = target.parentElement;
-                      if (parent) {
-                        parent.innerHTML = `<div class="text-2xl font-bold text-white">${partnership.partner}</div>`;
-                      }
-                    }}
-                  />
-                </div>
-                <h3 className="text-lg font-bold text-white text-center mb-2">{partnership.partner}</h3>
-                <p className="text-gray-400 text-sm text-center">{partnership.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
+        <p className="text-gray-300 text-center">AIWorldNext is an independent directory. Listed organisations are sources, not claimed partners or sponsors.</p>
       </div>
     </section>
   );

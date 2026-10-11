@@ -1,17 +1,18 @@
 [
   {
     "id": 1,
-    "title": "ChatGPT Pro with GPT-6 Autonomous Agents",
-    "description": "Access to GPT-6 with 5M context, autonomous agent framework, Sora 3.0 real-time 4K video, DALL-E 4, web execution, and multi-step task automation.",
-    "price": "$200/month",
+    "title": "ChatGPT",
+    "description": "Explore ChatGPT on the official website. Check current features, availability, data policies and pricing before choosing a plan.",
+    "price": "See official pricing",
     "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80",
-    "link": "https://openai.com/chatgpt/pricing",
-    "category": "AI Assistant"
+    "link": "https://openai.com/chatgpt/",
+    "category": "AI Assistant",
+    "sourceUrl": "https://openai.com/chatgpt/"
   },
   {
     "id": 2,
-    "title": "Claude Pro with Claude 5 Self-Improving Code",
-    "description": "Claude is the AI assistant for work. Hand off tasks, turn ideas into decks, spreadsheets and prototypes, and run scheduled tasks across your apps and files.",
+    "title": "Claude",
+    "description": "Explore Claude on the official website. Check current features, availability, data policies and pricing before choosing a plan.",
     "price": "See official pricing",
     "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.anthropic.com/claude",
@@ -21,39 +22,40 @@
   },
   {
     "id": 3,
-    "title": "Google One AI Premium with Gemini 3",
-    "description": "Google One bundles cloud storage, powerful AI capabilities, and helpful features across Google — all in one shareable plan.",
+    "title": "Google AI plans",
+    "description": "Explore Google AI plans on the official website. Check current features, availability, data policies and pricing before choosing a plan.",
     "price": "See official pricing",
     "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80",
-    "link": "https://one.google.com",
+    "link": "https://one.google.com/",
     "category": "AI Assistant",
-    "sourceUrl": "https://one.google.com",
+    "sourceUrl": "https://one.google.com/",
     "checkedAt": "2026-10-11"
   },
   {
     "id": 4,
-    "title": "Perplexity OS Pro",
-    "description": "AI-first operating system with native agentic search, autonomous task automation, and real-time knowledge synthesis. 300M users. GPT-6 and Claude 5 powered.",
-    "price": "$50/month",
+    "title": "Perplexity",
+    "description": "Explore Perplexity on the official website. Check current features, availability, data policies and pricing before choosing a plan.",
+    "price": "See official pricing",
     "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
-    "link": "https://www.perplexity.ai/pro",
-    "category": "Research AI"
+    "link": "https://www.perplexity.ai/",
+    "category": "Research AI",
+    "sourceUrl": "https://www.perplexity.ai/"
   },
   {
     "id": 5,
-    "title": "Cursor Pro with Claude 5 & GPT-6",
-    "description": "Built to make you extraordinarily productive, agents turn ideas into code. Accelerate development by handing off tasks to Cursor.",
+    "title": "Cursor",
+    "description": "Explore Cursor on the official website. Check current features, availability, data policies and pricing before choosing a plan.",
     "price": "See official pricing",
     "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80",
-    "link": "https://cursor.sh",
+    "link": "https://cursor.com/",
     "category": "Development",
-    "sourceUrl": "https://cursor.sh",
+    "sourceUrl": "https://cursor.com/",
     "checkedAt": "2026-10-11"
   },
   {
     "id": 6,
-    "title": "GitHub Copilot X2 with GPT-6 Agents",
-    "description": "GitHub Copilot works every step of the way, from an open issue to reviewing and merging a pull request. Use it in your editor, the terminal, on your desktop, and on GitHub.",
+    "title": "GitHub Copilot",
+    "description": "Explore GitHub Copilot on the official website. Check current features, availability, data policies and pricing before choosing a plan.",
     "price": "See official pricing",
     "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
     "link": "https://github.com/features/copilot",
@@ -63,60 +65,64 @@
   },
   {
     "id": 7,
-    "title": "Runway Gen-5 Studio",
-    "description": "Compare Runway pricing plans for AI video generation. Choose from Free, Standard, Pro and Max plans with flexible credits and features.",
+    "title": "Runway",
+    "description": "Explore Runway on the official website. Check current features, availability, data policies and pricing before choosing a plan.",
     "price": "See official pricing",
     "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
-    "link": "https://runwayml.com/pricing",
+    "link": "https://runwayml.com/",
     "category": "Video AI",
-    "sourceUrl": "https://runwayml.com/pricing",
+    "sourceUrl": "https://runwayml.com/",
     "checkedAt": "2026-10-11"
   },
   {
     "id": 8,
-    "title": "Midjourney V8 Pro",
-    "description": "Latest AI image generation with photorealistic quality, consistent characters, text-in-images, and real-time interactive generation at 4K resolution.",
-    "price": "$80/month",
+    "title": "Midjourney",
+    "description": "Explore Midjourney on the official website. Check current features, availability, data policies and pricing before choosing a plan.",
+    "price": "See official pricing",
     "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
-    "link": "https://www.midjourney.com",
-    "category": "Creative AI"
+    "link": "https://www.midjourney.com/",
+    "category": "Creative AI",
+    "sourceUrl": "https://www.midjourney.com/"
   },
   {
     "id": 9,
-    "title": "ElevenLabs Creator Max",
-    "description": "Professional AI voice cloning and synthesis with real-time generation in 32 languages. Autonomous voice agents for customer service and content creation.",
-    "price": "$132/month",
+    "title": "ElevenLabs",
+    "description": "Explore ElevenLabs on the official website. Check current features, availability, data policies and pricing before choosing a plan.",
+    "price": "See official pricing",
     "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80",
-    "link": "https://elevenlabs.io/pricing",
-    "category": "Voice AI"
+    "link": "https://elevenlabs.io/",
+    "category": "Voice AI",
+    "sourceUrl": "https://elevenlabs.io/"
   },
   {
     "id": 10,
-    "title": "NVIDIA Rubin Ultra GPU",
-    "description": "100x faster AI training than H100. 4nm process with 288GB HBM4 memory and 18TB/s bandwidth for training next-generation frontier models.",
-    "price": "$45,000",
+    "title": "NVIDIA AI computing",
+    "description": "Explore NVIDIA AI computing on the official website. Check current features, availability, data policies and pricing before choosing a plan.",
+    "price": "See official pricing",
     "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80",
-    "link": "https://www.nvidia.com/rubin",
-    "category": "Hardware"
+    "link": "https://www.nvidia.com/en-us/ai/",
+    "category": "Hardware",
+    "sourceUrl": "https://www.nvidia.com/en-us/ai/"
   },
   {
     "id": 11,
-    "title": "Apple iPhone 17 Pro with Intelligence 3.0",
-    "description": "Designed for Apple Intelligence. Discover iPhone Duo, iPhone 18 Pro, iPhone Air, iPhone 17, and iPhone 17e.",
+    "title": "Apple Intelligence",
+    "description": "Explore Apple Intelligence on the official website. Check current features, availability, data policies and pricing before choosing a plan.",
     "price": "See official pricing",
     "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=1200&q=80",
-    "link": "https://www.apple.com/iphone-17-pro",
+    "link": "https://www.apple.com/apple-intelligence/",
     "category": "Hardware",
-    "sourceUrl": "https://www.apple.com/iphone-17-pro",
+    "sourceUrl": "https://www.apple.com/apple-intelligence/",
     "checkedAt": "2026-10-11"
   },
   {
     "id": 12,
-    "title": "Microsoft 365 Copilot with GPT-6 Agents",
-    "description": "GPT-6 powered autonomous agents across Word, Excel, PowerPoint, Outlook, and Teams. Multi-agent orchestration for enterprise workflow automation.",
-    "price": "$40/user/month",
+    "title": "Microsoft 365 Copilot",
+    "description": "Explore Microsoft 365 Copilot on the official website. Check current features, availability, data policies and pricing before choosing a plan.",
+    "price": "See official pricing",
     "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.microsoft.com/microsoft-365/copilot",
-    "category": "Enterprise"
+    "category": "Enterprise",
+    "sourceUrl": "https://www.microsoft.com/microsoft-365/copilot"
   }
 ]

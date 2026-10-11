@@ -1,3 +1,4 @@
+import { trackEvent } from '../lib/analytics';
 import { useState } from 'react';
 import { Mail, CheckCircle } from 'lucide-react';
 
@@ -13,6 +14,7 @@ export default function Newsletter() {
     try {
       const response = await fetch('https://formsubmit.co/ajax/business@aiworldnext.com', {
         method: 'POST',
+          signal: AbortSignal.timeout(20000),
         headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json'
@@ -26,12 +28,13 @@ export default function Newsletter() {
 
       const result = await response.json().catch(() => null);
 
-      if (!response.ok || result?.success === false || result?.success === 'false') {
+      if (!response.ok || !(result?.success === true || result?.success === 'true')) {
         throw new Error(result?.message || 'Subscription could not be confirmed. Please try again.');
       }
 
+      trackEvent('newsletter_request', { method: 'email_form' });
       setStatus('success');
-      setMessage('Your request was accepted. If this is the first submission, check the site owner’s inbox for FormSubmit activation.');
+      setMessage('Your newsletter request was accepted. This is not yet a confirmed mailing-list subscription; we will contact you about availability.');
       setEmail('');
     } catch (error) {
       setStatus('error');
@@ -55,10 +58,10 @@ export default function Newsletter() {
           </h2>
 
           <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-            Get the latest AI news, job opportunities, and exclusive insights delivered to your inbox weekly.
+            Request updates about AI news, jobs and tools. Website content is refreshed weekly; email delivery starts after the mailing list is configured.
           </p>
 
-          {status === 'success' ? (
+          {import.meta.env.VITE_NEWSLETTER_SIGNUP_URL?.startsWith('https://') ? <a className="inline-block px-8 py-4 rounded-xl bg-neon-blue text-black font-bold" href={import.meta.env.VITE_NEWSLETTER_SIGNUP_URL} target="_blank" rel="noopener noreferrer">Join the mailing list</a> : status === 'success' ? (
             <div className="bg-green-500/20 border-2 border-green-500/50 rounded-xl p-8 flex items-center justify-center space-x-3 shadow-lg shadow-green-500/20">
               <CheckCircle className="w-8 h-8 text-green-400" />
               <p className="text-green-400 font-semibold text-lg">{message}</p>
@@ -79,7 +82,7 @@ export default function Newsletter() {
                 disabled={status === 'loading'}
                 className="px-8 py-4 bg-neon-blue text-black font-bold rounded-xl hover:bg-neon-cyan hover:shadow-xl hover:shadow-neon-blue/50 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed whitespace-nowrap transform hover:scale-105"
               >
-                {status === 'loading' ? 'Subscribing...' : 'Subscribe Now'}
+                {status === 'loading' ? 'Subscribing...' : 'Request Updates'}
               </button>
             </form>
           )}
@@ -91,7 +94,7 @@ export default function Newsletter() {
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 text-gray-400 text-sm">
             <p className="flex items-center gap-2">
               <CheckCircle className="w-4 h-4 text-neon-blue" />
-              Join 10,000+ AI enthusiasts
+              AI news, tools and resources
             </p>
             <span className="hidden sm:block">•</span>
             <p className="flex items-center gap-2">
@@ -101,7 +104,7 @@ export default function Newsletter() {
             <span className="hidden sm:block">•</span>
             <p className="flex items-center gap-2">
               <CheckCircle className="w-4 h-4 text-neon-blue" />
-              Unsubscribe anytime
+              See our privacy policy
             </p>
           </div>
         </div>

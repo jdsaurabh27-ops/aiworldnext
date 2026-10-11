@@ -26,7 +26,7 @@ export default function Hero() {
 
           <p className="text-gray-400 mb-10 max-w-2xl mx-auto text-lg">
             Discover everything AI in one place. From breaking news to career opportunities,
-            we bring you the most comprehensive AI resource platform on the web.
+            browse a curated catalogue of AI sources, tools and communities.
           </p>
 
           <div className="max-w-3xl mx-auto mb-10">
@@ -71,7 +71,7 @@ export default function Hero() {
             <div className="group bg-gray-900 bg-opacity-50 backdrop-blur-sm rounded-xl p-8 border border-gray-800 hover:border-neon-blue transition-all duration-300 hover:shadow-lg hover:shadow-neon-blue/20 transform hover:scale-105">
               <TrendingUp className="w-10 h-10 text-neon-blue mx-auto mb-4 group-hover:animate-pulse" />
               <h3 className="text-white font-bold text-lg mb-3">Latest Updates</h3>
-              <p className="text-gray-400 text-sm leading-relaxed">Stay informed with real-time AI news and breakthroughs from around the world</p>
+              <p className="text-gray-400 text-sm leading-relaxed">Stay informed with weekly source updates and AI developments from around the world</p>
             </div>
 
             <div className="group bg-gray-900 bg-opacity-50 backdrop-blur-sm rounded-xl p-8 border border-gray-800 hover:border-neon-blue transition-all duration-300 hover:shadow-lg hover:shadow-neon-blue/20 transform hover:scale-105">

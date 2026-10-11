@@ -1,3 +1,4 @@
+import { trackEvent } from '../lib/analytics';
 import { useState, FormEvent } from 'react';
 import { Send, Briefcase, Wrench, FileText, Calendar, CheckCircle, AlertCircle } from 'lucide-react';
 import { supabase, isSupabaseAvailable } from '../lib/supabase';
@@ -42,6 +43,7 @@ export default function SubmitSection() {
       if (!isSupabaseAvailable || !supabase) {
         const response = await fetch('https://formsubmit.co/ajax/business@aiworldnext.com', {
           method: 'POST',
+          signal: AbortSignal.timeout(20000),
           headers: {
             'Content-Type': 'application/json',
             'Accept': 'application/json'
@@ -57,6 +59,7 @@ export default function SubmitSection() {
         if (!response.ok || !(payload?.success === true || payload?.success === 'true')) {
           throw new Error(payload?.message || 'The submission service did not accept the request. Please email business@aiworldnext.com.');
         }
+        trackEvent('submission_accepted', { content_type: selectedType });
         setSubmitStatus('success');
         setFormData({});
         (e.target as HTMLFormElement).reset();
@@ -78,8 +81,8 @@ export default function SubmitSection() {
             description: formData.description as string,
             application_url: formData.applicationUrl as string,
             email: formData.email as string,
-            featured: formData.featured as boolean || false,
-            sponsored: formData.sponsored as boolean || false
+            featured: false,
+            sponsored: false
           }]);
           break;
 
@@ -92,8 +95,8 @@ export default function SubmitSection() {
             description: formData.description as string,
             website_url: formData.websiteUrl as string,
             email: formData.email as string,
-            featured: formData.featured as boolean || false,
-            sponsored: formData.sponsored as boolean || false
+            featured: false,
+            sponsored: false
           }]);
           break;
 
@@ -128,6 +131,7 @@ export default function SubmitSection() {
         // In that case, preserve the user's submission by trying the email inbox fallback.
         const fallbackResponse = await fetch('https://formsubmit.co/ajax/business@aiworldnext.com', {
           method: 'POST',
+          signal: AbortSignal.timeout(20000),
           headers: {
             'Content-Type': 'application/json',
             'Accept': 'application/json'
@@ -145,7 +149,8 @@ export default function SubmitSection() {
         }
       }
 
-      setSubmitStatus('success');
+      trackEvent('submission_accepted', { content_type: selectedType });
+        setSubmitStatus('success');
       setFormData({});
       (e.target as HTMLFormElement).reset();
     } catch (error) {
@@ -180,6 +185,7 @@ export default function SubmitSection() {
                   type="button"
                   onClick={() => {
                     setSelectedType(id);
+                    setFormData({});
                     setSubmitStatus('idle');
                   }}
                   className={`flex flex-col items-center justify-center p-6 rounded-lg border-2 transition-all duration-200 ${
@@ -593,40 +599,7 @@ export default function SubmitSection() {
               <p className="text-sm text-gray-500 mt-1">We'll contact you regarding your submission</p>
             </div>
 
-            <div className="bg-gradient-to-r from-gray-900 to-gray-800 border-2 border-gray-700 rounded-xl p-6 shadow-xl">
-              <h4 className="text-white font-bold text-lg mb-4 flex items-center gap-2">
-                <span className="text-neon-blue">⚡</span> Upgrade Options
-              </h4>
-              <div className="space-y-4">
-                <label className="flex items-start cursor-pointer hover:bg-gray-800/50 p-3 rounded-lg transition-all">
-                  <input
-                    type="checkbox"
-                    name="featured"
-                    className="w-5 h-5 mt-0.5 rounded border-gray-700 text-neon-blue focus:ring-neon-blue bg-gray-800"
-                    onChange={handleInputChange}
-                  />
-                  <div className="ml-3">
-                    <span className="text-white font-semibold">Featured Listing</span>
-                    <span className="ml-2 px-3 py-1 bg-gradient-to-r from-neon-blue to-neon-cyan text-black text-xs font-bold rounded-full">$99</span>
-                    <p className="text-sm text-gray-400 mt-1">Get 10x more visibility with featured placement</p>
-                  </div>
-                </label>
-
-                <label className="flex items-start cursor-pointer hover:bg-gray-800/50 p-3 rounded-lg transition-all">
-                  <input
-                    type="checkbox"
-                    name="sponsored"
-                    className="w-5 h-5 mt-0.5 rounded border-gray-700 text-neon-blue focus:ring-neon-blue bg-gray-800"
-                    onChange={handleInputChange}
-                  />
-                  <div className="ml-3">
-                    <span className="text-white font-semibold">Sponsored Badge</span>
-                    <span className="ml-2 px-3 py-1 bg-gradient-to-r from-neon-blue to-neon-cyan text-black text-xs font-bold rounded-full">$49</span>
-                    <p className="text-sm text-gray-400 mt-1">Stand out with a sponsored badge</p>
-                  </div>
-                </label>
-              </div>
-            </div>
+            <p className="text-gray-300 text-sm">Submission is free and subject to editorial review. For paid placements, email business@aiworldnext.com for a separate agreement. No payment is collected by this form.</p>
 
             <div className="pt-4 border-t-2 border-gray-700">
               <button
@@ -639,7 +612,7 @@ export default function SubmitSection() {
               </button>
 
               <p className="text-sm text-gray-400 text-center mt-4">
-                All submissions are reviewed within 24-48 hours. Free submissions are subject to availability.
+                Submissions are reviewed before publication. Sending a request does not guarantee a listing.
               </p>
             </div>
           </form>

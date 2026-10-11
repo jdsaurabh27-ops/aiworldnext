@@ -1,11 +1,11 @@
 {
   "mission": {
     "title": "Our Mission",
-    "content": "AIWorldNext is dedicated to being the world's most comprehensive hub for artificial intelligence and robotics. We connect innovators, researchers, professionals, and enthusiasts through curated content, job opportunities, and community resources. Our mission is to accelerate the responsible development and deployment of AI technologies that benefit humanity."
+    "content": "AIWorldNext helps readers discover AI news sources, tools, jobs and learning resources through a curated directory."
   },
   "vision": {
     "title": "Our Vision",
-    "content": "We envision a future where AI and robotics enhance human capabilities, solve global challenges, and create unprecedented opportunities for innovation. AIWorldNext will be the premier platform where this future is discovered, discussed, and built—connecting minds, sharing knowledge, and fostering collaboration across the global AI community."
+    "content": "We envision a future where AI and robotics enhance human capabilities, solve global challenges, and create unprecedented opportunities for innovation. AIWorldNext will be the premier platform where this future is discovered, discussed, and built\u2014connecting minds, sharing knowledge, and fostering collaboration across the global AI community."
   },
   "values": [
     {
@@ -25,26 +25,5 @@
       "description": "We foster collaboration and knowledge-sharing among AI practitioners worldwide."
     }
   ],
-  "partnerships": [
-    {
-      "partner": "OpenAI",
-      "description": "Collaborating on AI safety research and educational initiatives.",
-      "logo": "https://logo.clearbit.com/openai.com"
-    },
-    {
-      "partner": "Google DeepMind",
-      "description": "Joint research programs in AI ethics and alignment.",
-      "logo": "https://logo.clearbit.com/deepmind.com"
-    },
-    {
-      "partner": "MIT CSAIL",
-      "description": "Academic partnership for robotics and AI research dissemination.",
-      "logo": "https://logo.clearbit.com/mit.edu"
-    },
-    {
-      "partner": "NVIDIA",
-      "description": "Technology partnership for AI infrastructure and developer resources.",
-      "logo": "https://logo.clearbit.com/nvidia.com"
-    }
-  ]
+  "partnerships": []
 }

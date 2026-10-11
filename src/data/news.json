@@ -1,10 +1,10 @@
 [
   {
     "id": 181,
-    "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
-    "description": "In a Saturday morning post, Microsoft's CEO wrote that it’s time “to step back and assess the trust architecture” of AI.",
+    "title": "Microsoft\u2019s Satya Nadella says AI models need an \u2018emergency brake\u2019",
+    "description": "In a Saturday morning post, Microsoft's CEO wrote that it\u2019s time \u201cto step back and assess the trust architecture\u201d of AI.",
     "date": "2026-10-10",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
+    "image": "/brand/aiworldnext-icon.png",
     "link": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
     "category": "AI Industry"
   },
@@ -13,16 +13,16 @@
     "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
     "description": "Is Apple hoping to get into the AI-generated podcast business?",
     "date": "2026-10-10",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
+    "image": "/brand/aiworldnext-icon.png",
     "link": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
     "category": "AI Industry"
   },
   {
     "id": 183,
     "title": "3 days to TechCrunch Disrupt 2026: Meet the startups before they hit mainstream",
-    "description": "TechCrunch Disrupt 2026 takes place October 13-15 in San Francisco. Over 300 startups will show what they’ve built to 10,000 tech leaders. Plus, 250+ speakers are ready to share insights across 200+ sessions. Register before doors open to save up to $100 and get a second pass at 50% off.",
+    "description": "TechCrunch Disrupt 2026 takes place October 13-15 in San Francisco. Over 300 startups will show what they\u2019ve built to 10,000 tech leaders. Plus, 250+ speakers are ready to share insights across 200+ sessions. Register before",
     "date": "2026-10-10",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
+    "image": "/brand/aiworldnext-icon.png",
     "link": "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
     "category": "AI Industry"
   },
@@ -31,25 +31,25 @@
     "title": "Here are the top AI agents that can live in your text messages",
     "description": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
     "date": "2026-10-10",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
+    "image": "/brand/aiworldnext-icon.png",
     "link": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
     "category": "AI Industry"
   },
   {
     "id": 185,
-    "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
+    "title": "Anthropic can\u2019t reliably control its AI agents. It\u2019s cutting off its internal evals from the live internet instead",
     "description": "Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice.",
     "date": "2026-10-10",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
+    "image": "/brand/aiworldnext-icon.png",
     "link": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
     "category": "AI Industry"
   },
   {
     "id": 1,
     "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-    "description": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+    "description": "Discover how Sophos uses OpenAI\u2019s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
     "date": "2026-10-09",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
+    "image": "/brand/aiworldnext-icon.png",
     "link": "https://openai.com/index/sophos",
     "category": "AI News"
   },
@@ -58,16 +58,16 @@
     "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
     "description": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
     "date": "2026-10-09",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
+    "image": "/brand/aiworldnext-icon.png",
     "link": "https://openai.com/index/asana-browser-agent",
     "category": "AI News"
   },
   {
     "id": 186,
     "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
-    "description": "What has users and large corporations so excited about Jev is TypeSafe’s claim that it works significantly faster and uses far fewer tokens than LLMs.",
+    "description": "What has users and large corporations so excited about Jev is TypeSafe\u2019s claim that it works significantly faster and uses far fewer tokens than LLMs.",
     "date": "2026-10-09",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
+    "image": "/brand/aiworldnext-icon.png",
     "link": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
     "category": "AI Industry"
   },
@@ -76,61 +76,61 @@
     "title": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
     "description": "Anthropic did not discover this behavior until over two months after its AI submitted the false tip.",
     "date": "2026-10-09",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
+    "image": "/brand/aiworldnext-icon.png",
     "link": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
     "category": "AI Industry"
   },
   {
     "id": 188,
     "title": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
-    "description": "Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to hundreds of proposed and enacted moratoriums from New York to San Francisco. Meanwhile, a wave of startups is betting that consumers will hand AI agents access […]",
+    "description": "Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading",
     "date": "2026-10-09",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
+    "image": "/brand/aiworldnext-icon.png",
     "link": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/",
     "category": "AI Industry"
   },
   {
     "id": 189,
     "title": "Amazon drops data center NDAs, and AI agents want your credit card",
-    "description": "Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to hundreds of proposed and enacted moratoriums from New York to San Francisco. Meanwhile, a wave of startups is betting that consumers will hand AI agents access […]",
+    "description": "Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading",
     "date": "2026-10-09",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
+    "image": "/brand/aiworldnext-icon.png",
     "link": "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card/",
     "category": "AI Industry"
   },
   {
     "id": 190,
-    "title": "Danu Robotics’ fight to build a better recycling robot",
+    "title": "Danu Robotics\u2019 fight to build a better recycling robot",
     "description": "For six years, Danu founder Amy Ma has been working on a better way to sort recyclable waste.",
     "date": "2026-10-09",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
+    "image": "/brand/aiworldnext-icon.png",
     "link": "https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot/",
     "category": "AI Industry"
   },
   {
     "id": 191,
-    "title": "We can’t help treating AI like it’s human. But should we?",
+    "title": "We can\u2019t help treating AI like it\u2019s human. But should we?",
     "description": "\"When we are drawn into even the most primitive exchanges with a relational artifact, we believe it cares for us,\" Dr. Sherry Turkle writes. \"And we are wired to care for it in return.\"",
     "date": "2026-10-09",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
+    "image": "/brand/aiworldnext-icon.png",
     "link": "https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we/",
     "category": "AI Industry"
   },
   {
     "id": 192,
-    "title": "a16z’s Olivia Moore on the state of consumer AI",
+    "title": "a16z\u2019s Olivia Moore on the state of consumer AI",
     "description": "Moore sees a huge opportunity in consumer AI, particularly if the industry can tap into revenue streams beyond just subscriptions and API charges.",
     "date": "2026-10-09",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
+    "image": "/brand/aiworldnext-icon.png",
     "link": "https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai/",
     "category": "AI Industry"
   },
   {
     "id": 193,
-    "title": "TechCrunch Disrupt 2026 starts in 4 days — lock in your pass savings of up to $100 before prices rise",
-    "description": "Four days until TechCrunch Disrupt 2026 starts, when 10,000 founders, investors, and tech leaders gather in San Francisco's Moscone West on October 13-15. Save up to $100 on your price. Plus, save 50% on a second pass of the same type.",
+    "title": "TechCrunch Disrupt 2026 starts in 4 days \u2014 lock in your pass savings of up to $100 before prices rise",
+    "description": "Four days until TechCrunch Disrupt 2026 starts, when 10,000 founders, investors, and tech leaders gather in San Francisco's Moscone West on October 13-15. Save up to $100 on your price. Plus, save 50% on a",
     "date": "2026-10-09",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
+    "image": "/brand/aiworldnext-icon.png",
     "link": "https://techcrunch.com/2026/10/09/techcrunch-disrupt-2026-starts-in-4-days-lock-in-your-pass-savings-of-up-to-100-before-prices-rise/",
     "category": "AI Industry"
   }

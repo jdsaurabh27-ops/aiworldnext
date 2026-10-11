@@ -5,9 +5,9 @@ import SearchForm from './SearchForm';
 export const navLinks = [
   { name: 'Home', href: '#home', icon: Home },
   { name: 'AI News', href: '#news', icon: Newspaper },
-  { name: 'AI Blogs', href: '#blogs', icon: BookOpen },
+  { name: 'AI Blogs', href: '/blogs/', icon: BookOpen },
   { name: 'AI Jobs', href: '#jobs', icon: Briefcase },
-  { name: 'AI Tools', href: '#tools', icon: Wrench },
+  { name: 'AI Tools', href: '/tools/', icon: Wrench },
   { name: 'AI Events', href: '#events', icon: Calendar },
   { name: 'AI Companies', href: '#companies', icon: Building2 },
   { name: 'AI Startups', href: '#startups', icon: Rocket },

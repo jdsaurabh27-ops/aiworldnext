@@ -18,6 +18,7 @@ interface CardProps {
   funding?: string;
   founded?: string;
   host?: string;
+  affiliateUrl?: string;
 }
 
 export default function Card(props: CardProps) {
@@ -27,10 +28,7 @@ export default function Card(props: CardProps) {
   const shareTitle = encodeURIComponent(props.title);
 
   return (
-    <a
-      href={props.link}
-      target="_blank"
-      rel="noopener noreferrer"
+    <article
       className="group bg-gray-900 rounded-xl overflow-hidden hover:ring-2 hover:ring-neon-blue transition-all duration-300 hover:transform hover:scale-105 border border-gray-800 hover:border-neon-blue shadow-lg hover:shadow-neon-blue/20"
     >
       <div className="relative h-48 overflow-hidden">
@@ -40,7 +38,8 @@ export default function Card(props: CardProps) {
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
           loading="lazy"
           onError={(e) => {
-            (e.target as HTMLImageElement).src = `https://picsum.photos/seed/aiworldnext-fallback-${encodeURIComponent(props.title)}/800/600`;
+            const image = e.target as HTMLImageElement;
+            image.onerror = null; image.src = "/brand/aiworldnext-icon.png"; image.style.objectFit = "contain";
           }}
         />
         {props.category && (
@@ -96,7 +95,7 @@ export default function Card(props: CardProps) {
 
       <div className="p-5">
         <h3 className="text-lg font-semibold text-white mb-2 line-clamp-2 group-hover:text-blue-400 transition-colors">
-          {props.title}
+          <a href={props.link} target={props.link.startsWith('/') ? undefined : '_blank'} rel="noopener noreferrer">{props.title}</a>
         </h3>
 
         {props.description && (
@@ -105,7 +104,7 @@ export default function Card(props: CardProps) {
           </p>
         )}
 
-        <div className="flex flex-wrap gap-2 text-xs text-gray-500">
+        <div className="flex flex-wrap gap-2 text-xs text-gray-400">
           {props.date && (
             <span className="flex items-center space-x-1">
               <Calendar className="w-3 h-3" />
@@ -154,11 +153,11 @@ export default function Card(props: CardProps) {
             </span>
           )}
 
-          {props.members && (
+          {props.members && props.members !== 'Not verified' && (
             <span className="text-blue-400">{props.members} members</span>
           )}
 
-          {props.funding && (
+          {props.funding && props.funding !== 'Not verified' && (
             <span className="text-green-400">{props.funding} funding</span>
           )}
 
@@ -167,11 +166,12 @@ export default function Card(props: CardProps) {
           )}
         </div>
 
-        <div className="flex items-center text-blue-400 text-sm mt-3 group-hover:text-blue-300">
+        <a href={props.link} target={props.link.startsWith('/') ? undefined : '_blank'} rel="noopener noreferrer" className="flex items-center text-blue-400 text-sm mt-3 group-hover:text-blue-300">
           <span>View Details</span>
           <ExternalLink className="w-4 h-4 ml-1" />
-        </div>
+        </a>
+        {props.affiliateUrl?.startsWith('https://') && <p className="text-sm text-gray-300 mt-3"><a href={props.affiliateUrl} target="_blank" rel="sponsored noopener noreferrer" className="text-neon-blue underline">Partner link</a> · We may earn a commission.</p>}
       </div>
-    </a>
+    </article>
   );
 }

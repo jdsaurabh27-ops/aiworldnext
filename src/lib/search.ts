@@ -1,3 +1,4 @@
+import { trackEvent } from './analytics';
 import news from '../data/news.json';
 import blogs from '../data/blogs.json';
 import jobs from '../data/jobs.json';
@@ -50,6 +51,7 @@ export function searchContent(query: string, section = 'All'): SearchItem[] {
 
 export function startSearch(query: string) {
   if (!query.trim()) return;
+  trackEvent('catalog_search', { query_length: query.trim().length, result_count: searchContent(query).length });
   window.dispatchEvent(new CustomEvent('aiworldnext:search', { detail: query.trim() }));
   window.location.hash = 'search-results';
 }

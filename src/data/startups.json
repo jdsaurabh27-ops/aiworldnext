@@ -4,7 +4,7 @@
     "title": "OpenAI",
     "description": "Leading AI research company behind GPT-6 with autonomous agent framework. 5M context windows and self-directed task planning. Valued at $500B with global enterprise adoption.",
     "founded": "2015",
-    "funding": "$65B",
+    "funding": "Not verified",
     "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80",
     "link": "https://openai.com",
     "category": "Foundation Models"
@@ -26,7 +26,7 @@
     "title": "Perplexity AI",
     "description": "AI search and operating system company reaching 300M users. Launches Perplexity OS for AI-first computing with native agentic search and task automation.",
     "founded": "2022",
-    "funding": "$2B",
+    "funding": "Not verified",
     "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.perplexity.ai",
     "category": "Search AI"
@@ -58,7 +58,7 @@
   {
     "id": 6,
     "title": "DeepSeek AI",
-    "description": "深度求索（DeepSeek），探索未至之境。专注于研究世界领先的通用人工智能底层模型与技术，开源 DeepSeek-V4、DeepSeek-R1 等前沿大模型。和 DeepSeek AI 对话，轻松接入 API。",
+    "description": "\u6df1\u5ea6\u6c42\u7d22\uff08DeepSeek\uff09\uff0c\u63a2\u7d22\u672a\u81f3\u4e4b\u5883\u3002\u4e13\u6ce8\u4e8e\u7814\u7a76\u4e16\u754c\u9886\u5148\u7684\u901a\u7528\u4eba\u5de5\u667a\u80fd\u5e95\u5c42\u6a21\u578b\u4e0e\u6280\u672f\uff0c\u5f00\u6e90 DeepSeek-V4\u3001DeepSeek-R1 \u7b49\u524d\u6cbf\u5927\u6a21\u578b\u3002\u548c DeepSeek AI \u5bf9\u8bdd\uff0c\u8f7b\u677e\u63a5\u5165 API\u3002",
     "founded": "2023",
     "funding": "Not verified",
     "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80",
@@ -120,7 +120,7 @@
     "title": "ElevenLabs",
     "description": "Leading voice AI with real-time voice cloning in 32 languages. Powering voice synthesis for 50M+ creators and expanding into autonomous AI voice agents.",
     "founded": "2022",
-    "funding": "$500M",
+    "funding": "Not verified",
     "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
     "link": "https://elevenlabs.io",
     "category": "Voice AI"

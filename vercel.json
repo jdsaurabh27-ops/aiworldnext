@@ -2,8 +2,8 @@
   "redirects": [
     {
       "source": "/pay",
-      "destination": "https://paypal.me/priyasharma1810",
-      "permanent": true
+      "destination": "/pay.html",
+      "permanent": false
     },
     {
       "source": "/terms",

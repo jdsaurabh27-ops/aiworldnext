@@ -5,7 +5,6 @@ import Hero from './components/Hero';
 import SearchResults from './components/SearchResults';
 import Section from './components/Section';
 import Card from './components/Card';
-import AdBanner from './components/AdBanner';
 import GoogleAnalytics from './components/GoogleAnalytics';
 
 const VisionSection = lazy(() => import('./components/VisionSection'));
@@ -49,6 +48,7 @@ function App() {
       <Navbar />
       <Hero />
       <SearchResults />
+      <div className="max-w-7xl mx-auto px-6 py-5 text-center text-gray-300">Browse complete categories: {['news','blogs','jobs','tools','events','companies','startups','robotics','podcasts','community','directories','resources'].map(name => <a key={name} href={`/${name}/`} className="inline-block mx-2 my-1 text-neon-blue underline capitalize">{name}</a>)}<p className="mt-3"><a href="/guides/" className="text-neon-blue underline">Practical AI guides</a> · <a href="/updates/" className="text-neon-blue underline">Weekly update status</a></p></div>
 
       {/* Vision & Mission */}
       <Suspense fallback={<LoadingFallback />}>
@@ -56,13 +56,6 @@ function App() {
       </Suspense>
 
       {/* Top Banner Ad */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-        <AdBanner
-          adSlot="1234567890"
-          adFormat="horizontal"
-          className="bg-gray-900 rounded-lg p-4"
-        />
-      </div>
 
       <Section
         id="news"
@@ -95,7 +88,7 @@ function App() {
             title={item.title}
             description={item.description}
             image={item.image}
-            link={item.link}
+            link={`/blogs/entry-${item.id}/`}
             date={item.date}
             author={item.author}
             authorImage={item.authorImage}
@@ -129,13 +122,6 @@ function App() {
       </Suspense>
 
       {/* Mid-page Banner Ad */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-        <AdBanner
-          adSlot="2345678901"
-          adFormat="horizontal"
-          className="bg-gray-900 rounded-lg p-4"
-        />
-      </div>
 
       {/* AI Tools Directory */}
       <Suspense fallback={<LoadingFallback />}>
@@ -143,13 +129,6 @@ function App() {
       </Suspense>
 
       {/* Middle Banner Ad */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-        <AdBanner
-          adSlot="2345678902"
-          adFormat="horizontal"
-          className="bg-gray-900 rounded-lg p-4"
-        />
-      </div>
 
       <Section
         id="resources"
@@ -170,13 +149,6 @@ function App() {
       </Section>
 
       {/* Middle Banner Ad */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-        <AdBanner
-          adSlot="3456789012"
-          adFormat="horizontal"
-          className="bg-gray-900 rounded-lg p-4"
-        />
-      </div>
 
       <Section
         id="robotics"
@@ -203,13 +175,6 @@ function App() {
       </Suspense>
 
       {/* Middle Banner Ad */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-        <AdBanner
-          adSlot="3456789013"
-          adFormat="horizontal"
-          className="bg-gray-900 rounded-lg p-4"
-        />
-      </div>
 
       <Section
         id="startups"
@@ -247,13 +212,6 @@ function App() {
       </Suspense>
 
       {/* Lower Banner Ad */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-        <AdBanner
-          adSlot="4567890123"
-          adFormat="horizontal"
-          className="bg-gray-900 rounded-lg p-4"
-        />
-      </div>
 
       <Section
         id="community"
@@ -298,13 +256,6 @@ function App() {
       </Suspense>
 
       {/* Bottom Banner Ad */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-        <AdBanner
-          adSlot="5678901234"
-          adFormat="horizontal"
-          className="bg-gray-900 rounded-lg p-4"
-        />
-      </div>
 
       <Footer />
     </div>

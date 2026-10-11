@@ -56,7 +56,7 @@ export default function AIToolsSection() {
                 title={product.title}
                 description={product.description}
                 image={product.image}
-                link={product.link}
+                link={`/tools/entry-${product.id}/`}
                 price={product.price}
                 category={product.category}
               />
@@ -66,10 +66,10 @@ export default function AIToolsSection() {
 
         <div className="mt-12 text-center">
           <a
-            href="#submit"
+            href="/tools/"
             className="inline-block px-8 py-4 bg-gray-800 text-white rounded-lg text-lg font-semibold hover:bg-gray-700 transition-all duration-300 border-2 border-gray-700 hover:border-neon-blue"
           >
-            Submit Your AI Tool
+            Browse All Tools & Guides
           </a>
         </div>
       </div>

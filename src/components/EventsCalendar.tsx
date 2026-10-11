@@ -14,9 +14,10 @@ interface Event {
 }
 
 export default function EventsCalendar() {
-  const events = eventsData as Event[];
+  const today = new Date().toISOString().slice(0, 10);
+  const events = (eventsData as Event[]).filter(event => (event.endDate || event.date) >= today);
   const featuredEvents = events.filter(event => event.featured);
-  const upcomingEvents = events.sort((a, b) =>
+  const upcomingEvents = [...events].sort((a, b) =>
     new Date(a.date).getTime() - new Date(b.date).getTime()
   );
 
@@ -37,6 +38,7 @@ export default function EventsCalendar() {
   };
 
   const getEventStatus = (dateStr: string) => {
+    if (dateStr <= today) return 'In progress';
     const eventDate = new Date(dateStr);
     const now = new Date();
     const daysUntil = Math.ceil((eventDate.getTime() - now.getTime()) / (1000 * 60 * 60 * 24));
@@ -53,7 +55,7 @@ export default function EventsCalendar() {
           <div className="inline-flex items-center justify-center w-16 h-16 bg-purple-500/20 rounded-2xl mb-6">
             <Calendar className="w-8 h-8 text-purple-400" />
           </div>
-          <h2 className="text-4xl font-bold text-white mb-4">AI Events Calendar 2026</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">AI Events Calendar</h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
             Connect with the global AI community at premier conferences, summits, and workshops
           </p>

@@ -84,6 +84,17 @@ AI_JOB_WORDS = (
     "llm", "natural language processing",
 )
 
+def feed_image(entry):
+    """Use source-provided media only; otherwise show our branded placeholder."""
+    media = list(entry.get('media_content', [])) + list(entry.get('media_thumbnail', []))
+    for item in media:
+        url = str(item.get('url', ''))
+        if url.startswith('https://'):
+            return url
+    match = re.search(r'<img[^>]+src=[\"\'](https://[^\"\']+)', str(entry.get('summary', '')), re.I)
+    return match.group(1) if match else '/brand/aiworldnext-icon.png'
+
+
 IMAGES = {
     "news": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
     "blogs": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=1200",
@@ -214,7 +225,7 @@ def collect(kind, exclude_items=()):
                 "id": len(results) + 1,
                 "title": title[:220],
                 "description": (
-                    description[:600]
+                    " ".join(description.split()[:35])
                     if description
                     else (
                         "Read the original report from "
@@ -222,7 +233,7 @@ def collect(kind, exclude_items=()):
                     )
                 ),
                 "date": item_date,
-                "image": IMAGES[kind],
+                "image": feed_image(entry),
                 "link": link,
                 "category": source["category"],
             }
@@ -421,7 +432,7 @@ def collect_jobs():
             "id": len(results) + 1,
             "title": title[:220],
             "description": (
-                description[:600]
+                " ".join(description.split()[:35])
                 if description
                 else (
                     f"{title} at {company}. "
@@ -558,7 +569,7 @@ def collect_events():
             "location": "See official event page",
             "type": "AI Event",
             "description": (
-                description[:600]
+                " ".join(description.split()[:35])
                 if description
                 else "Visit the official page for event details."
             ),

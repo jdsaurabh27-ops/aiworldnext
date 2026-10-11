@@ -21,7 +21,7 @@
   },
   {
     "id": 3,
-    "title": "PyTorch 3.0",
+    "title": "PyTorch",
     "description": "PyTorch Foundation is the deep learning community home for the open source PyTorch framework and ecosystem.",
     "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
     "link": "https://pytorch.org",
