@@ -6,6 +6,11 @@ on:
     # Every Monday at 03:30 UTC = 09:00 IST
     - cron: "30 3 * * 1"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/weekly-content.yml"
 
 permissions:
   contents: write
@@ -17,6 +22,7 @@ concurrency:
 jobs:
   update-content:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -27,11 +33,9 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install feedparser openai
+        run: pip install feedparser
 
-      - name: Collect and summarize content
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      - name: Refresh all AI content sections
         run: python scripts/update_content.py
 
       - name: Commit updated content

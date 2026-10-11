@@ -3,6 +3,8 @@ import re
 import time
 import html
 import calendar
+import os
+from catalog_updates import CATALOG_SECTIONS, refresh_catalog
 import urllib.request
 from datetime import date, datetime
 from pathlib import Path
@@ -602,22 +604,51 @@ def write_json(filename, data):
 
 def main():
     DATA.mkdir(parents=True, exist_ok=True)
+    report = {}
+    successful = 0
 
-    # Collect all five sections before writing any files.
-    # If collection fails, no JSON file is overwritten.
-    news = collect("news")
-    blogs = collect("blogs", exclude_items=news)
-    robotics = collect("robotics")
-    jobs = collect_jobs()
-    events = collect_events()
+    def update(section, collector):
+        nonlocal successful
+        try:
+            items = collector()
+            write_json(section + ".json", items)
+            report[section] = {"status": "updated", "entries": len(items)}
+            successful += 1
+        except Exception as exc:
+            report[section] = {"status": "retained", "reason": str(exc)}
+            print(f"WARNING: {section}: {exc}")
 
-    write_json("news.json", news)
-    write_json("blogs.json", blogs)
-    write_json("robotics.json", robotics)
-    write_json("jobs.json", jobs)
-    write_json("events.json", events)
+    update("news", lambda: collect("news"))
+    # Even if News fails, exclude its retained entries from Blogs.
+    news_path = DATA / "news.json"
+    news = json.loads(news_path.read_text()) if news_path.exists() else []
+    update("blogs", lambda: collect("blogs", exclude_items=news))
+    update("robotics", lambda: collect("robotics"))
+    update("jobs", collect_jobs)
+    update("events", collect_events)
 
-    print("All five content sections updated successfully.")
+    for section in CATALOG_SECTIONS:
+        try:
+            existing = json.loads((DATA / (section + ".json")).read_text())
+            items, checked, retained = refresh_catalog(section, existing)
+            write_json(section + ".json", items)
+            report[section] = {"status": "updated", "checked": checked, "retained": retained}
+            successful += 1
+        except Exception as exc:
+            report[section] = {"status": "retained", "reason": str(exc)}
+            print(f"WARNING: {section}: {exc}")
+
+    write_json("update-status.json", {"runDate": date.today().isoformat(), "sections": report})
+    summary = "# AIWorldNext weekly update\n\n| Section | Status | Details |\n| --- | --- | --- |\n"
+    for section, result in report.items():
+        summary += f"| {section} | {result['status']} | {json.dumps(result).replace('|', '/')} |\n"
+    summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary_path:
+        with open(summary_path, "a", encoding="utf-8") as handle:
+            handle.write(summary)
+    print(f"Updated {successful} of {len(report)} sections; see update-status.json for source failures.")
+    if not successful:
+        raise RuntimeError("All source updates failed")
 
 
 if __name__ == "__main__":
