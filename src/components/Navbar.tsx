@@ -1,3 +1,4 @@
+import SearchForm from './SearchForm';
 import { Menu, X, Search } from 'lucide-react';
 import { useState } from 'react';
 
@@ -84,15 +85,7 @@ export default function Navbar() {
 
         {isSearchOpen && (
           <div className="pb-4">
-            <div className="relative">
-              <input
-                type="text"
-                placeholder="Search AI news, jobs, tools, and resources..."
-                className="w-full px-4 py-3 pl-12 bg-gray-900 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-neon-blue focus:ring-1 focus:ring-neon-blue transition-all duration-200"
-                autoFocus
-              />
-              <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
-            </div>
+            <SearchForm autoFocus />
           </div>
         )}
       </div>
@@ -101,11 +94,7 @@ export default function Navbar() {
         <div className="lg:hidden bg-gray-900 border-t border-gray-800">
           <div className="px-2 pt-2 pb-3 space-y-1">
             <div className="px-3 py-2">
-              <input
-                type="text"
-                placeholder="Search..."
-                className="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-md text-white placeholder-gray-400 focus:outline-none focus:border-neon-blue focus:ring-1 focus:ring-neon-blue transition-all duration-200"
-              />
+              <SearchForm />
             </div>
             {navLinks.map((link) => (
               <a

@@ -2,6 +2,7 @@ import { lazy, Suspense } from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
+import SearchResults from './components/SearchResults';
 import Section from './components/Section';
 import Card from './components/Card';
 import AdBanner from './components/AdBanner';
@@ -18,8 +19,6 @@ const SubmitSection = lazy(() => import('./components/SubmitSection'));
 import {
   Newspaper,
   PenTool,
-  Briefcase,
-  ShoppingBag,
   BookOpen,
   Rocket,
   Bot,
@@ -30,8 +29,6 @@ import {
 
 import newsData from './data/news.json';
 import blogsData from './data/blogs.json';
-import jobsData from './data/jobs.json';
-import productsData from './data/products.json';
 import resourcesData from './data/resources.json';
 import startupsData from './data/startups.json';
 import roboticsData from './data/robotics.json';
@@ -51,6 +48,7 @@ function App() {
       <GoogleAnalytics />
       <Navbar />
       <Hero />
+      <SearchResults />
 
       {/* Vision & Mission */}
       <Suspense fallback={<LoadingFallback />}>

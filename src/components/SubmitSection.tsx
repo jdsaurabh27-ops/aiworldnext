@@ -1,6 +1,5 @@
 import { useState, FormEvent } from 'react';
 import { Send, Briefcase, Wrench, FileText, Calendar, CheckCircle, AlertCircle } from 'lucide-react';
-import Card from './Card';
 import { supabase, isSupabaseAvailable } from '../lib/supabase';
 
 type SubmissionType = 'job' | 'tool' | 'blog' | 'event';
@@ -55,7 +54,7 @@ export default function SubmitSection() {
           })
         });
         const payload = await response.json().catch(() => null);
-        if (!response.ok || payload?.success === false || payload?.success === 'false') {
+        if (!response.ok || !(payload?.success === true || payload?.success === 'true')) {
           throw new Error(payload?.message || 'The submission service did not accept the request. Please email business@aiworldnext.com.');
         }
         setSubmitStatus('success');
@@ -141,7 +140,7 @@ export default function SubmitSection() {
           })
         });
         const fallbackPayload = await fallbackResponse.json().catch(() => null);
-        if (!fallbackResponse.ok || fallbackPayload?.success === false || fallbackPayload?.success === 'false') {
+        if (!fallbackResponse.ok || !(fallbackPayload?.success === true || fallbackPayload?.success === 'true')) {
           throw new Error(result.error.message || fallbackPayload?.message || 'Submission failed. Please try again or email business@aiworldnext.com.');
         }
       }
@@ -171,7 +170,7 @@ export default function SubmitSection() {
           </p>
         </div>
 
-        <Card>
+        <div className="bg-gray-900 border border-gray-800 rounded-xl p-4 sm:p-8">
           <div className="mb-8">
             <label className="block text-sm font-medium text-gray-400 mb-4">Select Submission Type</label>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -644,7 +643,7 @@ export default function SubmitSection() {
               </p>
             </div>
           </form>
-        </Card>
+        </div>
       </div>
     </section>
   );

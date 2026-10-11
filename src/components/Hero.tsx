@@ -1,4 +1,5 @@
-import { Sparkles, TrendingUp, Users, Briefcase, Newspaper, ArrowRight, Search } from 'lucide-react';
+import SearchForm from './SearchForm';
+import { Sparkles, TrendingUp, Users, Briefcase, Newspaper, ArrowRight } from 'lucide-react';
 
 export default function Hero() {
   return (
@@ -29,17 +30,7 @@ export default function Hero() {
           </p>
 
           <div className="max-w-3xl mx-auto mb-10">
-            <div className="relative">
-              <Search className="absolute left-6 top-1/2 transform -translate-y-1/2 w-6 h-6 text-gray-400" />
-              <input
-                type="text"
-                placeholder="Search AI news, jobs, tools, blogs, and more..."
-                className="w-full px-6 py-5 pl-16 bg-white/10 backdrop-blur-md border-2 border-gray-700 rounded-full text-white placeholder-gray-400 focus:outline-none focus:border-neon-blue focus:ring-2 focus:ring-neon-blue/50 transition-all duration-300 text-lg"
-              />
-              <button className="absolute right-2 top-1/2 transform -translate-y-1/2 px-8 py-3 bg-neon-blue text-black rounded-full font-semibold hover:bg-neon-cyan transition-all duration-300 shadow-lg shadow-neon-blue/30">
-                Search
-              </button>
-            </div>
+            <SearchForm />
             <div className="flex flex-wrap gap-2 mt-4 justify-center">
               <span className="text-gray-500 text-sm">Popular searches:</span>
               <a href="#news" className="text-neon-blue text-sm hover:underline">ChatGPT</a>
