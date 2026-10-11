@@ -18,37 +18,37 @@ FEEDS = [
         "url": "https://openai.com/news/rss.xml",
         "publisher": "OpenAI",
         "category": "AI News",
-        "targets": ["news", "blogs"],
+        "targets": ["news"],
     },
     {
         "url": "https://deepmind.google/blog/rss.xml",
         "publisher": "Google DeepMind",
         "category": "AI Research",
-        "targets": ["news", "blogs", "robotics"],
+        "targets": ["blogs", "robotics"],
     },
     {
         "url": "https://huggingface.co/blog/feed.xml",
         "publisher": "Hugging Face",
         "category": "AI Tools & Research",
-        "targets": ["news", "blogs"],
+        "targets": ["blogs"],
     },
     {
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "publisher": "TechCrunch",
         "category": "AI Industry",
-        "targets": ["news", "blogs", "robotics"],
+        "targets": ["news", "robotics"],
     },
     {
         "url": "https://www.technologyreview.com/feed/",
         "publisher": "MIT Technology Review",
         "category": "AI Research",
-        "targets": ["news", "blogs"],
+        "targets": ["news"],
     },
     {
         "url": "https://blogs.nvidia.com/feed/",
         "publisher": "NVIDIA",
         "category": "AI Hardware",
-        "targets": ["news", "blogs", "robotics"],
+        "targets": ["news", "robotics"],
     },
     {
         "url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
@@ -133,11 +133,19 @@ def published_date(entry):
     ).isoformat()
 
 
-def collect(kind):
+def article_keys(item):
+    """Match articles across sections despite URL queries or title casing."""
+    link = str(item.get("link") or "").split("?")[0].split("#")[0].rstrip("/").lower()
+    title = clean_text(item.get("title")).casefold()
+    return {key for key in (f"url:{link}" if link else "", f"title:{title}" if title else "") if key}
+
+
+def collect(kind, exclude_items=()):
     today = date.today()
     max_age = 180 if kind == "blogs" else 90
     results = []
     seen = set()
+    excluded = set().union(*(article_keys(item) for item in exclude_items))
 
     for source in FEEDS:
         if kind not in source["targets"]:
@@ -194,10 +202,11 @@ def collect(kind):
                 ):
                     continue
 
-            if link in seen:
+            keys = article_keys({"link": link, "title": title})
+            if keys & (seen | excluded):
                 continue
 
-            seen.add(link)
+            seen.update(keys)
 
             item = {
                 "id": len(results) + 1,
@@ -597,7 +606,7 @@ def main():
     # Collect all five sections before writing any files.
     # If collection fails, no JSON file is overwritten.
     news = collect("news")
-    blogs = collect("blogs")
+    blogs = collect("blogs", exclude_items=news)
     robotics = collect("robotics")
     jobs = collect_jobs()
     events = collect_events()

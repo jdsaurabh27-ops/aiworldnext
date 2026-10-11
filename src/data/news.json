@@ -18,15 +18,6 @@
     "category": "AI News"
   },
   {
-    "id": 181,
-    "title": "Impactful scheduling for GPU clusters",
-    "description": "Read the original report from Hugging Face.",
-    "date": "2026-10-09",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
-    "link": "https://huggingface.co/blog/allenai/impactful-scheduling",
-    "category": "AI Tools & Research"
-  },
-  {
     "id": 235,
     "title": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
     "description": "Anthropic did not discover this behavior until over two months after its AI submitted the false tip.",
