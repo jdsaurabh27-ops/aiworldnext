@@ -12,12 +12,14 @@
   {
     "id": 2,
     "title": "Anthropic",
-    "description": "AI safety leader behind Claude 5 with self-improving code generation and 99.8% SWE-bench. Constitutional AI v3 with real-time alignment monitoring.",
+    "description": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
     "founded": "2021",
-    "funding": "$35B",
+    "funding": "Not verified",
     "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.anthropic.com",
-    "category": "AI Safety"
+    "category": "AI Safety",
+    "sourceUrl": "https://www.anthropic.com",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 3,
@@ -32,72 +34,86 @@
   {
     "id": 4,
     "title": "Figure AI",
-    "description": "Humanoid robotics leader with 5,000+ robots deployed across 500+ factories. Figure 03 achieves human-level dexterity with 99.95% operational uptime.",
+    "description": "Figure is the first-of-its-kind AI robotics company bringing a general purpose humanoid to life.",
     "founded": "2022",
-    "funding": "$3.5B",
+    "funding": "Not verified",
     "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.figure.ai",
-    "category": "Robotics"
+    "category": "Robotics",
+    "sourceUrl": "https://www.figure.ai",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 5,
     "title": "Runway",
-    "description": "Video AI pioneer with Gen-5 powering first Oscar-nominated AI film. Real-time 4K video generation at 60fps adopted by major game studios and filmmakers.",
+    "description": "Runway is building foundational Real-World Intelligence that can understand, simulate and act in the world. We offer products and services built on-top of this intelligence to empower individuals and organizations to do more in the world.",
     "founded": "2018",
-    "funding": "$950M",
+    "funding": "Not verified",
     "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
     "link": "https://runwayml.com",
-    "category": "Video AI"
+    "category": "Video AI",
+    "sourceUrl": "https://runwayml.com",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 6,
     "title": "DeepSeek AI",
-    "description": "Chinese AI lab behind DeepSeek R2 matching GPT-6 at $80M training cost. Novel sparse attention architecture with 2T parameter MoE design.",
+    "description": "深度求索（DeepSeek），探索未至之境。专注于研究世界领先的通用人工智能底层模型与技术，开源 DeepSeek-V4、DeepSeek-R1 等前沿大模型。和 DeepSeek AI 对话，轻松接入 API。",
     "founded": "2023",
-    "funding": "$5B",
+    "funding": "Not verified",
     "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.deepseek.com",
-    "category": "Foundation Models"
+    "category": "Foundation Models",
+    "sourceUrl": "https://www.deepseek.com",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 7,
     "title": "Mistral AI",
-    "description": "European AI champion building efficient frontier models. Valued at $15B with EU government contracts for sovereign AI infrastructure.",
+    "description": "Frontier open-weight models you own and control. Customize with Forge, deploy with Studio, run on-prem, your VPC, or our cloud.",
     "founded": "2023",
-    "funding": "$1.5B",
+    "funding": "Not verified",
     "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80",
     "link": "https://mistral.ai",
-    "category": "Foundation Models"
+    "category": "Foundation Models",
+    "sourceUrl": "https://mistral.ai",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 8,
     "title": "1X Technologies",
-    "description": "Home humanoid robotics startup scaling NEO to mass production. 10,000 units planned for 2026 with 1,000-family home testing program across 15 countries.",
+    "description": "We're an AI and robotics company based in Palo Alto, California. We create safe humanoid robots that do your chores and offer personalized assistance.",
     "founded": "2014",
-    "funding": "$400M",
+    "funding": "Not verified",
     "image": "https://images.unsplash.com/photo-1535378620166-273708d44e4c?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.1x.tech",
-    "category": "Home Robotics"
+    "category": "Home Robotics",
+    "sourceUrl": "https://www.1x.tech",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 9,
     "title": "Cursor",
-    "description": "AI-first code editor with codebase understanding. Integrates Claude 5 and GPT-6 for autonomous coding, reaching $500M ARR and 5M developers.",
+    "description": "Built to make you extraordinarily productive, agents turn ideas into code. Accelerate development by handing off tasks to Cursor.",
     "founded": "2023",
-    "funding": "$300M",
+    "funding": "Not verified",
     "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
     "link": "https://cursor.sh",
-    "category": "Dev Tools"
+    "category": "Dev Tools",
+    "sourceUrl": "https://cursor.sh",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 10,
     "title": "Sanctuary AI",
-    "description": "Phoenix Gen 10 achieves full hand autonomy with sub-millimeter precision. 100+ deployment sites across manufacturing and healthcare sectors.",
+    "description": "Discover Sanctuary AI's production-ready Physical AI platform that helps industrial leaders automate complex and dynamic manufacturing tasks.",
     "founded": "2018",
-    "funding": "$450M",
+    "funding": "Not verified",
     "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80",
     "link": "https://sanctuary.ai",
-    "category": "Robotics"
+    "category": "Robotics",
+    "sourceUrl": "https://sanctuary.ai",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 11,
@@ -112,11 +128,13 @@
   {
     "id": 12,
     "title": "Glean",
-    "description": "Enterprise AI search with autonomous agent capabilities. Reaches $1B ARR helping Fortune 500 companies deploy coordinated AI agent swarms across internal systems.",
+    "description": "Glean is the Enterprise AI platform connected to your enterprise's data. Find, create, and automate anything. Explore what Glean can do for you!",
     "founded": "2019",
-    "funding": "$650M",
+    "funding": "Not verified",
     "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.glean.com",
-    "category": "Enterprise Search"
+    "category": "Enterprise Search",
+    "sourceUrl": "https://www.glean.com",
+    "checkedAt": "2026-10-11"
   }
 ]

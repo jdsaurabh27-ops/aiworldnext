@@ -11,20 +11,24 @@
   {
     "id": 2,
     "title": "Claude Pro with Claude 5 Self-Improving Code",
-    "description": "Access to Claude 5 with 99.8% SWE-bench, recursive self-improvement for code generation, constitutional AI v3, and autonomous coding agent mode.",
-    "price": "$30/month",
+    "description": "Claude is the AI assistant for work. Hand off tasks, turn ideas into decks, spreadsheets and prototypes, and run scheduled tasks across your apps and files.",
+    "price": "See official pricing",
     "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.anthropic.com/claude",
-    "category": "AI Assistant"
+    "category": "AI Assistant",
+    "sourceUrl": "https://www.anthropic.com/claude",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 3,
     "title": "Google One AI Premium with Gemini 3",
-    "description": "Access to Gemini 3 with superhuman performance on 40+ benchmarks, agentic Workspace automation, 2TB storage, and advanced AI features across Google products.",
-    "price": "$25/month",
+    "description": "Google One bundles cloud storage, powerful AI capabilities, and helpful features across Google — all in one shareable plan.",
+    "price": "See official pricing",
     "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80",
     "link": "https://one.google.com",
-    "category": "AI Assistant"
+    "category": "AI Assistant",
+    "sourceUrl": "https://one.google.com",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 4,
@@ -38,29 +42,35 @@
   {
     "id": 5,
     "title": "Cursor Pro with Claude 5 & GPT-6",
-    "description": "AI code editor with autonomous coding from Claude 5 and GPT-6. Codebase understanding, self-improving code generation, and full repo refactoring.",
-    "price": "$25/month",
+    "description": "Built to make you extraordinarily productive, agents turn ideas into code. Accelerate development by handing off tasks to Cursor.",
+    "price": "See official pricing",
     "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80",
     "link": "https://cursor.sh",
-    "category": "Development"
+    "category": "Development",
+    "sourceUrl": "https://cursor.sh",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 6,
     "title": "GitHub Copilot X2 with GPT-6 Agents",
-    "description": "AI pair programmer powered by GPT-6 autonomous agents. Full codebase awareness, autonomous PR generation, and multi-agent team collaboration.",
-    "price": "$44/user/month",
+    "description": "GitHub Copilot works every step of the way, from an open issue to reviewing and merging a pull request. Use it in your editor, the terminal, on your desktop, and on GitHub.",
+    "price": "See official pricing",
     "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
     "link": "https://github.com/features/copilot",
-    "category": "Development"
+    "category": "Development",
+    "sourceUrl": "https://github.com/features/copilot",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 7,
     "title": "Runway Gen-5 Studio",
-    "description": "Create feature-length films from text. Gen-5 with real-time 4K video at 60fps, interactive scene editing, and Oscar-nominated cinematic quality.",
-    "price": "$120/month",
+    "description": "Compare Runway pricing plans for AI video generation. Choose from Free, Standard, Pro and Max plans with flexible credits and features.",
+    "price": "See official pricing",
     "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
     "link": "https://runwayml.com/pricing",
-    "category": "Video AI"
+    "category": "Video AI",
+    "sourceUrl": "https://runwayml.com/pricing",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 8,
@@ -92,11 +102,13 @@
   {
     "id": 11,
     "title": "Apple iPhone 17 Pro with Intelligence 3.0",
-    "description": "GPT-6 class AI entirely on-device with A19 chip. Zero cloud dependency for AGI-level performance. Autonomous app automation and predictive task completion.",
-    "price": "$1,299",
+    "description": "Designed for Apple Intelligence. Discover iPhone Duo, iPhone 18 Pro, iPhone Air, iPhone 17, and iPhone 17e.",
+    "price": "See official pricing",
     "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.apple.com/iphone-17-pro",
-    "category": "Hardware"
+    "category": "Hardware",
+    "sourceUrl": "https://www.apple.com/iphone-17-pro",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 12,

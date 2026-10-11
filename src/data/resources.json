@@ -2,50 +2,62 @@
   {
     "id": 1,
     "title": "Hugging Face",
-    "description": "The AI community platform with 1.5M+ models, datasets, agent hubs, and spaces. Hub for open-source LLMs, transformers, and autonomous agents.",
+    "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
     "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
     "link": "https://huggingface.co",
-    "category": "Platform"
+    "category": "Platform",
+    "sourceUrl": "https://huggingface.co",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 2,
     "title": "LangChain & LangGraph",
-    "description": "Framework for building autonomous AI agents and multi-agent orchestration systems. Production-ready with graph-based agent workflows and RAG pipelines.",
+    "description": "LangChain enables every company to own their intelligence. Control, govern, and compound intelligence with an open agent engineering platform.",
     "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.langchain.com",
-    "category": "Framework"
+    "category": "Framework",
+    "sourceUrl": "https://www.langchain.com",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 3,
     "title": "PyTorch 3.0",
-    "description": "Leading deep learning framework with distributed training, compiled execution, and native support for frontier model training at scale.",
+    "description": "PyTorch Foundation is the deep learning community home for the open source PyTorch framework and ecosystem.",
     "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
     "link": "https://pytorch.org",
-    "category": "Framework"
+    "category": "Framework",
+    "sourceUrl": "https://pytorch.org",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 4,
     "title": "Anthropic API",
-    "description": "Access Claude 5 with self-improving code generation, 99.8% SWE-bench, and constitutional AI v3 for enterprise-grade AI applications.",
+    "description": "Everything your team needs to build AI agents and run them in production: frontier models, a managed harness, context management, and infrastructure.",
     "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.anthropic.com/api",
-    "category": "API"
+    "category": "API",
+    "sourceUrl": "https://www.anthropic.com/api",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 5,
     "title": "Papers With Code",
-    "description": "100,000+ ML papers with code implementations, benchmarks, and datasets for reproducible research and autonomous agent development.",
+    "description": "Your daily dose of AI research from AK",
     "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
     "link": "https://paperswithcode.com",
-    "category": "Research"
+    "category": "Research",
+    "sourceUrl": "https://paperswithcode.com",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 6,
     "title": "Ollama",
-    "description": "Run open-source LLMs locally with ease. Download and run Llama 5, Mistral Large 3, DeepSeek R2, and other frontier models on your machine.",
+    "description": "Ollama is the easiest way to run and build with open AI models locally or in the cloud on macOS, Windows, and Linux.",
     "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80",
     "link": "https://ollama.ai",
-    "category": "Tools"
+    "category": "Tools",
+    "sourceUrl": "https://ollama.ai",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 7,
@@ -58,34 +70,42 @@
   {
     "id": 8,
     "title": "Replicate",
-    "description": "Run and deploy ML models in the cloud with simple API. Access 10,000+ open-source models including latest autonomous agent frameworks.",
+    "description": "Run open-source machine learning models with a cloud API",
     "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=1200&q=80",
     "link": "https://replicate.com",
-    "category": "Platform"
+    "category": "Platform",
+    "sourceUrl": "https://replicate.com",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 9,
     "title": "Fast.ai Practical Deep Learning",
-    "description": "Free course making state-of-the-art deep learning accessible. Learn to build autonomous AI agents and real-world AI applications.",
+    "description": "A free course designed for people with some coding experience, who want to learn how to apply deep learning and machine learning to practical problems.",
     "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80",
     "link": "https://course.fast.ai",
-    "category": "Education"
+    "category": "Education",
+    "sourceUrl": "https://course.fast.ai",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 10,
     "title": "Kaggle",
-    "description": "Data science platform with 25M users, 100K+ datasets, competitions, and free GPU/TPU notebooks for AI research and agent development.",
+    "description": "Discover what actually works in AI. Join millions of builders, researchers, and labs evaluating agents, models, and frontier technology through crowdsourced benchmarks, competitions, and hackathons.",
     "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.kaggle.com",
-    "category": "Community"
+    "category": "Community",
+    "sourceUrl": "https://www.kaggle.com",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 11,
     "title": "Pinecone Vector Database",
-    "description": "Specialized vector database for building RAG applications, autonomous agent memory, and AI-powered search at enterprise scale.",
+    "description": "Pinecone is the trusted AI knowledge company. Its AI knowledge platform—Database, Nexus, and Marketplace—powers accurate, fast, cost-effective AI for 10,000+ customers and 1M developers worldwide.",
     "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.pinecone.io",
-    "category": "Infrastructure"
+    "category": "Infrastructure",
+    "sourceUrl": "https://www.pinecone.io",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 12,
@@ -98,25 +118,31 @@
   {
     "id": 13,
     "title": "Andrej Karpathy's AI Course",
-    "description": "Free YouTube course on building neural networks and autonomous agents from scratch by former Tesla AI director and OpenAI researcher.",
+    "description": "Share your videos with friends, family, and the world",
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.youtube.com/@AndrejKarpathy",
-    "category": "Education"
+    "category": "Education",
+    "sourceUrl": "https://www.youtube.com/@AndrejKarpathy",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 14,
     "title": "LlamaIndex",
-    "description": "Data framework for connecting custom data sources to LLMs and autonomous agents. Essential for building RAG and agent memory systems.",
+    "description": "LlamaParse is the world's best agentic OCR for processing complex documents with messy tables, charts, images, and more with human-level accuracy.",
     "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.llamaindex.ai",
-    "category": "Framework"
+    "category": "Framework",
+    "sourceUrl": "https://www.llamaindex.ai",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 15,
     "title": "Modal",
-    "description": "Serverless platform for running AI workloads and autonomous agents. Deploy ML models, training jobs, and agent pipelines with auto-scaling.",
+    "description": "Cloud infrastructure for teams that develop, train, and serve AI applications at scale.",
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
     "link": "https://modal.com",
-    "category": "Infrastructure"
+    "category": "Infrastructure",
+    "sourceUrl": "https://modal.com",
+    "checkedAt": "2026-10-11"
   }
 ]

@@ -11,47 +11,57 @@
   {
     "id": 2,
     "title": "Hugging Face Discord",
-    "description": "Active community of 200,000+ ML practitioners sharing models, agents, datasets, and building open-source AI together.",
-    "members": "200,000+",
+    "description": "We're working to democratize good machine learning 🤗Verify to link your Hub and Discord accounts! | 242111 members",
+    "members": "Not verified",
     "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=80",
     "link": "https://hf.co/join/discord",
-    "category": "Chat"
+    "category": "Chat",
+    "sourceUrl": "https://hf.co/join/discord",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 3,
     "title": "AI Meetups Global",
-    "description": "Local AI meetup groups in 500+ cities worldwide hosting talks on autonomous agents, robotics, and AI careers.",
-    "members": "350,000+",
+    "description": "Find Meetup events so you can do more of what matters to you. Or create your own group and meet people near you who share your interests.",
+    "members": "Not verified",
     "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.meetup.com/topics/artificial-intelligence",
-    "category": "Events"
+    "category": "Events",
+    "sourceUrl": "https://www.meetup.com/topics/artificial-intelligence",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 4,
     "title": "Women in AI",
-    "description": "Global community of 100,000+ members promoting diversity and inclusion in artificial intelligence and autonomous systems.",
-    "members": "100,000+",
+    "description": "Women in AI (WAI) is a nonprofit, community-driven initiative bringing awareness and knowledge through education, events, and blogging.",
+    "members": "Not verified",
     "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.womeninai.co",
-    "category": "Diversity"
+    "category": "Diversity",
+    "sourceUrl": "https://www.womeninai.co",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 5,
     "title": "AI Stack Exchange",
-    "description": "Q&A platform for AI researchers and practitioners with 50,000+ expert-verified answers on autonomous agents and ML.",
-    "members": "50,000+",
+    "description": "Q&A for people interested in conceptual questions about life and challenges in a world where \"cognitive\" functions can be mimicked in purely digital environment",
+    "members": "Not verified",
     "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=80",
     "link": "https://ai.stackexchange.com",
-    "category": "Q&A"
+    "category": "Q&A",
+    "sourceUrl": "https://ai.stackexchange.com",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 6,
     "title": "MLOps Community",
-    "description": "Community of 120,000+ dedicated to autonomous agent deployment, MLOps, and production AI systems at scale.",
-    "members": "120,000+",
+    "description": "Join 70,000+ ML engineers sharing knowledge, solving real MLOps problems, networking, and growing together. Learn best practices, meet peers, and advance your career.",
+    "members": "Not verified",
     "image": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1200&q=80",
     "link": "https://mlops.community",
-    "category": "Professional"
+    "category": "Professional",
+    "sourceUrl": "https://mlops.community",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 7,
@@ -74,19 +84,23 @@
   {
     "id": 9,
     "title": "Robotics Discord Server",
-    "description": "Community of 80,000+ robotics enthusiasts, engineers, and professionals sharing humanoid robot projects and research.",
-    "members": "80,000+",
+    "description": "Check out the Centreville Robotics community on Discord - hang out with 513 other members and enjoy free voice and text chat.",
+    "members": "Not verified",
     "image": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1200&q=80",
     "link": "https://discord.gg/robotics",
-    "category": "Robotics"
+    "category": "Robotics",
+    "sourceUrl": "https://discord.gg/robotics",
+    "checkedAt": "2026-10-11"
   },
   {
     "id": 10,
     "title": "LinkedIn AI Group",
-    "description": "Professional network of 2M+ AI practitioners, researchers, autonomous agent developers, and business leaders.",
-    "members": "2,000,000+",
+    "description": "Login to LinkedIn to keep in touch with people you know, share ideas, and build your career.",
+    "members": "Not verified",
     "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
     "link": "https://www.linkedin.com/groups/artificial-intelligence",
-    "category": "Professional"
+    "category": "Professional",
+    "sourceUrl": "https://www.linkedin.com/groups/artificial-intelligence",
+    "checkedAt": "2026-10-11"
   }
 ]
