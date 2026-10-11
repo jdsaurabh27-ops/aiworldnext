@@ -42,7 +42,19 @@ export default function Navbar() {
             ))}
           </div>
 
-          <div className="hidden 2xl:flex items-center space-x-3">
+
+
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            aria-label="Toggle navigation menu"
+            aria-expanded={isOpen}
+            className="lg:hidden p-2 rounded-md text-gray-400 hover:text-neon-blue hover:bg-gray-900 transition-all duration-200"
+          >
+            {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          </button>
+        </div>
+
+          <div className="flex flex-wrap items-center justify-center lg:justify-end gap-2 border-t border-gray-800 py-2">
             <button
               onClick={() => setIsSearchOpen(!isSearchOpen)}
               className="p-2 rounded-md text-gray-400 hover:text-neon-blue hover:bg-gray-900 transition-all duration-200"
@@ -70,18 +82,8 @@ export default function Navbar() {
             </a>
           </div>
 
-          <button
-            onClick={() => setIsOpen(!isOpen)}
-            aria-label="Toggle navigation menu"
-            aria-expanded={isOpen}
-            className="2xl:hidden p-2 rounded-md text-gray-400 hover:text-neon-blue hover:bg-gray-900 transition-all duration-200"
-          >
-            {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
-        </div>
-
         {isSearchOpen && (
-          <div className="hidden 2xl:block pb-4">
+          <div className="pb-4">
             <div className="relative">
               <input
                 type="text"
@@ -96,7 +98,7 @@ export default function Navbar() {
       </div>
 
       {isOpen && (
-        <div className="2xl:hidden bg-gray-900 border-t border-gray-800">
+        <div className="lg:hidden bg-gray-900 border-t border-gray-800">
           <div className="px-2 pt-2 pb-3 space-y-1">
             <div className="px-3 py-2">
               <input
@@ -115,29 +117,7 @@ export default function Navbar() {
                 {link.name}
               </a>
             ))}
-            <div className="px-3 py-3 space-y-2 border-t border-gray-800 mt-2">
-              <a
-                href="#newsletter"
-                className="block w-full px-4 py-2 bg-neon-blue text-black rounded-md text-sm font-semibold text-center hover:bg-neon-cyan transition-all duration-200"
-                onClick={() => setIsOpen(false)}
-              >
-                Subscribe
-              </a>
-              <a
-                href="#support"
-                className="block w-full px-4 py-2 bg-gray-800 text-white rounded-md text-sm font-semibold text-center hover:bg-gray-700 transition-all duration-200 border border-neon-blue/30"
-                onClick={() => setIsOpen(false)}
-              >
-                Support
-              </a>
-              <a
-                href="#community"
-                className="block w-full px-4 py-2 bg-gray-800 text-white rounded-md text-sm font-semibold text-center hover:bg-gray-700 transition-all duration-200 border border-neon-blue/30"
-                onClick={() => setIsOpen(false)}
-              >
-                Join Community
-              </a>
-            </div>
+
           </div>
         </div>
       )}
