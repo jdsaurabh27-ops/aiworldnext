@@ -80,7 +80,7 @@
   {
     "id": 7,
     "title": "OpenAI Platform",
-    "description": "Access GPT-6 with autonomous agent framework, Sora 3.0, DALL-E 4, and Whisper through comprehensive developer API with usage-based pricing.",
+    "description": "Developer documentation and APIs for building applications with OpenAI models. Check the official documentation for available models and pricing.",
     "image": "https://www.google.com/s2/favicons?domain=platform.openai.com&sz=128",
     "link": "https://platform.openai.com",
     "category": "API",

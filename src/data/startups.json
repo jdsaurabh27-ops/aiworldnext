@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "OpenAI",
-    "description": "Leading AI research company behind GPT-6 with autonomous agent framework. 5M context windows and self-directed task planning. Valued at $500B with global enterprise adoption.",
+    "description": "AI research and deployment company offering ChatGPT and developer APIs. Visit the official source for current products and availability.",
     "founded": "2015",
     "funding": "Not verified",
     "image": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
@@ -30,7 +30,7 @@
   {
     "id": 3,
     "title": "Perplexity AI",
-    "description": "AI search and operating system company reaching 300M users. Launches Perplexity OS for AI-first computing with native agentic search and task automation.",
+    "description": "AI-powered search service that provides answers with source links. Visit the official source for current features and plans.",
     "founded": "2022",
     "funding": "Not verified",
     "image": "https://www.google.com/s2/favicons?domain=www.perplexity.ai&sz=128",
@@ -144,7 +144,7 @@
   {
     "id": 11,
     "title": "ElevenLabs",
-    "description": "Leading voice AI with real-time voice cloning in 32 languages. Powering voice synthesis for 50M+ creators and expanding into autonomous AI voice agents.",
+    "description": "Voice AI platform offering speech generation and audio tools. Check the official website for current features and supported languages.",
     "founded": "2022",
     "funding": "Not verified",
     "image": "https://elevenlabs.io/favicon.ico?9c55860cee08706b",

@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "OpenAI",
-    "description": "Creator of GPT-6 with autonomous agent framework and 5M token context. Leading AI research and deployment company.",
+    "description": "AI research and deployment company offering ChatGPT and developer APIs. Visit the official source for current products and availability.",
     "logo": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
     "category": "Foundation Models",
     "valuation": "See official company information",
@@ -126,7 +126,7 @@
   {
     "id": 8,
     "name": "Perplexity AI",
-    "description": "AI-first operating system reaching 300M users with native agentic search and autonomous task automation.",
+    "description": "AI-powered search service that provides answers with source links. Visit the official source for current features and plans.",
     "logo": "https://www.google.com/s2/favicons?domain=perplexity.ai&sz=128",
     "category": "Search & OS",
     "valuation": "See official company information",
