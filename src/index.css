@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Keep section headings below the expanded sticky navigation. */
+html { scroll-padding-top: 20rem; }
+@media (min-width: 640px) { html { scroll-padding-top: 15rem; } }
+@media (min-width: 1024px) { html { scroll-padding-top: 12rem; } }
