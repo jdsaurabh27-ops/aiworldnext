@@ -1,0 +1,123 @@
+[
+  {
+    "slug": "create-an-ai-voiceover",
+    "title": "How to create an AI voiceover: a practical first workflow",
+    "intro": "Turn a short script into a usable narration track, then check pronunciation, pacing and publishing requirements before sharing it.",
+    "sections": [
+      [
+        "Define the output before choosing a voice",
+        "Start with one use case: a short explainer, a podcast introduction or narration for a product demonstration. Decide who will listen, the spoken language, approximate duration and intended channel. This is a workflow guide based on provider documentation, not an independently tested review or a promise of studio-quality results."
+      ],
+      [
+        "Prepare a small script",
+        "Write a short introduction, one clear point and a closing sentence. Read it aloud yourself. Break long sentences and expand abbreviations when their spoken form is unclear. Use a non-sensitive sample: “Welcome to our weekly AI update. Today we will show you how to check a source before sharing a headline.” Save a clean copy before editing."
+      ],
+      [
+        "Generate a first sample in ElevenLabs",
+        "Open Text to Speech in your ElevenLabs account, enter the script and select an available voice and model. Begin with the default settings and generate a short passage before a longer project. Account options, model access and usage allowances can change, so check the current interface and plan. Do not assume every available voice will suit your language or delivery."
+      ],
+      [
+        "Listen for errors, then change one thing",
+        "Check names, dates, abbreviations, pauses and emphasis while following the written script. If a phrase is unclear, rewrite it in a spoken form and regenerate a short segment. When the selected model offers voice settings, adjust one setting at a time and compare the same sentence. Stability affects variation in delivery; a higher value is not automatically a better result. Keep the version that is clearest to your intended audience."
+      ],
+      [
+        "Download and edit the track",
+        "The official help page describes downloading a generated file immediately or retrieving it from Text to Speech history. It lists MP3 and WAV options, with further formats under Advanced. Availability can depend on the current product and account. Import your track into an editor, trim silence and align it with your visuals. If you add music, check the music licence and keep the narration intelligible."
+      ],
+      [
+        "Run a publishing check",
+        "Listen to the complete export on headphones and a phone speaker. Verify every factual statement in the script, check captions against the audio and review the provider’s current commercial-use terms. Use voices and material you have permission to use; do not impersonate someone or imply their endorsement. Include an AI-voice disclosure when the platform or context requires it."
+      ],
+      [
+        "Measure whether it helped",
+        "Record script preparation time, generation attempts, editing time and pronunciation fixes. Compare that total with your existing recording process. A successful short trial is a starting point for deciding whether to use the tool again, not proof that it will work equally well for every language or project."
+      ]
+    ],
+    "sources": [
+      {
+        "title": "ElevenLabs Text to Speech product guide",
+        "url": "https://elevenlabs.io/docs/eleven-creative/playground/text-to-speech"
+      },
+      {
+        "title": "Downloading generated speech",
+        "url": "https://elevenlabs.io/docs/help-center/product/core-capabilities/text-to-speech/how-do-i-download-generated-files-from-text-to-speech"
+      },
+      {
+        "title": "Voice settings reference",
+        "url": "https://elevenlabs.io/docs/api-reference/voices/settings/update"
+      }
+    ],
+    "partnerUrl": "https://try.elevenlabs.io/hfvs9b3eqiiw",
+    "partnerName": "ElevenLabs"
+  },
+  {
+    "slug": "ai-tool-privacy-checklist",
+    "title": "An AI-tool privacy checklist before you upload a file",
+    "intro": "A practical way to decide what information a tool needs, what to remove and what to check in its current settings.",
+    "sections": [
+      [
+        "Separate the task from the original document",
+        "Write down what you want the tool to do: summarise a public report, rewrite a paragraph or classify a small table. Ask whether the same task can be tested with invented data or an already-public excerpt. Start with that sample rather than an entire personal or business document."
+      ],
+      [
+        "Remove information that is unnecessary",
+        "Check names, email addresses, phone numbers, addresses, account identifiers and internal comments. Screenshots can contain browser tabs, filenames and notifications. Replace details with neutral labels such as Customer A and remove hidden sheets or document comments before sharing a copy. Redaction should preserve the relationships needed for the task without exposing the original identities."
+      ],
+      [
+        "Check the exact product and account",
+        "A consumer chat interface, a business workspace and an API can have different settings. Find the provider’s current documentation on retention, training use, deletion, sharing and access. Record the product, plan, date checked and the relevant links. If the policy is unclear, keep the trial non-sensitive until you can resolve the question."
+      ],
+      [
+        "Inspect connected apps and sharing",
+        "Review what a connection can read or change before enabling it. For a document link, check whether it is public or limited to named people. Choose the smallest access that supports the task. If the tool will perform an action, review the recipient, content and destination before sending or publishing."
+      ],
+      [
+        "Follow your organisation’s rules",
+        "For work documents, use your organisation’s approved tools and data-handling process. Permission to view a file does not necessarily include permission to upload it to another service. Escalate an unclear case to the appropriate owner rather than guessing. This guide is an operational checklist, not legal or compliance certification."
+      ],
+      [
+        "Review the output and keep a record",
+        "Inspect generated summaries for sensitive information that should not be repeated. Check that exported reports and screenshots do not reintroduce removed details. Record what was shared, why it was needed and where you can manage or delete it. A delete option alone does not establish what happens to every retained copy; read the current policy."
+      ],
+      [
+        "A safer first trial",
+        "For an email-drafting test, create a fictional customer, a fictional order and a short invented request. Ask for a polite reply, then check tone, accuracy and missing details. Only move to real information after the access and policy checks fit your intended use."
+      ]
+    ]
+  },
+  {
+    "slug": "compare-ai-tools-with-one-task",
+    "title": "How to compare two AI tools using the same task",
+    "intro": "Use a small comparison sheet to assess output quality, corrections and total effort without relying on marketing scores.",
+    "sections": [
+      [
+        "Choose a representative task",
+        "Use a task you actually repeat, such as rewriting a public paragraph into a concise email. Define the intended reader and three requirements before opening either tool. For example: preserve the facts, use fewer than 150 words and include a clear next step. Use information you are permitted to share."
+      ],
+      [
+        "Use the same input and instructions",
+        "Give both tools the same text and constraints. Record the tool, date, model or mode shown, and relevant account limits. If one tool needs a different workflow, document that difference instead of quietly adding extra help to only one side. Do not assume two products are equivalent just because they use similar model names."
+      ],
+      [
+        "Score observable outcomes",
+        "For each result, count factual mistakes, missing requirements and changes needed before use. Record whether the source material supports the claims. Write brief examples of errors rather than only giving a vague star rating. For subjective qualities such as tone, specify your preference first and use the same standard for both results."
+      ],
+      [
+        "Include the work around the answer",
+        "Track preparation, waiting, fact checking and editing. Compare the complete process with doing the task yourself. A fast draft that needs extensive corrections may save less time than a slower but usable result. Include failed attempts and retries in your notes."
+      ],
+      [
+        "Check cost and access separately",
+        "Read current official pricing and account limits before estimating cost for your workload. Consider seats, usage allowances, export restrictions and cancellation terms. Keep quality observations separate from commercial terms so a later price change does not erase what your small trial actually showed."
+      ],
+      [
+        "Try an ordinary case and an edge case",
+        "Repeat with a typical input and a harder one, such as an ambiguous abbreviation or a document with conflicting dates. Do not publish a broad ranking based on one successful answer. Your conclusion should name the task, sample size and limits: “Tool A required fewer edits on our two sample email drafts” is more useful than “Tool A is the best AI.”"
+      ],
+      [
+        "Keep recommendations independent",
+        "If a page includes affiliate links, disclose the relationship and apply the same checks to linked and unlinked products. Do not treat a higher commission as evidence of higher quality. Revisit the comparison when your workflow or the products change."
+      ]
+    ]
+  }
+]
