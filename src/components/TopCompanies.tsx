@@ -27,7 +27,7 @@ export default function TopCompanies() {
           <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-500/20 rounded-2xl mb-6">
             <Building2 className="w-8 h-8 text-blue-400" />
           </div>
-          <h2 className="text-4xl font-bold text-white mb-4">Top AI Companies 2026</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">AI Companies</h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
             Leading AI companies shaping the future of artificial intelligence and machine learning
           </p>
@@ -50,7 +50,8 @@ export default function TopCompanies() {
                       <img
                         src={company.logo}
                         alt={company.name}
-                        className="w-full h-full object-cover"
+                        onError={e => { e.currentTarget.onerror = null; e.currentTarget.src = '/brand/categories/companies.svg'; }}
+                        className="w-full h-full object-contain p-2"
                       />
                     </div>
                     <div className="flex-1">
@@ -120,7 +121,8 @@ export default function TopCompanies() {
                     <img
                       src={company.logo}
                       alt={company.name}
-                      className="w-full h-full object-cover"
+                        onError={e => { e.currentTarget.onerror = null; e.currentTarget.src = '/brand/categories/companies.svg'; }}
+                      className="w-full h-full object-contain p-2"
                     />
                   </div>
                   <div className="flex-1 min-w-0">

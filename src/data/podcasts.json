@@ -6,9 +6,11 @@
     "description": "The podcast by and for AI Engineers! In 2025, over 10 million readers and listeners came to Latent Space to hear about news, papers and interviews in Software 3.0. We cover Foundation Models changing every domain in Code Generation, Multimodality, AI Agents, GPU Infra and more, directly from the founders, builders, and thinkers involved in pushing the cutting edge. Striving to give you both the definitive take on the Current Thing down to the first introduction to the tech you'll be using in the next 3 months! We break news and exclusive interviews from OpenAI, Anthropic, Gemini, Meta (Soumith",
     "link": "https://www.latent.space/podcast",
     "category": "AI Engineering",
-    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_400,h_400,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png",
     "sourceUrl": "https://www.latent.space/podcast",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "source",
+    "imageSource": "https://www.latent.space/podcast"
   },
   {
     "id": 2,
@@ -17,7 +19,9 @@
     "description": "Conversations with researchers and practitioners about machine learning and artificial intelligence.",
     "link": "https://twimlai.com/podcast/twimlai/",
     "category": "Machine Learning",
-    "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=1200&q=80"
+    "image": "https://twimlai.com/images/twiml_social_media_banner.jpg",
+    "imageKind": "source",
+    "imageSource": "https://twimlai.com/podcast/twimlai/"
   },
   {
     "id": 3,
@@ -26,9 +30,12 @@
     "description": "Making artificial intelligence practical, productive & accessible to everyone. Practical AI is a show in which technology professionals, business people, students, enthusiasts, and expert guests engage in lively discussions about Artificial Intelligence and related topics (Machine Learning, Deep Learning, Neural Networks, GANs, MLOps, AIOps, LLMs & more). The focus is on productive implementations and real-world scenarios that are accessible to everyone. If you want to keep up with the latest advances in AI, while keeping one foot in the real world, then this is the show for you!",
     "link": "https://practicalai.show/",
     "category": "Applied AI",
-    "image": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=practicalai.show&sz=128",
     "sourceUrl": "https://practicalai.show/",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=practicalai.show&sz=128",
+    "imageSource": "https://practicalai.show/"
   },
   {
     "id": 4,
@@ -37,8 +44,10 @@
     "description": "Explore the NVIDIA AI Podcast for insights on AI, tech innovations, and sustainability, featuring expert stories that inspire and educate.",
     "link": "https://ai-podcast.nvidia.com/",
     "category": "AI Innovation",
-    "image": "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.nvidia.com/content/dam/en-zz/Solutions/ai-podcast/ai-podcast-og.jpg",
     "sourceUrl": "https://ai-podcast.nvidia.com/",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "source",
+    "imageSource": "https://ai-podcast.nvidia.com/"
   }
 ]

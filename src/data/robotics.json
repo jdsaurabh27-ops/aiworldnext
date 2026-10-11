@@ -4,9 +4,10 @@
     "title": "Danu Robotics’ fight to build a better recycling robot",
     "description": "For six years, Danu founder Amy Ma has been working on a better way to sort recyclable waste.",
     "date": "2026-10-09",
-    "image": "/brand/aiworldnext-icon.png",
+    "image": "/brand/categories/robotics.svg",
     "link": "https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot/",
-    "category": "AI Industry"
+    "category": "AI Industry",
+    "imageKind": "placeholder"
   },
   {
     "id": 7,
@@ -15,7 +16,9 @@
     "date": "2026-10-09",
     "image": "https://spectrum.ieee.org/media-library/smiling-humanoid-robot-in-robe-free-falls-into-deep-pit-filled-with-colorful-balls.jpg?id=68398684&width=980",
     "link": "https://spectrum.ieee.org/video-friday-reachy-mini-raps",
-    "category": "Robotics"
+    "category": "Robotics",
+    "imageKind": "source",
+    "imageSource": "https://spectrum.ieee.org/video-friday-reachy-mini-raps"
   },
   {
     "id": 8,
@@ -24,7 +27,9 @@
     "date": "2026-10-08",
     "image": "https://spectrum.ieee.org/media-library/a-detached-robotic-hand-using-its-five-fingers-to-walk.jpg?id=68383398&width=980",
     "link": "https://spectrum.ieee.org/walking-robotic-hand",
-    "category": "Robotics"
+    "category": "Robotics",
+    "imageKind": "source",
+    "imageSource": "https://spectrum.ieee.org/walking-robotic-hand"
   },
   {
     "id": 9,
@@ -33,7 +38,9 @@
     "date": "2026-10-07",
     "image": "https://assets.rbl.ms/68382308/origin.png",
     "link": "https://content.knowledgehub.wiley.com/hiphi-a-large-scale-benchmark-for-high-precision-human-motion-and-object-interaction/",
-    "category": "Robotics"
+    "category": "Robotics",
+    "imageKind": "source",
+    "imageSource": "https://content.knowledgehub.wiley.com/hiphi-a-large-scale-benchmark-for-high-precision-human-motion-and-object-interaction/"
   },
   {
     "id": 10,
@@ -42,7 +49,9 @@
     "date": "2026-10-02",
     "image": "https://spectrum.ieee.org/media-library/futuristic-robotic-bird-gliding-low-above-water-with-a-trailing-wire.png?id=68024679&width=980",
     "link": "https://spectrum.ieee.org/video-friday-bioinspired-robotics",
-    "category": "Robotics"
+    "category": "Robotics",
+    "imageKind": "source",
+    "imageSource": "https://spectrum.ieee.org/video-friday-bioinspired-robotics"
   },
   {
     "id": 11,
@@ -51,7 +60,9 @@
     "date": "2026-10-01",
     "image": "https://spectrum.ieee.org/media-library/close-up-of-a-robotic-hand-with-three-fingers-and-a-thumb-making-a-gesture-similar-to-the-sign-of-the-horns.jpg?id=67879402&width=980",
     "link": "https://spectrum.ieee.org/robust-robot-hand",
-    "category": "Robotics"
+    "category": "Robotics",
+    "imageKind": "source",
+    "imageSource": "https://spectrum.ieee.org/robust-robot-hand"
   },
   {
     "id": 12,
@@ -60,7 +71,9 @@
     "date": "2026-09-28",
     "image": "https://spectrum.ieee.org/media-library/man-standing-beside-a-tall-wheeled-robot-smiling-and-waving-at-the-camera.jpg?id=67880303&width=980",
     "link": "https://robotsguide.com/learn/a-day-in-the-life-of-a-roboticist-charlie-kemp",
-    "category": "Robotics"
+    "category": "Robotics",
+    "imageKind": "source",
+    "imageSource": "https://robotsguide.com/learn/a-day-in-the-life-of-a-roboticist-charlie-kemp"
   },
   {
     "id": 13,
@@ -69,7 +82,9 @@
     "date": "2026-09-25",
     "image": "https://spectrum.ieee.org/media-library/mobile-assistive-robot-with-articulated-arm-beside-coffee-table-in-cozy-living-room.png?id=67853191&width=980",
     "link": "https://spectrum.ieee.org/video-friday-goose-household-robots",
-    "category": "Robotics"
+    "category": "Robotics",
+    "imageKind": "source",
+    "imageSource": "https://spectrum.ieee.org/video-friday-goose-household-robots"
   },
   {
     "id": 14,
@@ -78,7 +93,9 @@
     "date": "2026-09-24",
     "image": "https://spectrum.ieee.org/media-library/four-young-adult-students-laugh-together-while-one-of-them-holds-a-robot-shaped-like-a-hexagonal-cylinder.jpg?id=67845427&width=980",
     "link": "https://spectrum.ieee.org/epics-in-ieee-portable-educational",
-    "category": "Robotics"
+    "category": "Robotics",
+    "imageKind": "source",
+    "imageSource": "https://spectrum.ieee.org/epics-in-ieee-portable-educational"
   },
   {
     "id": 5,
@@ -87,7 +104,9 @@
     "date": "2026-09-22",
     "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/robotics-blog-corp-blog-ROSCon26-1920x1080-1.jpeg",
     "link": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
-    "category": "AI Hardware"
+    "category": "AI Hardware",
+    "imageKind": "source",
+    "imageSource": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/"
   },
   {
     "id": 15,
@@ -96,7 +115,9 @@
     "date": "2026-09-22",
     "image": "https://spectrum.ieee.org/media-library/photo-of-a-woman-standing-in-front-of-greenery-holding-a-device-shaped-like-a-small-octopus-arm.png?id=67787635&width=980",
     "link": "https://spectrum.ieee.org/sustainability-robotics-barbara-mazzolai",
-    "category": "Robotics"
+    "category": "Robotics",
+    "imageKind": "source",
+    "imageSource": "https://spectrum.ieee.org/sustainability-robotics-barbara-mazzolai"
   },
   {
     "id": 6,
@@ -105,7 +126,9 @@
     "date": "2026-09-21",
     "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/robotics-pr-halos-1600x900-1.png",
     "link": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
-    "category": "AI Hardware"
+    "category": "AI Hardware",
+    "imageKind": "source",
+    "imageSource": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/"
   },
   {
     "id": 16,
@@ -114,7 +137,9 @@
     "date": "2026-09-18",
     "image": "https://spectrum.ieee.org/media-library/two-small-dual-propeller-robots-facing-each-other-connected-by-a-loose-green-cord.png?id=67790149&width=980",
     "link": "https://spectrum.ieee.org/video-friday-quadrotor-from-birotor",
-    "category": "Robotics"
+    "category": "Robotics",
+    "imageKind": "source",
+    "imageSource": "https://spectrum.ieee.org/video-friday-quadrotor-from-birotor"
   },
   {
     "id": 17,
@@ -123,7 +148,9 @@
     "date": "2026-09-16",
     "image": "https://spectrum.ieee.org/media-library/humanoid-robots-and-people-walking-through-a-modern-city-street-with-glass-buildings.jpg?id=67745861&width=980",
     "link": "https://spectrum.ieee.org/physical-ai-robot-cybersecurity-vicone",
-    "category": "Robotics"
+    "category": "Robotics",
+    "imageKind": "source",
+    "imageSource": "https://spectrum.ieee.org/physical-ai-robot-cybersecurity-vicone"
   },
   {
     "id": 18,
@@ -132,6 +159,8 @@
     "date": "2026-09-15",
     "image": "https://spectrum.ieee.org/media-library/a-front-and-an-angled-view-of-a-teal-colored-humanoid-robot-with-arms-bent-at-the-elbow.jpg?id=67776740&width=980",
     "link": "https://spectrum.ieee.org/humanoid-robot-safety",
-    "category": "Robotics"
+    "category": "Robotics",
+    "imageKind": "source",
+    "imageSource": "https://spectrum.ieee.org/humanoid-robot-safety"
   }
 ]

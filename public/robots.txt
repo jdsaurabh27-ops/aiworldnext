@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://aiworldnext.com/sitemap.xml
+Sitemap: https://www.aiworldnext.com/sitemap.xml

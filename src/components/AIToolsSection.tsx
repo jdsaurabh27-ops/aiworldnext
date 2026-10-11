@@ -56,6 +56,7 @@ export default function AIToolsSection() {
                 title={product.title}
                 description={product.description}
                 image={product.image}
+                imageKind={(product as { imageKind?: string }).imageKind}
                 link={`/tools/entry-${product.id}/`}
                 price={product.price}
                 category={product.category}

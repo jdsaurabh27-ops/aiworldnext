@@ -5,9 +5,12 @@
     "description": "Leading AI research company behind GPT-6 with autonomous agent framework. 5M context windows and self-directed task planning. Valued at $500B with global enterprise adoption.",
     "founded": "2015",
     "funding": "Not verified",
-    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
     "link": "https://openai.com",
-    "category": "Foundation Models"
+    "category": "Foundation Models",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
+    "imageSource": "https://openai.com"
   },
   {
     "id": 2,
@@ -15,11 +18,14 @@
     "description": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
     "founded": "2021",
     "funding": "Not verified",
-    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=www.anthropic.com&sz=128",
     "link": "https://www.anthropic.com",
     "category": "AI Safety",
     "sourceUrl": "https://www.anthropic.com",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=www.anthropic.com&sz=128",
+    "imageSource": "https://www.anthropic.com"
   },
   {
     "id": 3,
@@ -27,9 +33,12 @@
     "description": "AI search and operating system company reaching 300M users. Launches Perplexity OS for AI-first computing with native agentic search and task automation.",
     "founded": "2022",
     "funding": "Not verified",
-    "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=www.perplexity.ai&sz=128",
     "link": "https://www.perplexity.ai",
-    "category": "Search AI"
+    "category": "Search AI",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=www.perplexity.ai&sz=128",
+    "imageSource": "https://www.perplexity.ai"
   },
   {
     "id": 4,
@@ -37,11 +46,14 @@
     "description": "Figure is the first-of-its-kind AI robotics company bringing a general purpose humanoid to life.",
     "founded": "2022",
     "funding": "Not verified",
-    "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=www.figure.ai&sz=128",
     "link": "https://www.figure.ai",
     "category": "Robotics",
     "sourceUrl": "https://www.figure.ai",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=www.figure.ai&sz=128",
+    "imageSource": "https://www.figure.ai"
   },
   {
     "id": 5,
@@ -49,11 +61,13 @@
     "description": "Runway is building foundational Real-World Intelligence that can understand, simulate and act in the world. We offer products and services built on-top of this intelligence to empower individuals and organizations to do more in the world.",
     "founded": "2018",
     "funding": "Not verified",
-    "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://runway.com/icon.png?icon.35ps9bmugbe1e.png",
     "link": "https://runwayml.com",
     "category": "Video AI",
     "sourceUrl": "https://runwayml.com",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "imageSource": "https://runwayml.com"
   },
   {
     "id": 6,
@@ -61,11 +75,13 @@
     "description": "深度求索（DeepSeek），探索未至之境。专注于研究世界领先的通用人工智能底层模型与技术，开源 DeepSeek-V4、DeepSeek-R1 等前沿大模型。和 DeepSeek AI 对话，轻松接入 API。",
     "founded": "2023",
     "funding": "Not verified",
-    "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.deepseek.com/favicon.ico",
     "link": "https://www.deepseek.com",
     "category": "Foundation Models",
     "sourceUrl": "https://www.deepseek.com",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "imageSource": "https://www.deepseek.com"
   },
   {
     "id": 7,
@@ -73,11 +89,14 @@
     "description": "Frontier open-weight models you own and control. Customize with Forge, deploy with Studio, run on-prem, your VPC, or our cloud.",
     "founded": "2023",
     "funding": "Not verified",
-    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=mistral.ai&sz=128",
     "link": "https://mistral.ai",
     "category": "Foundation Models",
     "sourceUrl": "https://mistral.ai",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=mistral.ai&sz=128",
+    "imageSource": "https://mistral.ai"
   },
   {
     "id": 8,
@@ -85,11 +104,14 @@
     "description": "We're an AI and robotics company based in Palo Alto, California. We create safe humanoid robots that do your chores and offer personalized assistance.",
     "founded": "2014",
     "funding": "Not verified",
-    "image": "https://images.unsplash.com/photo-1535378620166-273708d44e4c?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=www.1x.tech&sz=128",
     "link": "https://www.1x.tech",
     "category": "Home Robotics",
     "sourceUrl": "https://www.1x.tech",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=www.1x.tech&sz=128",
+    "imageSource": "https://www.1x.tech"
   },
   {
     "id": 9,
@@ -97,11 +119,13 @@
     "description": "Built to make you extraordinarily productive, agents turn ideas into code. Accelerate development by handing off tasks to Cursor.",
     "founded": "2023",
     "funding": "Not verified",
-    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://cursor.com/marketing-static/favicon-light.ico",
     "link": "https://cursor.sh",
     "category": "Dev Tools",
     "sourceUrl": "https://cursor.sh",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "imageSource": "https://cursor.sh"
   },
   {
     "id": 10,
@@ -109,11 +133,13 @@
     "description": "Discover Sanctuary AI's production-ready Physical AI platform that helps industrial leaders automate complex and dynamic manufacturing tasks.",
     "founded": "2018",
     "funding": "Not verified",
-    "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://sanctuary.ai/wp-content/uploads/2026/03/cropped-sanctuary-emblem-favicon-dark-32x32.png",
     "link": "https://sanctuary.ai",
     "category": "Robotics",
     "sourceUrl": "https://sanctuary.ai",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "imageSource": "https://sanctuary.ai"
   },
   {
     "id": 11,
@@ -121,9 +147,12 @@
     "description": "Leading voice AI with real-time voice cloning in 32 languages. Powering voice synthesis for 50M+ creators and expanding into autonomous AI voice agents.",
     "founded": "2022",
     "funding": "Not verified",
-    "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=elevenlabs.io&sz=128",
     "link": "https://elevenlabs.io",
-    "category": "Voice AI"
+    "category": "Voice AI",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=elevenlabs.io&sz=128",
+    "imageSource": "https://elevenlabs.io"
   },
   {
     "id": 12,
@@ -131,10 +160,13 @@
     "description": "Glean is the Enterprise AI platform connected to your enterprise's data. Find, create, and automate anything. Explore what Glean can do for you!",
     "founded": "2019",
     "funding": "Not verified",
-    "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=www.glean.com&sz=128",
     "link": "https://www.glean.com",
     "category": "Enterprise Search",
     "sourceUrl": "https://www.glean.com",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=www.glean.com&sz=128",
+    "imageSource": "https://www.glean.com"
   }
 ]

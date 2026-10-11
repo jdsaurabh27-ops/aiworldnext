@@ -3,146 +3,185 @@
     "id": 1,
     "title": "Hugging Face",
     "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-    "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=huggingface.co&sz=128",
     "link": "https://huggingface.co",
     "category": "Platform",
     "sourceUrl": "https://huggingface.co",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=huggingface.co&sz=128",
+    "imageSource": "https://huggingface.co"
   },
   {
     "id": 2,
     "title": "LangChain & LangGraph",
     "description": "LangChain enables every company to own their intelligence. Control, govern, and compound intelligence with an open agent engineering platform.",
-    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=www.langchain.com&sz=128",
     "link": "https://www.langchain.com",
     "category": "Framework",
     "sourceUrl": "https://www.langchain.com",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=www.langchain.com&sz=128",
+    "imageSource": "https://www.langchain.com"
   },
   {
     "id": 3,
     "title": "PyTorch",
     "description": "PyTorch Foundation is the deep learning community home for the open source PyTorch framework and ecosystem.",
-    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=pytorch.org&sz=128",
     "link": "https://pytorch.org",
     "category": "Framework",
     "sourceUrl": "https://pytorch.org",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=pytorch.org&sz=128",
+    "imageSource": "https://pytorch.org"
   },
   {
     "id": 4,
     "title": "Anthropic API",
     "description": "Everything your team needs to build AI agents and run them in production: frontier models, a managed harness, context management, and infrastructure.",
-    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=www.anthropic.com&sz=128",
     "link": "https://www.anthropic.com/api",
     "category": "API",
     "sourceUrl": "https://www.anthropic.com/api",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=www.anthropic.com&sz=128",
+    "imageSource": "https://www.anthropic.com/api"
   },
   {
     "id": 5,
     "title": "Papers With Code",
     "description": "Your daily dose of AI research from AK",
-    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=paperswithcode.com&sz=128",
     "link": "https://paperswithcode.com",
     "category": "Research",
     "sourceUrl": "https://paperswithcode.com",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=paperswithcode.com&sz=128",
+    "imageSource": "https://paperswithcode.com"
   },
   {
     "id": 6,
     "title": "Ollama",
     "description": "Ollama is the easiest way to run and build with open AI models locally or in the cloud on macOS, Windows, and Linux.",
-    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=ollama.ai&sz=128",
     "link": "https://ollama.ai",
     "category": "Tools",
     "sourceUrl": "https://ollama.ai",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=ollama.ai&sz=128",
+    "imageSource": "https://ollama.ai"
   },
   {
     "id": 7,
     "title": "OpenAI Platform",
     "description": "Access GPT-6 with autonomous agent framework, Sora 3.0, DALL-E 4, and Whisper through comprehensive developer API with usage-based pricing.",
-    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=platform.openai.com&sz=128",
     "link": "https://platform.openai.com",
-    "category": "API"
+    "category": "API",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=platform.openai.com&sz=128",
+    "imageSource": "https://platform.openai.com"
   },
   {
     "id": 8,
     "title": "Replicate",
     "description": "Run open-source machine learning models with a cloud API",
-    "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://static.replicateassets.com/fe/4fa86b07de3ad4ea584bc1f339cff05cc96889c9/favicon-CKiqAkf2.png",
     "link": "https://replicate.com",
     "category": "Platform",
     "sourceUrl": "https://replicate.com",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "imageSource": "https://replicate.com"
   },
   {
     "id": 9,
     "title": "Fast.ai Practical Deep Learning",
     "description": "A free course designed for people with some coding experience, who want to learn how to apply deep learning and machine learning to practical problems.",
-    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80",
+    "image": "/brand/categories/resources.svg",
     "link": "https://course.fast.ai",
     "category": "Education",
     "sourceUrl": "https://course.fast.ai",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "placeholder"
   },
   {
     "id": 10,
     "title": "Kaggle",
     "description": "Discover what actually works in AI. Join millions of builders, researchers, and labs evaluating agents, models, and frontier technology through crowdsourced benchmarks, competitions, and hackathons.",
-    "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=www.kaggle.com&sz=128",
     "link": "https://www.kaggle.com",
     "category": "Community",
     "sourceUrl": "https://www.kaggle.com",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=www.kaggle.com&sz=128",
+    "imageSource": "https://www.kaggle.com"
   },
   {
     "id": 11,
     "title": "Pinecone Vector Database",
     "description": "Pinecone is the trusted AI knowledge company. Its AI knowledge platform—Database, Nexus, and Marketplace—powers accurate, fast, cost-effective AI for 10,000+ customers and 1M developers worldwide.",
-    "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.pinecone.io/favicon.ico?favicon.16aah0kd0o17q.ico",
     "link": "https://www.pinecone.io",
     "category": "Infrastructure",
     "sourceUrl": "https://www.pinecone.io",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "imageSource": "https://www.pinecone.io"
   },
   {
     "id": 12,
     "title": "Weights & Biases",
     "description": "MLOps platform for experiment tracking, agent evaluation, and collaboration used by OpenAI, Google DeepMind, NVIDIA, and frontier AI labs.",
-    "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=wandb.ai&sz=128",
     "link": "https://wandb.ai",
-    "category": "MLOps"
+    "category": "MLOps",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=wandb.ai&sz=128",
+    "imageSource": "https://wandb.ai"
   },
   {
     "id": 13,
     "title": "Andrej Karpathy's AI Course",
     "description": "Share your videos with friends, family, and the world",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=www.youtube.com&sz=128",
     "link": "https://www.youtube.com/@AndrejKarpathy",
     "category": "Education",
     "sourceUrl": "https://www.youtube.com/@AndrejKarpathy",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=www.youtube.com&sz=128",
+    "imageSource": "https://www.youtube.com/@AndrejKarpathy"
   },
   {
     "id": 14,
     "title": "LlamaIndex",
     "description": "LlamaParse is the world's best agentic OCR for processing complex documents with messy tables, charts, images, and more with human-level accuracy.",
-    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80",
+    "image": "/brand/categories/resources.svg",
     "link": "https://www.llamaindex.ai",
     "category": "Framework",
     "sourceUrl": "https://www.llamaindex.ai",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "placeholder"
   },
   {
     "id": 15,
     "title": "Modal",
     "description": "Cloud infrastructure for teams that develop, train, and serve AI applications at scale.",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=modal.com&sz=128",
     "link": "https://modal.com",
     "category": "Infrastructure",
     "sourceUrl": "https://modal.com",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=modal.com&sz=128",
+    "imageSource": "https://modal.com"
   }
 ]

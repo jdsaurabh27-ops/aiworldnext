@@ -56,6 +56,7 @@ export default function AIJobsSection() {
                 title={job.title}
                 description={job.description}
                 image={job.image}
+                imageKind={(job as { imageKind?: string }).imageKind}
                 link={job.link}
                 company={job.company}
                 location={job.location}

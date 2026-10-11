@@ -4,103 +4,124 @@
     "title": "r/MachineLearning",
     "description": "Reddit's largest ML community with 5M+ members discussing research, autonomous agents, and AI careers.",
     "members": "Not verified",
-    "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=www.reddit.com&sz=128",
     "link": "https://www.reddit.com/r/MachineLearning",
-    "category": "Forum"
+    "category": "Forum",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=www.reddit.com&sz=128",
+    "imageSource": "https://www.reddit.com/r/MachineLearning"
   },
   {
     "id": 2,
     "title": "Hugging Face Discord",
     "description": "We're working to democratize good machine learning 🤗Verify to link your Hub and Discord accounts! | 242136 members",
     "members": "Not verified",
-    "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=80",
+    "image": "/brand/categories/community.svg",
     "link": "https://hf.co/join/discord",
     "category": "Chat",
     "sourceUrl": "https://hf.co/join/discord",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "placeholder"
   },
   {
     "id": 3,
     "title": "AI Meetups Global",
     "description": "Find Meetup events so you can do more of what matters to you. Or create your own group and meet people near you who share your interests.",
     "members": "Not verified",
-    "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=1200&q=80",
+    "image": "/brand/categories/community.svg",
     "link": "https://www.meetup.com/topics/artificial-intelligence",
     "category": "Events",
     "sourceUrl": "https://www.meetup.com/topics/artificial-intelligence",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "placeholder"
   },
   {
     "id": 4,
     "title": "Women in AI",
     "description": "Women in AI (WAI) is a nonprofit, community-driven initiative bringing awareness and knowledge through education, events, and blogging.",
     "members": "Not verified",
-    "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://static.wixstatic.com/media/6d5811_5fe60075123840b7a24249d41d57fe21%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/6d5811_5fe60075123840b7a24249d41d57fe21%7Emv2.png",
     "link": "https://www.womeninai.co",
     "category": "Diversity",
     "sourceUrl": "https://www.womeninai.co",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "imageSource": "https://www.womeninai.co"
   },
   {
     "id": 5,
     "title": "AI Stack Exchange",
     "description": "Q&A for people interested in conceptual questions about life and challenges in a world where \"cognitive\" functions can be mimicked in purely digital environment",
     "members": "Not verified",
-    "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://ai.stackexchange.com/Content/Sites/ai/Img/favicon.ico?v=9c871a5303b0",
     "link": "https://ai.stackexchange.com",
     "category": "Q&A",
     "sourceUrl": "https://ai.stackexchange.com",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "imageSource": "https://ai.stackexchange.com"
   },
   {
     "id": 6,
     "title": "MLOps Community",
     "description": "Join 70,000+ ML engineers sharing knowledge, solving real MLOps problems, networking, and growing together. Learn best practices, meet peers, and advance your career.",
     "members": "Not verified",
-    "image": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://cdn.prod.website-files.com/696f97c36cfad65500435415/699f397b95fd07c464959872_Favicon.jpg",
     "link": "https://mlops.community",
     "category": "Professional",
     "sourceUrl": "https://mlops.community",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "imageSource": "https://mlops.community"
   },
   {
     "id": 7,
     "title": "NeurIPS Conference Community",
     "description": "Premier annual AI research conference bringing together 20,000+ researchers worldwide for autonomous agent and AGI research.",
     "members": "Not verified",
-    "image": "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=neurips.cc&sz=128",
     "link": "https://neurips.cc",
-    "category": "Conference"
+    "category": "Conference",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=neurips.cc&sz=128",
+    "imageSource": "https://neurips.cc"
   },
   {
     "id": 8,
     "title": "AI Ethics Forum",
     "description": "Global forum of 30,000+ discussing ethical implications of autonomous AI agents, safety frameworks, and AI governance.",
     "members": "Not verified",
-    "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=80",
+    "image": "/brand/categories/community.svg",
     "link": "https://www.aiethicsforum.org",
-    "category": "Ethics"
+    "category": "Ethics",
+    "imageKind": "placeholder"
   },
   {
     "id": 9,
     "title": "Robotics Discord Server",
     "description": "Check out the Centreville Robotics community on Discord - hang out with 513 other members and enjoy free voice and text chat.",
     "members": "Not verified",
-    "image": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=discord.gg&sz=128",
     "link": "https://discord.gg/robotics",
     "category": "Robotics",
     "sourceUrl": "https://discord.gg/robotics",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=discord.gg&sz=128",
+    "imageSource": "https://discord.gg/robotics"
   },
   {
     "id": 10,
     "title": "LinkedIn AI Group",
     "description": "Login to LinkedIn to keep in touch with people you know, share ideas, and build your career.",
     "members": "Not verified",
-    "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=www.linkedin.com&sz=128",
     "link": "https://www.linkedin.com/groups/artificial-intelligence",
     "category": "Professional",
     "sourceUrl": "https://www.linkedin.com/groups/artificial-intelligence",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=www.linkedin.com&sz=128",
+    "imageSource": "https://www.linkedin.com/groups/artificial-intelligence"
   }
 ]

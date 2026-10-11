@@ -4,99 +4,108 @@
     "title": "Impactful scheduling for GPU clusters",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-09",
-    "image": "/brand/aiworldnext-icon.png",
+    "image": "/brand/categories/blogs.svg",
     "link": "https://huggingface.co/blog/allenai/impactful-scheduling",
     "category": "AI Tools & Research",
     "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext"
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "placeholder"
   },
   {
     "id": 62,
     "title": "The model that didn't exist, so you made it yourself",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-08",
-    "image": "/brand/aiworldnext-icon.png",
+    "image": "/brand/categories/blogs.svg",
     "link": "https://huggingface.co/blog/building-with-ml-intern",
     "category": "AI Tools & Research",
     "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext"
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "placeholder"
   },
   {
     "id": 63,
     "title": "Multimodal open d1 decision models for the edge",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-07",
-    "image": "/brand/aiworldnext-icon.png",
+    "image": "/brand/categories/blogs.svg",
     "link": "https://huggingface.co/blog/LiquidAI/open-d1",
     "category": "AI Tools & Research",
     "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext"
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "placeholder"
   },
   {
     "id": 64,
     "title": "Introducing Falcon ASR",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-07",
-    "image": "/brand/aiworldnext-icon.png",
+    "image": "/brand/categories/blogs.svg",
     "link": "https://huggingface.co/blog/tiiuae/falcon-asr",
     "category": "AI Tools & Research",
     "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext"
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "placeholder"
   },
   {
     "id": 65,
     "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-07",
-    "image": "/brand/aiworldnext-icon.png",
+    "image": "/brand/categories/blogs.svg",
     "link": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
     "category": "AI Tools & Research",
     "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext"
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "placeholder"
   },
   {
     "id": 1,
     "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
     "description": "Read the original report from Google DeepMind.",
     "date": "2026-10-06",
-    "image": "/brand/aiworldnext-icon.png",
+    "image": "/brand/categories/blogs.svg",
     "link": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
     "category": "AI Research",
     "author": "Google DeepMind",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext"
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "placeholder"
   },
   {
     "id": 66,
     "title": "The Agent Said It Was Done. The Database Disagreed.",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-03",
-    "image": "/brand/aiworldnext-icon.png",
+    "image": "/brand/categories/blogs.svg",
     "link": "https://huggingface.co/blog/microsoft/thinkingbox",
     "category": "AI Tools & Research",
     "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext"
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "placeholder"
   },
   {
     "id": 67,
     "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-02",
-    "image": "/brand/aiworldnext-icon.png",
+    "image": "/brand/categories/blogs.svg",
     "link": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
     "category": "AI Tools & Research",
     "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext"
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "placeholder"
   },
   {
     "id": 2,
     "title": "Gemini 4 Argon: our next era of frontier intelligence",
     "description": "Read the original report from Google DeepMind.",
     "date": "2026-09-30",
-    "image": "/brand/aiworldnext-icon.png",
+    "image": "/brand/categories/blogs.svg",
     "link": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
     "category": "AI Research",
     "author": "Google DeepMind",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext"
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "placeholder"
   },
   {
     "id": 3,
@@ -107,61 +116,68 @@
     "link": "https://deepmind.google/blog/introducing-synthid-bio/",
     "category": "AI Research",
     "author": "Google DeepMind",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext"
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://deepmind.google/blog/introducing-synthid-bio/"
   },
   {
     "id": 68,
     "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-09-30",
-    "image": "/brand/aiworldnext-icon.png",
+    "image": "/brand/categories/blogs.svg",
     "link": "https://huggingface.co/blog/open-tts-leaderboard",
     "category": "AI Tools & Research",
     "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext"
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "placeholder"
   },
   {
     "id": 69,
     "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-09-29",
-    "image": "/brand/aiworldnext-icon.png",
+    "image": "/brand/categories/blogs.svg",
     "link": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
     "category": "AI Tools & Research",
     "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext"
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "placeholder"
   },
   {
     "id": 70,
     "title": "Holo4: powering generalist computer-use agents",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-09-28",
-    "image": "/brand/aiworldnext-icon.png",
+    "image": "/brand/categories/blogs.svg",
     "link": "https://huggingface.co/blog/Hcompany/holo4",
     "category": "AI Tools & Research",
     "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext"
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "placeholder"
   },
   {
     "id": 71,
     "title": "Welcome RL Environments to the hub",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-09-28",
-    "image": "/brand/aiworldnext-icon.png",
+    "image": "/brand/categories/blogs.svg",
     "link": "https://huggingface.co/blog/rl-environments",
     "category": "AI Tools & Research",
     "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext"
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "placeholder"
   },
   {
     "id": 4,
     "title": "Introducing Gemini 3.8 Live with Live Avatar",
     "description": "Read the original report from Google DeepMind.",
     "date": "2026-09-24",
-    "image": "/brand/aiworldnext-icon.png",
+    "image": "/brand/categories/blogs.svg",
     "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
     "category": "AI Research",
     "author": "Google DeepMind",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext"
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "placeholder"
   }
 ]

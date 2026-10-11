@@ -650,6 +650,8 @@ def main():
             print(f"WARNING: {section}: {exc}")
 
     write_json("update-status.json", {"runDate": date.today().isoformat(), "sections": report})
+    from source_images import refresh_images
+    refresh_images(ROOT)
     summary = "# AIWorldNext weekly update\n\n| Section | Status | Details |\n| --- | --- | --- |\n"
     for section, result in report.items():
         summary += f"| {section} | {result['status']} | {json.dumps(result).replace('|', '/')} |\n"

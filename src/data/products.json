@@ -4,126 +4,160 @@
     "title": "ChatGPT",
     "description": "Explore ChatGPT on the official website. Check current features, availability, data policies and pricing before choosing a plan.",
     "price": "See official pricing",
-    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
     "link": "https://openai.com/chatgpt/",
     "category": "AI Assistant",
-    "sourceUrl": "https://openai.com/chatgpt/"
+    "sourceUrl": "https://openai.com/chatgpt/",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
+    "imageSource": "https://openai.com/chatgpt/"
   },
   {
     "id": 2,
     "title": "Claude",
     "description": "Claude is the AI assistant for work. Hand off tasks, turn ideas into decks, spreadsheets and prototypes, and run scheduled tasks across your apps and files.",
     "price": "See official pricing",
-    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://assets.claude.com/95a868946ac8a31e5ff832e2899f294aa368b836.png?w=32&h=32",
     "link": "https://www.anthropic.com/claude",
     "category": "AI Assistant",
     "sourceUrl": "https://www.anthropic.com/claude",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "imageSource": "https://www.anthropic.com/claude"
   },
   {
     "id": 3,
     "title": "Google AI plans",
     "description": "Google One bundles cloud storage, powerful AI capabilities, and helpful features across Google — all in one shareable plan.",
     "price": "See official pricing",
-    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=one.google.com&sz=128",
     "link": "https://one.google.com/",
     "category": "AI Assistant",
     "sourceUrl": "https://one.google.com/",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=one.google.com&sz=128",
+    "imageSource": "https://one.google.com/"
   },
   {
     "id": 4,
     "title": "Perplexity",
     "description": "Explore Perplexity on the official website. Check current features, availability, data policies and pricing before choosing a plan.",
     "price": "See official pricing",
-    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=www.perplexity.ai&sz=128",
     "link": "https://www.perplexity.ai/",
     "category": "Research AI",
-    "sourceUrl": "https://www.perplexity.ai/"
+    "sourceUrl": "https://www.perplexity.ai/",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=www.perplexity.ai&sz=128",
+    "imageSource": "https://www.perplexity.ai/"
   },
   {
     "id": 5,
     "title": "Cursor",
     "description": "Built to make you extraordinarily productive, agents turn ideas into code. Accelerate development by handing off tasks to Cursor.",
     "price": "See official pricing",
-    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=cursor.com&sz=128",
     "link": "https://cursor.com/",
     "category": "Development",
     "sourceUrl": "https://cursor.com/",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=cursor.com&sz=128",
+    "imageSource": "https://cursor.com/"
   },
   {
     "id": 6,
     "title": "GitHub Copilot",
     "description": "GitHub Copilot works every step of the way, from an open issue to reviewing and merging a pull request. Use it in your editor, the terminal, on your desktop, and on GitHub.",
     "price": "See official pricing",
-    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
     "link": "https://github.com/features/copilot",
     "category": "Development",
     "sourceUrl": "https://github.com/features/copilot",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+    "imageSource": "https://github.com/features/copilot"
   },
   {
     "id": 7,
     "title": "Runway",
     "description": "Runway is building foundational Real-World Intelligence that can understand, simulate and act in the world. We offer products and services built on-top of this intelligence to empower individuals and organizations to do more in the world.",
     "price": "See official pricing",
-    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=runwayml.com&sz=128",
     "link": "https://runwayml.com/",
     "category": "Video AI",
     "sourceUrl": "https://runwayml.com/",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=runwayml.com&sz=128",
+    "imageSource": "https://runwayml.com/"
   },
   {
     "id": 8,
     "title": "Midjourney",
     "description": "Explore Midjourney on the official website. Check current features, availability, data policies and pricing before choosing a plan.",
     "price": "See official pricing",
-    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=www.midjourney.com&sz=128",
     "link": "https://www.midjourney.com/",
     "category": "Creative AI",
-    "sourceUrl": "https://www.midjourney.com/"
+    "sourceUrl": "https://www.midjourney.com/",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=www.midjourney.com&sz=128",
+    "imageSource": "https://www.midjourney.com/"
   },
   {
     "id": 9,
     "title": "ElevenLabs",
     "description": "Explore ElevenLabs on the official website. Check current features, availability, data policies and pricing before choosing a plan.",
     "price": "See official pricing",
-    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://elevenlabs.io/favicon.ico?9c55860cee08706b",
     "link": "https://elevenlabs.io/",
     "category": "Voice AI",
-    "sourceUrl": "https://elevenlabs.io/"
+    "sourceUrl": "https://elevenlabs.io/",
+    "imageKind": "logo",
+    "imageSource": "https://elevenlabs.io/"
   },
   {
     "id": 10,
     "title": "NVIDIA AI computing",
     "description": "Explore the cutting-edge building blocks of intelligent AI agents and transform enterprise data into actionable knowledge.",
     "price": "See official pricing",
-    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=www.nvidia.com&sz=128",
     "link": "https://www.nvidia.com/en-us/ai/",
     "category": "Hardware",
     "sourceUrl": "https://www.nvidia.com/en-us/ai/",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=www.nvidia.com&sz=128",
+    "imageSource": "https://www.nvidia.com/en-us/ai/"
   },
   {
     "id": 11,
     "title": "Apple Intelligence",
     "description": "Next-generation Apple Intelligence and Siri AI bring helpful features to iOS 27, iPadOS 27, macOS Golden Gate, watchOS 27, and visionOS 27.",
     "price": "See official pricing",
-    "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=www.apple.com&sz=128",
     "link": "https://www.apple.com/apple-intelligence/",
     "category": "Hardware",
     "sourceUrl": "https://www.apple.com/apple-intelligence/",
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=www.apple.com&sz=128",
+    "imageSource": "https://www.apple.com/apple-intelligence/"
   },
   {
     "id": 12,
     "title": "Microsoft 365 Copilot",
     "description": "Explore Microsoft 365 Copilot on the official website. Check current features, availability, data policies and pricing before choosing a plan.",
     "price": "See official pricing",
-    "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.google.com/s2/favicons?domain=www.microsoft.com&sz=128",
     "link": "https://www.microsoft.com/microsoft-365/copilot",
     "category": "Enterprise",
-    "sourceUrl": "https://www.microsoft.com/microsoft-365/copilot"
+    "sourceUrl": "https://www.microsoft.com/microsoft-365/copilot",
+    "imageKind": "logo",
+    "logoIcon": "https://www.google.com/s2/favicons?domain=www.microsoft.com&sz=128",
+    "imageSource": "https://www.microsoft.com/microsoft-365/copilot"
   }
 ]

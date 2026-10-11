@@ -69,6 +69,7 @@ function App() {
             title={item.title}
             description={item.description}
             image={item.image}
+                imageKind={(item as { imageKind?: string }).imageKind}
             link={item.link}
             date={item.date}
             category={item.category}
@@ -88,6 +89,7 @@ function App() {
             title={item.title}
             description={item.description}
             image={item.image}
+                imageKind={(item as { imageKind?: string }).imageKind}
             link={`/blogs/entry-${item.id}/`}
             date={item.date}
             author={item.author}
@@ -109,6 +111,7 @@ function App() {
             title={item.title}
             description={item.description}
             image={item.image}
+                imageKind={(item as { imageKind?: string }).imageKind}
             link={item.link}
             host={item.host}
             category={item.category}
@@ -142,6 +145,7 @@ function App() {
             title={item.title}
             description={item.description}
             image={item.image}
+                imageKind={(item as { imageKind?: string }).imageKind}
             link={item.link}
             category={item.category}
           />
@@ -162,6 +166,7 @@ function App() {
             title={item.title}
             description={item.description}
             image={item.image}
+                imageKind={(item as { imageKind?: string }).imageKind}
             link={item.link}
             date={item.date}
             category={item.category}
@@ -188,6 +193,7 @@ function App() {
             title={item.title}
             description={item.description}
             image={item.image}
+                imageKind={(item as { imageKind?: string }).imageKind}
             link={item.link}
             funding={item.funding}
             founded={item.founded}
@@ -225,6 +231,7 @@ function App() {
             title={item.title}
             description={item.description}
             image={item.image}
+                imageKind={(item as { imageKind?: string }).imageKind}
             link={item.link}
             members={item.members}
             category={item.category}
@@ -244,6 +251,7 @@ function App() {
             title={item.title}
             description={item.description}
             image={item.image}
+                imageKind={(item as { imageKind?: string }).imageKind}
             link={item.link}
             category={item.category}
           />

@@ -5,6 +5,7 @@ interface CardProps {
   title: string;
   description?: string;
   image: string;
+  imageKind?: string;
   link: string;
   date?: string;
   author?: string;
@@ -35,11 +36,11 @@ export default function Card(props: CardProps) {
         <img
           src={props.image}
           alt={props.title}
-          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+          className={`w-full h-full ${props.imageKind === 'logo' ? 'object-contain p-8 bg-gray-950' : 'object-cover'} group-hover:scale-105 transition-transform duration-300`}
           loading="lazy"
           onError={(e) => {
             const image = e.target as HTMLImageElement;
-            image.onerror = null; image.src = "/brand/aiworldnext-icon.png"; image.style.objectFit = "contain";
+            image.onerror = null; image.src = "/brand/categories/resources.svg"; image.style.objectFit = "contain";
           }}
         />
         {props.category && (
