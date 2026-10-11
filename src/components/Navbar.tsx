@@ -30,12 +30,12 @@ export default function Navbar() {
             />
           </a>
 
-          <div className="hidden 2xl:flex items-center space-x-1">
+          <div className="hidden lg:flex items-center space-x-1">
             {navLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
-                className="px-4 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-neon-blue hover:bg-gray-900 transition-all duration-200"
+                className="px-2 2xl:px-3 py-2 rounded-md text-sm font-medium whitespace-nowrap text-gray-300 hover:text-neon-blue hover:bg-gray-900 transition-all duration-200"
               >
                 {link.name}
               </a>
@@ -72,6 +72,8 @@ export default function Navbar() {
 
           <button
             onClick={() => setIsOpen(!isOpen)}
+            aria-label="Toggle navigation menu"
+            aria-expanded={isOpen}
             className="2xl:hidden p-2 rounded-md text-gray-400 hover:text-neon-blue hover:bg-gray-900 transition-all duration-200"
           >
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
