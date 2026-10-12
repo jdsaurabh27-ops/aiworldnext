@@ -1,6 +1,17 @@
 [
   {
     "id": 1,
+    "title": "AI Engineer Code Summit 2026",
+    "date": "2026-11-10",
+    "endDate": "2026-11-12",
+    "location": "See official event page",
+    "type": "AI Event",
+    "description": "Event date: November 10, 2026 - November 12, 2026 The hybrid AI Engineer Code Summit takes place November 10–12 at Hilton Union Square in San Francisco, with a livestream also announced. Workshops are November 10;",
+    "url": "https://www.ai-redteam.com/insights/ai-engineer-code-summit-2026/",
+    "featured": true
+  },
+  {
+    "id": 2,
     "title": "OpenAI DevDay Exchange Mexico City 2026",
     "date": "2026-11-10",
     "endDate": "2026-11-10",
@@ -8,17 +19,6 @@
     "type": "AI Event",
     "description": "Event date: November 10, 2026 OpenAI DevDay Exchange in Mexico City offers technical sessions, project discussion, and hands-on guidance with OpenAI engineering teams. The organizer describes real application projects and coding-agent workflows. Attendance requires an",
     "url": "https://www.ai-redteam.com/insights/openai-devday-exchange-mexico-city-2026/",
-    "featured": true
-  },
-  {
-    "id": 2,
-    "title": "TrustAudio 2026",
-    "date": "2026-11-10",
-    "endDate": "2026-11-10",
-    "location": "See official event page",
-    "type": "AI Event",
-    "description": "Event date: November 10, 2026 TrustAudio is a one-day AACL-IJCNLP workshop in Zhuhai focused on security, safety, and privacy across the speech and audio AI lifecycle, including adversarial audio, real-world attacks, deepfake misuse, backdoors, model",
-    "url": "https://www.ai-redteam.com/insights/trustaudio-2026/",
     "featured": true
   },
   {
@@ -34,13 +34,13 @@
   },
   {
     "id": 4,
-    "title": "AI Engineer Code Summit 2026",
+    "title": "TrustAudio 2026",
     "date": "2026-11-10",
-    "endDate": "2026-11-12",
+    "endDate": "2026-11-10",
     "location": "See official event page",
     "type": "AI Event",
-    "description": "Event date: November 10, 2026 - November 12, 2026 The hybrid AI Engineer Code Summit takes place November 10–12 at Hilton Union Square in San Francisco, with a livestream also announced. Workshops are November 10;",
-    "url": "https://www.ai-redteam.com/insights/ai-engineer-code-summit-2026/",
+    "description": "Event date: November 10, 2026 TrustAudio is a one-day AACL-IJCNLP workshop in Zhuhai focused on security, safety, and privacy across the speech and audio AI lifecycle, including adversarial audio, real-world attacks, deepfake misuse, backdoors, model",
+    "url": "https://www.ai-redteam.com/insights/trustaudio-2026/",
     "featured": true
   },
   {
@@ -56,17 +56,6 @@
   },
   {
     "id": 6,
-    "title": "ACM CCS 2026",
-    "date": "2026-11-15",
-    "endDate": "2026-11-19",
-    "location": "See official event page",
-    "type": "AI Event",
-    "description": "Event date: November 15, 2026 - November 19, 2026 The 33rd ACM Conference on Computer and Communications Security brings peer-reviewed security and privacy research to the World Forum in The Hague, including a large workshop",
-    "url": "https://www.ai-redteam.com/insights/acm-ccs-2026/",
-    "featured": false
-  },
-  {
-    "id": 7,
     "title": "ACM AGENT-SEC 2026",
     "date": "2026-11-15",
     "endDate": "2026-11-15",
@@ -77,7 +66,29 @@
     "featured": false
   },
   {
+    "id": 7,
+    "title": "ACM CCS 2026",
+    "date": "2026-11-15",
+    "endDate": "2026-11-19",
+    "location": "See official event page",
+    "type": "AI Event",
+    "description": "Event date: November 15, 2026 - November 19, 2026 The 33rd ACM Conference on Computer and Communications Security brings peer-reviewed security and privacy research to the World Forum in The Hague, including a large workshop",
+    "url": "https://www.ai-redteam.com/insights/acm-ccs-2026/",
+    "featured": false
+  },
+  {
     "id": 8,
+    "title": "CSA Verifiable Agent Summit 2026",
+    "date": "2026-11-16",
+    "endDate": "2026-11-16",
+    "location": "See official event page",
+    "type": "AI Event",
+    "description": "Event date: November 16, 2026 Cloud Security Alliance lists a free in-person Verifiable Agent Summit in San Francisco on November 16. Its announced subject is verification of AI agent actions, authority, and trust. The current",
+    "url": "https://www.ai-redteam.com/insights/csa-verifiable-agent-summit-2026/",
+    "featured": false
+  },
+  {
+    "id": 9,
     "title": "AI Governance Conference 2026",
     "date": "2026-11-16",
     "endDate": "2026-11-19",
@@ -88,7 +99,7 @@
     "featured": false
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "IAPP Europe Congress 2026",
     "date": "2026-11-16",
     "endDate": "2026-11-19",
@@ -96,17 +107,6 @@
     "type": "AI Event",
     "description": "Event date: November 16, 2026 - November 19, 2026 This IAPP event in Brussels covers privacy, AI governance, and cybersecurity law. Training runs November 16–17, workshops take place November 17, and the main conference runs",
     "url": "https://www.ai-redteam.com/insights/iapp-europe-congress-2026/",
-    "featured": false
-  },
-  {
-    "id": 10,
-    "title": "CSA Verifiable Agent Summit 2026",
-    "date": "2026-11-16",
-    "endDate": "2026-11-16",
-    "location": "See official event page",
-    "type": "AI Event",
-    "description": "Event date: November 16, 2026 Cloud Security Alliance lists a free in-person Verifiable Agent Summit in San Francisco on November 16. Its announced subject is verification of AI agent actions, authority, and trust. The current",
-    "url": "https://www.ai-redteam.com/insights/csa-verifiable-agent-summit-2026/",
     "featured": false
   },
   {
@@ -122,6 +122,17 @@
   },
   {
     "id": 12,
+    "title": "ESSAI 2026: European Symposium on Security and AI",
+    "date": "2026-11-19",
+    "endDate": "2026-11-19",
+    "location": "See official event page",
+    "type": "AI Event",
+    "description": "Event date: November 19, 2026 ESSAI takes place November 19 in Rennes, France, during European Cyber Week. Organized by Inria and AMIAD, the research symposium has two themes: agentic AI for offensive and defensive cybersecurity,",
+    "url": "https://www.ai-redteam.com/insights/essai-2026/",
+    "featured": false
+  },
+  {
+    "id": 13,
     "title": "MCP Dev Summit Nairobi 2026",
     "date": "2026-11-19",
     "endDate": "2026-11-20",
@@ -132,7 +143,7 @@
     "featured": false
   },
   {
-    "id": 13,
+    "id": 14,
     "title": "TrustAICyberSec 2026",
     "date": "2026-11-19",
     "endDate": "2026-11-19",
@@ -140,17 +151,6 @@
     "type": "AI Event",
     "description": "Event date: November 19, 2026 TrustAICyberSec is a November 19 ACM CCS workshop at the World Forum in The Hague. Its research scope connects trusted computing and attestation with AI-assisted attack detection, incident response, and",
     "url": "https://www.ai-redteam.com/insights/trustaicybersec-2026/",
-    "featured": false
-  },
-  {
-    "id": 14,
-    "title": "ESSAI 2026: European Symposium on Security and AI",
-    "date": "2026-11-19",
-    "endDate": "2026-11-19",
-    "location": "See official event page",
-    "type": "AI Event",
-    "description": "Event date: November 19, 2026 ESSAI takes place November 19 in Rennes, France, during European Cyber Week. Organized by Inria and AMIAD, the research symposium has two themes: agentic AI for offensive and defensive cybersecurity,",
-    "url": "https://www.ai-redteam.com/insights/essai-2026/",
     "featured": false
   },
   {
@@ -210,28 +210,6 @@
   },
   {
     "id": 20,
-    "title": "Black Hat Europe 2026",
-    "date": "2026-12-07",
-    "endDate": "2026-12-10",
-    "location": "See official event page",
-    "type": "AI Event",
-    "description": "Event date: December 7, 2026 - December 10, 2026 Black Hat Europe 2026 brings security researchers and practitioners to London for four days of technical training, review-board-selected Briefings, Arsenal tool demonstrations, and a dedicated AI",
-    "url": "https://www.ai-redteam.com/insights/black-hat-europe-2026/",
-    "featured": false
-  },
-  {
-    "id": 21,
-    "title": "IEEE ACSAC 2026",
-    "date": "2026-12-07",
-    "endDate": "2026-12-11",
-    "location": "See official event page",
-    "type": "AI Event",
-    "description": "Event date: December 7, 2026 - December 11, 2026 ACSAC runs December 7–11 in Los Angeles, with a 2026 focus on security and privacy of agentic systems. Its AI-related workshops include offensive and defensive agents,",
-    "url": "https://www.ai-redteam.com/insights/acsac-2026/",
-    "featured": false
-  },
-  {
-    "id": 22,
     "title": "ACSAC AIDC 2026: Agentic AI in Cyber Operations",
     "date": "2026-12-07",
     "endDate": "2026-12-07",
@@ -239,6 +217,28 @@
     "type": "AI Event",
     "description": "Event date: December 7, 2026 AIDC is a December 7 ACSAC workshop in Los Angeles on agentic AI for offensive and defensive cyber operations. Its research scope includes interactions between attacking and defending agents, deception,",
     "url": "https://www.ai-redteam.com/insights/acsac-aidc-2026/",
+    "featured": false
+  },
+  {
+    "id": 21,
+    "title": "ACSAC BioAISS 2026: AI Safety and Security in Biotechnology",
+    "date": "2026-12-07",
+    "endDate": "2026-12-07",
+    "location": "See official event page",
+    "type": "AI Event",
+    "description": "Event date: December 7, 2026 BioAISS meets December 7 alongside ACSAC in Los Angeles. The workshop studies security and safety of AI-enabled biotechnology and healthcare systems, including sensitive-data protection, model robustness, secure pipelines, threat modeling,",
+    "url": "https://www.ai-redteam.com/insights/acsac-bioaiss-2026/",
+    "featured": false
+  },
+  {
+    "id": 22,
+    "title": "Black Hat Europe 2026",
+    "date": "2026-12-07",
+    "endDate": "2026-12-10",
+    "location": "See official event page",
+    "type": "AI Event",
+    "description": "Event date: December 7, 2026 - December 10, 2026 Black Hat Europe 2026 brings security researchers and practitioners to London for four days of technical training, review-board-selected Briefings, Arsenal tool demonstrations, and a dedicated AI",
+    "url": "https://www.ai-redteam.com/insights/black-hat-europe-2026/",
     "featured": false
   },
   {
@@ -254,13 +254,13 @@
   },
   {
     "id": 24,
-    "title": "ACSAC BioAISS 2026: AI Safety and Security in Biotechnology",
+    "title": "IEEE ACSAC 2026",
     "date": "2026-12-07",
-    "endDate": "2026-12-07",
+    "endDate": "2026-12-11",
     "location": "See official event page",
     "type": "AI Event",
-    "description": "Event date: December 7, 2026 BioAISS meets December 7 alongside ACSAC in Los Angeles. The workshop studies security and safety of AI-enabled biotechnology and healthcare systems, including sensitive-data protection, model robustness, secure pipelines, threat modeling,",
-    "url": "https://www.ai-redteam.com/insights/acsac-bioaiss-2026/",
+    "description": "Event date: December 7, 2026 - December 11, 2026 ACSAC runs December 7–11 in Los Angeles, with a 2026 focus on security and privacy of agentic systems. Its AI-related workshops include offensive and defensive agents,",
+    "url": "https://www.ai-redteam.com/insights/acsac-2026/",
     "featured": false
   },
   {
