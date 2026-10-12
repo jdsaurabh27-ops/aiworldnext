@@ -12,7 +12,7 @@ export default function AIToolsSection() {
 
   const categories = ['all', ...Array.from(new Set(productsData.map(product => product.category)))];
 
-  const displayTools = filteredTools.slice(0, 12);
+  const displayTools = filteredTools.slice(0, 15);
 
   return (
     <section id="tools" className="py-20 bg-black">

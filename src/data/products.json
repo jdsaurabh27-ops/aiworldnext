@@ -121,6 +121,18 @@
     "affiliateUrl": "https://try.elevenlabs.io/hfvs9b3eqiiw"
   },
   {
+    "id": 13,
+    "title": "Murf AI",
+    "description": "AI text-to-speech and voiceover tools for videos, podcasts and presentations. Check the official website for current features, pricing and usage terms.",
+    "price": "See official pricing",
+    "image": "/brand/categories/products.svg",
+    "imageKind": "placeholder",
+    "link": "https://murf.ai/",
+    "sourceUrl": "https://murf.ai/",
+    "category": "Voice AI",
+    "affiliateUrl": "https://get.murf.ai/5qrh0y1bzs1j"
+  },
+  {
     "id": 10,
     "title": "NVIDIA AI computing",
     "description": "Explore the cutting-edge building blocks of intelligent AI agents and transform enterprise data into actionable knowledge.",
