@@ -46,6 +46,22 @@ def clean(value):
     return re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', ' ', html.unescape(str(value or '')))).strip()
 
 
+
+def concise_description(value, fallback=""):
+    """Keep a readable excerpt; retain English copy when source metadata is CJK."""
+    value = clean(value)
+    if re.search(r'[\u3400-\u9fff]', value):
+        value = clean(fallback)
+    if len(value) <= 280:
+        return value
+    excerpt = value[:277]
+    endings = [excerpt.rfind(mark) for mark in ('. ', '! ', '? ')]
+    end = max(endings)
+    if end >= 100:
+        return excerpt[:end + 1]
+    return excerpt.rsplit(' ', 1)[0] + '…'
+
+
 def refresh_item(section, item):
     original = dict(item)
     source = item.get('sourceUrl') or item.get('url') or item.get('link')
@@ -58,7 +74,7 @@ def refresh_item(section, item):
         description = clean(metadata.description)
         if len(description) < 30:
             raise ValueError('No usable source description; existing entry retained')
-        result = dict(item, description=description[:600], sourceUrl=source, checkedAt=date.today().isoformat())
+        result = dict(item, description=concise_description(description, item.get("description", "")), sourceUrl=source, checkedAt=date.today().isoformat())
         # Do not guess volatile prices, valuations, headcounts or model benchmarks.
         if section == 'products':
             result['price'] = 'See official pricing'
@@ -87,7 +103,7 @@ def refresh_item(section, item):
                         continue
                     entry = candidates[0]
                     result['latestEpisode'] = clean(entry['title'])[:220]
-                    result['description'] = ('Latest episode: ' + result['latestEpisode'] + '. ' + clean(entry.get('summary', '')))[:600]
+                    result['description'] = concise_description('Latest episode: ' + result['latestEpisode'] + '. ' + clean(entry.get('summary', '')), item.get('description', ''))
                     result['link'] = entry['link']
                     break
                 except Exception:
