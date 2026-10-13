@@ -1,66 +1,10 @@
-import { Target, Eye, Lightbulb, Users as UsersIcon, Shield, Globe } from 'lucide-react';
-import visionData from '../data/vision.json';
+import { ArrowRight } from 'lucide-react';
 
 export default function VisionSection() {
-  const valueIcons = {
-    Innovation: Lightbulb,
-    Accessibility: Globe,
-    Ethics: Shield,
-    Community: UsersIcon,
-  };
-
-  return (
-    <section id="vision" className="relative py-20 overflow-hidden">
-      {/* Background Effects */}
-      <div className="absolute inset-0 bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950"></div>
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-cyan-900/20 via-transparent to-transparent"></div>
-
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Mission & Vision */}
-        <div className="grid md:grid-cols-2 gap-12 mb-20">
-          {/* Mission */}
-          <div className="bg-gray-900/50 backdrop-blur-sm rounded-2xl p-8 border border-gray-800">
-            <div className="inline-flex p-3 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-xl mb-6">
-              <Target className="w-8 h-8 text-white" />
-            </div>
-            <h2 className="text-3xl font-bold text-white mb-4">{visionData.mission.title}</h2>
-            <p className="text-gray-300 leading-relaxed">{visionData.mission.content}</p>
-          </div>
-
-          {/* Vision */}
-          <div className="bg-gray-900/50 backdrop-blur-sm rounded-2xl p-8 border border-gray-800">
-            <div className="inline-flex p-3 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl mb-6">
-              <Eye className="w-8 h-8 text-white" />
-            </div>
-            <h2 className="text-3xl font-bold text-white mb-4">{visionData.vision.title}</h2>
-            <p className="text-gray-300 leading-relaxed">{visionData.vision.content}</p>
-          </div>
-        </div>
-
-        {/* Values */}
-        <div className="mb-20">
-          <h2 className="text-4xl font-bold text-white text-center mb-12">Our Core Values</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {visionData.values.map((value) => {
-              const Icon = valueIcons[value.title as keyof typeof valueIcons];
-              return (
-                <div
-                  key={value.title}
-                  className="bg-gray-900/50 backdrop-blur-sm rounded-xl p-6 border border-gray-800 hover:border-cyan-500/50 transition-all duration-300 hover:scale-105"
-                >
-                  <div className="inline-flex p-2 bg-cyan-500/10 rounded-lg mb-4">
-                    <Icon className="w-6 h-6 text-cyan-400" />
-                  </div>
-                  <h3 className="text-xl font-bold text-white mb-3">{value.title}</h3>
-                  <p className="text-gray-400 text-sm leading-relaxed">{value.description}</p>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-
-        <p className="text-gray-300 text-center">AIWorldNext is an independent directory. Listed organisations are sources, not claimed partners or sponsors.</p>
-      </div>
-    </section>
-  );
+ return <section id="vision" className="border-y border-gray-800 bg-gray-900/40 py-10">
+  <div className="mx-auto flex max-w-7xl flex-col gap-5 px-4 sm:px-6 md:flex-row md:items-center md:justify-between lg:px-8">
+   <div className="max-w-2xl"><p className="mb-2 text-xs font-semibold uppercase tracking-widest text-cyan-400">About AIWorldNext</p><h2 className="mb-3 text-2xl font-bold text-white">A clear starting point for discovering AI.</h2><p className="leading-relaxed text-gray-300">We bring together source-linked listings and practical guides to help you explore AI tools, news, careers and learning resources.</p></div>
+   <a href="/about.html" className="inline-flex w-fit shrink-0 items-center gap-2 rounded-lg border border-gray-600 px-5 py-3 font-semibold text-white hover:border-cyan-400">Our mission &amp; approach <ArrowRight className="h-4 w-4" /></a>
+  </div>
+ </section>;
 }

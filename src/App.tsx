@@ -2,6 +2,7 @@ import { lazy, Suspense } from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
+import PracticalGuides from './components/PracticalGuides';
 import SearchResults from './components/SearchResults';
 import Section from './components/Section';
 import Card from './components/Card';
@@ -48,14 +49,7 @@ function App() {
       <Navbar />
       <Hero />
       <SearchResults />
-      <div className="max-w-7xl mx-auto px-6 py-5 text-center text-gray-300">Browse complete categories: {['news','blogs','jobs','tools','events','companies','startups','robotics','podcasts','community','directories','resources'].map(name => <a key={name} href={`/${name}/`} className="inline-block mx-2 my-1 text-neon-blue underline capitalize">{name}</a>)}<p className="mt-3"><a href="/guides/" className="text-neon-blue underline">Practical AI guides</a> · <a href="/updates/" className="text-neon-blue underline">Weekly update status</a></p></div>
-
-      {/* Vision & Mission */}
-      <Suspense fallback={<LoadingFallback />}>
-        <VisionSection />
-      </Suspense>
-
-      {/* Top Banner Ad */}
+      <div className="border-y border-gray-800 bg-gray-900/30"><div className="mx-auto max-w-7xl px-4 py-4 text-center"><p className="mb-2 text-xs font-semibold uppercase tracking-widest text-gray-400">Browse the directory</p><div className="flex flex-wrap justify-center gap-2">{['news','blogs','jobs','tools','events','companies','startups','robotics','podcasts','community','directories','resources'].map(name=><a key={name} href={`/${name}/`} className="rounded-md border border-gray-700 px-3 py-2 text-sm capitalize text-gray-200 hover:border-cyan-400 hover:text-cyan-400">{name}</a>)}</div></div></div>
 
       <Section
         id="news"
@@ -76,6 +70,12 @@ function App() {
           />
         ))}
       </Section>
+
+      <Suspense fallback={<LoadingFallback />}><AIToolsSection /></Suspense>
+
+      <PracticalGuides />
+
+      <Suspense fallback={<LoadingFallback />}><AIJobsSection /></Suspense>
 
       <Section
         id="blogs"
@@ -100,61 +100,6 @@ function App() {
       </Section>
 
       <Section
-        id="podcasts"
-        title="AI Podcasts"
-        subtitle="Listen to conversations with leading AI researchers and practitioners"
-        icon={Mic}
-      >
-        {podcastsData.map((item) => (
-          <Card
-            key={item.id}
-            title={item.title}
-            description={item.description}
-            image={item.image}
-                imageKind={(item as { imageKind?: string }).imageKind}
-            link={item.link}
-            host={item.host}
-            category={item.category}
-          />
-        ))}
-      </Section>
-
-      {/* AI Jobs Section with Filters */}
-      <Suspense fallback={<LoadingFallback />}>
-        <AIJobsSection />
-      </Suspense>
-
-      {/* Mid-page Banner Ad */}
-
-      {/* AI Tools Directory */}
-      <Suspense fallback={<LoadingFallback />}>
-        <AIToolsSection />
-      </Suspense>
-
-      {/* Middle Banner Ad */}
-
-      <Section
-        id="resources"
-        title="AI Resources & Learning"
-        subtitle="Educational materials, courses, and resources for AI development"
-        icon={BookOpen}
-      >
-        {resourcesData.slice(0, 6).map((item) => (
-          <Card
-            key={item.id}
-            title={item.title}
-            description={item.description}
-            image={item.image}
-                imageKind={(item as { imageKind?: string }).imageKind}
-            link={item.link}
-            category={item.category}
-          />
-        ))}
-      </Section>
-
-      {/* Middle Banner Ad */}
-
-      <Section
         id="robotics"
         title="Robotics Updates"
         subtitle="Latest developments in robotics and autonomous systems"
@@ -174,12 +119,7 @@ function App() {
         ))}
       </Section>
 
-      {/* AI Events Calendar 2026 */}
-      <Suspense fallback={<LoadingFallback />}>
-        <EventsCalendar />
-      </Suspense>
-
-      {/* Middle Banner Ad */}
+      <Suspense fallback={<LoadingFallback />}><EventsCalendar /></Suspense>
 
       <Section
         id="startups"
@@ -202,22 +142,46 @@ function App() {
         ))}
       </Section>
 
-      {/* Top AI Companies 2026 */}
-      <Suspense fallback={<LoadingFallback />}>
-        <TopCompanies />
-      </Suspense>
+      <Suspense fallback={<LoadingFallback />}><TopCompanies /></Suspense>
 
-      {/* Newsletter Subscription */}
-      <Suspense fallback={<LoadingFallback />}>
-        <Newsletter />
-      </Suspense>
+      <Section
+        id="podcasts"
+        title="AI Podcasts"
+        subtitle="Listen to conversations with leading AI researchers and practitioners"
+        icon={Mic}
+      >
+        {podcastsData.map((item) => (
+          <Card
+            key={item.id}
+            title={item.title}
+            description={item.description}
+            image={item.image}
+                imageKind={(item as { imageKind?: string }).imageKind}
+            link={item.link}
+            host={item.host}
+            category={item.category}
+          />
+        ))}
+      </Section>
 
-      {/* Support & Donation Section */}
-      <Suspense fallback={<LoadingFallback />}>
-        <SupportSection />
-      </Suspense>
-
-      {/* Lower Banner Ad */}
+      <Section
+        id="resources"
+        title="AI Resources & Learning"
+        subtitle="Educational materials, courses, and resources for AI development"
+        icon={BookOpen}
+      >
+        {resourcesData.slice(0, 6).map((item) => (
+          <Card
+            key={item.id}
+            title={item.title}
+            description={item.description}
+            image={item.image}
+                imageKind={(item as { imageKind?: string }).imageKind}
+            link={item.link}
+            category={item.category}
+          />
+        ))}
+      </Section>
 
       <Section
         id="community"
@@ -258,12 +222,13 @@ function App() {
         ))}
       </Section>
 
-      {/* Submit Content Section */}
-      <Suspense fallback={<LoadingFallback />}>
-        <SubmitSection />
-      </Suspense>
+      <Suspense fallback={<LoadingFallback />}><Newsletter /></Suspense>
 
-      {/* Bottom Banner Ad */}
+      <Suspense fallback={<LoadingFallback />}><VisionSection /></Suspense>
+
+      <Suspense fallback={<LoadingFallback />}><SubmitSection /></Suspense>
+
+      <Suspense fallback={<LoadingFallback />}><SupportSection /></Suspense>
 
       <Footer />
     </div>

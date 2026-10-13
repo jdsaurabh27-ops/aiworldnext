@@ -1,28 +1,28 @@
 {
   "mission": {
     "title": "Our Mission",
-    "content": "AIWorldNext helps readers discover AI news sources, tools, jobs and learning resources through a curated directory."
+    "content": "Help people discover useful AI sources, tools, career opportunities and learning resources through clear listings and practical guides."
   },
   "vision": {
     "title": "Our Vision",
-    "content": "We envision a future where AI and robotics enhance human capabilities, solve global challenges, and create unprecedented opportunities for innovation. AIWorldNext will be the premier platform where this future is discovered, discussed, and built\u2014connecting minds, sharing knowledge, and fostering collaboration across the global AI community."
+    "content": "Make AI exploration easier to understand, so people can choose tools, assess information and build useful skills with confidence."
   },
   "values": [
     {
-      "title": "Innovation",
-      "description": "We celebrate breakthrough ideas and cutting-edge developments that push the boundaries of what's possible."
+      "title": "Accuracy",
+      "description": "Link to original sources, distinguish claims from evidence and correct identified errors."
+    },
+    {
+      "title": "Transparency",
+      "description": "Clearly label affiliate links and sponsored content, and explain what a listing represents."
     },
     {
       "title": "Accessibility",
-      "description": "We believe AI knowledge should be accessible to everyone, from beginners to experts."
-    },
-    {
-      "title": "Ethics",
-      "description": "We promote responsible AI development that prioritizes safety, fairness, and human wellbeing."
+      "description": "Use clear language, readable design and useful starting points for different experience levels."
     },
     {
       "title": "Community",
-      "description": "We foster collaboration and knowledge-sharing among AI practitioners worldwide."
+      "description": "Welcome useful resources, questions and corrections from readers and builders."
     }
   ],
   "partnerships": []

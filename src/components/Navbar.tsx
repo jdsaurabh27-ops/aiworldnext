@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Search, Home, Newspaper, BookOpen, Briefcase, Wrench, Calendar, Building2, Rocket, Bot, Mic, Users, Globe, Library, Send } from 'lucide-react';
 import SearchForm from './SearchForm';
+import BrandMark from './BrandMark';
 
 export const navLinks = [
   { name: 'Home', href: '#home', icon: Home },
@@ -16,6 +17,7 @@ export const navLinks = [
   { name: 'AI Community', href: '#community', icon: Users },
   { name: 'AI Directories', href: '#websites', icon: Globe },
   { name: 'Resources', href: '#resources', icon: Library },
+  { name: 'Guides', href: '/guides/', icon: BookOpen },
   { name: 'Submit', href: '#submit', icon: Send },
 ];
 
@@ -24,10 +26,9 @@ export default function Navbar() {
   return (
     <nav aria-label="Main navigation" className="bg-black border-b border-gray-800 sticky top-0 z-50">
       <div className="max-w-screen-2xl mx-auto px-3 sm:px-6 lg:px-8">
-        <div className="flex flex-wrap items-center justify-center sm:justify-between gap-x-4 gap-y-2 py-2">
+        <div className="flex flex-wrap items-center justify-center sm:justify-between gap-x-4 gap-y-2 py-3">
           <a href="#home" aria-label="AIWorldNext home" className="block shrink-0">
-            <img src="/brand/aiworldnext-logo-transparent.png" alt="AIWorldNext — The Global Search Engine for AI"
-              width={1983} height={793} className="w-52 sm:w-60 h-auto" />
+            <BrandMark />
           </a>
           <div className="flex flex-wrap items-center justify-center gap-2">
             <button onClick={() => setIsSearchOpen(!isSearchOpen)} aria-label="Search" aria-expanded={isSearchOpen}

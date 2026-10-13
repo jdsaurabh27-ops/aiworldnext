@@ -1,129 +1,20 @@
 import SearchForm from './SearchForm';
-import { Sparkles, TrendingUp, Users, Briefcase, Newspaper, ArrowRight } from 'lucide-react';
+import { ArrowRight, BookOpen, Briefcase } from 'lucide-react';
 
 export default function Hero() {
-  return (
-    <div id="home" className="relative bg-gradient-to-br from-black via-gray-900 to-black py-24 overflow-hidden">
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-neon-blue/10 via-transparent to-transparent"></div>
-      <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
-
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <div className="flex justify-center mb-6">
-            <div className="relative">
-              <Sparkles className="w-16 h-16 text-neon-blue animate-pulse-glow" />
-              <div className="absolute inset-0 w-16 h-16 bg-neon-blue blur-xl opacity-30 animate-pulse"></div>
-            </div>
-          </div>
-
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-            The Global <span className="text-neon-blue">Search Engine</span> for Artificial Intelligence
-          </h1>
-
-          <p className="text-xl md:text-2xl text-gray-300 mb-6 max-w-3xl mx-auto font-light">
-            Your Ultimate Platform for AI News, Blogs, Jobs, and Tools
-          </p>
-
-          <p className="text-gray-400 mb-10 max-w-2xl mx-auto text-lg">
-            Discover everything AI in one place. From breaking news to career opportunities,
-            browse a curated catalogue of AI sources, tools and communities.
-          </p>
-
-          <div className="max-w-3xl mx-auto mb-10">
-            <SearchForm />
-            <div className="flex flex-wrap gap-2 mt-4 justify-center">
-              <span className="text-gray-500 text-sm">Popular searches:</span>
-              <a href="#news" className="text-neon-blue text-sm hover:underline">ChatGPT</a>
-              <span className="text-gray-600">•</span>
-              <a href="#jobs" className="text-neon-blue text-sm hover:underline">AI Engineer Jobs</a>
-              <span className="text-gray-600">•</span>
-              <a href="#tools" className="text-neon-blue text-sm hover:underline">ML Tools</a>
-              <span className="text-gray-600">•</span>
-              <a href="#blogs" className="text-neon-blue text-sm hover:underline">Deep Learning</a>
-            </div>
-          </div>
-
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-            <a
-              href="#news"
-              className="px-8 py-4 bg-neon-blue text-black rounded-lg text-lg font-semibold hover:bg-neon-cyan transition-all duration-300 shadow-lg shadow-neon-blue/30 hover:shadow-neon-blue/50 transform hover:scale-105 flex items-center justify-center gap-2"
-            >
-              Browse AI News
-              <ArrowRight className="w-5 h-5" />
-            </a>
-            <a
-              href="#jobs"
-              className="px-8 py-4 bg-transparent border-2 border-neon-blue text-neon-blue rounded-lg text-lg font-semibold hover:bg-neon-blue hover:text-black transition-all duration-300 flex items-center justify-center gap-2"
-            >
-              Find AI Jobs
-              <Briefcase className="w-5 h-5" />
-            </a>
-            <a
-              href="#submit"
-              className="px-8 py-4 bg-gray-800 border-2 border-gray-700 text-white rounded-lg text-lg font-semibold hover:bg-gray-700 transition-all duration-300 flex items-center justify-center gap-2"
-            >
-              Submit Content
-              <Sparkles className="w-5 h-5" />
-            </a>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
-            <div className="group bg-gray-900 bg-opacity-50 backdrop-blur-sm rounded-xl p-8 border border-gray-800 hover:border-neon-blue transition-all duration-300 hover:shadow-lg hover:shadow-neon-blue/20 transform hover:scale-105">
-              <TrendingUp className="w-10 h-10 text-neon-blue mx-auto mb-4 group-hover:animate-pulse" />
-              <h3 className="text-white font-bold text-lg mb-3">Latest Updates</h3>
-              <p className="text-gray-400 text-sm leading-relaxed">Stay informed with weekly source updates and AI developments from around the world</p>
-            </div>
-
-            <div className="group bg-gray-900 bg-opacity-50 backdrop-blur-sm rounded-xl p-8 border border-gray-800 hover:border-neon-blue transition-all duration-300 hover:shadow-lg hover:shadow-neon-blue/20 transform hover:scale-105">
-              <Users className="w-10 h-10 text-neon-blue mx-auto mb-4 group-hover:animate-pulse" />
-              <h3 className="text-white font-bold text-lg mb-3">Global Community</h3>
-              <p className="text-gray-400 text-sm leading-relaxed">Connect with AI professionals and enthusiasts from every corner of the globe</p>
-            </div>
-
-            <div className="group bg-gray-900 bg-opacity-50 backdrop-blur-sm rounded-xl p-8 border border-gray-800 hover:border-neon-blue transition-all duration-300 hover:shadow-lg hover:shadow-neon-blue/20 transform hover:scale-105">
-              <Briefcase className="w-10 h-10 text-neon-blue mx-auto mb-4 group-hover:animate-pulse" />
-              <h3 className="text-white font-bold text-lg mb-3">Career Opportunities</h3>
-              <p className="text-gray-400 text-sm leading-relaxed">Explore cutting-edge AI and robotics job openings at top companies</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="border-t border-gray-800 pt-12">
-          <h2 className="text-2xl md:text-3xl font-bold text-white text-center mb-8">
-            Quick Access to <span className="text-neon-blue">Top Categories</span>
-          </h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
-            <a
-              href="#news"
-              className="group flex flex-col items-center justify-center p-6 bg-gray-900 rounded-lg border border-gray-800 hover:border-neon-blue hover:bg-gray-800 transition-all duration-300"
-            >
-              <Newspaper className="w-8 h-8 text-neon-blue mb-2 group-hover:scale-110 transition-transform duration-300" />
-              <span className="text-white font-medium">AI News</span>
-            </a>
-            <a
-              href="#jobs"
-              className="group flex flex-col items-center justify-center p-6 bg-gray-900 rounded-lg border border-gray-800 hover:border-neon-blue hover:bg-gray-800 transition-all duration-300"
-            >
-              <Briefcase className="w-8 h-8 text-neon-blue mb-2 group-hover:scale-110 transition-transform duration-300" />
-              <span className="text-white font-medium">Jobs</span>
-            </a>
-            <a
-              href="#tools"
-              className="group flex flex-col items-center justify-center p-6 bg-gray-900 rounded-lg border border-gray-800 hover:border-neon-blue hover:bg-gray-800 transition-all duration-300"
-            >
-              <Sparkles className="w-8 h-8 text-neon-blue mb-2 group-hover:scale-110 transition-transform duration-300" />
-              <span className="text-white font-medium">AI Tools</span>
-            </a>
-            <a
-              href="#blogs"
-              className="group flex flex-col items-center justify-center p-6 bg-gray-900 rounded-lg border border-gray-800 hover:border-neon-blue hover:bg-gray-800 transition-all duration-300"
-            >
-              <Users className="w-8 h-8 text-neon-blue mb-2 group-hover:scale-110 transition-transform duration-300" />
-              <span className="text-white font-medium">AI Blogs</span>
-            </a>
-          </div>
-        </div>
+  return <section id="home" className="relative overflow-hidden bg-gradient-to-br from-black via-gray-900 to-black py-12 sm:py-16">
+    <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-cyan-900/30 via-transparent to-transparent" aria-hidden="true" />
+    <div className="relative mx-auto max-w-5xl px-4 text-center sm:px-6">
+      <p className="mb-4 text-xs font-semibold uppercase tracking-widest text-cyan-400">Your starting point for practical AI</p>
+      <h1 className="mb-5 text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">Discover AI news,<br className="hidden sm:block" /> <span className="text-cyan-400">tools &amp; opportunities.</span></h1>
+      <p className="mx-auto mb-7 max-w-2xl text-base leading-relaxed text-gray-300 sm:text-lg">Explore source-linked news, useful tools, career openings and practical guides. Find a clear starting point for your next AI project.</p>
+      <div className="mx-auto mb-6 max-w-3xl"><SearchForm /></div>
+      <div className="flex flex-wrap justify-center gap-3">
+        <a href="/tools/" className="inline-flex items-center gap-2 rounded-lg bg-cyan-400 px-5 py-3 font-semibold text-gray-950 hover:bg-cyan-300">Explore tools <ArrowRight className="h-4 w-4" /></a>
+        <a href="/guides/" className="inline-flex items-center gap-2 rounded-lg border border-gray-600 bg-gray-900 px-5 py-3 font-semibold text-white hover:border-cyan-400"><BookOpen className="h-4 w-4" /> Read practical guides</a>
+        <a href="#jobs" className="inline-flex items-center gap-2 rounded-lg border border-gray-700 px-5 py-3 font-semibold text-gray-200 hover:border-cyan-400"><Briefcase className="h-4 w-4" /> Find AI jobs</a>
       </div>
+      <p className="mt-6 text-sm text-gray-400">Source-linked listings · Original guides · Weekly source updates</p>
     </div>
-  );
+  </section>;
 }
