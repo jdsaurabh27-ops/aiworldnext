@@ -153,6 +153,31 @@ def article_keys(item):
     return {key for key in (f"url:{link}" if link else "", f"title:{title}" if title else "") if key}
 
 
+
+AI_TOPIC = re.compile(
+    r"\b(?:ai|artificial intelligence|machine learning|deep learning|"
+    r"large language models?|llms?|generative ai|chatgpt|openai|"
+    r"anthropic|neural networks?|computer vision|text.to.speech|"
+    r"voice ai|ai agents?|robotics|humanoid)\b", re.I
+)
+
+
+def is_ai_article(title, description=""):
+    """Require an explicit AI topic, even in a publisher's broad RSS feed."""
+    return bool(AI_TOPIC.search(f"{title} {description}"))
+
+
+def normalize_company(value, link=""):
+    if isinstance(value, dict):
+        value = value.get("name", "")
+    company = clean_text(value)
+    if company == "N" and re.match(r"https://(?:www[.])?n26[.]com/", link):
+        return "N26"
+    if not company or len(company) < 2 or company.lower() in {"blank", "null", "none", "n/a"}:
+        return "Company not specified"
+    return company
+
+
 def collect(kind, exclude_items=()):
     today = date.today()
     max_age = 180 if kind == "blogs" else 90
@@ -202,6 +227,9 @@ def collect(kind, exclude_items=()):
                 continue
 
             if age < 0 or age > max_age:
+                continue
+
+            if kind == "news" and not is_ai_article(title, description):
                 continue
 
             if kind == "robotics":
@@ -287,24 +315,14 @@ def first_value(item, keys, default=""):
 
 def normalize_locations(value):
     if isinstance(value, list):
-        return ", ".join(
-            clean_text(
-                item.get("name", "")
-                if isinstance(item, dict)
-                else item
-            )
-            for item in value
-            if item
-        )
-
-    if isinstance(value, dict):
-        return clean_text(
-            value.get("name")
-            or value.get("location")
-            or ""
-        )
-
-    return clean_text(value)
+        parts = [normalize_locations(item) for item in value]
+    elif isinstance(value, dict):
+        return normalize_locations(value.get("name") or value.get("location") or "")
+    else:
+        parts = clean_text(value).split(",")
+    missing = {"", "blank", "null", "none", "n/a", "na", "not specified", "unknown"}
+    parts = [part.strip() for part in parts if part.strip().lower() not in missing]
+    return ", ".join(dict.fromkeys(parts))
 
 
 def collect_jobs():
@@ -374,6 +392,8 @@ def collect_jobs():
             continue
 
         seen.add(link)
+
+        company = normalize_company(company, link)
 
         location = normalize_locations(
             first_value(

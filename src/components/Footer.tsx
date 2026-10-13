@@ -31,7 +31,7 @@ export default function Footer() {
             </div>
             <div className="flex items-center space-x-4">
               <a
-                href="https://www.linkedin.com/in/ai-world-next-13b10338a"
+                href="https://www.linkedin.com/in/aiworldnext"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-neon-blue transition-colors"
@@ -107,7 +107,7 @@ export default function Footer() {
               <li><a href="#news" className="text-gray-400 hover:text-neon-blue transition-colors">AI News</a></li>
               <li><a href="#blogs" className="text-gray-400 hover:text-neon-blue transition-colors">Blogs</a></li>
               <li><a href="#jobs" className="text-gray-400 hover:text-neon-blue transition-colors">Jobs</a></li>
-              <li><a href="#products" className="text-gray-400 hover:text-neon-blue transition-colors">Products</a></li>
+              <li><a href="#tools" className="text-gray-400 hover:text-neon-blue transition-colors">Products</a></li>
               <li><a href="#startups" className="text-gray-400 hover:text-neon-blue transition-colors">Startups</a></li>
             </ul>
           </div>

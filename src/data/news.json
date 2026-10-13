@@ -1,49 +1,5 @@
 [
   {
-    "id": 201,
-    "title": "Mars may be a hellhole, but the moon is not far behind",
-    "description": "Welcome to the second space race. You can be forgiven for experiencing déjà vu. Last time, it was the Soviet Union and the United States vying to be the first to plant some flags. Now",
-    "date": "2026-10-12",
-    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/Selman-MIT-MoonBase-Jacket-thumb.jpg?resize=1200,600",
-    "link": "https://www.technologyreview.com/2026/10/12/1145760/imagining-building-cities-on-the-moon/",
-    "category": "AI Research",
-    "imageKind": "source",
-    "imageSource": "https://www.technologyreview.com/2026/10/12/1145760/imagining-building-cities-on-the-moon/"
-  },
-  {
-    "id": 202,
-    "title": "The ecologist revealing the invisible networks that revive rainforests",
-    "description": "In a research station in central Panama, you can walk through a century of forest time, watching scrubby plots of adolescent trees give way to cathedral-­like canopies of mature growth. Forest ecologist Daisy Dent, a",
-    "date": "2026-10-12",
-    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/268A7613-2-1_thumb.jpg?resize=1200,600",
-    "link": "https://www.technologyreview.com/2026/10/12/1145745/daisy-dent-ecologist-revealing-invisible-networks-revive-rainforests/",
-    "category": "AI Research",
-    "imageKind": "source",
-    "imageSource": "https://www.technologyreview.com/2026/10/12/1145745/daisy-dent-ecologist-revealing-invisible-networks-revive-rainforests/"
-  },
-  {
-    "id": 181,
-    "title": "Will the HomeView be Apple’s first smart home success?",
-    "description": "Over the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date.",
-    "date": "2026-10-11",
-    "image": "https://techcrunch.com/wp-content/uploads/2021/11/homepod.jpg?resize=1200,854",
-    "link": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/"
-  },
-  {
-    "id": 182,
-    "title": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next",
-    "description": "Less than 48 hours, TechCrunch Disrupt 2026 starts in San Francisco’s Moscone West. Save up to $100 on your pass before prices increase at the door, plus get 50% on a second pass. Or score",
-    "date": "2026-10-11",
-    "image": "https://techcrunch.com/wp-content/uploads/2025/09/Perplexity-Disrupt-Stage-2024.jpg?resize=1200,800",
-    "link": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/"
-  },
-  {
     "id": 183,
     "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
     "description": "On Equity, we debate the impact of data center moratoriums and whether the AI industry has a communication problem.",
@@ -88,17 +44,6 @@
     "imageSource": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/"
   },
   {
-    "id": 187,
-    "title": "3 days to TechCrunch Disrupt 2026: Meet the startups before they hit mainstream",
-    "description": "TechCrunch Disrupt 2026 takes place October 13-15 in San Francisco. Over 300 startups will show what they’ve built to 10,000 tech leaders. Plus, 250+ speakers are ready to share insights across 200+ sessions. Register before",
-    "date": "2026-10-10",
-    "image": "https://techcrunch.com/wp-content/uploads/2025/06/Startup-Battlefield-2023-2.jpg?resize=1200,800",
-    "link": "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/"
-  },
-  {
     "id": 188,
     "title": "Here are the top AI agents that can live in your text messages",
     "description": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
@@ -127,16 +72,6 @@
     "date": "2026-10-09",
     "image": "/brand/categories/news.svg",
     "link": "https://openai.com/index/sophos",
-    "category": "AI News",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 2,
-    "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-    "description": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-    "date": "2026-10-09",
-    "image": "/brand/categories/news.svg",
-    "link": "https://openai.com/index/asana-browser-agent",
     "category": "AI News",
     "imageKind": "placeholder"
   },
