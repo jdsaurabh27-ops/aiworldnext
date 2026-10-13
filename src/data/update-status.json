@@ -1,5 +1,5 @@
 {
-  "runDate": "2026-10-12",
+  "runDate": "2026-10-13",
   "sections": {
     "news": {
       "status": "updated",
@@ -23,7 +23,7 @@
     },
     "products": {
       "status": "updated",
-      "checked": 7,
+      "checked": 8,
       "retained": 5
     },
     "companies": {

@@ -1,6 +1,6 @@
 [
   {
-    "id": 61,
+    "id": 60,
     "title": "Impactful scheduling for GPU clusters",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-09",
@@ -13,7 +13,7 @@
     "imageSource": "https://huggingface.co/blog/allenai/impactful-scheduling"
   },
   {
-    "id": 62,
+    "id": 61,
     "title": "The model that didn't exist, so you made it yourself",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-08",
@@ -26,7 +26,7 @@
     "imageSource": "https://huggingface.co/blog/building-with-ml-intern"
   },
   {
-    "id": 63,
+    "id": 62,
     "title": "Multimodal open d1 decision models for the edge",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-07",
@@ -39,7 +39,7 @@
     "imageSource": "https://huggingface.co/blog/LiquidAI/open-d1"
   },
   {
-    "id": 64,
+    "id": 63,
     "title": "Introducing Falcon ASR",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-07",
@@ -52,7 +52,7 @@
     "imageSource": "https://huggingface.co/blog/tiiuae/falcon-asr"
   },
   {
-    "id": 65,
+    "id": 64,
     "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-07",
@@ -78,7 +78,7 @@
     "imageSource": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/"
   },
   {
-    "id": 66,
+    "id": 65,
     "title": "The Agent Said It Was Done. The Database Disagreed.",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-03",
@@ -91,7 +91,7 @@
     "imageSource": "https://huggingface.co/blog/microsoft/thinkingbox"
   },
   {
-    "id": 67,
+    "id": 66,
     "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-02",
@@ -121,7 +121,7 @@
     "title": "Introducing SynthID Bio",
     "description": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
     "date": "2026-09-30",
-    "image": "https://lh3.googleusercontent.com/wNhpZFcXYLXFb6alIt0H5NRvEoso2ONZDhPKz6MYEcGltHPbDeHddzkvv5GXl3abW1PZ5ci1Y9lKoYOIjMuHLxATXfWp88-Al6eEmDENrpejIFeimw=w1200-h630-n-nu-rw",
+    "image": "https://lh3.googleusercontent.com/wNhpZFcXYLXFb6alIt0H5NRvEoso2ONZDhPKz6MYEcGltHPbDeHddzkvv5GXl3abW1PZ5ci1Y9lKoYOIjMuHLxATXfWp88-Al6eEmDENrpejIFeimw=w528-h297-n-nu-rw-lo",
     "link": "https://deepmind.google/blog/introducing-synthid-bio/",
     "category": "AI Research",
     "author": "Google DeepMind",
@@ -130,7 +130,7 @@
     "imageSource": "https://deepmind.google/blog/introducing-synthid-bio/"
   },
   {
-    "id": 68,
+    "id": 67,
     "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-09-30",
@@ -143,7 +143,7 @@
     "imageSource": "https://huggingface.co/blog/open-tts-leaderboard"
   },
   {
-    "id": 69,
+    "id": 68,
     "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-09-29",
@@ -156,7 +156,7 @@
     "imageSource": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source"
   },
   {
-    "id": 70,
+    "id": 69,
     "title": "Holo4: powering generalist computer-use agents",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-09-28",
@@ -169,7 +169,7 @@
     "imageSource": "https://huggingface.co/blog/Hcompany/holo4"
   },
   {
-    "id": 71,
+    "id": 70,
     "title": "Welcome RL Environments to the hub",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-09-28",

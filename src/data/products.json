@@ -21,7 +21,7 @@
     "link": "https://www.anthropic.com/claude",
     "category": "AI Assistant",
     "sourceUrl": "https://www.anthropic.com/claude",
-    "checkedAt": "2026-10-12",
+    "checkedAt": "2026-10-13",
     "imageKind": "logo",
     "imageSource": "https://www.anthropic.com/claude"
   },
@@ -34,7 +34,7 @@
     "link": "https://one.google.com/",
     "category": "AI Assistant",
     "sourceUrl": "https://one.google.com/",
-    "checkedAt": "2026-10-12",
+    "checkedAt": "2026-10-13",
     "imageKind": "logo",
     "logoIcon": "https://www.google.com/s2/favicons?domain=one.google.com&sz=128",
     "imageSource": "https://one.google.com/"
@@ -61,7 +61,7 @@
     "link": "https://cursor.com/",
     "category": "Development",
     "sourceUrl": "https://cursor.com/",
-    "checkedAt": "2026-10-12",
+    "checkedAt": "2026-10-13",
     "imageKind": "logo",
     "logoIcon": "https://www.google.com/s2/favicons?domain=cursor.com&sz=128",
     "imageSource": "https://cursor.com/"
@@ -75,7 +75,7 @@
     "link": "https://github.com/features/copilot",
     "category": "Development",
     "sourceUrl": "https://github.com/features/copilot",
-    "checkedAt": "2026-10-12",
+    "checkedAt": "2026-10-13",
     "imageKind": "logo",
     "logoIcon": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
     "imageSource": "https://github.com/features/copilot"
@@ -89,7 +89,7 @@
     "link": "https://runwayml.com/",
     "category": "Video AI",
     "sourceUrl": "https://runwayml.com/",
-    "checkedAt": "2026-10-12",
+    "checkedAt": "2026-10-13",
     "imageKind": "logo",
     "logoIcon": "https://www.google.com/s2/favicons?domain=runwayml.com&sz=128",
     "imageSource": "https://runwayml.com/"
@@ -123,14 +123,16 @@
   {
     "id": 13,
     "title": "Murf AI",
-    "description": "AI text-to-speech and voiceover tools for videos, podcasts and presentations. Check the official website for current features, pricing and usage terms.",
+    "description": "Generate human-like speech and deploy Conversational agents with Murf AI. The complete AI Voice platform trusted by 10 million+ developers, businesses, and creators.",
     "price": "See official pricing",
-    "image": "/brand/categories/products.svg",
-    "imageKind": "placeholder",
+    "image": "https://cdn.prod.website-files.com/66b3765153a8a0c399c70981/670cb2af23deffa700aa8a09_favicon.ico",
+    "imageKind": "logo",
     "link": "https://murf.ai/",
     "sourceUrl": "https://murf.ai/",
     "category": "Voice AI",
-    "affiliateUrl": "https://get.murf.ai/5qrh0y1bzs1j"
+    "affiliateUrl": "https://get.murf.ai/5qrh0y1bzs1j",
+    "checkedAt": "2026-10-13",
+    "imageSource": "https://murf.ai/"
   },
   {
     "id": 10,
@@ -141,7 +143,7 @@
     "link": "https://www.nvidia.com/en-us/ai/",
     "category": "Hardware",
     "sourceUrl": "https://www.nvidia.com/en-us/ai/",
-    "checkedAt": "2026-10-12",
+    "checkedAt": "2026-10-13",
     "imageKind": "source",
     "logoIcon": "https://www.google.com/s2/favicons?domain=www.nvidia.com&sz=128",
     "imageSource": "https://www.nvidia.com/en-us/ai/"
@@ -155,7 +157,7 @@
     "link": "https://www.apple.com/apple-intelligence/",
     "category": "Hardware",
     "sourceUrl": "https://www.apple.com/apple-intelligence/",
-    "checkedAt": "2026-10-12",
+    "checkedAt": "2026-10-13",
     "imageKind": "source",
     "logoIcon": "https://www.google.com/s2/favicons?domain=www.apple.com&sz=128",
     "imageSource": "https://www.apple.com/apple-intelligence/"
