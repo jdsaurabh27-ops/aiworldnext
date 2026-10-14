@@ -10,7 +10,7 @@
       ],
       [
         "Prepare a small script",
-        "Write a short introduction, one clear point and a closing sentence. Read it aloud yourself. Break long sentences and expand abbreviations when their spoken form is unclear. Use a non-sensitive sample: “Welcome to our weekly AI update. Today we will show you how to check a source before sharing a headline.” Save a clean copy before editing."
+        "Write a short introduction, one clear point and a closing sentence. Read it aloud yourself. Break long sentences and expand abbreviations when their spoken form is unclear. Use a non-sensitive sample: \u201cWelcome to our weekly AI update. Today we will show you how to check a source before sharing a headline.\u201d Save a clean copy before editing."
       ],
       [
         "Generate a first sample in ElevenLabs",
@@ -26,7 +26,7 @@
       ],
       [
         "Run a publishing check",
-        "Listen to the complete export on headphones and a phone speaker. Verify every factual statement in the script, check captions against the audio and review the provider’s current commercial-use terms. Use voices and material you have permission to use; do not impersonate someone or imply their endorsement. Include an AI-voice disclosure when the platform or context requires it."
+        "Listen to the complete export on headphones and a phone speaker. Verify every factual statement in the script, check captions against the audio and review the provider\u2019s current commercial-use terms. Use voices and material you have permission to use; do not impersonate someone or imply their endorsement. Include an AI-voice disclosure when the platform or context requires it."
       ],
       [
         "Measure whether it helped",
@@ -65,15 +65,15 @@
       ],
       [
         "Check the exact product and account",
-        "A consumer chat interface, a business workspace and an API can have different settings. Find the provider’s current documentation on retention, training use, deletion, sharing and access. Record the product, plan, date checked and the relevant links. If the policy is unclear, keep the trial non-sensitive until you can resolve the question."
+        "A consumer chat interface, a business workspace and an API can have different settings. Find the provider\u2019s current documentation on retention, training use, deletion, sharing and access. Record the product, plan, date checked and the relevant links. If the policy is unclear, keep the trial non-sensitive until you can resolve the question."
       ],
       [
         "Inspect connected apps and sharing",
         "Review what a connection can read or change before enabling it. For a document link, check whether it is public or limited to named people. Choose the smallest access that supports the task. If the tool will perform an action, review the recipient, content and destination before sending or publishing."
       ],
       [
-        "Follow your organisation’s rules",
-        "For work documents, use your organisation’s approved tools and data-handling process. Permission to view a file does not necessarily include permission to upload it to another service. Escalate an unclear case to the appropriate owner rather than guessing. This guide is an operational checklist, not legal or compliance certification."
+        "Follow your organisation\u2019s rules",
+        "For work documents, use your organisation\u2019s approved tools and data-handling process. Permission to view a file does not necessarily include permission to upload it to another service. Escalate an unclear case to the appropriate owner rather than guessing. This guide is an operational checklist, not legal or compliance certification."
       ],
       [
         "Review the output and keep a record",
@@ -112,12 +112,82 @@
       ],
       [
         "Try an ordinary case and an edge case",
-        "Repeat with a typical input and a harder one, such as an ambiguous abbreviation or a document with conflicting dates. Do not publish a broad ranking based on one successful answer. Your conclusion should name the task, sample size and limits: “Tool A required fewer edits on our two sample email drafts” is more useful than “Tool A is the best AI.”"
+        "Repeat with a typical input and a harder one, such as an ambiguous abbreviation or a document with conflicting dates. Do not publish a broad ranking based on one successful answer. Your conclusion should name the task, sample size and limits: \u201cTool A required fewer edits on our two sample email drafts\u201d is more useful than \u201cTool A is the best AI.\u201d"
       ],
       [
         "Keep recommendations independent",
         "If a page includes affiliate links, disclose the relationship and apply the same checks to linked and unlinked products. Do not treat a higher commission as evidence of higher quality. Revisit the comparison when your workflow or the products change."
       ]
+    ]
+  },
+  {
+    "slug": "buy-your-first-robot",
+    "title": "Before buying your first robot: a practical checklist",
+    "intro": "Choose a robot around a real task and check the full ownership cost before paying a seller.",
+    "sections": [
+      [
+        "Start with one task",
+        "Decide whether you want to learn coding, explore companionship or develop robotics projects. A demonstration video is not proof that a product can perform every task in your home. Ask for a demonstration of your intended task with the exact model."
+      ],
+      [
+        "Check the exact kit",
+        "Record the edition, accessories, supported computer and phone systems, recommended age, programming options and any account or cloud requirements. Confirm what works without an internet connection."
+      ],
+      [
+        "Work out delivered cost",
+        "Ask for shipping, taxes, import charges, subscriptions, spare parts and battery costs. A headline price may exclude these. Verify the seller and its written delivery and return terms."
+      ],
+      [
+        "Check support and privacy",
+        "Confirm who handles repairs in your country, warranty exclusions and return shipping. Review camera, microphone and cloud data settings before use. Follow manufacturer supervision and operating-space instructions."
+      ],
+      [
+        "Buy from a verified seller",
+        "Use the manufacturer or a seller whose authorisation you can verify with the manufacturer. AIWorldNext currently provides source-linked information and does not take robot payments."
+      ]
+    ],
+    "sources": [
+      {
+        "title": "Makeblock mBot2 official product page",
+        "url": "https://www.makeblock.com/products/buy-mbot2"
+      },
+      {
+        "title": "KEYI official website",
+        "url": "https://keyirobot.com/"
+      }
+    ]
+  },
+  {
+    "slug": "compare-robot-types",
+    "title": "Coding robot, companion robot or robot dog: which fits your task?",
+    "intro": "Compare three robot categories by purpose, programming needs and ownership responsibilities.",
+    "sections": [
+      [
+        "Educational coding robots",
+        "A coding kit is a useful starting point for guided projects. Check lesson availability, assembly requirements, recommended age and the progression from blocks to text programming. mBot2 is one source-linked example, not our independently tested recommendation."
+      ],
+      [
+        "Companion robots",
+        "Companion products focus on interaction and entertainment. Check the exact edition, supported languages, app requirements and privacy controls. Treat advertised personality or AI features as manufacturer claims until you verify them."
+      ],
+      [
+        "Quadruped robot dogs",
+        "Quadrupeds require more space and attention to operating instructions. Development access and autonomous features may differ by version. Request exact specifications, training and local support before considering a purchase."
+      ],
+      [
+        "Compare the same questions",
+        "For each shortlisted robot record your use case, total delivered cost, required equipment, ongoing fees, warranty, repair location and return terms. Choose the product that meets your specific task rather than a viral demonstration."
+      ]
+    ],
+    "sources": [
+      {
+        "title": "Unitree Go2 official information",
+        "url": "https://www.unitree.com/mobile/go2/"
+      },
+      {
+        "title": "Makeblock mBot2 official information",
+        "url": "https://www.makeblock.com/products/buy-mbot2"
+      }
     ]
   }
 ]

@@ -2,6 +2,7 @@ import { lazy, Suspense } from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
+import RobotHardware from './components/RobotHardware';
 import PracticalGuides from './components/PracticalGuides';
 import SearchResults from './components/SearchResults';
 import Section from './components/Section';
@@ -74,6 +75,7 @@ function App() {
       <Suspense fallback={<LoadingFallback />}><AIToolsSection /></Suspense>
 
       <PracticalGuides />
+      <RobotHardware />
 
       <Suspense fallback={<LoadingFallback />}><AIJobsSection /></Suspense>
 

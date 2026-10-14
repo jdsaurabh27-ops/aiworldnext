@@ -12,6 +12,7 @@ export const navLinks = [
   { name: 'AI Events', href: '#events', icon: Calendar },
   { name: 'AI Companies', href: '#companies', icon: Building2 },
   { name: 'AI Startups', href: '#startups', icon: Rocket },
+  { name: 'Robots & AI Hardware', href: '/robots/', icon: Bot },
   { name: 'Robotics', href: '#robotics', icon: Bot },
   { name: 'AI Podcasts', href: '#podcasts', icon: Mic },
   { name: 'AI Community', href: '#community', icon: Users },
