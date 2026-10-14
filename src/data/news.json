@@ -10,7 +10,40 @@
     "imageKind": "placeholder"
   },
   {
+    "id": 149,
+    "title": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
+    "description": "Cerebras CEO Andrew Feldman predicts a future where personal AI assistants become as commonplace as household appliances, running partly on local devices and partly in the cloud.",
+    "date": "2026-10-13",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/55588036568_e00e978a62_k.jpg?resize=1200,800",
+    "link": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/"
+  },
+  {
+    "id": 150,
+    "title": "Cerebras CEO pushes back on AI doomsday warnings",
+    "description": "Cerebras CEO Andrew Feldman has a message for AI leaders spreading doomsday warnings: Maybe stop talking? At TechCrunch Disrupt, he argued that the industry's focus on AI's risks is drowning out its potential benefits.",
+    "date": "2026-10-13",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/55588036288_a416e1cb00_k.jpg?resize=1200,800",
+    "link": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/"
+  },
+  {
     "id": 151,
+    "title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
+    "description": "A federal judge ruled that Apple can access OpenAI's interview materials involving former Apple employees, as well as private messages and testimony from key figures in the case.",
+    "date": "2026-10-13",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-in-Seoul.jpg?w=1024",
+    "link": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/"
+  },
+  {
+    "id": 152,
     "title": "Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads",
     "description": "Flox's edge devices can identify animals and use species-specific sounds to drive them away from critical infrastructure.",
     "date": "2026-10-13",
@@ -21,7 +54,7 @@
     "imageSource": "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/"
   },
   {
-    "id": 152,
+    "id": 153,
     "title": "Facebook is giving users more control over their algorithm",
     "description": "Meta announced the launch of its new AI-powered feature, “Your Algorithm,” a feature it first launched on Instagram.",
     "date": "2026-10-13",
@@ -32,7 +65,7 @@
     "imageSource": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/"
   },
   {
-    "id": 153,
+    "id": 154,
     "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
     "description": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in Startup Battlefield at TechCrunch Disrupt, October 13-15 in San",
     "date": "2026-10-13",
@@ -43,7 +76,7 @@
     "imageSource": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/"
   },
   {
-    "id": 154,
+    "id": 155,
     "title": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
     "description": "The problem with giving everyone in a company access to AI tools is that people will use them in unexpected ways. And that fact is steadily seeding fears that companies now have new, gaping security",
     "date": "2026-10-13",
@@ -54,7 +87,7 @@
     "imageSource": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/"
   },
   {
-    "id": 155,
+    "id": 156,
     "title": "Google Play now lets anyone build private, vibe-coded apps that run on Android",
     "description": "Google is making it easier to build and use personal Android apps created with AI, without having to make them available to everyone on the Play Store.",
     "date": "2026-10-13",
@@ -65,7 +98,7 @@
     "imageSource": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/"
   },
   {
-    "id": 156,
+    "id": 157,
     "title": "SpaceXSI bundles X Premium, Grok, and Cursor into one subscription",
     "description": "The new X Subscription combines X's paid features with AI tools like Grok and Cursor, offering plans ranging from $8 to $200 per month.",
     "date": "2026-10-13",
@@ -76,7 +109,7 @@
     "imageSource": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/"
   },
   {
-    "id": 157,
+    "id": 158,
     "title": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
     "description": "American Express is introducing a new framework designed to ensure AI agents only make purchases their users have authorized, potentially preventing costly mistakes and disputes as AI-powered shopping grows.",
     "date": "2026-10-13",
@@ -87,7 +120,7 @@
     "imageSource": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/"
   },
   {
-    "id": 158,
+    "id": 159,
     "title": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
     "description": "The startup will sell some of its assets to Disney for $20 million.",
     "date": "2026-10-13",
@@ -98,7 +131,7 @@
     "imageSource": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/"
   },
   {
-    "id": 164,
+    "id": 163,
     "title": "The Download: open model trade-offs and geothermal power’s promise",
     "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Open models have real benefits. Do they outweigh the risks? Anthropic",
     "date": "2026-10-13",
@@ -109,7 +142,7 @@
     "imageSource": "https://www.technologyreview.com/2026/10/13/1146382/the-download-open-models-trade-offs-geothermal-power/"
   },
   {
-    "id": 165,
+    "id": 164,
     "title": "Open models have real benefits. Do they outweigh the risks?",
     "description": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. Late last month, Anthropic",
     "date": "2026-10-13",
@@ -120,7 +153,7 @@
     "imageSource": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/"
   },
   {
-    "id": 166,
+    "id": 165,
     "title": "AI labs are buying data from dead startups to train their models",
     "description": "When Keelan Miskell began winding down his crypto startup this year, he didn’t think its data was worth much: the users were anonymous, the company just a few years old. But he’s since turned the",
     "date": "2026-10-13",
@@ -129,38 +162,5 @@
     "category": "AI Research",
     "imageKind": "source",
     "imageSource": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/"
-  },
-  {
-    "id": 169,
-    "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
-    "description": "NVIDIA RTX Spark is a new beginning for the PC — a reinvention combining the capabilities of a gaming PC, a creative studio and a personal AI supercomputer into a single superchip. With up to",
-    "date": "2026-10-13",
-    "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/nv-raig-weekly-kit-10132026-nv-blog-1280x680-1.jpg",
-    "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
-    "category": "AI Hardware",
-    "imageKind": "source",
-    "imageSource": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/"
-  },
-  {
-    "id": 170,
-    "title": "NVIDIA Announces New Investments in France’s Startups",
-    "description": "Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s ecosystem has moved from ambition to application. France’s progress sits on deliberate",
-    "date": "2026-10-13",
-    "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/france-ai-ecosystem-gtc-berlin-updated.jpeg",
-    "link": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
-    "category": "AI Hardware",
-    "imageKind": "source",
-    "imageSource": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/"
-  },
-  {
-    "id": 159,
-    "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
-    "description": "A Silicon Valley startup that uses weather balloons and AI to predict the weather won a U.S. military contract worth almost $50 million.",
-    "date": "2026-10-12",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/06/Pic-8.jpg?resize=1200,675",
-    "link": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/"
   }
 ]
