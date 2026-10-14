@@ -26,6 +26,7 @@ export default function Navbar() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   return (
     <nav aria-label="Main navigation" className="bg-black border-b border-gray-800 sticky top-0 z-50">
+      <div className="bg-cyan-950 border-b border-cyan-800 px-4 py-2 flex flex-wrap justify-center items-center gap-3 text-sm text-white" role="region" aria-label="Robot enquiries announcement"><span className="inline-block w-2 h-2 rounded-full bg-orange-400 animate-pulse motion-reduce:animate-none" aria-hidden="true" /><strong>Robots for learning, malls &amp; events</strong><a href="/robots/" className="underline font-semibold text-cyan-300">Explore robots</a><a href="/robots/enquiry/" className="rounded bg-orange-400 px-3 py-1 font-bold text-black">Purchase / demo enquiry</a></div>
       <div className="max-w-screen-2xl mx-auto px-3 sm:px-6 lg:px-8">
         <div className="flex flex-wrap items-center justify-center sm:justify-between gap-x-4 gap-y-2 py-3">
           <a href="#home" aria-label="AIWorldNext home" className="block shrink-0">

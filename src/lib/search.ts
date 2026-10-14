@@ -1,4 +1,5 @@
 import { trackEvent } from './analytics';
+import hardware from '../data/robot-hardware.json';
 import news from '../data/news.json';
 import blogs from '../data/blogs.json';
 import jobs from '../data/jobs.json';
@@ -24,6 +25,7 @@ const sources: [string, object[]][] = [
   ['News', news], ['Blogs', blogs], ['Jobs', jobs], ['Tools', tools],
   ['Events', events], ['Companies', companies], ['Startups', startups],
   ['Robotics', robotics], ['Resources', resources], ['Podcasts', podcasts],
+  ['Robots & AI Hardware', hardware.map(r=>({...r,link:'https://www.aiworldnext.com/robots/'+r.slug+'/'}))],
   ['Community', community], ['Directories', websites],
 ];
 
