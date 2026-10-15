@@ -1,19 +1,6 @@
 [
   {
     "id": 1,
-    "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-    "description": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
-    "date": "2026-10-14",
-    "image": "https://lh3.googleusercontent.com/5PC4h7MzjC0ojOxiK-nPcRz0b6kUybKnCBjLL3nsb9T9qt7-2ciORJPnrObeFaYbAMqPxIhH4Wq9HD-U73lCivpFBcK8gABvhXXDo2lzUUSk9olsZQ=w1200-h630-n-nu-rw",
-    "link": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-    "category": "AI Research",
-    "author": "Google DeepMind",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/"
-  },
-  {
-    "id": 64,
     "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-14",
@@ -27,45 +14,6 @@
   },
   {
     "id": 2,
-    "title": "Developing Gemini 4 Argon responsibly and safely",
-    "description": "Read the original report from Google DeepMind.",
-    "date": "2026-10-13",
-    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon_key-art_4_lockup_light_16-9.width-1300.png",
-    "link": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-    "category": "AI Research",
-    "author": "Google DeepMind",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
-  },
-  {
-    "id": 3,
-    "title": "Gemini 4 Argon for Robotics",
-    "description": "Read the original report from Google DeepMind.",
-    "date": "2026-10-13",
-    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/argon__robotics__hero.2e16d0ba.fill-1200x600.png",
-    "link": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-    "category": "AI Research",
-    "author": "Google DeepMind",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://deepmind.google/blog/gemini-4-argon-for-robotics/"
-  },
-  {
-    "id": 4,
-    "title": "Gemini 4 Argon: Built to solve your hardest problems",
-    "description": "Read the original report from Google DeepMind.",
-    "date": "2026-10-13",
-    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__2784x1566.width-1300.png",
-    "link": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-    "category": "AI Research",
-    "author": "Google DeepMind",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://deepmind.google/blog/introducing-gemini-4-argon/"
-  },
-  {
-    "id": 65,
     "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-13",
@@ -78,7 +26,7 @@
     "imageSource": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b"
   },
   {
-    "id": 66,
+    "id": 3,
     "title": "The model that didn't exist, so you made it yourself",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-08",
@@ -91,7 +39,7 @@
     "imageSource": "https://huggingface.co/blog/building-with-ml-intern"
   },
   {
-    "id": 67,
+    "id": 4,
     "title": "Introducing Falcon ASR",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-07",
@@ -104,7 +52,7 @@
     "imageSource": "https://huggingface.co/blog/tiiuae/falcon-asr"
   },
   {
-    "id": 68,
+    "id": 5,
     "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-07",
@@ -117,20 +65,7 @@
     "imageSource": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026"
   },
   {
-    "id": 5,
-    "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-    "description": "Read the original report from Google DeepMind.",
-    "date": "2026-10-06",
-    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/embeddinggemma2-banner_169.width-1300.png",
-    "link": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-    "category": "AI Research",
-    "author": "Google DeepMind",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/"
-  },
-  {
-    "id": 69,
+    "id": 6,
     "title": "The Agent Said It Was Done. The Database Disagreed.",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-03",
@@ -143,7 +78,7 @@
     "imageSource": "https://huggingface.co/blog/microsoft/thinkingbox"
   },
   {
-    "id": 70,
+    "id": 7,
     "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-02",
@@ -156,33 +91,7 @@
     "imageSource": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata"
   },
   {
-    "id": 6,
-    "title": "Gemini 4 Argon: our next era of frontier intelligence",
-    "description": "Read the original report from Google DeepMind.",
-    "date": "2026-09-30",
-    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/g4_30-09-26_key-art_blog.width-1300.png",
-    "link": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-    "category": "AI Research",
-    "author": "Google DeepMind",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
-  },
-  {
-    "id": 7,
-    "title": "Introducing SynthID Bio",
-    "description": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
-    "date": "2026-09-30",
-    "image": "https://lh3.googleusercontent.com/wNhpZFcXYLXFb6alIt0H5NRvEoso2ONZDhPKz6MYEcGltHPbDeHddzkvv5GXl3abW1PZ5ci1Y9lKoYOIjMuHLxATXfWp88-Al6eEmDENrpejIFeimw=w1200-h630-n-nu-rw",
-    "link": "https://deepmind.google/blog/introducing-synthid-bio/",
-    "category": "AI Research",
-    "author": "Google DeepMind",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://deepmind.google/blog/introducing-synthid-bio/"
-  },
-  {
-    "id": 71,
+    "id": 8,
     "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-09-30",
@@ -193,5 +102,96 @@
     "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
     "imageKind": "source",
     "imageSource": "https://huggingface.co/blog/open-tts-leaderboard"
+  },
+  {
+    "id": 9,
+    "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-09-29",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/668e37fd9c9aa124a3c867e8/phhhj_BLOJbvnTFhVaZ5y.png",
+    "link": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source"
+  },
+  {
+    "id": 10,
+    "title": "Holo4: powering generalist computer-use agents",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-09-28",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/69fc7e49052f11ab9931b672/yzjxvlmlZKtjASwAYu6bN.jpeg",
+    "link": "https://huggingface.co/blog/Hcompany/holo4",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/Hcompany/holo4"
+  },
+  {
+    "id": 11,
+    "title": "Welcome RL Environments to the hub",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-09-28",
+    "image": "https://huggingface.co/blog/assets/datasets-filters/thumbnail.png",
+    "link": "https://huggingface.co/blog/rl-environments",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/rl-environments"
+  },
+  {
+    "id": 12,
+    "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-09-22",
+    "image": "https://huggingface.co/blog/assets/evaleval-aisi/thumbnail.png",
+    "link": "https://huggingface.co/blog/evaleval-aisi",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/evaleval-aisi"
+  },
+  {
+    "id": 13,
+    "title": "Transformers now runs llama.cpp quants",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-09-22",
+    "image": "https://huggingface.co/blog/assets/transformers_llama_cpp_quants/thumbnail.png",
+    "link": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/transformers-llama-cpp-quants"
+  },
+  {
+    "id": 14,
+    "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-09-22",
+    "image": "https://huggingface.co/blog/assets/omlx/omlx-hf.jpg",
+    "link": "https://huggingface.co/blog/omlx",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/omlx"
+  },
+  {
+    "id": 15,
+    "title": "tokenizers v1: encode, decode and scaling, measured",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-09-21",
+    "image": "https://huggingface.co/blog/assets/tokenizers-v1/thumbnail.png",
+    "link": "https://huggingface.co/blog/tokenizers-v1",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/tokenizers-v1"
   }
 ]

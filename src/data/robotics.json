@@ -1,6 +1,17 @@
 [
   {
     "id": 1,
+    "title": "Gemini 4 Argon for Robotics",
+    "description": "Read the original report from Google DeepMind.",
+    "date": "2026-10-13",
+    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/argon__robotics__hero.2e16d0ba.fill-1200x600.png",
+    "link": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+    "category": "AI Research",
+    "imageKind": "source",
+    "imageSource": "https://deepmind.google/blog/gemini-4-argon-for-robotics/"
+  },
+  {
+    "id": 4,
     "title": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
     "description": "Industrial Next helps manufacturers automate complex, delicate tasks that have traditionally required human labor.",
     "date": "2026-10-13",
@@ -11,7 +22,7 @@
     "imageSource": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/"
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
     "description": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in Startup Battlefield at TechCrunch Disrupt, October 13-15 in San",
     "date": "2026-10-13",
@@ -22,7 +33,7 @@
     "imageSource": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/"
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "Q&A: Mars Perseverance Rover Sets a Distance Record",
     "description": "On October 11 , the Perseverance rover completed a drive that brought its total distance traveled on Mars to 28.10 miles (45.22 kilometers). This is a new record for Mars rovers, enabled in large part",
     "date": "2026-10-13",
@@ -33,7 +44,7 @@
     "imageSource": "https://spectrum.ieee.org/mars-rover-distance-record"
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "Video Friday: Robot Decommissioning Takes a Fun Turn",
     "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send",
     "date": "2026-10-09",
@@ -44,7 +55,7 @@
     "imageSource": "https://spectrum.ieee.org/video-friday-reachy-mini-raps"
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "This Disembodied Hand Is All the Robot You Need",
     "description": "A hand attached to the end of an arm is a given for most humans, but what if robots didn’t have to play by the same rules as we do? Researchers from ETH Zurich have",
     "date": "2026-10-08",
@@ -55,7 +66,7 @@
     "imageSource": "https://spectrum.ieee.org/walking-robotic-hand"
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object Interaction",
     "description": "This White Paper gives robotics researchers and engineers an overview of a new large-scale motion capture dataset built to close the data gap limiting humanoid robot learning. It also shows how policies trained on the",
     "date": "2026-10-07",
@@ -66,7 +77,7 @@
     "imageSource": "https://content.knowledgehub.wiley.com/hiphi-a-large-scale-benchmark-for-high-precision-human-motion-and-object-interaction/"
   },
   {
-    "id": 7,
+    "id": 10,
     "title": "Video Friday: Albatross Falls, Spins, Self-Rights, and Sails Away",
     "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send",
     "date": "2026-10-02",
@@ -77,7 +88,7 @@
     "imageSource": "https://spectrum.ieee.org/video-friday-bioinspired-robotics"
   },
   {
-    "id": 8,
+    "id": 11,
     "title": "Atlas Robot’s New Hand May Outperform Humanlike Designs",
     "description": "Today, Boston Dynamics is announcing a redesigned hand for its Atlas robot . The previous generation could do some crazy superhuman things with its three fingers, but it was never intended for mass production in",
     "date": "2026-10-01",
@@ -88,7 +99,7 @@
     "imageSource": "https://spectrum.ieee.org/robust-robot-hand"
   },
   {
-    "id": 9,
+    "id": 12,
     "title": "A Day in the Life of a Roboticist: Charlie Kemp",
     "description": "Building useful robots starts with understanding the people who use them. For Charlie Kemp, cofounder and chief technology officer of Hello Robot, that means developing assistive robots that can help people with everyday tasks and",
     "date": "2026-09-28",
@@ -99,7 +110,7 @@
     "imageSource": "https://robotsguide.com/learn/a-day-in-the-life-of-a-roboticist-charlie-kemp"
   },
   {
-    "id": 10,
+    "id": 13,
     "title": "Video Friday: Life’s Better With a Little Robot Goose",
     "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send",
     "date": "2026-09-25",
@@ -110,7 +121,7 @@
     "imageSource": "https://spectrum.ieee.org/video-friday-goose-household-robots"
   },
   {
-    "id": 11,
+    "id": 14,
     "title": "Mexican EPICS in IEEE Team Builds Portable Educational Platform",
     "description": "In Guadalajara, Mexico, many high schools have motivated teachers and talented students with an interest in science, technology, engineering, and mathematics, but they lack access to advanced tools such as robotics laboratories. The resources shortfall",
     "date": "2026-09-24",
@@ -121,7 +132,7 @@
     "imageSource": "https://spectrum.ieee.org/epics-in-ieee-portable-educational"
   },
   {
-    "id": 12,
+    "id": 15,
     "title": "Barbara Mazzolai Wants to Build a New Field of Robotics",
     "description": "Throughout her career, roboticist Barbara Mazzolai has turned to nature for inspiration. Now she wants to ensure the technology she builds gives back to the environment, too. After starting her career as a biologist, a",
     "date": "2026-09-22",
@@ -132,7 +143,7 @@
     "imageSource": "https://spectrum.ieee.org/sustainability-robotics-barbara-mazzolai"
   },
   {
-    "id": 13,
+    "id": 16,
     "title": "Video Friday: Two Birotors Make a Quadrotor",
     "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send",
     "date": "2026-09-18",
@@ -143,7 +154,7 @@
     "imageSource": "https://spectrum.ieee.org/video-friday-quadrotor-from-birotor"
   },
   {
-    "id": 14,
+    "id": 17,
     "title": "Rethinking Robot Safety in the Age of AI",
     "description": "This article is brought to you by VicOne . Robot safety has traditionally asked: Can a machine remain safe when something goes wrong? Physical AI raises a harder question: Can a machine remain safe when",
     "date": "2026-09-16",
@@ -152,16 +163,5 @@
     "category": "Robotics",
     "imageKind": "source",
     "imageSource": "https://spectrum.ieee.org/physical-ai-robot-cybersecurity-vicone"
-  },
-  {
-    "id": 15,
-    "title": "Digit 5 May Be the First Humanoid Robot Worker That’s Truly Safe",
-    "description": "Despite the recent deluge of videos of humanoid robots doing backflips and kung fu, the actual pace of progress towards humanoids that can do economically viable jobs at scale has at times seemed a bit",
-    "date": "2026-09-15",
-    "image": "https://spectrum.ieee.org/media-library/image.jpg?id=67776761&width=1200&height=600&coordinates=0%2C19%2C0%2C81",
-    "link": "https://spectrum.ieee.org/humanoid-robot-safety",
-    "category": "Robotics",
-    "imageKind": "source",
-    "imageSource": "https://spectrum.ieee.org/humanoid-robot-safety"
   }
 ]
