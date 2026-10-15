@@ -1,6 +1,7 @@
 import { ArrowRight, BookOpen } from 'lucide-react';
 
 const guides = [
+ {title:'Our real website SEO case study',description:'See the redirects, metadata and sitemap checks we ran on AIWorldNext, with reproducible steps.',href:'/guides/aiworldnext-seo-case-study/'},
  {title:'Murf vs ElevenLabs: choose a workflow',description:'Compare documented features and use the same script to assess pronunciation, edits and exports.',href:'/guides/murf-vs-elevenlabs/'},
  {title:'Before buying your first robot',description:'Check supplier quotations, demos, operating requirements and the full delivered cost.',href:'/guides/buy-your-first-robot/'},
  {title:'Create your first AI voiceover',description:'Prepare a short script, check pronunciation and review your finished audio.',href:'/guides/create-an-ai-voiceover/'},

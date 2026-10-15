@@ -1,5 +1,68 @@
 [
   {
+    "slug": "aiworldnext-seo-case-study",
+    "title": "A real website SEO check: what we changed on AIWorldNext",
+    "intro": "A reproducible case study of canonical tags, directory-page consolidation, redirects and sitemap checks on our own React website.",
+    "checkedAt": "15 October 2026",
+    "kind": "Implementation case study",
+    "sections": [
+      [
+        "The problem we could actually verify",
+        "AIWorldNext combines a React homepage with build-generated directory and guide pages. During our October 2026 review, we found short tool and publisher detail pages that repeated a description and generic checklist. We also needed consistent canonical and social metadata across static pages. This case study records implementation checks on our own website. It is not a ranking experiment, a product review or evidence of an AdSense approval."
+      ],
+      [
+        "Use three separate questions",
+        "First ask whether the URL works: does it return the intended page? Next ask whether the page sends the intended indexing signals: canonical address, robots directives and sitemap inclusion. Finally ask whether search engines have actually crawled and indexed it. A successful response or a green build answers only part of that sequence. Keep those observations separate in your report."
+      ],
+      [
+        "Consolidate repeated pages into useful destinations",
+        "We consolidated 28 short Tools and Blogs detail pages into their category cards. Existing links such as /tools/entry-9/ now redirect to /tools/#entry-9, where the listing, official source and labelled partner link are available together. The URL fragment identifies a card; it is not a separate page to add to the sitemap. This reduces repetitive navigation without pretending a short source summary is a full review."
+      ],
+      [
+        "Check one representative redirect before testing the rest",
+        "Open an old detail URL and confirm that its final destination is the intended category and that the named card exists. Then check another category. For our live checks, /tools/entry-9/ reached /tools/#entry-9 and /blogs/entry-1/ reached /blogs/#entry-1; both destination pages returned HTTP 200. A destination returning 200 alone would not catch a redirect to an unrelated homepage, so record the final URL too."
+      ],
+      [
+        "Keep the canonical, robots tag and sitemap consistent",
+        "Our build postprocessor gives each remaining HTML page a self-referencing www canonical and one robots meta tag. The enquiry form, payment utility and update-status page use noindex, follow and are omitted from the sitemap. These utility decisions help keep search results focused; hiding a page from search does not exempt it from advertising policies."
+      ],
+      [
+        "Validate content and navigation before deployment",
+        "The check script parses each built HTML file, verifies unique non-empty titles, one canonical, required social metadata and valid JSON-LD, then checks internal page links and sitemap targets. A second targeted check confirms every directory card anchor exists. This matters because a page-level link checker would not detect a missing #entry-9 card. It does not verify every factual claim or external publisher link."
+      ],
+      [
+        "The recorded result and its boundary",
+        "Immediately after consolidation, our local build contained 39 HTML pages and 36 indexable sitemap URLs. TypeScript, the production build and the SEO checker passed. Live checks confirmed the two representative redirects, and the robot enquiry page retained noindex. These figures describe that revision before adding this case study; later content can change the totals. We have not demonstrated a traffic increase caused by these changes."
+      ],
+      [
+        "Reproduce the build check",
+        "In this repository, run npm run typecheck, then npm run build, then python scripts/check_seo.py. Open the generated sitemap and a category page to confirm their contents. On the deployed site, inspect the final redirected URL and rendered page. For your own project, adapt the scripts to its actual routes and metadata; copying our counts or canonical domain would be incorrect."
+      ],
+      [
+        "What still needs a human check",
+        "Read pages for usefulness and accuracy, inspect the mobile layout and verify that forms reach the intended inbox. Product reviews need genuine trials and retained evidence. Search Console indexing needs a later follow-up, and AdSense requires its own policy review. Neither a passing metadata check nor a successful sitemap submission establishes either outcome."
+      ]
+    ],
+    "sources": [
+      {
+        "title": "Our SEO validation script",
+        "url": "https://github.com/jdsaurabh27-ops/aiworldnext/blob/main/scripts/check_seo.py"
+      },
+      {
+        "title": "Our content-quality change record",
+        "url": "https://github.com/jdsaurabh27-ops/aiworldnext/blob/main/docs/ADSENSE_CONTENT_REVIEW_2026-10-15.md"
+      },
+      {
+        "title": "Google Search technical requirements",
+        "url": "https://developers.google.com/search/docs/essentials/technical"
+      },
+      {
+        "title": "Google: requesting a recrawl",
+        "url": "https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl"
+      }
+    ]
+  },
+  {
     "slug": "murf-vs-elevenlabs",
     "title": "Murf vs ElevenLabs: how to choose for your voiceover workflow",
     "intro": "Compare documented editing workflows, run the same short script in both tools and check export rights before choosing a plan.",
