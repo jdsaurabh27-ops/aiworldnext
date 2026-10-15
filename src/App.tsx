@@ -49,6 +49,7 @@ function App() {
       <GoogleAnalytics />
       <Navbar />
       <Hero />
+      <PracticalGuides />
       <SearchResults />
       <div className="border-y border-gray-800 bg-gray-900/30"><div className="mx-auto max-w-7xl px-4 py-4 text-center"><p className="mb-2 text-xs font-semibold uppercase tracking-widest text-gray-400">Browse the directory</p><div className="flex flex-wrap justify-center gap-2">{['news','blogs','jobs','tools','events','companies','startups','robotics','podcasts','community','directories','resources'].map(name=><a key={name} href={`/${name}/`} className="rounded-md border border-gray-700 px-3 py-2 text-sm capitalize text-gray-200 hover:border-cyan-400 hover:text-cyan-400">{name}</a>)}</div></div></div>
 
@@ -74,15 +75,14 @@ function App() {
 
       <Suspense fallback={<LoadingFallback />}><AIToolsSection /></Suspense>
 
-      <PracticalGuides />
       <RobotHardware />
 
       <Suspense fallback={<LoadingFallback />}><AIJobsSection /></Suspense>
 
       <Section
         id="blogs"
-        title="Featured Blogs"
-        subtitle="In-depth articles and insights from AI experts and thought leaders"
+        title="From AI publishers"
+        subtitle="External reading from linked publishers. Original AIWorldNext workflows are in Practical Guides."
         icon={PenTool}
       >
         {blogsData.slice(0, 6).map((item) => (
@@ -92,7 +92,7 @@ function App() {
             description={item.description}
             image={item.image}
                 imageKind={(item as { imageKind?: string }).imageKind}
-            link={`/blogs/entry-${item.id}/`}
+            link={`/blogs/#entry-${item.id}`}
             date={item.date}
             author={item.author}
             authorImage={item.authorImage}

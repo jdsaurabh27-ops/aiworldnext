@@ -11,6 +11,8 @@ for(const file of files('dist').filter(f=>f.endsWith('.html'))){
  const rel=relative('dist',file).replaceAll('\\','/');
  const path='/'+rel.replace(/index\.html$/,'');
  let html=readFileSync(file,'utf8');
+ // Keep ownership verification, but do not load ad delivery on unapproved pages.
+ html=html.replace(/<script\b[^>]*src=["'][^"']*pagead2\.googlesyndication\.com\/pagead\/js\/adsbygoogle\.js[^"']*["'][^>]*>[\s\S]*?<\/script>/gi,'');
  const descriptions={
  '/':'Discover AI news, tools, jobs, events and practical guides. Explore robot dogs, humanoids and educational robots, with source links and enquiry options.',
  '/tools/':'Explore AI writing, voice, video and productivity tools. Compare source-linked listings and read practical guides before choosing a product.',

@@ -9,6 +9,16 @@
       "source": "/terms",
       "destination": "/terms.html",
       "permanent": true
+    },
+    {
+      "source": "/tools/entry-:id/",
+      "destination": "/tools/#entry-:id",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/entry-:id/",
+      "destination": "/blogs/#entry-:id",
+      "permanent": true
     }
   ]
 }
