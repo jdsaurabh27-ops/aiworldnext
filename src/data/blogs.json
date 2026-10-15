@@ -4,13 +4,26 @@
     "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
     "description": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
     "date": "2026-10-14",
-    "image": "https://lh3.googleusercontent.com/m134KeViYlQXqWaac-fW1TuTvCk1ZQ2EnHF72xH6anzjd4iKukfGHvV3o5PiDTJfSytjxUF2E1rwAAHlZ4ZyCkGkOHV7Uij2ZZ3zsbVZUAFCMCccZQ=w1200-h630-n-nu-rw",
+    "image": "https://lh3.googleusercontent.com/5PC4h7MzjC0ojOxiK-nPcRz0b6kUybKnCBjLL3nsb9T9qt7-2ciORJPnrObeFaYbAMqPxIhH4Wq9HD-U73lCivpFBcK8gABvhXXDo2lzUUSk9olsZQ=w1200-h630-n-nu-rw",
     "link": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
     "category": "AI Research",
     "author": "Google DeepMind",
     "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
     "imageKind": "source",
     "imageSource": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/"
+  },
+  {
+    "id": 64,
+    "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-10-14",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/Y8t8GnfI2lUa40iX4_sxA.png",
+    "link": "https://huggingface.co/blog/allenai/hiro-acev2",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/allenai/hiro-acev2"
   },
   {
     "id": 2,
@@ -52,7 +65,7 @@
     "imageSource": "https://deepmind.google/blog/introducing-gemini-4-argon/"
   },
   {
-    "id": 64,
+    "id": 65,
     "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-13",
@@ -63,19 +76,6 @@
     "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
     "imageKind": "source",
     "imageSource": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b"
-  },
-  {
-    "id": 65,
-    "title": "Impactful scheduling for GPU clusters",
-    "description": "Read the original report from Hugging Face.",
-    "date": "2026-10-09",
-    "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/Kj0n5ea3ItoNIc2ha2SVL.png",
-    "link": "https://huggingface.co/blog/allenai/impactful-scheduling",
-    "category": "AI Tools & Research",
-    "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://huggingface.co/blog/allenai/impactful-scheduling"
   },
   {
     "id": 66,

@@ -14,13 +14,13 @@
   {
     "id": 2,
     "title": "Hugging Face Discord",
-    "description": "We're working to democratize good machine learning 🤗Verify to link your Hub and Discord accounts! | 242708 members",
+    "description": "We're working to democratize good machine learning 🤗Verify to link your Hub and Discord accounts! | 242963 members",
     "members": "Not verified",
     "image": "https://discord.com/assets/favicon.ico",
     "link": "https://hf.co/join/discord",
     "category": "Chat",
     "sourceUrl": "https://hf.co/join/discord",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "imageKind": "logo",
     "imageSource": "https://hf.co/join/discord"
   },
@@ -33,7 +33,7 @@
     "link": "https://www.meetup.com/topics/artificial-intelligence",
     "category": "Events",
     "sourceUrl": "https://www.meetup.com/topics/artificial-intelligence",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "imageKind": "logo",
     "imageSource": "https://www.meetup.com/topics/artificial-intelligence"
   },
@@ -46,7 +46,7 @@
     "link": "https://www.womeninai.co",
     "category": "Diversity",
     "sourceUrl": "https://www.womeninai.co",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "imageKind": "logo",
     "imageSource": "https://www.womeninai.co"
   },
@@ -59,7 +59,7 @@
     "link": "https://ai.stackexchange.com",
     "category": "Q&A",
     "sourceUrl": "https://ai.stackexchange.com",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "imageKind": "logo",
     "imageSource": "https://ai.stackexchange.com"
   },
@@ -72,7 +72,7 @@
     "link": "https://mlops.community",
     "category": "Professional",
     "sourceUrl": "https://mlops.community",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "imageKind": "logo",
     "imageSource": "https://mlops.community"
   },
@@ -107,7 +107,7 @@
     "link": "https://discord.gg/robotics",
     "category": "Robotics",
     "sourceUrl": "https://discord.gg/robotics",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "imageKind": "logo",
     "logoIcon": "https://www.google.com/s2/favicons?domain=discord.gg&sz=128",
     "imageSource": "https://discord.gg/robotics"
@@ -121,7 +121,7 @@
     "link": "https://www.linkedin.com/groups/artificial-intelligence",
     "category": "Professional",
     "sourceUrl": "https://www.linkedin.com/groups/artificial-intelligence",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "imageKind": "logo",
     "logoIcon": "https://www.google.com/s2/favicons?domain=www.linkedin.com&sz=128",
     "imageSource": "https://www.linkedin.com/groups/artificial-intelligence"
