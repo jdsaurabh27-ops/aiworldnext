@@ -1,6 +1,7 @@
 import {readFileSync,writeFileSync,readdirSync} from 'node:fs';
 import {join,relative} from 'node:path';
 const origin='https://www.aiworldnext.com';
+const seoTargets=JSON.parse(readFileSync('src/data/seo-targets.json','utf8'));
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const decode=s=>s.replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>');
 function files(dir){return readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?files(join(dir,e.name)):[join(dir,e.name)]);}
@@ -22,6 +23,7 @@ for(const file of files('dist').filter(f=>f.endsWith('.html'))){
  '/events/':'Discover AI events and conferences from linked sources. Confirm dates, venue, registration and availability with the organiser.',
  '/guides/':'Read practical guides to choosing AI tools, creating voiceovers, checking privacy, verifying news and comparing robots.',
  '/robots/':'Explore robot dogs, humanoids, coding kits and service robots. Find official sources and send purchase, demo or rental enquiries to AIWorldNext.'};
+ if(seoTargets[path])descriptions[path]=seoTargets[path].description;
  if(descriptions[path])html=html.replace(/<meta\s+name="description"\s+content="[^"]*"[^>]*>/i,`<meta name="description" content="${esc(descriptions[path])}">`);
  if(path==='/')html=html.replace(/<title>[\s\S]*?<\/title>/i,'<title>AI News, Tools, Jobs &amp; Robots | AIWorldNext</title>');
 
@@ -44,3 +46,4 @@ for(const file of files('dist').filter(f=>f.endsWith('.html'))){
 const sitemap=readFileSync('dist/sitemap.xml','utf8').replace(/<url>\s*<loc>([^<]+)<\/loc>[\s\S]*?<\/url>/g,(all,url)=>noindex.has(url.replace(origin,''))?'':all);
 writeFileSync('dist/sitemap.xml',sitemap);
 console.log(`SEO metadata checked for ${count} HTML files; utility pages excluded from sitemap.`);
+

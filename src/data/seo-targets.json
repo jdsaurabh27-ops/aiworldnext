@@ -1,0 +1,73 @@
+{
+  "/news/": {
+    "keyword": "AI news",
+    "title": "AI News: Research, Product & Industry Updates",
+    "description": "Browse source-linked AI news on research, product releases and industry developments. Read original announcements and use our news verification checklist.",
+    "intro": "Follow artificial intelligence news with the original source in view. This directory brings together research announcements, product updates and industry reporting. Open each linked article to check its publication date, supporting evidence and whether a feature is released or only announced. Entries come from scheduled source updates; this is not a live breaking-news service.",
+    "relatedUrl": "/guides/verify-ai-news/",
+    "relatedLabel": "How to verify an AI news claim"
+  },
+  "/jobs/": {
+    "keyword": "AI jobs",
+    "title": "AI Jobs: Machine Learning, Data Science & Engineering",
+    "description": "Browse AI jobs in machine learning, data science and engineering. Check employer requirements, location and application details at the original listing.",
+    "intro": "Explore artificial intelligence jobs by role and the problem you want to work on. Machine learning engineering, data science, research and robotics roles can require different skills. Check the original employer listing for responsibilities, location, work authorisation and whether applications remain open. These are linked opportunities, not recruitment services or guaranteed placements.",
+    "relatedUrl": "/guides/ai-job-application-checklist/",
+    "relatedLabel": "Prepare an AI job application"
+  },
+  "/tools/": {
+    "keyword": "AI tools",
+    "title": "AI Tools Directory: Writing, Voice, Video & Productivity",
+    "description": "Explore AI tools for writing, voice, video and productivity. Browse source-linked listings and use practical checklists to compare tools for your task.",
+    "intro": "Choose AI tools around a task you actually need to complete: writing a draft, creating narration, preparing visuals or organising work. Use this directory to shortlist products, then compare the same sample input in each. Confirm current plan limits and export permissions at the provider. Listings are discovery starting points, not independent product rankings.",
+    "relatedUrl": "/guides/compare-ai-tools-with-one-task/",
+    "relatedLabel": "Compare AI tools with the same task"
+  },
+  "/events/": {
+    "keyword": "AI conferences and events",
+    "title": "AI Conferences & Events: Explore Upcoming Listings",
+    "description": "Explore AI conferences and events from linked sources. Verify dates, location, programme and registration directly with the organiser before booking.",
+    "intro": "Find artificial intelligence conferences and events that fit your learning or professional goal. Before registering, review the programme, intended audience, dates, location and attendance format on the organiser\u2019s website. A listing is not a booking confirmation or an endorsement. Check travel and cancellation arrangements separately if you plan to attend in person.",
+    "relatedUrl": "/community/",
+    "relatedLabel": "Explore AI communities"
+  },
+  "/companies/": {
+    "keyword": "AI companies",
+    "title": "AI Companies Directory: Explore Organisations & Sources",
+    "description": "Explore AI companies through source-linked profiles. Find their official websites and compare products, research and business focus.",
+    "intro": "Use this AI company directory to explore organisations and follow their official work. Read a company\u2019s own product and research pages before drawing conclusions from a short description. A company listing does not mean AIWorldNext has a partnership with it, and company size or brand recognition does not establish which product fits your task.",
+    "relatedUrl": "/tools/",
+    "relatedLabel": "Explore AI tools by task"
+  },
+  "/podcasts/": {
+    "keyword": "AI podcasts",
+    "title": "AI Podcasts: Research, Technology & Industry Conversations",
+    "description": "Explore AI podcasts and linked episodes covering research, technology and industry discussions. Visit the publisher for the full episode and show notes.",
+    "intro": "Explore artificial intelligence podcasts for longer conversations about research, products and the people building them. Follow the publisher link for complete episodes, guests and show notes. Check the episode date when listening to claims about models or product availability. A guest\u2019s opinion or prediction should be distinguished from a verified result.",
+    "relatedUrl": "/guides/verify-ai-news/",
+    "relatedLabel": "Check claims heard in an AI discussion"
+  },
+  "/resources/": {
+    "keyword": "AI learning resources",
+    "title": "AI Learning Resources: Courses, Tutorials & Documentation",
+    "description": "Explore source-linked AI learning resources, courses and documentation. Choose a starting point based on your task, prerequisites and learning goals.",
+    "intro": "Choose AI learning resources by what you want to do next. Beginners can start with concepts and small practical tasks; developers should check prerequisites, supported tools and documentation versions before starting a project. Confirm course access, fees and any certificate conditions with the provider. This directory links to resources rather than offering its own accredited courses.",
+    "relatedUrl": "/guides/choose-an-ai-tool/",
+    "relatedLabel": "Choose a tool for a practical learning task"
+  },
+  "/guides/create-an-ai-voiceover/": {
+    "keyword": "how to create an AI voiceover",
+    "title": "How to Create an AI Voiceover: Script to Finished Audio",
+    "description": "Learn how to create an AI voiceover, prepare a script, check pronunciation and plan a 30-second video. Includes a storyboard and publishing checklist."
+  },
+  "/guides/murf-vs-elevenlabs/": {
+    "keyword": "Murf vs ElevenLabs",
+    "title": "Murf vs ElevenLabs: Voiceover Workflow Comparison",
+    "description": "Compare documented Murf and ElevenLabs workflows, export checks and editing needs. Use our blank comparison worksheet; this is not a hands-on audio review."
+  },
+  "/guides/buy-your-first-robot/": {
+    "keyword": "robot buying guide",
+    "title": "Robot Buying Guide: Compare Costs, Demos & Support",
+    "description": "Use our robot buying guide to compare editions, delivered costs, demonstrations and local support. Includes a supplier quotation checklist."
+  }
+}
