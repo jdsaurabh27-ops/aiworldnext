@@ -19,6 +19,11 @@
       "source": "/blogs/entry-:id/",
       "destination": "/blogs/#entry-:id",
       "permanent": true
+    },
+    {
+      "source": "/about",
+      "destination": "/about.html",
+      "permanent": true
     }
   ]
 }
