@@ -1,5 +1,38 @@
 [
   {
+    "id": 4,
+    "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+    "description": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still",
+    "date": "2026-10-16",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/06/unitree-robots.jpg?resize=1200,800",
+    "link": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/"
+  },
+  {
+    "id": 5,
+    "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+    "description": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still",
+    "date": "2026-10-16",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/Amulya-Vishwanath-Techable-VC.jpg?resize=960,1200",
+    "link": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/"
+  },
+  {
+    "id": 6,
+    "title": "Video Friday: When Two Robots Become One",
+    "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send",
+    "date": "2026-10-16",
+    "image": "https://spectrum.ieee.org/media-library/image.gif?id=68443843&width=1200&height=600&coordinates=0%2C32%2C0%2C32",
+    "link": "https://spectrum.ieee.org/video-friday-reconfigurable-robots",
+    "category": "Robotics",
+    "imageKind": "source",
+    "imageSource": "https://spectrum.ieee.org/video-friday-reconfigurable-robots"
+  },
+  {
     "id": 1,
     "title": "Gemini 4 Argon for Robotics",
     "description": "Read the original report from Google DeepMind.",
@@ -11,20 +44,9 @@
     "imageSource": "https://deepmind.google/blog/gemini-4-argon-for-robotics/"
   },
   {
-    "id": 4,
-    "title": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
-    "description": "Industrial Next helps manufacturers automate complex, delicate tasks that have traditionally required human labor.",
-    "date": "2026-10-13",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2247792889.jpg?resize=1200,788",
-    "link": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/"
-  },
-  {
-    "id": 5,
+    "id": 7,
     "title": "Q&A: Mars Perseverance Rover Sets a Distance Record",
-    "description": "On October 11 , the Perseverance rover completed a drive that brought its total distance traveled on Mars to 28.10 miles (45.22 kilometers). This is a new record for Mars rovers, enabled in large part",
+    "description": "On 11 October , the Perseverance rover completed a drive that brought its total distance traveled on Mars to 28.10 miles (45.22 kilometers). This is a new record for Mars rovers, enabled in large part",
     "date": "2026-10-13",
     "image": "https://spectrum.ieee.org/media-library/a-long-trail-of-tire-tracks-left-across-mars-dusty-surface-by-a-space-rover.jpg?id=68423735&width=1200&height=600&coordinates=0%2C434%2C0%2C397",
     "link": "https://spectrum.ieee.org/mars-rover-distance-record",
@@ -33,7 +55,7 @@
     "imageSource": "https://spectrum.ieee.org/mars-rover-distance-record"
   },
   {
-    "id": 6,
+    "id": 8,
     "title": "Video Friday: Robot Decommissioning Takes a Fun Turn",
     "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send",
     "date": "2026-10-09",
@@ -44,7 +66,7 @@
     "imageSource": "https://spectrum.ieee.org/video-friday-reachy-mini-raps"
   },
   {
-    "id": 7,
+    "id": 9,
     "title": "This Disembodied Hand Is All the Robot You Need",
     "description": "A hand attached to the end of an arm is a given for most humans, but what if robots didn’t have to play by the same rules as we do? Researchers from ETH Zurich have",
     "date": "2026-10-08",
@@ -55,7 +77,7 @@
     "imageSource": "https://spectrum.ieee.org/walking-robotic-hand"
   },
   {
-    "id": 8,
+    "id": 10,
     "title": "HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object Interaction",
     "description": "This White Paper gives robotics researchers and engineers an overview of a new large-scale motion capture dataset built to close the data gap limiting humanoid robot learning. It also shows how policies trained on the",
     "date": "2026-10-07",
@@ -66,7 +88,7 @@
     "imageSource": "https://content.knowledgehub.wiley.com/hiphi-a-large-scale-benchmark-for-high-precision-human-motion-and-object-interaction/"
   },
   {
-    "id": 9,
+    "id": 11,
     "title": "Video Friday: Albatross Falls, Spins, Self-Rights, and Sails Away",
     "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send",
     "date": "2026-10-02",
@@ -77,7 +99,7 @@
     "imageSource": "https://spectrum.ieee.org/video-friday-bioinspired-robotics"
   },
   {
-    "id": 10,
+    "id": 12,
     "title": "Atlas Robot’s New Hand May Outperform Humanlike Designs",
     "description": "Today, Boston Dynamics is announcing a redesigned hand for its Atlas robot . The previous generation could do some crazy superhuman things with its three fingers, but it was never intended for mass production in",
     "date": "2026-10-01",
@@ -88,7 +110,7 @@
     "imageSource": "https://spectrum.ieee.org/robust-robot-hand"
   },
   {
-    "id": 11,
+    "id": 13,
     "title": "A Day in the Life of a Roboticist: Charlie Kemp",
     "description": "Building useful robots starts with understanding the people who use them. For Charlie Kemp, cofounder and chief technology officer of Hello Robot, that means developing assistive robots that can help people with everyday tasks and",
     "date": "2026-09-28",
@@ -99,7 +121,7 @@
     "imageSource": "https://robotsguide.com/learn/a-day-in-the-life-of-a-roboticist-charlie-kemp"
   },
   {
-    "id": 12,
+    "id": 14,
     "title": "Video Friday: Life’s Better With a Little Robot Goose",
     "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send",
     "date": "2026-09-25",
@@ -110,7 +132,7 @@
     "imageSource": "https://spectrum.ieee.org/video-friday-goose-household-robots"
   },
   {
-    "id": 13,
+    "id": 15,
     "title": "Mexican EPICS in IEEE Team Builds Portable Educational Platform",
     "description": "In Guadalajara, Mexico, many high schools have motivated teachers and talented students with an interest in science, technology, engineering, and mathematics, but they lack access to advanced tools such as robotics laboratories. The resources shortfall",
     "date": "2026-09-24",
@@ -121,7 +143,7 @@
     "imageSource": "https://spectrum.ieee.org/epics-in-ieee-portable-educational"
   },
   {
-    "id": 14,
+    "id": 16,
     "title": "Barbara Mazzolai Wants to Build a New Field of Robotics",
     "description": "Throughout her career, roboticist Barbara Mazzolai has turned to nature for inspiration. Now she wants to ensure the technology she builds gives back to the environment, too. After starting her career as a biologist, a",
     "date": "2026-09-22",
@@ -132,7 +154,7 @@
     "imageSource": "https://spectrum.ieee.org/sustainability-robotics-barbara-mazzolai"
   },
   {
-    "id": 15,
+    "id": 17,
     "title": "Video Friday: Two Birotors Make a Quadrotor",
     "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send",
     "date": "2026-09-18",
@@ -141,27 +163,5 @@
     "category": "Robotics",
     "imageKind": "source",
     "imageSource": "https://spectrum.ieee.org/video-friday-quadrotor-from-birotor"
-  },
-  {
-    "id": 16,
-    "title": "Rethinking Robot Safety in the Age of AI",
-    "description": "This article is brought to you by VicOne . Robot safety has traditionally asked: Can a machine remain safe when something goes wrong? Physical AI raises a harder question: Can a machine remain safe when",
-    "date": "2026-09-16",
-    "image": "https://spectrum.ieee.org/media-library/humanoid-robots-and-people-walking-through-a-modern-city-street-with-glass-buildings.jpg?id=67745861&width=1200&height=600&coordinates=0%2C62%2C0%2C63",
-    "link": "https://spectrum.ieee.org/physical-ai-robot-cybersecurity-vicone",
-    "category": "Robotics",
-    "imageKind": "source",
-    "imageSource": "https://spectrum.ieee.org/physical-ai-robot-cybersecurity-vicone"
-  },
-  {
-    "id": 17,
-    "title": "Digit 5 May Be the First Humanoid Robot Worker That’s Truly Safe",
-    "description": "Despite the recent deluge of videos of humanoid robots doing backflips and kung fu, the actual pace of progress towards humanoids that can do economically viable jobs at scale has at times seemed a bit",
-    "date": "2026-09-15",
-    "image": "https://spectrum.ieee.org/media-library/image.jpg?id=67776761&width=1200&height=600&coordinates=0%2C19%2C0%2C81",
-    "link": "https://spectrum.ieee.org/humanoid-robot-safety",
-    "category": "Robotics",
-    "imageKind": "source",
-    "imageSource": "https://spectrum.ieee.org/humanoid-robot-safety"
   }
 ]

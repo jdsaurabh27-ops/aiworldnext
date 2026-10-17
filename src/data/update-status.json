@@ -1,5 +1,5 @@
 {
-  "runDate": "2026-10-15",
+  "runDate": "2026-10-17",
   "sections": {
     "news": {
       "status": "updated",
@@ -43,8 +43,8 @@
     },
     "community": {
       "status": "updated",
-      "checked": 7,
-      "retained": 3
+      "checked": 6,
+      "retained": 1
     },
     "websites": {
       "status": "updated",

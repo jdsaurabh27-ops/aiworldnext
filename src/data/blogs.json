@@ -1,6 +1,84 @@
 [
   {
+    "id": 65,
+    "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-10-16",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/68d2fec8856b85d927e44d32/x0aObe_0mduBjWFuKBGoV.png",
+    "link": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining"
+  },
+  {
+    "id": 66,
+    "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-10-16",
+    "image": "https://huggingface.co/blog/assets/reflection-beam/thumbnail.jpg",
+    "link": "https://huggingface.co/blog/reflection-beam",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/reflection-beam"
+  },
+  {
     "id": 1,
+    "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+    "description": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+    "date": "2026-10-15",
+    "image": "https://lh3.googleusercontent.com/Xgnc_DxAUS2Fs9H2rokxsYwPnnM_KOkPyPtKm7V2C_sjZ7YS4N1-D6lD8wjYIRQoKaiSwHUXB7qmw77m6FCfHLZenWdNymO7B_JLChlB6ied6emR=w528-h297-n-nu-rw-lo",
+    "link": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+    "category": "AI Research",
+    "author": "Google DeepMind",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/"
+  },
+  {
+    "id": 67,
+    "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-10-15",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/662836b742709fe826510597/gltB0o--PV_Jh0D3aDm8-.png",
+    "link": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1"
+  },
+  {
+    "id": 68,
+    "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-10-15",
+    "image": "https://huggingface.co/blog/assets/meta-muse-spark-open/thumbnail.png",
+    "link": "https://huggingface.co/blog/meta-muse-spark-open",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/meta-muse-spark-open"
+  },
+  {
+    "id": 69,
+    "title": "Welcome FLUX.3 Image Klein in Diffusers",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-10-15",
+    "image": "https://huggingface.co/blog/assets/flux3/thumbnail.png",
+    "link": "https://huggingface.co/blog/flux-3",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/flux-3"
+  },
+  {
+    "id": 2,
     "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
     "description": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
     "date": "2026-10-14",
@@ -13,7 +91,7 @@
     "imageSource": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/"
   },
   {
-    "id": 64,
+    "id": 70,
     "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-14",
@@ -26,7 +104,7 @@
     "imageSource": "https://huggingface.co/blog/allenai/hiro-acev2"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Developing Gemini 4 Argon responsibly and safely",
     "description": "Read the original report from Google DeepMind.",
     "date": "2026-10-13",
@@ -39,7 +117,7 @@
     "imageSource": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Gemini 4 Argon for Robotics",
     "description": "Read the original report from Google DeepMind.",
     "date": "2026-10-13",
@@ -52,7 +130,7 @@
     "imageSource": "https://deepmind.google/blog/gemini-4-argon-for-robotics/"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Gemini 4 Argon: Built to solve your hardest problems",
     "description": "Read the original report from Google DeepMind.",
     "date": "2026-10-13",
@@ -65,7 +143,7 @@
     "imageSource": "https://deepmind.google/blog/introducing-gemini-4-argon/"
   },
   {
-    "id": 65,
+    "id": 71,
     "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-13",
@@ -78,7 +156,7 @@
     "imageSource": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b"
   },
   {
-    "id": 66,
+    "id": 72,
     "title": "The model that didn't exist, so you made it yourself",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-08",
@@ -91,7 +169,7 @@
     "imageSource": "https://huggingface.co/blog/building-with-ml-intern"
   },
   {
-    "id": 67,
+    "id": 73,
     "title": "Introducing Falcon ASR",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-07",
@@ -104,20 +182,7 @@
     "imageSource": "https://huggingface.co/blog/tiiuae/falcon-asr"
   },
   {
-    "id": 68,
-    "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
-    "description": "Read the original report from Hugging Face.",
-    "date": "2026-10-07",
-    "image": "https://cdn-uploads.huggingface.co/production/uploads/67b8b0096c3182e96bf6cea1/zB6BNaB-3tiCCsnOo7gik.png",
-    "link": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
-    "category": "AI Tools & Research",
-    "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026"
-  },
-  {
-    "id": 5,
+    "id": 6,
     "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
     "description": "Read the original report from Google DeepMind.",
     "date": "2026-10-06",
@@ -128,70 +193,5 @@
     "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
     "imageKind": "source",
     "imageSource": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/"
-  },
-  {
-    "id": 69,
-    "title": "The Agent Said It Was Done. The Database Disagreed.",
-    "description": "Read the original report from Hugging Face.",
-    "date": "2026-10-03",
-    "image": "https://cdn-uploads.huggingface.co/production/uploads/64b8491203124195cd795cad/NStwJm1AafDELVsU4KGwS.png",
-    "link": "https://huggingface.co/blog/microsoft/thinkingbox",
-    "category": "AI Tools & Research",
-    "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://huggingface.co/blog/microsoft/thinkingbox"
-  },
-  {
-    "id": 70,
-    "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
-    "description": "Read the original report from Hugging Face.",
-    "date": "2026-10-02",
-    "image": "https://cdn-uploads.huggingface.co/production/uploads/68642da9885da181fde1ad70/8kSzlHLOdu5hchCtPnK8D.png",
-    "link": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
-    "category": "AI Tools & Research",
-    "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata"
-  },
-  {
-    "id": 6,
-    "title": "Gemini 4 Argon: our next era of frontier intelligence",
-    "description": "Read the original report from Google DeepMind.",
-    "date": "2026-09-30",
-    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/g4_30-09-26_key-art_blog.width-1300.png",
-    "link": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-    "category": "AI Research",
-    "author": "Google DeepMind",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
-  },
-  {
-    "id": 7,
-    "title": "Introducing SynthID Bio",
-    "description": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
-    "date": "2026-09-30",
-    "image": "https://lh3.googleusercontent.com/wNhpZFcXYLXFb6alIt0H5NRvEoso2ONZDhPKz6MYEcGltHPbDeHddzkvv5GXl3abW1PZ5ci1Y9lKoYOIjMuHLxATXfWp88-Al6eEmDENrpejIFeimw=w1200-h630-n-nu-rw",
-    "link": "https://deepmind.google/blog/introducing-synthid-bio/",
-    "category": "AI Research",
-    "author": "Google DeepMind",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://deepmind.google/blog/introducing-synthid-bio/"
-  },
-  {
-    "id": 71,
-    "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
-    "description": "Read the original report from Hugging Face.",
-    "date": "2026-09-30",
-    "image": "https://huggingface.co/blog/assets/open-tts-leaderboard/thumbnail.png",
-    "link": "https://huggingface.co/blog/open-tts-leaderboard",
-    "category": "AI Tools & Research",
-    "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://huggingface.co/blog/open-tts-leaderboard"
   }
 ]
