@@ -72,9 +72,9 @@ def refresh_item(section, item):
         metadata = Metadata()
         metadata.feed(page)
         description = clean(metadata.description)
-        if len(description) < 30:
+        if not item.get('editorialDescription') and (len(description) < 30 or any(phrase in description.lower() for phrase in ('login to linkedin', 'sign in to continue', 'log in to continue', 'verify to link', 'enable javascript'))):
             raise ValueError('No usable source description; existing entry retained')
-        result = dict(item, description=concise_description(description, item.get("description", "")), sourceUrl=source, checkedAt=date.today().isoformat())
+        result = dict(item, description=concise_description(item.get("editorialDescription") or description, item.get("description", "")), sourceUrl=source, checkedAt=date.today().isoformat())
         # Do not guess volatile prices, valuations, headcounts or model benchmarks.
         if section == 'products':
             result['price'] = 'See official pricing'
@@ -86,7 +86,7 @@ def refresh_item(section, item):
             result['funding'] = 'Not verified'
         if section == 'community':
             result['members'] = 'Not verified'
-        if section == 'podcasts':
+        if section == 'podcasts' and not item.get('editorialDescription'):
             for feed_url in metadata.feeds[:2]:
                 try:
                     rss_url = urljoin(final_url, feed_url)
@@ -125,3 +125,4 @@ def refresh_catalog(section, entries):
     if not checked:
         raise RuntimeError('No sources could be refreshed; existing file retained')
     return [item for item, _ in results], checked, len(entries) - checked
+

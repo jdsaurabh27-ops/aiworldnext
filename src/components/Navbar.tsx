@@ -5,19 +5,19 @@ import BrandMark from './BrandMark';
 
 export const navLinks = [
   { name: 'Home', href: '#home', icon: Home },
-  { name: 'AI News', href: '#news', icon: Newspaper },
+  { name: 'AI News', href: '/news/', icon: Newspaper },
   { name: 'AI Blogs', href: '/blogs/', icon: BookOpen },
-  { name: 'AI Jobs', href: '#jobs', icon: Briefcase },
+  { name: 'AI Jobs', href: '/jobs/', icon: Briefcase },
   { name: 'AI Tools', href: '/tools/', icon: Wrench },
-  { name: 'AI Events', href: '#events', icon: Calendar },
-  { name: 'AI Companies', href: '#companies', icon: Building2 },
-  { name: 'AI Startups', href: '#startups', icon: Rocket },
+  { name: 'AI Events', href: '/events/', icon: Calendar },
+  { name: 'AI Companies', href: '/companies/', icon: Building2 },
+  { name: 'AI Startups', href: '/startups/', icon: Rocket },
   { name: 'Robots & AI Hardware', href: '/robots/', icon: Bot },
-  { name: 'Robotics', href: '#robotics', icon: Bot },
-  { name: 'AI Podcasts', href: '#podcasts', icon: Mic },
-  { name: 'AI Community', href: '#community', icon: Users },
-  { name: 'AI Directories', href: '#websites', icon: Globe },
-  { name: 'Resources', href: '#resources', icon: Library },
+  { name: 'Robotics', href: '/robotics/', icon: Bot },
+  { name: 'AI Podcasts', href: '/podcasts/', icon: Mic },
+  { name: 'AI Community', href: '/community/', icon: Users },
+  { name: 'AI Directories', href: '/directories/', icon: Globe },
+  { name: 'Resources', href: '/resources/', icon: Library },
   { name: 'Guides', href: '/guides/', icon: BookOpen },
   { name: 'Submit', href: '#submit', icon: Send },
 ];
@@ -52,3 +52,4 @@ export default function Navbar() {
     </nav>
   );
 }
+

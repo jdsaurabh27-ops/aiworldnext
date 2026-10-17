@@ -128,7 +128,53 @@
         "name": "ElevenLabs",
         "url": "https://try.elevenlabs.io/hfvs9b3eqiiw"
       }
-    ]
+    ],
+    "worksheet": {
+      "title": "Copy this voiceover comparison worksheet",
+      "intro": "Fill both columns after testing the same script. This is a blank evaluation template, not AIWorldNext test results.",
+      "columns": [
+        "Check",
+        "Murf: your observation",
+        "ElevenLabs: your observation"
+      ],
+      "rows": [
+        [
+          "Exact plan, voice, model and test date",
+          "Record your result",
+          "Record your result"
+        ],
+        [
+          "Brand names pronounced incorrectly: count and words",
+          "Record your result",
+          "Record your result"
+        ],
+        [
+          "Unnatural pauses: timestamps",
+          "Record your result",
+          "Record your result"
+        ],
+        [
+          "Editing and regeneration: total minutes",
+          "Record your result",
+          "Record your result"
+        ],
+        [
+          "Export available in the format you need?",
+          "Record your result",
+          "Record your result"
+        ],
+        [
+          "Publishing permission for your intended use: source link",
+          "Record your result",
+          "Record your result"
+        ],
+        [
+          "Total cost for your planned monthly workload",
+          "Record your result",
+          "Record your result"
+        ]
+      ]
+    }
   },
   {
     "slug": "create-an-ai-voiceover",
@@ -179,7 +225,38 @@
       }
     ],
     "partnerUrl": "https://try.elevenlabs.io/hfvs9b3eqiiw",
-    "partnerName": "ElevenLabs"
+    "partnerName": "ElevenLabs",
+    "worksheet": {
+      "title": "A simple 30-second explainer storyboard",
+      "intro": "Illustrative production plan: adjust the timing after listening to your actual narration. These durations are planning targets, not measured audio results.",
+      "columns": [
+        "Time target",
+        "Picture or screen",
+        "Voiceover job"
+      ],
+      "rows": [
+        [
+          "0–5 seconds",
+          "Show the task or question",
+          "Tell viewers what they will learn."
+        ],
+        [
+          "5–18 seconds",
+          "Show one real action on screen",
+          "Explain the action in two short sentences."
+        ],
+        [
+          "18–25 seconds",
+          "Show the output and one check",
+          "Name a limitation or a detail viewers should verify."
+        ],
+        [
+          "25–30 seconds",
+          "Show the relevant guide or next step",
+          "Give one clear action, without promising results."
+        ]
+      ]
+    }
   },
   {
     "slug": "ai-tool-privacy-checklist",
@@ -311,7 +388,45 @@
         "url": "https://www.unitree.com/app/go2/"
       }
     ],
-    "checkedAt": "15 October 2026"
+    "checkedAt": "15 October 2026",
+    "worksheet": {
+      "title": "Compare supplier quotes on the same basis",
+      "intro": "Copy these rows into your enquiry. Ask every supplier to mark each item as included, excluded or unconfirmed, and to provide the written detail.",
+      "columns": [
+        "Question",
+        "Written detail to request"
+      ],
+      "rows": [
+        [
+          "Exact product",
+          "Model, edition, quantity and included accessories."
+        ],
+        [
+          "Delivered cost",
+          "Robot, shipping, applicable taxes and import charges shown separately."
+        ],
+        [
+          "Demonstration",
+          "Your specific task, venue conditions, operator and acceptance criteria."
+        ],
+        [
+          "Operation",
+          "Runtime, charging breaks, required internet, floor and operating-space limits."
+        ],
+        [
+          "Local support",
+          "Who repairs it, where, response process, parts availability and shipping responsibility."
+        ],
+        [
+          "Event booking",
+          "Operator, transport, setup, supervision and cancellation or replacement arrangements."
+        ],
+        [
+          "Recurring fees",
+          "Software, cloud service, maintenance and optional subscriptions."
+        ]
+      ]
+    }
   },
   {
     "slug": "compare-robot-types",

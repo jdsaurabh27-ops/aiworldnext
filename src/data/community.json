@@ -2,19 +2,20 @@
   {
     "id": 1,
     "title": "r/MachineLearning",
-    "description": "Reddit community for machine learning research, discussion and related questions. Check the community rules before posting.",
+    "description": "Discuss machine learning research and papers on Reddit. Read the community rules and choose an appropriate discussion thread before posting.",
     "members": "Not verified",
     "image": "https://www.google.com/s2/favicons?domain=www.reddit.com&sz=128",
     "link": "https://www.reddit.com/r/MachineLearning",
     "category": "Forum",
     "imageKind": "logo",
     "logoIcon": "https://www.google.com/s2/favicons?domain=www.reddit.com&sz=128",
-    "imageSource": "https://www.reddit.com/r/MachineLearning"
+    "imageSource": "https://www.reddit.com/r/MachineLearning",
+    "editorialDescription": "Discuss machine learning research and papers on Reddit. Read the community rules and choose an appropriate discussion thread before posting."
   },
   {
     "id": 2,
     "title": "Hugging Face Discord",
-    "description": "We're working to democratize good machine learning 🤗Verify to link your Hub and Discord accounts! | 242991 members",
+    "description": "Join Hugging Face’s linked Discord community to discuss machine learning tools and projects. Check the current joining and account-verification requirements.",
     "members": "Not verified",
     "image": "https://discord.com/assets/favicon.ico",
     "link": "https://hf.co/join/discord",
@@ -22,12 +23,13 @@
     "sourceUrl": "https://hf.co/join/discord",
     "checkedAt": "2026-10-15",
     "imageKind": "logo",
-    "imageSource": "https://hf.co/join/discord"
+    "imageSource": "https://hf.co/join/discord",
+    "editorialDescription": "Join Hugging Face’s linked Discord community to discuss machine learning tools and projects. Check the current joining and account-verification requirements."
   },
   {
     "id": 3,
     "title": "AI Meetups Global",
-    "description": "Find Meetup events so you can do more of what matters to you. Or create your own group and meet people near you who share your interests.",
+    "description": "Find local artificial-intelligence groups and events through Meetup. Check each organiser, location, date and attendance requirements before registering.",
     "members": "Not verified",
     "image": "https://secure.meetupstatic.com/next/images/favicon.ico",
     "link": "https://www.meetup.com/topics/artificial-intelligence",
@@ -35,12 +37,13 @@
     "sourceUrl": "https://www.meetup.com/topics/artificial-intelligence",
     "checkedAt": "2026-10-15",
     "imageKind": "logo",
-    "imageSource": "https://www.meetup.com/topics/artificial-intelligence"
+    "imageSource": "https://www.meetup.com/topics/artificial-intelligence",
+    "editorialDescription": "Find local artificial-intelligence groups and events through Meetup. Check each organiser, location, date and attendance requirements before registering."
   },
   {
     "id": 4,
     "title": "Women in AI",
-    "description": "Women in AI (WAI) is a nonprofit, community-driven initiative bringing awareness and knowledge through education, events, and blogging.",
+    "description": "Explore Women in AI’s education, events and community initiatives. Visit the official website for local participation options.",
     "members": "Not verified",
     "image": "https://static.wixstatic.com/media/6d5811_5fe60075123840b7a24249d41d57fe21%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/6d5811_5fe60075123840b7a24249d41d57fe21%7Emv2.png",
     "link": "https://www.womeninai.co",
@@ -48,12 +51,13 @@
     "sourceUrl": "https://www.womeninai.co",
     "checkedAt": "2026-10-15",
     "imageKind": "logo",
-    "imageSource": "https://www.womeninai.co"
+    "imageSource": "https://www.womeninai.co",
+    "editorialDescription": "Explore Women in AI’s education, events and community initiatives. Visit the official website for local participation options."
   },
   {
     "id": 5,
     "title": "AI Stack Exchange",
-    "description": "Q&A for people interested in conceptual questions about life and challenges in a world where \"cognitive\" functions can be mimicked in purely digital environment",
+    "description": "Ask and browse conceptual questions about artificial intelligence on Stack Exchange. Search existing answers and review the site’s question guidelines first.",
     "members": "Not verified",
     "image": "https://ai.stackexchange.com/Content/Sites/ai/Img/favicon.ico?v=9c871a5303b0",
     "link": "https://ai.stackexchange.com",
@@ -61,12 +65,13 @@
     "sourceUrl": "https://ai.stackexchange.com",
     "checkedAt": "2026-10-15",
     "imageKind": "logo",
-    "imageSource": "https://ai.stackexchange.com"
+    "imageSource": "https://ai.stackexchange.com",
+    "editorialDescription": "Ask and browse conceptual questions about artificial intelligence on Stack Exchange. Search existing answers and review the site’s question guidelines first."
   },
   {
     "id": 6,
     "title": "MLOps Community",
-    "description": "Join 70,000+ ML engineers sharing knowledge, solving real MLOps problems, networking, and growing together. Learn best practices, meet peers, and advance your career.",
+    "description": "Explore discussions and learning resources about deploying and operating machine learning systems through the MLOps Community.",
     "members": "Not verified",
     "image": "https://cdn.prod.website-files.com/696f97c36cfad65500435415/699f397b95fd07c464959872_Favicon.jpg",
     "link": "https://mlops.community",
@@ -74,56 +79,20 @@
     "sourceUrl": "https://mlops.community",
     "checkedAt": "2026-10-15",
     "imageKind": "logo",
-    "imageSource": "https://mlops.community"
+    "imageSource": "https://mlops.community",
+    "editorialDescription": "Explore discussions and learning resources about deploying and operating machine learning systems through the MLOps Community."
   },
   {
     "id": 7,
     "title": "NeurIPS Conference Community",
-    "description": "Research conference and associated community covering machine learning and computational neuroscience. Consult the official source for current events.",
+    "description": "Explore the NeurIPS research conference and its official participation information. Check the current programme, dates and registration requirements.",
     "members": "Not verified",
     "image": "https://www.google.com/s2/favicons?domain=neurips.cc&sz=128",
     "link": "https://neurips.cc",
     "category": "Conference",
     "imageKind": "logo",
     "logoIcon": "https://www.google.com/s2/favicons?domain=neurips.cc&sz=128",
-    "imageSource": "https://neurips.cc"
-  },
-  {
-    "id": 8,
-    "title": "AI Ethics Forum",
-    "description": "Community listing about AI ethics and governance. Check the linked source and its activity before joining.",
-    "members": "Not verified",
-    "image": "/brand/categories/community.svg",
-    "link": "https://www.aiethicsforum.org",
-    "category": "Ethics",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 9,
-    "title": "Robotics Discord Server",
-    "description": "Check out the Centreville Robotics community on Discord - hang out with 517 other members and enjoy free voice and text chat.",
-    "members": "Not verified",
-    "image": "https://discord.com/assets/favicon.ico",
-    "link": "https://discord.gg/robotics",
-    "category": "Robotics",
-    "sourceUrl": "https://discord.gg/robotics",
-    "checkedAt": "2026-10-15",
-    "imageKind": "logo",
-    "logoIcon": "https://www.google.com/s2/favicons?domain=discord.gg&sz=128",
-    "imageSource": "https://discord.gg/robotics"
-  },
-  {
-    "id": 10,
-    "title": "LinkedIn AI Group",
-    "description": "Login to LinkedIn to keep in touch with people you know, share ideas, and build your career.",
-    "members": "Not verified",
-    "image": "https://static.licdn.com/sc/h/9lb1g1kp916tat669q9r5g2kz",
-    "link": "https://www.linkedin.com/groups/artificial-intelligence",
-    "category": "Professional",
-    "sourceUrl": "https://www.linkedin.com/groups/artificial-intelligence",
-    "checkedAt": "2026-10-15",
-    "imageKind": "logo",
-    "logoIcon": "https://www.google.com/s2/favicons?domain=www.linkedin.com&sz=128",
-    "imageSource": "https://www.linkedin.com/groups/artificial-intelligence"
+    "imageSource": "https://neurips.cc",
+    "editorialDescription": "Explore the NeurIPS research conference and its official participation information. Check the current programme, dates and registration requirements."
   }
 ]

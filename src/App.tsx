@@ -208,7 +208,7 @@ function App() {
       <Section
         id="websites"
         title="AI Directories & Resources"
-        subtitle="Curated collection of the best AI websites and platforms"
+        subtitle="Source-linked AI websites and platforms to explore"
         icon={Globe}
       >
         {websitesData.map((item) => (
@@ -238,3 +238,4 @@ function App() {
 }
 
 export default App;
+
