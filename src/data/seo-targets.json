@@ -69,5 +69,10 @@
     "keyword": "robot buying guide",
     "title": "Robot Buying Guide: Compare Costs, Demos & Support",
     "description": "Use our robot buying guide to compare editions, delivered costs, demonstrations and local support. Includes a supplier quotation checklist."
+  },
+  "/blogs/": {
+    "keyword": "AI blogs",
+    "title": "AI Blogs & Practical Guides",
+    "description": "Read original AIWorldNext guides on AI tools, careers, podcasts, startups and events, plus clearly labelled reading from external AI publishers."
   }
 }
