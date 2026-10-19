@@ -40,6 +40,19 @@
   },
   {
     "id": 4,
+    "title": "Apertus 1.5 Release Notes",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-10-15",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/61f1877a168a0b52fda88455/2mHXxCtfos6CgwFSNKFVi.jpeg",
+    "link": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes"
+  },
+  {
+    "id": 5,
     "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-15",
@@ -52,7 +65,7 @@
     "imageSource": "https://huggingface.co/blog/meta-muse-spark-open"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Welcome FLUX.3 Image Klein in Diffusers",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-15",
@@ -65,7 +78,7 @@
     "imageSource": "https://huggingface.co/blog/flux-3"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-14",
@@ -78,7 +91,7 @@
     "imageSource": "https://huggingface.co/blog/allenai/hiro-acev2"
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-13",
@@ -91,7 +104,7 @@
     "imageSource": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b"
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "The model that didn't exist, so you made it yourself",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-08",
@@ -104,7 +117,7 @@
     "imageSource": "https://huggingface.co/blog/building-with-ml-intern"
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "Introducing Falcon ASR",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-07",
@@ -117,7 +130,7 @@
     "imageSource": "https://huggingface.co/blog/tiiuae/falcon-asr"
   },
   {
-    "id": 10,
+    "id": 11,
     "title": "The Agent Said It Was Done. The Database Disagreed.",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-03",
@@ -130,7 +143,7 @@
     "imageSource": "https://huggingface.co/blog/microsoft/thinkingbox"
   },
   {
-    "id": 11,
+    "id": 12,
     "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-02",
@@ -143,7 +156,7 @@
     "imageSource": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata"
   },
   {
-    "id": 12,
+    "id": 13,
     "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-09-30",
@@ -156,7 +169,7 @@
     "imageSource": "https://huggingface.co/blog/open-tts-leaderboard"
   },
   {
-    "id": 13,
+    "id": 14,
     "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-09-29",
@@ -169,7 +182,7 @@
     "imageSource": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source"
   },
   {
-    "id": 14,
+    "id": 15,
     "title": "Holo4: powering generalist computer-use agents",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-09-28",
@@ -180,18 +193,5 @@
     "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
     "imageKind": "source",
     "imageSource": "https://huggingface.co/blog/Hcompany/holo4"
-  },
-  {
-    "id": 15,
-    "title": "Welcome RL Environments to the hub",
-    "description": "Read the original report from Hugging Face.",
-    "date": "2026-09-28",
-    "image": "https://huggingface.co/blog/assets/datasets-filters/thumbnail.png",
-    "link": "https://huggingface.co/blog/rl-environments",
-    "category": "AI Tools & Research",
-    "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://huggingface.co/blog/rl-environments"
   }
 ]
