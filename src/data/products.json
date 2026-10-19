@@ -174,5 +174,20 @@
     "imageKind": "logo",
     "logoIcon": "https://www.google.com/s2/favicons?domain=www.microsoft.com&sz=128",
     "imageSource": "https://www.microsoft.com/microsoft-365/copilot"
+  },
+  {
+    "id": 14,
+    "title": "Gamma",
+    "description": "Create AI-assisted presentations, documents and websites from an outline or prompt. Review generated facts and check current plan limits and export options before publishing.",
+    "editorialDescription": true,
+    "price": "See official pricing",
+    "image": "https://www.google.com/s2/favicons?domain=gamma.app&sz=128",
+    "imageKind": "logo",
+    "link": "https://gamma.app/",
+    "sourceUrl": "https://gamma.app/",
+    "imageSource": "https://gamma.app/",
+    "category": "Presentations & Design",
+    "affiliateUrl": "https://try.gamma.app/gjxvyxk2qyij",
+    "checkedAt": "2026-10-19"
   }
 ]
