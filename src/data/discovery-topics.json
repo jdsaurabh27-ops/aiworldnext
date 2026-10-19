@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "news",
+    "label": "AI News",
+    "title": "Understand the announcement",
+    "description": "Read source-linked updates, then check what is released, what is demonstrated and what still needs evidence.",
+    "guide": "verify-ai-news",
+    "guideLabel": "Verify an AI news claim"
+  },
+  {
+    "slug": "jobs",
+    "label": "AI Jobs",
+    "title": "Find a role you can apply for",
+    "description": "Explore openings and check employer, location, experience requirements and application details at the source.",
+    "guide": "ai-job-application-checklist",
+    "guideLabel": "Prepare an AI job application"
+  },
+  {
+    "slug": "podcasts",
+    "label": "AI Podcasts",
+    "title": "Turn listening into learning",
+    "description": "Choose a conversation for your question and keep a short record of claims, evidence and useful next steps.",
+    "guide": "learn-from-ai-podcasts",
+    "guideLabel": "Build an AI podcast learning routine"
+  },
+  {
+    "slug": "startups",
+    "label": "AI Startups",
+    "title": "Look beyond the pitch",
+    "description": "Explore companies and evaluate their actual product, intended customer and evidence before contacting them.",
+    "guide": "evaluate-an-ai-startup",
+    "guideLabel": "Evaluate an AI startup product"
+  },
+  {
+    "slug": "events",
+    "label": "AI Events",
+    "title": "Choose an event with a purpose",
+    "description": "Browse event listings, then confirm dates, format, registration and whether the agenda fits your goals.",
+    "guide": "plan-an-ai-event",
+    "guideLabel": "Plan an AI event visit"
+  },
+  {
+    "slug": "tools",
+    "label": "AI Tools",
+    "title": "Solve one real task",
+    "description": "Find tools and compare them using the same input, checking quality, editing time and usage limits.",
+    "guide": "choose-an-ai-tool",
+    "guideLabel": "Choose a tool for your workflow"
+  }
+]

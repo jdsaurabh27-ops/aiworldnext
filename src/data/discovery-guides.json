@@ -1,0 +1,143 @@
+[
+  {
+    "slug": "learn-from-ai-podcasts",
+    "title": "How to learn from AI podcasts without getting lost in hype",
+    "intro": "A repeatable listening workflow: choose one question, capture the evidence and leave with one useful next action.",
+    "sections": [
+      [
+        "Choose a question before an episode",
+        "Start with a specific question such as how a team evaluates a retrieval system or what an entry-level ML engineer does. Read the episode description and choose a conversation that addresses it. A famous guest or a long episode is not enough to make it useful for your goal. If the episode has chapters, select the relevant section first."
+      ],
+      [
+        "Separate experience from prediction",
+        "While listening, distinguish what the guest has personally built, what they report from another source and what they expect in the future. Note a timestamp for a claim you want to revisit. A confident prediction is still a prediction; a sponsored segment should be evaluated separately from an independent recommendation."
+      ],
+      [
+        "Use a three-line listening note",
+        "Write one claim in your own words, one supporting source to check and one practical implication. For example, a discussion about evaluation might lead you to prepare five difficult questions for your own project. This is an illustrative exercise, not a summary of any particular episode. Avoid copying long transcripts into a public post."
+      ],
+      [
+        "Turn the idea into a small experiment",
+        "Choose a task that takes a manageable amount of time: read the linked paper, inspect an example repository or write an evaluation checklist. Record what you tried and what remains unclear. Do not upload private work documents just because a guest demonstrates a tool using their own data."
+      ],
+      [
+        "Share a useful takeaway with context",
+        "When recommending an episode, include its title, publisher, date, original link and the question it helped you explore. Label your own interpretation and avoid implying that you verified every claim. Our podcast directory is a starting point for discovery; a listing does not mean we have listened to every episode."
+      ]
+    ]
+  },
+  {
+    "slug": "evaluate-an-ai-startup",
+    "title": "How to evaluate an AI startup product before booking a demo",
+    "intro": "Use a short product brief to compare AI startups by problem, evidence, workflow fit and unanswered questions.",
+    "sections": [
+      [
+        "Define the customer and task",
+        "Write down who would use the product, what task it would replace or improve and how that task works today. A product aimed at a large sales team may not suit a solo creator. Ask for an example using an input similar to yours rather than accepting a broad promise to transform productivity."
+      ],
+      [
+        "Separate product access from announcements",
+        "Check whether you can use the product now, whether access requires a waiting list and which features are actually included in the offered plan. Keep a dated link to the official documentation. Funding, awards and a polished launch video do not establish that the product will complete your particular workflow."
+      ],
+      [
+        "Ask for a repeatable demonstration",
+        "Prepare a small non-sensitive example and a clear success condition before a call. Ask to see an ordinary case, a difficult case and what happens when the system cannot complete a task. Record human corrections and setup effort alongside output quality. Do not treat a vendor-selected example as your own test result."
+      ],
+      [
+        "Compare the cost of finishing the task",
+        "Ask about usage limits, required integrations, human review and export options. A low starting price is not enough to compare two products if one needs substantial manual cleanup. Keep quoted prices and assumptions dated rather than publishing an estimate as a guaranteed price for everyone."
+      ],
+      [
+        "Make a decision you can explain",
+        "Use the worksheet below to record evidence and open questions. Choose a limited trial only when the expected benefit and the work required are clear. This is an operational product checklist, not an investment assessment. AIWorldNext company listings do not imply a commercial partnership or endorsement."
+      ]
+    ],
+    "worksheet": {
+      "title": "A startup demo decision sheet",
+      "intro": "Fill this in using documentation and your own observations; these are prompts, not vendor ratings.",
+      "columns": [
+        "Question",
+        "Evidence to record"
+      ],
+      "rows": [
+        [
+          "Who is it for?",
+          "Named user and repeatable task"
+        ],
+        [
+          "Can I use it?",
+          "Access, supported location and plan"
+        ],
+        [
+          "Did the example work?",
+          "Input, result, corrections and date"
+        ],
+        [
+          "What does it require?",
+          "Setup, integration and review time"
+        ],
+        [
+          "What is unresolved?",
+          "Questions to confirm before a trial"
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "plan-an-ai-event",
+    "title": "How to choose an AI event and plan a useful visit",
+    "intro": "Make a conference, webinar or meetup worthwhile by setting a goal before registration and a follow-up plan afterwards.",
+    "sections": [
+      [
+        "Choose one outcome",
+        "Decide whether you want to learn a technique, meet potential collaborators, understand a hiring market or evaluate a product. Match that goal to specific sessions. An event with a broad AI label may contain little that is relevant to your work; inspect the agenda rather than relying on the event name."
+      ],
+      [
+        "Confirm the details at the organiser",
+        "Open the official registration page from the listing. Confirm the year, time zone, venue or online format, admission requirements and whether the session is live or recorded. Recheck before travel because dates and speakers may change. A directory entry is not a ticket or a promise that registration is still open."
+      ],
+      [
+        "Prepare a realistic schedule",
+        "Select two essential sessions and one backup. Leave time for travel between rooms, breaks and conversations. For online events, convert times to your own time zone and check how you receive the joining link. Include transport, accommodation and time away from work when comparing the effort of attending."
+      ],
+      [
+        "Make conversations specific",
+        "Prepare a short introduction and one thoughtful question connected to the other person\u2019s work. Ask permission before following up. A useful conversation can be about an evaluation problem, an open-source contribution or a shared research question; avoid opening with a generic sales pitch or adding people to a newsletter without consent."
+      ],
+      [
+        "Turn notes into an outcome",
+        "Within two days, write three takeaways, one action and any unresolved question. Follow up with people who agreed to hear from you and include the context of your conversation. If you publish a recap, distinguish your observations from speaker claims and link to any public recording or slides you actually used."
+      ]
+    ],
+    "worksheet": {
+      "title": "Your event planning sheet",
+      "intro": "Complete this before registering and update it after attending.",
+      "columns": [
+        "Planning item",
+        "Your note"
+      ],
+      "rows": [
+        [
+          "Goal",
+          "One outcome you want"
+        ],
+        [
+          "Official details",
+          "Source URL, date, time zone and format"
+        ],
+        [
+          "Priority sessions",
+          "Two choices and one backup"
+        ],
+        [
+          "Total commitment",
+          "Time, ticket and travel costs"
+        ],
+        [
+          "Follow-up",
+          "One action and permission-based contacts"
+        ]
+      ]
+    }
+  }
+]

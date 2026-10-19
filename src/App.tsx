@@ -2,6 +2,7 @@ import { lazy, Suspense } from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
+import DiscoveryHub from './components/DiscoveryHub';
 import RobotHardware from './components/RobotHardware';
 import PracticalGuides from './components/PracticalGuides';
 import SearchResults from './components/SearchResults';
@@ -49,6 +50,7 @@ function App() {
       <GoogleAnalytics />
       <Navbar />
       <Hero />
+      <DiscoveryHub />
       <PracticalGuides />
       <SearchResults />
       <div className="border-y border-gray-800 bg-gray-900/30"><div className="mx-auto max-w-7xl px-4 py-4 text-center"><p className="mb-2 text-xs font-semibold uppercase tracking-widest text-gray-400">Browse the directory</p><div className="flex flex-wrap justify-center gap-2">{['news','blogs','jobs','tools','events','companies','startups','robotics','podcasts','community','directories','resources'].map(name=><a key={name} href={`/${name}/`} className="rounded-md border border-gray-700 px-3 py-2 text-sm capitalize text-gray-200 hover:border-cyan-400 hover:text-cyan-400">{name}</a>)}</div></div></div>
