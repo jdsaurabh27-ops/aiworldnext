@@ -1,5 +1,71 @@
 [
   {
+    "id": 153,
+    "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+    "description": "Anthropic said that it will commit 5% of its shares to the fund.",
+    "date": "2026-10-18",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2252871842.jpg?w=1024",
+    "link": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/"
+  },
+  {
+    "id": 154,
+    "title": "Disney agrees to hire the majority of Character.AI’s workforce",
+    "description": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher",
+    "date": "2026-10-18",
+    "image": "https://techcrunch.com/wp-content/uploads/2024/01/character-ai-alexa.jpg?resize=1200,675",
+    "link": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/"
+  },
+  {
+    "id": 155,
+    "title": "Meta removes language that raised scraping and AI training concerns",
+    "description": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
+    "date": "2026-10-17",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/05/meta-ai-GettyImages-2264943773.jpg?w=1024",
+    "link": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/"
+  },
+  {
+    "id": 156,
+    "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+    "description": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
+    "date": "2026-10-17",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798",
+    "link": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/"
+  },
+  {
+    "id": 157,
+    "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+    "description": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
+    "date": "2026-10-17",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/replit-ceo-masad.jpg?resize=1200,800",
+    "link": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/"
+  },
+  {
+    "id": 172,
+    "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
+    "description": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs. Starting at $2,399, laptops from ASUS,",
+    "date": "2026-10-17",
+    "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/nvidia-rtx-spark-berlin-oct26-event-tech-blog-1280x680-1.jpg",
+    "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+    "category": "AI Hardware",
+    "imageKind": "source",
+    "imageSource": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/"
+  },
+  {
     "id": 1,
     "title": "How Itaú is building generative AI for its entire customer base",
     "description": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
@@ -20,18 +86,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 154,
-    "title": "Replit is no longer working with Anthropic, CEO says",
-    "description": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic.",
-    "date": "2026-10-16",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/10/replit-ceo-masad.jpg?resize=1200,800",
-    "link": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/"
-  },
-  {
-    "id": 155,
+    "id": 158,
     "title": "India becomes the latest country to report rogue AI agent activity",
     "description": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
     "date": "2026-10-16",
@@ -42,7 +97,7 @@
     "imageSource": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/"
   },
   {
-    "id": 156,
+    "id": 159,
     "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
     "description": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still",
     "date": "2026-10-16",
@@ -53,7 +108,7 @@
     "imageSource": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/"
   },
   {
-    "id": 157,
+    "id": 160,
     "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
     "description": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still",
     "date": "2026-10-16",
@@ -64,7 +119,7 @@
     "imageSource": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/"
   },
   {
-    "id": 158,
+    "id": 161,
     "title": "Elorian’s first AI model wants to reason with images, not just about them",
     "description": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
     "date": "2026-10-16",
@@ -75,7 +130,7 @@
     "imageSource": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/"
   },
   {
-    "id": 159,
+    "id": 162,
     "title": "Jev is Vercel’s fastest-adopted AI model ever",
     "description": "The data comes from Vercel's AI gateway, a unified API service similar to OpenRouter.",
     "date": "2026-10-16",
@@ -86,7 +141,7 @@
     "imageSource": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/"
   },
   {
-    "id": 160,
+    "id": 163,
     "title": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
     "description": "Actor and angel investor Mark Wahlberg says he's OK with using AI in filmmaking, provided it's used \"to enhance what you're doing.\"",
     "date": "2026-10-16",
@@ -97,7 +152,7 @@
     "imageSource": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/"
   },
   {
-    "id": 161,
+    "id": 164,
     "title": "Replit’s CEO says the future of work is the ‘self-driving company’",
     "description": "Replit CEO Amjad Masad envisions a future of “self-driving companies,” where AI agents handle day-to-day tasks and people focus on higher-level decisions.",
     "date": "2026-10-16",
@@ -106,58 +161,5 @@
     "category": "AI Industry",
     "imageKind": "source",
     "imageSource": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/"
-  },
-  {
-    "id": 169,
-    "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
-    "description": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to",
-    "date": "2026-10-16",
-    "image": "https://wp.technologyreview.com/wp-content/uploads/2024/01/MIT-TR-Roundtables_Oct-2-Thumbnail.png?resize=1200,600",
-    "link": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
-    "category": "AI Research",
-    "imageKind": "source",
-    "imageSource": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/"
-  },
-  {
-    "id": 3,
-    "title": "Teaching students to think and learn through questions",
-    "description": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
-    "date": "2026-10-15",
-    "image": "/brand/categories/news.svg",
-    "link": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-    "category": "AI News",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 4,
-    "title": "Sullivan & Cromwell brings legal expertise into agreement review",
-    "description": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-    "date": "2026-10-15",
-    "image": "/brand/categories/news.svg",
-    "link": "https://openai.com/index/sullivan-cromwell",
-    "category": "AI News",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 162,
-    "title": "When it came to Cal AI’s viral success, a small army of influencers paid off",
-    "description": "The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March.",
-    "date": "2026-10-15",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/10/IMG_4996.jpeg?resize=1200,900",
-    "link": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/"
-  },
-  {
-    "id": 163,
-    "title": "Meta launches an open-weight AI model that runs on Macs",
-    "description": "Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon.",
-    "date": "2026-10-15",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2296215726.jpg?resize=1200,799",
-    "link": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/"
   }
 ]
