@@ -6,6 +6,7 @@ from datetime import date, timedelta
 from pathlib import Path
 import urllib.request
 import urllib.error
+from urllib.parse import urlencode
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'src/data'
@@ -18,6 +19,18 @@ def load(name):
 
 def safe_url(value):
     return value if isinstance(value, str) and value.startswith('https://') else ''
+
+
+def original_guides(today):
+    entries = []
+    for guide in list(reversed(load('editorial-guides')))[:2]:
+        slug = guide.get('slug', '')
+        if not slug or any(c not in 'abcdefghijklmnopqrstuvwxyz0123456789-' for c in slug):
+            continue
+        query = urlencode({'utm_source': 'brevo', 'utm_medium': 'email', 'utm_campaign': 'weekly_' + today.isoformat()})
+        url = 'https://www.aiworldnext.com/guides/' + slug + '/?' + query
+        entries.append('<li><a style="color:#67e8f9" href="' + html.escape(url, quote=True) + '">' + html.escape(guide['title']) + '</a><p>' + html.escape(guide['intro']) + '</p></li>')
+    return '<h2>Original AIWorldNext guides</h2><ul>' + ''.join(entries) + '</ul>' if entries else ''
 
 
 def render(today):
@@ -44,7 +57,7 @@ def render(today):
             sections.append(f'<h2>{label}</h2><ul>{"".join(entries)}</ul>')
     if count < 3:
         raise RuntimeError('Too few dated entries from the last seven days; no newsletter created.')
-    return '''<!doctype html><html><body style="background:#030712;color:#e5e7eb;font:16px/1.7 Arial,sans-serif"><div style="max-width:640px;margin:auto;padding:28px"><h1>AIWorldNext Weekly Digest</h1>''' + f'<p>Week of {today.isoformat()}. A curated selection from our source-linked directory, not independent product testing.</p>' + ''.join(sections) + '''<h2>A useful starting point</h2><p><a style="color:#67e8f9" href="https://www.aiworldnext.com/guides/choose-an-ai-tool/">How to choose an AI tool for your workflow</a></p><p><a style="color:#67e8f9" href="https://www.aiworldnext.com/">Browse AIWorldNext</a></p><hr><p>You subscribed to AIWorldNext updates.<br><a style="color:#67e8f9" href="{{ unsubscribe }}">Unsubscribe</a> · <a style="color:#67e8f9" href="https://www.aiworldnext.com/privacy-policy.html">Privacy</a></p></div></body></html>'''
+    return '''<!doctype html><html><body style="background:#030712;color:#e5e7eb;font:16px/1.7 Arial,sans-serif"><div style="max-width:640px;margin:auto;padding:28px"><h1>AIWorldNext Weekly Digest</h1>''' + f'<p>Week of {today.isoformat()}. A curated selection from our source-linked directory, not independent product testing.</p>' + original_guides(today) + ''.join(sections) + '''<h2>A useful starting point</h2><p><a style="color:#67e8f9" href="https://www.aiworldnext.com/guides/choose-an-ai-tool/">How to choose an AI tool for your workflow</a></p><p><a style="color:#67e8f9" href="https://www.aiworldnext.com/">Browse AIWorldNext</a></p><hr><p>You subscribed to AIWorldNext updates.<br><a style="color:#67e8f9" href="{{ unsubscribe }}">Unsubscribe</a> · <a style="color:#67e8f9" href="https://www.aiworldnext.com/privacy-policy.html">Privacy</a></p></div></body></html>'''
 
 
 def api(key, path, payload=None):
