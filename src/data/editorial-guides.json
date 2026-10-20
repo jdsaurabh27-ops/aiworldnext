@@ -460,5 +460,103 @@
         "url": "https://www.makeblock.com/products/buy-mbot2"
       }
     ]
+  },
+  {
+    "slug": "gamma-ai-presentation-workflow",
+    "title": "How to create a Gamma AI presentation from an outline",
+    "intro": "Turn a clear outline into a Gamma AI presentation with a six-slide example, a source-checking workflow and an export checklist.",
+    "kind": "Documentation-based workflow",
+    "checkedAt": "20 October 2026",
+    "sections": [
+      [
+        "Start with the decision your presentation must support",
+        "A presentation can look finished before its argument is ready. Begin by writing one sentence: after seeing this deck, my audience should decide or understand ____. Then list the evidence needed for that outcome. For a team considering an AI note-taking pilot, the goal might be deciding whether to run a small, consent-based trial. That is more useful than asking an AI tool to produce a broad presentation about the future of AI. This guide provides an original planning method and an illustrative example; it is not a hands-on Gamma review."
+      ],
+      [
+        "Choose the creation route that fits your input",
+        "Gamma’s creation guide distinguishes its newer conversational Agent interface from the still-available classic generator. In the classic route, Generate starts from a topic, Paste uses existing text, and Import brings in source content. For an outline you have already checked, begin with that text rather than a vague topic. Gamma’s import documentation also distinguishes importing a file as-is from using it as material for a new presentation. Decide which outcome you want before uploading. These interface details come from Gamma’s linked documentation, not from our own product test."
+      ],
+      [
+        "Prepare a small evidence pack",
+        "Before generating, separate your notes into three groups: verified facts with source links and dates; your own proposals or opinions; and unanswered questions. Remove confidential customer details and anything you are not authorised to upload. Keep a local copy of the evidence pack so a reviewer can trace a statement even after the deck changes. If a number has no source, leave a visible placeholder. Do not allow a smooth-looking chart to turn an assumption into an apparent measurement."
+      ],
+      [
+        "Use this example prompt as a starting brief",
+        "Illustrative prompt: Create a six-slide presentation for a small team deciding whether to trial an AI meeting assistant. Use the supplied outline and verified notes only. Separate facts from proposals. Mark missing evidence as CHECK SOURCE and do not invent statistics, customer quotes or savings. Cover the problem, the proposed workflow, evaluation criteria, data-handling questions, a limited pilot and the decision requested. Keep one main point per slide and use simple diagrams rather than decorative robots. Show an outline for review before building. This is a proposed brief, not a tested prompt or a guarantee that the tool will follow every instruction."
+      ],
+      [
+        "Review the argument before polishing the design",
+        "Read the generated headings without looking at the pictures. Can someone follow the reasoning from the problem to the requested decision? Replace repeated benefits with a concrete trade-off. For the meeting-assistant example, the deck should explain who reviews summaries and how errors are corrected, not just say that notes are faster. Next, compare every factual statement against the evidence pack. Check names, units, dates and qualifications. A citation is useful only if the linked source actually supports the claim beside it."
+      ],
+      [
+        "Export early and check the actual handoff",
+        "Gamma’s export guide lists PDF, PNG and PowerPoint formats, with Google Slides reached through a PPTX upload. It also documents visual differences and static PDF limitations. Export a small draft before completing the whole deck. Open it in the application your recipient will use; check text wrapping, diagrams, links and whether any required table or chart remains editable. Gamma notes that some imported charts can become images. Do not assume that a good appearance in the editor proves that the exported version will meet your handoff requirements."
+      ],
+      [
+        "Use a clear stop-or-publish checklist",
+        "Publish only when the intended decision is clear, unsupported claims are removed or labelled, the source links work, and the exported file is readable. Ask a colleague to describe the next action after viewing it. If they cannot, revise the final slide. If evidence is missing, keep the document as a discussion draft. If export fidelity is essential and the sample fails, use your existing presentation editor instead. Judge the workflow by the accuracy and usability of the final result, including review time, rather than the speed of its first draft."
+      ],
+      [
+        "Limitations and documentation dates",
+        "We checked the three official help pages below on 20 October 2026. They show relative update labels rather than exact publication dates, so this article does not assign release dates to the features. Interfaces and plan entitlements can change. Gamma’s export guide says Free-workspace PDF and PPTX exports carry its badge; check current limits before committing to a workflow. This article does not establish time savings, export quality on your files or suitability for confidential data. Its six-slide plan is a fictional teaching example, not a reported customer result."
+      ]
+    ],
+    "worksheet": {
+      "title": "Example: a six-slide pilot proposal",
+      "intro": "Use this structure for the fictional meeting-assistant decision above. Replace placeholders with evidence from your own team; do not present the example as measured results.",
+      "columns": [
+        "Slide",
+        "Main question",
+        "What to include"
+      ],
+      "rows": [
+        [
+          "1. Decision",
+          "What are we asking for?",
+          "A proposed limited trial, its owner and the decision needed."
+        ],
+        [
+          "2. Current workflow",
+          "What problem exists?",
+          "A documented example of missing or inaccurate notes; no invented savings."
+        ],
+        [
+          "3. Proposed workflow",
+          "Who does what?",
+          "Capture → draft summary → human review → agreed action list."
+        ],
+        [
+          "4. Evaluation",
+          "How will we judge it?",
+          "Accuracy, missed actions, correction time and permission requirements."
+        ],
+        [
+          "5. Boundaries",
+          "What could stop the trial?",
+          "Unapproved data use, unreliable output or an unusable handoff."
+        ],
+        [
+          "6. Next step",
+          "What happens after the meeting?",
+          "Agree scope and review date, or list the evidence still needed."
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "title": "Gamma Help: creating a presentation (classic generator and Agent distinction)",
+        "url": "https://help.gamma.app/en/articles/7838093-how-do-i-create-a-new-presentation-document-or-webpage-in-gamma"
+      },
+      {
+        "title": "Gamma Help: importing content, preserving text and chart limitations",
+        "url": "https://help.gamma.app/en/articles/11047840-how-can-i-import-slides-or-content-into-gamma"
+      },
+      {
+        "title": "Gamma Help: export formats, plan badge and visual limitations",
+        "url": "https://help.gamma.app/en/articles/8022861-what-s-the-easiest-way-to-export-my-gamma"
+      }
+    ],
+    "partnerName": "Gamma",
+    "partnerUrl": "https://try.gamma.app/gjxvyxk2qyij"
   }
 ]
