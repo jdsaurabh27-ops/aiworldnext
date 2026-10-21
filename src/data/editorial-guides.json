@@ -558,5 +558,114 @@
     ],
     "partnerName": "Gamma",
     "partnerUrl": "https://try.gamma.app/gjxvyxk2qyij"
+  },
+  {
+    "slug": "ai-portfolio-project-guide",
+    "title": "How to build an AI portfolio project for job applications",
+    "intro": "Turn one small AI project into a clear case study with a reproducible setup, task-relevant evaluation, error examples and honest limitations.",
+    "checkedAt": "21 October 2026",
+    "kind": "Careers practical guide",
+    "sections": [
+      [
+        "Start with a decision, not a list of tools",
+        "Choose one narrow problem that a reviewer can understand quickly. For example: classify support messages into billing, access and technical categories so a human can route them. State who would use the output, what a useful result means and what the project does not do. A portfolio project should demonstrate your reasoning and implementation; a long list of model names or generated screenshots does not show whether the system solves the stated problem."
+      ],
+      [
+        "Keep the example small and reproducible",
+        "Use public, licensed or invented data rather than confidential employer or customer material. Record where the data came from, the fields you used, your train-and-test split and the commands needed to reproduce the result. Include a dependency file or environment instructions. GitHub says a repository README should explain what a project does, why it is useful, how to get started, where to get help and who maintains it. Treat those as the minimum orientation for a reviewer, then link to longer notes only when they add evidence."
+      ],
+      [
+        "Build a simple baseline before a complex model",
+        "For the fictional support-routing project, start with a transparent rule or a simple classifier and record its result. Then compare the AI approach against that baseline using the same held-out examples. This makes improvement easier to interpret and gives you something useful to discuss if the more complex system fails. Do not claim that an AI system is necessary merely because the project uses AI; explain what the baseline misses and what additional cost or risk the new approach introduces."
+      ],
+      [
+        "Choose a metric from the cost of mistakes",
+        "Accuracy alone can hide failure when classes are imbalanced. Google’s classification guidance says the appropriate metric depends on the task, the balance of the data and the cost of different errors. In the routing example, measure per-category precision and recall, then explain the trade-off: low recall may leave important messages unhandled, while low precision may send too many messages to the wrong team. Define the metric before looking for the most flattering result."
+      ],
+      [
+        "Show errors, not just the best score",
+        "Add a compact error table with several false positives, false negatives or otherwise incorrect outputs. Remove personal information. For each example, record the expected result, the system result and a plausible reason for the error. Separate observation from speculation. Then state the conditions you tested and the conditions you did not test, such as other languages, long messages or a different organisation’s vocabulary. NIST’s AI RMF Playbook recommends documenting metric choices, unmeasured risks, test conditions and known failures; it is guidance rather than a certification checklist."
+      ],
+      [
+        "Explain the human workflow and safeguards",
+        "A model score is not the whole product. Describe where the prediction appears, who can correct it, how corrections are logged and what happens below a confidence threshold. Note any privacy, security or misuse concerns relevant to the example. For a portfolio demonstration, use a read-only or sandboxed workflow and make the human handoff visible. Do not imply production readiness if you have not tested deployment, monitoring, access control and recovery from failure."
+      ],
+      [
+        "Write the case study in seven parts",
+        "Use this order: problem and user; data and permission; baseline; method; evaluation; error analysis; limitations and next experiment. Add one architecture diagram only if it clarifies the flow. Put the exact result beside the dataset version, split and metric definition that produced it. Link to the code and a small reproducible sample. A recruiter should be able to distinguish what you personally built from libraries, tutorials, teammates or generated assistance."
+      ],
+      [
+        "Run a 45-minute reviewer test",
+        "Give the repository to a colleague without explaining it first. Ask them to identify the problem, reproduce one command, find the main result and name one limitation. Record where they get stuck and revise the README. Check links, remove secrets and confirm that every chart and percentage can be traced to an output or calculation. If the project cannot be shared, publish a sanitised case study that explains the method without exposing protected data or code."
+      ],
+      [
+        "Limitations and source dates",
+        "This guide is a documentation-based workflow, not evidence that a particular portfolio will secure interviews or employment. GitHub’s README documentation displayed no publication date when checked on 21 October 2026. Google’s classification metrics page was dated 12 January 2026. NIST released AI RMF 1.0 on 26 January 2023 and its current overview says the framework is being revised; use the current official material rather than presenting it as a fixed certification standard."
+      ]
+    ],
+    "worksheet": {
+      "title": "One-project portfolio evidence sheet",
+      "intro": "Fill this with facts from your project. Leave a field blank rather than inventing a result or claiming work completed by someone else.",
+      "columns": [
+        "Portfolio section",
+        "What to include",
+        "Evidence to link"
+      ],
+      "rows": [
+        [
+          "Problem and user",
+          "One user, one decision and the boundary of the task.",
+          "Short problem statement or labelled example."
+        ],
+        [
+          "Data",
+          "Source, licence or permission, fields and version.",
+          "Dataset card, source page or invented sample."
+        ],
+        [
+          "Baseline",
+          "A rule or simple method tested on the same examples.",
+          "Reproducible command and saved output."
+        ],
+        [
+          "Evaluation",
+          "Metric definition, split and reason the metric fits the task.",
+          "Calculation, notebook output or test report."
+        ],
+        [
+          "Errors",
+          "Several sanitised failures and what you learned.",
+          "Error table with expected and actual results."
+        ],
+        [
+          "Limitations",
+          "Untested users, data, languages, risks and deployment gaps.",
+          "README section with a next experiment."
+        ],
+        [
+          "Your contribution",
+          "Work you completed and assistance or libraries you used.",
+          "Commit history, credits and clear attribution."
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "title": "GitHub Docs: About the repository README file",
+        "url": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes"
+      },
+      {
+        "title": "Google for Developers: Classification accuracy, precision and recall",
+        "url": "https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall"
+      },
+      {
+        "title": "NIST: AI Risk Management Framework overview",
+        "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+      },
+      {
+        "title": "NIST AI RMF Playbook: Measure",
+        "url": "https://airc.nist.gov/airmf-resources/playbook/measure/"
+      }
+    ]
   }
 ]
