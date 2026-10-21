@@ -1,6 +1,84 @@
 [
   {
     "id": 63,
+    "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-10-20",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/67a4f15057fb66b9db6dac82/45XSEtdQHqTdspRe3wkYs.png",
+    "link": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams"
+  },
+  {
+    "id": 64,
+    "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-10-20",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/7zYjyTWswjO2erWsO5HNf.png",
+    "link": "https://huggingface.co/blog/allenai/fairstress",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/allenai/fairstress"
+  },
+  {
+    "id": 65,
+    "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-10-20",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/rzXYJh7e7UdoYgCLwOZjH.jpeg",
+    "link": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/ibm-research/altk-evolve-bc"
+  },
+  {
+    "id": 66,
+    "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-10-20",
+    "image": "https://huggingface.co/blog/assets/hf-torchtpu/thumbnail.png",
+    "link": "https://huggingface.co/blog/hf-torchtpu",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/hf-torchtpu"
+  },
+  {
+    "id": 67,
+    "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-10-20",
+    "image": "https://huggingface.co/blog/assets/anylanguagemodel-1-0/banner.png",
+    "link": "https://huggingface.co/blog/anylanguagemodel-1-0",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/anylanguagemodel-1-0"
+  },
+  {
+    "id": 68,
+    "title": "MPS in PyTorch 2.15",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-10-20",
+    "image": "https://huggingface.co/blog/assets/mps-pytorch-2-15/thumbnail.png",
+    "link": "https://huggingface.co/blog/mps-pytorch-2-15",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/mps-pytorch-2-15"
+  },
+  {
+    "id": 69,
     "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-19",
@@ -13,20 +91,7 @@
     "imageSource": "https://huggingface.co/blog/hf-torchneuron"
   },
   {
-    "id": 64,
-    "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
-    "description": "Read the original report from Hugging Face.",
-    "date": "2026-10-16",
-    "image": "https://cdn-uploads.huggingface.co/production/uploads/68d2fec8856b85d927e44d32/x0aObe_0mduBjWFuKBGoV.png",
-    "link": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
-    "category": "AI Tools & Research",
-    "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining"
-  },
-  {
-    "id": 65,
+    "id": 70,
     "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-16",
@@ -52,7 +117,7 @@
     "imageSource": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/"
   },
   {
-    "id": 66,
+    "id": 71,
     "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-15",
@@ -65,7 +130,7 @@
     "imageSource": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1"
   },
   {
-    "id": 67,
+    "id": 72,
     "title": "Apertus 1.5 Release Notes",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-15",
@@ -78,7 +143,7 @@
     "imageSource": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes"
   },
   {
-    "id": 68,
+    "id": 73,
     "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-15",
@@ -91,7 +156,7 @@
     "imageSource": "https://huggingface.co/blog/meta-muse-spark-open"
   },
   {
-    "id": 69,
+    "id": 74,
     "title": "Welcome FLUX.3 Image Klein in Diffusers",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-15",
@@ -117,19 +182,6 @@
     "imageSource": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/"
   },
   {
-    "id": 70,
-    "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
-    "description": "Read the original report from Hugging Face.",
-    "date": "2026-10-14",
-    "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/Y8t8GnfI2lUa40iX4_sxA.png",
-    "link": "https://huggingface.co/blog/allenai/hiro-acev2",
-    "category": "AI Tools & Research",
-    "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://huggingface.co/blog/allenai/hiro-acev2"
-  },
-  {
     "id": 3,
     "title": "Developing Gemini 4 Argon responsibly and safely",
     "description": "Read the original report from Google DeepMind.",
@@ -141,57 +193,5 @@
     "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
     "imageKind": "source",
     "imageSource": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
-  },
-  {
-    "id": 4,
-    "title": "Gemini 4 Argon for Robotics",
-    "description": "Read the original report from Google DeepMind.",
-    "date": "2026-10-13",
-    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/argon__robotics__hero.2e16d0ba.fill-1200x600.png",
-    "link": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-    "category": "AI Research",
-    "author": "Google DeepMind",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://deepmind.google/blog/gemini-4-argon-for-robotics/"
-  },
-  {
-    "id": 5,
-    "title": "Gemini 4 Argon: Built to solve your hardest problems",
-    "description": "Read the original report from Google DeepMind.",
-    "date": "2026-10-13",
-    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__2784x1566.width-1300.png",
-    "link": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-    "category": "AI Research",
-    "author": "Google DeepMind",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://deepmind.google/blog/introducing-gemini-4-argon/"
-  },
-  {
-    "id": 71,
-    "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
-    "description": "Read the original report from Hugging Face.",
-    "date": "2026-10-13",
-    "image": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/YxGx9U6yV6_mumklCyMsE.png",
-    "link": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
-    "category": "AI Tools & Research",
-    "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b"
-  },
-  {
-    "id": 72,
-    "title": "The model that didn't exist, so you made it yourself",
-    "description": "Read the original report from Hugging Face.",
-    "date": "2026-10-08",
-    "image": "https://huggingface.co/blog/assets/building-with-ml-intern/thumbnail.png",
-    "link": "https://huggingface.co/blog/building-with-ml-intern",
-    "category": "AI Tools & Research",
-    "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://huggingface.co/blog/building-with-ml-intern"
   }
 ]
