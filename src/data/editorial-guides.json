@@ -667,5 +667,117 @@
         "url": "https://airc.nist.gov/airmf-resources/playbook/measure/"
       }
     ]
+  },
+  {
+    "slug": "nist-ai-rmf-update-explained",
+    "title": "NIST AI RMF update: what small AI teams should do now",
+    "intro": "NIST says AI RMF 1.0 is being revised. Here is what is confirmed, what remains unknown and how to keep an AI risk record useful while guidance changes.",
+    "checkedAt": "22 October 2026",
+    "kind": "AI news explainer",
+    "sections": [
+      [
+        "What NIST has confirmed",
+        "NIST’s AI Risk Management Framework page states that AI RMF 1.0 is being revised as part of the White House AI Action Plan. The NIST AI Resource Center likewise says an updated version is in progress. The same official pages still provide AI RMF 1.0 and describe it as a voluntary framework for incorporating trustworthiness considerations into the design, development, use and evaluation of AI systems. NIST released version 1.0 on 26 January 2023."
+      ],
+      [
+        "What the announcement does not establish",
+        "The pages checked on 22 October 2026 do not provide final revised text, a final publication date or a statement that AI RMF 1.0 has been withdrawn. Do not describe an expected change as a completed standard. The framework is voluntary guidance, not a product certification, legal safe harbour or automatic proof that a system is trustworthy. Regulatory and contractual obligations must be assessed separately for the organisation, sector and country involved."
+      ],
+      [
+        "Keep using a versioned risk record",
+        "A revision in progress is a reason to label your work, not to stop documenting it. Put the framework name, version and review date at the top of each risk record. Link to the official source you actually used. Keep the product purpose, affected users, data, owners, evaluation evidence, known failures and response plan in fields that can be mapped to updated guidance later. Avoid copying framework language without explaining how it applies to the system being reviewed."
+      ],
+      [
+        "Use the four functions as working folders",
+        "The current NIST resource describes the AI RMF Core through four functions: Govern, Map, Measure and Manage. A small team can use those as folders rather than treating the entire Playbook as a mandatory checklist. Govern records ownership and policies. Map records the context, users and possible impacts. Measure records tests, metrics and limits. Manage records decisions, safeguards, monitoring and responses. NIST says organisations may use as many or as few Playbook suggestions as fit their use case."
+      ],
+      [
+        "Example: a customer-support drafting assistant",
+        "Consider a fictional assistant that drafts replies but cannot send them. Under Govern, name the product owner and the person approving data use. Under Map, record that support staff review every draft and that messages can contain personal information. Under Measure, test factual accuracy, missing escalation signals, unsafe disclosures and correction time on authorised examples. Under Manage, require human approval, restrict access, log incidents and define when the pilot stops. These are illustrative fields, not a claim that AIWorldNext deployed or certified such a system."
+      ],
+      [
+        "Record measurements and what remains unmeasured",
+        "The current NIST Playbook recommends selecting metrics that fit the purpose and documenting important risks that cannot be measured, including the reason. For the fictional assistant, an average accuracy score would not describe whether urgent cases were missed. Keep examples of failures, test conditions, thresholds and the person responsible for action. State which languages, user groups, integrations or production conditions were not tested. A blank or explicitly unmeasured field is more useful than an invented score."
+      ],
+      [
+        "Use the Generative AI Profile as a companion source",
+        "For generative systems, NIST’s Generative AI Profile remains an official cross-sector companion resource to AI RMF 1.0. NIST published it on 26 July 2024. Use it to identify questions relevant to generative AI, then document which suggestions fit the actual system. Its existence does not mean every listed action applies equally to a small drafting tool, a public chatbot and a high-impact automated decision system."
+      ],
+      [
+        "Create a change trigger instead of guessing",
+        "Assign one owner to check the official NIST framework and Playbook pages on a defined schedule and when a revised framework is announced. Compare versions, record what changed and update controls only after reviewing the new text. Keep earlier decisions and dates so the record shows what evidence was available at the time. The NIST Playbook page, updated 10 June 2026, says the Playbook will be updated after AI RMF 1.0 is revised."
+      ],
+      [
+        "A practical decision for today",
+        "Continue using the current official resources where they help, clearly label them as AI RMF 1.0-era material, and maintain a short change log. Do not wait for a future document before defining system purpose, owners, test evidence, known limitations and stop conditions. Do not claim alignment with a revised version until that version exists and your work has been reviewed against it."
+      ],
+      [
+        "Limitations and source dates",
+        "This article explains NIST’s published information; it is not legal, compliance or certification advice. Sources were checked on 22 October 2026. NIST’s main page reports the revision but does not give final revised text or a final release date. The AI RMF Playbook page was updated 10 June 2026, and the Generative AI Profile was published 26 July 2024. Official pages can change, so follow their current wording rather than relying only on this summary."
+      ]
+    ],
+    "worksheet": {
+      "title": "A small-team AI RMF change log",
+      "intro": "Use this as a version-control prompt, not as proof of compliance or certification.",
+      "columns": [
+        "Record",
+        "What to write now",
+        "What triggers a review"
+      ],
+      "rows": [
+        [
+          "Source version",
+          "AI RMF 1.0, linked source and date checked.",
+          "NIST publishes revised framework text."
+        ],
+        [
+          "System purpose",
+          "Named user, task, output and prohibited use.",
+          "Use case, user group or autonomy changes."
+        ],
+        [
+          "Ownership",
+          "Product, data, testing and incident owners.",
+          "Team or supplier responsibilities change."
+        ],
+        [
+          "Evidence",
+          "Tests, errors, limits and unmeasured risks.",
+          "Model, data, interface or threshold changes."
+        ],
+        [
+          "Safeguards",
+          "Human review, access, monitoring and stop rules.",
+          "A failure, incident or new affected group appears."
+        ],
+        [
+          "Decision history",
+          "Decision, owner, date and supporting evidence.",
+          "New official guidance changes the rationale."
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "title": "NIST: AI Risk Management Framework overview and revision notice",
+        "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+      },
+      {
+        "title": "NIST AI Resource Center: AI RMF and four Core functions",
+        "url": "https://airc.nist.gov/airmf-resources/airmf/"
+      },
+      {
+        "title": "NIST: AI RMF Playbook status and update information",
+        "url": "https://www.nist.gov/itl/ai-risk-management-framework/nist-ai-rmf-playbook"
+      },
+      {
+        "title": "NIST: Generative AI Profile publication page",
+        "url": "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence"
+      },
+      {
+        "title": "NIST AI RMF Playbook: Measure",
+        "url": "https://airc.nist.gov/airmf-resources/playbook/measure/"
+      }
+    ]
   }
 ]
