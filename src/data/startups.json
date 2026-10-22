@@ -22,7 +22,7 @@
     "link": "https://www.anthropic.com",
     "category": "AI Safety",
     "sourceUrl": "https://www.anthropic.com",
-    "checkedAt": "2026-10-21",
+    "checkedAt": "2026-10-22",
     "imageKind": "logo",
     "logoIcon": "https://www.google.com/s2/favicons?domain=www.anthropic.com&sz=128",
     "imageSource": "https://www.anthropic.com"
@@ -50,7 +50,7 @@
     "link": "https://www.figure.ai",
     "category": "Robotics",
     "sourceUrl": "https://www.figure.ai",
-    "checkedAt": "2026-10-21",
+    "checkedAt": "2026-10-22",
     "imageKind": "logo",
     "logoIcon": "https://www.google.com/s2/favicons?domain=www.figure.ai&sz=128",
     "imageSource": "https://www.figure.ai"
@@ -65,7 +65,7 @@
     "link": "https://runwayml.com",
     "category": "Video AI",
     "sourceUrl": "https://runwayml.com",
-    "checkedAt": "2026-10-21",
+    "checkedAt": "2026-10-22",
     "imageKind": "logo",
     "imageSource": "https://runwayml.com"
   },
@@ -79,7 +79,7 @@
     "link": "https://www.deepseek.com",
     "category": "Foundation Models",
     "sourceUrl": "https://www.deepseek.com",
-    "checkedAt": "2026-10-21",
+    "checkedAt": "2026-10-22",
     "imageKind": "logo",
     "imageSource": "https://www.deepseek.com"
   },
@@ -93,7 +93,7 @@
     "link": "https://mistral.ai",
     "category": "Foundation Models",
     "sourceUrl": "https://mistral.ai",
-    "checkedAt": "2026-10-21",
+    "checkedAt": "2026-10-22",
     "imageKind": "source",
     "logoIcon": "https://www.google.com/s2/favicons?domain=mistral.ai&sz=128",
     "imageSource": "https://mistral.ai"
@@ -108,7 +108,7 @@
     "link": "https://www.1x.tech",
     "category": "Home Robotics",
     "sourceUrl": "https://www.1x.tech",
-    "checkedAt": "2026-10-21",
+    "checkedAt": "2026-10-22",
     "imageKind": "logo",
     "logoIcon": "https://www.google.com/s2/favicons?domain=www.1x.tech&sz=128",
     "imageSource": "https://www.1x.tech"
@@ -123,7 +123,7 @@
     "link": "https://cursor.sh",
     "category": "Dev Tools",
     "sourceUrl": "https://cursor.sh",
-    "checkedAt": "2026-10-21",
+    "checkedAt": "2026-10-22",
     "imageKind": "logo",
     "imageSource": "https://cursor.sh"
   },
@@ -137,7 +137,7 @@
     "link": "https://sanctuary.ai",
     "category": "Robotics",
     "sourceUrl": "https://sanctuary.ai",
-    "checkedAt": "2026-10-21",
+    "checkedAt": "2026-10-22",
     "imageKind": "logo",
     "imageSource": "https://sanctuary.ai"
   },
@@ -164,7 +164,7 @@
     "link": "https://www.glean.com",
     "category": "Enterprise Search",
     "sourceUrl": "https://www.glean.com",
-    "checkedAt": "2026-10-21",
+    "checkedAt": "2026-10-22",
     "imageKind": "logo",
     "logoIcon": "https://www.google.com/s2/favicons?domain=www.glean.com&sz=128",
     "imageSource": "https://www.glean.com"
