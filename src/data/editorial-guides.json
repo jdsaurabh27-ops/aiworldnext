@@ -779,5 +779,154 @@
         "url": "https://airc.nist.gov/airmf-resources/playbook/measure/"
       }
     ]
+  },
+  {
+    "slug": "plan-humanoid-robot-demo",
+    "title": "How to plan a humanoid robot demo for a mall or event",
+    "intro": "Turn a humanoid robot idea into a controlled venue brief covering the audience, operating zone, rehearsals, stop rules and supplier responsibilities.",
+    "checkedAt": "23 October 2026",
+    "kind": "Robotics operations guide",
+    "sections": [
+      [
+        "Start with one measurable outcome",
+        "Do not begin by asking for a robot that can do everything. Choose a primary outcome such as greeting visitors, guiding them to a fixed location, answering an approved set of questions or performing a short scheduled routine. Define how the venue will judge the result: for example, completed three-minute demonstrations without a stop, clear answers to ten approved questions, or visitors directed to the correct desk. A narrow goal makes supplier claims, staffing and risk controls easier to verify."
+      ],
+      [
+        "Write the operating envelope",
+        "Give the supplier a venue map and record the floor surface, slopes, thresholds, route width, lift or doorway use, expected crowd, audience age range, languages, sound level, lighting, connectivity, power, charging, load-in access and operating hours. State whether the robot will remain in one marked area or move on a route. Measurements and access requirements should come from the venue and the exact robot configuration, not a generic product video."
+      ],
+      [
+        "Separate examples from contracted capability",
+        "UBTECH presents Walker C for greeting, reception, guiding, voice interaction and entertainment scenarios in locations including exhibition halls, offices and shopping malls. Those examples can help create questions, but they do not prove that every feature is available in every country, language, software version or commercial package. Ask the supplier to identify the exact model, hardware, software, operator requirements and actions included in the quotation, then demonstrate that configuration before the public event."
+      ],
+      [
+        "Give safety ownership to named people",
+        "Name a trained supplier operator, a venue controller and the person authorised to pause or stop the demonstration. Record who controls startup, movement, charging, software changes and incident reporting. The UK Health and Safety Executive advises event organisers to assess crowd risks and put proportionate controls in place; its guidance also stresses competent supervision, clear command and reliable communication. Local law, venue rules, insurance conditions and the manufacturer's current manual still take priority."
+      ],
+      [
+        "Design the viewing zone and pedestrian flow",
+        "Keep exits, emergency routes and ordinary pedestrian paths clear. Mark the operating boundary and decide how queues, viewing, photography and entry or exit from the area will work. Look for pinch points, opposing flows, blind spots and places where visitors could press toward the robot. Use barriers, signs and stewards only as appropriate to the venue's risk assessment, and make sure staff can see both the robot and the surrounding crowd."
+      ],
+      [
+        "Rehearse pause, stop and communications",
+        "Ask the supplier to demonstrate the normal pause procedure and emergency stop for the exact robot before admitting visitors. Unitree's G1 quick-start documentation warns that an emergency-stop action can place the robot in a damped state and it may lose balance, so a stop is not automatically a risk-free condition. Define a clear fall or recovery zone, keep unauthorised people outside it, test the staff communication channel and agree what happens if power, network, operator visibility or stable motion is lost."
+      ],
+      [
+        "Control the interaction and privacy scope",
+        "Prepare approved prompts, languages and fallback replies. Decide what staff will do when a question is outside scope or speech recognition fails. Confirm whether cameras, microphones or recordings are active, what data is retained, who receives it and what visitor notice or consent is required. Do not advertise face recognition, autonomous navigation, accessibility support or multilingual accuracy unless the supplier has demonstrated the exact function and the venue has approved its use."
+      ],
+      [
+        "Use a staged rehearsal",
+        "Run four gates where practical: an empty-venue technical check, a staff-only route and stop rehearsal, a small invited-audience session, and the public demonstration. Record pass or fail against the agreed actions, boundaries, stop conditions and recovery steps. Do not solve a failed gate by quietly reducing the safety margin; change the route, function, staffing or schedule and test again."
+      ],
+      [
+        "Example: a controlled mall-lobby demonstration",
+        "A fictional brief might specify a twelve-minute session in a marked lobby zone: greet visitors in two supplier-confirmed languages, answer ten approved information questions and perform one three-minute routine. The robot does not walk through an open crowd. A supplier operator controls it, a venue manager has stop authority, and stewards maintain the boundary. The session stops if the boundary is breached, communication is lost or movement becomes unstable. This is an illustration, not a recommendation for a particular model or venue."
+      ],
+      [
+        "Complete the commercial handoff",
+        "The written quotation should identify the exact configuration, operator, transport, installation, rehearsal time, power and network needs, insurance evidence, permits, training, technical support, cancellation terms and responsibility for damage or delay. If AIWorldNext introduces a supplier, the supplier or authorised distributor should still handle technical evaluation, quotation, payment, delivery and after-sales support. Do not treat a directory listing or enquiry form as proof of authorised-partner status."
+      ],
+      [
+        "Limitations and source dates",
+        "This guide is a planning aid, not engineering, legal, insurance or event-safety approval. The HSE sources are UK guidance and may not represent requirements in another country. Product capabilities and safety procedures vary by model, configuration and software version. Sources were checked on 23 October 2026; use the current manufacturer manual, supplier demonstration, venue assessment and applicable local rules before operating a robot around the public."
+      ]
+    ],
+    "worksheet": {
+      "title": "Copy this humanoid robot demo brief",
+      "intro": "Complete every row with the venue and supplier; an unanswered item is a question to resolve before the public demonstration.",
+      "columns": [
+        "Field",
+        "What to record",
+        "Confirmed by"
+      ],
+      "rows": [
+        [
+          "Outcome",
+          "Primary visitor task and measurable pass condition.",
+          "Venue owner"
+        ],
+        [
+          "Configuration",
+          "Robot model, hardware, software version and included functions.",
+          "Supplier"
+        ],
+        [
+          "Action scope",
+          "Demonstrated actions, fixed route or zone, and prohibited actions.",
+          "Supplier and venue"
+        ],
+        [
+          "Venue conditions",
+          "Measured surface, slopes, thresholds, route, doors, lighting and sound.",
+          "Venue operations"
+        ],
+        [
+          "Crowd plan",
+          "Audience profile, capacity, viewing boundary, queue and clear routes.",
+          "Event safety lead"
+        ],
+        [
+          "Named control",
+          "Supplier operator, venue controller and person with stop authority.",
+          "Both organisations"
+        ],
+        [
+          "Stop and recovery",
+          "Normal pause, emergency stop, fall zone, isolation and recovery steps.",
+          "Supplier"
+        ],
+        [
+          "Infrastructure",
+          "Power, charging, network, load-in, load-out and backup communication.",
+          "Technical leads"
+        ],
+        [
+          "Visitor information",
+          "Accessibility, recording, privacy notice, consent and fallback support.",
+          "Venue and privacy owner"
+        ],
+        [
+          "Commercial scope",
+          "Quote, insurance, permits, staffing, support and cancellation terms.",
+          "Contract owners"
+        ],
+        [
+          "Rehearsal record",
+          "Stage, pass or fail, changes, approver and incident log location.",
+          "Demo controller"
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "title": "UBTECH: Walker C product scenarios and specifications",
+        "url": "https://www.ubtrobot.com/en/humanoid/products/walker-c"
+      },
+      {
+        "title": "Unitree: G1 quick start and emergency-stop guidance",
+        "url": "https://support.unitree.com/home/en/G1_developer/quick_start"
+      },
+      {
+        "title": "Unitree: G1 manuals and developer resources",
+        "url": "https://www.unitree.com/mobile/app/g1/"
+      },
+      {
+        "title": "UK HSE: Assess crowd safety risks",
+        "url": "https://www.hse.gov.uk/event-safety/crowd-management-assess.htm"
+      },
+      {
+        "title": "UK HSE: Put crowd controls in place",
+        "url": "https://www.hse.gov.uk/event-safety/crowd-management-controls.htm"
+      },
+      {
+        "title": "UK HSE: Crowd controls inside the venue",
+        "url": "https://www.hse.gov.uk/event-safety/crowd-management-control-inside.htm"
+      },
+      {
+        "title": "UK HSE: Monitor the crowd",
+        "url": "https://www.hse.gov.uk/event-safety/crowd-management-monitoring.htm"
+      }
+    ]
   }
 ]
