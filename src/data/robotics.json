@@ -1,5 +1,16 @@
 [
   {
+    "id": 4,
+    "title": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
+    "description": "European retailers are using open models and physical intelligence across use cases — from a commerce platform cutting inference costs by 90% to to a fulfillment center where collaboration of different robotic fleets is simulated",
+    "date": "2026-10-22",
+    "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/NVIDIA-European-Retail.jpg",
+    "link": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
+    "category": "AI Hardware",
+    "imageKind": "source",
+    "imageSource": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/"
+  },
+  {
     "id": 5,
     "title": "NVIDIA Open Models Advance Europe’s Sovereign Intelligence Across Industries",
     "description": "NVIDIA is expanding its family of open models across language, robotics, biology, and quantum computing, giving developers, researchers and enterprises what they need to build applications tailored to local languages and industries The portfolio includes",
@@ -20,17 +31,6 @@
     "category": "AI Hardware",
     "imageKind": "source",
     "imageSource": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/"
-  },
-  {
-    "id": 4,
-    "title": "Ex-Nvidia-turned-VC Amulya Vishwanath: ‘Physical AI is in its LEGO era’",
-    "description": "It’s the moment everyone is waiting for — the ChatGPT moment for robotics, Amulya Vishwanath explained to TechCrunch’s Equity.",
-    "date": "2026-10-20",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-1404749040.jpg?resize=1200,675",
-    "link": "https://techcrunch.com/2026/10/20/ex-nvidia-turned-vc-amulya-vishwanath-physical-ai-is-in-its-lego-era/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/10/20/ex-nvidia-turned-vc-amulya-vishwanath-physical-ai-is-in-its-lego-era/"
   },
   {
     "id": 7,
