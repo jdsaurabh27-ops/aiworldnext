@@ -1,6 +1,27 @@
 [
   {
-    "id": 157,
+    "id": 1,
+    "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+    "description": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+    "date": "2026-10-23",
+    "image": "/brand/categories/news.svg",
+    "link": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+    "category": "AI News",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 158,
+    "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
+    "description": "inDrive plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
+    "date": "2026-10-23",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/indrive-pony-ai-kazakhstan.jpg?resize=1200,800",
+    "link": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/"
+  },
+  {
+    "id": 159,
     "title": "Left alone with nothing to do, AI agents started playing",
     "description": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
     "date": "2026-10-23",
@@ -11,9 +32,9 @@
     "imageSource": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/"
   },
   {
-    "id": 178,
+    "id": 179,
     "title": "Kazakhstan Expands Compute for Its AI Future",
-    "description": "Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment. The shift is visible across the full AI stack — from infrastructure to models to applications. Together, the ecosystem announcements below point to the nation’s",
+    "description": "Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment. The shift is visible across the full AI stack — from infrastructure to models to applications. The announcements below — coinciding with a visit to",
     "date": "2026-10-23",
     "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/kz-post-note-gtc-berliin-2026-1920x1080-1.jpg",
     "link": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
@@ -22,7 +43,7 @@
     "imageSource": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/"
   },
   {
-    "id": 1,
+    "id": 2,
     "title": "What FDE means at OpenAI",
     "description": "What forward deployed engineering means at OpenAI",
     "date": "2026-10-22",
@@ -32,7 +53,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Uber brings ChatGPT Work to all employees with OpenAI",
     "description": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
     "date": "2026-10-22",
@@ -42,7 +63,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 158,
+    "id": 160,
     "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
     "description": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
     "date": "2026-10-22",
@@ -53,7 +74,7 @@
     "imageSource": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/"
   },
   {
-    "id": 159,
+    "id": 161,
     "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
     "description": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
     "date": "2026-10-22",
@@ -64,7 +85,7 @@
     "imageSource": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/"
   },
   {
-    "id": 160,
+    "id": 162,
     "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
     "description": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
     "date": "2026-10-22",
@@ -75,7 +96,7 @@
     "imageSource": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/"
   },
   {
-    "id": 161,
+    "id": 163,
     "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
     "description": "Microsoft’s new AI diagnostic system beat generalist doctors on hard cases, according to a study in Science. But most of the improvement seems to come from the AI models underneath, not from Microsoft’s system itself.",
     "date": "2026-10-22",
@@ -86,7 +107,7 @@
     "imageSource": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/"
   },
   {
-    "id": 162,
+    "id": 164,
     "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
     "description": "Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers.",
     "date": "2026-10-22",
@@ -97,7 +118,7 @@
     "imageSource": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/"
   },
   {
-    "id": 163,
+    "id": 165,
     "title": "Uber puts all 30,000 employees on ChatGPT Work",
     "description": "The ride-share giant previously deployed a much smaller pilot for ChatGPT Work but is now taking the enterprise agent company-wide.",
     "date": "2026-10-22",
@@ -108,7 +129,7 @@
     "imageSource": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/"
   },
   {
-    "id": 164,
+    "id": 166,
     "title": "Spotify’s current AI bet is about being the music service that agents choose",
     "description": "Spotify co-CEO Gustav Söderström explains why the rise of AI agents could be good news for the music service.",
     "date": "2026-10-22",
@@ -119,7 +140,7 @@
     "imageSource": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/"
   },
   {
-    "id": 165,
+    "id": 167,
     "title": "Claude Duet app is Anthropic’s bet on agents",
     "description": "Claude Duet is available through waitlist for Pro and Max plan users.",
     "date": "2026-10-22",
@@ -130,7 +151,7 @@
     "imageSource": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/"
   },
   {
-    "id": 166,
+    "id": 168,
     "title": "Nirva raises $33M for a pendant that only listens to you",
     "description": "Nirva will ship its $249 ambient AI pendant by the end of the year.",
     "date": "2026-10-22",
@@ -139,27 +160,5 @@
     "category": "AI Industry",
     "imageKind": "source",
     "imageSource": "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you/"
-  },
-  {
-    "id": 174,
-    "title": "Designing an AI serving harness built to last",
-    "description": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the",
-    "date": "2026-10-22",
-    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/GettyImages-2188328005_9f1d59-e1791493652782.jpg?resize=1200,600",
-    "link": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
-    "category": "AI Research",
-    "imageKind": "source",
-    "imageSource": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/"
-  },
-  {
-    "id": 175,
-    "title": "The Foundations of Scalable AI",
-    "description": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to",
-    "date": "2026-10-22",
-    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/EmTech_092926_084.jpg?resize=1200,600",
-    "link": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
-    "category": "AI Research",
-    "imageKind": "source",
-    "imageSource": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/"
   }
 ]

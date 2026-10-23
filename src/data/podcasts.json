@@ -3,14 +3,15 @@
     "id": 1,
     "title": "Latent Space: The AI Engineer Podcast",
     "host": "Latent Space",
-    "description": "The podcast by and for AI Engineers! In 2025, over 10 million readers and listeners came to Latent Space to hear about news, papers and interviews in Software 3.0.",
-    "link": "https://www.latent.space/podcast",
+    "description": "Latest episode: [AINews] Black October. the Cyber onslaught continues.",
+    "link": "https://latent.space/p/ainews-black-october/",
     "category": "AI Engineering",
-    "image": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_400,h_400,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png",
+    "image": "https://latent.space/og/8d6b08062d5b3b44031a253344d428b4ab10c8ec040b2306dccc3394a7e64ba3.jpg",
     "sourceUrl": "https://www.latent.space/podcast",
     "checkedAt": "2026-10-23",
     "imageKind": "source",
-    "imageSource": "https://www.latent.space/podcast"
+    "imageSource": "https://www.latent.space/podcast",
+    "latestEpisode": "[AINews] Black October"
   },
   {
     "id": 2,
