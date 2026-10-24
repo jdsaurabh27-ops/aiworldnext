@@ -40,4 +40,24 @@ assert len(urls)==len(set(urls)),'Duplicate sitemap URLs'
 for url in urls:
  path=url.removeprefix(ORIGIN);assert path in pages,url
  assert 'noindex' not in pages[path].meta['robots'][0],url
+# Indexable pages must be both listed and reachable through internal links.
+indexed={path for path,p in pages.items() if 'noindex' not in p.meta['robots'][0]}
+assert {ORIGIN+path for path in indexed}==set(urls),'Sitemap missing indexable pages'
+reachable={'/'}
+pending=['/']
+while pending:
+ current=pending.pop()
+ for href in pages[current].links:
+  parsed=urlsplit(href)
+  if parsed.netloc and parsed.netloc!=urlsplit(ORIGIN).netloc:continue
+  if not parsed.path.startswith('/'):continue
+  target=parsed.path
+  if target in pages and target not in reachable:
+   reachable.add(target);pending.append(target)
+assert indexed<=reachable,('Orphan indexable pages',sorted(indexed-reachable))
+# Every original article should be linked directly from the Blogs discovery page.
+blog_paths={urlsplit(href).path for href in pages['/blogs/'].links}
+for path,p in pages.items():
+ if path.startswith('/guides/') and path!='/guides/':
+  assert path in blog_paths,('Original guide missing from Blogs',path)
 print(f'PASS: {len(pages)} HTML pages, unique titles, canonical/social tags, JSON-LD, internal links and {len(urls)} indexable sitemap URLs.')

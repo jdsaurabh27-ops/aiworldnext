@@ -27,7 +27,7 @@
     "keyword": "AI conferences and events",
     "title": "AI Conferences & Events: Explore Upcoming Listings",
     "description": "Explore AI conferences and events from linked sources. Verify dates, location, programme and registration directly with the organiser before booking.",
-    "intro": "Find artificial intelligence conferences and events that fit your learning or professional goal. Before registering, review the programme, intended audience, dates, location and attendance format on the organiser\u2019s website. A listing is not a booking confirmation or an endorsement. Check travel and cancellation arrangements separately if you plan to attend in person.",
+    "intro": "Find artificial intelligence conferences and events that fit your learning or professional goal. Before registering, review the programme, intended audience, dates, location and attendance format on the organiser’s website. A listing is not a booking confirmation or an endorsement. Check travel and cancellation arrangements separately if you plan to attend in person.",
     "relatedUrl": "/community/",
     "relatedLabel": "Explore AI communities"
   },
@@ -35,7 +35,7 @@
     "keyword": "AI companies",
     "title": "AI Companies Directory: Explore Organisations & Sources",
     "description": "Explore AI companies through source-linked profiles. Find their official websites and compare products, research and business focus.",
-    "intro": "Use this AI company directory to explore organisations and follow their official work. Read a company\u2019s own product and research pages before drawing conclusions from a short description. A company listing does not mean AIWorldNext has a partnership with it, and company size or brand recognition does not establish which product fits your task.",
+    "intro": "Use this AI company directory to explore organisations and follow their official work. Read a company’s own product and research pages before drawing conclusions from a short description. A company listing does not mean AIWorldNext has a partnership with it, and company size or brand recognition does not establish which product fits your task.",
     "relatedUrl": "/tools/",
     "relatedLabel": "Explore AI tools by task"
   },
@@ -43,7 +43,7 @@
     "keyword": "AI podcasts",
     "title": "AI Podcasts: Research, Technology & Industry Conversations",
     "description": "Explore AI podcasts and linked episodes covering research, technology and industry discussions. Visit the publisher for the full episode and show notes.",
-    "intro": "Explore artificial intelligence podcasts for longer conversations about research, products and the people building them. Follow the publisher link for complete episodes, guests and show notes. Check the episode date when listening to claims about models or product availability. A guest\u2019s opinion or prediction should be distinguished from a verified result.",
+    "intro": "Explore artificial intelligence podcasts for longer conversations about research, products and the people building them. Follow the publisher link for complete episodes, guests and show notes. Check the episode date when listening to claims about models or product availability. A guest’s opinion or prediction should be distinguished from a verified result.",
     "relatedUrl": "/guides/verify-ai-news/",
     "relatedLabel": "Check claims heard in an AI discussion"
   },
@@ -74,5 +74,45 @@
     "keyword": "AI blogs",
     "title": "AI Blogs & Practical Guides",
     "description": "Read original AIWorldNext guides on AI tools, careers, podcasts, startups and events, plus clearly labelled reading from external AI publishers."
+  },
+  "/startups/": {
+    "keyword": "AI Startups Directory",
+    "title": "AI Startups Directory: Products, Use Cases & Research",
+    "description": "Explore AI startups through official sources. Compare use cases, product access and evidence with a practical startup evaluation guide.",
+    "intro": "Start with the problem a startup aims to solve. Check whether its product is available, who it is designed for and what evidence supports its claims. Use the official links below to explore products; this directory is not a funding ranking or investment recommendation.",
+    "relatedUrl": "/guides/evaluate-an-ai-startup/",
+    "relatedLabel": "Evaluate an AI startup product"
+  },
+  "/community/": {
+    "keyword": "AI Communities",
+    "title": "AI Communities: Find Groups for Learning & Collaboration",
+    "description": "Explore AI communities and discussion groups. Check participation rules and choose a group that fits your learning or project goals.",
+    "intro": "Choose a community around a question you want to answer or a project you want to build. Check recent activity, moderation and participation rules before joining. Avoid sharing private work or personal information in public discussions.",
+    "relatedUrl": "/resources/",
+    "relatedLabel": "Find AI learning resources"
+  },
+  "/directories/": {
+    "keyword": "AI Directories",
+    "title": "AI Directories: Discover Tools & Research Resources",
+    "description": "Browse source-linked AI directories to discover tools and resources. Verify pricing, availability and product claims at the original source.",
+    "intro": "Use directories to build a shortlist, then visit each product’s official website. Inclusion and placement do not prove quality. Check update dates, disclosure of paid placements and whether a listing suits your specific task.",
+    "relatedUrl": "/guides/compare-ai-tools-with-one-task/",
+    "relatedLabel": "Compare AI tools using one task"
+  },
+  "/robotics/": {
+    "keyword": "AI Robotics",
+    "title": "AI Robotics: Companies, Platforms & Learning Resources",
+    "description": "Explore AI robotics organisations and platforms. Find official sources, robot buying checklists and practical demonstration planning guides.",
+    "intro": "Explore robotics by application: education, research, automation or supervised demonstrations. Follow official sources for capabilities and limitations. For hardware purchases, confirm the exact edition, operator requirements, delivered cost and local support.",
+    "relatedUrl": "/guides/buy-your-first-robot/",
+    "relatedLabel": "Use the robot buying checklist"
+  },
+  "/guides/": {
+    "keyword": "Practical AI Guides",
+    "title": "Practical AI Guides: Tools, Careers, Podcasts & Robotics",
+    "description": "Read original AI guides with examples and checklists for tools, job applications, podcasts and robotics. Choose a practical next step.",
+    "intro": "Choose a task, then follow a practical workflow. These original guides explain what to check, where human judgement matters and which limitations to consider. External publisher articles are listed separately on AI Blogs.",
+    "relatedUrl": "/blogs/",
+    "relatedLabel": "Explore AI blogs and publisher reading"
   }
 }
