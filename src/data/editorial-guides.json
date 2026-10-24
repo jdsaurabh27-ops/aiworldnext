@@ -928,5 +928,131 @@
         "url": "https://www.hse.gov.uk/event-safety/crowd-management-monitoring.htm"
       }
     ]
+  },
+  {
+    "slug": "start-an-ai-podcast",
+    "title": "How to start an AI podcast: a source-checking and disclosure workflow",
+    "intro": "Plan and publish an AI podcast with a clear episode promise, traceable sources, honest AI-use and commercial disclosures, and an RSS checklist for distribution.",
+    "checkedAt": "24 October 2026",
+    "kind": "AI podcast publishing guide",
+    "sections": [
+      [
+        "Start with one listener promise",
+        "Define the listener, the question and the useful outcome before choosing a microphone, host or AI tool. A focused first episode might promise to explain one documented product update to non-technical founders in 12 minutes. That is testable: the script should answer the stated question, distinguish confirmed facts from interpretation and give the listener one next step. Avoid a broad promise such as covering everything happening in AI; it encourages shallow summaries and makes each episode difficult to verify."
+      ],
+      [
+        "Build a claim sheet before writing the script",
+        "Create a small table with one row for every material factual claim. Record the claim, its primary source, publication or update date, the wording you can support and any uncertainty. Use company documentation for product behaviour, an employer page for a job, an organiser page for an event and a regulator or standards body for official guidance. News coverage can help you discover a topic, but it should not silently replace the underlying announcement when that source is available."
+      ],
+      [
+        "Separate fact, analysis and promotion in the audio",
+        "Tell listeners when you are reading a documented fact, offering your interpretation or describing a sponsor or affiliate product. Do not turn a product page into an independent review, and do not say that you tested a feature unless you actually did. If a guest makes an important measurable claim, ask for the source during the recording or mark it for verification before release. If it cannot be verified, remove it, qualify it clearly or present it only as the guest's claim."
+      ],
+      [
+        "Disclose commercial relationships where people will notice",
+        "The US Federal Trade Commission says material relationships can affect how an audience evaluates an endorsement and should be disclosed clearly. For a podcast, a practical approach is a short spoken disclosure near the recommendation plus a written disclosure beside the relevant link in the show notes. A vague thank-you or brand tag may not explain whether money, free access, travel or another benefit was involved. Rules differ by country, so check the laws and platform requirements that apply to the publisher and audience."
+      ],
+      [
+        "Explain meaningful AI-generated media",
+        "If AI helped brainstorm an outline or clean background noise, record that internally so the production process remains clear. When synthetic media could cause a listener or viewer to believe a real person said something they did not say, disclosure becomes much more important. YouTube's current help page requires creators to disclose realistic generated or meaningfully altered content during upload. It lists cloned narration in one's own voice among examples that may not require disclosure, but making another real person appear to give advice they never gave requires it. Check the current platform rule for the exact episode format."
+      ],
+      [
+        "Use a distribution feed you control and can test",
+        "A podcast RSS feed carries show metadata, episode details, artwork and audio links. Apple says an RSS-based submission needs required tags, at least one episode and artwork, and its feed must be publicly addressable and meet technical requirements. Apple also recommends testing the feed before directory submission so you can inspect how the audio and metadata appear. Keep a record of the hosting account, feed address, owner and recovery method rather than treating a directory listing as the master copy."
+      ],
+      [
+        "Protect the contact address in the RSS feed",
+        "Spotify explains that enabling distribution makes the email address in the RSS feed public, and that some platforms use it for ownership verification. Use a monitored business address that you are willing to publish rather than a private personal inbox. Verify that the address is correct and accessible before claiming the show. Spotify also notes that enabling a feed does not automatically submit the show to every listening platform, so maintain a distribution checklist instead of assuming universal publication."
+      ],
+      [
+        "Example: a 12-minute AI product-update episode",
+        "A fictional episode could open with the exact update and its official date, explain what the documentation confirms, identify what remains unknown, and give one realistic use case. The host then explains that no hands-on test was performed, links the official documentation in the notes and labels any affiliate link before describing it. Before release, another person checks names, numbers, dates, pronunciation, links, disclosures, audio intelligibility and the final exported file. This example is a workflow, not a claim that AIWorldNext operates or tested a podcast platform."
+      ],
+      [
+        "Run a release check on the actual exported episode",
+        "Listen to the first minute, a middle section and the ending from the final uploaded file. Confirm the title matches the episode, links resolve, chapter timestamps point to the correct moments, sponsor language is audible and the call to action does not promise unsupported results. Test the RSS feed in a podcast app before directory submission. After publishing, correct material errors in the audio or notes and record what changed; do not silently leave a known false claim in circulation."
+      ],
+      [
+        "Limitations and source dates",
+        "This guide covers editorial workflow and selected distribution requirements; it is not legal advice, a complete platform-policy audit or a promise of podcast reach or monetisation. Apple, Spotify, FTC and YouTube sources were checked on 24 October 2026. The FTC material discusses US advertising principles, while local rules may differ. Hosting, feed, disclosure, monetisation and synthetic-media policies can change, so verify the current official page before each launch or major format change."
+      ]
+    ],
+    "worksheet": {
+      "title": "First AI podcast episode release sheet",
+      "intro": "Complete one row for the exported episode and keep the sheet with the source links and correction history.",
+      "columns": [
+        "Check",
+        "Record before publishing",
+        "Pass condition"
+      ],
+      "rows": [
+        [
+          "Listener promise",
+          "Audience, question and one useful outcome.",
+          "The episode delivers the stated outcome without changing topic."
+        ],
+        [
+          "Claims",
+          "Claim, primary source, date and uncertainty.",
+          "Every material factual claim is supported or clearly qualified."
+        ],
+        [
+          "Guest statements",
+          "Claims requiring confirmation after recording.",
+          "Verified, attributed as opinion or removed."
+        ],
+        [
+          "Commercial connection",
+          "Payment, free access, affiliate link or other benefit.",
+          "Clear spoken and written disclosure appears near the promotion."
+        ],
+        [
+          "AI use",
+          "Generated voice, realistic synthetic media and production assistance.",
+          "Required platform disclosure is selected and wording is accurate."
+        ],
+        [
+          "RSS and ownership",
+          "Feed URL, public contact email, host and recovery owner.",
+          "Feed validates, displays correctly and account access is documented."
+        ],
+        [
+          "Final file",
+          "Title, audio, links, chapters and call to action.",
+          "Exported upload is checked, not only the editing timeline."
+        ],
+        [
+          "Corrections",
+          "Owner, correction channel and change log.",
+          "Listeners can find the corrected information and date."
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "title": "Apple Podcasts for Creators: Podcast RSS feed requirements",
+        "url": "https://podcasters.apple.com/support/823-podcast-requirements"
+      },
+      {
+        "title": "Apple Podcasts for Creators: Test your podcast RSS feed",
+        "url": "https://podcasters.apple.com/support/828-test-your-podcast"
+      },
+      {
+        "title": "Spotify for Creators: Finding and enabling your RSS feed",
+        "url": "https://support.spotify.com/us/creators/article/finding-and-enabling-your-rss-feed/"
+      },
+      {
+        "title": "Spotify for Creators: Adding your email address to your RSS feed",
+        "url": "https://support.spotify.com/us/creators/article/adding-your-email-address-to-your-rss-feed/"
+      },
+      {
+        "title": "US FTC: Endorsement Guides — questions and answers",
+        "url": "https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking"
+      },
+      {
+        "title": "YouTube Help: Disclosing use of generative AI content",
+        "url": "https://support.google.com/youtube/answer/14328491"
+      }
+    ]
   }
 ]
