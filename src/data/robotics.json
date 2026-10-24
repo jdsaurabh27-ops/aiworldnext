@@ -1,6 +1,6 @@
 [
   {
-    "id": 4,
+    "id": 1,
     "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
     "description": "The robots, stomping their little feet and making tiny R2-D2 noises, sat, fell down dead for a \"nap,\" and summersaulted on voice command.",
     "date": "2026-10-23",
@@ -11,7 +11,7 @@
     "imageSource": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/"
   },
   {
-    "id": 5,
+    "id": 2,
     "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
     "description": "The company plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
     "date": "2026-10-23",
@@ -22,7 +22,7 @@
     "imageSource": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/"
   },
   {
-    "id": 9,
+    "id": 6,
     "title": "Video Friday: Quadruped Robot Solves Giant Rubik’s Cube by Itself",
     "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send",
     "date": "2026-10-23",
@@ -33,7 +33,7 @@
     "imageSource": "https://spectrum.ieee.org/video-friday-rubiks-cube-robot"
   },
   {
-    "id": 6,
+    "id": 3,
     "title": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
     "description": "European retailers are using open models and physical intelligence across use cases — from a commerce platform cutting inference costs by 90% to to a fulfillment center where collaboration of different robotic fleets is simulated",
     "date": "2026-10-22",
@@ -44,7 +44,7 @@
     "imageSource": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/"
   },
   {
-    "id": 7,
+    "id": 4,
     "title": "NVIDIA Open Models Advance Europe’s Sovereign Intelligence Across Industries",
     "description": "NVIDIA is expanding its family of open models across language, robotics, biology, and quantum computing, giving developers, researchers and enterprises what they need to build applications tailored to local languages and industries The portfolio includes",
     "date": "2026-10-21",
@@ -55,7 +55,7 @@
     "imageSource": "https://blogs.nvidia.com/blog/open-models-europe-industry/"
   },
   {
-    "id": 8,
+    "id": 5,
     "title": "GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote",
     "description": "Founded in a tent near the Berlin Wall in 1980, the Tempodrom moved several times before settling near Anhalter Bahnhof in 2001. Its permanent home has since hosted concerts, galas and political events. Today, it",
     "date": "2026-10-21",
@@ -66,7 +66,7 @@
     "imageSource": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/"
   },
   {
-    "id": 10,
+    "id": 7,
     "title": "The Robot I Didn’t Expect to Build",
     "description": "Agility Robotics , the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5 . It’s designed to be the first humanoid robot that can safely",
     "date": "2026-10-19",
@@ -77,7 +77,7 @@
     "imageSource": "https://spectrum.ieee.org/agility-robotics-digit-5-redesign"
   },
   {
-    "id": 11,
+    "id": 8,
     "title": "Video Friday: When Two Robots Become One",
     "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send",
     "date": "2026-10-16",
@@ -88,18 +88,7 @@
     "imageSource": "https://spectrum.ieee.org/video-friday-reconfigurable-robots"
   },
   {
-    "id": 1,
-    "title": "Gemini 4 Argon for Robotics",
-    "description": "Read the original report from Google DeepMind.",
-    "date": "2026-10-13",
-    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/argon__robotics__hero.2e16d0ba.fill-1200x600.png",
-    "link": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-    "category": "AI Research",
-    "imageKind": "source",
-    "imageSource": "https://deepmind.google/blog/gemini-4-argon-for-robotics/"
-  },
-  {
-    "id": 12,
+    "id": 9,
     "title": "Q&A: Mars Perseverance Rover Sets a Distance Record",
     "description": "On 11 October , the Perseverance rover completed a drive that brought its total distance traveled on Mars to 28.10 miles (45.22 kilometers). This is a new record for Mars rovers, enabled in large part",
     "date": "2026-10-13",
@@ -110,7 +99,7 @@
     "imageSource": "https://spectrum.ieee.org/mars-rover-distance-record"
   },
   {
-    "id": 13,
+    "id": 10,
     "title": "Video Friday: Robot Decommissioning Takes a Fun Turn",
     "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send",
     "date": "2026-10-09",
@@ -121,7 +110,7 @@
     "imageSource": "https://spectrum.ieee.org/video-friday-reachy-mini-raps"
   },
   {
-    "id": 14,
+    "id": 11,
     "title": "This Disembodied Hand Is All the Robot You Need",
     "description": "A hand attached to the end of an arm is a given for most humans, but what if robots didn’t have to play by the same rules as we do? Researchers from ETH Zurich have",
     "date": "2026-10-08",
@@ -132,7 +121,7 @@
     "imageSource": "https://spectrum.ieee.org/walking-robotic-hand"
   },
   {
-    "id": 15,
+    "id": 12,
     "title": "HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object Interaction",
     "description": "This White Paper gives robotics researchers and engineers an overview of a new large-scale motion capture dataset built to close the data gap limiting humanoid robot learning. It also shows how policies trained on the",
     "date": "2026-10-07",
@@ -143,7 +132,7 @@
     "imageSource": "https://content.knowledgehub.wiley.com/hiphi-a-large-scale-benchmark-for-high-precision-human-motion-and-object-interaction/"
   },
   {
-    "id": 16,
+    "id": 13,
     "title": "Video Friday: Albatross Falls, Spins, Self-Rights, and Sails Away",
     "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send",
     "date": "2026-10-02",
@@ -154,7 +143,7 @@
     "imageSource": "https://spectrum.ieee.org/video-friday-bioinspired-robotics"
   },
   {
-    "id": 17,
+    "id": 14,
     "title": "Atlas Robot’s New Hand May Outperform Humanlike Designs",
     "description": "Today, Boston Dynamics is announcing a redesigned hand for its Atlas robot . The previous generation could do some crazy superhuman things with its three fingers, but it was never intended for mass production in",
     "date": "2026-10-01",
@@ -163,5 +152,16 @@
     "category": "Robotics",
     "imageKind": "source",
     "imageSource": "https://spectrum.ieee.org/robust-robot-hand"
+  },
+  {
+    "id": 15,
+    "title": "A Day in the Life of a Roboticist: Charlie Kemp",
+    "description": "Building useful robots starts with understanding the people who use them. For Charlie Kemp, cofounder and chief technology officer of Hello Robot, that means developing assistive robots that can help people with everyday tasks and",
+    "date": "2026-09-28",
+    "image": "https://assets.robotsguide.com/images/7p2whiua/production/2feb62d2816501e7faafd7001930f2f299a46ace-1609x889.jpg?rect=0,23,1609,845&w=1200&h=630",
+    "link": "https://robotsguide.com/learn/a-day-in-the-life-of-a-roboticist-charlie-kemp",
+    "category": "Robotics",
+    "imageKind": "source",
+    "imageSource": "https://robotsguide.com/learn/a-day-in-the-life-of-a-roboticist-charlie-kemp"
   }
 ]
