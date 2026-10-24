@@ -1,10 +1,36 @@
 [
   {
+    "id": 64,
+    "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-10-23",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/7F9q8BZloWigwe7m5YGLG.png",
+    "link": "https://huggingface.co/blog/allenai/litpivot",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/allenai/litpivot"
+  },
+  {
+    "id": 65,
+    "title": "Does Your Model Run on AWS Trainium? Look It Up",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-10-23",
+    "image": "https://huggingface.co/blog/assets/torch-neuronx-model-support/thumbnail.jpg",
+    "link": "https://huggingface.co/blog/torch-neuronx-model-support",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/torch-neuronx-model-support"
+  },
+  {
     "id": 1,
     "title": "Beyond tree cover: mapping the world’s forest types",
     "description": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
     "date": "2026-10-22",
-    "image": "https://lh3.googleusercontent.com/Et3g0tNB_bC00f6cP94Y40QbqshCvf7_fg_gRVfZQoeVSc3Hn9g6jIenf1udZdACY4x-wpY_5tyy_LznFSlu0yhGCqfxKos6QFRRj4lad_hQHOBV8Q=w528-h297-n-nu-rw-lo",
+    "image": "https://lh3.googleusercontent.com/Et3g0tNB_bC00f6cP94Y40QbqshCvf7_fg_gRVfZQoeVSc3Hn9g6jIenf1udZdACY4x-wpY_5tyy_LznFSlu0yhGCqfxKos6QFRRj4lad_hQHOBV8Q=w1200-h630-n-nu-rw",
     "link": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
     "category": "AI Research",
     "author": "Google DeepMind",
@@ -13,7 +39,7 @@
     "imageSource": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/"
   },
   {
-    "id": 64,
+    "id": 66,
     "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-22",
@@ -26,20 +52,7 @@
     "imageSource": "https://huggingface.co/blog/microsoft/thinkingbox-training"
   },
   {
-    "id": 65,
-    "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
-    "description": "Read the original report from Hugging Face.",
-    "date": "2026-10-22",
-    "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/VEmSzlLjei8J3cUVNe7G6.png",
-    "link": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
-    "category": "AI Tools & Research",
-    "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://huggingface.co/blog/allenai/olmoearth-v1-3"
-  },
-  {
-    "id": 66,
+    "id": 67,
     "title": "Ensemble forecasting with IBM Granite time-series models",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-22",
@@ -52,7 +65,7 @@
     "imageSource": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1"
   },
   {
-    "id": 67,
+    "id": 68,
     "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-21",
@@ -65,7 +78,7 @@
     "imageSource": "https://huggingface.co/blog/nvidia/kumo-relational"
   },
   {
-    "id": 68,
+    "id": 69,
     "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-21",
@@ -78,7 +91,7 @@
     "imageSource": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization"
   },
   {
-    "id": 69,
+    "id": 70,
     "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-21",
@@ -91,7 +104,7 @@
     "imageSource": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1"
   },
   {
-    "id": 70,
+    "id": 71,
     "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-21",
@@ -104,7 +117,7 @@
     "imageSource": "https://huggingface.co/blog/ibm-granite/granite-speech-5"
   },
   {
-    "id": 71,
+    "id": 72,
     "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-20",
@@ -117,7 +130,7 @@
     "imageSource": "https://huggingface.co/blog/hf-torchtpu"
   },
   {
-    "id": 72,
+    "id": 73,
     "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-20",
@@ -130,7 +143,7 @@
     "imageSource": "https://huggingface.co/blog/anylanguagemodel-1-0"
   },
   {
-    "id": 73,
+    "id": 74,
     "title": "MPS in PyTorch 2.15",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-20",
@@ -143,7 +156,7 @@
     "imageSource": "https://huggingface.co/blog/mps-pytorch-2-15"
   },
   {
-    "id": 74,
+    "id": 75,
     "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-19",
@@ -156,7 +169,7 @@
     "imageSource": "https://huggingface.co/blog/hf-torchneuron"
   },
   {
-    "id": 75,
+    "id": 76,
     "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-16",
@@ -173,25 +186,12 @@
     "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
     "description": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
     "date": "2026-10-15",
-    "image": "https://lh3.googleusercontent.com/Xgnc_DxAUS2Fs9H2rokxsYwPnnM_KOkPyPtKm7V2C_sjZ7YS4N1-D6lD8wjYIRQoKaiSwHUXB7qmw77m6FCfHLZenWdNymO7B_JLChlB6ied6emR=w528-h297-n-nu-rw-lo",
+    "image": "https://lh3.googleusercontent.com/Xgnc_DxAUS2Fs9H2rokxsYwPnnM_KOkPyPtKm7V2C_sjZ7YS4N1-D6lD8wjYIRQoKaiSwHUXB7qmw77m6FCfHLZenWdNymO7B_JLChlB6ied6emR=w1200-h630-n-nu-rw",
     "link": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
     "category": "AI Research",
     "author": "Google DeepMind",
     "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
     "imageKind": "source",
     "imageSource": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/"
-  },
-  {
-    "id": 76,
-    "title": "Apertus 1.5 Release Notes",
-    "description": "Read the original report from Hugging Face.",
-    "date": "2026-10-15",
-    "image": "https://cdn-uploads.huggingface.co/production/uploads/61f1877a168a0b52fda88455/2mHXxCtfos6CgwFSNKFVi.jpeg",
-    "link": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
-    "category": "AI Tools & Research",
-    "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes"
   }
 ]

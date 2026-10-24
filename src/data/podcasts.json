@@ -3,15 +3,15 @@
     "id": 1,
     "title": "Latent Space: The AI Engineer Podcast",
     "host": "Latent Space",
-    "description": "Latest episode: [AINews] Black October. the Cyber onslaught continues.",
-    "link": "https://latent.space/p/ainews-black-october/",
+    "description": "Latest episode: AI Is Getting Good at Math. Here’s Why.. AI models are solving more mathematical problems. A pattern is emerging in their successes that could help us predict which problems they’ll solve next.",
+    "link": "https://latent.space/p/ai-is-getting-good-at-math/",
     "category": "AI Engineering",
     "image": "https://latent.space/og/8d6b08062d5b3b44031a253344d428b4ab10c8ec040b2306dccc3394a7e64ba3.jpg",
     "sourceUrl": "https://www.latent.space/podcast",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-24",
     "imageKind": "source",
     "imageSource": "https://www.latent.space/podcast",
-    "latestEpisode": "[AINews] Black October"
+    "latestEpisode": "AI Is Getting Good at Math. Here’s Why."
   },
   {
     "id": 2,
@@ -33,7 +33,7 @@
     "category": "Applied AI",
     "image": "https://img.transistorcdn.com/zVzsljUTSiiyx3CSYiDcErJ1U0vIAc3b6j6Sf5Qou14/rs:fill:0:0:1/w:800/h:800/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8wMTZi/ZWJmNWIwNDdmYTcw/NGJjMTExZjNjZmYy/M2ZjNS5wbmc.webp",
     "sourceUrl": "https://practicalai.show/",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-24",
     "imageKind": "source",
     "logoIcon": "https://www.google.com/s2/favicons?domain=practicalai.show&sz=128",
     "imageSource": "https://practicalai.show/"
@@ -47,7 +47,7 @@
     "category": "AI Innovation",
     "image": "https://www.nvidia.com/content/dam/en-zz/Solutions/ai-podcast/ai-podcast-og.jpg",
     "sourceUrl": "https://ai-podcast.nvidia.com/",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-24",
     "imageKind": "source",
     "imageSource": "https://ai-podcast.nvidia.com/"
   }
