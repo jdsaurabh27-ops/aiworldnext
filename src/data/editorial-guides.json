@@ -1054,5 +1054,148 @@
         "url": "https://support.google.com/youtube/answer/14328491"
       }
     ]
+  },
+  {
+    "slug": "compare-ai-startup-cloud-credits",
+    "title": "AI startup cloud credits: how to compare AWS, Google Cloud and Microsoft",
+    "intro": "Compare AI startup cloud-credit programmes by eligible workload, timing, billing exposure and post-credit cost—not only the maximum advertised amount.",
+    "checkedAt": "25 October 2026",
+    "kind": "AI startup infrastructure guide",
+    "sections": [
+      [
+        "Start with the workload, not the headline credit",
+        "Write down what the product must run during the next 12 months: model inference or training, application hosting, databases, storage, networking, observability, security, support and developer access. Estimate a low, expected and high monthly usage case. A large advertised maximum has little value if your startup is not eligible, the services you need are excluded, the credit arrives later than your workload, or the architecture becomes expensive when the offer ends. Treat credits as a temporary reduction in eligible cloud charges, not as cash or revenue."
+      ],
+      [
+        "Take a dated snapshot of the official programmes",
+        "As checked on 25 October 2026, AWS says its self-funded Founders tier starts with $1,000 and selected participants may qualify for up to $5,000, while provider-backed Portfolio startups may qualify for up to $200,000. Google advertises up to $350,000 over two years for qualifying Scale-tier AI startups, with eligibility tied to factors including funding, company age, prior credits and intended use of Gemini. Microsoft says eligible startups can unlock up to $150,000 over time based on verified progress, service adoption and sustained Azure usage. These are maximums and programme descriptions, not awards promised to every applicant."
+      ],
+      [
+        "Create an eligibility matrix before applying",
+        "For each programme, record incorporation status, company age, funding stage and date, investor or accelerator affiliation, prior credits, country availability, business type and required product evidence. AWS distinguishes self-funded and Activate Provider-backed applicants. Google describes its AI offer for qualifying VC-funded startups and excludes several organisation types. Microsoft requires a privately held for-profit company with an owned software product and excludes consultancies, agencies and companies at Series C or later. Use the current application page as the final authority because eligibility can change."
+      ],
+      [
+        "Translate the offer into your eligible services",
+        "List each planned service and mark whether the programme credit covers it. Do not assume that every marketplace item, third-party model, support plan, domain, reservation or professional service is included. Google states that its startup credits cover Google models such as Gemini and Gemma but not third-party models billed directly. AWS promotional-credit terms list categories that are ineligible, and Microsoft says charges can still arise when a service is not covered, credits are exhausted or usage is attached to a different billing profile. Ask the provider to resolve any material ambiguity before committing the architecture."
+      ],
+      [
+        "Compare the calendar and the credit cliff",
+        "Record the application date, likely approval sequence, activation deadline, credit start, expiry and any staged unlock. Microsoft currently says credits must be activated within 90 days of accepting the agreement, can be valid for up to two years after activation and automatically transition to pay-as-you-go when consumed. Google describes different coverage between the first and second year for its Scale offer. AWS tells approved users to monitor both the balance and expiration date. Model the first full-price month as carefully as the free-credit period."
+      ],
+      [
+        "Calculate usable runway instead of dividing by the maximum",
+        "Use three numbers: confirmed awarded credit, the share of your monthly bill that is eligible, and the offer period. A simple planning estimate is usable credit divided by expected eligible monthly spend, capped by the expiry date. Keep taxes, uncovered services, support and any separate model charges outside the credit column. Recalculate after load tests because token volume, accelerator hours, storage growth, logs and network egress can change the result. This is a budget estimate, not an accounting forecast."
+      ],
+      [
+        "Test portability before production dependence",
+        "Run the same representative workload on the realistic services you would use after the promotion. Record output quality, latency, engineering time, security controls, regional availability and full-price cost. Identify which parts use portable containers, standard databases or exportable data, and which rely on provider-specific models, identity, queues or observability. Portability has its own engineering cost, so the goal is a documented exit path rather than a promise that migration will be easy."
+      ],
+      [
+        "Put billing controls in place on day one",
+        "Use a dedicated business billing account, assign a named billing owner and restrict who can create expensive resources. Configure provider budgets and alerts, review the credit balance and expiry, and keep a shutdown checklist for experiments. Alerts are not the same as a hard spending cap, so decide who acts when a threshold is reached. Check that development, staging and production accounts receive the intended credit treatment; a workload in the wrong account or billing profile may be charged normally."
+      ],
+      [
+        "Example: a fictional document-assistant startup",
+        "Suppose a fictional startup expects monthly eligible costs of $900 at low usage, $2,400 at expected usage and $6,000 after a customer launch. Its comparison sheet lists model calls, database, storage, logging and support separately for each provider. The team records which model charges are covered, tests the same document set, estimates migration work and prices the first three months after expiry. It does not choose the programme with the largest headline. It selects only after receiving a written award and confirming that the expected workload, region and billing account are eligible. This example is illustrative; AIWorldNext has not applied for or tested these programmes on the startup’s behalf."
+      ],
+      [
+        "Prepare an evidence pack for the application",
+        "Keep the company domain and business email consistent, and prepare incorporation details, product description, target customer, architecture outline, funding history, investor or programme affiliation, cloud account identifiers and current usage. AWS specifically advises applicants to use a business email matching the startup domain and says funding stage and provider affiliation affect the tier. NVIDIA Inception, a separate startup programme rather than a like-for-like cloud-credit offer, requires an incorporated company, a working website, a clear NVIDIA use case and an active founder; this illustrates why one generic application pack still needs programme-specific checks."
+      ],
+      [
+        "Make a decision with five gates",
+        "Proceed only if the startup is eligible, the awarded credit is confirmed, the planned services are covered, the team accepts the full-price cost after the offer, and security plus exit requirements are workable. If any gate is unknown, record the owner and the official question that must be answered. Do not move production solely because an application is pending or because a marketing page says “up to” a particular amount."
+      ],
+      [
+        "Limitations and source dates",
+        "This guide is an editorial comparison method, not financial, tax, legal, accounting, security or architecture advice. It does not rank providers or guarantee acceptance, credit amounts, savings or future programme availability. Official AWS, Google Cloud, Microsoft and NVIDIA pages were checked on 25 October 2026; programme terms, eligible regions, services, amounts and billing behaviour can change. Read the current terms and the award attached to your own account before spending or migrating."
+      ]
+    ],
+    "worksheet": {
+      "title": "AI startup cloud-credit comparison sheet",
+      "intro": "Complete one column for every programme using its current official terms and the award shown in your own account.",
+      "columns": [
+        "Decision field",
+        "What to record",
+        "Pass condition"
+      ],
+      "rows": [
+        [
+          "Eligibility",
+          "Company age, funding, affiliation, country, prior credits and exclusions.",
+          "Every required condition is supported by evidence."
+        ],
+        [
+          "Award",
+          "Confirmed amount, currency, account and approval date.",
+          "Use the awarded amount rather than the advertised maximum."
+        ],
+        [
+          "Coverage",
+          "Models, compute, database, storage, network, support and excluded services.",
+          "The expected workload is covered or uncovered cost is budgeted."
+        ],
+        [
+          "Timing",
+          "Activation deadline, start, expiry and staged unlocks.",
+          "The credit is available when the workload needs it."
+        ],
+        [
+          "Monthly burn",
+          "Low, expected and high eligible spend plus uncovered charges.",
+          "Runway and overage exposure are calculated."
+        ],
+        [
+          "Billing controls",
+          "Owner, budgets, alerts, accounts and shutdown procedure.",
+          "A named person reviews and acts on thresholds."
+        ],
+        [
+          "Technical fit",
+          "Quality, latency, region, security, support and team skills.",
+          "The platform meets the product’s measured requirements."
+        ],
+        [
+          "Exit plan",
+          "Data export, portable components, migration work and full-price cost.",
+          "The team can explain the post-credit operating decision."
+        ],
+        [
+          "Decision record",
+          "Chosen programme, evidence, unknowns, owner and review date.",
+          "No decision depends on an unconfirmed maximum or pending application."
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "title": "AWS Startups: Applying for AWS Activate Credits (4 June 2026)",
+        "url": "https://aws.amazon.com/aws-startups/learn/applying-for-aws-activate-credits-a-step-by-step-guide/"
+      },
+      {
+        "title": "AWS: Promotional Credit Terms and eligible-service limitations",
+        "url": "https://aws.amazon.com/awscredits/"
+      },
+      {
+        "title": "Google Cloud: AI startup programme benefits and eligibility",
+        "url": "https://cloud.google.com/startup/ai"
+      },
+      {
+        "title": "Google Cloud: Startup programme eligibility and benefits",
+        "url": "https://cloud.google.com/startup/benefits"
+      },
+      {
+        "title": "Microsoft Learn: Microsoft for Startups overview",
+        "url": "https://learn.microsoft.com/en-us/startups/microsoft-for-startups/overview"
+      },
+      {
+        "title": "Microsoft Learn: Startup credits, activation and billing FAQ",
+        "url": "https://learn.microsoft.com/en-us/startups/microsoft-for-startups/mfs-faqs"
+      },
+      {
+        "title": "NVIDIA: Inception programme eligibility and benefits",
+        "url": "https://www.nvidia.com/en-us/startups/"
+      }
+    ]
   }
 ]
