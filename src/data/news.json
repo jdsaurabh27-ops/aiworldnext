@@ -1,5 +1,38 @@
 [
   {
+    "id": 160,
+    "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+    "description": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+    "date": "2026-10-24",
+    "image": "https://techcrunch.com/wp-content/uploads/2019/12/GettyImages-95927766-1.jpg?resize=1200,797",
+    "link": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
+  },
+  {
+    "id": 161,
+    "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+    "description": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
+    "date": "2026-10-24",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-1777713346.jpg?resize=1200,900",
+    "link": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
+  },
+  {
+    "id": 162,
+    "title": "Here are the top AI agents that can live in your text messages",
+    "description": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+    "date": "2026-10-24",
+    "image": "https://techcrunch.com/wp-content/uploads/2017/12/gettyimages-673436934.jpg?resize=1200,813",
+    "link": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/"
+  },
+  {
     "id": 1,
     "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
     "description": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
@@ -30,7 +63,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 160,
+    "id": 163,
     "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
     "description": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
     "date": "2026-10-23",
@@ -41,7 +74,7 @@
     "imageSource": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/"
   },
   {
-    "id": 161,
+    "id": 164,
     "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
     "description": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies",
     "date": "2026-10-23",
@@ -52,7 +85,7 @@
     "imageSource": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/"
   },
   {
-    "id": 162,
+    "id": 165,
     "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
     "description": "The company plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
     "date": "2026-10-23",
@@ -63,7 +96,7 @@
     "imageSource": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/"
   },
   {
-    "id": 163,
+    "id": 166,
     "title": "Left alone with nothing to do, AI agents started playing",
     "description": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
     "date": "2026-10-23",
@@ -105,7 +138,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 164,
+    "id": 167,
     "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
     "description": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
     "date": "2026-10-22",
@@ -116,7 +149,7 @@
     "imageSource": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/"
   },
   {
-    "id": 165,
+    "id": 168,
     "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
     "description": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
     "date": "2026-10-22",
@@ -125,38 +158,5 @@
     "category": "AI Industry",
     "imageKind": "source",
     "imageSource": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/"
-  },
-  {
-    "id": 166,
-    "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
-    "description": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
-    "date": "2026-10-22",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-22-at-12.17.11-PM-1.png?resize=1200,988",
-    "link": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/"
-  },
-  {
-    "id": 167,
-    "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
-    "description": "Microsoft’s new AI diagnostic system beat generalist doctors on hard cases, according to a study in Science. But most of the improvement seems to come from the AI models underneath, not from Microsoft’s system itself.",
-    "date": "2026-10-22",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-1935915215.jpg?w=1024",
-    "link": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/"
-  },
-  {
-    "id": 168,
-    "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
-    "description": "Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers.",
-    "date": "2026-10-22",
-    "image": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-591881449.jpg?resize=1200,799",
-    "link": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/"
   }
 ]
