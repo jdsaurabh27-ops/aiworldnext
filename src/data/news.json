@@ -1,6 +1,39 @@
 [
   {
+    "id": 159,
+    "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+    "description": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
+    "date": "2026-10-25",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/03/grok-getty.jpg?resize=1200,800",
+    "link": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/"
+  },
+  {
     "id": 160,
+    "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+    "description": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
+    "date": "2026-10-25",
+    "image": "https://techcrunch.com/wp-content/uploads/2023/08/GettyImages-1308803174.jpg?resize=1200,800",
+    "link": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/"
+  },
+  {
+    "id": 161,
+    "title": "The hottest AI wearables and gadgets you should know about",
+    "description": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
+    "date": "2026-10-25",
+    "image": "https://techcrunch.com/wp-content/uploads/2016/09/robocash.jpg?resize=1200,849",
+    "link": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/"
+  },
+  {
+    "id": 162,
     "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
     "description": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
     "date": "2026-10-24",
@@ -11,7 +44,7 @@
     "imageSource": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
   },
   {
-    "id": 161,
+    "id": 163,
     "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
     "description": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
     "date": "2026-10-24",
@@ -22,7 +55,7 @@
     "imageSource": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
   },
   {
-    "id": 162,
+    "id": 164,
     "title": "Here are the top AI agents that can live in your text messages",
     "description": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
     "date": "2026-10-24",
@@ -63,7 +96,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 163,
+    "id": 165,
     "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
     "description": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
     "date": "2026-10-23",
@@ -74,7 +107,7 @@
     "imageSource": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/"
   },
   {
-    "id": 164,
+    "id": 166,
     "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
     "description": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies",
     "date": "2026-10-23",
@@ -85,7 +118,7 @@
     "imageSource": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/"
   },
   {
-    "id": 165,
+    "id": 167,
     "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
     "description": "The company plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
     "date": "2026-10-23",
@@ -96,7 +129,7 @@
     "imageSource": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/"
   },
   {
-    "id": 166,
+    "id": 168,
     "title": "Left alone with nothing to do, AI agents started playing",
     "description": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
     "date": "2026-10-23",
@@ -126,37 +159,5 @@
     "link": "https://openai.com/index/forward-deployed-engineering-means",
     "category": "AI News",
     "imageKind": "placeholder"
-  },
-  {
-    "id": 5,
-    "title": "Uber brings ChatGPT Work to all employees with OpenAI",
-    "description": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
-    "date": "2026-10-22",
-    "image": "/brand/categories/news.svg",
-    "link": "https://openai.com/index/uber-chatgpt-work-rollout",
-    "category": "AI News",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 167,
-    "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
-    "description": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
-    "date": "2026-10-22",
-    "image": "https://techcrunch.com/wp-content/uploads/2023/11/Sam-Altman-OpenAI.jpg?resize=1200,680",
-    "link": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/"
-  },
-  {
-    "id": 168,
-    "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
-    "description": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
-    "date": "2026-10-22",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/10/AI-agents.jpg?resize=1200,675",
-    "link": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/"
   }
 ]
