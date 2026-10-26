@@ -1197,5 +1197,158 @@
         "url": "https://www.nvidia.com/en-us/startups/"
       }
     ]
+  },
+  {
+    "slug": "write-an-ai-conference-talk-proposal",
+    "title": "How to write an AI conference talk proposal that reviewers can assess",
+    "intro": "Turn one AI project or lesson into a specific conference proposal with a clear audience, supported claims, honest AI-use disclosure and a realistic session plan.",
+    "checkedAt": "26 October 2026",
+    "kind": "AI event speaker guide",
+    "sections": [
+      [
+        "Read the current call before drafting",
+        "Start with the organiser’s own call for proposals rather than recycling one abstract across events. Record the event theme, audience, session formats, duration, delivery mode, speaker limit, submission fields, deadline, recording terms, code of conduct and any policy on AI-assisted text. PyCon US 2026, for example, separated talks, tutorials, posters and Spanish-language Charlas, limited individual submissions and required in-person presentations. Those details belong to that event and year; another call may set different rules."
+      ],
+      [
+        "Choose one audience and one change",
+        "Name the people the session is for, what they already know and what they should be able to do or decide afterwards. “An introduction to AI” is too broad to assess. A more useful promise is: “After this 30-minute session, product engineers who already use Python can design a small evaluation set for a retrieval assistant and recognise three common failure patterns.” The title, abstract, outline and stated level should all support the same promise."
+      ],
+      [
+        "Build an evidence inventory from your own work",
+        "List the project, data, experiment, incident, migration or teaching experience behind the talk. Record what you personally did, what collaborators did, which results are reproducible, what is confidential and what can be shown publicly. The Linux Foundation’s Open Source Days CFP says reviewers must be able to assess subject-matter expertise and warns that heavily AI-generated or templated submissions can lack the specificity needed to judge technical depth. Replace generic claims with a concrete decision, method, result or failure you can explain."
+      ],
+      [
+        "Keep claims inside the evidence boundary",
+        "For every result in the abstract, record its source, test conditions and limitation. Do not convert a small internal example into a universal performance claim. NeurIPS uses a paper checklist to encourage accurate claims, transparency, reproducibility, ethics and societal-impact consideration; a community talk proposal is not a NeurIPS paper, but the same questions can improve technical honesty. State what was measured, what was not tested and what the audience should not infer."
+      ],
+      [
+        "Write the abstract as problem, method, evidence and outcome",
+        "Use four short parts. First, describe a recognisable problem for the intended audience. Second, state the method or experience the session will explain. Third, name the evidence or examples that make it credible. Fourth, tell attendees what they will leave with. Avoid opening with a long company description or a prediction about the entire industry. Reviewers should understand the practical value without needing private links, a sales call or unstated context."
+      ],
+      [
+        "Make the outline fit the available minutes",
+        "Budget the real session, including the opening, setup, evidence, example, limitations, questions and transitions. For a 30-minute slot, a fictional plan might allocate three minutes to the problem, seven to the method, eight to two examples, five to failures and limitations, four to a reusable checklist and three to questions. Do not propose an hour of material for a short slot. If the event publishes a different duration, rebuild the outline rather than speaking faster."
+      ],
+      [
+        "Separate education from product promotion",
+        "A product may appear when it is necessary to explain the lesson, but the proposal should stand on a useful outcome for the audience. The Linux Foundation CFP reviewed for this guide explicitly says talks should not be sales pitches or product promotions. Explain trade-offs, alternatives, failures and applicable conditions. If the real goal is a commercial demonstration, ask whether the event offers a sponsor session instead of disguising marketing as an independent technical talk."
+      ],
+      [
+        "Follow the event’s AI-writing rule exactly",
+        "Do not assume every conference permits the same use of generative AI. PyCon US 2026 states that proposals written solely or to a large extent by an LLM will not be accepted. The Linux Foundation page says heavily AI-generated or templated content may make expertise harder to evaluate. If a tool helps with grammar or structure, keep the underlying experience, claims and wording accountable to the named speaker, and disclose assistance when the form or policy requires it. Never upload confidential client material or another reviewer’s submission to a third-party tool."
+      ],
+      [
+        "Plan the demonstration and its fallback",
+        "Describe what the demonstration proves and what attendees will see. Use authorised data, remove personal or confidential information, test the exact environment and prepare screenshots, logs or a recorded local fallback where the organiser allows it. Do not make the learning outcome depend on live internet, a private production system or an unreleased feature. The backup should support the same claim rather than quietly replacing a failed result with a different example."
+      ],
+      [
+        "Check speaker logistics before promising attendance",
+        "Confirm whether the session is in person, hybrid or remote; whether travel, registration or accessibility support is available; how many speakers are allowed; and whether the presentation will be recorded or published. PyCon US 2026 said its presentations were in person and intended to be recorded and released, while the Linux Foundation event reviewed here also specified in-person participation and public recordings. Obtain permission before including collaborators, customer material, faces, voices or proprietary screenshots."
+      ],
+      [
+        "Example: a fictional evaluation talk",
+        "A fictional proposal titled “What 200 support questions taught us about retrieval failures” targets engineers with basic retrieval knowledge. The abstract explains that the speaker built an authorised evaluation set, groups failures into missing evidence, wrong retrieval and unsupported synthesis, and will share a blank triage sheet. It does not claim the method works for every domain, identify a private client or advertise a product. The outline includes two anonymised examples, a failed approach, limitations and a no-network fallback. This is an illustrative proposal, not a claim that AIWorldNext ran the project or secured a conference acceptance."
+      ],
+      [
+        "Run a reviewer test before submission",
+        "Ask a qualified reader who is not part of the project to answer five questions using only the proposal: Who is this for? What will they learn? What evidence will they see? Why is this speaker able to explain it? Can the promised material fit the slot? Then check every form field, policy acknowledgement, co-speaker detail and link. A polished abstract cannot repair an ineligible format, missed deadline or unsupported claim."
+      ],
+      [
+        "Limitations and source dates",
+        "This guide is a proposal-writing workflow, not a promise of acceptance or a substitute for the current CFP. PyCon US, Linux Foundation and NeurIPS sources were checked on 26 October 2026. Some referenced 2026 calls were already closed and are used only as examples of published requirements. Policies, formats, dates, travel support, recording rights and AI-use rules vary by organiser and edition; use the live event page and contact the organiser when wording is unclear."
+      ]
+    ],
+    "worksheet": {
+      "title": "AI conference talk proposal review sheet",
+      "intro": "Complete this against the exact event page before submitting; replace assumptions with links or organiser answers.",
+      "columns": [
+        "Proposal check",
+        "What to record",
+        "Pass condition"
+      ],
+      "rows": [
+        [
+          "Event fit",
+          "Track, audience, format, duration and delivery mode.",
+          "Every choice matches the current CFP."
+        ],
+        [
+          "Audience",
+          "Role, prerequisite knowledge and experience level.",
+          "A reviewer can identify who should attend."
+        ],
+        [
+          "Outcome",
+          "One skill, decision or reusable method.",
+          "The session can deliver it within the slot."
+        ],
+        [
+          "Speaker evidence",
+          "Your role, project, examples and public evidence.",
+          "Expertise is specific without exaggeration."
+        ],
+        [
+          "Claims",
+          "Source, test condition, result and limitation.",
+          "Every material claim is supported or qualified."
+        ],
+        [
+          "Outline",
+          "Minutes for problem, method, examples, limits and questions.",
+          "Total time fits with room for transitions."
+        ],
+        [
+          "Commercial content",
+          "Products, affiliations and sponsor relationship.",
+          "Educational value is clear and promotion is disclosed."
+        ],
+        [
+          "AI assistance",
+          "Tools used, organiser rule and required disclosure.",
+          "Use complies with the exact event policy."
+        ],
+        [
+          "Demo fallback",
+          "Data permission, environment and approved backup.",
+          "The learning outcome survives a live failure."
+        ],
+        [
+          "Logistics",
+          "Speakers, travel, accessibility, recording and code of conduct.",
+          "Every named speaker can meet the conditions."
+        ],
+        [
+          "Final review",
+          "Deadline, timezone, fields, links and independent reader feedback.",
+          "The submitted form is complete and internally consistent."
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "title": "PyCon US 2026: Proposal guidelines and AI-generated text policy",
+        "url": "https://us.pycon.org/2026/speaking/guidelines/"
+      },
+      {
+        "title": "PyCon US 2026: Proposing a talk and defining the audience",
+        "url": "https://us.pycon.org/2026/speaking/talks/"
+      },
+      {
+        "title": "PyCon US 2026: Proposal mentorship and review support",
+        "url": "https://us.pycon.org/2026/speaking/mentorship/"
+      },
+      {
+        "title": "Linux Foundation / ASWF Open Source Days: CFP guidance",
+        "url": "https://events.linuxfoundation.org/open-source-days/program/cfp/"
+      },
+      {
+        "title": "NeurIPS: Paper checklist guidance on claims and transparency",
+        "url": "https://neurips.cc/public/guides/PaperChecklist"
+      },
+      {
+        "title": "NeurIPS: Code of Ethics",
+        "url": "https://neurips.cc/public/EthicsGuidelines"
+      }
+    ]
   }
 ]

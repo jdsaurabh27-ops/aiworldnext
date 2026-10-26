@@ -60,6 +60,7 @@ function guideWorksheet(g) {
  return `<section><h2>${esc(w.title)}</h2><p>${esc(w.intro)}</p><div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse;text-align:left"><thead><tr>${w.columns.map(c => `<th scope="col" style="padding:12px;border:1px solid #334155">${esc(c)}</th>`).join('')}</tr></thead><tbody>${w.rows.map(row => `<tr>${row.map((cell, i) => i === 0 ? `<th scope="row" style="padding:12px;border:1px solid #334155">${esc(cell)}</th>` : `<td style="padding:12px;border:1px solid #334155">${esc(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div></section>`;
 }
 const relatedGuideSlugs = {
+ 'write-an-ai-conference-talk-proposal': ['plan-an-ai-event', 'verify-ai-news', 'ai-portfolio-project-guide'],
  'compare-ai-startup-cloud-credits': ['evaluate-an-ai-startup', 'ai-tool-privacy-checklist', 'compare-ai-tools-with-one-task'],
  'start-an-ai-podcast': ['learn-from-ai-podcasts', 'verify-ai-news', 'create-an-ai-voiceover'],
  'plan-humanoid-robot-demo': ['buy-your-first-robot', 'compare-robot-types', 'plan-an-ai-event'],
