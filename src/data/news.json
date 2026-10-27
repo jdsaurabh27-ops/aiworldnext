@@ -1,6 +1,60 @@
 [
   {
-    "id": 162,
+    "id": 1,
+    "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+    "description": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+    "date": "2026-10-27",
+    "image": "/brand/categories/news.svg",
+    "link": "https://openai.com/index/oracle-apps-in-chatgpt",
+    "category": "AI News",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 164,
+    "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
+    "description": "TechCrunch spoke to the MIT computer scientist charged with explaining OpenAI's latest mind-bending discovery",
+    "date": "2026-10-27",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/04/Screenshot-2026-04-14-at-7.00.44-PM.png?resize=1200,783",
+    "link": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/"
+  },
+  {
+    "id": 165,
+    "title": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
+    "description": "Rohit Patel is departing Meta after eight years working on AI evaluations and reinforcement learning, TechCrunch has exclusively learned. His startup, Ndoc, aims to take on Microsoft Office Suite.",
+    "date": "2026-10-27",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/rohit-5.jpg?resize=1200,800",
+    "link": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/"
+  },
+  {
+    "id": 166,
+    "title": "Opera introduces a new web standard to let users deploy AI locally in their browser",
+    "description": "The new standard, WebAI, is designed to work with a variety of AI models.",
+    "date": "2026-10-27",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/ai-agents-chatbots-GettyImages-2243730029.jpg?resize=1200,675",
+    "link": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/"
+  },
+  {
+    "id": 167,
+    "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+    "description": "Simplismart says its annualized revenue run rate has grown 14-fold in six months, with the U.S. accounting for more than half its revenue.",
+    "date": "2026-10-27",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/simplismart-founders-amritanshu-devansh.jpg?resize=1200,800",
+    "link": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/"
+  },
+  {
+    "id": 168,
     "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
     "description": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
     "date": "2026-10-27",
@@ -11,7 +65,7 @@
     "imageSource": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/"
   },
   {
-    "id": 163,
+    "id": 169,
     "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
     "description": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing",
     "date": "2026-10-27",
@@ -22,7 +76,40 @@
     "imageSource": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/"
   },
   {
-    "id": 1,
+    "id": 181,
+    "title": "The Download: Anthropic’s IPO, smarter power grids, and exercise pills",
+    "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Will the real Anthropic please stand up? After weeks of frenzied",
+    "date": "2026-10-27",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/anthropic-darioB_1.jpg?resize=1200,600",
+    "link": "https://www.technologyreview.com/2026/10/27/1147693/the-download-anthropic-ipo-smarter-power-grids-exercise-pills/",
+    "category": "AI Research",
+    "imageKind": "source",
+    "imageSource": "https://www.technologyreview.com/2026/10/27/1147693/the-download-anthropic-ipo-smarter-power-grids-exercise-pills/"
+  },
+  {
+    "id": 182,
+    "title": "How solid-state transformers could help power the AI boom",
+    "description": "Transformers are a crucial but nearly invisible part of our grid. The devices help efficiently move power across long distances, but they’re complicated and in short supply. And given that their basic design hasn’t changed",
+    "date": "2026-10-27",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/261016_digitaltransformers.jpg?resize=1200,600",
+    "link": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/",
+    "category": "AI Research",
+    "imageKind": "source",
+    "imageSource": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/"
+  },
+  {
+    "id": 188,
+    "title": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
+    "description": "There are 57 million people worldwide living with dementia today. For the researchers working to help them, the obstacle isn’t a lack of effort — it’s too much data, too few experts to synthesize it",
+    "date": "2026-10-27",
+    "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/cbrain-nvidia-1.png",
+    "link": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia/",
+    "category": "AI Hardware",
+    "imageKind": "source",
+    "imageSource": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia/"
+  },
+  {
+    "id": 2,
     "title": "Working with academic communities to build scientific understanding",
     "description": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
     "date": "2026-10-26",
@@ -32,7 +119,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "ChatGPT’s expanding world of work",
     "description": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
     "date": "2026-10-26",
@@ -42,7 +129,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "How Fanatics and OpenAI streamline the fan experience",
     "description": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
     "date": "2026-10-26",
@@ -52,7 +139,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
     "description": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
     "date": "2026-10-26",
@@ -62,7 +149,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 164,
+    "id": 170,
     "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
     "description": "Anthropic’s S-1 shows more than half of its $100,000-plus customers now use both the Claude Platform and a first-party app, a cross-selling playbook reminiscent of Amazon that’s making enterprise customers stickier.",
     "date": "2026-10-26",
@@ -71,93 +158,5 @@
     "category": "AI Industry",
     "imageKind": "source",
     "imageSource": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/"
-  },
-  {
-    "id": 165,
-    "title": "SpaceX locks in $40B GPU financing deal with Apollo",
-    "description": "The financing gives SpaceX another way to fund its rapidly expanding AI ambitions without relying solely on traditional debt markets.",
-    "date": "2026-10-26",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-20-at-2.40.46-PM-e1793033116950.png?resize=1200,911",
-    "link": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/"
-  },
-  {
-    "id": 166,
-    "title": "Anthropic officially files for its public debut",
-    "description": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
-    "date": "2026-10-26",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2295579000.jpg?resize=1200,800",
-    "link": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/"
-  },
-  {
-    "id": 181,
-    "title": "Will the real Anthropic please stand up",
-    "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus.",
-    "date": "2026-10-26",
-    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/anthropic-dario1a.jpg?resize=1200,600",
-    "link": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
-    "category": "AI Research",
-    "imageKind": "source",
-    "imageSource": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/"
-  },
-  {
-    "id": 182,
-    "title": "The Download: everyday AI harms and the race to nuclear spaceflight",
-    "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Opinion: The focus on AI safety disasters ignores everyday harms —Sam",
-    "date": "2026-10-26",
-    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/monkeys-teen3.jpg?resize=1200,600",
-    "link": "https://www.technologyreview.com/2026/10/26/1147650/the-download-everyday-ai-harms-nuclear-spaceflight/",
-    "category": "AI Research",
-    "imageKind": "source",
-    "imageSource": "https://www.technologyreview.com/2026/10/26/1147650/the-download-everyday-ai-harms-nuclear-spaceflight/"
-  },
-  {
-    "id": 183,
-    "title": "The focus on AI safety disasters ignores everyday harms",
-    "description": "Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide. A social media platform makes it more difficult for children to buy fentanyl. These are important",
-    "date": "2026-10-26",
-    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/monkeys-teen3.jpg?resize=1200,600",
-    "link": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
-    "category": "AI Research",
-    "imageKind": "source",
-    "imageSource": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/"
-  },
-  {
-    "id": 167,
-    "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
-    "description": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
-    "date": "2026-10-25",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/03/grok-getty.jpg?resize=1200,800",
-    "link": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/"
-  },
-  {
-    "id": 168,
-    "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
-    "description": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
-    "date": "2026-10-25",
-    "image": "https://techcrunch.com/wp-content/uploads/2023/08/GettyImages-1308803174.jpg?resize=1200,800",
-    "link": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/"
-  },
-  {
-    "id": 169,
-    "title": "The hottest AI wearables and gadgets you should know about",
-    "description": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
-    "date": "2026-10-25",
-    "image": "https://techcrunch.com/wp-content/uploads/2016/09/robocash.jpg?resize=1200,849",
-    "link": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/"
   }
 ]

@@ -3,15 +3,15 @@
     "id": 1,
     "title": "Latent Space: The AI Engineer Podcast",
     "host": "Latent Space",
-    "description": "Latest episode: [AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed. We have Fable at home... or so we are being told by paid shills",
-    "link": "https://latent.space/p/ainews-kimi-31/",
+    "description": "Latest episode: Coding From the Himalayas With an Offline AI Agent. How to set up and run an offline coding agent using OpenCode, Ollama and Qwen.",
+    "link": "https://latent.space/p/offline-coding/",
     "category": "AI Engineering",
     "image": "https://latent.space/og/8d6b08062d5b3b44031a253344d428b4ab10c8ec040b2306dccc3394a7e64ba3.jpg",
     "sourceUrl": "https://www.latent.space/podcast",
     "checkedAt": "2026-10-27",
     "imageKind": "source",
     "imageSource": "https://www.latent.space/podcast",
-    "latestEpisode": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed"
+    "latestEpisode": "Coding From the Himalayas With an Offline AI Agent"
   },
   {
     "id": 2,
