@@ -89,6 +89,14 @@
         "For each sample record mispronounced words, awkward pauses, edits needed, regeneration attempts and total editing minutes. Listen on a phone speaker as well as headphones. Give a point only when the output meets your written requirement; keep both original exports so your conclusion can be checked. We have not generated or scored these samples ourselves."
       ],
       [
+        "Example: compare a short tutorial and a longer narration",
+        "Use two separate trials if you make both short clips and longer videos. For a short tutorial, judge whether the narration fits each screen action and whether the closing sentence finishes on time. For a longer narration, listen for inconsistent names, tone changes and awkward joins between paragraphs. A tool that needs fewer corrections for one format may need more for the other. This is a proposed test design, not a result from either provider."
+      ],
+      [
+        "Calculate cost per usable finished video",
+        "Use your own measured workload: divide the total monthly production cost by the number of videos you actually finish. Include the subscription, extra generation charges, separate editing tools and, if useful for your business, editing time at a stated hourly rate. As a fictional arithmetic example, a total cost of $30 across ten completed videos is $3 per video. Those numbers are not Murf or ElevenLabs prices. Failed generations and abandoned projects still consume time or allowance, so do not divide by every draft created."
+      ],
+      [
         "Check exports and publishing rights",
         "Before subscribing, verify download availability, output format, watermark, usage allowance and commercial-use terms for the exact plan. A free preview is not proof of permission to publish a commercial video. Check cancellation and renewal terms directly with each provider; this guide does not freeze prices or promise free exports."
       ],
@@ -190,12 +198,20 @@
         "Write a short introduction, one clear point and a closing sentence. Read it aloud yourself. Break long sentences and expand abbreviations when their spoken form is unclear. Use a non-sensitive sample: “Welcome to our weekly AI update. Today we will show you how to check a source before sharing a headline.” Save a clean copy before editing."
       ],
       [
+        "Example: a short screen-recording narration",
+        "Illustrative script: “Before sharing an AI headline, open the original announcement. Check its date and look for words such as preview or research. Then confirm whether the feature is available to you. Save the source link with your notes, and explain any uncertainty before you publish.” Record one sentence per screen action. This is a practice script, not a measured thirty-second recording; time the generated audio before placing it on a timeline."
+      ],
+      [
         "Generate a first sample in ElevenLabs",
         "Open Text to Speech in your ElevenLabs account, enter the script and select an available voice and model. Begin with the default settings and generate a short passage before a longer project. Account options, model access and usage allowances can change, so check the current interface and plan. Do not assume every available voice will suit your language or delivery."
       ],
       [
         "Listen for errors, then change one thing",
         "Check names, dates, abbreviations, pauses and emphasis while following the written script. If a phrase is unclear, rewrite it in a spoken form and regenerate a short segment. When the selected model offers voice settings, adjust one setting at a time and compare the same sentence. Stability affects variation in delivery; a higher value is not automatically a better result. Keep the version that is clearest to your intended audience."
+      ],
+      [
+        "Fix a rushed ending without losing the message",
+        "If narration overruns the final scene, first remove repeated phrases and shorten the closing instruction. Keep the useful action, such as “Read the source before sharing.” Regenerate only the changed section where your editor permits it, then listen across the join for a change in loudness or tone. Avoid solving every timing problem by speeding up the entire track. Leave enough time for the final sentence to finish before the picture cuts."
       ],
       [
         "Download and edit the track",
@@ -208,6 +224,10 @@
       [
         "Measure whether it helped",
         "Record script preparation time, generation attempts, editing time and pronunciation fixes. Compare that total with your existing recording process. A successful short trial is a starting point for deciding whether to use the tool again, not proof that it will work equally well for every language or project."
+      ],
+      [
+        "A release checklist for your first video",
+        "Before publishing, answer yes to each question: Does the final audio match the approved script? Are names and numbers spoken correctly? Can the narration be understood on a phone speaker? Do captions match the spoken words? Does the last sentence finish before the video ends? Have you checked permission for the voice, music and intended use? Keep the script, audio version and permission sources together so you can correct a mistake later."
       ]
     ],
     "sources": [
