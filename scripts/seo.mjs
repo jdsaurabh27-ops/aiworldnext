@@ -21,7 +21,7 @@ for(const file of files('dist').filter(f=>f.endsWith('.html'))){
  '/blogs/':'Explore articles from AI publishers alongside links to original AIWorldNext guides. Find practical workflows and learning topics.',
  '/jobs/':'Explore AI engineering, machine learning and data science job listings. Check current requirements, location and availability at the original source.',
  '/events/':'Discover AI events and conferences from linked sources. Confirm dates, venue, registration and availability with the organiser.',
- '/guides/':'Read practical guides to choosing AI tools, creating voiceovers, checking privacy, verifying news and comparing robots.',
+ '/guides/':'Explore original AI workflows, comparisons and checklists for tools, careers, robotics, podcasts and startups, with linked sources and clear limitations.',
  '/robots/':'Explore robot dogs, humanoids, coding kits and service robots. Find official sources and send purchase, demo or rental enquiries to AIWorldNext.'};
  if(seoTargets[path])descriptions[path]=seoTargets[path].description;
  if(descriptions[path])html=html.replace(/<meta\s+name="description"\s+content="[^"]*"[^>]*>/i,`<meta name="description" content="${esc(descriptions[path])}">`);
