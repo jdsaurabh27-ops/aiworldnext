@@ -3,15 +3,15 @@
     "id": 1,
     "title": "Latent Space: The AI Engineer Podcast",
     "host": "Latent Space",
-    "description": "Latest episode: Coding From the Himalayas With an Offline AI Agent. How to set up and run an offline coding agent using OpenCode, Ollama and Qwen.",
-    "link": "https://latent.space/p/offline-coding/",
+    "description": "Latest episode: How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands.",
+    "link": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/",
     "category": "AI Engineering",
     "image": "https://latent.space/og/8d6b08062d5b3b44031a253344d428b4ab10c8ec040b2306dccc3394a7e64ba3.jpg",
     "sourceUrl": "https://www.latent.space/podcast",
     "checkedAt": "2026-10-27",
     "imageKind": "source",
     "imageSource": "https://www.latent.space/podcast",
-    "latestEpisode": "Coding From the Himalayas With an Offline AI Agent"
+    "latestEpisode": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands"
   },
   {
     "id": 2,
