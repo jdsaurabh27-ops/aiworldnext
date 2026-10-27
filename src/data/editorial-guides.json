@@ -1350,5 +1350,123 @@
         "url": "https://neurips.cc/public/EthicsGuidelines"
       }
     ]
+  },
+  {
+    "slug": "openai-models-google-cloud-explained",
+    "title": "OpenAI models on Google Cloud: what the announcement means for buyers",
+    "intro": "OpenAI models are entering Google Cloud's Model Garden, but access is still in private preview. Separate the confirmed launch details from future promises and use a workload test before changing vendors.",
+    "checkedAt": "27 October 2026",
+    "kind": "AI news explainer",
+    "sections": [
+      [
+        "What was announced",
+        "OpenAI and Google Cloud announced their partnership on 21 October 2026. OpenAI says its frontier models and Codex workflows are coming to Google Cloud's Model Garden and will be purchased through Google Cloud Marketplace. Google Cloud names GPT-6 Astra, GPT-6.1 Sol and GPT-6 Luna as the first models. This creates another procurement and deployment route for organisations already using Google Cloud; it does not make every OpenAI product available in every Google Cloud account."
+      ],
+      [
+        "Availability is limited today",
+        "Google Cloud says the three named models are rolling out in private preview to selected enterprise customers and provides an interest form. OpenAI says general availability is planned in the coming weeks. Treat that as a plan rather than a guaranteed production date. Before designing a launch around the service, confirm that the required model, region, quota, API, support level and production terms are enabled in the organisation's own account."
+      ],
+      [
+        "What may become simpler",
+        "The announcements say model usage will be transacted through Google Cloud Marketplace, appear on one Google Cloud invoice and draw down eligible existing cloud commitments. That could reduce vendor onboarding and billing fragmentation for some enterprises. It does not prove that the route is cheaper: Marketplace software can have subscription charges, usage charges or both, and Google Cloud documentation says software and supporting cloud resources can be billed separately. Compare the actual offer, infrastructure charges, discounts and support terms."
+      ],
+      [
+        "Governance claims still need contract review",
+        "Google Cloud describes data perimeters, authenticated identities, audit logging and other controls for OpenAI workloads. Its announcement also labels some features, including Zero Data Retention options and Confidential Compute, as coming soon. Procurement and security teams should verify the exact controls available for the selected service, project and region, then review retention, training use, subprocessors, residency, encryption, access, logging and incident terms in the applicable contract and documentation. A launch article is not a data-processing agreement or compliance certification."
+      ],
+      [
+        "Model choice is useful only when the task is fixed",
+        "Do not compare models with different prompts, documents or scoring rules. Select one representative workload and a small authorised evaluation set. Record required output quality, latency, failure categories and cost per completed task. Run the same cases against the existing route and the preview route when access is available. Model Garden can centralise discovery and deployment patterns, but a larger catalogue does not remove the need for task-specific evaluation."
+      ],
+      [
+        "Example: a fictional support-summary pilot",
+        "Imagine a company that already runs its support application on Google Cloud and wants short case summaries for human agents. It creates 100 authorised, de-identified cases covering routine questions, refunds and urgent escalation signals. Reviewers score whether each summary preserves the issue, action taken and escalation status; they also record latency, rejected requests and total service cost. The team keeps human review and does not allow the summary tool to send messages or decide refunds. This is an illustrative evaluation design, not a claim that AIWorldNext tested the announced service."
+      ],
+      [
+        "Check portability before adopting a unified route",
+        "A single cloud invoice can simplify operations while increasing dependency on one identity, billing and deployment layer. Keep model calls behind a documented interface, store evaluation cases independently, record provider-specific parameters and define what must change if a model or route is unavailable. Test the fallback rather than merely naming it. Portability does not mean every model will produce interchangeable outputs; it means the team understands the work required to switch safely."
+      ],
+      [
+        "Separate preview testing from production approval",
+        "Use a preview to answer a limited question, such as whether one workload meets an agreed quality and latency threshold. Do not place confidential or regulated data into a preview until the organisation has approved the terms and controls. Set a spending cap, named owner, end date and stop conditions. Production approval should require confirmed availability, support, capacity, monitoring, incident handling, security review and a cost forecast based on measured usage."
+      ],
+      [
+        "A practical decision for current Google Cloud customers",
+        "Request preview access only if there is a named workload, owner and evaluation plan. If procurement consolidation is the main benefit, compare the full invoice and contract path against direct access and other approved providers. If model quality is the main benefit, run the same evaluation set across candidates. If neither benefit is measurable yet, record the announcement and wait for generally available documentation rather than rebuilding an architecture around an unconfirmed timeline."
+      ],
+      [
+        "Limitations and source dates",
+        "This explainer covers official information checked on 27 October 2026 and is not purchasing, legal, security or compliance advice. OpenAI and Google Cloud published their announcements on 21 October 2026. Google Cloud documentation used here was updated on 22 October 2026. Pricing, regions, quotas, model versions, preview eligibility, contractual terms and planned features can change. Confirm them inside the relevant account and current contract before making a production decision."
+      ]
+    ],
+    "worksheet": {
+      "title": "OpenAI-on-Google-Cloud evaluation sheet",
+      "intro": "Complete this with account-specific evidence before approving a preview or production workload.",
+      "columns": [
+        "Decision area",
+        "Evidence to collect",
+        "Pass condition"
+      ],
+      "rows": [
+        [
+          "Availability",
+          "Model, region, quota, API, preview status and target date.",
+          "Every required capability is enabled; future plans are labelled."
+        ],
+        [
+          "Workload",
+          "Named user, task, input type, output and prohibited actions.",
+          "The pilot has one bounded purpose and an accountable owner."
+        ],
+        [
+          "Quality",
+          "Fixed evaluation set, rubric, errors and human-review results.",
+          "Thresholds are met on representative authorised cases."
+        ],
+        [
+          "Data governance",
+          "Retention, training use, residency, access, logs and contract terms.",
+          "Security and privacy owners approve the exact configuration."
+        ],
+        [
+          "Cost",
+          "Model usage, infrastructure, Marketplace charges, discounts and support.",
+          "Forecast uses measured volume and includes all charge categories."
+        ],
+        [
+          "Operations",
+          "Capacity, monitoring, incidents, support and stop conditions.",
+          "The production team can detect, contain and recover from failures."
+        ],
+        [
+          "Portability",
+          "Interface, provider-specific settings, stored tests and fallback drill.",
+          "A switch plan has been tested and its limitations recorded."
+        ],
+        [
+          "Final decision",
+          "Owner, evidence date, approval scope and next review trigger.",
+          "Preview evidence is not presented as permanent production approval."
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "title": "OpenAI: OpenAI models are coming to Google Cloud (21 October 2026)",
+        "url": "https://openai.com/index/openai-models-google-cloud/"
+      },
+      {
+        "title": "Google Cloud: Bringing OpenAI models to customers (21 October 2026)",
+        "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers"
+      },
+      {
+        "title": "Google Cloud documentation: Model Garden overview",
+        "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-garden/explore-models"
+      },
+      {
+        "title": "Google Cloud documentation: Billing for Marketplace products",
+        "url": "https://docs.cloud.google.com/marketplace/docs/billing"
+      }
+    ]
   }
 ]
