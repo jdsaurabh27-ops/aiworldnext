@@ -1488,5 +1488,136 @@
         "url": "https://docs.cloud.google.com/marketplace/docs/billing"
       }
     ]
+  },
+  {
+    "slug": "evaluate-ai-coding-agent-repository-access",
+    "title": "How to evaluate an AI coding agent before connecting a repository",
+    "intro": "Test one bounded task with selected-repository access, isolated changes and human review before giving a coding agent broader reach.",
+    "checkedAt": "28 October 2026",
+    "kind": "AI tool evaluation guide",
+    "sections": [
+      [
+        "Start with the task, not the agent",
+        "Write down one development task, the expected files, the allowed actions and the acceptance tests before connecting a repository. “Improve the app” gives neither the agent nor the reviewer a reliable boundary. A better pilot is: update one documented dependency in a non-production repository, change only the files required by that update, run the existing test command and open a reviewable change. The task definition is also the baseline for comparing tools; changing the task between trials makes the result difficult to interpret."
+      ],
+      [
+        "Map every path into the repository",
+        "Repository access can arrive through an installed app, a connected GitHub account, a local checkout, an IDE extension or a prepared cloud environment. Record the account, repositories, branches, permissions and organisations each path can reach. GitHub lets an individual choose no repositories, all repositories or only selected repositories for its cloud agent, and says enabled partner coding agents share that repository scope. Prefer the smallest selection that can complete the pilot, then confirm the effective access rather than relying on the label of a plan or setting."
+      ],
+      [
+        "Separate code access from execution access",
+        "Reading and editing code is only one boundary. A coding agent may also run shell commands, install packages, call external services or use tools connected through an extension or protocol. OpenAI describes a sandbox as the boundary for writable paths and network reach, with approvals controlling actions outside that boundary. List the commands, filesystem locations, package registries, domains and connected tools the task actually needs. Deny broad network or system access when a narrow allowlist or isolated environment is sufficient."
+      ],
+      [
+        "Keep credentials outside the ordinary work area",
+        "Do not place production tokens, customer data, signing keys or unrestricted cloud credentials in the repository merely to make a pilot convenient. Inventory which secrets the setup can read, where they are stored, what they can do and how they will be rotated. Use short-lived, least-privilege credentials for an approved test service when the task truly requires them. OpenAI’s cloud documentation notes that an environment combines repositories, dependencies and access settings, and advises reviewing files, credentials and connections before sharing an environment."
+      ],
+      [
+        "Treat issues, documents and tool output as untrusted input",
+        "A repository can contain instructions in issue text, comments, documentation, tests, generated files or retrieved web pages. Those instructions may be wrong or deliberately hostile. GitHub’s security guidance explicitly identifies prompt injection through issues and comments as a risk for a coding agent. Do not let repository text silently expand the task. Require the agent to follow the named task and repository rules, restrict sensitive tools, and stop for human review when content asks for credentials, external uploads, destructive commands or unrelated changes."
+      ],
+      [
+        "Use an isolated branch and a reversible first task",
+        "Run the first evaluation in a test repository, fork or isolated branch that contains no unique production data. Protect the default branch and require the result to arrive as a diff or pull request. GitHub documents a design in which its cloud agent is restricted to one working branch and a human must review and merge the draft pull request. Other products may use different controls, so verify the actual branch, approval and merge behaviour instead of assuming those protections are universal."
+      ],
+      [
+        "Example: a fictional dependency-update pilot",
+        "Imagine a small internal service with an existing lockfile, automated tests and a staging environment. The owner asks the agent to update one patch-level test dependency, preserve runtime dependencies, run the documented test command and explain any lockfile changes. The agent receives access only to a disposable branch and a test package registry credential with no publish permission. A developer checks the diff, dependency advisory, test output and unexpected files before deciding whether to merge. This is an illustrative evaluation design, not a claim that AIWorldNext tested a product or that a patch update is always low risk."
+      ],
+      [
+        "Review the evidence, not the completion message",
+        "Inspect the complete diff, commands, logs, tests and dependency changes. Re-run important checks in a trusted environment and add the project’s normal security analysis. NIST’s Secure Software Development Framework treats code review and code analysis as practices to define and perform according to an organisation’s standards. A passing test suite is evidence about the cases it covers; it does not prove that the change is secure, correct in production or free of hidden scope changes."
+      ],
+      [
+        "Measure a completed task and its correction cost",
+        "Record whether the acceptance criteria passed, how long the agent and reviewer spent, the number of correction rounds, unexpected files, failed commands, security findings and total billable usage. Compare that with the same bounded task completed under the team’s normal workflow. One successful demonstration is not enough to justify broad access. Repeat across representative low-risk tasks before expanding repository scope, autonomy or credentials."
+      ],
+      [
+        "Close the pilot and remove unused access",
+        "At the end, revoke the test credential, remove unused app access, delete temporary environments according to policy and record the retained logs and changes. Confirm that the agent no longer has access to repositories that are outside the approved rollout. Set an owner and review date for any continuing integration. Access that was appropriate for a two-day pilot should not become permanent merely because nobody revisited the settings."
+      ],
+      [
+        "Limitations and source dates",
+        "This is a general evaluation workflow, not security, legal or procurement advice and not a hands-on comparison of coding agents. Official OpenAI, GitHub and NIST sources were checked on 28 October 2026. Product permissions, defaults, prices, model availability, data handling and security controls can change. GitHub-specific branch and review protections described here should not be attributed to every provider. Confirm current documentation, the installed app’s effective permissions and your organisation’s policies before connecting confidential repositories."
+      ]
+    ],
+    "worksheet": {
+      "title": "AI coding agent repository-access review",
+      "intro": "Complete this before the pilot and attach the resulting evidence to the approval decision.",
+      "columns": [
+        "Decision area",
+        "Evidence to record",
+        "Pass condition"
+      ],
+      "rows": [
+        [
+          "Purpose",
+          "One task, allowed files, prohibited actions and acceptance tests.",
+          "The pilot has a bounded outcome that a reviewer can verify."
+        ],
+        [
+          "Repository scope",
+          "Connected account, selected repositories, organisations and branches.",
+          "Only the repositories required for the pilot are reachable."
+        ],
+        [
+          "Execution boundary",
+          "Writable paths, commands, packages, network destinations and tools.",
+          "Every capability is required, restricted and documented."
+        ],
+        [
+          "Credentials and data",
+          "Secrets, permissions, expiry, storage and allowed data classes.",
+          "No production secret or unapproved sensitive data is exposed."
+        ],
+        [
+          "Untrusted input",
+          "Issues, comments, documents, web content and stop conditions.",
+          "External instructions cannot silently expand the task or access."
+        ],
+        [
+          "Change isolation",
+          "Test repository or branch, default-branch rules and rollback.",
+          "Changes remain reversible and cannot bypass required review."
+        ],
+        [
+          "Validation",
+          "Diff review, trusted test run, security checks and reviewer.",
+          "All expected checks pass and unexpected changes are resolved."
+        ],
+        [
+          "Cost and effort",
+          "Usage charges, elapsed time, review time and correction rounds.",
+          "The comparison includes the full cost of a completed task."
+        ],
+        [
+          "Cleanup",
+          "Revoked credentials, removed access, retained logs and review date.",
+          "Temporary access is closed and continuing access has an owner."
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "title": "OpenAI: Running Codex safely at OpenAI (8 May 2026)",
+        "url": "https://openai.com/index/running-codex-safely/"
+      },
+      {
+        "title": "OpenAI Help: Using Codex Cloud",
+        "url": "https://help.openai.com/en/articles/20001545-using-codex-cloud"
+      },
+      {
+        "title": "GitHub Docs: Managing Copilot repository and partner-agent policies",
+        "url": "https://docs.github.com/en/copilot/how-tos/manage-your-account/manage-policies"
+      },
+      {
+        "title": "GitHub Docs: Risks and mitigations for Copilot cloud agent",
+        "url": "https://docs.github.com/en/copilot/concepts/security-governance-and-network-settings/risks-and-mitigations"
+      },
+      {
+        "title": "NIST: Secure Software Development Framework",
+        "url": "https://csrc.nist.gov/projects/ssdf"
+      }
+    ]
   }
 ]
