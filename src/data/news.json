@@ -1,6 +1,27 @@
 [
   {
+    "id": 166,
+    "title": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
+    "description": "Massive note conversions reveal the true extent of Amazon's ownership in Anthropic.",
+    "date": "2026-10-28",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798",
+    "link": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/"
+  },
+  {
     "id": 1,
+    "title": "Retell uses OpenAI models to help power 100M monthly calls",
+    "description": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+    "date": "2026-10-27",
+    "image": "/brand/categories/news.svg",
+    "link": "https://openai.com/index/retell-ai",
+    "category": "AI News",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 2,
     "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
     "description": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
     "date": "2026-10-27",
@@ -10,9 +31,74 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 164,
+    "id": 3,
+    "title": "How Check Point accelerates vulnerability research with Daybreak",
+    "description": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+    "date": "2026-10-27",
+    "image": "/brand/categories/news.svg",
+    "link": "https://openai.com/index/check-point-daybreak",
+    "category": "AI News",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 167,
+    "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+    "description": "A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February.",
+    "date": "2026-10-27",
+    "image": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2191707579.jpg?w=1024",
+    "link": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/"
+  },
+  {
+    "id": 168,
+    "title": "The data center boom has an upside: innovation for the US grid",
+    "description": "As the AI boom stresses the existing power grid, all sorts of new opportunities for grid modernization are also emerging as a result, industry insiders say.",
+    "date": "2026-10-27",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/55589499263_7ac8a28eb3_k.jpg?resize=1200,800",
+    "link": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/"
+  },
+  {
+    "id": 169,
+    "title": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
+    "description": "The banking giant reminds customers that \"you're responsible for activity\" resulting from your AI agents' access.",
+    "date": "2026-10-27",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/05/ai-agents-GettyImages-2229880232.jpg?resize=1200,675",
+    "link": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/"
+  },
+  {
+    "id": 170,
+    "title": "Who’s really in charge at Anthropic after the IPO?",
+    "description": "Here's a clear explanation of Anthropic's incredibly complex governance structure.",
+    "date": "2026-10-27",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2151610601.jpg?resize=1200,799",
+    "link": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/"
+  },
+  {
+    "id": 171,
+    "title": "Disruptive raises $10B fund to make big bets on at least 10 companies",
+    "description": "Disruptive has made headlines in recent years for pouring money into companies like chip startup Groq and the AI voice-generation startup ElevenLabs.",
+    "date": "2026-10-27",
+    "image": "https://techcrunch.com/wp-content/uploads/2023/03/GettyImages-1191380440.jpg?resize=1200,800",
+    "link": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/"
+  },
+  {
+    "id": 172,
     "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
-    "description": "TechCrunch spoke to the MIT computer scientist charged with explaining OpenAI's latest mind-bending discovery",
+    "description": "TechCrunch spoke to the MIT computer scientist charged with explaining OpenAI's latest mind-bending discovery.",
     "date": "2026-10-27",
     "image": "https://techcrunch.com/wp-content/uploads/2026/04/Screenshot-2026-04-14-at-7.00.44-PM.png?resize=1200,783",
     "link": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
@@ -21,7 +107,7 @@
     "imageSource": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/"
   },
   {
-    "id": 165,
+    "id": 173,
     "title": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
     "description": "Rohit Patel is departing Meta after eight years working on AI evaluations and reinforcement learning, TechCrunch has exclusively learned. His startup, Ndoc, aims to take on Microsoft Office Suite.",
     "date": "2026-10-27",
@@ -32,7 +118,7 @@
     "imageSource": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/"
   },
   {
-    "id": 166,
+    "id": 174,
     "title": "Opera introduces a new web standard to let users deploy AI locally in their browser",
     "description": "The new standard, WebAI, is designed to work with a variety of AI models.",
     "date": "2026-10-27",
@@ -43,9 +129,9 @@
     "imageSource": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/"
   },
   {
-    "id": 167,
+    "id": 175,
     "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
-    "description": "Simplismart says its annualized revenue run rate has grown 14-fold in six months, with the U.S. accounting for more than half its revenue.",
+    "description": "Simplismart says its annualized revenue run rate has grown fourteenfold in six months, with the U.S. accounting for more than half its revenue.",
     "date": "2026-10-27",
     "image": "https://techcrunch.com/wp-content/uploads/2026/10/simplismart-founders-amritanshu-devansh.jpg?resize=1200,800",
     "link": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
@@ -54,7 +140,7 @@
     "imageSource": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/"
   },
   {
-    "id": 168,
+    "id": 176,
     "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
     "description": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
     "date": "2026-10-27",
@@ -65,7 +151,7 @@
     "imageSource": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/"
   },
   {
-    "id": 169,
+    "id": 177,
     "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
     "description": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing",
     "date": "2026-10-27",
@@ -74,89 +160,5 @@
     "category": "AI Industry",
     "imageKind": "source",
     "imageSource": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/"
-  },
-  {
-    "id": 181,
-    "title": "The Download: Anthropic’s IPO, smarter power grids, and exercise pills",
-    "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Will the real Anthropic please stand up? After weeks of frenzied",
-    "date": "2026-10-27",
-    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/anthropic-darioB_1.jpg?resize=1200,600",
-    "link": "https://www.technologyreview.com/2026/10/27/1147693/the-download-anthropic-ipo-smarter-power-grids-exercise-pills/",
-    "category": "AI Research",
-    "imageKind": "source",
-    "imageSource": "https://www.technologyreview.com/2026/10/27/1147693/the-download-anthropic-ipo-smarter-power-grids-exercise-pills/"
-  },
-  {
-    "id": 182,
-    "title": "How solid-state transformers could help power the AI boom",
-    "description": "Transformers are a crucial but nearly invisible part of our grid. The devices help efficiently move power across long distances, but they’re complicated and in short supply. And given that their basic design hasn’t changed",
-    "date": "2026-10-27",
-    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/261016_digitaltransformers.jpg?resize=1200,600",
-    "link": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/",
-    "category": "AI Research",
-    "imageKind": "source",
-    "imageSource": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/"
-  },
-  {
-    "id": 188,
-    "title": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
-    "description": "There are 57 million people worldwide living with dementia today. For the researchers working to help them, the obstacle isn’t a lack of effort — it’s too much data, too few experts to synthesize it",
-    "date": "2026-10-27",
-    "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/cbrain-nvidia-1.png",
-    "link": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia/",
-    "category": "AI Hardware",
-    "imageKind": "source",
-    "imageSource": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia/"
-  },
-  {
-    "id": 2,
-    "title": "Working with academic communities to build scientific understanding",
-    "description": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
-    "date": "2026-10-26",
-    "image": "/brand/categories/news.svg",
-    "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-    "category": "AI News",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 3,
-    "title": "ChatGPT’s expanding world of work",
-    "description": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
-    "date": "2026-10-26",
-    "image": "/brand/categories/news.svg",
-    "link": "https://openai.com/index/chatgpt-expanding-world-of-work",
-    "category": "AI News",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 4,
-    "title": "How Fanatics and OpenAI streamline the fan experience",
-    "description": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
-    "date": "2026-10-26",
-    "image": "/brand/categories/news.svg",
-    "link": "https://openai.com/index/fanatics-streamline-fan-experience",
-    "category": "AI News",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 5,
-    "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
-    "description": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
-    "date": "2026-10-26",
-    "image": "/brand/categories/news.svg",
-    "link": "https://openai.com/index/openai-cut-incident-investigation",
-    "category": "AI News",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 170,
-    "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
-    "description": "Anthropic’s S-1 shows more than half of its $100,000-plus customers now use both the Claude Platform and a first-party app, a cross-selling playbook reminiscent of Amazon that’s making enterprise customers stickier.",
-    "date": "2026-10-26",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2278152325.jpg?w=1024",
-    "link": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/"
   }
 ]

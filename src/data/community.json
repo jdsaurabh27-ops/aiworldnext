@@ -21,7 +21,7 @@
     "link": "https://hf.co/join/discord",
     "category": "Chat",
     "sourceUrl": "https://hf.co/join/discord",
-    "checkedAt": "2026-10-27",
+    "checkedAt": "2026-10-28",
     "imageKind": "logo",
     "imageSource": "https://hf.co/join/discord",
     "editorialDescription": "Join Hugging Face’s linked Discord community to discuss machine learning tools and projects. Check the current joining and account-verification requirements."
@@ -35,7 +35,7 @@
     "link": "https://www.meetup.com/topics/artificial-intelligence",
     "category": "Events",
     "sourceUrl": "https://www.meetup.com/topics/artificial-intelligence",
-    "checkedAt": "2026-10-27",
+    "checkedAt": "2026-10-28",
     "imageKind": "logo",
     "imageSource": "https://www.meetup.com/topics/artificial-intelligence",
     "editorialDescription": "Find local artificial-intelligence groups and events through Meetup. Check each organiser, location, date and attendance requirements before registering."
@@ -49,7 +49,7 @@
     "link": "https://www.womeninai.co",
     "category": "Diversity",
     "sourceUrl": "https://www.womeninai.co",
-    "checkedAt": "2026-10-27",
+    "checkedAt": "2026-10-28",
     "imageKind": "logo",
     "imageSource": "https://www.womeninai.co",
     "editorialDescription": "Explore Women in AI’s education, events and community initiatives. Visit the official website for local participation options."
@@ -63,7 +63,7 @@
     "link": "https://ai.stackexchange.com",
     "category": "Q&A",
     "sourceUrl": "https://ai.stackexchange.com",
-    "checkedAt": "2026-10-27",
+    "checkedAt": "2026-10-28",
     "imageKind": "logo",
     "imageSource": "https://ai.stackexchange.com",
     "editorialDescription": "Ask and browse conceptual questions about artificial intelligence on Stack Exchange. Search existing answers and review the site’s question guidelines first."
@@ -77,7 +77,7 @@
     "link": "https://mlops.community",
     "category": "Professional",
     "sourceUrl": "https://mlops.community",
-    "checkedAt": "2026-10-27",
+    "checkedAt": "2026-10-28",
     "imageKind": "logo",
     "imageSource": "https://mlops.community",
     "editorialDescription": "Explore discussions and learning resources about deploying and operating machine learning systems through the MLOps Community."
@@ -95,6 +95,6 @@
     "imageSource": "https://neurips.cc",
     "editorialDescription": "Explore the NeurIPS research conference and its official participation information. Check the current programme, dates and registration requirements.",
     "sourceUrl": "https://neurips.cc",
-    "checkedAt": "2026-10-27"
+    "checkedAt": "2026-10-28"
   }
 ]
