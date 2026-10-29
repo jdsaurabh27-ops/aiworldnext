@@ -7,7 +7,7 @@
     "link": "https://huggingface.co",
     "category": "Platform",
     "sourceUrl": "https://huggingface.co",
-    "checkedAt": "2026-10-28",
+    "checkedAt": "2026-10-29",
     "imageKind": "source",
     "logoIcon": "https://www.google.com/s2/favicons?domain=huggingface.co&sz=128",
     "imageSource": "https://huggingface.co"
@@ -20,7 +20,7 @@
     "link": "https://www.langchain.com",
     "category": "Framework",
     "sourceUrl": "https://www.langchain.com",
-    "checkedAt": "2026-10-28",
+    "checkedAt": "2026-10-29",
     "imageKind": "logo",
     "logoIcon": "https://www.google.com/s2/favicons?domain=www.langchain.com&sz=128",
     "imageSource": "https://www.langchain.com"
@@ -33,7 +33,7 @@
     "link": "https://pytorch.org",
     "category": "Framework",
     "sourceUrl": "https://pytorch.org",
-    "checkedAt": "2026-10-28",
+    "checkedAt": "2026-10-29",
     "imageKind": "logo",
     "logoIcon": "https://www.google.com/s2/favicons?domain=pytorch.org&sz=128",
     "imageSource": "https://pytorch.org"
@@ -46,7 +46,7 @@
     "link": "https://www.anthropic.com/api",
     "category": "API",
     "sourceUrl": "https://www.anthropic.com/api",
-    "checkedAt": "2026-10-28",
+    "checkedAt": "2026-10-29",
     "imageKind": "logo",
     "logoIcon": "https://www.google.com/s2/favicons?domain=www.anthropic.com&sz=128",
     "imageSource": "https://www.anthropic.com/api"
@@ -59,7 +59,7 @@
     "link": "https://paperswithcode.com",
     "category": "Research",
     "sourceUrl": "https://paperswithcode.com",
-    "checkedAt": "2026-10-28",
+    "checkedAt": "2026-10-29",
     "imageKind": "source",
     "logoIcon": "https://www.google.com/s2/favicons?domain=paperswithcode.com&sz=128",
     "imageSource": "https://paperswithcode.com"
@@ -72,7 +72,7 @@
     "link": "https://ollama.ai",
     "category": "Tools",
     "sourceUrl": "https://ollama.ai",
-    "checkedAt": "2026-10-28",
+    "checkedAt": "2026-10-29",
     "imageKind": "logo",
     "logoIcon": "https://www.google.com/s2/favicons?domain=ollama.ai&sz=128",
     "imageSource": "https://ollama.ai"
@@ -96,7 +96,7 @@
     "link": "https://replicate.com",
     "category": "Platform",
     "sourceUrl": "https://replicate.com",
-    "checkedAt": "2026-10-28",
+    "checkedAt": "2026-10-29",
     "imageKind": "logo",
     "imageSource": "https://replicate.com"
   },
@@ -108,7 +108,7 @@
     "link": "https://course.fast.ai",
     "category": "Education",
     "sourceUrl": "https://course.fast.ai",
-    "checkedAt": "2026-10-28",
+    "checkedAt": "2026-10-29",
     "imageKind": "source",
     "imageSource": "https://course.fast.ai"
   },
@@ -120,7 +120,7 @@
     "link": "https://www.kaggle.com",
     "category": "Community",
     "sourceUrl": "https://www.kaggle.com",
-    "checkedAt": "2026-10-28",
+    "checkedAt": "2026-10-29",
     "imageKind": "logo",
     "logoIcon": "https://www.google.com/s2/favicons?domain=www.kaggle.com&sz=128",
     "imageSource": "https://www.kaggle.com"
@@ -133,7 +133,7 @@
     "link": "https://www.pinecone.io",
     "category": "Infrastructure",
     "sourceUrl": "https://www.pinecone.io",
-    "checkedAt": "2026-10-28",
+    "checkedAt": "2026-10-29",
     "imageKind": "logo",
     "imageSource": "https://www.pinecone.io"
   },
@@ -152,11 +152,11 @@
     "id": 13,
     "title": "Andrej Karpathy's AI Course",
     "description": "Share your videos with friends, family, and the world",
-    "image": "https://www.youtube.com/s/desktop/46f6e5ef/img/favicon.ico",
+    "image": "https://www.youtube.com/s/desktop/0b8a310c/img/favicon.ico",
     "link": "https://www.youtube.com/@AndrejKarpathy",
     "category": "Education",
     "sourceUrl": "https://www.youtube.com/@AndrejKarpathy",
-    "checkedAt": "2026-10-28",
+    "checkedAt": "2026-10-29",
     "imageKind": "logo",
     "logoIcon": "https://www.google.com/s2/favicons?domain=www.youtube.com&sz=128",
     "imageSource": "https://www.youtube.com/@AndrejKarpathy"
@@ -169,7 +169,7 @@
     "link": "https://www.llamaindex.ai",
     "category": "Framework",
     "sourceUrl": "https://www.llamaindex.ai",
-    "checkedAt": "2026-10-28",
+    "checkedAt": "2026-10-29",
     "imageKind": "logo",
     "imageSource": "https://www.llamaindex.ai"
   },
@@ -181,7 +181,7 @@
     "link": "https://modal.com",
     "category": "Infrastructure",
     "sourceUrl": "https://modal.com",
-    "checkedAt": "2026-10-28",
+    "checkedAt": "2026-10-29",
     "imageKind": "source",
     "logoIcon": "https://www.google.com/s2/favicons?domain=modal.com&sz=128",
     "imageSource": "https://modal.com"

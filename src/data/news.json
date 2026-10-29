@@ -1,6 +1,135 @@
 [
   {
-    "id": 166,
+    "id": 1,
+    "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+    "description": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+    "date": "2026-10-28",
+    "image": "/brand/categories/news.svg",
+    "link": "https://openai.com/index/openai-servicenow-partnership-expansion",
+    "category": "AI News",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 2,
+    "title": "The future of the firm",
+    "description": "How AI might enter the org chart—beneath, beside, and between us.",
+    "date": "2026-10-28",
+    "image": "/brand/categories/news.svg",
+    "link": "https://openai.com/index/the-future-of-the-firm",
+    "category": "AI News",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 3,
+    "title": "Legora is building the agentic operating system for legal work",
+    "description": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+    "date": "2026-10-28",
+    "image": "/brand/categories/news.svg",
+    "link": "https://openai.com/index/legora",
+    "category": "AI News",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 167,
+    "title": "Google expands AI Search ads globally as core ad growth slows",
+    "description": "The announcement came alongside parent company Alphabet's third-quarter earnings report, which saw revenue grow 25% year over year to $127.6 billion.",
+    "date": "2026-10-28",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/06/google-logo.jpg?resize=1200,800",
+    "link": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/"
+  },
+  {
+    "id": 168,
+    "title": "Microsoft recorded $10 billion in revenue from OpenAI",
+    "description": "Microsoft said it made $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ending September 30. It underscores the still-enormous financial dependency of the partnership.",
+    "date": "2026-10-28",
+    "image": "https://techcrunch.com/wp-content/uploads/2024/07/GettyImages-2153474575.jpg?resize=1200,800",
+    "link": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/"
+  },
+  {
+    "id": 169,
+    "title": "Microsoft hits 10 quarters of record-breaking revenue in a row",
+    "description": "Whatever the future of AI might be, the current situation is still very good for Microsoft. The tech giant reported yet another record for quarterly revenue on Wednesday: $92.3 billion, a 19% increase over the",
+    "date": "2026-10-28",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/Satya-Nadella.jpg?resize=1200,800",
+    "link": "https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/"
+  },
+  {
+    "id": 170,
+    "title": "Anthropic just launched tools to show companies what their AI spending is buying",
+    "description": "The frontier lab is lifting the curtain on how users spend money on its models ahead of a planned IPO.",
+    "date": "2026-10-28",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/claude-enterprise-social-smartreports-five-beats-gray200-animated-1080x608-v032.gif?w=1080",
+    "link": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/"
+  },
+  {
+    "id": 171,
+    "title": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
+    "description": "The autofill update lets Chrome pull flight confirmations, tracking info, order details, and other information from your inbox, with your permission.",
+    "date": "2026-10-28",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/autofill-ai-chrome.jpg?resize=1200,643",
+    "link": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/"
+  },
+  {
+    "id": 172,
+    "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+    "description": "A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps.",
+    "date": "2026-10-28",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/Blog_ConnectedApps_1027_2.width-2200.format-webp.webp?resize=1200,675",
+    "link": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/"
+  },
+  {
+    "id": 173,
+    "title": "AI execs may be too out of touch to build for the general public",
+    "description": "Tech leaders are flaunting how out of touch they are when they brag about using AI to connect with their families.",
+    "date": "2026-10-28",
+    "image": "https://techcrunch.com/wp-content/uploads/2024/03/GettyImages-1172241499.jpg?resize=1200,728",
+    "link": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/"
+  },
+  {
+    "id": 174,
+    "title": "South Korea’s financial industry hit by fresh wave of cyberattacks",
+    "description": "South Korea’s financial institutions have been hit by another wave of cyberattacks, highlighting the growing risk of AI-driven hacking in Asia.",
+    "date": "2026-10-28",
+    "image": "https://techcrunch.com/wp-content/uploads/2023/05/south-korea-money-growth.jpg?resize=1200,675",
+    "link": "https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/"
+  },
+  {
+    "id": 175,
+    "title": "Voice AI in vogue: Nvidia releases new open transcription model",
+    "description": "Nvidia just released a free speech-to-text model that can transcribe up to 40 languages, but it only works on recordings, not live audio, so it’s a big step for meeting and medical transcription tools while",
+    "date": "2026-10-28",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/AI-on-the-tongue.png?resize=1200,600",
+    "link": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/"
+  },
+  {
+    "id": 176,
     "title": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
     "description": "Massive note conversions reveal the true extent of Amazon's ownership in Anthropic.",
     "date": "2026-10-28",
@@ -11,154 +140,25 @@
     "imageSource": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/"
   },
   {
-    "id": 1,
-    "title": "Retell uses OpenAI models to help power 100M monthly calls",
-    "description": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
-    "date": "2026-10-27",
-    "image": "/brand/categories/news.svg",
-    "link": "https://openai.com/index/retell-ai",
-    "category": "AI News",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 2,
-    "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-    "description": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
-    "date": "2026-10-27",
-    "image": "/brand/categories/news.svg",
-    "link": "https://openai.com/index/oracle-apps-in-chatgpt",
-    "category": "AI News",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 3,
-    "title": "How Check Point accelerates vulnerability research with Daybreak",
-    "description": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
-    "date": "2026-10-27",
-    "image": "/brand/categories/news.svg",
-    "link": "https://openai.com/index/check-point-daybreak",
-    "category": "AI News",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 167,
-    "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
-    "description": "A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February.",
-    "date": "2026-10-27",
-    "image": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2191707579.jpg?w=1024",
-    "link": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
-    "category": "AI Industry",
+    "id": 183,
+    "title": "Creating AI value with enterprise context",
+    "description": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick",
+    "date": "2026-10-28",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/MITTR2026_CovSocial1200_1028-e1793220807248.png?resize=1200,600",
+    "link": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
+    "category": "AI Research",
     "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/"
+    "imageSource": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/"
   },
   {
-    "id": 168,
-    "title": "The data center boom has an upside: innovation for the US grid",
-    "description": "As the AI boom stresses the existing power grid, all sorts of new opportunities for grid modernization are also emerging as a result, industry insiders say.",
-    "date": "2026-10-27",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/10/55589499263_7ac8a28eb3_k.jpg?resize=1200,800",
-    "link": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
-    "category": "AI Industry",
+    "id": 184,
+    "title": "The Download: dead startups fueling AI and interspecies communication",
+    "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI labs are buying data from dead startups to train their",
+    "date": "2026-10-28",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/AI-Death_Redamonti_MIT-thumb.jpg?resize=1200,600",
+    "link": "https://www.technologyreview.com/2026/10/28/1147767/the-download-dead-startups-fueling-ai-interspecies-communication/",
+    "category": "AI Research",
     "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/"
-  },
-  {
-    "id": 169,
-    "title": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
-    "description": "The banking giant reminds customers that \"you're responsible for activity\" resulting from your AI agents' access.",
-    "date": "2026-10-27",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/05/ai-agents-GettyImages-2229880232.jpg?resize=1200,675",
-    "link": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/"
-  },
-  {
-    "id": 170,
-    "title": "Who’s really in charge at Anthropic after the IPO?",
-    "description": "Here's a clear explanation of Anthropic's incredibly complex governance structure.",
-    "date": "2026-10-27",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2151610601.jpg?resize=1200,799",
-    "link": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/"
-  },
-  {
-    "id": 171,
-    "title": "Disruptive raises $10B fund to make big bets on at least 10 companies",
-    "description": "Disruptive has made headlines in recent years for pouring money into companies like chip startup Groq and the AI voice-generation startup ElevenLabs.",
-    "date": "2026-10-27",
-    "image": "https://techcrunch.com/wp-content/uploads/2023/03/GettyImages-1191380440.jpg?resize=1200,800",
-    "link": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/"
-  },
-  {
-    "id": 172,
-    "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
-    "description": "TechCrunch spoke to the MIT computer scientist charged with explaining OpenAI's latest mind-bending discovery.",
-    "date": "2026-10-27",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/04/Screenshot-2026-04-14-at-7.00.44-PM.png?resize=1200,783",
-    "link": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/"
-  },
-  {
-    "id": 173,
-    "title": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
-    "description": "Rohit Patel is departing Meta after eight years working on AI evaluations and reinforcement learning, TechCrunch has exclusively learned. His startup, Ndoc, aims to take on Microsoft Office Suite.",
-    "date": "2026-10-27",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/10/rohit-5.jpg?resize=1200,800",
-    "link": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/"
-  },
-  {
-    "id": 174,
-    "title": "Opera introduces a new web standard to let users deploy AI locally in their browser",
-    "description": "The new standard, WebAI, is designed to work with a variety of AI models.",
-    "date": "2026-10-27",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/10/ai-agents-chatbots-GettyImages-2243730029.jpg?resize=1200,675",
-    "link": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/"
-  },
-  {
-    "id": 175,
-    "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
-    "description": "Simplismart says its annualized revenue run rate has grown fourteenfold in six months, with the U.S. accounting for more than half its revenue.",
-    "date": "2026-10-27",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/10/simplismart-founders-amritanshu-devansh.jpg?resize=1200,800",
-    "link": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/"
-  },
-  {
-    "id": 176,
-    "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
-    "description": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
-    "date": "2026-10-27",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/10/55593495974_7bfdac6a15_k.jpg?resize=1200,800",
-    "link": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/"
-  },
-  {
-    "id": 177,
-    "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
-    "description": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing",
-    "date": "2026-10-27",
-    "image": "https://techcrunch.com/wp-content/uploads/2024/08/GettyImages-1757707025.jpg?w=1024",
-    "link": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/"
+    "imageSource": "https://www.technologyreview.com/2026/10/28/1147767/the-download-dead-startups-fueling-ai-interspecies-communication/"
   }
 ]

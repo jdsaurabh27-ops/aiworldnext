@@ -1,10 +1,36 @@
 [
   {
     "id": 1,
+    "title": "Gemini 4 Carbon: Our next frontier model",
+    "description": "Read the original report from Google DeepMind.",
+    "date": "2026-10-28",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_social_share.width-1300.png",
+    "link": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+    "category": "AI Research",
+    "author": "Google DeepMind",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+  },
+  {
+    "id": 64,
+    "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-10-28",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/68127936de624fb6f57d9989/3vFxCEUXz_xJVrTBr4hNr.jpeg",
+    "link": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"
+  },
+  {
+    "id": 2,
     "title": "Genie 4: A new generation of world simulation",
     "description": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
     "date": "2026-10-27",
-    "image": "https://lh3.googleusercontent.com/i7iotPkcMbMubxRzAdriO5wsIsowROonBvjLNnmPbOaRgEb1k4LKTBqay5VrcPpZi0R4il_bYCCsPYQ0Gy_-XbAw66azAGEfE-E6_9Izz5apP0BMJVE=w528-h297-n-nu-rw-lo",
+    "image": "https://lh3.googleusercontent.com/i7iotPkcMbMubxRzAdriO5wsIsowROonBvjLNnmPbOaRgEb1k4LKTBqay5VrcPpZi0R4il_bYCCsPYQ0Gy_-XbAw66azAGEfE-E6_9Izz5apP0BMJVE=w1200-h630-n-nu-rw",
     "link": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
     "category": "AI Research",
     "author": "Google DeepMind",
@@ -13,7 +39,7 @@
     "imageSource": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
   },
   {
-    "id": 63,
+    "id": 65,
     "title": "Build specialized multimodal models with LFM3",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-27",
@@ -26,7 +52,7 @@
     "imageSource": "https://huggingface.co/blog/LiquidAI/lfm3"
   },
   {
-    "id": 64,
+    "id": 66,
     "title": "Can we trust LLMs to judge whether a research idea is novel?",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-27",
@@ -39,7 +65,7 @@
     "imageSource": "https://huggingface.co/blog/allenai/novelty-bench"
   },
   {
-    "id": 65,
+    "id": 67,
     "title": "Does Your Model Run on AWS Trainium? Look It Up",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-23",
@@ -52,11 +78,11 @@
     "imageSource": "https://huggingface.co/blog/torch-neuronx-model-support"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Beyond tree cover: mapping the world’s forest types",
     "description": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
     "date": "2026-10-22",
-    "image": "https://lh3.googleusercontent.com/Et3g0tNB_bC00f6cP94Y40QbqshCvf7_fg_gRVfZQoeVSc3Hn9g6jIenf1udZdACY4x-wpY_5tyy_LznFSlu0yhGCqfxKos6QFRRj4lad_hQHOBV8Q=w528-h297-n-nu-rw-lo",
+    "image": "https://lh3.googleusercontent.com/Et3g0tNB_bC00f6cP94Y40QbqshCvf7_fg_gRVfZQoeVSc3Hn9g6jIenf1udZdACY4x-wpY_5tyy_LznFSlu0yhGCqfxKos6QFRRj4lad_hQHOBV8Q=w1200-h630-n-nu-rw",
     "link": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
     "category": "AI Research",
     "author": "Google DeepMind",
@@ -65,7 +91,7 @@
     "imageSource": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/"
   },
   {
-    "id": 66,
+    "id": 68,
     "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-22",
@@ -78,7 +104,7 @@
     "imageSource": "https://huggingface.co/blog/microsoft/thinkingbox-training"
   },
   {
-    "id": 67,
+    "id": 69,
     "title": "Ensemble forecasting with IBM Granite time-series models",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-22",
@@ -91,20 +117,7 @@
     "imageSource": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1"
   },
   {
-    "id": 68,
-    "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
-    "description": "Read the original report from Hugging Face.",
-    "date": "2026-10-21",
-    "image": "https://cdn-uploads.huggingface.co/production/uploads/6ad8e88370f69967fafc8703/i-Flass3NMPRmc6lVfwO_.png",
-    "link": "https://huggingface.co/blog/nvidia/kumo-relational",
-    "category": "AI Tools & Research",
-    "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://huggingface.co/blog/nvidia/kumo-relational"
-  },
-  {
-    "id": 69,
+    "id": 70,
     "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-21",
@@ -117,7 +130,7 @@
     "imageSource": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization"
   },
   {
-    "id": 70,
+    "id": 71,
     "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-21",
@@ -130,7 +143,7 @@
     "imageSource": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1"
   },
   {
-    "id": 71,
+    "id": 72,
     "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-21",
@@ -143,7 +156,7 @@
     "imageSource": "https://huggingface.co/blog/ibm-granite/granite-speech-5"
   },
   {
-    "id": 72,
+    "id": 73,
     "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-20",
@@ -156,7 +169,7 @@
     "imageSource": "https://huggingface.co/blog/hf-torchtpu"
   },
   {
-    "id": 73,
+    "id": 74,
     "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-20",
@@ -169,7 +182,7 @@
     "imageSource": "https://huggingface.co/blog/anylanguagemodel-1-0"
   },
   {
-    "id": 74,
+    "id": 75,
     "title": "MPS in PyTorch 2.15",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-20",
@@ -180,18 +193,5 @@
     "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
     "imageKind": "source",
     "imageSource": "https://huggingface.co/blog/mps-pytorch-2-15"
-  },
-  {
-    "id": 75,
-    "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
-    "description": "Read the original report from Hugging Face.",
-    "date": "2026-10-19",
-    "image": "https://huggingface.co/blog/assets/hf-torchneuron/thumbnail.png",
-    "link": "https://huggingface.co/blog/hf-torchneuron",
-    "category": "AI Tools & Research",
-    "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://huggingface.co/blog/hf-torchneuron"
   }
 ]
