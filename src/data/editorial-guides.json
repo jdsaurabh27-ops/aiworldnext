@@ -1619,5 +1619,136 @@
         "url": "https://csrc.nist.gov/projects/ssdf"
       }
     ]
+  },
+  {
+    "slug": "build-ai-career-skills-gap-plan",
+    "title": "How to build an AI career skills-gap plan",
+    "intro": "Turn one target AI role into a 12-week learning and evidence plan using official occupation data, current employer requirements and your existing transferable skills.",
+    "checkedAt": "29 October 2026",
+    "kind": "AI careers planning guide",
+    "sections": [
+      [
+        "Choose one target role and market",
+        "Start with one role family, seniority, country or remote-work market and industry. “Work in AI” is too broad: a data scientist, machine-learning engineer, AI product manager and automation specialist solve different problems. Write a target such as “entry-level data analyst roles that include forecasting or machine-learning work in India” or “junior data scientist roles open to applicants in the EU.” Location matters because education, work authorisation, salary conventions and common tools vary."
+      ],
+      [
+        "Use occupation frameworks as a baseline, not a vacancy",
+        "Official frameworks help describe work consistently. O*NET’s 2026 Data Scientists profile includes analysing data, testing and reformulating models, visualising results and communicating findings. The European Commission’s ESCO classification links occupations with skills across 28 languages. These sources can give you neutral vocabulary, but neither page proves that a particular employer is hiring or that its requirements match your market."
+      ],
+      [
+        "Build a small employer-posting sample",
+        "Collect five to ten recent postings from official employer career pages for the same target role and location. Record the URL, employer, date checked, responsibilities, required skills, preferred skills, experience, education, work arrangement and application deadline. Remove duplicates from recruitment mirrors. If a posting closes, keep only your dated notes for analysis and do not present it as an active vacancy. A small sample reveals patterns; it does not represent the whole labour market."
+      ],
+      [
+        "Separate work outcomes from tool names",
+        "Group requirements into outcomes such as cleaning data, writing reproducible analysis, evaluating a model, deploying a service or explaining a decision. Put Python, SQL, cloud platforms and libraries beneath the outcome they support. O*NET’s employer-posting table for US data-scientist roles shows Python and SQL appearing more often than any single listed ML framework in its 2025 dataset. That is US historical posting evidence, not a global ranking or a reason to learn every listed tool."
+      ],
+      [
+        "Mark transferable evidence before declaring a gap",
+        "For each outcome, record evidence you already have from employment, education, volunteering or a personal project. A finance professional may already clean spreadsheets, reconcile conflicting figures, explain variance and work with controls; a marketer may define experiments, segment customers and present results. Translate that experience accurately into the target role’s language. Do not rename routine spreadsheet work as machine-learning deployment or claim production experience that you do not have."
+      ],
+      [
+        "Score gaps by frequency, importance and proof",
+        "Use four states: demonstrated, familiar, missing and not required for this target. Prioritise a gap when it appears across several sampled postings, is central to the work and can be demonstrated ethically. A frequently named skill may still be a poor first project if it depends on proprietary infrastructure or senior-level responsibility. Keep mandatory qualifications, preferred qualifications and tools in separate columns so one long wishlist does not become an impossible curriculum."
+      ],
+      [
+        "Design one project that closes several gaps",
+        "Choose a small project with authorised data and a clear user decision. It should show the workflow employers repeatedly request: define the question, inspect and clean data, establish a baseline, build only the necessary model, evaluate errors, communicate results and document limitations. Link the finished evidence to the existing AIWorldNext portfolio guide. A course certificate may support learning, but it does not replace a readable explanation of what you built and what failed."
+      ],
+      [
+        "Example: a fictional analyst-to-data-science transition",
+        "A fictional marketing analyst targets junior data-scientist roles. Across eight official postings, the recurring outcomes are SQL extraction, Python analysis, model evaluation, visualisation and stakeholder explanation. The analyst already has experiment design and presentation evidence, is familiar with SQL, and lacks a reproducible Python project and model-error analysis. The 12-week plan therefore focuses on one authorised customer-retention dataset: weeks 1–3 for SQL and data checks, 4–7 for a baseline and model, 8–9 for error analysis, 10 for a short decision memo, and 11–12 for documentation and review. This example is illustrative and is not evidence of a real vacancy, candidate or hiring outcome."
+      ],
+      [
+        "Use forecasts carefully",
+        "The US Bureau of Labor Statistics projects data-scientist employment to grow 35 percent from 2025 to 2035 and describes typical duties and education for that US occupation. A national projection is useful background, but it does not predict an individual’s job offer, local demand, starting salary or visa eligibility. Do not choose a career solely from a growth percentage. Compare duties with your interests, check current local postings and consider the time, cost and opportunity cost of the transition."
+      ],
+      [
+        "Set a 12-week review decision",
+        "At the end of the plan, assess evidence rather than hours watched. Can another person reproduce the project? Do the artefacts demonstrate the most frequent target outcomes? Which gaps remain, and did the sampled postings change? Decide whether to apply to suitable roles, revise the project, narrow the target or pause the transition. Keep employer names and requirements dated so an old sample is not treated as current market truth."
+      ],
+      [
+        "Limitations and source dates",
+        "This guide is a planning method, not career, immigration, education or salary advice. O*NET, BLS, European Commission ESCO and Singapore Ministry of Manpower sources were checked on 29 October 2026. O*NET’s cited software percentages use US postings from 1 January through 31 December 2025; BLS projections cover the United States. ESCO is a classification, while Singapore’s shortage list has separate employment-pass conditions. Titles, requirements, vacancies and eligibility vary by employer and country, so verify each opportunity on its official page before applying."
+      ]
+    ],
+    "worksheet": {
+      "title": "AI career skills-gap worksheet",
+      "intro": "Complete this with dated evidence from one target market; update it when the employer sample changes.",
+      "columns": [
+        "Planning step",
+        "Evidence to record",
+        "Pass condition"
+      ],
+      "rows": [
+        [
+          "Target",
+          "Role family, seniority, location, industry and work arrangement.",
+          "The target is narrow enough to compare similar postings."
+        ],
+        [
+          "Occupation baseline",
+          "Official duties, skills terminology and source date.",
+          "The framework informs vocabulary without being treated as a vacancy."
+        ],
+        [
+          "Employer sample",
+          "Five to ten official posting URLs and dates checked.",
+          "Duplicates and closed roles are labelled; requirements are comparable."
+        ],
+        [
+          "Recurring outcomes",
+          "Work outcomes and the number of sampled postings mentioning each.",
+          "Tools are connected to work rather than collected as a list."
+        ],
+        [
+          "Existing evidence",
+          "Project, job or study artefact and your exact contribution.",
+          "Every claimed skill has accurate, reviewable evidence."
+        ],
+        [
+          "Priority gaps",
+          "Demonstrated, familiar, missing or not required; mandatory versus preferred.",
+          "The plan focuses on frequent, important and demonstrable gaps."
+        ],
+        [
+          "Learning project",
+          "Authorised data, user decision, baseline, evaluation and limitation.",
+          "One project covers several priority outcomes without inflated claims."
+        ],
+        [
+          "Time and cost",
+          "Weekly hours, course or compute cost and stop conditions.",
+          "The 12-week plan fits the available resources."
+        ],
+        [
+          "Review decision",
+          "Portfolio evidence, remaining gaps, refreshed postings and next action.",
+          "The decision is based on evidence rather than course completion alone."
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "title": "O*NET OnLine: Data Scientists profile, updated 2026",
+        "url": "https://www.onetonline.org/link/summary/15-2051.00"
+      },
+      {
+        "title": "O*NET OnLine: Employer-based in-demand software skills for Data Scientists",
+        "url": "https://www.onetonline.org/link/demand/15-2051.00"
+      },
+      {
+        "title": "U.S. Bureau of Labor Statistics: Data Scientists Occupational Outlook Handbook",
+        "url": "https://www.bls.gov/ooh/math/data-scientists.htm"
+      },
+      {
+        "title": "European Commission: ESCO occupations and skills classification",
+        "url": "https://employment-social-affairs.ec.europa.eu/policies-and-activities/skills-and-qualifications/skills-jobs/european-skillscompetences-qualifications-and-occupations-esco_en"
+      },
+      {
+        "title": "Singapore Ministry of Manpower: Shortage Occupation List and AI role conditions",
+        "url": "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility/compass-c5-skills-bonus-shortage-occupation-list-sol"
+      }
+    ]
   }
 ]
