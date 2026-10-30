@@ -60,6 +60,7 @@ function guideWorksheet(g) {
  return `<section><h2>${esc(w.title)}</h2><p>${esc(w.intro)}</p><div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse;text-align:left"><thead><tr>${w.columns.map(c => `<th scope="col" style="padding:12px;border:1px solid #334155">${esc(c)}</th>`).join('')}</tr></thead><tbody>${w.rows.map(row => `<tr>${row.map((cell, i) => i === 0 ? `<th scope="row" style="padding:12px;border:1px solid #334155">${esc(cell)}</th>` : `<td style="padding:12px;border:1px solid #334155">${esc(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div></section>`;
 }
 const relatedGuideSlugs = {
+ 'accessible-ai-podcast-transcript-show-notes': ['start-an-ai-podcast', 'verify-ai-news', 'create-an-ai-voiceover'],
  'build-ai-career-skills-gap-plan': ['ai-portfolio-project-guide', 'ai-job-application-checklist', 'compare-ai-tools-with-one-task'],
  'evaluate-ai-coding-agent-repository-access': ['compare-ai-tools-with-one-task', 'ai-tool-privacy-checklist', 'ai-portfolio-project-guide'],
  'openai-models-google-cloud-explained': ['compare-ai-tools-with-one-task', 'ai-tool-privacy-checklist', 'compare-ai-startup-cloud-credits'],

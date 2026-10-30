@@ -1750,5 +1750,141 @@
         "url": "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility/compass-c5-skills-bonus-shortage-occupation-list-sol"
       }
     ]
+  },
+  {
+    "slug": "accessible-ai-podcast-transcript-show-notes",
+    "title": "How to publish an accessible AI podcast transcript and show notes",
+    "intro": "Turn an AI podcast episode into an accurate transcript, useful chapters and source-linked show notes that listeners can navigate and verify.",
+    "checkedAt": "30 October 2026",
+    "kind": "AI podcast accessibility guide",
+    "sections": [
+      [
+        "Treat the transcript as a published edition",
+        "A transcript is part of the episode, not an unreviewed by-product. Decide who owns it, which audio version it represents and where corrections will be made. Apple lets listeners read and search a transcript and jump from its text to the matching audio; Spotify can display transcripts on episode pages and during playback. Those functions make timing and wording consequential. Keep the final audio, transcript, show notes and release record linked by one episode identifier."
+      ],
+      [
+        "Choose automatic or creator-provided transcription deliberately",
+        "Automatic transcription can create a useful first draft, while a creator-provided file gives you direct control over terminology, speaker names and corrections. Apple automatically generates transcripts for eligible episodes but also accepts creator-provided transcripts through supported RSS workflows; Spotify allows eligible creators to download, edit and upload VTT or SRT files. Check account eligibility, supported languages, hosting features and platform settings before promising a transcript to listeners."
+      ],
+      [
+        "Edit against the final audio",
+        "Review the transcript while listening to the exact published master. Correct names, model and company names, technical terms, numbers, URLs and negation. Include the full spoken episode rather than a polished summary that changes what was said. Apple’s content guidelines require supplied transcripts to correspond accurately to the content. If dynamically inserted segments or later audio replacements differ, record that limitation and confirm what each platform displays."
+      ],
+      [
+        "Identify speakers and meaningful sound",
+        "Label the host, guest and any synthetic voice consistently. Apple says speaker names can be displayed when they are included in a VTT file. W3C accessibility guidance describes a transcript as a text version of speech and relevant non-speech audio information. Add concise cues when music, a sound effect, silence or another audible event carries meaning; do not clutter every line with decorative detail that does not help someone understand the episode."
+      ],
+      [
+        "Use timestamps and chapters for navigation",
+        "Timestamps make a timed transcript follow playback and help listeners find a claim. Spotify says uploaded VTT or SRT transcripts need timestamps to sync. For longer episodes, add a small set of descriptive chapters aligned to real topic changes. Apple accepts creator-provided chapters through an episode description, an RSS chapter tag or supported file metadata, and publishes specific title and duration recommendations. Confirm the exact platform format rather than assuming one chapter file works everywhere."
+      ],
+      [
+        "Make show notes a source map",
+        "Use show notes for the episode promise, named speakers, major chapters, primary sources, corrections, commercial disclosures and a transcript link when the listening platform cannot display one. Link directly to the official document or announcement supporting a material claim, and name the source and access date. Separate those references from recommended products or affiliate links. A long list of search keywords is not a substitute for evidence or a readable episode description."
+      ],
+      [
+        "Disclose meaningful AI-generated media",
+        "If a synthetic voice, AI-generated host or replica of a real person appears, explain it where listeners will encounter the episode and in the relevant metadata. Apple’s current guidelines require prominent disclosure for AI-generated audio or video content, including synthetic voices and replicas. Also obtain the permissions required for voices, music, clips, artwork and personal information. A disclosure does not create rights that the producer does not hold."
+      ],
+      [
+        "Example: a fictional 18-minute AI policy interview",
+        "Imagine an 18-minute interview about a newly published AI policy document. The producer locks the final WAV file, generates a draft transcript, and checks every policy name and quotation against the audio and official document. Speaker changes are labelled Host and Guest; meaningful cues such as [intro music] are retained. Four chapters mark the question, confirmed changes, unresolved issues and practical checklist. Show notes link to the primary policy page, state the document date, disclose a synthetic intro voice and provide a correction contact. This example is illustrative; it is not a claim that AIWorldNext recorded the interview or tested a transcription service."
+      ],
+      [
+        "Run a cross-platform release check",
+        "Before promotion, open the published episode on the web and available mobile apps. Confirm the correct episode, transcript visibility, speaker changes, timing near the beginning, middle and end, chapter jumps, source links, explicit-content setting and AI disclosure. Test the public transcript link without being signed in. Spotify notes that transcript access is not available to every creator and that some listening platforms may not support RSS-distributed transcripts, so record platform-specific results instead of claiming universal availability."
+      ],
+      [
+        "Publish corrections without erasing the record",
+        "When a factual or transcription error is found, correct the source transcript and show notes, trigger the hosting or platform refresh process, and record what changed and when. If the audio itself contains a material error, add an audible correction or replace the episode according to the host’s rules, then verify that the transcript still matches. Keep corrections clear enough that a listener can distinguish an original statement from a later update."
+      ],
+      [
+        "Limitations and source dates",
+        "This guide is a publishing workflow, not legal advice or a guarantee that every platform will display the same transcript. Apple Podcasts, Spotify for Creators and W3C sources were checked on 30 October 2026. Platform eligibility, supported languages, file limits, automatic transcription, chapters, RSS tags and review processes can change. Accessibility needs vary, and automated output still requires human review. Confirm current platform documentation, hosting support, permissions and applicable law before release."
+      ]
+    ],
+    "worksheet": {
+      "title": "AI podcast transcript and show-notes release sheet",
+      "intro": "Complete this against the final audio master and verify the published result on each intended platform.",
+      "columns": [
+        "Release check",
+        "Evidence to record",
+        "Pass condition"
+      ],
+      "rows": [
+        [
+          "Episode identity",
+          "Final audio filename, duration, episode ID and publication date.",
+          "Transcript and notes refer to the exact released master."
+        ],
+        [
+          "Transcript method",
+          "Automatic or supplied, platform setting, language and owner.",
+          "The chosen route is supported and has a named reviewer."
+        ],
+        [
+          "Accuracy review",
+          "Names, technical terms, numbers, URLs, quotations and negation.",
+          "A reviewer checked the full transcript against the final audio."
+        ],
+        [
+          "Speakers and sound",
+          "Speaker labels and meaningful non-speech cues.",
+          "A text reader can follow who speaks and what important audio occurs."
+        ],
+        [
+          "Timing",
+          "VTT or SRT timestamps checked near the start, middle and end.",
+          "Text follows the intended audio without material drift."
+        ],
+        [
+          "Chapters",
+          "Titles, timestamps, topic boundaries and platform format.",
+          "Every jump reaches the correct section and titles remain readable."
+        ],
+        [
+          "Show notes",
+          "Summary, speakers, primary sources, dates and transcript link.",
+          "Claims are traceable and links work without a private login."
+        ],
+        [
+          "Disclosures and rights",
+          "Synthetic media, sponsorships, affiliates, permissions and explicit setting.",
+          "Required disclosures are prominent and rights are documented."
+        ],
+        [
+          "Platform test",
+          "Device, app, transcript, chapter, link and date checked.",
+          "Each intended destination is verified separately."
+        ],
+        [
+          "Corrections",
+          "Contact, version, correction date and refresh result.",
+          "A repeatable process can update errors without hiding the change."
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "title": "Apple Podcasts for Creators: Transcripts on Apple Podcasts",
+        "url": "https://podcasters.apple.com/support/5316-transcripts-on-apple-podcasts"
+      },
+      {
+        "title": "Apple Podcasts for Creators: Content guidelines, including transcript accuracy and AI disclosure",
+        "url": "https://podcasters.apple.com/support/891-content-and-subscription-guidelines"
+      },
+      {
+        "title": "Apple Podcasts for Creators: Chapters on Apple Podcasts",
+        "url": "https://podcasters.apple.com/support/5482-using-chapters-on-apple-podcasts"
+      },
+      {
+        "title": "Spotify for Creators: Managing episode transcripts",
+        "url": "https://support.spotify.com/creators/article/managing-episode-transcripts-on-spotify/"
+      },
+      {
+        "title": "W3C Web Accessibility Initiative: Making audio and video media accessible",
+        "url": "https://www.w3.org/WAI/media/av/"
+      }
+    ]
   }
 ]
