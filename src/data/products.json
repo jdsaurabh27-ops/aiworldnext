@@ -21,7 +21,7 @@
     "link": "https://www.anthropic.com/claude",
     "category": "AI Assistant",
     "sourceUrl": "https://www.anthropic.com/claude",
-    "checkedAt": "2026-10-30",
+    "checkedAt": "2026-10-31",
     "imageKind": "logo",
     "imageSource": "https://www.anthropic.com/claude"
   },
@@ -34,7 +34,7 @@
     "link": "https://one.google.com/",
     "category": "AI Assistant",
     "sourceUrl": "https://one.google.com/",
-    "checkedAt": "2026-10-30",
+    "checkedAt": "2026-10-31",
     "imageKind": "logo",
     "logoIcon": "https://www.google.com/s2/favicons?domain=one.google.com&sz=128",
     "imageSource": "https://one.google.com/"
@@ -61,7 +61,7 @@
     "link": "https://cursor.com/",
     "category": "Development",
     "sourceUrl": "https://cursor.com/",
-    "checkedAt": "2026-10-30",
+    "checkedAt": "2026-10-31",
     "imageKind": "logo",
     "logoIcon": "https://www.google.com/s2/favicons?domain=cursor.com&sz=128",
     "imageSource": "https://cursor.com/"
@@ -75,7 +75,7 @@
     "link": "https://github.com/features/copilot",
     "category": "Development",
     "sourceUrl": "https://github.com/features/copilot",
-    "checkedAt": "2026-10-30",
+    "checkedAt": "2026-10-31",
     "imageKind": "logo",
     "logoIcon": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
     "imageSource": "https://github.com/features/copilot"
@@ -89,7 +89,7 @@
     "link": "https://runwayml.com/",
     "category": "Video AI",
     "sourceUrl": "https://runwayml.com/",
-    "checkedAt": "2026-10-30",
+    "checkedAt": "2026-10-31",
     "imageKind": "logo",
     "logoIcon": "https://www.google.com/s2/favicons?domain=runwayml.com&sz=128",
     "imageSource": "https://runwayml.com/"
@@ -131,7 +131,7 @@
     "sourceUrl": "https://murf.ai/",
     "category": "Voice AI",
     "affiliateUrl": "https://get.murf.ai/5qrh0y1bzs1j",
-    "checkedAt": "2026-10-30",
+    "checkedAt": "2026-10-31",
     "imageSource": "https://murf.ai/"
   },
   {
@@ -143,7 +143,7 @@
     "link": "https://www.nvidia.com/en-us/ai/",
     "category": "Hardware",
     "sourceUrl": "https://www.nvidia.com/en-us/ai/",
-    "checkedAt": "2026-10-30",
+    "checkedAt": "2026-10-31",
     "imageKind": "source",
     "logoIcon": "https://www.google.com/s2/favicons?domain=www.nvidia.com&sz=128",
     "imageSource": "https://www.nvidia.com/en-us/ai/"
@@ -157,7 +157,7 @@
     "link": "https://www.apple.com/apple-intelligence/",
     "category": "Hardware",
     "sourceUrl": "https://www.apple.com/apple-intelligence/",
-    "checkedAt": "2026-10-30",
+    "checkedAt": "2026-10-31",
     "imageKind": "source",
     "logoIcon": "https://www.google.com/s2/favicons?domain=www.apple.com&sz=128",
     "imageSource": "https://www.apple.com/apple-intelligence/"
