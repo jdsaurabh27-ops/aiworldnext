@@ -1886,5 +1886,155 @@
         "url": "https://www.w3.org/WAI/media/av/"
       }
     ]
+  },
+  {
+    "slug": "plan-collaborative-robot-pilot",
+    "title": "How to plan a collaborative robot pilot: safety, task and ROI checklist",
+    "intro": "Turn one workplace automation idea into a controlled collaborative-robot pilot with a defined task, application-specific safety review and measurable decision criteria.",
+    "checkedAt": "31 October 2026",
+    "kind": "Collaborative robotics pilot guide",
+    "sections": [
+      [
+        "Start with one task, not a robot model",
+        "Describe the work before selecting hardware: the input, output, workpiece variation, normal sequence, expected human actions and conditions that stop the task. A pilot is easier to assess when it targets one stable process rather than several unrelated jobs. Record the current manual baseline, but do not assume automation is justified until the proposed system shows a safer or more useful result within agreed limits."
+      ],
+      [
+        "Define the complete robot application",
+        "The arm is only one part of the application. Map the end-effector, workpiece, fixtures, sensors, controller, power, software, network connections, nearby machines, material flow and people who may enter the area. OSHA describes an industrial robot system as the robot together with its end-effector, control system, power sources, sensors and interfaces. A component advertised as collaborative does not by itself make the finished application safe."
+      ],
+      [
+        "Confirm whether human-robot collaboration is necessary",
+        "Ask why a person and robot need to share a workstation or workpiece, which steps require proximity, and whether the same outcome could be achieved with separation or conventional safeguarding. OSHA recommends considering whether a person is integral to the application, whether simultaneous work is needed and whether physical contact is expected. Use the answers to define the operating mode rather than treating collaboration as a marketing label."
+      ],
+      [
+        "Assign responsibility before integration",
+        "Name the employer owner, system integrator, safety lead, operator representatives, maintenance contact and person authorised to approve changes. Put required risk-assessment evidence, safeguarding, training, acceptance tests, manuals and change control into the supplier statement of work. Workers who perform or work near the task can identify access, recovery and foreseeable-use conditions that a remote design review may miss."
+      ],
+      [
+        "Complete an application-specific risk assessment",
+        "A qualified team should assess the actual task and site before operation, including setup, teaching, normal work, cleaning, jams, troubleshooting, maintenance, energy isolation and reasonably foreseeable misuse. Universal Robots states that application safety depends on the tool, obstacles and connected machines, and that risk assessment is required before first power-up. The manufacturer manual is an input; it is not a substitute for the completed application assessment."
+      ],
+      [
+        "Use staged commissioning gates",
+        "Separate the pilot into documented gates: design review, installation inspection, controlled commissioning, safeguarded trial, limited supervised production and final acceptance. Define who can authorise each gate and what evidence is required. Keep untrained people outside the test area, preserve a recovery plan and stop when the task, tooling, material, layout or safety assumptions differ from the approved configuration."
+      ],
+      [
+        "Validate safeguards and stopping behaviour",
+        "Verify the selected safety functions, protective devices, emergency-stop arrangement, restricted space, safe access and stopping performance as part of the integrated application. Contact risks also depend on the end-effector and workpiece, including sharp edges, pinch points, dropped parts and projectiles. Testing and acceptance should be performed by competent people against applicable law, standards, manufacturer instructions and the documented risk assessment."
+      ],
+      [
+        "Measure performance with the same test set",
+        "Use a representative set of parts and conditions for both the current process and the pilot. Record successful cycles, rejected or damaged work, cycle time distribution, human interventions, downtime, recovery time, changeover effort and operator workload. NIST’s collaborative-robot work emphasises task decomposition, coordination, communication and metrics for safety and effectiveness. A single fast demonstration is not evidence of reliable production performance. Track integration, tooling, training, support, maintenance and expected downtime separately from purchase price. Estimate payback only from measured pilot results and show the assumptions; do not annualise a short best-case run without sensitivity ranges."
+      ],
+      [
+        "Control configuration, access and changes",
+        "Record the approved program, tooling, safety configuration, passwords, network access, software versions and backups. Limit who can change safety settings and define how updates are reviewed, tested and rolled back. Reassess the application after relevant changes to parts, grippers, speed, layout, software, upstream equipment or human tasks; an earlier acceptance result may no longer represent the modified system."
+      ],
+      [
+        "Example: a fictional packaging-station pilot",
+        "Imagine a packaging line where an operator currently loads products and closes cartons. The pilot scope is limited to picking one product size and placing it into a fixed tray while the operator performs a separate inspection step. The team records the existing cycle and intervention rate, maps the gripper and pinch hazards, completes the site risk assessment, commissions behind safeguards and then runs a fixed batch of representative products. Expansion to other sizes occurs only after a new tooling and risk review. This example is illustrative and does not claim that AIWorldNext deployed or tested such a system."
+      ],
+      [
+        "Make a proceed, revise or stop decision",
+        "Proceed only when the approved application meets its safety and performance acceptance criteria and the organisation can support training, maintenance and change control. Revise the pilot when failures have understood, correctable causes; stop it when safety evidence is incomplete, task variation remains uncontrolled or the total operational burden outweighs the measured benefit. Keep the decision record even when the pilot does not continue, because it documents assumptions and prevents the same unsupported proposal from being repeated."
+      ],
+      [
+        "Limitations and source dates",
+        "This guide is an educational planning workflow, not engineering, legal or workplace-safety advice. Sources were checked on 31 October 2026. OSHA’s referenced material is US-focused, while ISO 10218-2:2025 covers industrial robot applications and excludes several categories including public-facing service robots, healthcare and consumer products. Requirements vary by country, application and workplace. Engage qualified safety professionals and integrators, obtain the applicable standards, and follow local law and manufacturer instructions before installing or operating a robot system."
+      ]
+    ],
+    "worksheet": {
+      "title": "Collaborative robot pilot decision sheet",
+      "intro": "Complete this with the employer, integrator, affected workers and qualified safety personnel before approving production use.",
+      "columns": [
+        "Pilot check",
+        "Evidence to record",
+        "Pass condition"
+      ],
+      "rows": [
+        [
+          "Task and baseline",
+          "Inputs, outputs, variation, cycle distribution, defects and human effort.",
+          "One bounded task and a comparable current-state baseline are documented."
+        ],
+        [
+          "Application boundary",
+          "Robot, tooling, workpiece, fixtures, sensors, software, interfaces and nearby equipment.",
+          "Every relevant component and interaction has an owner."
+        ],
+        [
+          "Need for collaboration",
+          "Human steps, shared space, shared workpiece and expected contact conditions.",
+          "The chosen operating concept is justified for the task."
+        ],
+        [
+          "Roles and supplier scope",
+          "Employer, integrator, safety lead, operators, maintenance and acceptance authority.",
+          "Responsibilities and required deliverables are written into the project."
+        ],
+        [
+          "Risk assessment",
+          "Lifecycle tasks, hazards, foreseeable misuse and risk-reduction measures.",
+          "Qualified reviewers approve the application-specific assessment before operation."
+        ],
+        [
+          "Commissioning gates",
+          "Design, installation, controlled test, supervised trial and acceptance evidence.",
+          "Each gate has an owner, stop rule and signed result."
+        ],
+        [
+          "Safeguards and stopping",
+          "Protective devices, access, emergency stops, safety functions and validation records.",
+          "The integrated system passes applicable verification by competent people."
+        ],
+        [
+          "Performance test",
+          "Representative parts, successful cycles, interventions, damage, downtime, recovery and measured costs.",
+          "Results meet pre-agreed criteria, and any ROI estimate states its assumptions and sensitivity range."
+        ],
+        [
+          "People and work design",
+          "Training, instructions, workload, access, recovery and worker feedback.",
+          "Affected people can perform normal and abnormal tasks under the approved procedure."
+        ],
+        [
+          "Configuration control",
+          "Programs, versions, settings, passwords, backups and authorised changers.",
+          "The accepted configuration is reproducible and protected from unauthorised change."
+        ],
+        [
+          "Lifecycle support",
+          "Inspection, maintenance, spare parts, incidents, updates and reassessment triggers.",
+          "The organisation can safely support the system after the pilot team leaves."
+        ],
+        [
+          "Decision",
+          "Proceed, revise or stop, with evidence, owner and date.",
+          "The outcome follows the recorded safety and performance criteria."
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "title": "OSHA Technical Manual: Industrial Robot Systems and Industrial Robot System Safety",
+        "url": "https://www.osha.gov/otm/section-4-safety-hazards/chapter-4"
+      },
+      {
+        "title": "OSHA Robotics: Standards and related requirements",
+        "url": "https://www.osha.gov/robotics/standards"
+      },
+      {
+        "title": "NIST: Performance of Collaborative Robot Systems",
+        "url": "https://www.nist.gov/programs-projects/performance-collaborative-robot-systems"
+      },
+      {
+        "title": "ISO 10218-2:2025: Safety requirements for industrial robot applications and robot cells",
+        "url": "https://www.iso.org/standard/73934.html"
+      },
+      {
+        "title": "Universal Robots manual: Risk Assessment",
+        "url": "https://www.universal-robots.com/manuals/EN/HTML/SW5_26/Content/prod-usr-man/complianceUR10e/H_g5_sections/safety_g5/risk_assessment.htm"
+      }
+    ]
   }
 ]
