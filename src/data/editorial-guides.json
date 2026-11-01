@@ -2036,5 +2036,158 @@
         "url": "https://www.universal-robots.com/manuals/EN/HTML/SW5_26/Content/prod-usr-man/complianceUR10e/H_g5_sections/safety_g5/risk_assessment.htm"
       }
     ]
+  },
+  {
+    "slug": "compare-ai-startup-accelerators",
+    "title": "How to compare AI startup accelerators: equity, credits and support checklist",
+    "intro": "Compare AI startup accelerators and founder programmes by investment terms, dilution, eligibility, founder time, technical support and the milestones your company actually needs.",
+    "checkedAt": "1 November 2026",
+    "kind": "AI startup programme comparison guide",
+    "sections": [
+      [
+        "Classify the offer before comparing it",
+        "Start by identifying what the programme actually is: an accelerator that invests for equity or convertible securities, an equity-free accelerator, or a benefits programme offering credits and guidance. These structures solve different problems. Y Combinator and Techstars publish investment terms; Google describes its reviewed US accelerator as equity-free; Microsoft for Startups describes credits and support that expand with eligibility and progress. Do not place all four offers in one “funding amount” column."
+      ],
+      [
+        "Write down the company decision first",
+        "Define the next 6–12 month constraint: runway, customer access, technical architecture, regulatory preparation, hiring, fundraising or founder learning. Record the amount of cash required, the technical workload, the decision deadline and the evidence that would show progress. A programme is useful only if its specific support addresses an important company constraint at the right stage."
+      ],
+      [
+        "Separate cash from credits and advertised value",
+        "Cash can fund eligible business expenses; cloud credits normally apply only to covered services and may depend on approval, activation and usage rules. Discounts and partner offers have value only when the company would otherwise buy the product. Build separate rows for cash received, usable credits, conditional benefits, fees, travel and programme expenses. Do not add headline values together as if they were interchangeable cash."
+      ],
+      [
+        "Model ownership and convertible instruments",
+        "Record fixed equity, SAFEs or other convertible instruments, pro-rata rights, side letters and future information or governance obligations. The SEC explains that a SAFE promises a future ownership interest after specified triggering events and generally defers the valuation calculation. Model at least a plausible next financing and option-pool change on the cap table, then have qualified legal and tax advisers review the actual documents. A published percentage may not represent the complete eventual dilution."
+      ],
+      [
+        "Check the current programme terms, not old summaries",
+        "As of 1 November 2026, YC’s official standard-deal page states a $500,000 investment split between $125,000 for 7% and a $375,000 uncapped MFN SAFE. Techstars’ official page states $220,000, comprising $20,000 for 5% common through its CEA and a $200,000 uncapped MFN SAFE, while also describing an Asia-Pacific exception. These details can change, so confirm the current offer, programme-specific variation and signed documents before deciding."
+      ],
+      [
+        "Verify geography, stage and company structure",
+        "Check headquarters, operating region, incorporation, funding stage, revenue or traction expectations, business model and sector restrictions. Google’s reviewed United States accelerator is aimed at US-based Seed-to-Series-A technology startups and requires participating leaders to attend programme elements. YC and Techstars describe corporate-structure conditions that can require accepted companies from some jurisdictions to reorganise. Estimate the legal, tax, banking and administrative consequences before treating acceptance as a simple benefit."
+      ],
+      [
+        "Price the founder time and operating disruption",
+        "Record required sessions, travel, location, cohort dates, preparation, mentor meetings, reporting, demo events and post-programme obligations. Assign an owner and estimate the weekly hours taken from product, customers and fundraising. Some founder time may create valuable focus and access, but that value should be judged against the company’s current bottleneck rather than assumed from the programme’s reputation."
+      ],
+      [
+        "Test whether technical benefits fit the architecture",
+        "Map credits, experts, tools and early-access benefits to the actual product roadmap. Confirm eligible services, regions, accelerators or GPUs, support level, expiry and expected full-price cost after benefits end. Google states that product-credit eligibility is separately reviewed, while Microsoft describes benefits that expand with verified progress and service adoption. Use the existing cloud-cost plan rather than redesigning the product merely to consume a benefit."
+      ],
+      [
+        "Assess support with specific questions",
+        "Replace broad words such as mentorship and network with testable needs: introductions to which buyer profile, help with which technical problem, access to which market, and support at which financing stage. Ask the programme for current materials and, where appropriate, speak with alumni whose stage and business model resemble yours. Record who provides the support, how often it is available and whether it continues after the cohort."
+      ],
+      [
+        "Prepare the application without inflating claims",
+        "Use a consistent evidence file covering the customer problem, product, founders, traction definition, technical architecture, market, risks, cap table, runway and requested outcome. Label pilots, letters of intent, active users and revenue accurately rather than combining them into a vague traction number. The SEC’s capital-readiness guidance recommends current cap-table and financial information, a calculated runway and a plan for proceeds."
+      ],
+      [
+        "Example: a fictional document-AI startup",
+        "Imagine a two-founder document-AI company with six months of runway, early paid pilots and a large model-serving bill. An investment accelerator may extend runway and support fundraising but changes future ownership. An equity-free technical accelerator may address reliability and enterprise introductions but provides no automatic cash. A cloud programme may reduce infrastructure cost but leaves fundraising and customer acquisition largely with the founders. The team models each offer separately, values only credits it expects to use, obtains legal advice on investment documents and chooses based on its most urgent constraint. This example is illustrative and is not a recommendation or a claim that AIWorldNext joined any programme."
+      ],
+      [
+        "Make a proceed, apply later or decline decision",
+        "Proceed when the programme fits the company’s stage, solves a material constraint and has acceptable legal, ownership, time and technical consequences. Apply later when eligibility or evidence is premature. Decline when the apparent value depends on unusable credits, unsupported assumptions, excessive disruption or terms the founders do not understand. Record the decision date and source links because offers, deadlines and benefits change."
+      ],
+      [
+        "Limitations and source dates",
+        "This guide is educational and is not legal, tax, investment or fundraising advice. Official sources were checked on 1 November 2026. The Google page reviewed is specific to its United States accelerator; Techstars describes programme and regional variations; Microsoft’s documentation was updated on 30 October 2026; and programme availability, eligibility, deadlines, credits and investment terms can change. Review the current programme page and complete documents, and use qualified advisers before accepting an investment or restructuring a company."
+      ]
+    ],
+    "worksheet": {
+      "title": "AI startup accelerator comparison sheet",
+      "intro": "Complete one column per current programme using official documents and advice appropriate to your company and jurisdiction.",
+      "columns": [
+        "Decision area",
+        "Evidence to record",
+        "Pass condition"
+      ],
+      "rows": [
+        [
+          "Company constraint",
+          "Next milestone, bottleneck, deadline and evidence of progress.",
+          "The programme addresses an important constraint during the relevant period."
+        ],
+        [
+          "Programme type",
+          "Investment accelerator, equity-free accelerator or benefits programme.",
+          "The offer is compared with alternatives of the same purpose."
+        ],
+        [
+          "Cash and costs",
+          "Cash received, fees, travel, legal, tax and operational costs.",
+          "Net usable cash and direct costs are explicit."
+        ],
+        [
+          "Credits and benefits",
+          "Eligible products, approval, limits, expiry and expected actual use.",
+          "Only benefits the company expects to use are valued."
+        ],
+        [
+          "Ownership terms",
+          "Fixed equity, SAFEs, conversion scenarios, pro-rata and side-letter rights.",
+          "Qualified advisers review the documents and the cap table models future conversion."
+        ],
+        [
+          "Eligibility and structure",
+          "Country, stage, sector, incorporation, funding and traction rules.",
+          "Eligibility is confirmed on the current official page without unsupported assumptions."
+        ],
+        [
+          "Founder commitment",
+          "Sessions, travel, weekly hours, reporting and key dates.",
+          "The team can participate without missing a more important company milestone."
+        ],
+        [
+          "Technical fit",
+          "Architecture, services, regions, support, migration and post-benefit cost.",
+          "Benefits support the roadmap without creating unjustified dependency."
+        ],
+        [
+          "Market and mentor fit",
+          "Named customer profile, technical problem, experts and alumni evidence.",
+          "Expected support is specific enough to verify after joining."
+        ],
+        [
+          "Application evidence",
+          "Product, founders, customers, traction definition, risks, cap table and runway.",
+          "Every material claim has a consistent source and date."
+        ],
+        [
+          "Decision",
+          "Proceed, apply later or decline, with owner, rationale and review date.",
+          "The decision follows recorded company priorities and current terms."
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "title": "Y Combinator: The Standard Deal",
+        "url": "https://www.ycombinator.com/deal/"
+      },
+      {
+        "title": "Techstars: Accelerator Investment Terms",
+        "url": "https://www.techstars.com/investment-terms"
+      },
+      {
+        "title": "Google for Startups Accelerator: United States",
+        "url": "https://startup.google.com/programs/accelerator/united-states/"
+      },
+      {
+        "title": "Microsoft Learn: What is Microsoft for Startups?",
+        "url": "https://learn.microsoft.com/en-us/startups/microsoft-for-startups/overview"
+      },
+      {
+        "title": "US SEC: Common Startup Securities",
+        "url": "https://www.sec.gov/resources-small-businesses/capital-raising-building-blocks/common-startup-securities"
+      },
+      {
+        "title": "US SEC: Ready to Raise CAPITAL",
+        "url": "https://www.sec.gov/resources-small-businesses/capital-raising-building-blocks/ready-raise-capital"
+      }
+    ]
   }
 ]
