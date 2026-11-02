@@ -2189,5 +2189,159 @@
         "url": "https://www.sec.gov/resources-small-businesses/capital-raising-building-blocks/ready-raise-capital"
       }
     ]
-  }
+  },
+{
+  "slug": "accessible-ai-event-checklist",
+  "title": "How to make an AI event accessible: captions, slides and hybrid participation checklist",
+  "intro": "Plan a more accessible AI conference, meetup or webinar by checking registration, venue and platform access, captions, slides, audio, demos and recordings.",
+  "checkedAt": "2 November 2026",
+  "kind": "AI event accessibility guide",
+  "sections": [
+    [
+      "Treat accessibility as part of the event brief",
+      "Define the audience, event format, session types and participation methods before selecting a venue or platform. Assign one accessibility owner with authority to coordinate registration questions, speakers, captioners or interpreters, venue staff, platform settings and post-event material. Accessibility is not a single feature that can be added after the agenda is final; the experience depends on the venue, digital platform, content and how the event is run."
+    ],
+    [
+      "Publish useful information and invite requests",
+      "State the event format, languages, venue route, room access, stage access, accessible toilets, seating, breaks, remote connection methods, captions, recording policy and contact channel as early as possible. W3C recommends asking speakers and participants about accessibility requirements, including through the registration process. Ask what support is needed for participation rather than requesting an unnecessary diagnosis, and explain any deadline needed to arrange a service. Provide a way to update a request because needs and attendance can change."
+    ],
+    [
+      "Check both the venue and the remote platform",
+      "For an in-person event, inspect entrances, routes between rooms, registration desks, presentation stages, toilets, seating, lighting, acoustics and emergency procedures with the venue. For a remote or hybrid event, test keyboard access, screen-reader workflows, captions, interpreter display, chat, hand raising, dial-in options and the ability to resize important windows. W3C's remote-meeting note stresses that accessible software alone does not make the whole meeting accessible; hosts, content producers and platform selection each affect the result."
+    ],
+    [
+      "Provide accessible material before each session",
+      "Give participants direct access to slides, handouts, code samples, schedules and links in formats they can adapt, rather than relying only on a projected screen or screen share. Use meaningful headings, alternative text for informative images, descriptive link text, readable tables and an announced document order. Provide material early enough for participants, captioners and interpreters to review names, technical terms and acronyms. Remove confidential speaker notes and secrets before sharing files."
+    ],
+    [
+      "Make AI slides understandable without the screen",
+      "Use large readable text, sufficient contrast, restrained motion and a consistent layout. Explain model diagrams, charts, benchmark axes, code changes and live interface states aloud instead of saying only “as you can see.” Define specialised terms such as RAG, inference, token or agent the first time they matter. Put detailed tables, citations and code in an accessible companion page or document so the slide does not need to carry every detail."
+    ],
+    [
+      "Plan captions separately from translation",
+      "W3C describes captions as a synchronised text version of speech and important non-speech audio, while translated subtitles serve a different language purpose. Decide whether the event needs same-language live captions, translated subtitles, sign-language interpretation or more than one service. Automated captions can be a fallback or supplement, but names, accents and AI terminology need testing and correction. Zoom documents manual, third-party and automated caption options; Microsoft documents caption and interpreter-related features. Availability and controls depend on the current account, event type and licence, so configure and rehearse the exact setup rather than assuming a feature is active."
+    ],
+    [
+      "Put every question and answer through the audio system",
+      "Use a suitable microphone for every speaker and repeat or relay audience questions from the room, chat and remote participants before answering. This supports listeners, captions, interpreters and the recording. Assign a moderator to watch remote chat and raised hands, explain how to join the queue and offer a text route for participants who cannot use voice. Avoid giving in-room participants an unannounced advantage during hybrid questions or networking."
+    ],
+    [
+      "Test demos, polls and workshops with alternatives",
+      "AI events often depend on live demos, QR codes, collaborative boards, timed quizzes and hands-on notebooks. Test each activity with a keyboard, zoomed display and representative assistive technology where possible. Provide a direct link and written instructions instead of a QR code alone, allow more than one way to answer, and avoid making a fast response the only route to participation. Prepare a narrated recording, screenshots or transcript for a live demo failure and describe visual changes while demonstrating."
+    ],
+    [
+      "Rehearse roles, not just the presentation",
+      "Run a technical rehearsal with the event producer, moderator, speakers, captioner or interpreter, and venue or platform operator. Confirm who starts captions, shares accessible links, admits remote attendees, changes layouts, repeats questions, reports a problem and decides whether a session pauses. Test audio from videos and remote speakers, caption visibility, interpreter placement, recording consent and backup connections. Record the observed results and unresolved limitations."
+    ],
+    [
+      "Review recordings before publishing",
+      "A recording can preserve barriers from the live event. Check caption accuracy and synchronisation, speaker identification, important non-speech audio, described visual information, chapter labels, transcript links and access to referenced material. W3C notes that live captions may need editing before a recording is posted. Publish corrections when a material claim or transcript error is discovered, and apply the stated consent, retention and privacy policy to recordings and chat exports."
+    ],
+    [
+      "Example: a fictional one-day AI builder event",
+      "Imagine a fictional 120-person event with one venue room and a remote audience. Registration lists the accessible route, captions, remote access and a support contact. Speakers submit slides and technical vocabulary one week early. The organiser provides live same-language captions, a microphone for every question, accessible links for code and polls, and a moderator for remote participants. A rehearsal finds that captions cover the shared code window, so the producer changes the layout before launch. Afterward, the team corrects names in the recording captions and publishes the transcript and source links. This example is illustrative and is not a claim that AIWorldNext organised or audited such an event."
+    ],
+    [
+      "Use a go, revise or pause gate",
+      "Proceed when the promised access arrangements have named owners, required services are confirmed and representative event paths have been tested. Revise the format when a barrier has a workable alternative and the change can be communicated before registration or attendance. Pause a session or feature when a critical route to content or participation fails without an effective alternative. Record the decision, affected participants, temporary arrangement, owner and follow-up date."
+    ],
+    [
+      "Limitations and source dates",
+      "This guide is general event-planning information, not an accessibility audit, certification or legal opinion. Disability and equality obligations vary by country, venue, organisation and event. The W3C event checklist was updated on 31 August 2022, and its remote-meeting document is a W3C Group Note dated 22 July 2022 that states it is guidance rather than a W3C-endorsed standard. Platform documentation and features were checked on 2 November 2026 and can change by product, licence, language and region. Consult affected participants, qualified accessibility professionals and applicable local requirements for the actual event."
+    ]
+  ],
+  "worksheet": {
+    "title": "AI event accessibility planning sheet",
+    "intro": "Complete this for the exact venue, platform, audience and programme. A checked box should point to evidence, an owner and a test result.",
+    "columns": [
+      "Planning area",
+      "Evidence to record",
+      "Ready condition"
+    ],
+    "rows": [
+      [
+        "Ownership",
+        "Accessibility lead, event producer, venue contact and escalation route.",
+        "Each responsibility and decision owner is named."
+      ],
+      [
+        "Event information",
+        "Published format, route, facilities, captions, recording policy and contact.",
+        "Attendees can understand access arrangements before registering."
+      ],
+      [
+        "Requests",
+        "Registration question, private response process, deadline and update route.",
+        "Requests reach an owner and receive a documented response."
+      ],
+      [
+        "Venue",
+        "Entrance, rooms, stage, toilets, seating, lighting, sound and emergency route.",
+        "The relevant attendee and speaker paths were inspected."
+      ],
+      [
+        "Platform",
+        "Keyboard, screen reader, captions, interpreter view, chat, dial-in and alternatives.",
+        "Representative participation flows were tested on the actual account."
+      ],
+      [
+        "Materials",
+        "Accessible slides, schedule, code, links, handouts and delivery date.",
+        "Participants and support providers receive usable files in advance."
+      ],
+      [
+        "Captions and language",
+        "Caption method, terminology list, interpreter or translation needs and backup.",
+        "The service, operator, display and backup are confirmed."
+      ],
+      [
+        "Audio and questions",
+        "Speaker and audience microphones, remote chat moderator and question route.",
+        "Every contribution can reach audio, captions and remote attendees."
+      ],
+      [
+        "Activities",
+        "Demos, polls, QR codes, boards, timing and non-visual alternatives.",
+        "Each essential activity has an accessible participation route."
+      ],
+      [
+        "Rehearsal",
+        "People, devices, test script, failures, fixes and retest date.",
+        "Critical paths pass or have an effective announced alternative."
+      ],
+      [
+        "Recording",
+        "Consent, caption review, transcript, chapters, source links and retention.",
+        "Published media is reviewed and the correction route is visible."
+      ],
+      [
+        "Decision",
+        "Go, revise or pause, with rationale, owner and review date.",
+        "The decision follows recorded evidence rather than assumption."
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "title": "W3C WAI: Making Events Accessible checklist",
+      "url": "https://www.w3.org/WAI/teach-advocate/accessible-presentations/"
+    },
+    {
+      "title": "W3C: Accessibility of Remote Meetings",
+      "url": "https://www.w3.org/TR/remote-meetings/"
+    },
+    {
+      "title": "W3C WAI: Captions and Subtitles",
+      "url": "https://www.w3.org/WAI/media/av/captions/"
+    },
+    {
+      "title": "Zoom Support: Enabling manual captions",
+      "url": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062000"
+    },
+    {
+      "title": "Microsoft Support: Accessibility tips for inclusive Teams meetings and live events",
+      "url": "https://support.microsoft.com/en-us/accessibility/teams/accessibility-tips-for-inclusive-microsoft-teams-meetings-and-live-events"
+    }
+  ]
+}
 ]
