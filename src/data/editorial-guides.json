@@ -2343,5 +2343,168 @@
       "url": "https://support.microsoft.com/en-us/accessibility/teams/accessibility-tips-for-inclusive-microsoft-teams-meetings-and-live-events"
     }
   ]
+},
+{
+  "slug": "compare-robot-supplier-quotes",
+  "title": "How to compare robot supplier quotes: integration, safety and lifetime cost checklist",
+  "intro": "Compare robot supplier quotations by defining the complete system, integration work, safety evidence, acceptance tests, training, warranty, support and lifetime cost.",
+  "checkedAt": "3 November 2026",
+  "kind": "Robotics procurement guide",
+  "sections": [
+    [
+      "Start with one written application brief",
+      "Give every supplier the same task, workpiece or visitor interaction, operating environment, users, daily hours, throughput target, quality requirement, available space, utilities, interfaces and delivery location. Include representative payload, reach, speed and cycle conditions rather than a product name alone. Separate mandatory requirements from preferences. Without a common brief, a lower quote may simply exclude work included by another supplier."
+    ],
+    [
+      "Define the complete system boundary",
+      "List the robot, controller, batteries or power supplies, end-effector, sensors, vision, mounting, guarding, safety devices, network equipment, cables, software, licences, fixtures and upstream or downstream machines. Ask who selects, supplies, installs and warrants every component. ISO 10218-2:2025 focuses on complete industrial robot applications and their integration, not only the robot as partly completed machinery. Its scope is industrial; the official page excludes service robots and consumer products, so use standards applicable to the actual robot and jurisdiction."
+    ],
+    [
+      "Separate hardware from engineering work",
+      "Require line items for application design, simulation, programming, tooling, electrical and mechanical work, site preparation, shipping, customs, travel, installation, integration, testing, documentation and project management. Record whether taxes and currency conversion are included. Ask suppliers to state assumptions, buyer-supplied work and change-request rates. A quote marked turnkey is not sufficiently precise unless its deliverables and exclusions are written."
+    ],
+    [
+      "Put safety responsibilities in the statement of work",
+      "Name the manufacturer, integrator, employer or site owner responsible for each hazard analysis, risk assessment, safeguard, verification record, instruction and worker-training deliverable. OSHA's technical manual says the completed application can include end-effectors, sensors, safeguards, controls and fixtures, and recommends putting relevant integration and safety requirements into the statement of work and verifying them during site acceptance. Local law and current standards must be identified separately for the installation."
+    ],
+    [
+      "Write acceptance tests before choosing a supplier",
+      "Create factory and site acceptance tests using representative parts, people, lighting, networks and operating conditions. Record sample size, measurement method, success threshold, permitted intervention, test owner and evidence format. Include safety-function validation, emergency and recovery behaviour, interfaces, output quality, cycle time, repeatability where relevant and a run long enough to reveal common interruptions. Tie payment milestones to agreed evidence rather than to shipment or a demonstration alone."
+    ],
+    [
+      "Check installation and commissioning dependencies",
+      "Document floor, power, air, network, environmental, lifting, access, permitting and production-shutdown requirements. Ask who supplies drawings, who approves site readiness, what happens if a dependency is late and when risk transfers during transport and installation. Include a commissioning schedule with prerequisites, named personnel, retest time and a route for unresolved defects. Site acceptance should use the real utilities, interfaces and environmental characteristics."
+    ],
+    [
+      "Price training and operational handover",
+      "Specify training for operators, programmers, maintenance staff, supervisors and safety personnel, with language, location, duration, class size, prerequisites and assessment method. Require operating, maintenance, backup, recovery, spare-parts and change-control documentation in an agreed format. Manufacturer pages can advertise free learning, paid classes or service plans, but the buyer should confirm exactly what the quoted supplier will deliver and whether training access continues after handover."
+    ],
+    [
+      "Read the warranty instead of copying its duration",
+      "Obtain the full current warranty document and record the covered products, start date, duration, territory, permitted use, exclusions, consumables, labour, travel, shipping, software, response process and remedy. Confirm whether third-party tooling, integration work and modifications are covered by the same party. Universal Robots, for example, publishes its standard warranty as a separate versioned document; the page checked lists version 3.3 dated April 2026 and requires login for the complete text. This example shows why a sales-page summary is not enough."
+    ],
+    [
+      "Compare support by response and recovery outcome",
+      "Record support hours, languages, contact route, remote-access conditions, initial-response target, onsite target, escalation, replacement or loan equipment, local technician coverage and exclusions. Ask for prices outside the included period. ABB's current service page separates technical support, onsite response, preventive maintenance, parts and labour arrangements, monitoring, training and software. These are examples of cost categories, not evidence that one brand or plan fits a particular buyer."
+    ],
+    [
+      "Plan spare parts, maintenance and downtime",
+      "Request the preventive-maintenance schedule, inspection tasks, consumables, recommended spare parts, storage conditions, lead times, technician skills and expected service interruption. Model both scheduled downtime and a plausible unscheduled failure without inventing a reliability rate. If the supplier proposes predictive or connected monitoring, document the data sent, retention, access, cybersecurity responsibilities and the procedure when monitoring is unavailable."
+    ],
+    [
+      "Build a comparable lifetime-cost model",
+      "Use one time horizon and one currency for all quotes. Include purchase, tooling, integration, safeguards, freight, customs, site work, training, licences, connectivity, energy assumptions, maintenance, consumables, spares, service plans, travel, expected internal labour and end-of-life work. Keep supplier-guaranteed amounts separate from buyer estimates and scenario ranges. Do not turn an unverified uptime, labour-saving or production claim into a guaranteed financial return."
+    ],
+    [
+      "Example: a fictional machine-tending project",
+      "Imagine a factory comparing two quotes for one machine-tending task. Quote A has the cheaper arm but excludes gripper design, guarding, site wiring, operator training and acceptance testing. Quote B includes those items, a documented site test and one year of defined support, but excludes spare parts and production shutdown costs. The buyer maps both offers to the same system boundary, asks A to price the missing work, models three years of costs and keeps output benefits separate until a pilot proves them. This fictional example is not a supplier recommendation or a claim that AIWorldNext bought or tested a robot."
+    ],
+    [
+      "Use a clarify, shortlist or reject decision",
+      "Clarify when a capable supplier has an incomplete assumption, price or responsibility that can be resolved in writing. Shortlist when the quote covers the required system, acceptance evidence, responsibilities and support on comparable terms. Reject when material safety work is unassigned, essential components are excluded without a responsible party, acceptance is subjective, or commercial claims cannot be traced to a contract or test. Record the decision, evidence, owner and validity date of the quote."
+    ],
+    [
+      "Limitations and source dates",
+      "This guide is general procurement information, not engineering, safety, legal, tax or investment advice. Sources were checked on 3 November 2026. ISO 10218-2:2025 was published in February 2025 and applies to industrial robot applications within its stated scope; it does not cover every robot or hazard. OSHA's robotics pages describe the United States context and distinguish consensus standards from OSHA regulations. Warranty, support, prices, licences, duties and local requirements change. Use qualified integrators, safety professionals, legal advisers and current documents for the actual system and location."
+    ]
+  ],
+  "worksheet": {
+    "title": "Robot supplier quote comparison sheet",
+    "intro": "Complete one column per supplier using the same application brief, currency, time horizon and evidence rules.",
+    "columns": [
+      "Quote area",
+      "Evidence to record",
+      "Comparable condition"
+    ],
+    "rows": [
+      [
+        "Application brief",
+        "Task, environment, users, hours, parts, interfaces and performance target.",
+        "Every supplier prices the same dated brief."
+      ],
+      [
+        "System boundary",
+        "Robot, tooling, sensors, safeguards, controls, fixtures, software and interfaces.",
+        "Every required component has a supplier and owner."
+      ],
+      [
+        "Engineering scope",
+        "Design, simulation, programming, integration, documentation and change rates.",
+        "Included work and exclusions are line-itemed."
+      ],
+      [
+        "Safety responsibilities",
+        "Applicable requirements, risk assessment, safeguards, validation and records.",
+        "Each deliverable has a qualified responsible party."
+      ],
+      [
+        "Acceptance tests",
+        "Conditions, samples, thresholds, intervention rules, owners and evidence.",
+        "Payment gates use the same agreed pass criteria."
+      ],
+      [
+        "Installation",
+        "Shipping, customs, site work, utilities, travel, commissioning and schedule.",
+        "Dependencies, delay rules and risk transfer are explicit."
+      ],
+      [
+        "Training and handover",
+        "Roles, language, hours, assessment, manuals, backups and recovery.",
+        "Users receive the skills and documents needed for their duties."
+      ],
+      [
+        "Warranty",
+        "Version, start, duration, scope, exclusions, labour, travel, shipping and remedy.",
+        "The complete current document is attached to the quote."
+      ],
+      [
+        "Support",
+        "Hours, response, onsite coverage, escalation, remote access and renewal price.",
+        "Service levels and chargeable work are measurable."
+      ],
+      [
+        "Maintenance and spares",
+        "Schedule, tasks, parts, lead times, skills and downtime.",
+        "The cost model includes planned upkeep and a failure scenario."
+      ],
+      [
+        "Software and data",
+        "Licences, updates, integrations, access, export, monitoring and cybersecurity.",
+        "Recurring terms and data responsibilities are written."
+      ],
+      [
+        "Lifetime cost",
+        "One-time and recurring costs, buyer estimates, currency and time horizon.",
+        "Guaranteed prices are separated from scenarios."
+      ],
+      [
+        "Decision",
+        "Clarify, shortlist or reject, with rationale, owner and quote-validity date.",
+        "The decision follows comparable written evidence."
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "title": "OSHA Technical Manual: Industrial Robot and Robot System Safety",
+      "url": "https://www.osha.gov/otm/section-4-safety-hazards/chapter-4"
+    },
+    {
+      "title": "OSHA: Robotics Standards",
+      "url": "https://www.osha.gov/robotics/standards"
+    },
+    {
+      "title": "ISO 10218-2:2025: Industrial robot applications and robot cells",
+      "url": "https://www.iso.org/standard/73934.html"
+    },
+    {
+      "title": "Universal Robots: Standard Warranty document page",
+      "url": "https://www.universal-robots.com/download/service-documentation/standard-warranty/"
+    },
+    {
+      "title": "ABB Robotics: Service Agreements",
+      "url": "https://www.abb.com/global/en/areas/robotics/services/service-agreements"
+    }
+  ]
 }
 ]
