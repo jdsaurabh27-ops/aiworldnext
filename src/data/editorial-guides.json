@@ -2506,5 +2506,167 @@
       "url": "https://www.abb.com/global/en/areas/robotics/services/service-agreements"
     }
   ]
+},
+{
+  "slug": "shared-ai-training-robots-txt-explained",
+  "title": "Shared AI training controls in robots.txt: what website owners need to know",
+  "intro": "OpenAI and Google plan to support a shared robots.txt signal for generative AI training. Learn what is announced, what is not live yet and how to review existing controls.",
+  "checkedAt": "4 November 2026",
+  "kind": "AI news explainer",
+  "sections": [
+    [
+      "What was announced",
+      "On 30 October 2026, OpenAI said it plans to honor a common robots.txt signal that lets websites express a preference about use of their content for foundational generative AI training. Google announced support for the same shared control and described it as a policy token in robots.txt. Both announcements are plans for a voluntary technical signal, not evidence that every AI company already supports it."
+    ],
+    [
+      "The shared control is not live everywhere today",
+      "OpenAI said it aims to implement the signal in the coming months and will publish details as implementation proceeds. Google said it aims to support the control in 2027. The underlying IETF document is an Internet-Draft: it is work in progress, expires on 3 May 2027 and may change. Check current provider documentation before relying on the draft syntax or timing."
+    ],
+    [
+      "What the draft syntax means",
+      "The draft proposes a special policy token named __usage_ai-training. A group containing “User-Agent: __usage_ai-training” and “Disallow: /” would express a preference against the defined AI-training use. An “Allow” line could make a narrower exception, such as /press-kit/. The token is a policy label, not a crawler identity, and the draft says the wildcard User-Agent: * must not be treated as matching it."
+    ],
+    [
+      "Training preference is different from search visibility",
+      "A preference about model training does not automatically answer whether a service may crawl a page for search, show a link or snippet, ground a response, or fetch content at a user's request. OpenAI documents GPTBot as the control for possible training use and OAI-SearchBot as the control for ChatGPT search discovery. Treat each documented purpose separately rather than assuming one robots.txt group covers every use."
+    ],
+    [
+      "Keep existing OpenAI controls explicit",
+      "If you currently use GPTBot or OAI-SearchBot rules, do not remove them merely because a shared signal was announced. OpenAI says existing crawler controls will continue. A publisher that wants ChatGPT search discovery but does not want potential training use can review separate rules for OAI-SearchBot and GPTBot, then verify the current documentation and its own file before changing production settings."
+    ],
+    [
+      "Understand Google-Extended before changing it",
+      "Google documents Google-Extended as a standalone product token for managing whether content may be used to train future generations of Gemini models and for grounding in Gemini Apps and Vertex AI. Google says this token does not affect inclusion or ranking in Google Search. Its October announcement says that when the planned shared control is supported, an explicit shared training opt-out will also be treated as opting out of Google-Extended unless Google-Extended is explicitly set differently."
+    ],
+    [
+      "Start with the outcome you actually want",
+      "Write down separate decisions for generative-model training, search discovery, answer grounding, user-triggered retrieval, bandwidth and confidential content. Then map each decision only to a control the relevant provider currently documents. This prevents a broad copy-and-paste rule from accidentally blocking a discovery channel you wanted to keep or from creating false confidence about private material."
+    ],
+    [
+      "Audit every host and delivery layer",
+      "Robots.txt applies to the protocol, host and port where it is served, so review the apex domain, www host and any content subdomains separately. Check the live file, the source repository, CDN or edge rules and security products that may serve a different response to crawlers. Record the final URL, HTTP status, file body and date. A correct repository file is not proof that the public response matches it."
+    ],
+    [
+      "Test syntax and paths before deployment",
+      "Use the exact case and path structure documented by the provider or final standard. Confirm that Allow and Disallow rules have the intended scope, that important public pages remain reachable for desired crawlers and that staging or account pages are protected by proper access controls. Keep a versioned change record with the reason, owner, approver and rollback plan."
+    ],
+    [
+      "Do not use robots.txt to protect secrets",
+      "Robots.txt is a public crawl instruction, not authentication. Google warns that rules may not be supported by every crawler and that a blocked URL can still appear in search results if other pages link to it. Protect private documents, personal information, customer portals and unpublished assets with authentication and authorization; use an appropriate noindex mechanism when the goal is search indexing rather than access control."
+    ],
+    [
+      "Measure discovery and training choices separately",
+      "After a change, monitor server logs, search performance and referral analytics for the channels you intended to affect. OpenAI says ChatGPT referral URLs include utm_source=chatgpt.com, which can help identify those visits, but it does not guarantee placement or traffic. A training preference is also not a method for measuring whether a model learned from a particular page."
+    ],
+    [
+      "Example: an independent publisher with two goals",
+      "Imagine a publisher that wants its articles discoverable in Google Search and ChatGPT search but does not want them used for foundational model training. It keeps search-related access decisions separate, makes provider-specific training rules explicit and documents the shared signal for later implementation after support is confirmed. It protects subscriber-only files with authentication, not robots.txt. This fictional example is a planning pattern, not legal advice or a claim about AIWorldNext's inclusion in any service."
+    ],
+    [
+      "A practical decision checklist",
+      "First confirm the content owner and each host. Second record the intended uses to allow or decline. Third inventory current GPTBot, OAI-SearchBot, Google-Extended and other provider rules. Fourth review the latest shared-signal specification and implementation notices. Fifth test the public file and affected paths. Finally monitor the intended search and referral outcomes, assign a review date and retain a rollback copy."
+    ],
+    [
+      "Limitations and source dates",
+      "Sources were checked on 4 November 2026. The shared mechanism is a draft and announced implementation details may change. Robots.txt expresses preferences to participating services; it is not a universal enforcement layer, confidentiality control or guarantee about legal rights. Provider definitions can differ, and laws and contracts vary by location. Obtain current technical and legal advice for material publishing or licensing decisions."
+    ]
+  ],
+  "worksheet": {
+    "title": "Website AI crawler and training preference review",
+    "intro": "Complete this sheet before changing robots.txt. Link each decision to current provider documentation and a test result.",
+    "columns": [
+      "Review area",
+      "Evidence to record",
+      "Decision condition"
+    ],
+    "rows": [
+      [
+        "Content and owner",
+        "Domains, subdomains, content types and authorized decision-maker.",
+        "Every affected host and owner is identified."
+      ],
+      [
+        "Intended uses",
+        "Training, search discovery, grounding, user retrieval and bandwidth choices.",
+        "Each use has an explicit allow, decline or review decision."
+      ],
+      [
+        "Live robots.txt",
+        "Final URL, status, response body, date and CDN or edge source.",
+        "The live response matches the approved file."
+      ],
+      [
+        "OpenAI training",
+        "Current GPTBot rule and linked documentation.",
+        "The rule matches the recorded training decision."
+      ],
+      [
+        "ChatGPT search",
+        "Current OAI-SearchBot rule and linked documentation.",
+        "Search discovery is decided separately from training."
+      ],
+      [
+        "Google-Extended",
+        "Current rule and effect documented by Google.",
+        "Gemini-related preference is explicit and understood."
+      ],
+      [
+        "Shared signal readiness",
+        "Latest draft, provider support status and planned syntax.",
+        "Deploy only after current support and syntax are verified."
+      ],
+      [
+        "Private content",
+        "Authentication, authorization and indexing controls.",
+        "Sensitive material does not rely on robots.txt for protection."
+      ],
+      [
+        "Path testing",
+        "Allowed and blocked representative URLs for each intended control.",
+        "Results match the written decision without unwanted blocking."
+      ],
+      [
+        "Delivery layers",
+        "Repository, web server, CDN, firewall and crawler-specific responses.",
+        "No layer silently replaces or contradicts the approved rules."
+      ],
+      [
+        "Monitoring",
+        "Logs, Google Search metrics, ChatGPT referral tracking and review date.",
+        "Outcomes are measured by channel without ranking promises."
+      ],
+      [
+        "Change control",
+        "Owner, approver, deployment time, diff and rollback copy.",
+        "The change can be audited and reversed safely."
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "title": "OpenAI: Making it easier for websites to express AI training preferences",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences/"
+    },
+    {
+      "title": "Google Search Central: A common AI training control",
+      "url": "https://developers.google.com/search/blog/2026/10/ai-training-control"
+    },
+    {
+      "title": "OpenAI: Publishers and developers FAQ",
+      "url": "https://help.openai.com/en/articles/12627856-publishers-and-developers-faq"
+    },
+    {
+      "title": "Google: Common crawlers and Google-Extended",
+      "url": "https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers"
+    },
+    {
+      "title": "IETF Internet-Draft: Machine-Readable Training Preference Signal",
+      "url": "https://www.ietf.org/archive/id/draft-kelley-aipref-training-preference-signal-00.html"
+    },
+    {
+      "title": "Google Search Central: Introduction to robots.txt",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/robots/intro"
+    }
+  ]
 }
 ]
