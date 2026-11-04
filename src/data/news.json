@@ -1,6 +1,145 @@
 [
   {
-    "id": 171,
+    "id": 1,
+    "title": "Accelerating engineering for the physical world",
+    "description": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+    "date": "2026-11-03",
+    "image": "/brand/categories/news.svg",
+    "link": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+    "category": "AI News",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 2,
+    "title": "How Cisco defends at machine speed with OpenAI",
+    "description": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+    "date": "2026-11-03",
+    "image": "/brand/categories/news.svg",
+    "link": "https://openai.com/index/cisco-cyber",
+    "category": "AI News",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 3,
+    "title": "Heimstaden is changing residential real estate management with AI",
+    "description": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+    "date": "2026-11-03",
+    "image": "/brand/categories/news.svg",
+    "link": "https://openai.com/index/heimstaden",
+    "category": "AI News",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 4,
+    "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+    "description": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+    "date": "2026-11-03",
+    "image": "/brand/categories/news.svg",
+    "link": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+    "category": "AI News",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 176,
+    "title": "Anthropic is working on a system to prove AI models’ identity",
+    "description": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.",
+    "date": "2026-11-03",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294192768.jpg?resize=1200,798",
+    "link": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/"
+  },
+  {
+    "id": 177,
+    "title": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
+    "description": "Cybersecurity-focused Ballistic Ventures is seeking to raise $360 million for a new flagship fund and another $130 million for a separate investment vehicle.",
+    "date": "2026-11-03",
+    "image": "https://techcrunch.com/wp-content/uploads/2025/04/Ballistic-Ventures-GP-team.jpg?resize=1200,801",
+    "link": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/"
+  },
+  {
+    "id": 178,
+    "title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
+    "description": "The five-year-old startup raised a $1.3 billion round led by Bessemer.",
+    "date": "2026-11-03",
+    "image": "https://techcrunch.com/wp-content/uploads/2022/12/GettyImages-1268605503.jpg?resize=1200,420",
+    "link": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/"
+  },
+  {
+    "id": 179,
+    "title": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
+    "description": "The first experimental feature under the tab will allow users to get recommendations based on what they're currently in the mood for.",
+    "date": "2026-11-03",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2235383828.jpg?resize=1200,800",
+    "link": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/"
+  },
+  {
+    "id": 180,
+    "title": "Anthropic is still grappling with the economics of compute",
+    "description": "At a moment when Anthropic's compute margins should be getting better, they’re getting worse.",
+    "date": "2026-11-03",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294935494.jpg?resize=1200,800",
+    "link": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/"
+  },
+  {
+    "id": 181,
+    "title": "Google will let schools disable its AI tools, but not without sacrificing Search",
+    "description": "Schools choosing to restrict AI altogether will no longer be able to access Google Search, as AI features are now integrated into the search engine.",
+    "date": "2026-11-03",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/06/google-logo.jpg?resize=1200,800",
+    "link": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/"
+  },
+  {
+    "id": 182,
+    "title": "Apple restricts dating apps and AI companions to users 18 and up",
+    "description": "Apple's new App Store rules will require 18+ ratings for dating apps and AI companions that offer sexual or romantic content.",
+    "date": "2026-11-03",
+    "image": "https://techcrunch.com/wp-content/uploads/2025/04/Screenshot-2025-04-22-at-1.24.23PM.png?resize=1200,672",
+    "link": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/"
+  },
+  {
+    "id": 183,
+    "title": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
+    "description": "Now in beta: Apple's new Audio Intelligence features can help you remember what someone said or take notes on conversations.",
+    "date": "2026-11-03",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/live-rewind-restaurant.jpg?resize=1200,669",
+    "link": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/"
+  },
+  {
+    "id": 184,
+    "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
+    "description": "Google's Dreambeans, its latest AI experiment, now supports 13 Indian languages.",
+    "date": "2026-11-03",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/google-dreambeans.jpg?resize=1200,800",
+    "link": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/"
+  },
+  {
+    "id": 185,
     "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
     "description": "Apple hinted at ways that it could spur revenue through third-party \"opportunities\" during its Monday night earnings call.",
     "date": "2026-11-03",
@@ -11,7 +150,7 @@
     "imageSource": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/"
   },
   {
-    "id": 172,
+    "id": 186,
     "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
     "description": "Y Combinator Garry Tan has jokingly admitted that he's suffered from \"cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s",
     "date": "2026-11-03",
@@ -20,141 +159,5 @@
     "category": "AI Industry",
     "imageKind": "source",
     "imageSource": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/"
-  },
-  {
-    "id": 1,
-    "title": "Scaling Git at OpenAI",
-    "description": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
-    "date": "2026-11-02",
-    "image": "/brand/categories/news.svg",
-    "link": "https://openai.com/index/scaling-git-at-openai",
-    "category": "AI News",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 2,
-    "title": "Introducing the Grid Protectors Program",
-    "description": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
-    "date": "2026-11-02",
-    "image": "/brand/categories/news.svg",
-    "link": "https://openai.com/index/grid-protectors-program",
-    "category": "AI News",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 3,
-    "title": "Rewarding defenders with bigger bug bounties",
-    "description": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
-    "date": "2026-11-02",
-    "image": "/brand/categories/news.svg",
-    "link": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-    "category": "AI News",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 4,
-    "title": "Preparing our next security sprint to harden OpenAI",
-    "description": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-    "date": "2026-11-02",
-    "image": "/brand/categories/news.svg",
-    "link": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-    "category": "AI News",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 5,
-    "title": "LifeVal",
-    "description": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
-    "date": "2026-11-02",
-    "image": "/brand/categories/news.svg",
-    "link": "https://openai.com/index/lifeval",
-    "category": "AI News",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 6,
-    "title": "Qodo builds context into AI code review with Codex",
-    "description": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
-    "date": "2026-11-02",
-    "image": "/brand/categories/news.svg",
-    "link": "https://openai.com/index/qodo-codex-plugin",
-    "category": "AI News",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 7,
-    "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
-    "description": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
-    "date": "2026-11-02",
-    "image": "/brand/categories/news.svg",
-    "link": "https://openai.com/index/dan-driscoll-joins-openai",
-    "category": "AI News",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 173,
-    "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
-    "description": "The one-year-old startup is now valued at $300 million.",
-    "date": "2026-11-02",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/11/Trajectory_3.jpg?resize=1200,900",
-    "link": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/"
-  },
-  {
-    "id": 174,
-    "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
-    "description": "RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities. To the AI doomers, RSI represents the cataclysm from which there is no",
-    "date": "2026-11-02",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/11/Recursive-Neural-Spiral-in-Circuitry.png?resize=1200,600",
-    "link": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"
-  },
-  {
-    "id": 175,
-    "title": "New York Times and other outlets sue web browser Brave over alleged content scraping",
-    "description": "The New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet’s copyrighted content and unlawfully distributing it to its own customers, like Anthropic and Perplexity.",
-    "date": "2026-11-02",
-    "image": "https://techcrunch.com/wp-content/uploads/2024/08/brave-browser.jpg?resize=1200,800",
-    "link": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/"
-  },
-  {
-    "id": 176,
-    "title": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
-    "description": "Here's a question straight out of sci-fi: What if AI could predict what you were going to do before you decided to, even in a completely new situation?",
-    "date": "2026-11-02",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/11/IMG_3572.jpeg?resize=1200,895",
-    "link": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/"
-  },
-  {
-    "id": 177,
-    "title": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
-    "description": "Two startups tackling the data center water problem are joining forces in a $16 million deal.",
-    "date": "2026-11-02",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/11/DSCF1932.jpg?resize=1200,800",
-    "link": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/"
-  },
-  {
-    "id": 178,
-    "title": "OpenAI is finally merging ChatGPT’s Chat and Work tabs",
-    "description": "OpenAI said that ChatGPT and Codex will draw usage from the same allocation pool after this change.",
-    "date": "2026-11-02",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800",
-    "link": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/"
   }
 ]
