@@ -2668,5 +2668,180 @@
       "url": "https://developers.google.com/search/docs/crawling-indexing/robots/intro"
     }
   ]
+},
+{
+  "slug": "evaluate-ai-meeting-assistant",
+  "title": "How to evaluate an AI meeting assistant: privacy, consent and accuracy checklist",
+  "intro": "Test an AI meeting assistant with a low-risk call, map what it captures, control access and retention, and review summaries before using it for important meetings.",
+  "checkedAt": "5 November 2026",
+  "kind": "AI tool evaluation guide",
+  "sections": [
+    [
+      "Start with one meeting outcome",
+      "Choose one purpose such as producing an internal action list, helping an absent colleague catch up or drafting non-confidential minutes. Define who needs the output and what decision it will support. Do not start by enabling every available feature. A narrower outcome makes it possible to judge whether the assistant saves work without collecting material that the task does not require."
+    ],
+    [
+      "Map the complete data flow",
+      "Record whether the feature uses live audio, speech-to-text data, a saved transcript, chat messages, screen content, shared files, attendee names or prompts. Zoom documents that Meeting Summary uses speech-to-text and can optionally use screen-shared content through OCR and in-meeting chat. Google Meet can place notes in a Google Doc and may include screenshots when that option is enabled. The exact data path depends on the product, account settings and feature configuration."
+    ],
+    [
+      "Separate recording, transcription and AI notes",
+      "These are related but distinct functions. A recording can preserve audio, video and shared content; a transcript is a written record; an AI summary is generated from selected meeting data. Microsoft documents a Teams option that uses temporary speech-to-text data only during the meeting, while its during-and-after option relies on transcription. Confirm which artefacts are created instead of assuming that an AI note taker always makes—or never makes—a recording."
+    ],
+    [
+      "Give participants a clear notice and real choice",
+      "Tell invitees before the meeting what feature will run, what it captures, why it is needed, who will receive the result and how to raise an objection. Check applicable organisational policy, contracts and local law. Platform notices can support this process but do not replace it. Zoom and Google document administrator settings that can require explicit participant consent; Microsoft documents a policy that can require agreement before recording and transcription."
+    ],
+    [
+      "Decide who can start, stop and change the feature",
+      "Define the meeting roles allowed to activate AI, retain transcripts, share notes and delete outputs. Test the participant experience for internal users, guests and people joining by phone. Google says Host Management can restrict starting and stopping Take notes for me to hosts, while Zoom limits Meeting Summary start and stop controls to hosts and co-hosts. Teams controls can be split across admin policy, meeting templates, sensitivity labels and organizer settings."
+    ],
+    [
+      "Review recipients before the call begins",
+      "A useful summary can still expose information when it is sent to the wrong people. In Google Meet, hosts can choose recipients such as all invited guests, invited internal guests, or hosts and co-hosts; invited guests are not necessarily the people who actually attended. Zoom summaries can be delivered by email and can appear in the meeting's dedicated chat when the relevant chat setting is enabled. Use a test meeting to verify the actual recipient list and inherited file permissions."
+    ],
+    [
+      "Set retention and deletion deliberately",
+      "Document where the transcript, summary, prompts and recording are stored; who owns them; how long they remain; and how deletion, legal hold, backup and export work. Zoom provides controls for retaining and deleting meeting transcripts. Microsoft stores Teams recordings and transcripts in OneDrive or SharePoint and supports expiration settings, but warns that expiration is a storage-management feature rather than a compliance retention control. Google says meeting-note documents follow the organisation's configured Meet retention policy."
+    ],
+    [
+      "Treat sensitive meetings as a separate class",
+      "Create a rule for meetings involving health information, employment decisions, legal advice, security incidents, customer secrets, unpublished financial information or children. The safe decision may be to disable the assistant, pause it for one agenda item, use a restricted workflow or obtain specialist approval. A vendor's availability in a regulated plan is not proof that a particular meeting, configuration or disclosure complies with your obligations."
+    ],
+    [
+      "Test language, attribution and accessibility",
+      "Use the actual accents, languages, terminology and meeting format your team needs. Google currently documents one supported spoken language at a time for Take notes for me. Zoom warns that AI output can be incorrect and that Meeting Summary may infer pronouns when users have not supplied them. Check speaker attribution, names, acronyms, numbers, decisions, disagreements and action owners against the call rather than treating a fluent summary as an accurate record."
+    ],
+    [
+      "Run a bounded evaluation meeting",
+      "Use an invented 15–20 minute agenda with no confidential or personal data. Include two similar speaker names, one correction, one rejected proposal, three numbers, one explicit decision and two action items with different owners and dates. Run the same script with each candidate configuration. Keep the original human checklist so reviewers can score omissions and errors without relying on memory."
+    ],
+    [
+      "Measure correction work, not summary length",
+      "Count incorrect speaker labels, missing decisions, invented claims, wrong numbers, missed objections, incorrect action owners and edits required before sharing. Record review minutes and whether the output reduced total administrative time. A longer summary is not automatically better. Require human approval for minutes, commitments, performance records, legal conclusions or other consequential uses."
+    ],
+    [
+      "Example: a fictional project-status meeting",
+      "Imagine a small software team testing an assistant for weekly project updates. The team announces the test in the invitation, uses a synthetic agenda, limits the notes to internal hosts, disables screenshots, sets a short retention period and compares the summary with a prepared answer key. The assistant gets the main decision right but assigns one task to the wrong person, so the team keeps mandatory human review and does not use it for HR or customer-confidential meetings. This example is illustrative; AIWorldNext did not run or rank the products discussed."
+    ],
+    [
+      "Use a proceed, revise or stop decision",
+      "Proceed only when the tool meets the defined task, notice and consent process, access limits, retention rule and accuracy threshold. Revise when a controllable setting, meeting script or review step can address the gap. Stop when required participants cannot make an informed choice, sensitive data cannot be excluded, access is broader than intended, deletion cannot be verified or errors make the workflow riskier than manual notes."
+    ],
+    [
+      "Limitations and source dates",
+      "Sources were checked on 5 November 2026. Features, plans, languages, regional availability, default settings and retention controls can change. This guide compares documented control areas and does not claim hands-on testing, legal compliance or a best product. Verify the live settings for your tenant and meeting type, consult privacy, security and legal specialists where needed, and test with non-sensitive content before wider use."
+    ]
+  ],
+  "worksheet": {
+    "title": "AI meeting assistant evaluation sheet",
+    "intro": "Complete one sheet for each product and configuration using the same low-risk test meeting.",
+    "columns": [
+      "Review area",
+      "Evidence to record",
+      "Pass condition"
+    ],
+    "rows": [
+      [
+        "Purpose",
+        "Meeting type, intended output, recipients and decision supported.",
+        "One bounded use case is approved."
+      ],
+      [
+        "Captured data",
+        "Audio, transcript, chat, screen content, files, names and prompts.",
+        "Only data needed for the purpose is used."
+      ],
+      [
+        "Created artefacts",
+        "Recording, transcript, summary, screenshots, prompts and tasks.",
+        "Every artefact and storage location is known."
+      ],
+      [
+        "Notice and choice",
+        "Invitation notice, in-meeting notice, consent route and objection process.",
+        "Participants receive the required information and options."
+      ],
+      [
+        "Controls",
+        "Who can start, stop, pause, retain, share, edit and delete.",
+        "Permissions match approved meeting roles."
+      ],
+      [
+        "Recipients and access",
+        "Actual recipients, guest behaviour, inherited links and file permissions.",
+        "Only intended people can access the output."
+      ],
+      [
+        "Retention and deletion",
+        "Retention period, expiry, deletion test, backup, export and legal hold.",
+        "The approved lifecycle is technically and operationally verified."
+      ],
+      [
+        "Sensitive topics",
+        "Excluded meeting classes and pause or escalation procedure.",
+        "High-risk content has a documented alternative."
+      ],
+      [
+        "Language and format",
+        "Languages, accents, terminology, remote audio and accessibility needs.",
+        "The real meeting conditions are supported and tested."
+      ],
+      [
+        "Accuracy",
+        "Speaker, numbers, decisions, objections, tasks, owners and dates.",
+        "The pre-agreed error and omission threshold is met."
+      ],
+      [
+        "Human review",
+        "Reviewer, correction route, approval time and version history.",
+        "Consequential output is checked before use."
+      ],
+      [
+        "Value",
+        "Setup time, review minutes, corrections, licence and administration cost.",
+        "Measured benefit exceeds the complete workflow cost."
+      ],
+      [
+        "Decision",
+        "Proceed, revise or stop, with evidence, owner and next review date.",
+        "The decision follows the recorded test rather than a demo claim."
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "title": "Zoom Support: Using Meeting Summary with AI",
+      "url": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0058013"
+    },
+    {
+      "title": "Zoom Support: Configuring the custom message for AI",
+      "url": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0082011"
+    },
+    {
+      "title": "Zoom Support: How Zoom AI features handle your data",
+      "url": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0057861"
+    },
+    {
+      "title": "Microsoft Learn: Manage recording and transcription options for sensitive Teams meetings",
+      "url": "https://learn.microsoft.com/en-us/microsoftteams/manage-meeting-recording-options"
+    },
+    {
+      "title": "Microsoft Learn: Manage Copilot in Teams meetings and events",
+      "url": "https://learn.microsoft.com/en-us/microsoftteams/copilot-teams-transcription"
+    },
+    {
+      "title": "Microsoft Learn: Manage Teams recording expiration policy",
+      "url": "https://learn.microsoft.com/en-us/microsoftteams/manage-teams-recording-expiration-policy"
+    },
+    {
+      "title": "Google Meet Help: Take notes for me",
+      "url": "https://support.google.com/meet/answer/14754931?hl=en"
+    },
+    {
+      "title": "NIST: Cybersecurity, Privacy, and AI",
+      "url": "https://www.nist.gov/itl/applied-cybersecurity/cybersecurity-privacy-and-ai"
+    }
+  ]
 }
 ]
