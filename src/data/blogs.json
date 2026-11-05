@@ -1,6 +1,19 @@
 [
   {
     "id": 1,
+    "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-11-04",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/c1ik58RednXjcqrx5s2Fo.png",
+    "link": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor"
+  },
+  {
+    "id": 2,
     "title": "StateBench: Testing how language models track state changes over long documents",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-03",
@@ -13,7 +26,7 @@
     "imageSource": "https://huggingface.co/blog/allenai/statebench"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Palette: teaching a small model to build decks in your design language",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-03",
@@ -26,7 +39,7 @@
     "imageSource": "https://huggingface.co/blog/ibm-research/palette-deck-building"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "CWE-bench v2: More coverage, quality, and transparency",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-03",
@@ -39,7 +52,7 @@
     "imageSource": "https://huggingface.co/blog/cwe-bench"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Transformers Model Integration Contracts",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-03",
@@ -52,7 +65,7 @@
     "imageSource": "https://huggingface.co/blog/transformers-mic"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "nemotron-halloween",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-30",
@@ -65,7 +78,7 @@
     "imageSource": "https://huggingface.co/blog/nvidia/nemotron-halloween"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Granite Switch 4.1.1 — Update models like you update software",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-29",
@@ -78,7 +91,7 @@
     "imageSource": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1"
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-29",
@@ -91,7 +104,7 @@
     "imageSource": "https://huggingface.co/blog/announcing-project-protostar"
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-29",
@@ -104,7 +117,7 @@
     "imageSource": "https://huggingface.co/blog/mistral-large4"
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-29",
@@ -117,7 +130,7 @@
     "imageSource": "https://huggingface.co/blog/anydecisionmodel"
   },
   {
-    "id": 10,
+    "id": 11,
     "title": "Build specialized multimodal models with LFM3",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-27",
@@ -130,7 +143,7 @@
     "imageSource": "https://huggingface.co/blog/LiquidAI/lfm3"
   },
   {
-    "id": 11,
+    "id": 12,
     "title": "Does Your Model Run on AWS Trainium? Look It Up",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-23",
@@ -143,7 +156,7 @@
     "imageSource": "https://huggingface.co/blog/torch-neuronx-model-support"
   },
   {
-    "id": 12,
+    "id": 13,
     "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-22",
@@ -156,7 +169,7 @@
     "imageSource": "https://huggingface.co/blog/microsoft/thinkingbox-training"
   },
   {
-    "id": 13,
+    "id": 14,
     "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-21",
@@ -169,7 +182,7 @@
     "imageSource": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization"
   },
   {
-    "id": 14,
+    "id": 15,
     "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-21",
@@ -180,18 +193,5 @@
     "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
     "imageKind": "source",
     "imageSource": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1"
-  },
-  {
-    "id": 15,
-    "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
-    "description": "Read the original report from Hugging Face.",
-    "date": "2026-10-20",
-    "image": "https://huggingface.co/blog/assets/hf-torchtpu/thumbnail.png",
-    "link": "https://huggingface.co/blog/hf-torchtpu",
-    "category": "AI Tools & Research",
-    "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://huggingface.co/blog/hf-torchtpu"
   }
 ]

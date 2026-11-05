@@ -1,193 +1,6 @@
 [
   {
     "id": 1,
-    "title": "OWASP Global AppSec USA 2026",
-    "date": "2026-11-02",
-    "endDate": "2026-11-06",
-    "location": "See official event page",
-    "type": "AI Event",
-    "description": "Event date: November 2, 2026 - November 6, 2026 OWASP Global AppSec USA runs November 2–6 in San Francisco. Training takes place November 2–4, followed by the main conference November 5–6. It brings application-security practitioners,",
-    "url": "https://www.ai-redteam.com/insights/owasp-global-appsec-usa-2026/",
-    "featured": true
-  },
-  {
-    "id": 2,
-    "title": "SecureWorld Seattle 2026",
-    "date": "2026-11-04",
-    "endDate": "2026-11-05",
-    "location": "See official event page",
-    "type": "AI Event",
-    "description": "Event date: November 4, 2026 - November 5, 2026 SecureWorld Seattle 2026 is a two-day professional cybersecurity conference in Bellevue with sessions on prompt injection, model poisoning, AI governance, NIST AI RMF implementation, shadow AI,",
-    "url": "https://www.ai-redteam.com/insights/secureworld-seattle-2026/",
-    "featured": true
-  },
-  {
-    "id": 3,
-    "title": "Agentics Day: MCP + Agents North America 2026",
-    "date": "2026-11-09",
-    "endDate": "2026-11-09",
-    "location": "See official event page",
-    "type": "AI Event",
-    "description": "Event date: November 9, 2026 Agentics Day: MCP + Agents takes place November 9 in Salt Lake City alongside KubeCon + CloudNativeCon North America. Its scope includes MCP implementations, production agent infrastructure, and security, trust,",
-    "url": "https://www.ai-redteam.com/insights/agentics-day-north-america-2026/",
-    "featured": true
-  },
-  {
-    "id": 4,
-    "title": "AI Engineer Code Summit 2026",
-    "date": "2026-11-10",
-    "endDate": "2026-11-12",
-    "location": "See official event page",
-    "type": "AI Event",
-    "description": "Event date: November 10, 2026 - November 12, 2026 The hybrid AI Engineer Code Summit takes place November 10–12 at Hilton Union Square in San Francisco, with a livestream also announced. Workshops are November 10;",
-    "url": "https://www.ai-redteam.com/insights/ai-engineer-code-summit-2026/",
-    "featured": true
-  },
-  {
-    "id": 5,
-    "title": "OpenAI DevDay Exchange Mexico City 2026",
-    "date": "2026-11-10",
-    "endDate": "2026-11-10",
-    "location": "See official event page",
-    "type": "AI Event",
-    "description": "Event date: November 10, 2026 OpenAI DevDay Exchange in Mexico City offers technical sessions, project discussion, and hands-on guidance with OpenAI engineering teams. The organizer describes real application projects and coding-agent workflows. Attendance requires an",
-    "url": "https://www.ai-redteam.com/insights/openai-devday-exchange-mexico-city-2026/",
-    "featured": false
-  },
-  {
-    "id": 6,
-    "title": "SecureAI.se Stockholm 2026",
-    "date": "2026-11-10",
-    "endDate": "2026-11-12",
-    "location": "See official event page",
-    "type": "AI Event",
-    "description": "Event date: November 10, 2026 - November 12, 2026 SecureAI.se runs November 10–12 at Nalen in Stockholm. Two days of training precede the November 12 conference. The published offering includes pentesting LLM applications and agents;",
-    "url": "https://www.ai-redteam.com/insights/secureai-stockholm-2026/",
-    "featured": false
-  },
-  {
-    "id": 7,
-    "title": "TrustAudio 2026",
-    "date": "2026-11-10",
-    "endDate": "2026-11-10",
-    "location": "See official event page",
-    "type": "AI Event",
-    "description": "Event date: November 10, 2026 TrustAudio is a one-day AACL-IJCNLP workshop in Zhuhai focused on security, safety, and privacy across the speech and audio AI lifecycle, including adversarial audio, real-world attacks, deepfake misuse, backdoors, model",
-    "url": "https://www.ai-redteam.com/insights/trustaudio-2026/",
-    "featured": false
-  },
-  {
-    "id": 8,
-    "title": "ACM AISec 2026",
-    "date": "2026-11-15",
-    "endDate": "2026-11-15",
-    "location": "See official event page",
-    "type": "AI Event",
-    "description": "Event date: November 15, 2026 The 19th ACM Workshop on Artificial Intelligence and Security is listed for November 15 in ACM CCS registration, alongside related workshops in The Hague. It covers adversarial ML, model privacy,",
-    "url": "https://www.ai-redteam.com/insights/acm-aisec-2026/",
-    "featured": false
-  },
-  {
-    "id": 9,
-    "title": "ACM AGENT-SEC 2026",
-    "date": "2026-11-15",
-    "endDate": "2026-11-15",
-    "location": "See official event page",
-    "type": "AI Event",
-    "description": "Event date: November 15, 2026 This ACM CCS workshop meets November 15 at the World Forum in The Hague. It studies security, privacy, and safety of agents that use tools, retain memory, execute code, or",
-    "url": "https://www.ai-redteam.com/insights/acm-agent-sec-2026/",
-    "featured": false
-  },
-  {
-    "id": 10,
-    "title": "ACM CCS 2026",
-    "date": "2026-11-15",
-    "endDate": "2026-11-19",
-    "location": "See official event page",
-    "type": "AI Event",
-    "description": "Event date: November 15, 2026 - November 19, 2026 The 33rd ACM Conference on Computer and Communications Security brings peer-reviewed security and privacy research to the World Forum in The Hague, including a large workshop",
-    "url": "https://www.ai-redteam.com/insights/acm-ccs-2026/",
-    "featured": false
-  },
-  {
-    "id": 11,
-    "title": "CSA Verifiable Agent Summit 2026",
-    "date": "2026-11-16",
-    "endDate": "2026-11-16",
-    "location": "See official event page",
-    "type": "AI Event",
-    "description": "Event date: November 16, 2026 Cloud Security Alliance lists a free in-person Verifiable Agent Summit in San Francisco on November 16. Its announced subject is verification of AI agent actions, authority, and trust. The current",
-    "url": "https://www.ai-redteam.com/insights/csa-verifiable-agent-summit-2026/",
-    "featured": false
-  },
-  {
-    "id": 12,
-    "title": "AI Governance Conference 2026",
-    "date": "2026-11-16",
-    "endDate": "2026-11-19",
-    "location": "See official event page",
-    "type": "AI Event",
-    "description": "Event date: November 16, 2026 - November 19, 2026 The AI Governance Conference 2026 is co-located with DGIQ East in Providence and focuses on enterprise AI governance, risk, compliance, data quality, and operational leadership. Takeaway:",
-    "url": "https://www.ai-redteam.com/insights/ai-governance-conference-2026/",
-    "featured": false
-  },
-  {
-    "id": 13,
-    "title": "IAPP Europe Congress 2026",
-    "date": "2026-11-16",
-    "endDate": "2026-11-19",
-    "location": "See official event page",
-    "type": "AI Event",
-    "description": "Event date: November 16, 2026 - November 19, 2026 This IAPP event in Brussels covers privacy, AI governance, and cybersecurity law. Training runs November 16–17, workshops take place November 17, and the main conference runs",
-    "url": "https://www.ai-redteam.com/insights/iapp-europe-congress-2026/",
-    "featured": false
-  },
-  {
-    "id": 14,
-    "title": "CSA AI Security Summit 2026: Zero Trust",
-    "date": "2026-11-18",
-    "endDate": "2026-11-19",
-    "location": "See official event page",
-    "type": "AI Event",
-    "description": "Event date: November 18, 2026 - November 19, 2026 Cloud Security Alliance's free two-day virtual AI Security Summit examines how Zero Trust principles apply to AI systems, agents, cloud infrastructure, identities, data, and runtime controls.",
-    "url": "https://www.ai-redteam.com/insights/csa-ai-security-summit-zero-trust-2026/",
-    "featured": false
-  },
-  {
-    "id": 15,
-    "title": "ESSAI 2026: European Symposium on Security and AI",
-    "date": "2026-11-19",
-    "endDate": "2026-11-19",
-    "location": "See official event page",
-    "type": "AI Event",
-    "description": "Event date: November 19, 2026 ESSAI takes place November 19 in Rennes, France, during European Cyber Week. Organized by Inria and AMIAD, the research symposium has two themes: agentic AI for offensive and defensive cybersecurity,",
-    "url": "https://www.ai-redteam.com/insights/essai-2026/",
-    "featured": false
-  },
-  {
-    "id": 16,
-    "title": "MCP Dev Summit Nairobi 2026",
-    "date": "2026-11-19",
-    "endDate": "2026-11-20",
-    "location": "See official event page",
-    "type": "AI Event",
-    "description": "Event date: November 19, 2026 - November 20, 2026 MCP Dev Summit Nairobi 2026 brings developers and operators together for two days on Model Context Protocol implementation, production infrastructure, interoperability, security, and governance. Takeaway: Track",
-    "url": "https://www.ai-redteam.com/insights/mcp-dev-summit-nairobi-2026/",
-    "featured": false
-  },
-  {
-    "id": 17,
-    "title": "TrustAICyberSec 2026",
-    "date": "2026-11-19",
-    "endDate": "2026-11-19",
-    "location": "See official event page",
-    "type": "AI Event",
-    "description": "Event date: November 19, 2026 TrustAICyberSec is a November 19 ACM CCS workshop at the World Forum in The Hague. Its research scope connects trusted computing and attestation with AI-assisted attack detection, incident response, and",
-    "url": "https://www.ai-redteam.com/insights/trustaicybersec-2026/",
-    "featured": false
-  },
-  {
-    "id": 18,
     "title": "Tel Aviv Frontier AI Security Forum 2026",
     "date": "2026-11-22",
     "endDate": "2026-11-22",
@@ -195,32 +8,76 @@
     "type": "AI Event",
     "description": "Event date: November 22, 2026 This forum takes place November 22 at the Tel Aviv Museum of Art, with talks and workshops on frontier-model security. Announced discussion topics include controlling untrusted AI, internal deployment security,",
     "url": "https://www.ai-redteam.com/insights/tel-aviv-frontier-ai-security-forum-2026/",
-    "featured": false
+    "featured": true
   },
   {
-    "id": 19,
+    "id": 2,
+    "title": "AI Security Summit Copenhagen 2026",
+    "date": "2026-11-25",
+    "endDate": "2026-11-25",
+    "location": "See official event page",
+    "type": "AI Event",
+    "description": "Event date: November 25, 2026 This half-day summit in Copenhagen now has a published agenda covering agentic attacks, security of autonomous development, the EU Cyber Resilience Act, and board-level AI governance. Sessions examine the path",
+    "url": "https://www.ai-redteam.com/insights/ai-security-summit-copenhagen-2026/",
+    "featured": true
+  },
+  {
+    "id": 3,
     "title": "Sydney AI Security Summit 2026",
     "date": "2026-11-25",
     "endDate": "2026-11-25",
     "location": "See official event page",
     "type": "AI Event",
-    "description": "Event date: November 25, 2026 This half-day summit meets November 25 at Doltone House Hyde Park in Sydney. Published sessions examine threat modeling before deployment, penetration testing of real AI applications, and a security knowledge",
+    "description": "Event date: November 25, 2026 This half-day summit meets November 25 at Doltone House Hyde Park in Sydney. Its current agenda covers how privacy changes AI deployment decisions, governance and accountability at scale, threat modeling,",
     "url": "https://www.ai-redteam.com/insights/sydney-ai-security-summit-2026/",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "title": "ICAEW AI & Analytics Conference 2026",
+    "date": "2026-11-26",
+    "endDate": "2026-11-26",
+    "location": "See official event page",
+    "type": "AI Event",
+    "description": "Event date: November 26, 2026 ICAEW’s virtual conference covers responsible-AI risk assessment, data readiness, governance in finance transformation, and oversight of intelligent agents. The published program combines practitioner sessions with some session details still to",
+    "url": "https://www.ai-redteam.com/insights/icaew-ai-analytics-conference-2026/",
+    "featured": true
+  },
+  {
+    "id": 5,
+    "title": "Black Hat Middle East & Africa 2026",
+    "date": "2026-12-01",
+    "endDate": "2026-12-03",
+    "location": "See official event page",
+    "type": "AI Event",
+    "description": "Event date: December 1, 2026 - December 3, 2026 Black Hat Middle East & Africa 2026 brings security practitioners and researchers to Malham, Riyadh for three days of technical content, competitions, tools, and industry programming.",
+    "url": "https://www.ai-redteam.com/insights/black-hat-mea-2026/",
     "featured": false
   },
   {
-    "id": 20,
+    "id": 6,
     "title": "IAPP ANZ Summit 2026",
     "date": "2026-12-01",
     "endDate": "2026-12-04",
     "location": "See official event page",
     "type": "AI Event",
-    "description": "Event date: December 1, 2026 - December 4, 2026 This IAPP event in Sydney covers privacy, AI governance, and cybersecurity law. Training runs December 1–2, and the main conference runs December 3–4. Review the relevant",
+    "description": "Event date: December 1, 2026 - December 4, 2026 IAPP’s Sydney summit has training December 1–2 and conference sessions December 3–4. Its agenda now includes practical AI governance across Asia and ANZ, proportionality and documentation",
     "url": "https://www.ai-redteam.com/insights/iapp-anz-summit-2026/",
     "featured": false
   },
   {
-    "id": 21,
+    "id": 7,
+    "title": "ISACA Virtual Conference 2026",
+    "date": "2026-12-01",
+    "endDate": "2026-12-03",
+    "location": "See official event page",
+    "type": "AI Event",
+    "description": "Event date: December 1, 2026 - December 3, 2026 ISACA’s virtual conference runs December 1–3 with separate Americas, EMEA, and APAC days. The agenda includes AI accountability, audit frameworks for AI decisions, controls for autonomous",
+    "url": "https://www.ai-redteam.com/insights/isaca-virtual-conference-2026/",
+    "featured": false
+  },
+  {
+    "id": 8,
     "title": "NeurIPS 2026",
     "date": "2026-12-06",
     "endDate": "2026-12-13",
@@ -231,7 +88,7 @@
     "featured": false
   },
   {
-    "id": 22,
+    "id": 9,
     "title": "ACSAC AIDC 2026: Agentic AI in Cyber Operations",
     "date": "2026-12-07",
     "endDate": "2026-12-07",
@@ -242,7 +99,7 @@
     "featured": false
   },
   {
-    "id": 23,
+    "id": 10,
     "title": "ACSAC BioAISS 2026: AI Safety and Security in Biotechnology",
     "date": "2026-12-07",
     "endDate": "2026-12-07",
@@ -253,18 +110,18 @@
     "featured": false
   },
   {
-    "id": 24,
+    "id": 11,
     "title": "Black Hat Europe 2026",
     "date": "2026-12-07",
     "endDate": "2026-12-10",
     "location": "See official event page",
     "type": "AI Event",
-    "description": "Event date: December 7, 2026 - December 10, 2026 Black Hat Europe 2026 brings security researchers and practitioners to London for four days of technical training, review-board-selected Briefings, Arsenal tool demonstrations, and a dedicated AI",
+    "description": "Event date: December 7, 2026 - December 10, 2026 Black Hat Europe runs December 7–10 at Excel London, with training, technical Briefings, and Arsenal demonstrations. The separately ticketed AI Security Summit is December 8; Briefings",
     "url": "https://www.ai-redteam.com/insights/black-hat-europe-2026/",
     "featured": false
   },
   {
-    "id": 25,
+    "id": 12,
     "title": "ACSAC WAITI 2026: AI for Cyber Threat Intelligence",
     "date": "2026-12-07",
     "endDate": "2026-12-07",
@@ -275,7 +132,7 @@
     "featured": false
   },
   {
-    "id": 26,
+    "id": 13,
     "title": "IEEE ACSAC 2026",
     "date": "2026-12-07",
     "endDate": "2026-12-11",
@@ -286,7 +143,7 @@
     "featured": false
   },
   {
-    "id": 27,
+    "id": 14,
     "title": "ACSAC ARTMAN 2026: Resilient and Trustworthy ML",
     "date": "2026-12-08",
     "endDate": "2026-12-08",
@@ -297,7 +154,40 @@
     "featured": false
   },
   {
-    "id": 28,
+    "id": 15,
+    "title": "Black Hat Europe AI Security Summit 2026",
+    "date": "2026-12-08",
+    "endDate": "2026-12-08",
+    "location": "See official event page",
+    "type": "AI Event",
+    "description": "Event date: December 8, 2026 This separately ticketed summit takes place December 8 at Excel London, before the December 9–10 Briefings. Its focus includes agentic-AI controls, security risks, governance, and regulatory considerations. The summit pass",
+    "url": "https://www.ai-redteam.com/insights/black-hat-europe-ai-security-summit-2026/",
+    "featured": false
+  },
+  {
+    "id": 16,
+    "title": "GovAI Coalition Summit 2026",
+    "date": "2026-12-09",
+    "endDate": "2026-12-11",
+    "location": "See official event page",
+    "type": "AI Event",
+    "description": "Event date: December 9, 2026 - December 11, 2026 The summit meets December 9–10 at the San Jose Convention Center, followed by a public-sector town hall on December 11. Its agenda covers accountable AI procurement,",
+    "url": "https://www.ai-redteam.com/insights/govai-coalition-summit-2026/",
+    "featured": false
+  },
+  {
+    "id": 17,
+    "title": "NUS AI Governance and Liability Conference 2026",
+    "date": "2026-12-10",
+    "endDate": "2026-12-11",
+    "location": "See official event page",
+    "type": "AI Event",
+    "description": "Event date: December 10, 2026 - December 11, 2026 The Good, the Bad and the Ugly of Artificial Intelligence: Governance and Liability meets at NUS Law in Singapore. The published program examines human oversight, standards,",
+    "url": "https://www.ai-redteam.com/insights/nus-ai-governance-liability-2026/",
+    "featured": false
+  },
+  {
+    "id": 18,
     "title": "NeurIPS 2026: Agents in the Wild — Safety, Security and Beyond",
     "date": "2026-12-11",
     "endDate": "2026-12-11",
@@ -308,7 +198,7 @@
     "featured": false
   },
   {
-    "id": 29,
+    "id": 19,
     "title": "NeurIPS 2026: Managing Agents That Manage Agents",
     "date": "2026-12-11",
     "endDate": "2026-12-11",
@@ -319,7 +209,7 @@
     "featured": false
   },
   {
-    "id": 30,
+    "id": 20,
     "title": "NeurIPS 2026: Who Verifies the Agents?",
     "date": "2026-12-12",
     "endDate": "2026-12-12",
@@ -330,7 +220,7 @@
     "featured": false
   },
   {
-    "id": 31,
+    "id": 21,
     "title": "NeurIPS 2026: Can We Trust AI Evaluation?",
     "date": "2026-12-12",
     "endDate": "2026-12-12",
@@ -341,7 +231,18 @@
     "featured": false
   },
   {
-    "id": 32,
+    "id": 22,
+    "title": "SCCE AI & Compliance Conference — January 2027",
+    "date": "2027-01-21",
+    "endDate": "2027-01-21",
+    "location": "See official event page",
+    "type": "AI Event",
+    "description": "Event date: January 21, 2027 SCCE confirms this one-day virtual event in its 2027 AI & Compliance series. The call for speakers concerns AI use by compliance teams and management of AI-related challenges. A final",
+    "url": "https://www.ai-redteam.com/insights/scce-ai-compliance-january-2027/",
+    "featured": false
+  },
+  {
+    "id": 23,
     "title": "AAAI-27",
     "date": "2027-02-16",
     "endDate": "2027-02-23",
@@ -352,7 +253,29 @@
     "featured": false
   },
   {
-    "id": 33,
+    "id": 24,
+    "title": "Black Hat Asia 2027",
+    "date": "2027-02-28",
+    "endDate": "2027-03-03",
+    "location": "See official event page",
+    "type": "AI Event",
+    "description": "Event date: February 28, 2027 - March 3, 2027 Black Hat Asia 2027 returns to Singapore for four days of security training, research briefings, tool demonstrations, and industry programming. Takeaway: Track independent AI-security research, adversarial",
+    "url": "https://www.ai-redteam.com/insights/black-hat-asia-2027/",
+    "featured": false
+  },
+  {
+    "id": 25,
+    "title": "Data & AI Governance Conference Europe 2027",
+    "date": "2027-03-15",
+    "endDate": "2027-03-19",
+    "location": "See official event page",
+    "type": "AI Event",
+    "description": "Event date: March 15, 2027 - March 19, 2027 IRM UK’s London event has conference days March 15–16 at 133 Houndsditch and workshops March 17–19 at Fenchurch Street. The announced scope includes AI governance frameworks,",
+    "url": "https://www.ai-redteam.com/insights/data-ai-governance-europe-2027/",
+    "featured": false
+  },
+  {
+    "id": 26,
     "title": "Agentics Day: MCP + Agents Europe 2027",
     "date": "2027-03-15",
     "endDate": "2027-03-15",
@@ -363,7 +286,7 @@
     "featured": false
   },
   {
-    "id": 34,
+    "id": 27,
     "title": "IAPP Global Summit 2027",
     "date": "2027-03-21",
     "endDate": "2027-03-24",
@@ -374,7 +297,7 @@
     "featured": false
   },
   {
-    "id": 35,
+    "id": 28,
     "title": "NDSS Symposium 2027",
     "date": "2027-03-22",
     "endDate": "2027-03-26",
@@ -385,7 +308,7 @@
     "featured": false
   },
   {
-    "id": 36,
+    "id": 29,
     "title": "IAPP UK Intensive + AI Governance Global 2027",
     "date": "2027-04-05",
     "endDate": "2027-04-08",
@@ -396,7 +319,7 @@
     "featured": false
   },
   {
-    "id": 37,
+    "id": 30,
     "title": "RSAC 2027 Conference",
     "date": "2027-04-05",
     "endDate": "2027-04-08",
@@ -407,7 +330,18 @@
     "featured": false
   },
   {
-    "id": 38,
+    "id": 31,
+    "title": "ETSI AI and Data Conference 2027",
+    "date": "2027-04-13",
+    "endDate": "2027-04-15",
+    "location": "See official event page",
+    "type": "AI Event",
+    "description": "Event date: April 13, 2027 - April 15, 2027 ETSI’s in-person conference in Sophia Antipolis, France, connects AI security, trusted data, verification, and standards. Its call for contributions includes testing, validation, conformity assessment, and standards",
+    "url": "https://www.ai-redteam.com/insights/etsi-ai-data-conference-2027/",
+    "featured": false
+  },
+  {
+    "id": 32,
     "title": "ICLR 2027",
     "date": "2027-04-26",
     "endDate": "2027-04-30",
@@ -418,7 +352,18 @@
     "featured": false
   },
   {
-    "id": 39,
+    "id": 33,
+    "title": "SANS AI Cybersecurity Summit Spring 2027",
+    "date": "2027-04-27",
+    "endDate": "2027-04-28",
+    "location": "See official event page",
+    "type": "AI Event",
+    "description": "Event date: April 27, 2027 - April 28, 2027 The summit meets April 27–28 at Hilton Denver City Center for talks and workshops on securing AI, applying AI to security, and emerging threats. Related training",
+    "url": "https://www.ai-redteam.com/insights/sans-ai-cybersecurity-summit-spring-2027/",
+    "featured": false
+  },
+  {
+    "id": 34,
     "title": "AGNTCon + MCPCon North America 2027",
     "date": "2027-04-28",
     "endDate": "2027-04-29",
@@ -429,7 +374,7 @@
     "featured": false
   },
   {
-    "id": 40,
+    "id": 35,
     "title": "IEEE SaTML 2027",
     "date": "2027-05-03",
     "endDate": "2027-05-06",
@@ -440,7 +385,7 @@
     "featured": false
   },
   {
-    "id": 41,
+    "id": 36,
     "title": "IEEE Symposium on Security and Privacy 2027",
     "date": "2027-05-17",
     "endDate": "2027-05-20",
@@ -451,7 +396,7 @@
     "featured": false
   },
   {
-    "id": 42,
+    "id": 37,
     "title": "IAPP Canada Symposium 2027",
     "date": "2027-05-25",
     "endDate": "2027-05-28",
@@ -462,7 +407,7 @@
     "featured": false
   },
   {
-    "id": 43,
+    "id": 38,
     "title": "ACM FAccT 2027",
     "date": "2027-06-21",
     "endDate": "2027-06-24",
@@ -473,7 +418,29 @@
     "featured": false
   },
   {
-    "id": 44,
+    "id": 39,
+    "title": "OWASP Global AppSec EU 2027",
+    "date": "2027-06-21",
+    "endDate": "2027-06-25",
+    "location": "See official event page",
+    "type": "AI Event",
+    "description": "Event date: June 21, 2027 - June 25, 2027 OWASP Global AppSec EU 2027 brings application-security practitioners, developers, and researchers to Vienna for training and conference sessions on current software-security risks and defenses. Takeaway: Track",
+    "url": "https://www.ai-redteam.com/insights/owasp-global-appsec-eu-2027/",
+    "featured": false
+  },
+  {
+    "id": 40,
+    "title": "SCCE AI & Compliance Conference — July 2027",
+    "date": "2027-07-15",
+    "endDate": "2027-07-15",
+    "location": "See official event page",
+    "type": "AI Event",
+    "description": "Event date: July 15, 2027 SCCE confirms this one-day virtual event in its 2027 AI & Compliance series. The call for speakers concerns AI use by compliance teams and management of AI-related challenges. A final",
+    "url": "https://www.ai-redteam.com/insights/scce-ai-compliance-july-2027/",
+    "featured": false
+  },
+  {
+    "id": 41,
     "title": "Privacy Enhancing Technologies Symposium 2027",
     "date": "2027-07-19",
     "endDate": "2027-07-24",
@@ -484,7 +451,7 @@
     "featured": false
   },
   {
-    "id": 45,
+    "id": 42,
     "title": "Black Hat USA 2027",
     "date": "2027-07-31",
     "endDate": "2027-08-05",
@@ -495,7 +462,7 @@
     "featured": false
   },
   {
-    "id": 46,
+    "id": 43,
     "title": "DEF CON 35",
     "date": "2027-08-05",
     "endDate": "2027-08-08",
@@ -506,7 +473,7 @@
     "featured": false
   },
   {
-    "id": 47,
+    "id": 44,
     "title": "USENIX Security '27",
     "date": "2027-08-11",
     "endDate": "2027-08-13",
@@ -517,7 +484,7 @@
     "featured": false
   },
   {
-    "id": 48,
+    "id": 45,
     "title": "IAPP P.S.R. + AI Governance Global 2027",
     "date": "2027-09-14",
     "endDate": "2027-09-17",
@@ -528,7 +495,7 @@
     "featured": false
   },
   {
-    "id": 49,
+    "id": 46,
     "title": "AGNTCon + MCPCon Europe 2027",
     "date": "2027-09-15",
     "endDate": "2027-09-16",
@@ -539,7 +506,7 @@
     "featured": false
   },
   {
-    "id": 50,
+    "id": 47,
     "title": "OWASP Global AppSec USA 2027",
     "date": "2027-09-20",
     "endDate": "2027-09-24",
@@ -547,6 +514,39 @@
     "type": "AI Event",
     "description": "Event date: September 20, 2027 - September 24, 2027 OWASP Global AppSec USA 2027 brings application security practitioners, developers, and researchers to Atlanta for training and conference sessions on current software-security risks and defenses. Takeaway:",
     "url": "https://www.ai-redteam.com/insights/owasp-global-appsec-usa-2027/",
+    "featured": false
+  },
+  {
+    "id": 48,
+    "title": "SCCE AI & Compliance Conference — October 2027",
+    "date": "2027-10-13",
+    "endDate": "2027-10-13",
+    "location": "See official event page",
+    "type": "AI Event",
+    "description": "Event date: October 13, 2027 SCCE confirms this one-day virtual event in its 2027 AI & Compliance series. The call for speakers concerns AI use by compliance teams and management of AI-related challenges. A final",
+    "url": "https://www.ai-redteam.com/insights/scce-ai-compliance-october-2027/",
+    "featured": false
+  },
+  {
+    "id": 49,
+    "title": "IAPP Europe Congress 2027",
+    "date": "2027-11-15",
+    "endDate": "2027-11-18",
+    "location": "See official event page",
+    "type": "AI Event",
+    "description": "Event date: November 15, 2027 - November 18, 2027 IAPP announces November 15–18, 2027 in Brussels for its Europe Congress. The series covers privacy, AI governance, and cybersecurity law. This is a future-date listing; the",
+    "url": "https://www.ai-redteam.com/insights/iapp-europe-congress-2027/",
+    "featured": false
+  },
+  {
+    "id": 50,
+    "title": "IAPP ANZ Summit 2027",
+    "date": "2027-12-07",
+    "endDate": "2027-12-10",
+    "location": "See official event page",
+    "type": "AI Event",
+    "description": "Event date: December 7, 2027 - December 10, 2027 IAPP announces December 7–10, 2027 in Sydney for its ANZ Summit. The series concerns privacy, AI governance, and digital responsibility in Australia and New Zealand. Detailed",
+    "url": "https://www.ai-redteam.com/insights/iapp-anz-summit-2027/",
     "featured": false
   }
 ]
