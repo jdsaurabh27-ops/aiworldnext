@@ -2843,5 +2843,189 @@
       "url": "https://www.nist.gov/itl/applied-cybersecurity/cybersecurity-privacy-and-ai"
     }
   ]
+},
+{
+  "slug": "prepare-ai-job-interview",
+  "title": "How to prepare for an AI job interview: technical rounds and AI-tool rules",
+  "intro": "Prepare for an AI job interview by mapping each stage, confirming AI-tool rules, building evidence stories and practising coding, system design and responsible-AI decisions.",
+  "checkedAt": "6 November 2026",
+  "kind": "AI careers interview guide",
+  "sections": [
+    [
+      "Map the interview before you start practising",
+      "Ask the recruiter for the expected stages, approximate format, skills assessed and preparation material. Create one row for every application question, recruiter call, technical screen, take-home task, live coding exercise, system-design discussion and behavioural interview. OpenAI says its process varies by team and may include pair coding, take-home projects or technical tests. Treat the job description and recruiter instructions for your specific role as the source of truth rather than assuming every AI interview follows the same sequence."
+    ],
+    [
+      "Confirm the AI-tool rule for every stage",
+      "Permission can change between stages and employers. OpenAI says expectations for using AI tools vary by interview and advises candidates to ask their recruiter when unsure. Anthropic's published guidance allows AI for research and practice but says take-home assessments should be completed without AI unless explicitly permitted, and live interviews should not use AI unless the interviewer says otherwise. Ask in writing what is allowed for each stage, including autocomplete, chat assistants, web search, documentation and previously prepared notes. When no answer is available, do not assume permission."
+    ],
+    [
+      "Turn the role description into an evidence matrix",
+      "List the five to eight capabilities the role repeats, such as model evaluation, data pipelines, experimentation, deployment, safety, stakeholder communication or a named programming language. For each capability, record one project that proves it, your personal contribution, a measurable result and one limitation or lesson. Mark any gap that lacks direct evidence. This produces a focused preparation list and prevents a long career summary from replacing evidence relevant to the role."
+    ],
+    [
+      "Prepare project stories that survive follow-up questions",
+      "For two or three projects, be ready to explain the problem, users, constraints, data, baseline, method, evaluation metric, errors, deployment path and monitoring. Separate team results from your own decisions. State uncertainty and trade-offs instead of presenting every experiment as successful. A useful two-minute opening covers the goal, your action, the result and what you would change; supporting notes should let you go deeper when an interviewer asks about leakage, bias, latency, cost, failure modes or maintenance."
+    ],
+    [
+      "Practise the technical topics the role actually needs",
+      "Microsoft's technical-interview guidance groups AI and machine-learning discussion around training pipelines, model evaluation, profiling, optimization, data fluency and statistics. Use the vacancy to decide which of these matters. Practise explaining why a metric fits the task, how you would establish a baseline, split data, detect leakage, investigate errors and monitor a deployed system. For a generative-AI role, include retrieval or tool boundaries, evaluation datasets, hallucination handling, latency, cost and fallback behaviour when they appear in the role."
+    ],
+    [
+      "Use a repeatable live-coding routine",
+      "Start by restating the problem and asking about inputs, outputs, constraints and edge cases. Describe a simple solution before optimizing it. Write readable code in the strongest permitted language, then test ordinary cases, empty or invalid input, boundaries and likely failure paths. Microsoft advises candidates to ask clarifying questions, devise a plan, explain their thinking, test the solution and consider security and boundary conditions. Practise the routine without AI assistance so you can still perform when a live round prohibits it."
+    ],
+    [
+      "Structure system-design answers around constraints",
+      "Begin with users, workload, data sensitivity, latency, reliability and cost goals. Draw the minimum components needed, describe data flow, state assumptions and identify the first bottleneck. For an AI service, cover model or provider choice, evaluation, prompt or configuration versioning, monitoring, access control, human review and fallback behaviour. Offer alternatives only after the basic design is understandable, and explain which measurement would cause you to change the design."
+    ],
+    [
+      "Prepare one responsible-AI scenario",
+      "Use a real or fictional system relevant to the role and walk through context, affected people, benefits, failure modes, measurement and controls. NIST's AI RMF playbook recommends establishing context of use and measuring performance in expected conditions with documented metrics, limitations and testing. Explain what ground truth is available, which groups or situations need separate analysis, where human review belongs and what evidence would support launch, restriction or rollback. This shows decision discipline without pretending a checklist eliminates risk."
+    ],
+    [
+      "Build behavioural examples with reflection",
+      "Prepare examples of disagreement, ambiguity, failure, feedback, prioritization and cross-functional work. Microsoft recommends a situation, task, action and result structure and adds reflection on what you learned. Keep the situation short, make your actions specific and explain the result honestly. If the outcome was mixed, say what changed in your approach. Avoid using a memorized story when it does not answer the question asked."
+    ],
+    [
+      "Use AI for preparation without outsourcing your evidence",
+      "When permitted, AI can help extract skills from a job description, generate practice questions or critique the clarity of an answer. Check every suggestion against the vacancy and your actual work. Anthropic advises candidates to create the first draft of application materials themselves and use AI to refine it. Never invent projects, metrics, employers, publications or experience. Do not put confidential employer, client or interview material into a tool unless policy and data controls permit it."
+    ],
+    [
+      "Research the employer and prepare useful questions",
+      "Read the official role page, product documentation, research or engineering material and recent company announcements relevant to the team. Prepare questions about the problem the role owns, success in the first months, evaluation practices, production constraints, team interfaces and how AI tools may be used at work. The goal is to test fit and clarify the work, not to repeat facts from the company homepage. Note the publication date of time-sensitive material so an old announcement is not treated as current policy."
+    ],
+    [
+      "Verify the recruiter and vacancy before sharing sensitive data",
+      "Use the employer's official careers page to confirm the role and independently verify the recruiter's address. Anthropic warns that its recruiters use @anthropic.com addresses and that it does not ask candidates for money, fees or banking information before the first day. The US Federal Trade Commission similarly advises people to verify unexpected offers through trusted company contact information and never pay to get paid. Domain rules differ by employer, so check the official site rather than trusting a logo, message or copied job description."
+    ],
+    [
+      "Arrange access and logistics early",
+      "Confirm the timezone, platform, duration, camera or screen-sharing expectation, coding environment and permitted resources. Install or test only what the employer requests. If you need an accommodation, use the employer's stated process before the interview when possible; OpenAI, Anthropic and Microsoft each publish routes for accommodation requests. Keep a backup connection and recruiter contact, but do not record an interview unless every required party and policy permits it."
+    ],
+    [
+      "Fictional example: preparing for a machine-learning engineer interview",
+      "A candidate maps four stages: recruiter call, coding screen, ML-system discussion and behavioural interview. The recruiter confirms that documentation is allowed in the coding screen but AI assistants are not. The candidate prepares a churn-model story covering the baseline, data leakage discovered during validation, precision-recall trade-off, deployment monitoring and one weak segment. They practise coding without autocomplete, use a NIST-style context and measurement outline for a recommendation-system risk scenario, and prepare questions about model evaluation and on-call ownership. This is an illustration of the process, not a claim about a real vacancy or interview result."
+    ],
+    [
+      "Know the limits of interview preparation",
+      "A strong plan cannot guarantee an interview or offer, and published company guidance may not cover every team or may change after this guide's source check. Interviews measure only part of job performance and can contain inconsistent or inaccessible elements. Confirm current instructions with the employer, protect confidential information and judge any request for payment or unusually early financial data as a warning sign. Use the worksheet below to record what is known, what is assumed and what still needs confirmation."
+    ]
+  ],
+  "worksheet": {
+    "title": "AI job interview preparation sheet",
+    "intro": "Complete the sheet for one role using the official vacancy and written recruiter instructions.",
+    "columns": [
+      "Preparation area",
+      "Evidence or question to record",
+      "Ready condition"
+    ],
+    "rows": [
+      [
+        "Role and stages",
+        "Official role URL, stage names, format, duration and skills assessed.",
+        "Every known stage has a preparation task."
+      ],
+      [
+        "AI-tool rules",
+        "Permission for AI assistants, autocomplete, web search, documentation and notes at each stage.",
+        "Written rules are confirmed or the recruiter has been asked."
+      ],
+      [
+        "Capability matrix",
+        "Repeated skills, matching project, personal contribution, result and gap.",
+        "Priority skills have truthful evidence or a learning plan."
+      ],
+      [
+        "Project deep dive",
+        "Problem, users, constraints, data, baseline, method, metric, errors, deployment and monitoring.",
+        "Two projects can withstand detailed follow-up questions."
+      ],
+      [
+        "Coding",
+        "Language, common task types, clarification routine, tests and boundary cases.",
+        "A timed practice can be completed under the actual tool rules."
+      ],
+      [
+        "Machine learning",
+        "Pipeline, evaluation, statistics, profiling, optimization and role-specific topics.",
+        "Choices and trade-offs can be explained without memorized slogans."
+      ],
+      [
+        "System design",
+        "Users, scale, data, reliability, latency, cost, monitoring, access and fallback.",
+        "One relevant design can be explained from requirements to operations."
+      ],
+      [
+        "Responsible AI",
+        "Context, affected people, failure modes, metrics, testing, human review and rollback.",
+        "The decision uses evidence and states limitations."
+      ],
+      [
+        "Behavioural stories",
+        "Situation, task, action, result and reflection for six common themes.",
+        "Examples identify personal actions and honest outcomes."
+      ],
+      [
+        "Employer research",
+        "Official product, technical and company sources with publication dates.",
+        "Research produces specific questions about the role and team."
+      ],
+      [
+        "Recruiter verification",
+        "Official careers listing, sender domain and independent contact route.",
+        "The role and contact are verified before sensitive data is shared."
+      ],
+      [
+        "Logistics and access",
+        "Timezone, platform, equipment, environment, permitted materials and accommodation route.",
+        "The setup is tested and access needs are addressed."
+      ],
+      [
+        "Questions",
+        "Role outcomes, evaluation, constraints, team interfaces and working practices.",
+        "At least five questions help assess mutual fit."
+      ],
+      [
+        "Open items",
+        "Unknown instruction, owner, request date and deadline.",
+        "No critical assumption remains unrecorded."
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "title": "OpenAI Interview Guide",
+      "url": "https://openai.com/interview-guide/"
+    },
+    {
+      "title": "Anthropic Careers",
+      "url": "https://www.anthropic.com/careers"
+    },
+    {
+      "title": "Anthropic Candidate AI Guidance",
+      "url": "https://www.anthropic.com/candidate-ai-guidance"
+    },
+    {
+      "title": "Microsoft Careers: Technical Interviewing",
+      "url": "https://careers.microsoft.com/v2/global/en/hiring-tips/technical-interviewing"
+    },
+    {
+      "title": "Microsoft Careers: Interview Tips",
+      "url": "https://careers.microsoft.com/v2/global/en/hiring-tips/interview-tips"
+    },
+    {
+      "title": "NIST AI RMF Playbook: Map",
+      "url": "https://airc.nist.gov/airmf-resources/playbook/map/"
+    },
+    {
+      "title": "NIST AI RMF Playbook: Measure",
+      "url": "https://airc.nist.gov/airmf-resources/playbook/measure/"
+    },
+    {
+      "title": "US FTC: Job offer by text? It is probably a scam",
+      "url": "https://consumer.ftc.gov/consumer-alerts/2026/04/job-offer-text-probably-scam"
+    }
+  ]
 }
 ]
