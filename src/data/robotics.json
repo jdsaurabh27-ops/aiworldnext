@@ -1,5 +1,16 @@
 [
   {
+    "id": 1,
+    "title": "Agility is the first pure humanoid robot company on the stock market. Are you buying?",
+    "description": "Agility arrives on the Nasdaq today as the first publicly traded pure-play humanoid robotics company.",
+    "date": "2026-11-05",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/Agility_Digit5_01.png?resize=900,1200",
+    "link": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/"
+  },
+  {
     "id": 3,
     "title": "Are Drone Ports the Next Annoying Tech Neighbor?",
     "description": "Rick and Marcia LeCompte loved to watch the Cooper’s hawks that frequented a sweet-gum tree in their yard in Baton Rouge, La. But this October, the hawks were gone. Marcia LeCompte is convinced the birds",
@@ -75,17 +86,6 @@
     "category": "Robotics",
     "imageKind": "source",
     "imageSource": "https://spectrum.ieee.org/video-friday-reconfigurable-robots"
-  },
-  {
-    "id": 1,
-    "title": "Gemini 4 Argon for Robotics",
-    "description": "Read the original report from Google DeepMind.",
-    "date": "2026-10-13",
-    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/argon__robotics__hero.2e16d0ba.fill-1200x600.png",
-    "link": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-    "category": "AI Research",
-    "imageKind": "source",
-    "imageSource": "https://deepmind.google/blog/gemini-4-argon-for-robotics/"
   },
   {
     "id": 9,

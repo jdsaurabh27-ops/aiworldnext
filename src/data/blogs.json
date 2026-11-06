@@ -1,6 +1,45 @@
 [
   {
     "id": 1,
+    "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+    "description": "Read the original report from Google DeepMind.",
+    "date": "2026-11-05",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.width-1300.png",
+    "link": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+    "category": "AI Research",
+    "author": "Google DeepMind",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/"
+  },
+  {
+    "id": 66,
+    "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-11-05",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/677c471f8b4c4e271e57eaa5/rtmGVvFdD6JqkjBc26vsp.png",
+    "link": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
+  },
+  {
+    "id": 67,
+    "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-11-05",
+    "image": "https://huggingface.co/blog/assets/phonon-closer-look/thumbnail.png",
+    "link": "https://huggingface.co/blog/phonon-tts",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/phonon-tts"
+  },
+  {
+    "id": 68,
     "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-04",
@@ -14,6 +53,19 @@
   },
   {
     "id": 2,
+    "title": "Agentic cheminformatics with Google Antigravity",
+    "description": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+    "date": "2026-11-03",
+    "image": "https://lh3.googleusercontent.com/UFTBrp1IrRBrc6_f4ibNgtV35iY8F2iTYaqOb1lzR-qZNy-Mb5726xrLKTozohfdZ_3quHe50uyn8z-Wh_Eril_8CVh7py7gH0188sl_EXkoJknlqg=w528-h297-n-nu-rw-lo",
+    "link": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+    "category": "AI Research",
+    "author": "Google DeepMind",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/"
+  },
+  {
+    "id": 69,
     "title": "StateBench: Testing how language models track state changes over long documents",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-03",
@@ -26,7 +78,7 @@
     "imageSource": "https://huggingface.co/blog/allenai/statebench"
   },
   {
-    "id": 3,
+    "id": 70,
     "title": "Palette: teaching a small model to build decks in your design language",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-03",
@@ -39,7 +91,7 @@
     "imageSource": "https://huggingface.co/blog/ibm-research/palette-deck-building"
   },
   {
-    "id": 4,
+    "id": 71,
     "title": "CWE-bench v2: More coverage, quality, and transparency",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-03",
@@ -52,7 +104,7 @@
     "imageSource": "https://huggingface.co/blog/cwe-bench"
   },
   {
-    "id": 5,
+    "id": 72,
     "title": "Transformers Model Integration Contracts",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-03",
@@ -65,20 +117,20 @@
     "imageSource": "https://huggingface.co/blog/transformers-mic"
   },
   {
-    "id": 6,
-    "title": "nemotron-halloween",
-    "description": "Read the original report from Hugging Face.",
+    "id": 3,
+    "title": "Speeding up planning decisions with AI",
+    "description": "Google DeepMind and UK government work together to reduce planning assessment times",
     "date": "2026-10-30",
-    "image": "https://cdn-uploads.huggingface.co/production/uploads/6ab2a746c7d0655b3d8dfbb9/fownH6rn05tSp1jDBTz8m.png",
-    "link": "https://huggingface.co/blog/nvidia/nemotron-halloween",
-    "category": "AI Tools & Research",
-    "author": "Hugging Face",
+    "image": "https://lh3.googleusercontent.com/AnSfPLyNIwSu1XsT_WUP3aYfQrc9jo8lwlotms7NmryT7RhWXnwdF4_zzYBMlJOcNT1U_ZbDMCM7AzpnFDPeYKJDardybJGlm447xeEXo1eQqgjCEg=w1200-h630-n-nu-rw",
+    "link": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
+    "category": "AI Research",
+    "author": "Google DeepMind",
     "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
     "imageKind": "source",
-    "imageSource": "https://huggingface.co/blog/nvidia/nemotron-halloween"
+    "imageSource": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/"
   },
   {
-    "id": 7,
+    "id": 73,
     "title": "Granite Switch 4.1.1 — Update models like you update software",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-29",
@@ -91,7 +143,7 @@
     "imageSource": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1"
   },
   {
-    "id": 8,
+    "id": 74,
     "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-29",
@@ -104,7 +156,7 @@
     "imageSource": "https://huggingface.co/blog/announcing-project-protostar"
   },
   {
-    "id": 9,
+    "id": 75,
     "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-29",
@@ -117,7 +169,7 @@
     "imageSource": "https://huggingface.co/blog/mistral-large4"
   },
   {
-    "id": 10,
+    "id": 76,
     "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-29",
@@ -130,68 +182,16 @@
     "imageSource": "https://huggingface.co/blog/anydecisionmodel"
   },
   {
-    "id": 11,
-    "title": "Build specialized multimodal models with LFM3",
-    "description": "Read the original report from Hugging Face.",
-    "date": "2026-10-27",
-    "image": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/wEKXxH6qGa7vmHjn5KA-W.png",
-    "link": "https://huggingface.co/blog/LiquidAI/lfm3",
-    "category": "AI Tools & Research",
-    "author": "Hugging Face",
+    "id": 4,
+    "title": "Gemini 4 Carbon: Our next frontier model",
+    "description": "Read the original report from Google DeepMind.",
+    "date": "2026-10-28",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_social_share.width-1300.png",
+    "link": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+    "category": "AI Research",
+    "author": "Google DeepMind",
     "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
     "imageKind": "source",
-    "imageSource": "https://huggingface.co/blog/LiquidAI/lfm3"
-  },
-  {
-    "id": 12,
-    "title": "Does Your Model Run on AWS Trainium? Look It Up",
-    "description": "Read the original report from Hugging Face.",
-    "date": "2026-10-23",
-    "image": "https://huggingface.co/blog/assets/torch-neuronx-model-support/thumbnail.jpg",
-    "link": "https://huggingface.co/blog/torch-neuronx-model-support",
-    "category": "AI Tools & Research",
-    "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://huggingface.co/blog/torch-neuronx-model-support"
-  },
-  {
-    "id": 13,
-    "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
-    "description": "Read the original report from Hugging Face.",
-    "date": "2026-10-22",
-    "image": "https://cdn-uploads.huggingface.co/production/uploads/64b8491203124195cd795cad/oS8I8qx7iBS8EcNIXR3q9.png",
-    "link": "https://huggingface.co/blog/microsoft/thinkingbox-training",
-    "category": "AI Tools & Research",
-    "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://huggingface.co/blog/microsoft/thinkingbox-training"
-  },
-  {
-    "id": 14,
-    "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
-    "description": "Read the original report from Hugging Face.",
-    "date": "2026-10-21",
-    "image": "https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/OWGtXjnbBov-7SI_04o4z.png",
-    "link": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
-    "category": "AI Tools & Research",
-    "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization"
-  },
-  {
-    "id": 15,
-    "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
-    "description": "Read the original report from Hugging Face.",
-    "date": "2026-10-21",
-    "image": "https://cdn-uploads.huggingface.co/production/uploads/6ac67ea29579ea34f1f7e470/hEodPVvQZI24jETLbPooP.png",
-    "link": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
-    "category": "AI Tools & Research",
-    "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1"
+    "imageSource": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
   }
 ]
