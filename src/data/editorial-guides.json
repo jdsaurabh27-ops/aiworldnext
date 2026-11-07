@@ -3027,5 +3027,193 @@
       "url": "https://consumer.ftc.gov/consumer-alerts/2026/04/job-offer-text-probably-scam"
     }
   ]
+},
+{
+  "slug": "measure-ai-podcast-performance",
+  "title": "How to measure an AI podcast: downloads, completion and website conversions",
+  "intro": "Measure an AI podcast with consistent release windows, platform-specific definitions, engagement signals and tagged website links instead of relying on one headline number.",
+  "checkedAt": "7 November 2026",
+  "kind": "AI podcast analytics guide",
+  "sections": [
+    [
+      "Start with the decision the measurement should support",
+      "Write down the decision before opening a dashboard: choose a topic, improve an introduction, change episode length, assess a distribution channel, or evaluate whether listeners visit a cited resource. Select one primary metric and a small set of supporting metrics for that decision. A dashboard with every available number can create activity without answering a question. Do not set a growth target merely because a platform displays the metric; connect it to the audience promise and publishing resources of the show."
+    ],
+    [
+      "Create a metric dictionary before comparing platforms",
+      "For each number, record its exact name, provider, definition, scope, update delay and observation window. Spotify defines a play as at least 30 seconds of listening or viewing, while Apple lists a play when an episode is played for more than zero seconds. Apple also defines an engaged listener using at least 20 minutes or 40% of an episode. These are useful measures within their systems, but the labels do not make them directly interchangeable. Preserve the platform's name in reports instead of combining unlike definitions into a total called plays."
+    ],
+    [
+      "Separate file delivery from confirmed consumption",
+      "Hosting-platform downloads usually begin with requests for an episode file, not proof that a person heard the episode. IAB Tech Lab's September 2026 Podcast Measurement Guidelines version 2.3 explains that downloaded and progressively downloaded podcasts are commonly measured from filtered server logs, while playback largely depends on signals held by the listening application. Treat an IAB-style download, a platform play and a completion measure as different stages of evidence. Ask a hosting or measurement provider which guideline version and methodology it uses before presenting its number to a sponsor."
+    ],
+    [
+      "Measure reach with a fixed release window",
+      "Choose a comparable window such as the first 7 or 30 complete days after publication. Record hosting downloads, Apple listeners and Spotify audience separately. Compare each episode with the median of similar recent episodes from the same show, not an unrelated public benchmark. Apple offers episode comparison by days since release; Spotify's episode benchmarks require at least ten episodes and use the median of recent episodes. A fixed window prevents an older episode from appearing stronger merely because it has had more time to accumulate activity."
+    ],
+    [
+      "Use discovery metrics to diagnose the top of the funnel",
+      "Spotify's discovery view separates impressions, plays and the conversion rate from impressions to plays, and shows whether discovery occurred through Home, Library or Search. Read those numbers as a platform-specific funnel. High impressions with relatively fewer plays may justify testing the title, artwork or topic framing, but it does not prove the cause. Change one important element on a future comparable episode, keep a written hypothesis and review the same release window before deciding whether the change helped."
+    ],
+    [
+      "Use completion and consumption to inspect the episode",
+      "Apple provides average consumption and listening-completion information from devices that share the necessary analytics; Spotify defines completion at reaching at least 95% and also reports completion quartiles for recent episodes. Inspect where audience activity changes around the opening, topic transitions, sponsor messages or closing. A drop does not automatically mean a segment is poor: listeners may skip material they already know, stop because of context, or continue in an environment the dashboard cannot observe. Use the pattern to create a test, not a claim about intent."
+    ],
+    [
+      "Measure loyalty separately from one-episode reach",
+      "Track follows, returning audience or retention using each platform's own definition. A large launch can increase reach without creating repeat listening, while a smaller specialist episode may serve existing followers well. Compare net follower changes and returning behaviour across several releases rather than attributing a movement to one episode without evidence. Apple can segment listening by follower status, and Spotify reports new and returning audience plus week-over-week retention. Keep platform totals separate because identity and observation rules differ."
+    ],
+    [
+      "Give every episode one measurable website action",
+      "Choose a landing page that matches the spoken call to action: source notes, a checklist, newsletter signup or relevant guide. Add a unique tagged URL for the episode and channel. Google Analytics documents manual campaign parameters such as utm_source, utm_medium, utm_campaign and utm_content; use consistent lowercase naming and keep a log of the final links. Example: utm_source=podcast, utm_medium=audio and utm_campaign=ai_measurement, with utm_content identifying the episode. Test the public link before release and avoid putting personal data in parameter values."
+    ],
+    [
+      "Report website conversions as a funnel",
+      "Record tagged sessions or users, the defined on-site action and confirmed completions where the analytics setup supports them. A click is not a newsletter subscription, and a subscription is not proof that the listener heard a particular sentence. Cross-device behaviour, privacy choices, link rewriting and untagged visits can break attribution. Use language such as tracked visits from the episode link rather than claiming that every conversion was caused by the podcast."
+    ],
+    [
+      "Track commercial outcomes without mixing them into editorial reach",
+      "For a sponsor or affiliate link, record the placement, spoken wording, link or code, eligibility window, clicks, validated actions, cancellations and payable outcome under the programme's rules. Label paid or affiliate relationships for the audience. Do not substitute downloads for ad exposure or guaranteed listening. IAB Tech Lab distinguishes content delivery, audience and ad metrics and describes why podcast ad measurement often relies on server-side delivery evidence. Agree on the metric definition and reporting window before accepting a campaign."
+    ],
+    [
+      "Normalize comparisons before changing the format",
+      "Group episodes by format, length, release day, distribution, guest type and promotion level. Compare an interview with similar interviews and a short news briefing with similar briefings. Record paid promotion, newsletter placement, guest sharing and platform featuring because they alter exposure. Use a median when one unusually large episode would distort an average. Avoid changing title style, artwork, duration and promotion simultaneously; a multi-variable change makes the result difficult to interpret."
+    ],
+    [
+      "Allow for thresholds, delays and data revisions",
+      "Apple requires at least five unique users in the selected period for a metric to appear and says diagnostics and usage information may be delayed by up to 72 hours. Spotify says many metrics update quickly but some can take up to 48 hours. IAB guidance also requires filtering duplicate or invalid requests and notes that measurement implementations can differ. Mark the date and time of every export, wait until the chosen window is complete and avoid sending an early dashboard screenshot as final campaign evidence."
+    ],
+    [
+      "Protect continuity when changing hosts or measurement tools",
+      "Export existing reports and document the current feed, episode GUIDs, enclosure URLs and measurement method before a migration. IAB Tech Lab warns that changing enclosure URLs or related identifiers can trigger re-downloads in some podcast applications and distort counts. Follow the new host's migration instructions, keep a dated change log and annotate the reporting series. Do not present pre-migration and post-migration numbers as one clean trend until the measurement difference has been reviewed."
+    ],
+    [
+      "Fictional example: an eight-episode AI operations podcast",
+      "A fictional team publishes eight 20-minute episodes. Its decision is whether practical checklists should become a recurring format. It compares each episode's first seven complete days, keeping host downloads, Apple listeners and Spotify plays separate. The team records Apple average consumption, Spotify completion quartiles and a tagged checklist link. Two checklist episodes have stronger tracked visits but ordinary platform reach; one guest episode has higher reach after the guest shares it but fewer checklist visits. The team schedules two more checklist episodes and keeps the same call to action before drawing a conclusion. This example is illustrative and does not report AIWorldNext traffic or a real podcast result."
+    ],
+    [
+      "Use a monthly review with explicit decision rules",
+      "Create one table with episode, format, release date, promotion, fixed-window reach, engagement, returning behaviour, tagged visits, conversions, notes and data-export date. Before the month starts, write rules such as test again, keep, revise or stop, and state the minimum number of comparable episodes needed. Review anomalies and qualitative feedback alongside the numbers. Preserve raw exports where permitted so later corrections can be traced rather than overwriting the historical report."
+    ],
+    [
+      "Understand the limits of podcast analytics",
+      "No single dashboard observes every listener across every application, device and offline session. Downloads indicate delivery under a provider's method; platform analytics cover activity that platform can measure; website tags cover only trackable visits. Small shows may fall below privacy thresholds, and definitions or interfaces can change. This guide is a measurement workflow, not an audit, advertising certification or promise of audience growth. Check current provider documentation, consent requirements, privacy rules and sponsor terms for the actual show and market."
+    ]
+  ],
+  "worksheet": {
+    "title": "AI podcast measurement sheet",
+    "intro": "Complete one row for every episode after the same release window has ended. Keep platform definitions separate.",
+    "columns": [
+      "Measurement area",
+      "Evidence to record",
+      "Review condition"
+    ],
+    "rows": [
+      [
+        "Decision",
+        "The publishing or promotion decision this report should support.",
+        "One answerable decision is named."
+      ],
+      [
+        "Observation window",
+        "First 7 or 30 complete days, timezone and export date.",
+        "Every compared episode uses the same completed window."
+      ],
+      [
+        "Metric dictionary",
+        "Metric name, provider, definition, scope and refresh delay.",
+        "Unlike metrics will not be added together."
+      ],
+      [
+        "Episode context",
+        "Format, length, topic, guest, release timing and promotion.",
+        "Material exposure differences are recorded."
+      ],
+      [
+        "Host delivery",
+        "Downloads, methodology, guideline or certification claim and anomalies.",
+        "The number is labelled as delivery, not confirmed listening."
+      ],
+      [
+        "Apple reach",
+        "Listeners, plays, follower status and threshold status.",
+        "Apple measures remain separate and meet the visible-data threshold."
+      ],
+      [
+        "Spotify reach",
+        "Audience, plays, impressions and discovery source.",
+        "Spotify definitions and selected period are recorded."
+      ],
+      [
+        "Engagement",
+        "Apple consumption and Spotify completion or consumption measures.",
+        "The metric, episode length and platform are visible."
+      ],
+      [
+        "Loyalty",
+        "Followers, returning audience or retention trend.",
+        "A multi-episode pattern is reviewed."
+      ],
+      [
+        "Website action",
+        "Landing page, full tagged URL, analytics event and test result.",
+        "The link works and identifiers contain no personal data."
+      ],
+      [
+        "Conversion funnel",
+        "Tracked visit, action start and confirmed completion where available.",
+        "Each stage is reported separately with attribution limits."
+      ],
+      [
+        "Commercial result",
+        "Placement, disclosure, clicks, validated outcome, cancellations and terms.",
+        "Sponsor or affiliate definitions are agreed and labelled."
+      ],
+      [
+        "Data quality",
+        "Delay, missing threshold, bot or duplicate filtering, migration and revision notes.",
+        "Unresolved anomalies are disclosed."
+      ],
+      [
+        "Decision",
+        "Keep, revise, test again or stop, with owner and next review date.",
+        "The decision follows the pre-written rule and recorded evidence."
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "title": "Apple Podcasts for Creators: Analytics",
+      "url": "https://podcasters.apple.com/support/5392-listener-analytics"
+    },
+    {
+      "title": "Apple Podcasts for Creators: Data requirements and troubleshooting",
+      "url": "https://podcasters.apple.com/support/841-data-requirements"
+    },
+    {
+      "title": "Spotify for Creators: Understanding Discovery analytics",
+      "url": "https://support.spotify.com/us/creators/article/discovery-analytics/"
+    },
+    {
+      "title": "Spotify for Creators: Analytics glossary",
+      "url": "https://support.spotify.com/us/creators/article/analytics-glossary/"
+    },
+    {
+      "title": "Spotify for Creators: Episode analytics",
+      "url": "https://support.spotify.com/us/creators/article/episode-analytics/"
+    },
+    {
+      "title": "IAB Tech Lab: Podcast Measurement Technical Guidelines",
+      "url": "https://iabtechlab.com/standards/podcast-measurement-guidelines/"
+    },
+    {
+      "title": "IAB Tech Lab: Podcast Technical Measurement Guidelines version 2.3",
+      "url": "https://github.com/IABTechLab/Podcast-Technical-Measurement/blob/main/PTM-Guidelines_v2.3.md"
+    },
+    {
+      "title": "Google Analytics Help: Traffic-source dimensions and manual tagging",
+      "url": "https://support.google.com/analytics/answer/11242870?hl=en"
+    }
+  ]
 }
 ]

@@ -60,6 +60,7 @@ function guideWorksheet(g) {
  return `<section><h2>${esc(w.title)}</h2><p>${esc(w.intro)}</p><div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse;text-align:left"><thead><tr>${w.columns.map(c => `<th scope="col" style="padding:12px;border:1px solid #334155">${esc(c)}</th>`).join('')}</tr></thead><tbody>${w.rows.map(row => `<tr>${row.map((cell, i) => i === 0 ? `<th scope="row" style="padding:12px;border:1px solid #334155">${esc(cell)}</th>` : `<td style="padding:12px;border:1px solid #334155">${esc(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div></section>`;
 }
 const relatedGuideSlugs = {
+ 'measure-ai-podcast-performance': ['start-an-ai-podcast', 'accessible-ai-podcast-transcript-show-notes', 'aiworldnext-seo-case-study'],
  'prepare-ai-job-interview': ['build-ai-career-skills-gap-plan', 'ai-portfolio-project-guide', 'ai-job-application-checklist'],
  'evaluate-ai-meeting-assistant': ['ai-tool-privacy-checklist', 'compare-ai-tools-with-one-task', 'accessible-ai-event-checklist'],
  'shared-ai-training-robots-txt-explained': ['verify-ai-news', 'aiworldnext-seo-case-study', 'ai-tool-privacy-checklist'],
