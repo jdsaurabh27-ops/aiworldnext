@@ -1,17 +1,28 @@
 [
   {
-    "id": 1,
-    "title": "Agility is the first pure humanoid robot company on the stock market. Are you buying?",
-    "description": "Agility arrives on the Nasdaq today as the first publicly traded pure-play humanoid robotics company.",
-    "date": "2026-11-05",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/11/Agility_Digit5_01.png?resize=900,1200",
-    "link": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
+    "id": 2,
+    "title": "Physicl raises $10M to make the digital world real enough for robots",
+    "description": "Physicl is trying to solve the sim-to-real gap with a pipeline originally built to market goods online.",
+    "date": "2026-11-06",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/physicl-studio-hero-kitchen-16x9-1.jpg?resize=1200,675",
+    "link": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
     "category": "AI Industry",
     "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/"
+    "imageSource": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/"
   },
   {
     "id": 3,
+    "title": "Video Friday: Room-Scale Cable-Driven Home Robot Tidies Up",
+    "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send",
+    "date": "2026-11-06",
+    "image": "https://spectrum.ieee.org/media-library/image.gif?id=68608914&width=1200&height=600&coordinates=0%2C104%2C0%2C104",
+    "link": "https://spectrum.ieee.org/video-friday-home-cable-robot",
+    "category": "Robotics",
+    "imageKind": "source",
+    "imageSource": "https://spectrum.ieee.org/video-friday-home-cable-robot"
+  },
+  {
+    "id": 4,
     "title": "Are Drone Ports the Next Annoying Tech Neighbor?",
     "description": "Rick and Marcia LeCompte loved to watch the Cooper’s hawks that frequented a sweet-gum tree in their yard in Baton Rouge, La. But this October, the hawks were gone. Marcia LeCompte is convinced the birds",
     "date": "2026-11-04",
@@ -22,7 +33,7 @@
     "imageSource": "https://spectrum.ieee.org/drone-delivery-noise"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Video Friday: Spot Plays to Show Its Whole-Body Manipulation",
     "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send",
     "date": "2026-10-30",
@@ -33,7 +44,7 @@
     "imageSource": "https://spectrum.ieee.org/video-friday-whole-body-manipulation"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Your Robot’s Safety Functions Already Work. What If the Input Lies?",
     "description": "This article is brought to you by VicOne . A mobile robot slows for someone in a hallway. A collaborative arm eases its movement as a worker approaches. A humanoid pauses to let a person",
     "date": "2026-10-27",
@@ -44,7 +55,7 @@
     "imageSource": "https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Video Friday: Quadruped Robot Solves Giant Rubik’s Cube by Itself",
     "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send",
     "date": "2026-10-23",
@@ -55,18 +66,7 @@
     "imageSource": "https://spectrum.ieee.org/video-friday-rubiks-cube-robot"
   },
   {
-    "id": 2,
-    "title": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
-    "description": "European retailers are using open models and physical intelligence across use cases — from a commerce platform cutting inference costs by 90% to to a fulfillment center where collaboration of different robotic fleets is simulated",
-    "date": "2026-10-22",
-    "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/NVIDIA-European-Retail.jpg",
-    "link": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
-    "category": "AI Hardware",
-    "imageKind": "source",
-    "imageSource": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/"
-  },
-  {
-    "id": 7,
+    "id": 8,
     "title": "The Robot I Didn’t Expect to Build",
     "description": "Agility Robotics , the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5 . It’s designed to be the first humanoid robot that can safely",
     "date": "2026-10-19",
@@ -77,7 +77,7 @@
     "imageSource": "https://spectrum.ieee.org/agility-robotics-digit-5-redesign"
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "Video Friday: When Two Robots Become One",
     "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send",
     "date": "2026-10-16",
@@ -88,7 +88,18 @@
     "imageSource": "https://spectrum.ieee.org/video-friday-reconfigurable-robots"
   },
   {
-    "id": 9,
+    "id": 1,
+    "title": "Gemini 4 Argon for Robotics",
+    "description": "Read the original report from Google DeepMind.",
+    "date": "2026-10-13",
+    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/argon__robotics__hero.2e16d0ba.fill-1200x600.png",
+    "link": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+    "category": "AI Research",
+    "imageKind": "source",
+    "imageSource": "https://deepmind.google/blog/gemini-4-argon-for-robotics/"
+  },
+  {
+    "id": 10,
     "title": "Q&A: Mars Perseverance Rover Sets a Distance Record",
     "description": "On 11 October , the Perseverance rover completed a drive that brought its total distance traveled on Mars to 28.10 miles (45.22 kilometers). This is a new record for Mars rovers, enabled in large part",
     "date": "2026-10-13",
@@ -99,7 +110,7 @@
     "imageSource": "https://spectrum.ieee.org/mars-rover-distance-record"
   },
   {
-    "id": 10,
+    "id": 11,
     "title": "Video Friday: Robot Decommissioning Takes a Fun Turn",
     "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send",
     "date": "2026-10-09",
@@ -110,7 +121,7 @@
     "imageSource": "https://spectrum.ieee.org/video-friday-reachy-mini-raps"
   },
   {
-    "id": 11,
+    "id": 12,
     "title": "This Disembodied Hand Is All the Robot You Need",
     "description": "A hand attached to the end of an arm is a given for most humans, but what if robots didn’t have to play by the same rules as we do? Researchers from ETH Zurich have",
     "date": "2026-10-08",
@@ -121,7 +132,7 @@
     "imageSource": "https://spectrum.ieee.org/walking-robotic-hand"
   },
   {
-    "id": 12,
+    "id": 13,
     "title": "HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object Interaction",
     "description": "This White Paper gives robotics researchers and engineers an overview of a new large-scale motion capture dataset built to close the data gap limiting humanoid robot learning. It also shows how policies trained on the",
     "date": "2026-10-07",
@@ -132,7 +143,7 @@
     "imageSource": "https://content.knowledgehub.wiley.com/hiphi-a-large-scale-benchmark-for-high-precision-human-motion-and-object-interaction/"
   },
   {
-    "id": 13,
+    "id": 14,
     "title": "Video Friday: Albatross Falls, Spins, Self-Rights, and Sails Away",
     "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send",
     "date": "2026-10-02",
@@ -143,7 +154,7 @@
     "imageSource": "https://spectrum.ieee.org/video-friday-bioinspired-robotics"
   },
   {
-    "id": 14,
+    "id": 15,
     "title": "Atlas Robot’s New Hand May Outperform Humanlike Designs",
     "description": "Today, Boston Dynamics is announcing a redesigned hand for its Atlas robot . The previous generation could do some crazy superhuman things with its three fingers, but it was never intended for mass production in",
     "date": "2026-10-01",
@@ -152,16 +163,5 @@
     "category": "Robotics",
     "imageKind": "source",
     "imageSource": "https://spectrum.ieee.org/robust-robot-hand"
-  },
-  {
-    "id": 15,
-    "title": "A Day in the Life of a Roboticist: Charlie Kemp",
-    "description": "Building useful robots starts with understanding the people who use them. For Charlie Kemp, cofounder and chief technology officer of Hello Robot, that means developing assistive robots that can help people with everyday tasks and",
-    "date": "2026-09-28",
-    "image": "https://assets.robotsguide.com/images/7p2whiua/production/2feb62d2816501e7faafd7001930f2f299a46ace-1609x889.jpg?rect=0,23,1609,845&w=1200&h=630",
-    "link": "https://robotsguide.com/learn/a-day-in-the-life-of-a-roboticist-charlie-kemp",
-    "category": "Robotics",
-    "imageKind": "source",
-    "imageSource": "https://robotsguide.com/learn/a-day-in-the-life-of-a-roboticist-charlie-kemp"
   }
 ]
