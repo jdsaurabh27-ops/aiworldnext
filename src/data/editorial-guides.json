@@ -3215,5 +3215,193 @@
       "url": "https://support.google.com/analytics/answer/11242870?hl=en"
     }
   ]
+},
+{
+  "slug": "estimate-ai-api-cost",
+  "title": "How to estimate AI API cost before launch: tokens, tools, retries and human review",
+  "intro": "Estimate the real cost of an AI feature by measuring successful workflows, input and output usage, tools, retries, caching, infrastructure and human review before launch.",
+  "checkedAt": "8 November 2026",
+  "kind": "AI startup unit-economics guide",
+  "sections": [
+    [
+      "Price one user outcome, not one model call",
+      "Define the outcome a customer receives: a reviewed document, answered support question, generated product image or completed research brief. Map every model call, retrieval step, tool invocation, storage operation, retry and human handoff needed to produce that outcome. A request price alone hides multi-step orchestration. Use cost per successful outcome as the main unit, then retain call-level detail for diagnosis."
+    ],
+    [
+      "Build a billable workflow map",
+      "Draw the production path from user input to accepted result. Mark routing, classification, retrieval, model generation, web or code tools, moderation, validation, fallback models, storage and notifications. For each step, record the provider, model or service, billable unit, region, execution mode and failure behaviour. Include branches: an agent that usually makes three calls but sometimes makes twelve needs a distribution, not a single average copied from a demo."
+    ],
+    [
+      "Capture usage from real API responses",
+      "Instrument a representative pilot so each request records model version, input tokens, output tokens, cached tokens, cache-write tokens where provided, tool calls, latency, status, retry reason and final task outcome. Provider tokenizers and accounting can differ, and Anthropic notes that newer model tokenizers may produce a different count for the same text. Estimate with a tokenizer during design, but reconcile costs against provider usage fields and invoices before launch."
+    ],
+    [
+      "Separate input, output and special token categories",
+      "Do not multiply total tokens by one blended rate. Current provider pages price input and output separately and may distinguish cached input, cache writes, long context, reasoning, audio, images or other modalities. Create separate quantity and rate fields for every billed category. Record the exact pricing page, model identifier and check date. If a pricing tier changes above a context threshold, calculate requests on both sides rather than applying the cheaper tier to the whole workload."
+    ],
+    [
+      "Add tools, storage and non-model services",
+      "Model tokens may be only part of the workflow. Include search or grounding requests, file or vector storage, embeddings, database reads, object storage, containers, image or audio generation, transcription, network transfer, logging and monitoring. OpenAI's pricing page, for example, lists separate charges for tools, storage, containers and multiple modalities; Google Gemini pricing can separately price grounding and context-cache storage. Use only the services actually enabled in the production configuration."
+    ],
+    [
+      "Model retries, timeouts and duplicate work",
+      "Measure how often the application retries after rate limits, timeouts, invalid structured output, failed tools or quality checks. Record whether an unsuccessful response is billable under the provider's current terms and whether a retry repeats the full context. Add client and queue idempotency so a network retry does not repeat an expensive completed task. Calculate the p50, p90 and worst observed calls per outcome instead of assuming every workflow follows the happy path."
+    ],
+    [
+      "Put a ceiling on agent loops and fan-out",
+      "For agents, set maximum turns, tool calls, parallel branches, retrieved documents, output tokens and wall-clock time. Log which limit stopped the run and whether the result was still useful. A planner, worker and reviewer pattern can multiply cost even when each call is inexpensive. Require approval or a deterministic fallback for actions that can start another costly workflow. Test adversarial or ambiguous inputs that might keep an agent searching or revising."
+    ],
+    [
+      "Treat caching as a measured workload feature",
+      "Prompt caching can reduce repeated input processing, but savings depend on stable prefixes, eligible lengths, cache lifetime and actual hits. OpenAI documents reduced cached-input pricing for supported models; Anthropic charges separately for cache writes and reads; Amazon Bedrock says a repeated prompt does not guarantee a cache hit. Record cache-read and cache-write tokens from responses, calculate the observed hit rate and include misses in the budget. Do not estimate every repeated prompt at the hit price."
+    ],
+    [
+      "Use batch or flexible processing only when the product can wait",
+      "Classify each task by deadline. Offline enrichment, evaluation and bulk classification may fit asynchronous batch processing, while an interactive assistant may not. OpenAI and Anthropic currently document discounted batch processing with a completion window and model limitations. Price both the discounted path and the fallback when work misses the deadline, must be rerun, or needs an immediate response. A lower rate is not a saving if it breaks the user promise."
+    ],
+    [
+      "Compare models on cost per accepted result",
+      "Run the same representative dataset through each candidate configuration and apply one acceptance rubric. Record task success, critical errors, correction time, latency and complete billable cost. A cheaper model that causes more retries or human correction can cost more per accepted result; a more capable model used for every easy classification can also waste budget. Test routing simple cases to a lower-cost model and escalating only uncertain or high-risk cases."
+    ],
+    [
+      "Include human review and support work",
+      "Time the people who review outputs, correct citations, handle exceptions, investigate incidents, answer customer questions and maintain prompts or evaluations. Multiply observed minutes by a fully loaded internal rate chosen by the business, then keep that assumption visible. Do not hide founder labour merely because no salary is paid during a pilot. For consequential outputs, quality and safety review may be a necessary service cost rather than an optimization target."
+    ],
+    [
+      "Do not treat credits or free tiers as unit economics",
+      "Startup credits and free quotas can reduce near-term cash outflow but do not establish a sustainable production cost. Maintain two views: cash paid during the credit period and cost at the current standard rate after credits expire. Record expiry, eligible services, caps and provider restrictions. Model a migration or renegotiation scenario separately; do not promise future volume discounts until they are written into an agreement."
+    ],
+    [
+      "Add region, tax, currency and commitment effects",
+      "Confirm whether data residency, regional endpoints, priority processing or provisioned throughput changes the rate. Anthropic documents regional pricing multipliers for specified configurations, and Google describes provisioned throughput as a fixed-term reserved option for workloads requiring predictable capacity. Add applicable tax, marketplace fees and foreign-exchange assumptions. Compare on-demand and committed capacity using measured steady demand, peaks and overage behaviour rather than a headline discount."
+    ],
+    [
+      "Fictional example: an AI proposal assistant",
+      "A fictional startup measures 200 proposal drafts. Each accepted outcome uses a classifier, retrieval, one draft call and a validation call. The pilot records input, output, cached and cache-write tokens; search calls; retries; storage; latency; acceptance; and reviewer minutes. Ten percent of drafts require another generation, and a small group escalates to a stronger model. The team multiplies each measured category by the current official rate, adds infrastructure and review labour, and divides by accepted drafts. It then tests a stable cached prefix and batch processing for nightly evaluation. This example uses no real provider price or claimed startup result."
+    ],
+    [
+      "Set launch gates and budget alerts",
+      "Define a maximum cost per accepted outcome, quality threshold, p95 latency, maximum calls per workflow and monthly budget before launch. Add alerts for token growth, falling cache-hit rate, tool-call spikes, retry storms, model-route changes and daily spend. Version prompts, tools and model settings so a cost change can be tied to a deployment. Include a kill switch or degraded mode that preserves essential service when a provider, quota or budget limit is reached."
+    ],
+    [
+      "Understand the limits of the estimate",
+      "Pricing, tokenizers, model availability, discounts, taxes and platform features can change after this guide's source check. Pilot traffic may not reproduce production concurrency, malicious inputs or support load. Provider dashboards can also differ from application logs because of timing, rounding or additional services. This workflow is planning information, not a quote, accounting advice or guarantee of margin. Reconcile against invoices, repeat the benchmark after material changes and obtain professional advice for financial reporting or contracts."
+    ]
+  ],
+  "worksheet": {
+    "title": "AI API unit-economics worksheet",
+    "intro": "Complete one sheet for each production workflow and model configuration using measured pilot data and current official rates.",
+    "columns": [
+      "Cost area",
+      "Evidence to record",
+      "Ready condition"
+    ],
+    "rows": [
+      [
+        "Customer outcome",
+        "Accepted result, user promise and acceptance rubric.",
+        "One measurable successful outcome is defined."
+      ],
+      [
+        "Workflow map",
+        "Every model, retrieval, tool, storage, validation and human step.",
+        "Happy path and material branches are included."
+      ],
+      [
+        "Usage categories",
+        "Input, output, cached, cache-write, long-context and modality units.",
+        "Quantities come from representative response logs."
+      ],
+      [
+        "Current rates",
+        "Provider, model ID, mode, region, official URL and check date.",
+        "Every billable category has a traceable current rate."
+      ],
+      [
+        "Tools and infrastructure",
+        "Search, grounding, embeddings, databases, storage, containers, transfer and monitoring.",
+        "Enabled non-model services are included."
+      ],
+      [
+        "Retries and failures",
+        "Status, reason, repeated context, billability and duplicate protection.",
+        "p50, p90 and worst observed attempts are calculated."
+      ],
+      [
+        "Agent limits",
+        "Turns, tool calls, branches, documents, output and time ceilings.",
+        "Runaway work has enforced limits and a fallback."
+      ],
+      [
+        "Caching",
+        "Eligible prefix, write/read units, lifetime, hit rate and misses.",
+        "Savings use the observed hit rate rather than an assumption."
+      ],
+      [
+        "Batch eligibility",
+        "Deadline, supported model, completion window and fallback.",
+        "Discounted processing still meets the user promise."
+      ],
+      [
+        "Quality and routing",
+        "Accepted result rate, critical errors, escalation and correction time.",
+        "Models are compared on cost per accepted result."
+      ],
+      [
+        "Human work",
+        "Review, correction, support and maintenance minutes plus internal rate.",
+        "Founder and employee time is visible."
+      ],
+      [
+        "Credits and commitments",
+        "Credit value, expiry, standard-rate view, reserved capacity and overage.",
+        "Sustainable cost is visible without temporary credits."
+      ],
+      [
+        "Commercial adjustments",
+        "Region, residency, priority, currency, tax and marketplace assumptions.",
+        "The estimate matches the intended deployment and billing route."
+      ],
+      [
+        "Launch controls",
+        "Cost ceiling, quality gate, latency gate, budget alerts and kill switch.",
+        "Owners and automated controls are assigned before release."
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "title": "OpenAI API pricing",
+      "url": "https://developers.openai.com/api/docs/pricing"
+    },
+    {
+      "title": "OpenAI API: Prompt caching",
+      "url": "https://developers.openai.com/api/docs/guides/prompt-caching"
+    },
+    {
+      "title": "OpenAI Help Center: Batch API FAQ",
+      "url": "https://help.openai.com/en/articles/9197833-batch-api-faq"
+    },
+    {
+      "title": "Claude Platform Docs: Pricing",
+      "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+    },
+    {
+      "title": "Claude Platform Docs: Prompt caching",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching"
+    },
+    {
+      "title": "Google AI for Developers: Gemini Developer API pricing",
+      "url": "https://ai.google.dev/gemini-api/docs/pricing"
+    },
+    {
+      "title": "Amazon Bedrock: Prompt caching for faster model inference",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-caching.html"
+    },
+    {
+      "title": "Google Cloud: Provisioned Throughput overview",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/provisioned-throughput"
+    }
+  ]
 }
 ]
