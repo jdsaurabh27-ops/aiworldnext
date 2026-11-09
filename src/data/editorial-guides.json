@@ -3403,5 +3403,205 @@
       "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/provisioned-throughput"
     }
   ]
+},
+{
+  "slug": "organise-ai-hackathon",
+  "title": "How to organise an AI hackathon: rules, judging, safety and prizes",
+  "intro": "Plan an AI hackathon with clear eligibility, AI-use disclosure, data and IP rules, secure build environments, fair judging, accessible participation and funded prizes.",
+  "checkedAt": "9 November 2026",
+  "kind": "AI hackathon organiser guide",
+  "sections": [
+    [
+      "Start with one outcome and a named owner",
+      "Define what the event is meant to produce before choosing a platform or announcing prizes. A learning event, recruitment challenge, internal prototype sprint and public product competition require different rules, data access, judging and follow-up. Name the organisation responsible for the event, a decision owner and a contact for rules, accessibility, security and incidents. Devpost explains that most events on its platform are independently organised, leaving rules, judging, winners, prizes and communication with the organiser. Do not let a hosting platform's logo obscure who is accountable."
+    ],
+    [
+      "Choose the format before writing the rules",
+      "Record whether the hackathon is public or private, online, in person or hybrid; the countries and age groups it accepts; the team size; the build window; and whether projects may include prior work. State the official timezone for every deadline and how changes will be announced. Map registration, team formation, data access, mentoring, submission, judging, winner verification and prize delivery as one end-to-end participant journey. A rule that cannot be implemented by the platform or event team needs a different process before registration opens."
+    ],
+    [
+      "Publish complete rules before registration",
+      "Put eligibility, dates, submission requirements, disqualification grounds, judging criteria, prize conditions, taxes, dispute routes and organiser contact in one versioned rules page. Explain which terms control if a sponsor brief, platform terms and event rules conflict. MLH's organiser guidance recommends deciding team size, cross-posting, code submission, framework use, AI use, challenge eligibility and the permitted build period in advance. Avoid silently changing a material rule after teams start; when a change is unavoidable, record the version, reason, affected participants and remedy."
+    ],
+    [
+      "Write a specific AI-use and disclosure policy",
+      "Do not use a vague statement such as 'AI is allowed.' List permitted and prohibited uses for code generation, research, synthetic data, images, audio, model APIs, fine-tuning and autonomous agents. Require teams to identify models, tools, datasets, external components and material AI-generated assets, and to explain what the team designed or changed. MLH's current standard rules allow AI assistance while asking teams to be transparent about the tools used. Decide how judges will treat undisclosed assistance, generated media, pre-built agents and a submission that is mainly a wrapper around an existing service."
+    ],
+    [
+      "Define data, model and access boundaries",
+      "Provide only the data needed for the challenge and document its source, licence, permitted purpose, retention period and prohibited uses. Remove real personal, confidential and production data unless a qualified review has established a lawful and secure basis. Supply synthetic or carefully de-identified samples where they can support the task. Give each team separate, time-limited credentials with spending and permission limits; keep production systems out of scope. Record who can see submissions, prompts, logs and participant data, and when those records will be deleted."
+    ],
+    [
+      "Set ownership and licence terms plainly",
+      "State who owns the submitted code, documentation, models, prompts, datasets and media; what licence the organiser, sponsor and platform receive; whether repositories or demo videos must remain public; and what happens to confidential or patentable work. Require participants to use assets they have the right to use and to credit third-party components. Copyright and ownership rules vary by jurisdiction and by the role of human authorship, and the U.S. Copyright Office's AI initiative illustrates that these questions remain active. Have suitable legal counsel review the actual rules instead of copying another event's terms."
+    ],
+    [
+      "Use a rubric tied to observable evidence",
+      "Convert the event outcome into four to six criteria with definitions and weights, such as problem understanding, demonstrated functionality, responsible use of data and AI, technical decisions, accessibility and learning. Specify the evidence judges may consider: live demo, repository snapshot, model card, evaluation results, disclosure file or short interview. Do not reward an unsupported impact claim or polished pitch as if it proves the system works. MLH recommends planning judging assignments before the event and having multiple judges see each project; Kaggle's current Community Hackathons page discourages using LLMs to judge unstructured writeups."
+    ],
+    [
+      "Calibrate judges and manage conflicts",
+      "Give judges the same sample submissions and compare their scores before live judging. Discuss what each criterion means, how to handle incomplete projects and how to record a reason for every score. Require judges to disclose employment, investment, mentoring, family or other relationships with teams, then reassign conflicted entries. Use at least two independent scores for a prize decision and define how ties and large scoring disagreements are resolved. Keep an audit trail that can explain the result without publishing private judge notes."
+    ],
+    [
+      "Build a secure technical environment",
+      "Treat the hackathon as a temporary development environment, not an exception to security practice. NIST's generative-AI SSDF profile adds AI-specific secure-development considerations for model producers, system producers and acquirers. Provide approved services, sample code and least-privilege accounts; prohibit production credentials and destructive testing; cap API usage; and document an emergency shutdown route. GitHub warns that committed API keys, passwords and tokens can be exploited and documents secret scanning, but scanning is a backstop rather than permission to place secrets in code."
+    ],
+    [
+      "Test risks without claiming a safety certificate",
+      "Ask teams to identify intended users, foreseeable misuse, sensitive decisions, affected people, failure modes, human oversight and evidence limits. For a chatbot, this may include prompt injection, fabricated answers and disclosure of supplied data; for vision or robotics, it may include physical operating boundaries and bystander consent. NIST's Generative AI Profile is a voluntary cross-sector companion to the AI Risk Management Framework, not a hackathon certification. Match review depth to the challenge and exclude tasks that the event cannot supervise safely."
+    ],
+    [
+      "Operate a code of conduct and incident route",
+      "Publish conduct rules that cover participants, organisers, mentors, judges, sponsors, volunteers and online spaces. Name trained contacts, a private reporting route, response authority, emergency escalation and consequences. MLH's code of conduct applies its anti-harassment expectations across event venues, related social events, transport and online interactions, and it includes anonymous reporting. Create your own event-appropriate process rather than pointing participants to a third party that is not responsible for your event."
+    ],
+    [
+      "Make participation and demos accessible",
+      "Publish venue, platform, caption, language, recording and accessibility information before registration, and provide a private way to request support. Test registration, team formation, workshops, coding environments, submission, judging and award announcements with keyboard access and representative assistive technology. Provide accessible instructions and direct links instead of QR codes alone. W3C's event checklist covers remote, in-person and hybrid events and recommends considering organisers, speakers and participants rather than treating accessibility as one platform setting."
+    ],
+    [
+      "Fund prizes and define fulfilment before launch",
+      "Confirm that cash, credits, hardware, travel or mentoring awards exist and can be delivered to eligible winners in the advertised countries. State who funds each prize, its value and restrictions, verification steps, delivery date, taxes and an alternative if lawful delivery is impossible. Devpost notes that independent organisers are responsible for funding and delivering their prizes. Keep winner identity checks proportional, communicate delays, and retain the records needed to resolve a dispute without collecting unrelated personal data."
+    ],
+    [
+      "Fictional example: a 48-hour climate-data AI hackathon",
+      "A fictional university runs a hybrid challenge using a synthetic building-energy dataset. The organiser publishes a versioned rules page, names the official timezone, limits teams to four, allows AI assistance with a disclosure file, excludes production-system access and supplies capped per-team API keys. Teams retain their work and grant a narrow licence for judging and event promotion. Three criteria—demonstrated utility, technical evidence and responsible data/AI practice—use a shared rubric; two judges score each project and conflicts trigger reassignment. Live captions, accessible submission instructions and a private incident route are tested. Prize funds are reserved before registration. This example is illustrative and does not claim that AIWorldNext ran or audited such an event."
+    ],
+    [
+      "Use a go, revise or pause gate",
+      "Open registration only when the organiser, rules, prize funding, platform, data rights, security controls, conduct process, accessibility route, judging rubric and incident owners are documented and tested. Revise when a gap has an effective remedy and participants can be informed before they commit time or data. Pause when ownership terms are unclear, prize funding is missing, sensitive data lacks approval, the environment can reach production, or no one can respond to a safety or conduct incident. After the event, record registrations, eligible submissions, judging completion, incidents, prize delivery and participant feedback without presenting those numbers as proof of product impact."
+    ],
+    [
+      "Limitations and source dates",
+      "This guide is general event-planning information, not legal, tax, cybersecurity, privacy, accessibility or competition-law advice. Eligibility, prize, employment, sanctions, consumer, data and intellectual-property requirements vary by country and participant. The NIST Generative AI Profile was published on 26 July 2024 and its page was updated on 8 April 2026; NIST SP 800-218A was finalised on 26 July 2024. The W3C event checklist was updated on 31 August 2022, and MLH's code-of-conduct page states 16 April 2026. Platform and policy pages were checked on 9 November 2026 and can change. Obtain specialist review for the actual event and recheck every source before opening registration."
+    ]
+  ],
+  "worksheet": {
+    "title": "AI hackathon launch worksheet",
+    "intro": "Complete this for the exact event, countries, platform and challenge. Every ready decision should point to an owner, a public rule or a recorded test.",
+    "columns": [
+      "Planning area",
+      "Evidence to record",
+      "Ready condition"
+    ],
+    "rows": [
+      [
+        "Outcome and owner",
+        "Event purpose, accountable organisation, decision owner and contact routes.",
+        "Participants can identify who runs the event and what it is meant to achieve."
+      ],
+      [
+        "Format and timeline",
+        "Public or private, online or in person, countries, ages, dates and official timezone.",
+        "Every participant step and deadline is published."
+      ],
+      [
+        "Rules version",
+        "Eligibility, teams, prior work, submission, disqualification, changes and dispute route.",
+        "One dated rules page controls the event."
+      ],
+      [
+        "AI-use policy",
+        "Allowed tools and uses, prohibited uses, disclosure file and enforcement.",
+        "Teams and judges can distinguish assistance from the team's contribution."
+      ],
+      [
+        "Data",
+        "Source, licence, sensitivity, permitted purpose, access and deletion date.",
+        "Only approved data needed for the challenge is available."
+      ],
+      [
+        "IP and licences",
+        "Ownership, organiser licence, public-repository terms and third-party credits.",
+        "Participants understand the rights they retain and grant."
+      ],
+      [
+        "Technical access",
+        "Accounts, permissions, spending caps, secrets process, logs and shutdown owner.",
+        "Teams cannot reach production and credentials are isolated."
+      ],
+      [
+        "Risk review",
+        "Intended users, misuse, affected people, failure modes, oversight and exclusions.",
+        "The challenge can be supervised within documented boundaries."
+      ],
+      [
+        "Judging",
+        "Criteria, weights, evidence, assignments, calibration, conflicts, ties and audit trail.",
+        "Every eligible project receives comparable human review."
+      ],
+      [
+        "Conduct",
+        "Code, private reporting route, trained responders, escalation and consequences.",
+        "A report can reach someone authorised to act."
+      ],
+      [
+        "Accessibility",
+        "Registration requests, venue or platform tests, captions, materials and alternatives.",
+        "Essential participation paths were tested or have an announced alternative."
+      ],
+      [
+        "Prizes",
+        "Funder, value, restrictions, taxes, verification, delivery date and alternatives.",
+        "Every advertised prize is funded and deliverable to eligible winners."
+      ],
+      [
+        "Communications",
+        "Rules updates, support channel, judging schedule, result announcement and corrections.",
+        "Participants know where binding updates and decisions appear."
+      ],
+      [
+        "Launch decision",
+        "Go, revise or pause rationale, approver, unresolved items and review date.",
+        "The decision follows recorded evidence rather than a deadline alone."
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "title": "MLH Hackathon Organizer Guide: Rules for Your Hackathon",
+      "url": "https://github.com/MLH/mlh-hackathon-organizer-guide/blob/master/general-information/judging-and-submissions/rules-for-your-hackathon.md"
+    },
+    {
+      "title": "MLH Standard Hackathon Rules",
+      "url": "https://github.com/MLH/mlh-policies/blob/main/standard-hackathon-rules.md"
+    },
+    {
+      "title": "MLH Hackathon Organizer Guide: Judging Plan",
+      "url": "https://github.com/MLH/mlh-hackathon-organizer-guide/blob/master/general-information/judging-and-submissions/judging-plan.md"
+    },
+    {
+      "title": "MLH Code of Conduct",
+      "url": "https://github.com/MLH/mlh-policies/blob/main/code-of-conduct.md"
+    },
+    {
+      "title": "Devpost Help: How hackathons on Devpost work",
+      "url": "https://help.devpost.com/article/307-how-hackathons-on-devpost-work"
+    },
+    {
+      "title": "Kaggle: Community AI Competitions and Hackathons",
+      "url": "https://www.kaggle.com/c/about/community-hackathons"
+    },
+    {
+      "title": "NIST AI 600-1: Generative Artificial Intelligence Profile",
+      "url": "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence"
+    },
+    {
+      "title": "NIST SP 800-218A: Secure Software Development Practices for Generative AI",
+      "url": "https://csrc.nist.gov/pubs/sp/800/218/a/final"
+    },
+    {
+      "title": "GitHub Docs: Secret scanning",
+      "url": "https://docs.github.com/en/code-security/concepts/secret-security/secret-scanning"
+    },
+    {
+      "title": "W3C WAI: Making Events Accessible checklist",
+      "url": "https://www.w3.org/WAI/teach-advocate/accessible-presentations/"
+    },
+    {
+      "title": "U.S. Copyright Office: Copyright and Artificial Intelligence",
+      "url": "https://www.copyright.gov/ai/"
+    }
+  ]
 }
 ]
