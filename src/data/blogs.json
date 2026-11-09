@@ -1,6 +1,6 @@
 [
   {
-    "id": 66,
+    "id": 1,
     "title": "ToyBlocks: A controlled world for robot learning and evaluation",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-06",
@@ -13,7 +13,7 @@
     "imageSource": "https://huggingface.co/blog/allenai/toyblocks"
   },
   {
-    "id": 67,
+    "id": 2,
     "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-06",
@@ -26,20 +26,7 @@
     "imageSource": "https://huggingface.co/blog/open-asr-leaderboard-liva"
   },
   {
-    "id": 1,
-    "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-    "description": "Read the original report from Google DeepMind.",
-    "date": "2026-11-05",
-    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.width-1300.png",
-    "link": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
-    "category": "AI Research",
-    "author": "Google DeepMind",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/"
-  },
-  {
-    "id": 68,
+    "id": 3,
     "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-05",
@@ -52,7 +39,7 @@
     "imageSource": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
   },
   {
-    "id": 69,
+    "id": 4,
     "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-05",
@@ -65,7 +52,7 @@
     "imageSource": "https://huggingface.co/blog/phonon-tts"
   },
   {
-    "id": 70,
+    "id": 5,
     "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-04",
@@ -78,20 +65,7 @@
     "imageSource": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor"
   },
   {
-    "id": 2,
-    "title": "Agentic cheminformatics with Google Antigravity",
-    "description": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
-    "date": "2026-11-03",
-    "image": "https://lh3.googleusercontent.com/UFTBrp1IrRBrc6_f4ibNgtV35iY8F2iTYaqOb1lzR-qZNy-Mb5726xrLKTozohfdZ_3quHe50uyn8z-Wh_Eril_8CVh7py7gH0188sl_EXkoJknlqg=w1200-h630-n-nu-rw",
-    "link": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
-    "category": "AI Research",
-    "author": "Google DeepMind",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/"
-  },
-  {
-    "id": 71,
+    "id": 6,
     "title": "Palette: teaching a small model to build decks in your design language",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-03",
@@ -104,7 +78,7 @@
     "imageSource": "https://huggingface.co/blog/ibm-research/palette-deck-building"
   },
   {
-    "id": 72,
+    "id": 7,
     "title": "CWE-bench v2: More coverage, quality, and transparency",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-03",
@@ -117,7 +91,7 @@
     "imageSource": "https://huggingface.co/blog/cwe-bench"
   },
   {
-    "id": 73,
+    "id": 8,
     "title": "Transformers Model Integration Contracts",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-03",
@@ -130,20 +104,7 @@
     "imageSource": "https://huggingface.co/blog/transformers-mic"
   },
   {
-    "id": 3,
-    "title": "Speeding up planning decisions with AI",
-    "description": "Google DeepMind and UK government work together to reduce planning assessment times",
-    "date": "2026-10-30",
-    "image": "https://lh3.googleusercontent.com/AnSfPLyNIwSu1XsT_WUP3aYfQrc9jo8lwlotms7NmryT7RhWXnwdF4_zzYBMlJOcNT1U_ZbDMCM7AzpnFDPeYKJDardybJGlm447xeEXo1eQqgjCEg=w1200-h630-n-nu-rw",
-    "link": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
-    "category": "AI Research",
-    "author": "Google DeepMind",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/"
-  },
-  {
-    "id": 74,
+    "id": 9,
     "title": "Granite Switch 4.1.1 — Update models like you update software",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-29",
@@ -156,7 +117,7 @@
     "imageSource": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1"
   },
   {
-    "id": 75,
+    "id": 10,
     "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-29",
@@ -169,7 +130,7 @@
     "imageSource": "https://huggingface.co/blog/announcing-project-protostar"
   },
   {
-    "id": 76,
+    "id": 11,
     "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-29",
@@ -182,7 +143,7 @@
     "imageSource": "https://huggingface.co/blog/mistral-large4"
   },
   {
-    "id": 77,
+    "id": 12,
     "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-29",
@@ -193,5 +154,44 @@
     "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
     "imageKind": "source",
     "imageSource": "https://huggingface.co/blog/anydecisionmodel"
+  },
+  {
+    "id": 13,
+    "title": "Build specialized multimodal models with LFM3",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-10-27",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/wEKXxH6qGa7vmHjn5KA-W.png",
+    "link": "https://huggingface.co/blog/LiquidAI/lfm3",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/LiquidAI/lfm3"
+  },
+  {
+    "id": 14,
+    "title": "Does Your Model Run on AWS Trainium? Look It Up",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-10-23",
+    "image": "https://huggingface.co/blog/assets/torch-neuronx-model-support/thumbnail.jpg",
+    "link": "https://huggingface.co/blog/torch-neuronx-model-support",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/torch-neuronx-model-support"
+  },
+  {
+    "id": 15,
+    "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-10-22",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/64b8491203124195cd795cad/oS8I8qx7iBS8EcNIXR3q9.png",
+    "link": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/microsoft/thinkingbox-training"
   }
 ]

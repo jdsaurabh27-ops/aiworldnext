@@ -1,6 +1,6 @@
 [
   {
-    "id": 182,
+    "id": 175,
     "title": "Crusoe sells troubled Wyoming data center project to Google",
     "description": "The deal highlights the challenges of developing massive AI data centers.",
     "date": "2026-11-07",
@@ -31,7 +31,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 183,
+    "id": 176,
     "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
     "description": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
     "date": "2026-11-06",
@@ -42,7 +42,7 @@
     "imageSource": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
   },
   {
-    "id": 184,
+    "id": 177,
     "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
     "description": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
     "date": "2026-11-06",
@@ -53,7 +53,7 @@
     "imageSource": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/"
   },
   {
-    "id": 185,
+    "id": 178,
     "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
     "description": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers.",
     "date": "2026-11-06",
@@ -64,7 +64,7 @@
     "imageSource": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/"
   },
   {
-    "id": 186,
+    "id": 179,
     "title": "How a Blue Wave midterm might reshape the AI industry",
     "description": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to",
     "date": "2026-11-06",
@@ -75,7 +75,7 @@
     "imageSource": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/"
   },
   {
-    "id": 187,
+    "id": 180,
     "title": "After the midterms, is the AI industry in for a rough two years?",
     "description": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to",
     "date": "2026-11-06",
@@ -86,7 +86,7 @@
     "imageSource": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/"
   },
   {
-    "id": 188,
+    "id": 181,
     "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
     "description": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth.",
     "date": "2026-11-06",
@@ -97,7 +97,7 @@
     "imageSource": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/"
   },
   {
-    "id": 189,
+    "id": 182,
     "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
     "description": "Clutch, backed by Lightspeed and SignalFire, was last valued at $85 million, according to a source.",
     "date": "2026-11-06",
@@ -108,7 +108,7 @@
     "imageSource": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/"
   },
   {
-    "id": 196,
+    "id": 188,
     "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
     "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. I watched a humanoid robot clean my apartment. It felt like",
     "date": "2026-11-06",
@@ -119,7 +119,7 @@
     "imageSource": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/"
   },
   {
-    "id": 197,
+    "id": 189,
     "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
     "description": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic",
     "date": "2026-11-06",
@@ -130,7 +130,7 @@
     "imageSource": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/"
   },
   {
-    "id": 202,
+    "id": 194,
     "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
     "description": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation for testing ideas,",
     "date": "2026-11-06",
