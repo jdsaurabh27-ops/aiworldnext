@@ -1,6 +1,17 @@
 [
   {
     "id": 2,
+    "title": "Korea Advances Physical AI Across Industries With NVIDIA",
+    "description": "Tapping into the country’s strengths in manufacturing and engineering, NVIDIA is helping advance Korea’s physical AI ecosystem. The country’s industry leaders are applying accelerated computing, AI and simulation to everything from semiconductor manufacturing to robotics",
+    "date": "2026-11-09",
+    "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/omniverse-overall-ai-day-seoul-1920x1080-1.jpeg",
+    "link": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
+    "category": "AI Hardware",
+    "imageKind": "source",
+    "imageSource": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/"
+  },
+  {
+    "id": 1,
     "title": "Physicl raises $10M to make the digital world real enough for robots",
     "description": "Physicl is trying to solve the sim-to-real gap with a pipeline originally built to market goods online.",
     "date": "2026-11-06",
@@ -86,17 +97,6 @@
     "category": "Robotics",
     "imageKind": "source",
     "imageSource": "https://spectrum.ieee.org/video-friday-reconfigurable-robots"
-  },
-  {
-    "id": 1,
-    "title": "Gemini 4 Argon for Robotics",
-    "description": "Read the original report from Google DeepMind.",
-    "date": "2026-10-13",
-    "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/argon__robotics__hero.2e16d0ba.fill-1200x600.png",
-    "link": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-    "category": "AI Research",
-    "imageKind": "source",
-    "imageSource": "https://deepmind.google/blog/gemini-4-argon-for-robotics/"
   },
   {
     "id": 10,
