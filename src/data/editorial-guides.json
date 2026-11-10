@@ -1,6 +1,3 @@
-Warning: truncated output (original token count: 70294)
-Total output lines: 3795
-
 [
   {
     "slug": "aiworldnext-seo-case-study",
@@ -1395,7 +1392,1035 @@ Total output lines: 3795
       ],
       [
         "Governance claims still need contract review",
-        "Google Cloud describes data perimeters, authenticated identities, audit logging and other controls for OpenAI workloads. Its announcement also labels some features, including Zero Data Retention options and Confidential Compute, as coming soon. Procurement and security teams should verify the exact controls available for the selected service, project and region, then review retention, training use, subprocessors, residency, encryption, access, logging and incident terms in the applicable contract and documentation. A launch article is not a data-processing agreement or compliance …20294 tokens truncated… brief."
+        "Google Cloud describes data perimeters, authenticated identities, audit logging and other controls for OpenAI workloads. Its announcement also labels some features, including Zero Data Retention options and Confidential Compute, as coming soon. Procurement and security teams should verify the exact controls available for the selected service, project and region, then review retention, training use, subprocessors, residency, encryption, access, logging and incident terms in the applicable contract and documentation. A launch article is not a data-processing agreement or compliance certification."
+      ],
+      [
+        "Model choice is useful only when the task is fixed",
+        "Do not compare models with different prompts, documents or scoring rules. Select one representative workload and a small authorised evaluation set. Record required output quality, latency, failure categories and cost per completed task. Run the same cases against the existing route and the preview route when access is available. Model Garden can centralise discovery and deployment patterns, but a larger catalogue does not remove the need for task-specific evaluation."
+      ],
+      [
+        "Example: a fictional support-summary pilot",
+        "Imagine a company that already runs its support application on Google Cloud and wants short case summaries for human agents. It creates 100 authorised, de-identified cases covering routine questions, refunds and urgent escalation signals. Reviewers score whether each summary preserves the issue, action taken and escalation status; they also record latency, rejected requests and total service cost. The team keeps human review and does not allow the summary tool to send messages or decide refunds. This is an illustrative evaluation design, not a claim that AIWorldNext tested the announced service."
+      ],
+      [
+        "Check portability before adopting a unified route",
+        "A single cloud invoice can simplify operations while increasing dependency on one identity, billing and deployment layer. Keep model calls behind a documented interface, store evaluation cases independently, record provider-specific parameters and define what must change if a model or route is unavailable. Test the fallback rather than merely naming it. Portability does not mean every model will produce interchangeable outputs; it means the team understands the work required to switch safely."
+      ],
+      [
+        "Separate preview testing from production approval",
+        "Use a preview to answer a limited question, such as whether one workload meets an agreed quality and latency threshold. Do not place confidential or regulated data into a preview until the organisation has approved the terms and controls. Set a spending cap, named owner, end date and stop conditions. Production approval should require confirmed availability, support, capacity, monitoring, incident handling, security review and a cost forecast based on measured usage."
+      ],
+      [
+        "A practical decision for current Google Cloud customers",
+        "Request preview access only if there is a named workload, owner and evaluation plan. If procurement consolidation is the main benefit, compare the full invoice and contract path against direct access and other approved providers. If model quality is the main benefit, run the same evaluation set across candidates. If neither benefit is measurable yet, record the announcement and wait for generally available documentation rather than rebuilding an architecture around an unconfirmed timeline."
+      ],
+      [
+        "Limitations and source dates",
+        "This explainer covers official information checked on 27 October 2026 and is not purchasing, legal, security or compliance advice. OpenAI and Google Cloud published their announcements on 21 October 2026. Google Cloud documentation used here was updated on 22 October 2026. Pricing, regions, quotas, model versions, preview eligibility, contractual terms and planned features can change. Confirm them inside the relevant account and current contract before making a production decision."
+      ]
+    ],
+    "worksheet": {
+      "title": "OpenAI-on-Google-Cloud evaluation sheet",
+      "intro": "Complete this with account-specific evidence before approving a preview or production workload.",
+      "columns": [
+        "Decision area",
+        "Evidence to collect",
+        "Pass condition"
+      ],
+      "rows": [
+        [
+          "Availability",
+          "Model, region, quota, API, preview status and target date.",
+          "Every required capability is enabled; future plans are labelled."
+        ],
+        [
+          "Workload",
+          "Named user, task, input type, output and prohibited actions.",
+          "The pilot has one bounded purpose and an accountable owner."
+        ],
+        [
+          "Quality",
+          "Fixed evaluation set, rubric, errors and human-review results.",
+          "Thresholds are met on representative authorised cases."
+        ],
+        [
+          "Data governance",
+          "Retention, training use, residency, access, logs and contract terms.",
+          "Security and privacy owners approve the exact configuration."
+        ],
+        [
+          "Cost",
+          "Model usage, infrastructure, Marketplace charges, discounts and support.",
+          "Forecast uses measured volume and includes all charge categories."
+        ],
+        [
+          "Operations",
+          "Capacity, monitoring, incidents, support and stop conditions.",
+          "The production team can detect, contain and recover from failures."
+        ],
+        [
+          "Portability",
+          "Interface, provider-specific settings, stored tests and fallback drill.",
+          "A switch plan has been tested and its limitations recorded."
+        ],
+        [
+          "Final decision",
+          "Owner, evidence date, approval scope and next review trigger.",
+          "Preview evidence is not presented as permanent production approval."
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "title": "OpenAI: OpenAI models are coming to Google Cloud (21 October 2026)",
+        "url": "https://openai.com/index/openai-models-google-cloud/"
+      },
+      {
+        "title": "Google Cloud: Bringing OpenAI models to customers (21 October 2026)",
+        "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers"
+      },
+      {
+        "title": "Google Cloud documentation: Model Garden overview",
+        "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-garden/explore-models"
+      },
+      {
+        "title": "Google Cloud documentation: Billing for Marketplace products",
+        "url": "https://docs.cloud.google.com/marketplace/docs/billing"
+      }
+    ]
+  },
+  {
+    "slug": "evaluate-ai-coding-agent-repository-access",
+    "title": "How to evaluate an AI coding agent before connecting a repository",
+    "intro": "Test one bounded task with selected-repository access, isolated changes and human review before giving a coding agent broader reach.",
+    "checkedAt": "28 October 2026",
+    "kind": "AI tool evaluation guide",
+    "sections": [
+      [
+        "Start with the task, not the agent",
+        "Write down one development task, the expected files, the allowed actions and the acceptance tests before connecting a repository. “Improve the app” gives neither the agent nor the reviewer a reliable boundary. A better pilot is: update one documented dependency in a non-production repository, change only the files required by that update, run the existing test command and open a reviewable change. The task definition is also the baseline for comparing tools; changing the task between trials makes the result difficult to interpret."
+      ],
+      [
+        "Map every path into the repository",
+        "Repository access can arrive through an installed app, a connected GitHub account, a local checkout, an IDE extension or a prepared cloud environment. Record the account, repositories, branches, permissions and organisations each path can reach. GitHub lets an individual choose no repositories, all repositories or only selected repositories for its cloud agent, and says enabled partner coding agents share that repository scope. Prefer the smallest selection that can complete the pilot, then confirm the effective access rather than relying on the label of a plan or setting."
+      ],
+      [
+        "Separate code access from execution access",
+        "Reading and editing code is only one boundary. A coding agent may also run shell commands, install packages, call external services or use tools connected through an extension or protocol. OpenAI describes a sandbox as the boundary for writable paths and network reach, with approvals controlling actions outside that boundary. List the commands, filesystem locations, package registries, domains and connected tools the task actually needs. Deny broad network or system access when a narrow allowlist or isolated environment is sufficient."
+      ],
+      [
+        "Keep credentials outside the ordinary work area",
+        "Do not place production tokens, customer data, signing keys or unrestricted cloud credentials in the repository merely to make a pilot convenient. Inventory which secrets the setup can read, where they are stored, what they can do and how they will be rotated. Use short-lived, least-privilege credentials for an approved test service when the task truly requires them. OpenAI’s cloud documentation notes that an environment combines repositories, dependencies and access settings, and advises reviewing files, credentials and connections before sharing an environment."
+      ],
+      [
+        "Treat issues, documents and tool output as untrusted input",
+        "A repository can contain instructions in issue text, comments, documentation, tests, generated files or retrieved web pages. Those instructions may be wrong or deliberately hostile. GitHub’s security guidance explicitly identifies prompt injection through issues and comments as a risk for a coding agent. Do not let repository text silently expand the task. Require the agent to follow the named task and repository rules, restrict sensitive tools, and stop for human review when content asks for credentials, external uploads, destructive commands or unrelated changes."
+      ],
+      [
+        "Use an isolated branch and a reversible first task",
+        "Run the first evaluation in a test repository, fork or isolated branch that contains no unique production data. Protect the default branch and require the result to arrive as a diff or pull request. GitHub documents a design in which its cloud agent is restricted to one working branch and a human must review and merge the draft pull request. Other products may use different controls, so verify the actual branch, approval and merge behaviour instead of assuming those protections are universal."
+      ],
+      [
+        "Example: a fictional dependency-update pilot",
+        "Imagine a small internal service with an existing lockfile, automated tests and a staging environment. The owner asks the agent to update one patch-level test dependency, preserve runtime dependencies, run the documented test command and explain any lockfile changes. The agent receives access only to a disposable branch and a test package registry credential with no publish permission. A developer checks the diff, dependency advisory, test output and unexpected files before deciding whether to merge. This is an illustrative evaluation design, not a claim that AIWorldNext tested a product or that a patch update is always low risk."
+      ],
+      [
+        "Review the evidence, not the completion message",
+        "Inspect the complete diff, commands, logs, tests and dependency changes. Re-run important checks in a trusted environment and add the project’s normal security analysis. NIST’s Secure Software Development Framework treats code review and code analysis as practices to define and perform according to an organisation’s standards. A passing test suite is evidence about the cases it covers; it does not prove that the change is secure, correct in production or free of hidden scope changes."
+      ],
+      [
+        "Measure a completed task and its correction cost",
+        "Record whether the acceptance criteria passed, how long the agent and reviewer spent, the number of correction rounds, unexpected files, failed commands, security findings and total billable usage. Compare that with the same bounded task completed under the team’s normal workflow. One successful demonstration is not enough to justify broad access. Repeat across representative low-risk tasks before expanding repository scope, autonomy or credentials."
+      ],
+      [
+        "Close the pilot and remove unused access",
+        "At the end, revoke the test credential, remove unused app access, delete temporary environments according to policy and record the retained logs and changes. Confirm that the agent no longer has access to repositories that are outside the approved rollout. Set an owner and review date for any continuing integration. Access that was appropriate for a two-day pilot should not become permanent merely because nobody revisited the settings."
+      ],
+      [
+        "Limitations and source dates",
+        "This is a general evaluation workflow, not security, legal or procurement advice and not a hands-on comparison of coding agents. Official OpenAI, GitHub and NIST sources were checked on 28 October 2026. Product permissions, defaults, prices, model availability, data handling and security controls can change. GitHub-specific branch and review protections described here should not be attributed to every provider. Confirm current documentation, the installed app’s effective permissions and your organisation’s policies before connecting confidential repositories."
+      ]
+    ],
+    "worksheet": {
+      "title": "AI coding agent repository-access review",
+      "intro": "Complete this before the pilot and attach the resulting evidence to the approval decision.",
+      "columns": [
+        "Decision area",
+        "Evidence to record",
+        "Pass condition"
+      ],
+      "rows": [
+        [
+          "Purpose",
+          "One task, allowed files, prohibited actions and acceptance tests.",
+          "The pilot has a bounded outcome that a reviewer can verify."
+        ],
+        [
+          "Repository scope",
+          "Connected account, selected repositories, organisations and branches.",
+          "Only the repositories required for the pilot are reachable."
+        ],
+        [
+          "Execution boundary",
+          "Writable paths, commands, packages, network destinations and tools.",
+          "Every capability is required, restricted and documented."
+        ],
+        [
+          "Credentials and data",
+          "Secrets, permissions, expiry, storage and allowed data classes.",
+          "No production secret or unapproved sensitive data is exposed."
+        ],
+        [
+          "Untrusted input",
+          "Issues, comments, documents, web content and stop conditions.",
+          "External instructions cannot silently expand the task or access."
+        ],
+        [
+          "Change isolation",
+          "Test repository or branch, default-branch rules and rollback.",
+          "Changes remain reversible and cannot bypass required review."
+        ],
+        [
+          "Validation",
+          "Diff review, trusted test run, security checks and reviewer.",
+          "All expected checks pass and unexpected changes are resolved."
+        ],
+        [
+          "Cost and effort",
+          "Usage charges, elapsed time, review time and correction rounds.",
+          "The comparison includes the full cost of a completed task."
+        ],
+        [
+          "Cleanup",
+          "Revoked credentials, removed access, retained logs and review date.",
+          "Temporary access is closed and continuing access has an owner."
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "title": "OpenAI: Running Codex safely at OpenAI (8 May 2026)",
+        "url": "https://openai.com/index/running-codex-safely/"
+      },
+      {
+        "title": "OpenAI Help: Using Codex Cloud",
+        "url": "https://help.openai.com/en/articles/20001545-using-codex-cloud"
+      },
+      {
+        "title": "GitHub Docs: Managing Copilot repository and partner-agent policies",
+        "url": "https://docs.github.com/en/copilot/how-tos/manage-your-account/manage-policies"
+      },
+      {
+        "title": "GitHub Docs: Risks and mitigations for Copilot cloud agent",
+        "url": "https://docs.github.com/en/copilot/concepts/security-governance-and-network-settings/risks-and-mitigations"
+      },
+      {
+        "title": "NIST: Secure Software Development Framework",
+        "url": "https://csrc.nist.gov/projects/ssdf"
+      }
+    ]
+  },
+  {
+    "slug": "build-ai-career-skills-gap-plan",
+    "title": "How to build an AI career skills-gap plan",
+    "intro": "Turn one target AI role into a 12-week learning and evidence plan using official occupation data, current employer requirements and your existing transferable skills.",
+    "checkedAt": "29 October 2026",
+    "kind": "AI careers planning guide",
+    "sections": [
+      [
+        "Choose one target role and market",
+        "Start with one role family, seniority, country or remote-work market and industry. “Work in AI” is too broad: a data scientist, machine-learning engineer, AI product manager and automation specialist solve different problems. Write a target such as “entry-level data analyst roles that include forecasting or machine-learning work in India” or “junior data scientist roles open to applicants in the EU.” Location matters because education, work authorisation, salary conventions and common tools vary."
+      ],
+      [
+        "Use occupation frameworks as a baseline, not a vacancy",
+        "Official frameworks help describe work consistently. O*NET’s 2026 Data Scientists profile includes analysing data, testing and reformulating models, visualising results and communicating findings. The European Commission’s ESCO classification links occupations with skills across 28 languages. These sources can give you neutral vocabulary, but neither page proves that a particular employer is hiring or that its requirements match your market."
+      ],
+      [
+        "Build a small employer-posting sample",
+        "Collect five to ten recent postings from official employer career pages for the same target role and location. Record the URL, employer, date checked, responsibilities, required skills, preferred skills, experience, education, work arrangement and application deadline. Remove duplicates from recruitment mirrors. If a posting closes, keep only your dated notes for analysis and do not present it as an active vacancy. A small sample reveals patterns; it does not represent the whole labour market."
+      ],
+      [
+        "Separate work outcomes from tool names",
+        "Group requirements into outcomes such as cleaning data, writing reproducible analysis, evaluating a model, deploying a service or explaining a decision. Put Python, SQL, cloud platforms and libraries beneath the outcome they support. O*NET’s employer-posting table for US data-scientist roles shows Python and SQL appearing more often than any single listed ML framework in its 2025 dataset. That is US historical posting evidence, not a global ranking or a reason to learn every listed tool."
+      ],
+      [
+        "Mark transferable evidence before declaring a gap",
+        "For each outcome, record evidence you already have from employment, education, volunteering or a personal project. A finance professional may already clean spreadsheets, reconcile conflicting figures, explain variance and work with controls; a marketer may define experiments, segment customers and present results. Translate that experience accurately into the target role’s language. Do not rename routine spreadsheet work as machine-learning deployment or claim production experience that you do not have."
+      ],
+      [
+        "Score gaps by frequency, importance and proof",
+        "Use four states: demonstrated, familiar, missing and not required for this target. Prioritise a gap when it appears across several sampled postings, is central to the work and can be demonstrated ethically. A frequently named skill may still be a poor first project if it depends on proprietary infrastructure or senior-level responsibility. Keep mandatory qualifications, preferred qualifications and tools in separate columns so one long wishlist does not become an impossible curriculum."
+      ],
+      [
+        "Design one project that closes several gaps",
+        "Choose a small project with authorised data and a clear user decision. It should show the workflow employers repeatedly request: define the question, inspect and clean data, establish a baseline, build only the necessary model, evaluate errors, communicate results and document limitations. Link the finished evidence to the existing AIWorldNext portfolio guide. A course certificate may support learning, but it does not replace a readable explanation of what you built and what failed."
+      ],
+      [
+        "Example: a fictional analyst-to-data-science transition",
+        "A fictional marketing analyst targets junior data-scientist roles. Across eight official postings, the recurring outcomes are SQL extraction, Python analysis, model evaluation, visualisation and stakeholder explanation. The analyst already has experiment design and presentation evidence, is familiar with SQL, and lacks a reproducible Python project and model-error analysis. The 12-week plan therefore focuses on one authorised customer-retention dataset: weeks 1–3 for SQL and data checks, 4–7 for a baseline and model, 8–9 for error analysis, 10 for a short decision memo, and 11–12 for documentation and review. This example is illustrative and is not evidence of a real vacancy, candidate or hiring outcome."
+      ],
+      [
+        "Use forecasts carefully",
+        "The US Bureau of Labor Statistics projects data-scientist employment to grow 35 percent from 2025 to 2035 and describes typical duties and education for that US occupation. A national projection is useful background, but it does not predict an individual’s job offer, local demand, starting salary or visa eligibility. Do not choose a career solely from a growth percentage. Compare duties with your interests, check current local postings and consider the time, cost and opportunity cost of the transition."
+      ],
+      [
+        "Set a 12-week review decision",
+        "At the end of the plan, assess evidence rather than hours watched. Can another person reproduce the project? Do the artefacts demonstrate the most frequent target outcomes? Which gaps remain, and did the sampled postings change? Decide whether to apply to suitable roles, revise the project, narrow the target or pause the transition. Keep employer names and requirements dated so an old sample is not treated as current market truth."
+      ],
+      [
+        "Limitations and source dates",
+        "This guide is a planning method, not career, immigration, education or salary advice. O*NET, BLS, European Commission ESCO and Singapore Ministry of Manpower sources were checked on 29 October 2026. O*NET’s cited software percentages use US postings from 1 January through 31 December 2025; BLS projections cover the United States. ESCO is a classification, while Singapore’s shortage list has separate employment-pass conditions. Titles, requirements, vacancies and eligibility vary by employer and country, so verify each opportunity on its official page before applying."
+      ]
+    ],
+    "worksheet": {
+      "title": "AI career skills-gap worksheet",
+      "intro": "Complete this with dated evidence from one target market; update it when the employer sample changes.",
+      "columns": [
+        "Planning step",
+        "Evidence to record",
+        "Pass condition"
+      ],
+      "rows": [
+        [
+          "Target",
+          "Role family, seniority, location, industry and work arrangement.",
+          "The target is narrow enough to compare similar postings."
+        ],
+        [
+          "Occupation baseline",
+          "Official duties, skills terminology and source date.",
+          "The framework informs vocabulary without being treated as a vacancy."
+        ],
+        [
+          "Employer sample",
+          "Five to ten official posting URLs and dates checked.",
+          "Duplicates and closed roles are labelled; requirements are comparable."
+        ],
+        [
+          "Recurring outcomes",
+          "Work outcomes and the number of sampled postings mentioning each.",
+          "Tools are connected to work rather than collected as a list."
+        ],
+        [
+          "Existing evidence",
+          "Project, job or study artefact and your exact contribution.",
+          "Every claimed skill has accurate, reviewable evidence."
+        ],
+        [
+          "Priority gaps",
+          "Demonstrated, familiar, missing or not required; mandatory versus preferred.",
+          "The plan focuses on frequent, important and demonstrable gaps."
+        ],
+        [
+          "Learning project",
+          "Authorised data, user decision, baseline, evaluation and limitation.",
+          "One project covers several priority outcomes without inflated claims."
+        ],
+        [
+          "Time and cost",
+          "Weekly hours, course or compute cost and stop conditions.",
+          "The 12-week plan fits the available resources."
+        ],
+        [
+          "Review decision",
+          "Portfolio evidence, remaining gaps, refreshed postings and next action.",
+          "The decision is based on evidence rather than course completion alone."
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "title": "O*NET OnLine: Data Scientists profile, updated 2026",
+        "url": "https://www.onetonline.org/link/summary/15-2051.00"
+      },
+      {
+        "title": "O*NET OnLine: Employer-based in-demand software skills for Data Scientists",
+        "url": "https://www.onetonline.org/link/demand/15-2051.00"
+      },
+      {
+        "title": "U.S. Bureau of Labor Statistics: Data Scientists Occupational Outlook Handbook",
+        "url": "https://www.bls.gov/ooh/math/data-scientists.htm"
+      },
+      {
+        "title": "European Commission: ESCO occupations and skills classification",
+        "url": "https://employment-social-affairs.ec.europa.eu/policies-and-activities/skills-and-qualifications/skills-jobs/european-skillscompetences-qualifications-and-occupations-esco_en"
+      },
+      {
+        "title": "Singapore Ministry of Manpower: Shortage Occupation List and AI role conditions",
+        "url": "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility/compass-c5-skills-bonus-shortage-occupation-list-sol"
+      }
+    ]
+  },
+  {
+    "slug": "accessible-ai-podcast-transcript-show-notes",
+    "title": "How to publish an accessible AI podcast transcript and show notes",
+    "intro": "Turn an AI podcast episode into an accurate transcript, useful chapters and source-linked show notes that listeners can navigate and verify.",
+    "checkedAt": "30 October 2026",
+    "kind": "AI podcast accessibility guide",
+    "sections": [
+      [
+        "Treat the transcript as a published edition",
+        "A transcript is part of the episode, not an unreviewed by-product. Decide who owns it, which audio version it represents and where corrections will be made. Apple lets listeners read and search a transcript and jump from its text to the matching audio; Spotify can display transcripts on episode pages and during playback. Those functions make timing and wording consequential. Keep the final audio, transcript, show notes and release record linked by one episode identifier."
+      ],
+      [
+        "Choose automatic or creator-provided transcription deliberately",
+        "Automatic transcription can create a useful first draft, while a creator-provided file gives you direct control over terminology, speaker names and corrections. Apple automatically generates transcripts for eligible episodes but also accepts creator-provided transcripts through supported RSS workflows; Spotify allows eligible creators to download, edit and upload VTT or SRT files. Check account eligibility, supported languages, hosting features and platform settings before promising a transcript to listeners."
+      ],
+      [
+        "Edit against the final audio",
+        "Review the transcript while listening to the exact published master. Correct names, model and company names, technical terms, numbers, URLs and negation. Include the full spoken episode rather than a polished summary that changes what was said. Apple’s content guidelines require supplied transcripts to correspond accurately to the content. If dynamically inserted segments or later audio replacements differ, record that limitation and confirm what each platform displays."
+      ],
+      [
+        "Identify speakers and meaningful sound",
+        "Label the host, guest and any synthetic voice consistently. Apple says speaker names can be displayed when they are included in a VTT file. W3C accessibility guidance describes a transcript as a text version of speech and relevant non-speech audio information. Add concise cues when music, a sound effect, silence or another audible event carries meaning; do not clutter every line with decorative detail that does not help someone understand the episode."
+      ],
+      [
+        "Use timestamps and chapters for navigation",
+        "Timestamps make a timed transcript follow playback and help listeners find a claim. Spotify says uploaded VTT or SRT transcripts need timestamps to sync. For longer episodes, add a small set of descriptive chapters aligned to real topic changes. Apple accepts creator-provided chapters through an episode description, an RSS chapter tag or supported file metadata, and publishes specific title and duration recommendations. Confirm the exact platform format rather than assuming one chapter file works everywhere."
+      ],
+      [
+        "Make show notes a source map",
+        "Use show notes for the episode promise, named speakers, major chapters, primary sources, corrections, commercial disclosures and a transcript link when the listening platform cannot display one. Link directly to the official document or announcement supporting a material claim, and name the source and access date. Separate those references from recommended products or affiliate links. A long list of search keywords is not a substitute for evidence or a readable episode description."
+      ],
+      [
+        "Disclose meaningful AI-generated media",
+        "If a synthetic voice, AI-generated host or replica of a real person appears, explain it where listeners will encounter the episode and in the relevant metadata. Apple’s current guidelines require prominent disclosure for AI-generated audio or video content, including synthetic voices and replicas. Also obtain the permissions required for voices, music, clips, artwork and personal information. A disclosure does not create rights that the producer does not hold."
+      ],
+      [
+        "Example: a fictional 18-minute AI policy interview",
+        "Imagine an 18-minute interview about a newly published AI policy document. The producer locks the final WAV file, generates a draft transcript, and checks every policy name and quotation against the audio and official document. Speaker changes are labelled Host and Guest; meaningful cues such as [intro music] are retained. Four chapters mark the question, confirmed changes, unresolved issues and practical checklist. Show notes link to the primary policy page, state the document date, disclose a synthetic intro voice and provide a correction contact. This example is illustrative; it is not a claim that AIWorldNext recorded the interview or tested a transcription service."
+      ],
+      [
+        "Run a cross-platform release check",
+        "Before promotion, open the published episode on the web and available mobile apps. Confirm the correct episode, transcript visibility, speaker changes, timing near the beginning, middle and end, chapter jumps, source links, explicit-content setting and AI disclosure. Test the public transcript link without being signed in. Spotify notes that transcript access is not available to every creator and that some listening platforms may not support RSS-distributed transcripts, so record platform-specific results instead of claiming universal availability."
+      ],
+      [
+        "Publish corrections without erasing the record",
+        "When a factual or transcription error is found, correct the source transcript and show notes, trigger the hosting or platform refresh process, and record what changed and when. If the audio itself contains a material error, add an audible correction or replace the episode according to the host’s rules, then verify that the transcript still matches. Keep corrections clear enough that a listener can distinguish an original statement from a later update."
+      ],
+      [
+        "Limitations and source dates",
+        "This guide is a publishing workflow, not legal advice or a guarantee that every platform will display the same transcript. Apple Podcasts, Spotify for Creators and W3C sources were checked on 30 October 2026. Platform eligibility, supported languages, file limits, automatic transcription, chapters, RSS tags and review processes can change. Accessibility needs vary, and automated output still requires human review. Confirm current platform documentation, hosting support, permissions and applicable law before release."
+      ]
+    ],
+    "worksheet": {
+      "title": "AI podcast transcript and show-notes release sheet",
+      "intro": "Complete this against the final audio master and verify the published result on each intended platform.",
+      "columns": [
+        "Release check",
+        "Evidence to record",
+        "Pass condition"
+      ],
+      "rows": [
+        [
+          "Episode identity",
+          "Final audio filename, duration, episode ID and publication date.",
+          "Transcript and notes refer to the exact released master."
+        ],
+        [
+          "Transcript method",
+          "Automatic or supplied, platform setting, language and owner.",
+          "The chosen route is supported and has a named reviewer."
+        ],
+        [
+          "Accuracy review",
+          "Names, technical terms, numbers, URLs, quotations and negation.",
+          "A reviewer checked the full transcript against the final audio."
+        ],
+        [
+          "Speakers and sound",
+          "Speaker labels and meaningful non-speech cues.",
+          "A text reader can follow who speaks and what important audio occurs."
+        ],
+        [
+          "Timing",
+          "VTT or SRT timestamps checked near the start, middle and end.",
+          "Text follows the intended audio without material drift."
+        ],
+        [
+          "Chapters",
+          "Titles, timestamps, topic boundaries and platform format.",
+          "Every jump reaches the correct section and titles remain readable."
+        ],
+        [
+          "Show notes",
+          "Summary, speakers, primary sources, dates and transcript link.",
+          "Claims are traceable and links work without a private login."
+        ],
+        [
+          "Disclosures and rights",
+          "Synthetic media, sponsorships, affiliates, permissions and explicit setting.",
+          "Required disclosures are prominent and rights are documented."
+        ],
+        [
+          "Platform test",
+          "Device, app, transcript, chapter, link and date checked.",
+          "Each intended destination is verified separately."
+        ],
+        [
+          "Corrections",
+          "Contact, version, correction date and refresh result.",
+          "A repeatable process can update errors without hiding the change."
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "title": "Apple Podcasts for Creators: Transcripts on Apple Podcasts",
+        "url": "https://podcasters.apple.com/support/5316-transcripts-on-apple-podcasts"
+      },
+      {
+        "title": "Apple Podcasts for Creators: Content guidelines, including transcript accuracy and AI disclosure",
+        "url": "https://podcasters.apple.com/support/891-content-and-subscription-guidelines"
+      },
+      {
+        "title": "Apple Podcasts for Creators: Chapters on Apple Podcasts",
+        "url": "https://podcasters.apple.com/support/5482-using-chapters-on-apple-podcasts"
+      },
+      {
+        "title": "Spotify for Creators: Managing episode transcripts",
+        "url": "https://support.spotify.com/creators/article/managing-episode-transcripts-on-spotify/"
+      },
+      {
+        "title": "W3C Web Accessibility Initiative: Making audio and video media accessible",
+        "url": "https://www.w3.org/WAI/media/av/"
+      }
+    ]
+  },
+  {
+    "slug": "plan-collaborative-robot-pilot",
+    "title": "How to plan a collaborative robot pilot: safety, task and ROI checklist",
+    "intro": "Turn one workplace automation idea into a controlled collaborative-robot pilot with a defined task, application-specific safety review and measurable decision criteria.",
+    "checkedAt": "31 October 2026",
+    "kind": "Collaborative robotics pilot guide",
+    "sections": [
+      [
+        "Start with one task, not a robot model",
+        "Describe the work before selecting hardware: the input, output, workpiece variation, normal sequence, expected human actions and conditions that stop the task. A pilot is easier to assess when it targets one stable process rather than several unrelated jobs. Record the current manual baseline, but do not assume automation is justified until the proposed system shows a safer or more useful result within agreed limits."
+      ],
+      [
+        "Define the complete robot application",
+        "The arm is only one part of the application. Map the end-effector, workpiece, fixtures, sensors, controller, power, software, network connections, nearby machines, material flow and people who may enter the area. OSHA describes an industrial robot system as the robot together with its end-effector, control system, power sources, sensors and interfaces. A component advertised as collaborative does not by itself make the finished application safe."
+      ],
+      [
+        "Confirm whether human-robot collaboration is necessary",
+        "Ask why a person and robot need to share a workstation or workpiece, which steps require proximity, and whether the same outcome could be achieved with separation or conventional safeguarding. OSHA recommends considering whether a person is integral to the application, whether simultaneous work is needed and whether physical contact is expected. Use the answers to define the operating mode rather than treating collaboration as a marketing label."
+      ],
+      [
+        "Assign responsibility before integration",
+        "Name the employer owner, system integrator, safety lead, operator representatives, maintenance contact and person authorised to approve changes. Put required risk-assessment evidence, safeguarding, training, acceptance tests, manuals and change control into the supplier statement of work. Workers who perform or work near the task can identify access, recovery and foreseeable-use conditions that a remote design review may miss."
+      ],
+      [
+        "Complete an application-specific risk assessment",
+        "A qualified team should assess the actual task and site before operation, including setup, teaching, normal work, cleaning, jams, troubleshooting, maintenance, energy isolation and reasonably foreseeable misuse. Universal Robots states that application safety depends on the tool, obstacles and connected machines, and that risk assessment is required before first power-up. The manufacturer manual is an input; it is not a substitute for the completed application assessment."
+      ],
+      [
+        "Use staged commissioning gates",
+        "Separate the pilot into documented gates: design review, installation inspection, controlled commissioning, safeguarded trial, limited supervised production and final acceptance. Define who can authorise each gate and what evidence is required. Keep untrained people outside the test area, preserve a recovery plan and stop when the task, tooling, material, layout or safety assumptions differ from the approved configuration."
+      ],
+      [
+        "Validate safeguards and stopping behaviour",
+        "Verify the selected safety functions, protective devices, emergency-stop arrangement, restricted space, safe access and stopping performance as part of the integrated application. Contact risks also depend on the end-effector and workpiece, including sharp edges, pinch points, dropped parts and projectiles. Testing and acceptance should be performed by competent people against applicable law, standards, manufacturer instructions and the documented risk assessment."
+      ],
+      [
+        "Measure performance with the same test set",
+        "Use a representative set of parts and conditions for both the current process and the pilot. Record successful cycles, rejected or damaged work, cycle time distribution, human interventions, downtime, recovery time, changeover effort and operator workload. NIST’s collaborative-robot work emphasises task decomposition, coordination, communication and metrics for safety and effectiveness. A single fast demonstration is not evidence of reliable production performance. Track integration, tooling, training, support, maintenance and expected downtime separately from purchase price. Estimate payback only from measured pilot results and show the assumptions; do not annualise a short best-case run without sensitivity ranges."
+      ],
+      [
+        "Control configuration, access and changes",
+        "Record the approved program, tooling, safety configuration, passwords, network access, software versions and backups. Limit who can change safety settings and define how updates are reviewed, tested and rolled back. Reassess the application after relevant changes to parts, grippers, speed, layout, software, upstream equipment or human tasks; an earlier acceptance result may no longer represent the modified system."
+      ],
+      [
+        "Example: a fictional packaging-station pilot",
+        "Imagine a packaging line where an operator currently loads products and closes cartons. The pilot scope is limited to picking one product size and placing it into a fixed tray while the operator performs a separate inspection step. The team records the existing cycle and intervention rate, maps the gripper and pinch hazards, completes the site risk assessment, commissions behind safeguards and then runs a fixed batch of representative products. Expansion to other sizes occurs only after a new tooling and risk review. This example is illustrative and does not claim that AIWorldNext deployed or tested such a system."
+      ],
+      [
+        "Make a proceed, revise or stop decision",
+        "Proceed only when the approved application meets its safety and performance acceptance criteria and the organisation can support training, maintenance and change control. Revise the pilot when failures have understood, correctable causes; stop it when safety evidence is incomplete, task variation remains uncontrolled or the total operational burden outweighs the measured benefit. Keep the decision record even when the pilot does not continue, because it documents assumptions and prevents the same unsupported proposal from being repeated."
+      ],
+      [
+        "Limitations and source dates",
+        "This guide is an educational planning workflow, not engineering, legal or workplace-safety advice. Sources were checked on 31 October 2026. OSHA’s referenced material is US-focused, while ISO 10218-2:2025 covers industrial robot applications and excludes several categories including public-facing service robots, healthcare and consumer products. Requirements vary by country, application and workplace. Engage qualified safety professionals and integrators, obtain the applicable standards, and follow local law and manufacturer instructions before installing or operating a robot system."
+      ]
+    ],
+    "worksheet": {
+      "title": "Collaborative robot pilot decision sheet",
+      "intro": "Complete this with the employer, integrator, affected workers and qualified safety personnel before approving production use.",
+      "columns": [
+        "Pilot check",
+        "Evidence to record",
+        "Pass condition"
+      ],
+      "rows": [
+        [
+          "Task and baseline",
+          "Inputs, outputs, variation, cycle distribution, defects and human effort.",
+          "One bounded task and a comparable current-state baseline are documented."
+        ],
+        [
+          "Application boundary",
+          "Robot, tooling, workpiece, fixtures, sensors, software, interfaces and nearby equipment.",
+          "Every relevant component and interaction has an owner."
+        ],
+        [
+          "Need for collaboration",
+          "Human steps, shared space, shared workpiece and expected contact conditions.",
+          "The chosen operating concept is justified for the task."
+        ],
+        [
+          "Roles and supplier scope",
+          "Employer, integrator, safety lead, operators, maintenance and acceptance authority.",
+          "Responsibilities and required deliverables are written into the project."
+        ],
+        [
+          "Risk assessment",
+          "Lifecycle tasks, hazards, foreseeable misuse and risk-reduction measures.",
+          "Qualified reviewers approve the application-specific assessment before operation."
+        ],
+        [
+          "Commissioning gates",
+          "Design, installation, controlled test, supervised trial and acceptance evidence.",
+          "Each gate has an owner, stop rule and signed result."
+        ],
+        [
+          "Safeguards and stopping",
+          "Protective devices, access, emergency stops, safety functions and validation records.",
+          "The integrated system passes applicable verification by competent people."
+        ],
+        [
+          "Performance test",
+          "Representative parts, successful cycles, interventions, damage, downtime, recovery and measured costs.",
+          "Results meet pre-agreed criteria, and any ROI estimate states its assumptions and sensitivity range."
+        ],
+        [
+          "People and work design",
+          "Training, instructions, workload, access, recovery and worker feedback.",
+          "Affected people can perform normal and abnormal tasks under the approved procedure."
+        ],
+        [
+          "Configuration control",
+          "Programs, versions, settings, passwords, backups and authorised changers.",
+          "The accepted configuration is reproducible and protected from unauthorised change."
+        ],
+        [
+          "Lifecycle support",
+          "Inspection, maintenance, spare parts, incidents, updates and reassessment triggers.",
+          "The organisation can safely support the system after the pilot team leaves."
+        ],
+        [
+          "Decision",
+          "Proceed, revise or stop, with evidence, owner and date.",
+          "The outcome follows the recorded safety and performance criteria."
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "title": "OSHA Technical Manual: Industrial Robot Systems and Industrial Robot System Safety",
+        "url": "https://www.osha.gov/otm/section-4-safety-hazards/chapter-4"
+      },
+      {
+        "title": "OSHA Robotics: Standards and related requirements",
+        "url": "https://www.osha.gov/robotics/standards"
+      },
+      {
+        "title": "NIST: Performance of Collaborative Robot Systems",
+        "url": "https://www.nist.gov/programs-projects/performance-collaborative-robot-systems"
+      },
+      {
+        "title": "ISO 10218-2:2025: Safety requirements for industrial robot applications and robot cells",
+        "url": "https://www.iso.org/standard/73934.html"
+      },
+      {
+        "title": "Universal Robots manual: Risk Assessment",
+        "url": "https://www.universal-robots.com/manuals/EN/HTML/SW5_26/Content/prod-usr-man/complianceUR10e/H_g5_sections/safety_g5/risk_assessment.htm"
+      }
+    ]
+  },
+  {
+    "slug": "compare-ai-startup-accelerators",
+    "title": "How to compare AI startup accelerators: equity, credits and support checklist",
+    "intro": "Compare AI startup accelerators and founder programmes by investment terms, dilution, eligibility, founder time, technical support and the milestones your company actually needs.",
+    "checkedAt": "1 November 2026",
+    "kind": "AI startup programme comparison guide",
+    "sections": [
+      [
+        "Classify the offer before comparing it",
+        "Start by identifying what the programme actually is: an accelerator that invests for equity or convertible securities, an equity-free accelerator, or a benefits programme offering credits and guidance. These structures solve different problems. Y Combinator and Techstars publish investment terms; Google describes its reviewed US accelerator as equity-free; Microsoft for Startups describes credits and support that expand with eligibility and progress. Do not place all four offers in one “funding amount” column."
+      ],
+      [
+        "Write down the company decision first",
+        "Define the next 6–12 month constraint: runway, customer access, technical architecture, regulatory preparation, hiring, fundraising or founder learning. Record the amount of cash required, the technical workload, the decision deadline and the evidence that would show progress. A programme is useful only if its specific support addresses an important company constraint at the right stage."
+      ],
+      [
+        "Separate cash from credits and advertised value",
+        "Cash can fund eligible business expenses; cloud credits normally apply only to covered services and may depend on approval, activation and usage rules. Discounts and partner offers have value only when the company would otherwise buy the product. Build separate rows for cash received, usable credits, conditional benefits, fees, travel and programme expenses. Do not add headline values together as if they were interchangeable cash."
+      ],
+      [
+        "Model ownership and convertible instruments",
+        "Record fixed equity, SAFEs or other convertible instruments, pro-rata rights, side letters and future information or governance obligations. The SEC explains that a SAFE promises a future ownership interest after specified triggering events and generally defers the valuation calculation. Model at least a plausible next financing and option-pool change on the cap table, then have qualified legal and tax advisers review the actual documents. A published percentage may not represent the complete eventual dilution."
+      ],
+      [
+        "Check the current programme terms, not old summaries",
+        "As of 1 November 2026, YC’s official standard-deal page states a $500,000 investment split between $125,000 for 7% and a $375,000 uncapped MFN SAFE. Techstars’ official page states $220,000, comprising $20,000 for 5% common through its CEA and a $200,000 uncapped MFN SAFE, while also describing an Asia-Pacific exception. These details can change, so confirm the current offer, programme-specific variation and signed documents before deciding."
+      ],
+      [
+        "Verify geography, stage and company structure",
+        "Check headquarters, operating region, incorporation, funding stage, revenue or traction expectations, business model and sector restrictions. Google’s reviewed United States accelerator is aimed at US-based Seed-to-Series-A technology startups and requires participating leaders to attend programme elements. YC and Techstars describe corporate-structure conditions that can require accepted companies from some jurisdictions to reorganise. Estimate the legal, tax, banking and administrative consequences before treating acceptance as a simple benefit."
+      ],
+      [
+        "Price the founder time and operating disruption",
+        "Record required sessions, travel, location, cohort dates, preparation, mentor meetings, reporting, demo events and post-programme obligations. Assign an owner and estimate the weekly hours taken from product, customers and fundraising. Some founder time may create valuable focus and access, but that value should be judged against the company’s current bottleneck rather than assumed from the programme’s reputation."
+      ],
+      [
+        "Test whether technical benefits fit the architecture",
+        "Map credits, experts, tools and early-access benefits to the actual product roadmap. Confirm eligible services, regions, accelerators or GPUs, support level, expiry and expected full-price cost after benefits end. Google states that product-credit eligibility is separately reviewed, while Microsoft describes benefits that expand with verified progress and service adoption. Use the existing cloud-cost plan rather than redesigning the product merely to consume a benefit."
+      ],
+      [
+        "Assess support with specific questions",
+        "Replace broad words such as mentorship and network with testable needs: introductions to which buyer profile, help with which technical problem, access to which market, and support at which financing stage. Ask the programme for current materials and, where appropriate, speak with alumni whose stage and business model resemble yours. Record who provides the support, how often it is available and whether it continues after the cohort."
+      ],
+      [
+        "Prepare the application without inflating claims",
+        "Use a consistent evidence file covering the customer problem, product, founders, traction definition, technical architecture, market, risks, cap table, runway and requested outcome. Label pilots, letters of intent, active users and revenue accurately rather than combining them into a vague traction number. The SEC’s capital-readiness guidance recommends current cap-table and financial information, a calculated runway and a plan for proceeds."
+      ],
+      [
+        "Example: a fictional document-AI startup",
+        "Imagine a two-founder document-AI company with six months of runway, early paid pilots and a large model-serving bill. An investment accelerator may extend runway and support fundraising but changes future ownership. An equity-free technical accelerator may address reliability and enterprise introductions but provides no automatic cash. A cloud programme may reduce infrastructure cost but leaves fundraising and customer acquisition largely with the founders. The team models each offer separately, values only credits it expects to use, obtains legal advice on investment documents and chooses based on its most urgent constraint. This example is illustrative and is not a recommendation or a claim that AIWorldNext joined any programme."
+      ],
+      [
+        "Make a proceed, apply later or decline decision",
+        "Proceed when the programme fits the company’s stage, solves a material constraint and has acceptable legal, ownership, time and technical consequences. Apply later when eligibility or evidence is premature. Decline when the apparent value depends on unusable credits, unsupported assumptions, excessive disruption or terms the founders do not understand. Record the decision date and source links because offers, deadlines and benefits change."
+      ],
+      [
+        "Limitations and source dates",
+        "This guide is educational and is not legal, tax, investment or fundraising advice. Official sources were checked on 1 November 2026. The Google page reviewed is specific to its United States accelerator; Techstars describes programme and regional variations; Microsoft’s documentation was updated on 30 October 2026; and programme availability, eligibility, deadlines, credits and investment terms can change. Review the current programme page and complete documents, and use qualified advisers before accepting an investment or restructuring a company."
+      ]
+    ],
+    "worksheet": {
+      "title": "AI startup accelerator comparison sheet",
+      "intro": "Complete one column per current programme using official documents and advice appropriate to your company and jurisdiction.",
+      "columns": [
+        "Decision area",
+        "Evidence to record",
+        "Pass condition"
+      ],
+      "rows": [
+        [
+          "Company constraint",
+          "Next milestone, bottleneck, deadline and evidence of progress.",
+          "The programme addresses an important constraint during the relevant period."
+        ],
+        [
+          "Programme type",
+          "Investment accelerator, equity-free accelerator or benefits programme.",
+          "The offer is compared with alternatives of the same purpose."
+        ],
+        [
+          "Cash and costs",
+          "Cash received, fees, travel, legal, tax and operational costs.",
+          "Net usable cash and direct costs are explicit."
+        ],
+        [
+          "Credits and benefits",
+          "Eligible products, approval, limits, expiry and expected actual use.",
+          "Only benefits the company expects to use are valued."
+        ],
+        [
+          "Ownership terms",
+          "Fixed equity, SAFEs, conversion scenarios, pro-rata and side-letter rights.",
+          "Qualified advisers review the documents and the cap table models future conversion."
+        ],
+        [
+          "Eligibility and structure",
+          "Country, stage, sector, incorporation, funding and traction rules.",
+          "Eligibility is confirmed on the current official page without unsupported assumptions."
+        ],
+        [
+          "Founder commitment",
+          "Sessions, travel, weekly hours, reporting and key dates.",
+          "The team can participate without missing a more important company milestone."
+        ],
+        [
+          "Technical fit",
+          "Architecture, services, regions, support, migration and post-benefit cost.",
+          "Benefits support the roadmap without creating unjustified dependency."
+        ],
+        [
+          "Market and mentor fit",
+          "Named customer profile, technical problem, experts and alumni evidence.",
+          "Expected support is specific enough to verify after joining."
+        ],
+        [
+          "Application evidence",
+          "Product, founders, customers, traction definition, risks, cap table and runway.",
+          "Every material claim has a consistent source and date."
+        ],
+        [
+          "Decision",
+          "Proceed, apply later or decline, with owner, rationale and review date.",
+          "The decision follows recorded company priorities and current terms."
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "title": "Y Combinator: The Standard Deal",
+        "url": "https://www.ycombinator.com/deal/"
+      },
+      {
+        "title": "Techstars: Accelerator Investment Terms",
+        "url": "https://www.techstars.com/investment-terms"
+      },
+      {
+        "title": "Google for Startups Accelerator: United States",
+        "url": "https://startup.google.com/programs/accelerator/united-states/"
+      },
+      {
+        "title": "Microsoft Learn: What is Microsoft for Startups?",
+        "url": "https://learn.microsoft.com/en-us/startups/microsoft-for-startups/overview"
+      },
+      {
+        "title": "US SEC: Common Startup Securities",
+        "url": "https://www.sec.gov/resources-small-businesses/capital-raising-building-blocks/common-startup-securities"
+      },
+      {
+        "title": "US SEC: Ready to Raise CAPITAL",
+        "url": "https://www.sec.gov/resources-small-businesses/capital-raising-building-blocks/ready-raise-capital"
+      }
+    ]
+  },
+{
+  "slug": "accessible-ai-event-checklist",
+  "title": "How to make an AI event accessible: captions, slides and hybrid participation checklist",
+  "intro": "Plan a more accessible AI conference, meetup or webinar by checking registration, venue and platform access, captions, slides, audio, demos and recordings.",
+  "checkedAt": "2 November 2026",
+  "kind": "AI event accessibility guide",
+  "sections": [
+    [
+      "Treat accessibility as part of the event brief",
+      "Define the audience, event format, session types and participation methods before selecting a venue or platform. Assign one accessibility owner with authority to coordinate registration questions, speakers, captioners or interpreters, venue staff, platform settings and post-event material. Accessibility is not a single feature that can be added after the agenda is final; the experience depends on the venue, digital platform, content and how the event is run."
+    ],
+    [
+      "Publish useful information and invite requests",
+      "State the event format, languages, venue route, room access, stage access, accessible toilets, seating, breaks, remote connection methods, captions, recording policy and contact channel as early as possible. W3C recommends asking speakers and participants about accessibility requirements, including through the registration process. Ask what support is needed for participation rather than requesting an unnecessary diagnosis, and explain any deadline needed to arrange a service. Provide a way to update a request because needs and attendance can change."
+    ],
+    [
+      "Check both the venue and the remote platform",
+      "For an in-person event, inspect entrances, routes between rooms, registration desks, presentation stages, toilets, seating, lighting, acoustics and emergency procedures with the venue. For a remote or hybrid event, test keyboard access, screen-reader workflows, captions, interpreter display, chat, hand raising, dial-in options and the ability to resize important windows. W3C's remote-meeting note stresses that accessible software alone does not make the whole meeting accessible; hosts, content producers and platform selection each affect the result."
+    ],
+    [
+      "Provide accessible material before each session",
+      "Give participants direct access to slides, handouts, code samples, schedules and links in formats they can adapt, rather than relying only on a projected screen or screen share. Use meaningful headings, alternative text for informative images, descriptive link text, readable tables and an announced document order. Provide material early enough for participants, captioners and interpreters to review names, technical terms and acronyms. Remove confidential speaker notes and secrets before sharing files."
+    ],
+    [
+      "Make AI slides understandable without the screen",
+      "Use large readable text, sufficient contrast, restrained motion and a consistent layout. Explain model diagrams, charts, benchmark axes, code changes and live interface states aloud instead of saying only “as you can see.” Define specialised terms such as RAG, inference, token or agent the first time they matter. Put detailed tables, citations and code in an accessible companion page or document so the slide does not need to carry every detail."
+    ],
+    [
+      "Plan captions separately from translation",
+      "W3C describes captions as a synchronised text version of speech and important non-speech audio, while translated subtitles serve a different language purpose. Decide whether the event needs same-language live captions, translated subtitles, sign-language interpretation or more than one service. Automated captions can be a fallback or supplement, but names, accents and AI terminology need testing and correction. Zoom documents manual, third-party and automated caption options; Microsoft documents caption and interpreter-related features. Availability and controls depend on the current account, event type and licence, so configure and rehearse the exact setup rather than assuming a feature is active."
+    ],
+    [
+      "Put every question and answer through the audio system",
+      "Use a suitable microphone for every speaker and repeat or relay audience questions from the room, chat and remote participants before answering. This supports listeners, captions, interpreters and the recording. Assign a moderator to watch remote chat and raised hands, explain how to join the queue and offer a text route for participants who cannot use voice. Avoid giving in-room participants an unannounced advantage during hybrid questions or networking."
+    ],
+    [
+      "Test demos, polls and workshops with alternatives",
+      "AI events often depend on live demos, QR codes, collaborative boards, timed quizzes and hands-on notebooks. Test each activity with a keyboard, zoomed display and representative assistive technology where possible. Provide a direct link and written instructions instead of a QR code alone, allow more than one way to answer, and avoid making a fast response the only route to participation. Prepare a narrated recording, screenshots or transcript for a live demo failure and describe visual changes while demonstrating."
+    ],
+    [
+      "Rehearse roles, not just the presentation",
+      "Run a technical rehearsal with the event producer, moderator, speakers, captioner or interpreter, and venue or platform operator. Confirm who starts captions, shares accessible links, admits remote attendees, changes layouts, repeats questions, reports a problem and decides whether a session pauses. Test audio from videos and remote speakers, caption visibility, interpreter placement, recording consent and backup connections. Record the observed results and unresolved limitations."
+    ],
+    [
+      "Review recordings before publishing",
+      "A recording can preserve barriers from the live event. Check caption accuracy and synchronisation, speaker identification, important non-speech audio, described visual information, chapter labels, transcript links and access to referenced material. W3C notes that live captions may need editing before a recording is posted. Publish corrections when a material claim or transcript error is discovered, and apply the stated consent, retention and privacy policy to recordings and chat exports."
+    ],
+    [
+      "Example: a fictional one-day AI builder event",
+      "Imagine a fictional 120-person event with one venue room and a remote audience. Registration lists the accessible route, captions, remote access and a support contact. Speakers submit slides and technical vocabulary one week early. The organiser provides live same-language captions, a microphone for every question, accessible links for code and polls, and a moderator for remote participants. A rehearsal finds that captions cover the shared code window, so the producer changes the layout before launch. Afterward, the team corrects names in the recording captions and publishes the transcript and source links. This example is illustrative and is not a claim that AIWorldNext organised or audited such an event."
+    ],
+    [
+      "Use a go, revise or pause gate",
+      "Proceed when the promised access arrangements have named owners, required services are confirmed and representative event paths have been tested. Revise the format when a barrier has a workable alternative and the change can be communicated before registration or attendance. Pause a session or feature when a critical route to content or participation fails without an effective alternative. Record the decision, affected participants, temporary arrangement, owner and follow-up date."
+    ],
+    [
+      "Limitations and source dates",
+      "This guide is general event-planning information, not an accessibility audit, certification or legal opinion. Disability and equality obligations vary by country, venue, organisation and event. The W3C event checklist was updated on 31 August 2022, and its remote-meeting document is a W3C Group Note dated 22 July 2022 that states it is guidance rather than a W3C-endorsed standard. Platform documentation and features were checked on 2 November 2026 and can change by product, licence, language and region. Consult affected participants, qualified accessibility professionals and applicable local requirements for the actual event."
+    ]
+  ],
+  "worksheet": {
+    "title": "AI event accessibility planning sheet",
+    "intro": "Complete this for the exact venue, platform, audience and programme. A checked box should point to evidence, an owner and a test result.",
+    "columns": [
+      "Planning area",
+      "Evidence to record",
+      "Ready condition"
+    ],
+    "rows": [
+      [
+        "Ownership",
+        "Accessibility lead, event producer, venue contact and escalation route.",
+        "Each responsibility and decision owner is named."
+      ],
+      [
+        "Event information",
+        "Published format, route, facilities, captions, recording policy and contact.",
+        "Attendees can understand access arrangements before registering."
+      ],
+      [
+        "Requests",
+        "Registration question, private response process, deadline and update route.",
+        "Requests reach an owner and receive a documented response."
+      ],
+      [
+        "Venue",
+        "Entrance, rooms, stage, toilets, seating, lighting, sound and emergency route.",
+        "The relevant attendee and speaker paths were inspected."
+      ],
+      [
+        "Platform",
+        "Keyboard, screen reader, captions, interpreter view, chat, dial-in and alternatives.",
+        "Representative participation flows were tested on the actual account."
+      ],
+      [
+        "Materials",
+        "Accessible slides, schedule, code, links, handouts and delivery date.",
+        "Participants and support providers receive usable files in advance."
+      ],
+      [
+        "Captions and language",
+        "Caption method, terminology list, interpreter or translation needs and backup.",
+        "The service, operator, display and backup are confirmed."
+      ],
+      [
+        "Audio and questions",
+        "Speaker and audience microphones, remote chat moderator and question route.",
+        "Every contribution can reach audio, captions and remote attendees."
+      ],
+      [
+        "Activities",
+        "Demos, polls, QR codes, boards, timing and non-visual alternatives.",
+        "Each essential activity has an accessible participation route."
+      ],
+      [
+        "Rehearsal",
+        "People, devices, test script, failures, fixes and retest date.",
+        "Critical paths pass or have an effective announced alternative."
+      ],
+      [
+        "Recording",
+        "Consent, caption review, transcript, chapters, source links and retention.",
+        "Published media is reviewed and the correction route is visible."
+      ],
+      [
+        "Decision",
+        "Go, revise or pause, with rationale, owner and review date.",
+        "The decision follows recorded evidence rather than assumption."
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "title": "W3C WAI: Making Events Accessible checklist",
+      "url": "https://www.w3.org/WAI/teach-advocate/accessible-presentations/"
+    },
+    {
+      "title": "W3C: Accessibility of Remote Meetings",
+      "url": "https://www.w3.org/TR/remote-meetings/"
+    },
+    {
+      "title": "W3C WAI: Captions and Subtitles",
+      "url": "https://www.w3.org/WAI/media/av/captions/"
+    },
+    {
+      "title": "Zoom Support: Enabling manual captions",
+      "url": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062000"
+    },
+    {
+      "title": "Microsoft Support: Accessibility tips for inclusive Teams meetings and live events",
+      "url": "https://support.microsoft.com/en-us/accessibility/teams/accessibility-tips-for-inclusive-microsoft-teams-meetings-and-live-events"
+    }
+  ]
+},
+{
+  "slug": "compare-robot-supplier-quotes",
+  "title": "How to compare robot supplier quotes: integration, safety and lifetime cost checklist",
+  "intro": "Compare robot supplier quotations by defining the complete system, integration work, safety evidence, acceptance tests, training, warranty, support and lifetime cost.",
+  "checkedAt": "3 November 2026",
+  "kind": "Robotics procurement guide",
+  "sections": [
+    [
+      "Start with one written application brief",
+      "Give every supplier the same task, workpiece or visitor interaction, operating environment, users, daily hours, throughput target, quality requirement, available space, utilities, interfaces and delivery location. Include representative payload, reach, speed and cycle conditions rather than a product name alone. Separate mandatory requirements from preferences. Without a common brief, a lower quote may simply exclude work included by another supplier."
+    ],
+    [
+      "Define the complete system boundary",
+      "List the robot, controller, batteries or power supplies, end-effector, sensors, vision, mounting, guarding, safety devices, network equipment, cables, software, licences, fixtures and upstream or downstream machines. Ask who selects, supplies, installs and warrants every component. ISO 10218-2:2025 focuses on complete industrial robot applications and their integration, not only the robot as partly completed machinery. Its scope is industrial; the official page excludes service robots and consumer products, so use standards applicable to the actual robot and jurisdiction."
+    ],
+    [
+      "Separate hardware from engineering work",
+      "Require line items for application design, simulation, programming, tooling, electrical and mechanical work, site preparation, shipping, customs, travel, installation, integration, testing, documentation and project management. Record whether taxes and currency conversion are included. Ask suppliers to state assumptions, buyer-supplied work and change-request rates. A quote marked turnkey is not sufficiently precise unless its deliverables and exclusions are written."
+    ],
+    [
+      "Put safety responsibilities in the statement of work",
+      "Name the manufacturer, integrator, employer or site owner responsible for each hazard analysis, risk assessment, safeguard, verification record, instruction and worker-training deliverable. OSHA's technical manual says the completed application can include end-effectors, sensors, safeguards, controls and fixtures, and recommends putting relevant integration and safety requirements into the statement of work and verifying them during site acceptance. Local law and current standards must be identified separately for the installation."
+    ],
+    [
+      "Write acceptance tests before choosing a supplier",
+      "Create factory and site acceptance tests using representative parts, people, lighting, networks and operating conditions. Record sample size, measurement method, success threshold, permitted intervention, test owner and evidence format. Include safety-function validation, emergency and recovery behaviour, interfaces, output quality, cycle time, repeatability where relevant and a run long enough to reveal common interruptions. Tie payment milestones to agreed evidence rather than to shipment or a demonstration alone."
+    ],
+    [
+      "Check installation and commissioning dependencies",
+      "Document floor, power, air, network, environmental, lifting, access, permitting and production-shutdown requirements. Ask who supplies drawings, who approves site readiness, what happens if a dependency is late and when risk transfers during transport and installation. Include a commissioning schedule with prerequisites, named personnel, retest time and a route for unresolved defects. Site acceptance should use the real utilities, interfaces and environmental characteristics."
+    ],
+    [
+      "Price training and operational handover",
+      "Specify training for operators, programmers, maintenance staff, supervisors and safety personnel, with language, location, duration, class size, prerequisites and assessment method. Require operating, maintenance, backup, recovery, spare-parts and change-control documentation in an agreed format. Manufacturer pages can advertise free learning, paid classes or service plans, but the buyer should confirm exactly what the quoted supplier will deliver and whether training access continues after handover."
+    ],
+    [
+      "Read the warranty instead of copying its duration",
+      "Obtain the full current warranty document and record the covered products, start date, duration, territory, permitted use, exclusions, consumables, labour, travel, shipping, software, response process and remedy. Confirm whether third-party tooling, integration work and modifications are covered by the same party. Universal Robots, for example, publishes its standard warranty as a separate versioned document; the page checked lists version 3.3 dated April 2026 and requires login for the complete text. This example shows why a sales-page summary is not enough."
+    ],
+    [
+      "Compare support by response and recovery outcome",
+      "Record support hours, languages, contact route, remote-access conditions, initial-response target, onsite target, escalation, replacement or loan equipment, local technician coverage and exclusions. Ask for prices outside the included period. ABB's current service page separates technical support, onsite response, preventive maintenance, parts and labour arrangements, monitoring, training and software. These are examples of cost categories, not evidence that one brand or plan fits a particular buyer."
+    ],
+    [
+      "Plan spare parts, maintenance and downtime",
+      "Request the preventive-maintenance schedule, inspection tasks, consumables, recommended spare parts, storage conditions, lead times, technician skills and expected service interruption. Model both scheduled downtime and a plausible unscheduled failure without inventing a reliability rate. If the supplier proposes predictive or connected monitoring, document the data sent, retention, access, cybersecurity responsibilities and the procedure when monitoring is unavailable."
+    ],
+    [
+      "Build a comparable lifetime-cost model",
+      "Use one time horizon and one currency for all quotes. Include purchase, tooling, integration, safeguards, freight, customs, site work, training, licences, connectivity, energy assumptions, maintenance, consumables, spares, service plans, travel, expected internal labour and end-of-life work. Keep supplier-guaranteed amounts separate from buyer estimates and scenario ranges. Do not turn an unverified uptime, labour-saving or production claim into a guaranteed financial return."
+    ],
+    [
+      "Example: a fictional machine-tending project",
+      "Imagine a factory comparing two quotes for one machine-tending task. Quote A has the cheaper arm but excludes gripper design, guarding, site wiring, operator training and acceptance testing. Quote B includes those items, a documented site test and one year of defined support, but excludes spare parts and production shutdown costs. The buyer maps both offers to the same system boundary, asks A to price the missing work, models three years of costs and keeps output benefits separate until a pilot proves them. This fictional example is not a supplier recommendation or a claim that AIWorldNext bought or tested a robot."
+    ],
+    [
+      "Use a clarify, shortlist or reject decision",
+      "Clarify when a capable supplier has an incomplete assumption, price or responsibility that can be resolved in writing. Shortlist when the quote covers the required system, acceptance evidence, responsibilities and support on comparable terms. Reject when material safety work is unassigned, essential components are excluded without a responsible party, acceptance is subjective, or commercial claims cannot be traced to a contract or test. Record the decision, evidence, owner and validity date of the quote."
+    ],
+    [
+      "Limitations and source dates",
+      "This guide is general procurement information, not engineering, safety, legal, tax or investment advice. Sources were checked on 3 November 2026. ISO 10218-2:2025 was published in February 2025 and applies to industrial robot applications within its stated scope; it does not cover every robot or hazard. OSHA's robotics pages describe the United States context and distinguish consensus standards from OSHA regulations. Warranty, support, prices, licences, duties and local requirements change. Use qualified integrators, safety professionals, legal advisers and current documents for the actual system and location."
+    ]
+  ],
+  "worksheet": {
+    "title": "Robot supplier quote comparison sheet",
+    "intro": "Complete one column per supplier using the same application brief, currency, time horizon and evidence rules.",
+    "columns": [
+      "Quote area",
+      "Evidence to record",
+      "Comparable condition"
+    ],
+    "rows": [
+      [
+        "Application brief",
+        "Task, environment, users, hours, parts, interfaces and performance target.",
+        "Every supplier prices the same dated brief."
       ],
       [
         "System boundary",
