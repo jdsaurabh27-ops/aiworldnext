@@ -1,4 +1,4 @@
-Warning: truncated output (original token count: 70297)
+Warning: truncated output (original token count: 70294)
 Total output lines: 3795
 
 [
@@ -1395,7 +1395,8 @@ Total output lines: 3795
       ],
       [
         "Governance claims still need contract review",
-        "Google Cloud describes data perimeters, authenticated identities, audit logging and other controls for OpenAI workloads. Its announcement also labels some features, including Zero Data Retention options and Confidential Compute, as coming soon. Procurement and security teams should verify the exact controls available for the selected service, project and region, then review retention, training use, subprocessors, residency, encryption, access, logging and incident terms in the applicable contract and documentation. A launch article is not a data-processing agreement or compliance …20297 tokens truncated…  ],
+        "Google Cloud describes data perimeters, authenticated identities, audit logging and other controls for OpenAI workloads. Its announcement also labels some features, including Zero Data Retention options and Confidential Compute, as coming soon. Procurement and security teams should verify the exact controls available for the selected service, project and region, then review retention, training use, subprocessors, residency, encryption, access, logging and incident terms in the applicable contract and documentation. A launch article is not a data-processing agreement or compliance …20294 tokens truncated… brief."
+      ],
       [
         "System boundary",
         "Robot, tooling, sensors, safeguards, controls, fixtures, software and interfaces.",
@@ -2580,7 +2581,7 @@ Total output lines: 3795
 },
 {
     "slug": "verify-robot-demo-autonomy",
-    "title": "How to verify a robot demo: autonomy, reliability and safety checklist",
+    "title": "How to verify a robot demo: autonomy and safety checklist",
     "intro": "Evaluate a humanoid or mobile-robot demo by recording its control mode, operating conditions, human interventions, repeated task results, recovery behaviour and safety limits.",
     "checkedAt": "10 November 2026",
     "kind": "Robot demonstration evaluation guide",
