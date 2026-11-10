@@ -1,6 +1,156 @@
 [
   {
+    "id": 177,
+    "title": "Anthropic reportedly plans to move forward with IPO plans",
+    "description": "The AI company is expected to set its valuation range this week, the Wall Street Journal reported.",
+    "date": "2026-11-10",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/Dario-Amodei.jpg?w=1024",
+    "link": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/"
+  },
+  {
+    "id": 1,
+    "title": "ChatGPT Enterprise now available in AWS Marketplace",
+    "description": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+    "date": "2026-11-09",
+    "image": "/brand/categories/news.svg",
+    "link": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+    "category": "AI News",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 2,
+    "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+    "description": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+    "date": "2026-11-09",
+    "image": "/brand/categories/news.svg",
+    "link": "https://openai.com/index/control-room",
+    "category": "AI News",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 3,
+    "title": "CodeRabbit scales agentic software development and ships 20x more",
+    "description": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+    "date": "2026-11-09",
+    "image": "/brand/categories/news.svg",
+    "link": "https://openai.com/index/coderabbit-codex-daybreak",
+    "category": "AI News",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 4,
+    "title": "Kuken Industries searches 70 years of drawings in minutes",
+    "description": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+    "date": "2026-11-09",
+    "image": "/brand/categories/news.svg",
+    "link": "https://openai.com/index/kuken",
+    "category": "AI News",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 178,
+    "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
+    "description": "The Nvidia CEO also pulled out of an Anthropic event earlier.",
+    "date": "2026-11-09",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang.jpg?w=1024",
+    "link": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/"
+  },
+  {
+    "id": 179,
+    "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+    "description": "Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users.",
+    "date": "2026-11-09",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2279025960.jpg?w=1024",
+    "link": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/"
+  },
+  {
+    "id": 180,
+    "title": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
+    "description": "Jensen Huang’s alleged affair with a suspected Chinese spy threatens to complicate Nvidia’s lobbying efforts to loosen U.S. chip export restrictions and maintain access to China’s lucrative AI market.",
+    "date": "2026-11-09",
+    "image": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2192223928.jpg?resize=1200,801",
+    "link": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/"
+  },
+  {
+    "id": 181,
+    "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
+    "description": "Anthropic bought billions of dollars' worth of natural gas turbines in a deal that could give it buyer's remorse.",
+    "date": "2026-11-09",
+    "image": "https://techcrunch.com/wp-content/uploads/2024/12/GettyImages-155376474.jpeg?resize=1200,800",
+    "link": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/"
+  },
+  {
+    "id": 182,
+    "title": "Medium’s new TK app brings AI assistance directly into the writing process",
+    "description": "Medium's new writing app embraces AI-assisted writing, despite growing controversy over the technology's role in publishing.",
+    "date": "2026-11-09",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/tk-logo.webp?resize=1200,675",
+    "link": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/"
+  },
+  {
+    "id": 187,
+    "title": "The backlash about data centers might really just be about electricity",
+    "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. As voters went to the polls across the US last week,",
+    "date": "2026-11-09",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/AP23200525499640.jpg?resize=1200,600",
+    "link": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+    "category": "AI Research",
+    "imageKind": "source",
+    "imageSource": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/"
+  },
+  {
     "id": 188,
+    "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+    "description": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco",
+    "date": "2026-11-09",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/GettyImages-2303769670.jpg?resize=1200,600",
+    "link": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+    "category": "AI Research",
+    "imageKind": "source",
+    "imageSource": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/"
+  },
+  {
+    "id": 189,
+    "title": "The Download: empty AI climate claims, and an Nvidia investigation",
+    "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Opinion: The climate case for AI has not been made —By",
+    "date": "2026-11-09",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/hands.jpg?resize=1200,600",
+    "link": "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/",
+    "category": "AI Research",
+    "imageKind": "source",
+    "imageSource": "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/"
+  },
+  {
+    "id": 190,
+    "title": "Innovating with AI in the special chemicals industry",
+    "description": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products to market.",
+    "date": "2026-11-09",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/MITTRInfoysLubrizol-open-card-v3.png?resize=1200,600",
+    "link": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+    "category": "AI Research",
+    "imageKind": "source",
+    "imageSource": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/"
+  },
+  {
+    "id": 191,
     "title": "The climate case for AI has not been made",
     "description": "This week, as countries meet in Antalya, Turkey for the United Nations climate conference, one topic likely to dominate the conversation is artificial intelligence. The host has already called on countries to commit to ensuring",
     "date": "2026-11-09",
@@ -9,157 +159,5 @@
     "category": "AI Research",
     "imageKind": "source",
     "imageSource": "https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/"
-  },
-  {
-    "id": 194,
-    "title": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
-    "description": "Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI Startup Partnership Forum at COEX. Ryu Je-myung, vice minister of science and ICT, joined NVIDIA leaders to meet with over 20 Korean startups",
-    "date": "2026-11-09",
-    "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/korea-startups-msit-1920x1080-1.jpg",
-    "link": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
-    "category": "AI Hardware",
-    "imageKind": "source",
-    "imageSource": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/"
-  },
-  {
-    "id": 195,
-    "title": "Korea Advances Physical AI Across Industries With NVIDIA",
-    "description": "Tapping into the country’s strengths in manufacturing and engineering, NVIDIA is helping advance Korea’s physical AI ecosystem. The country’s industry leaders are applying accelerated computing, AI and simulation to everything from semiconductor manufacturing to robotics",
-    "date": "2026-11-09",
-    "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/omniverse-overall-ai-day-seoul-1920x1080-1.jpeg",
-    "link": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
-    "category": "AI Hardware",
-    "imageKind": "source",
-    "imageSource": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/"
-  },
-  {
-    "id": 196,
-    "title": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
-    "description": "As AI agents take on more work, they need capable open models and security that advances alongside them. Hyundai Motor Group is exploring NVIDIA NemoClaw blueprints and the NVIDIA OpenShell runtime, while AIM Intelligence is",
-    "date": "2026-11-09",
-    "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/korea-agentic-ai-1920x1080-1.jpg",
-    "link": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/",
-    "category": "AI Hardware",
-    "imageKind": "source",
-    "imageSource": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/"
-  },
-  {
-    "id": 197,
-    "title": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
-    "description": "NVIDIA and Korea’s Ministry of Science and ICT (MSIT) are expanding their collaboration across the country’s sovereign AI ecosystem, from AI semiconductors and data center infrastructure to talent, startups, models, agents and security. The collaboration",
-    "date": "2026-11-09",
-    "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/korea-sovereign-ai-nvlink-fusion.jpg",
-    "link": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/",
-    "category": "AI Hardware",
-    "imageKind": "source",
-    "imageSource": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/"
-  },
-  {
-    "id": 198,
-    "title": "NVIDIA Dynamo Recipes Bring Korea’s Leading Open Models to Production",
-    "description": "NVIDIA is releasing Dynamo-optimized deployment recipes for Korea’s leading open models: A.X K2 from SK Telecom, K-EXAONE 2.0 from LG AI Research, Solar Open 2 from Upstage and Motif-3 from Motif Technologies. As models grow",
-    "date": "2026-11-09",
-    "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/dynamo-korea-ai-day.jpg",
-    "link": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/",
-    "category": "AI Hardware",
-    "imageKind": "source",
-    "imageSource": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/"
-  },
-  {
-    "id": 175,
-    "title": "Crusoe sells troubled Wyoming data center project to Google",
-    "description": "The deal highlights the challenges of developing massive AI data centers.",
-    "date": "2026-11-07",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/09/crusoe-ceo-getty.jpg?resize=1200,800",
-    "link": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
-  },
-  {
-    "id": 1,
-    "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-    "description": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
-    "date": "2026-11-06",
-    "image": "/brand/categories/news.svg",
-    "link": "https://openai.com/index/partnering-with-hacktron",
-    "category": "AI News",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 2,
-    "title": "Measuring how AI agents handle everyday wet-lab science",
-    "description": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
-    "date": "2026-11-06",
-    "image": "/brand/categories/news.svg",
-    "link": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-    "category": "AI News",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 176,
-    "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-    "description": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
-    "date": "2026-11-06",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-green.jpg?w=1024",
-    "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
-  },
-  {
-    "id": 177,
-    "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
-    "description": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
-    "date": "2026-11-06",
-    "image": "https://techcrunch.com/wp-content/uploads/2024/02/GettyImages-1424498694.jpg?resize=1200,800",
-    "link": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/"
-  },
-  {
-    "id": 178,
-    "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
-    "description": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers.",
-    "date": "2026-11-06",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200",
-    "link": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/"
-  },
-  {
-    "id": 179,
-    "title": "How a Blue Wave midterm might reshape the AI industry",
-    "description": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to",
-    "date": "2026-11-06",
-    "image": "https://techcrunch.com/wp-content/uploads/2022/11/GettyImages-1368458052.jpg?resize=1200,750",
-    "link": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/"
-  },
-  {
-    "id": 180,
-    "title": "After the midterms, is the AI industry in for a rough two years?",
-    "description": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to",
-    "date": "2026-11-06",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2236543888.jpg?resize=1200,800",
-    "link": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/"
-  },
-  {
-    "id": 181,
-    "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
-    "description": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth.",
-    "date": "2026-11-06",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/11/ara-stripe-5.png?resize=1200,779",
-    "link": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/"
   }
 ]

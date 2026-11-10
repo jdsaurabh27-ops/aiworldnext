@@ -1,6 +1,32 @@
 [
   {
     "id": 1,
+    "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-11-09",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/604ad59e2fad27aca4515dab/-hyd03JaQoRhMbmlw9-uJ.jpeg",
+    "link": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan"
+  },
+  {
+    "id": 2,
+    "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-11-09",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/6ab2f79bd8000a811c648a32/xZT8tg4be3bgZIx2EQS_m.png",
+    "link": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/amazon/higher-order-pruning-experts"
+  },
+  {
+    "id": 3,
     "title": "ToyBlocks: A controlled world for robot learning and evaluation",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-06",
@@ -13,7 +39,7 @@
     "imageSource": "https://huggingface.co/blog/allenai/toyblocks"
   },
   {
-    "id": 2,
+    "id": 4,
     "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-06",
@@ -26,20 +52,7 @@
     "imageSource": "https://huggingface.co/blog/open-asr-leaderboard-liva"
   },
   {
-    "id": 3,
-    "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
-    "description": "Read the original report from Hugging Face.",
-    "date": "2026-11-05",
-    "image": "https://cdn-uploads.huggingface.co/production/uploads/677c471f8b4c4e271e57eaa5/rtmGVvFdD6JqkjBc26vsp.png",
-    "link": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
-    "category": "AI Tools & Research",
-    "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
-  },
-  {
-    "id": 4,
+    "id": 5,
     "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-05",
@@ -52,7 +65,7 @@
     "imageSource": "https://huggingface.co/blog/phonon-tts"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-04",
@@ -65,7 +78,7 @@
     "imageSource": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Palette: teaching a small model to build decks in your design language",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-03",
@@ -78,7 +91,7 @@
     "imageSource": "https://huggingface.co/blog/ibm-research/palette-deck-building"
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "CWE-bench v2: More coverage, quality, and transparency",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-03",
@@ -91,7 +104,7 @@
     "imageSource": "https://huggingface.co/blog/cwe-bench"
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "Transformers Model Integration Contracts",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-03",
@@ -104,7 +117,7 @@
     "imageSource": "https://huggingface.co/blog/transformers-mic"
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "Granite Switch 4.1.1 — Update models like you update software",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-29",
@@ -117,7 +130,7 @@
     "imageSource": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1"
   },
   {
-    "id": 10,
+    "id": 11,
     "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-29",
@@ -130,7 +143,7 @@
     "imageSource": "https://huggingface.co/blog/announcing-project-protostar"
   },
   {
-    "id": 11,
+    "id": 12,
     "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-29",
@@ -143,7 +156,7 @@
     "imageSource": "https://huggingface.co/blog/mistral-large4"
   },
   {
-    "id": 12,
+    "id": 13,
     "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-29",
@@ -156,7 +169,7 @@
     "imageSource": "https://huggingface.co/blog/anydecisionmodel"
   },
   {
-    "id": 13,
+    "id": 14,
     "title": "Build specialized multimodal models with LFM3",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-27",
@@ -169,7 +182,7 @@
     "imageSource": "https://huggingface.co/blog/LiquidAI/lfm3"
   },
   {
-    "id": 14,
+    "id": 15,
     "title": "Does Your Model Run on AWS Trainium? Look It Up",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-23",
@@ -180,18 +193,5 @@
     "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
     "imageKind": "source",
     "imageSource": "https://huggingface.co/blog/torch-neuronx-model-support"
-  },
-  {
-    "id": 15,
-    "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
-    "description": "Read the original report from Hugging Face.",
-    "date": "2026-10-22",
-    "image": "https://cdn-uploads.huggingface.co/production/uploads/64b8491203124195cd795cad/oS8I8qx7iBS8EcNIXR3q9.png",
-    "link": "https://huggingface.co/blog/microsoft/thinkingbox-training",
-    "category": "AI Tools & Research",
-    "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://huggingface.co/blog/microsoft/thinkingbox-training"
   }
 ]
