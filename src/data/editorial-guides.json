@@ -3791,5 +3791,185 @@
         "url": "https://www.automate.org/robotics/robot-safety-standard-documents"
       }
     ]
+  },
+{
+    "slug": "businesses-in-chatgpt-explained",
+    "title": "Businesses in ChatGPT explained: what claiming a profile changes",
+    "intro": "Understand OpenAI's new Business Hub, including profile claims, verification, aggregate insights, product feeds, Business Agents and the limits of what claiming can achieve.",
+    "checkedAt": "11 November 2026",
+    "kind": "AI news explainer for business owners",
+    "sections": [
+      [
+        "What OpenAI announced",
+        "OpenAI announced Businesses in ChatGPT on 10 November 2026 as a beta. Business Hub is intended to let eligible organizations claim a business, manage information and view aggregate engagement insights. A separate Business Agent option is starting with eligible ecommerce and online-service businesses in the United States. Treat these as launch details from OpenAI, not evidence that a particular business will be accepted, cited or receive traffic."
+      ],
+      [
+        "Separate the profile, agent and advertising decisions",
+        "A claimed business profile, a published Business Agent and an advertising campaign are three separate choices. An eligible business can manage information and use available insights without publishing an agent or running ads. A Business Agent is an optional, clearly labelled conversation based on information supplied by the business. Advertising may promote an agent, but OpenAI says advertising does not influence ChatGPT's independent answers. Record which of these three products you are evaluating so their costs, rules and outcomes are not mixed together."
+      ],
+      [
+        "Check eligibility before preparing the claim",
+        "The owner or an authorized representative can request a claim, but availability depends on business type, location, supported verification and integrity checks. OpenAI says eligible businesses where ChatGPT is offered may be able to claim a profile; local stores and restaurants currently have narrower listing conditions, and agent eligibility is more limited. A website, an OpenAI account or a listing does not guarantee acceptance. Use the options actually shown in Business Hub and do not create a duplicate or pretend to represent another organization."
+      ],
+      [
+        "Choose a verification route you control",
+        "Business Hub may offer verification through a business phone, business email, website-domain DNS record or Shopify connection. The available method depends on the listing. Domain verification requires adding the supplied TXT record exactly and waiting for DNS propagation. A claim then goes through review. Document the account used, the authorized owner, the method, the record added and the decision email so access does not depend on one employee's memory."
+      ],
+      [
+        "Plan for identity and authority checks",
+        "OpenAI's setup guidance says Persona identity verification is required before publishing information changes, connecting a product feed, viewing insights or creating an eligible agent. It may require government-issued identification, business registration information and proof of authority. Review what the organization is prepared to submit, who is authorized to do so and how internal approval will be recorded before starting. Submission does not mean approval, and a failed or pending verification leaves dependent features unavailable."
+      ],
+      [
+        "Create one authoritative business-information sheet",
+        "Before editing the profile, assemble the exact legal or trading name, website, category, service area, contact details, description, logo, delivery terms, returns policy and current products or services. Reconcile these details with the website and official records. OpenAI's policy requires truthful, current information and prohibits misleading claims about prices, availability, qualifications or likely results. Use assets you own or have permission to use, and point every link to the page its label describes."
+      ],
+      [
+        "Understand what claiming changes\u2014and what it does not",
+        "A successful claim lets an approved representative manage supplied business information and, after the required verification, use available insights and eligible features. It does not guarantee increased visibility, a higher position, recommendations, website visits or sales. ChatGPT may mention a business that has no agent, and it may use sources beyond the information submitted in Business Hub. A saved update can also take time to appear after review. Continue maintaining clear public website pages instead of treating a claimed profile as a replacement for the website."
+      ],
+      [
+        "Read the insights with their definitions",
+        "Business Hub insights cover aggregate activity over the previous 28 days, including mentions, website clicks and discovery topics. For an online business, a recorded mention requires ChatGPT to reference the website; the brand name alone does not count. Discovery topics group themes in answers and do not reveal individual prompts or directly measure customer intent. A blank metric can reflect reporting thresholds, collection delay or unavailable reporting rather than zero activity. Keep these definitions beside any dashboard export."
+      ],
+      [
+        "Use tagged links for your own website measurement",
+        "Where Business Hub lets you control a website destination, use a relevant landing page and, if permitted, a consistent UTM-tagged URL. Compare Business Hub clicks with sessions and conversions in your own analytics, allowing for different definitions, privacy controls and reporting windows. Do not force the two systems to match exactly. Record the page, campaign tag, date range and desired action\u2014such as a newsletter confirmation or enquiry\u2014before interpreting traffic as a business result."
+      ],
+      [
+        "Connect a product feed only when operations can keep it current",
+        "Retailers may be able to provide product details, prices and availability through Shopify or a compatible feed. OpenAI also documents a CSV product-feed path. Before connecting one, map each product ID to a live landing page, current price, stock state, delivery terms and return information. OpenAI's commerce rules prohibit misrepresentation and various product categories. Connecting a feed neither publishes an agent nor guarantees a recommendation, so test data quality and operational ownership before measuring exposure."
+      ],
+      [
+        "Design a Business Agent around bounded customer questions",
+        "Eligible U.S. ecommerce and online-service businesses can currently create an agent after claim and verification approval. Define the questions it should answer, the approved product and policy sources, the links it may provide and the point at which it should direct a person to human support. Preview ordinary, ambiguous and adversarial questions before publishing. OpenAI's policy requires the agent to identify its business role, avoid invented prices or guarantees, respect a user's refusal and avoid collecting unnecessary high-risk personal information."
+      ],
+      [
+        "Keep transactions and sensitive actions on approved systems",
+        "OpenAI's current help page says a Business Agent can explain products and policies and link to the business website, but it cannot itself complete purchases, make bookings or check an order. Do not imply that the agent performs an action it cannot complete. Keep payment, authentication, account access and sensitive forms on appropriate business systems, describe the handoff clearly and collect only information required for the chosen action."
+      ],
+      [
+        "Set an accuracy and maintenance routine",
+        "Name an owner for monthly checks of contact details, service areas, pricing, availability, policies, landing pages and agent answers. Also review changes after a product launch, price update, closure, recall or policy revision. Save the submitted version and approval date, then test representative ChatGPT questions without assuming every answer will immediately use the new data. Correct the source information and follow the review process rather than trying to work around a rejected update."
+      ],
+      [
+        "Fictional example: an online training business",
+        "A fictional company called Northstar Learning sells online data courses through its website. Its authorized operations manager first aligns the legal name, course catalogue, refund terms and support details with the public site. The company verifies its domain, completes the required identity review and publishes accurate profile information. It does not advertise or launch an agent initially. For four weeks it records Business Hub mentions and clicks using the published definitions, then compares tagged website sessions and confirmed enquiries. It reports the results as an early observation, not proof that claiming caused higher discovery. This example is illustrative and does not claim that AIWorldNext or another named business completed the process."
+      ],
+      [
+        "Use a claim, prepare or wait decision",
+        "Proceed with a claim when the organization is eligible, the representative has written authority, the public website is accurate, verification material is approved internally and someone owns future updates. Prepare first when names, policies, product data or analytics goals conflict. Wait when the category is unsupported, authority is unclear, the business cannot complete required verification, the website contains outdated claims or the team expects guaranteed ranking or sales. Agent and advertising decisions should pass their own separate review after the profile is stable."
+      ],
+      [
+        "Limitations and source dates",
+        "This explainer is based on OpenAI's launch announcement, product page, help article and policies checked on 11 November 2026. The announcement and Businesses in ChatGPT and Business Agents policies are dated 10 November 2026; the commerce policy shows 29 September 2026. The product is in beta, eligibility and features can change, and this guide does not establish that a business qualifies. It is not legal, privacy, advertising, ecommerce or identity-verification advice. Recheck the live requirements and obtain suitable review before submitting sensitive documents, product data or regulated claims."
+      ]
+    ],
+    "worksheet": {
+      "title": "Businesses in ChatGPT readiness worksheet",
+      "intro": "Complete this for one business before starting a claim. Keep the profile, agent and advertising decisions separate.",
+      "columns": [
+        "Review area",
+        "Evidence to record",
+        "Ready condition"
+      ],
+      "rows": [
+        [
+          "Business identity",
+          "Legal and trading names, website, category, location and registration details.",
+          "Public information and official records agree."
+        ],
+        [
+          "Authority",
+          "Profile owner, written authorization and backup administrator.",
+          "The claimant is authorized to represent the business."
+        ],
+        [
+          "Eligibility",
+          "Location, business type, website and options shown in Business Hub.",
+          "The requested feature is currently offered to this business."
+        ],
+        [
+          "Claim method",
+          "Phone, email, domain TXT or Shopify method and account owner.",
+          "The organization controls the offered verification route."
+        ],
+        [
+          "Identity review",
+          "Approved submitter, required records, internal approval and secure handling plan.",
+          "The representative can complete the required review accurately."
+        ],
+        [
+          "Profile information",
+          "Description, contacts, service area, services, logo and website destinations.",
+          "Every submitted detail is current and supportable."
+        ],
+        [
+          "Policies",
+          "Delivery, returns, fees, conditions, privacy and customer-support routes.",
+          "Material terms are clear on the profile and website."
+        ],
+        [
+          "Product feed",
+          "Product IDs, prices, stock, URLs, images, refresh owner and excluded categories.",
+          "Feed data is current, permitted and operationally maintained."
+        ],
+        [
+          "Agent scope",
+          "Approved questions, sources, instructions, prohibited claims and human handoff.",
+          "Test answers stay within an accurate, bounded role."
+        ],
+        [
+          "User information",
+          "Contact fields, purpose, optionality, retention and sensitive-data exclusions.",
+          "Only necessary information is requested through approved paths."
+        ],
+        [
+          "Insights",
+          "28-day window, mention and click definitions, thresholds and export date.",
+          "Reports preserve OpenAI's metric definitions and limitations."
+        ],
+        [
+          "Website measurement",
+          "Landing pages, UTM convention, analytics event and conversion definition.",
+          "Website outcomes can be assessed without claiming exact attribution."
+        ],
+        [
+          "Maintenance",
+          "Named owner, review frequency, change triggers and correction process.",
+          "Business information and links will remain current."
+        ],
+        [
+          "Decision",
+          "Claim, prepare or wait rationale; separate agent and advertising decisions.",
+          "The next step follows documented eligibility and evidence."
+        ]
+      ]
+    },
+    "sources": [
+      {
+        "title": "OpenAI: Introducing Businesses in ChatGPT",
+        "url": "https://openai.com/index/introducing-businesses-chatgpt/"
+      },
+      {
+        "title": "OpenAI: Businesses in ChatGPT product overview",
+        "url": "https://openai.com/business/businesses-in-chatgpt/"
+      },
+      {
+        "title": "OpenAI Help Center: Setting up your business on ChatGPT",
+        "url": "https://help.openai.com/en/articles/20001635-setting-up-your-business-on-chatgpt"
+      },
+      {
+        "title": "OpenAI policy: Businesses in ChatGPT",
+        "url": "https://openai.com/policies/businesses-in-chatgpt/"
+      },
+      {
+        "title": "OpenAI policy: Business Agents",
+        "url": "https://openai.com/policies/business-agents-policy/"
+      },
+      {
+        "title": "OpenAI commerce policies",
+        "url": "https://openai.com/policies/commerce-policies/"
+      }
+    ]
   }
 ]

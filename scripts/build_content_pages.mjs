@@ -60,6 +60,7 @@ function guideWorksheet(g) {
  return `<section><h2>${esc(w.title)}</h2><p>${esc(w.intro)}</p><div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse;text-align:left"><thead><tr>${w.columns.map(c => `<th scope="col" style="padding:12px;border:1px solid #334155">${esc(c)}</th>`).join('')}</tr></thead><tbody>${w.rows.map(row => `<tr>${row.map((cell, i) => i === 0 ? `<th scope="row" style="padding:12px;border:1px solid #334155">${esc(cell)}</th>` : `<td style="padding:12px;border:1px solid #334155">${esc(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div></section>`;
 }
 const relatedGuideSlugs = {
+ 'businesses-in-chatgpt-explained': ['shared-ai-training-robots-txt-explained', 'aiworldnext-seo-case-study', 'ai-tool-privacy-checklist'],
  'verify-robot-demo-autonomy': ['compare-robot-supplier-quotes', 'plan-collaborative-robot-pilot', 'plan-humanoid-robot-demo'],
  'organise-ai-hackathon': ['accessible-ai-event-checklist', 'write-an-ai-conference-talk-proposal', 'evaluate-ai-coding-agent-repository-access'],
  'estimate-ai-api-cost': ['compare-ai-startup-cloud-credits', 'compare-ai-tools-with-one-task', 'compare-ai-startup-accelerators'],
