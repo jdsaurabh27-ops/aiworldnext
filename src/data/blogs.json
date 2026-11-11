@@ -1,6 +1,32 @@
 [
   {
     "id": 1,
+    "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-11-10",
+    "image": "https://huggingface.co/blog/assets/hub-gcp-marketplace/thumbnail.jpg",
+    "link": "https://huggingface.co/blog/hub-gcp-marketplace",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/hub-gcp-marketplace"
+  },
+  {
+    "id": 2,
+    "title": "Decision Models in Hugging Face",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-11-10",
+    "image": "https://huggingface.co/blog/assets/decision/thumbnail.png",
+    "link": "https://huggingface.co/blog/decision",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/decision"
+  },
+  {
+    "id": 3,
     "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-09",
@@ -13,7 +39,7 @@
     "imageSource": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan"
   },
   {
-    "id": 2,
+    "id": 4,
     "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-09",
@@ -26,7 +52,7 @@
     "imageSource": "https://huggingface.co/blog/amazon/higher-order-pruning-experts"
   },
   {
-    "id": 3,
+    "id": 5,
     "title": "ToyBlocks: A controlled world for robot learning and evaluation",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-06",
@@ -39,7 +65,7 @@
     "imageSource": "https://huggingface.co/blog/allenai/toyblocks"
   },
   {
-    "id": 4,
+    "id": 6,
     "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-06",
@@ -52,7 +78,7 @@
     "imageSource": "https://huggingface.co/blog/open-asr-leaderboard-liva"
   },
   {
-    "id": 5,
+    "id": 7,
     "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-05",
@@ -65,7 +91,7 @@
     "imageSource": "https://huggingface.co/blog/phonon-tts"
   },
   {
-    "id": 6,
+    "id": 8,
     "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-04",
@@ -78,7 +104,7 @@
     "imageSource": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor"
   },
   {
-    "id": 7,
+    "id": 9,
     "title": "Palette: teaching a small model to build decks in your design language",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-03",
@@ -91,7 +117,7 @@
     "imageSource": "https://huggingface.co/blog/ibm-research/palette-deck-building"
   },
   {
-    "id": 8,
+    "id": 10,
     "title": "CWE-bench v2: More coverage, quality, and transparency",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-03",
@@ -104,7 +130,7 @@
     "imageSource": "https://huggingface.co/blog/cwe-bench"
   },
   {
-    "id": 9,
+    "id": 11,
     "title": "Transformers Model Integration Contracts",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-03",
@@ -117,7 +143,7 @@
     "imageSource": "https://huggingface.co/blog/transformers-mic"
   },
   {
-    "id": 10,
+    "id": 12,
     "title": "Granite Switch 4.1.1 — Update models like you update software",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-29",
@@ -130,7 +156,7 @@
     "imageSource": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1"
   },
   {
-    "id": 11,
+    "id": 13,
     "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-29",
@@ -143,7 +169,7 @@
     "imageSource": "https://huggingface.co/blog/announcing-project-protostar"
   },
   {
-    "id": 12,
+    "id": 14,
     "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-29",
@@ -156,7 +182,7 @@
     "imageSource": "https://huggingface.co/blog/mistral-large4"
   },
   {
-    "id": 13,
+    "id": 15,
     "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-10-29",
@@ -167,31 +193,5 @@
     "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
     "imageKind": "source",
     "imageSource": "https://huggingface.co/blog/anydecisionmodel"
-  },
-  {
-    "id": 14,
-    "title": "Build specialized multimodal models with LFM3",
-    "description": "Read the original report from Hugging Face.",
-    "date": "2026-10-27",
-    "image": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/wEKXxH6qGa7vmHjn5KA-W.png",
-    "link": "https://huggingface.co/blog/LiquidAI/lfm3",
-    "category": "AI Tools & Research",
-    "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://huggingface.co/blog/LiquidAI/lfm3"
-  },
-  {
-    "id": 15,
-    "title": "Does Your Model Run on AWS Trainium? Look It Up",
-    "description": "Read the original report from Hugging Face.",
-    "date": "2026-10-23",
-    "image": "https://huggingface.co/blog/assets/torch-neuronx-model-support/thumbnail.jpg",
-    "link": "https://huggingface.co/blog/torch-neuronx-model-support",
-    "category": "AI Tools & Research",
-    "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://huggingface.co/blog/torch-neuronx-model-support"
   }
 ]
