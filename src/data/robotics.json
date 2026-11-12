@@ -1,6 +1,6 @@
 [
   {
-    "id": 4,
+    "id": 3,
     "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
     "description": "Vision AI and robotics pick what’s worth recovering out of conveyor belts of used clothing, bottles and mixed recyclables, diverting thousands of tons of materials from landfills.",
     "date": "2026-11-11",
@@ -11,29 +11,18 @@
     "imageSource": "https://blogs.nvidia.com/blog/ai-recycling-startups/"
   },
   {
-    "id": 3,
-    "title": "Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot",
-    "description": "Amazon-owned Ring is pushing into robotics with the launch of a home security drone and a rolling robot designed to patrol and protect businesses.",
-    "date": "2026-11-10",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/11/Ring-drone.jpg?resize=1200,1200",
-    "link": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/"
-  },
-  {
     "id": 1,
     "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
     "description": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
     "date": "2026-11-09",
-    "image": "https://lh3.googleusercontent.com/F1CrVEYRb8lJOyyxGgcyow-Td1de-nkp7K8MZrhjrKPANJUc0EYB754Ninn-Yrppjdb54nolOWo6Rk8iDaRNuixWwLaEKc0K9ImGooxen9fj9IOh=w1200-h630-n-nu-rw",
+    "image": "https://lh3.googleusercontent.com/F1CrVEYRb8lJOyyxGgcyow-Td1de-nkp7K8MZrhjrKPANJUc0EYB754Ninn-Yrppjdb54nolOWo6Rk8iDaRNuixWwLaEKc0K9ImGooxen9fj9IOh=w528-h297-n-nu-rw-lo",
     "link": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
     "category": "AI Research",
     "imageKind": "source",
     "imageSource": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
   },
   {
-    "id": 5,
+    "id": 4,
     "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
     "description": "Simulation, which has long been the proving ground for robots learning to walk, roll and hop, is now helping researchers teach robots tasks that require a finer touch: aligning gears, connecting cables and assembling small",
     "date": "2026-11-09",
@@ -44,7 +33,7 @@
     "imageSource": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/"
   },
   {
-    "id": 6,
+    "id": 5,
     "title": "Korea Advances Physical AI Across Industries With NVIDIA",
     "description": "Tapping into the country’s strengths in manufacturing and engineering, NVIDIA is helping advance Korea’s physical AI ecosystem. The country’s industry leaders are applying accelerated computing, AI and simulation to everything from semiconductor manufacturing to robotics",
     "date": "2026-11-09",
@@ -55,7 +44,7 @@
     "imageSource": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/"
   },
   {
-    "id": 7,
+    "id": 6,
     "title": "Can Agentic Robotics Solve Robotics’ Data-Scaling Problem?",
     "description": "Robotics companies are investing heavily in the belief that data will solve the most difficult problems in robotics. Once AI systems have ingested enough data from human demonstrations, the thinking goes, robots will be able",
     "date": "2026-11-09",
@@ -66,7 +55,7 @@
     "imageSource": "https://spectrum.ieee.org/agentic-robotics"
   },
   {
-    "id": 8,
+    "id": 7,
     "title": "Video Friday: Room-Scale Cable-Driven Home Robot Tidies Up",
     "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send",
     "date": "2026-11-06",
@@ -77,7 +66,7 @@
     "imageSource": "https://spectrum.ieee.org/video-friday-home-cable-robot"
   },
   {
-    "id": 9,
+    "id": 8,
     "title": "Are Drone Ports the Next Annoying Tech Neighbor?",
     "description": "Rick and Marcia LeCompte loved to watch the Cooper’s hawks that frequented a sweet-gum tree in their yard in Baton Rouge, La. But this October, the hawks were gone. Marcia LeCompte is convinced the birds",
     "date": "2026-11-04",
@@ -88,7 +77,7 @@
     "imageSource": "https://spectrum.ieee.org/drone-delivery-noise"
   },
   {
-    "id": 10,
+    "id": 9,
     "title": "Video Friday: Spot Plays to Show Its Whole-Body Manipulation",
     "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send",
     "date": "2026-10-30",
@@ -99,7 +88,7 @@
     "imageSource": "https://spectrum.ieee.org/video-friday-whole-body-manipulation"
   },
   {
-    "id": 11,
+    "id": 10,
     "title": "Your Robot’s Safety Functions Already Work. What If the Input Lies?",
     "description": "This article is brought to you by VicOne . A mobile robot slows for someone in a hallway. A collaborative arm eases its movement as a worker approaches. A humanoid pauses to let a person",
     "date": "2026-10-27",
@@ -110,7 +99,7 @@
     "imageSource": "https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone"
   },
   {
-    "id": 12,
+    "id": 11,
     "title": "Video Friday: Quadruped Robot Solves Giant Rubik’s Cube by Itself",
     "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send",
     "date": "2026-10-23",
@@ -121,7 +110,7 @@
     "imageSource": "https://spectrum.ieee.org/video-friday-rubiks-cube-robot"
   },
   {
-    "id": 13,
+    "id": 12,
     "title": "The Robot I Didn’t Expect to Build",
     "description": "Agility Robotics , the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5 . It’s designed to be the first humanoid robot that can safely",
     "date": "2026-10-19",
@@ -132,7 +121,7 @@
     "imageSource": "https://spectrum.ieee.org/agility-robotics-digit-5-redesign"
   },
   {
-    "id": 14,
+    "id": 13,
     "title": "Video Friday: When Two Robots Become One",
     "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send",
     "date": "2026-10-16",
@@ -154,7 +143,7 @@
     "imageSource": "https://deepmind.google/blog/gemini-4-argon-for-robotics/"
   },
   {
-    "id": 15,
+    "id": 14,
     "title": "Q&A: Mars Perseverance Rover Sets a Distance Record",
     "description": "On 11 October , the Perseverance rover completed a drive that brought its total distance traveled on Mars to 28.10 miles (45.22 kilometers). This is a new record for Mars rovers, enabled in large part",
     "date": "2026-10-13",
@@ -163,5 +152,16 @@
     "category": "Robotics",
     "imageKind": "source",
     "imageSource": "https://spectrum.ieee.org/mars-rover-distance-record"
+  },
+  {
+    "id": 15,
+    "title": "Video Friday: Robot Decommissioning Takes a Fun Turn",
+    "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send",
+    "date": "2026-10-09",
+    "image": "https://spectrum.ieee.org/media-library/image.jpg?id=68398684&width=1200&height=600&coordinates=0%2C52%2C0%2C53",
+    "link": "https://spectrum.ieee.org/video-friday-reachy-mini-raps",
+    "category": "Robotics",
+    "imageKind": "source",
+    "imageSource": "https://spectrum.ieee.org/video-friday-reachy-mini-raps"
   }
 ]
