@@ -3971,5 +3971,189 @@
         "url": "https://openai.com/policies/commerce-policies/"
       }
     ]
-  }
+  },
+{
+  "slug": "evaluate-ai-deep-research-tool",
+  "title": "How to evaluate an AI deep-research tool: sources, citations and evidence checklist",
+  "intro": "Compare AI research tools with one decision-focused task, inspect their source controls and verify whether every material claim is supported before relying on the report.",
+  "checkedAt": "12 November 2026",
+  "kind": "AI tool evaluation guide",
+  "sections": [
+    [
+      "Begin with a decision, not a broad topic",
+      "Write the decision the report should support, its audience, deadline and acceptable uncertainty. For example, ask for evidence to decide whether a small manufacturer should pilot computer vision for one inspection step, rather than asking for everything about computer vision. A bounded decision makes omissions visible and prevents a long report from being mistaken for a useful one."
+    ],
+    [
+      "Choose search or deep research deliberately",
+      "Use ordinary search or chat for a current fact, one document or a quick source list. Use a deep-research mode when the task requires several searches, comparison across sources and a documented synthesis. OpenAI and Microsoft describe their research modes as slower, multi-step options for complex questions; Google says a Gemini Deep Research report usually takes several minutes. Extra length and processing time do not prove that the result is correct."
+    ],
+    [
+      "Create one evaluation brief",
+      "Give each shortlisted tool the same non-sensitive brief. State the decision, geography, date range, required sections, excluded topics and evidence standard. Ask it to distinguish verified facts, vendor claims, estimates and unresolved questions. Define the output before seeing a polished answer so presentation quality does not quietly replace evidence quality."
+    ],
+    [
+      "Set the source boundary before the run",
+      "Record whether the task may use the open web, named domains, uploaded files or connected services. ChatGPT can restrict research to specified sites or prioritise them while still searching the broader web. Gemini includes Google Search by default but lets a user deselect it and add selected sources. A fair comparison must preserve the source boundary used for each run."
+    ],
+    [
+      "Review the proposed research plan",
+      "When a product shows a plan, check it before starting. ChatGPT and Gemini both document a reviewable research plan. Look for the central question, subquestions, source types, comparison criteria and likely gaps. Add a request to seek contrary evidence and primary sources. A plan that only confirms the initial assumption is not ready."
+    ],
+    [
+      "Check connector scope and permissions",
+      "Connected research can reach material that public web search cannot, but only within the account and workspace permissions described by the provider. Microsoft says Researcher can use files, email, meetings and chats that the user can access. OpenAI says app connections do not override provider permissions and its research process uses available read actions. Claude says connected tools are used on web and desktop, while research started on mobile searches only the web. Test the exact client and account you intend to use."
+    ],
+    [
+      "Use a low-risk evidence pack",
+      "For the first evaluation, use public documents or a small approved set of non-confidential files. Include one recent official page, one older superseded page, one document with a clear limitation and one source that disagrees with another. This reveals whether the tool notices dates, version conflicts and caveats without exposing customer, employee or commercial information."
+    ],
+    [
+      "Inspect the source list before reading the prose",
+      "Open every source used for a material conclusion. Confirm the publisher, title, publication or update date, geographical scope and whether the page is the original source. Separate primary documentation from commentary, search snippets and syndicated copies. A large source count is not a quality score; several links can repeat the same unsupported claim."
+    ],
+    [
+      "Map claims to citations",
+      "Select every number, date, quotation, legal requirement, product capability and recommendation that would change the decision. Open the attached citation and check that the source supports that exact claim in context. NIST warns that generative systems can produce erroneous content and even misleading logic or citations. A citation beside a paragraph is not enough when it supports only one sentence."
+    ],
+    [
+      "Check coverage, not only correctness",
+      "A citation can be genuine while the report is incomplete. Ask which important claims have no source, which relevant stakeholders or regions are missing, and whether contradictory evidence was addressed. NIST research on machine-generated reports highlights completeness and the link between claims and source documents as separate evaluation needs. Record both unsupported claims and missing evidence."
+    ],
+    [
+      "Verify calculations, quotations and current status",
+      "Recalculate percentages and unit conversions from the cited inputs. Search the source for each quotation and preserve its surrounding qualification. Recheck prices, plan availability, job openings, regulations and product access on the current official page. Do not use an AI-generated bibliography as proof that a paper or page exists."
+    ],
+    [
+      "Measure correction work and reproducibility",
+      "Save the prompt, research date, selected sources, client, plan or model shown by the product, output and your corrections. Count material unsupported claims, broken citations, missed constraints and minutes of human review. Repeat the same brief once if consistency matters. Compare the reviewed result and total correction effort, rather than the first draft alone."
+    ],
+    [
+      "Compare limits, cost and export needs",
+      "Record the usage allowance shown in the product, run time, plan requirement, connector availability and export format. Vendor documentation shows that access and limits vary by plan, region, workspace, client and administrator settings. Estimate the cost per accepted report, including review time. Confirm that the exported report retains usable citations before choosing a workflow."
+    ],
+    [
+      "Fictional example: a training provider shortlist",
+      "A fictional training company called Cedar Skills is considering a learning-management system. It gives two research tools the same public-source brief, limits the geography to the United Kingdom and asks for an evidence table covering accessibility, data export and contract terms. One report is shorter but all six material claims map to current primary sources. The other is more polished but cites an old pricing page and leaves three claims unsupported. Cedar Skills chooses the first report for further human review because it requires less correction; this example is illustrative and does not claim that AIWorldNext tested named products."
+    ],
+    [
+      "Use adopt, restrict or reject criteria",
+      "Adopt the workflow for this task only when the source boundary is clear, citations support material claims, important counterevidence appears and a named person can review the result. Restrict it to lower-risk discovery when it finds useful sources but synthesis needs heavy correction. Reject the workflow for the decision when it exposes inappropriate data, invents citations, repeatedly misses mandatory constraints or cannot preserve an auditable source trail."
+    ],
+    [
+      "Limitations and source dates",
+      "This guide compares documented evaluation factors, not the quality of reports produced in firsthand testing. Product documentation was checked on 12 November 2026. OpenAI, Google, Microsoft and Anthropic can change models, interfaces, plan access, connectors and limits. NIST's Generative AI Profile was published on 26 July 2024 and is voluntary risk-management guidance. This article is not legal, procurement, privacy or professional research advice; consequential decisions need qualified human review and current primary evidence."
+    ]
+  ],
+  "worksheet": {
+    "title": "AI deep-research evaluation worksheet",
+    "intro": "Complete one copy for each tool using the same bounded, non-sensitive task. Attach the report and correction notes.",
+    "columns": [
+      "Review area",
+      "Evidence to record",
+      "Ready condition"
+    ],
+    "rows": [
+      [
+        "Decision",
+        "Audience, decision, deadline and acceptable uncertainty.",
+        "The report has one clear use and owner."
+      ],
+      [
+        "Evaluation brief",
+        "Prompt, required sections, geography, date range and exclusions.",
+        "Every tool receives the same material constraints."
+      ],
+      [
+        "Source boundary",
+        "Open web, named sites, uploaded files and connected services enabled.",
+        "Researchers can explain exactly what the run could access."
+      ],
+      [
+        "Permissions",
+        "Account, workspace, client, connector owner and approved data class.",
+        "Access follows organizational permission and data rules."
+      ],
+      [
+        "Research plan",
+        "Subquestions, source types, comparison criteria and contrary-evidence step.",
+        "The plan can answer the decision without confirmation bias."
+      ],
+      [
+        "Source identity",
+        "Publisher, original URL, date, jurisdiction and document version.",
+        "Material sources are authentic, current and in scope."
+      ],
+      [
+        "Claim support",
+        "Claim-to-citation sample for numbers, dates, quotes and key conclusions.",
+        "Each sampled citation supports the complete claim in context."
+      ],
+      [
+        "Coverage",
+        "Missing perspectives, unsupported claims and unresolved disagreements.",
+        "Important gaps are disclosed rather than hidden by fluent prose."
+      ],
+      [
+        "Calculations",
+        "Inputs, formulas, units and recalculated results.",
+        "Decision-relevant numbers can be reproduced."
+      ],
+      [
+        "Current status",
+        "Live checks for price, availability, rules and product access.",
+        "Time-sensitive claims match the current official source."
+      ],
+      [
+        "Corrections",
+        "Material errors, broken links, missed constraints and review minutes.",
+        "Correction work is acceptable for the risk and value of the task."
+      ],
+      [
+        "Reproducibility",
+        "Date, prompt, source settings, displayed model or mode and saved output.",
+        "Another reviewer can understand how the report was produced."
+      ],
+      [
+        "Operational fit",
+        "Run time, allowance, plan, export format and cost per accepted report.",
+        "The complete reviewed workflow fits the team, budget and deadline."
+      ],
+      [
+        "Decision",
+        "Adopt, restrict or reject; owner, approved use and next review date.",
+        "The decision is limited to the evaluated task and evidence."
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "title": "OpenAI Help Center: Deep research in ChatGPT",
+      "url": "https://help.openai.com/en/articles/10500283-deep-research-in-chatgpt"
+    },
+    {
+      "title": "Google Gemini Apps Help: Use Deep Research",
+      "url": "https://support.google.com/gemini/answer/15719111?hl=en"
+    },
+    {
+      "title": "Microsoft Support: Get started with Researcher in Microsoft Copilot",
+      "url": "https://support.microsoft.com/en-us/microsoft-365-copilot/get-started-with-researcher-in-microsoft-365-copilot"
+    },
+    {
+      "title": "Claude Help Center: Use research on Claude",
+      "url": "https://support.claude.com/en/articles/11088861-use-research-on-claude"
+    },
+    {
+      "title": "Claude Help Center: Enable and use web search",
+      "url": "https://support.claude.com/en/articles/10684626-enable-and-use-web-search"
+    },
+    {
+      "title": "NIST: Artificial Intelligence Risk Management Framework—Generative AI Profile",
+      "url": "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence"
+    },
+    {
+      "title": "NIST: On the Evaluation of Machine-Generated Reports",
+      "url": "https://www.nist.gov/publications/evaluation-machine-generated-reports"
+    }
+  ]
+}
 ]
