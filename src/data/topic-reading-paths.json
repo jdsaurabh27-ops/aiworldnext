@@ -1,0 +1,65 @@
+{
+  "news": {
+    "title": "Understand generative AI and AI agent announcements",
+    "intro": "Follow model releases and AI agent news with a practical evidence check: what is available, what access is required and which claims still need verification.",
+    "guides": [
+      "verify-ai-news",
+      "businesses-in-chatgpt-explained",
+      "shared-ai-training-robots-txt-explained"
+    ]
+  },
+  "jobs": {
+    "title": "Plan your AI career: skills, interviews and offers",
+    "intro": "Use these guides alongside machine learning, data science and AI engineering listings. For remote or international roles, confirm permitted work location and eligibility directly with the employer.",
+    "guides": [
+      "build-ai-career-skills-gap-plan",
+      "prepare-ai-job-interview",
+      "evaluate-ai-job-offer"
+    ]
+  },
+  "podcasts": {
+    "title": "Learn from AI podcasts or create your own",
+    "intro": "Choose a listening goal, prepare accessible transcripts and measure podcast performance without confusing downloads with completed listening.",
+    "guides": [
+      "learn-from-ai-podcasts",
+      "accessible-ai-podcast-transcript-show-notes",
+      "measure-ai-podcast-performance"
+    ]
+  },
+  "startups": {
+    "title": "Evaluate AI startup products, funding programmes and costs",
+    "intro": "Move from a product pitch to practical questions about customer value, accelerator terms and the cost of running an AI feature.",
+    "guides": [
+      "evaluate-an-ai-startup",
+      "compare-ai-startup-accelerators",
+      "estimate-ai-api-cost"
+    ]
+  },
+  "events": {
+    "title": "Prepare for AI conferences, workshops and hackathons",
+    "intro": "Use the organiser listings to confirm dates and attendance. These original guides help speakers and organisers prepare proposals, accessible sessions and clear hackathon rules.",
+    "guides": [
+      "write-an-ai-conference-talk-proposal",
+      "accessible-ai-event-checklist",
+      "organise-ai-hackathon"
+    ]
+  },
+  "robotics": {
+    "title": "Compare robot demos, pilot projects and supplier quotes",
+    "intro": "Explore humanoid robots, robot dogs and automation with evidence in view. Check operator involvement, the intended application and supplier responsibilities before a purchase decision.",
+    "guides": [
+      "verify-robot-demo-autonomy",
+      "plan-collaborative-robot-pilot",
+      "compare-robot-supplier-quotes"
+    ]
+  },
+  "tools": {
+    "title": "Evaluate AI agents, research tools and meeting assistants",
+    "intro": "Compare a tool on a real task before connecting repositories, uploading documents or recording meetings. Check access, source quality, privacy and human review requirements.",
+    "guides": [
+      "evaluate-ai-coding-agent-repository-access",
+      "evaluate-ai-deep-research-tool",
+      "evaluate-ai-meeting-assistant"
+    ]
+  }
+}

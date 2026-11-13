@@ -10,7 +10,7 @@
   "/jobs/": {
     "keyword": "AI jobs",
     "title": "AI Jobs: Machine Learning, Data Science & Engineering",
-    "description": "Browse AI jobs in machine learning, data science and engineering. Check employer requirements, location and application details at the original listing.",
+    "description": "Explore machine learning, data science and AI engineering jobs, plus practical guides to skills, interviews and job offers. Check location eligibility at source.",
     "intro": "Explore artificial intelligence jobs by role and the problem you want to work on. Machine learning engineering, data science, research and robotics roles can require different skills. Check the original employer listing for responsibilities, location, work authorisation and whether applications remain open. These are linked opportunities, not recruitment services or guaranteed placements.",
     "relatedUrl": "/guides/ai-job-application-checklist/",
     "relatedLabel": "Prepare an AI job application"
@@ -18,7 +18,7 @@
   "/tools/": {
     "keyword": "AI tools",
     "title": "AI Tools Directory: Writing, Voice, Video & Productivity",
-    "description": "Explore AI tools for writing, voice, video and productivity. Browse source-linked listings and use practical checklists to compare tools for your task.",
+    "description": "Explore AI agents, research, writing, voice and productivity tools. Compare source-linked products with practical privacy, accuracy and workflow checklists.",
     "intro": "Choose AI tools around a task you actually need to complete: writing a draft, creating narration, preparing visuals or organising work. Use this directory to shortlist products, then compare the same sample input in each. Confirm current plan limits and export permissions at the provider. Listings are discovery starting points, not independent product rankings.",
     "relatedUrl": "/guides/compare-ai-tools-with-one-task/",
     "relatedLabel": "Compare AI tools with the same task"
@@ -26,7 +26,7 @@
   "/events/": {
     "keyword": "AI conferences and events",
     "title": "AI Conferences & Events: Explore Upcoming Listings",
-    "description": "Explore AI conferences and events from linked sources. Verify dates, location, programme and registration directly with the organiser before booking.",
+    "description": "Explore AI conferences and events. Find guides for talk proposals, accessible sessions and hackathons; confirm dates and registration with organisers.",
     "intro": "Find artificial intelligence conferences and events that fit your learning or professional goal. Before registering, review the programme, intended audience, dates, location and attendance format on the organiser’s website. A listing is not a booking confirmation or an endorsement. Check travel and cancellation arrangements separately if you plan to attend in person.",
     "relatedUrl": "/community/",
     "relatedLabel": "Explore AI communities"
@@ -42,7 +42,7 @@
   "/podcasts/": {
     "keyword": "AI podcasts",
     "title": "AI Podcasts: Research, Technology & Industry Conversations",
-    "description": "Explore AI podcasts and linked episodes covering research, technology and industry discussions. Visit the publisher for the full episode and show notes.",
+    "description": "Discover AI podcasts and learn how to plan episodes, create accessible transcripts and measure performance with original guides and publisher links.",
     "intro": "Explore artificial intelligence podcasts for longer conversations about research, products and the people building them. Follow the publisher link for complete episodes, guests and show notes. Check the episode date when listening to claims about models or product availability. A guest’s opinion or prediction should be distinguished from a verified result.",
     "relatedUrl": "/guides/verify-ai-news/",
     "relatedLabel": "Check claims heard in an AI discussion"
@@ -78,7 +78,7 @@
   "/startups/": {
     "keyword": "AI Startups Directory",
     "title": "AI Startups Directory: Products, Use Cases & Research",
-    "description": "Explore AI startups through official sources. Compare use cases, product access and evidence with a practical startup evaluation guide.",
+    "description": "Explore AI startup products and official sources. Use practical guides to evaluate use cases, compare accelerators and estimate AI API costs.",
     "intro": "Start with the problem a startup aims to solve. Check whether its product is available, who it is designed for and what evidence supports its claims. Use the official links below to explore products; this directory is not a funding ranking or investment recommendation.",
     "relatedUrl": "/guides/evaluate-an-ai-startup/",
     "relatedLabel": "Evaluate an AI startup product"
@@ -102,7 +102,7 @@
   "/robotics/": {
     "keyword": "AI Robotics",
     "title": "AI Robotics: Companies, Platforms & Learning Resources",
-    "description": "Explore AI robotics organisations and platforms. Find official sources, robot buying checklists and practical demonstration planning guides.",
+    "description": "Explore AI robotics platforms, humanoids and robot dogs. Use practical guides to verify demos, plan pilots and compare supplier quotes.",
     "intro": "Explore robotics by application: education, research, automation or supervised demonstrations. Follow official sources for capabilities and limitations. For hardware purchases, confirm the exact edition, operator requirements, delivered cost and local support.",
     "relatedUrl": "/guides/buy-your-first-robot/",
     "relatedLabel": "Use the robot buying checklist"
