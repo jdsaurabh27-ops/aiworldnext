@@ -13,7 +13,7 @@
     "imageSource": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
   },
   {
-    "id": 62,
+    "id": 63,
     "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-12",
@@ -26,7 +26,7 @@
     "imageSource": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"
   },
   {
-    "id": 63,
+    "id": 64,
     "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-12",
@@ -43,7 +43,7 @@
     "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
     "description": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
     "date": "2026-11-11",
-    "image": "https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w1200-h630-n-nu-rw",
+    "image": "https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w528-h297-n-nu-rw-lo",
     "link": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
     "category": "AI Research",
     "author": "Google DeepMind",
@@ -52,7 +52,7 @@
     "imageSource": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
   },
   {
-    "id": 64,
+    "id": 65,
     "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-11",
@@ -65,7 +65,7 @@
     "imageSource": "https://huggingface.co/blog/qvac/botpsy"
   },
   {
-    "id": 65,
+    "id": 66,
     "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-11",
@@ -95,7 +95,7 @@
     "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
     "description": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
     "date": "2026-11-10",
-    "image": "https://lh3.googleusercontent.com/hn6AiI6lYFo6chi1mL6uJ9nOW9UXfsAKnSyOApiie2urHNU2tmSPUmGn0hNfWyYLRcsWCGjCIrBZSCt1ihZmvW-LDJPfyolsr5w-yvzlknZVzmaH=w528-h297-n-nu-rw-lo",
+    "image": "https://lh3.googleusercontent.com/hn6AiI6lYFo6chi1mL6uJ9nOW9UXfsAKnSyOApiie2urHNU2tmSPUmGn0hNfWyYLRcsWCGjCIrBZSCt1ihZmvW-LDJPfyolsr5w-yvzlknZVzmaH=w1200-h630-n-nu-rw",
     "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
     "category": "AI Research",
     "author": "Google DeepMind",
@@ -104,7 +104,20 @@
     "imageSource": "https://deepmind.google/blog/introducing-alphaproof-code/"
   },
   {
-    "id": 66,
+    "id": 5,
+    "title": "Opening the datasets behind our AI weather models",
+    "description": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
+    "date": "2026-11-10",
+    "image": "https://lh3.googleusercontent.com/ggsqfaBnOayx-i7z9Kj8AeZruz8BSo0N7tsnqwH8Z3REnHcDKBt-QSA3DR4UUM8lcwklWihSARoEN2AyQFhoRFGFlk2-0-xGuKt_rtGoFwpJg8LHVQ=w1200-h630-n-nu-rw",
+    "link": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+    "category": "AI Research",
+    "author": "Google DeepMind",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/"
+  },
+  {
+    "id": 67,
     "title": "Pay for Hugging Face Hub with your Google Cloud Account",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-10",
@@ -117,7 +130,7 @@
     "imageSource": "https://huggingface.co/blog/hub-gcp-marketplace"
   },
   {
-    "id": 67,
+    "id": 68,
     "title": "Decision Models in Hugging Face",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-10",
@@ -130,11 +143,11 @@
     "imageSource": "https://huggingface.co/blog/decision"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
     "description": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
     "date": "2026-11-09",
-    "image": "https://lh3.googleusercontent.com/F1CrVEYRb8lJOyyxGgcyow-Td1de-nkp7K8MZrhjrKPANJUc0EYB754Ninn-Yrppjdb54nolOWo6Rk8iDaRNuixWwLaEKc0K9ImGooxen9fj9IOh=w528-h297-n-nu-rw-lo",
+    "image": "https://lh3.googleusercontent.com/F1CrVEYRb8lJOyyxGgcyow-Td1de-nkp7K8MZrhjrKPANJUc0EYB754Ninn-Yrppjdb54nolOWo6Rk8iDaRNuixWwLaEKc0K9ImGooxen9fj9IOh=w1200-h630-n-nu-rw",
     "link": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
     "category": "AI Research",
     "author": "Google DeepMind",
@@ -143,7 +156,7 @@
     "imageSource": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
   },
   {
-    "id": 68,
+    "id": 69,
     "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-09",
@@ -156,7 +169,7 @@
     "imageSource": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan"
   },
   {
-    "id": 69,
+    "id": 70,
     "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-09",
@@ -169,7 +182,7 @@
     "imageSource": "https://huggingface.co/blog/amazon/higher-order-pruning-experts"
   },
   {
-    "id": 70,
+    "id": 71,
     "title": "ToyBlocks: A controlled world for robot learning and evaluation",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-06",
@@ -180,18 +193,5 @@
     "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
     "imageKind": "source",
     "imageSource": "https://huggingface.co/blog/allenai/toyblocks"
-  },
-  {
-    "id": 71,
-    "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
-    "description": "Read the original report from Hugging Face.",
-    "date": "2026-11-06",
-    "image": "https://huggingface.co/blog/assets/open-asr-leaderboard-liva/thumbnail.png",
-    "link": "https://huggingface.co/blog/open-asr-leaderboard-liva",
-    "category": "AI Tools & Research",
-    "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://huggingface.co/blog/open-asr-leaderboard-liva"
   }
 ]

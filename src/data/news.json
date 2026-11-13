@@ -1,5 +1,38 @@
 [
   {
+    "id": 184,
+    "title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
+    "description": "Given Nvidia’s stronghold on AI and its importance in Israel, many in the country's startup ecosystem are worried about the impact of his departure.",
+    "date": "2026-11-13",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2303769281.jpg?resize=1200,800",
+    "link": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+    "category": "AI Industry",
+    "imageKind": "source",
+    "imageSource": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/"
+  },
+  {
+    "id": 198,
+    "title": "Silicon Valley claims to know the future. So why did it get the midterms so wrong?",
+    "description": "The self-styled visionaries of Silicon Valley, leaders like OpenAI chief executive Sam Altman and SpaceX boss Elon Musk, have built careers claiming to see the future. Long-term vision is currency: Meta’s Mark Zuckerberg built a",
+    "date": "2026-11-13",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/GettyImages-2297757667.jpg?resize=1200,600",
+    "link": "https://www.technologyreview.com/2026/11/13/1148498/silicon-valley-claims-to-know-the-future-so-why-did-it-get-the-midterms-so-wrong/",
+    "category": "AI Research",
+    "imageKind": "source",
+    "imageSource": "https://www.technologyreview.com/2026/11/13/1148498/silicon-valley-claims-to-know-the-future-so-why-did-it-get-the-midterms-so-wrong/"
+  },
+  {
+    "id": 202,
+    "title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
+    "description": "From pediatric research to smart hospitals, AI is helping care teams spend less time on routine tasks and more time with patients. Health systems and startups are putting it to work across healthcare, from matching",
+    "date": "2026-11-13",
+    "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/Screenshot-2026-11-12-at-9.25.28-AM-scaled.png",
+    "link": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/",
+    "category": "AI Hardware",
+    "imageKind": "source",
+    "imageSource": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/"
+  },
+  {
     "id": 1,
     "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
     "description": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
@@ -40,7 +73,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 184,
+    "id": 185,
     "title": "Muse can now place calls to US businesses — if you pay",
     "description": "Muse's AI can now place outbound calls to U.S. businesses — but it's not free.",
     "date": "2026-11-12",
@@ -51,7 +84,7 @@
     "imageSource": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/"
   },
   {
-    "id": 185,
+    "id": 186,
     "title": "The unfolding Jensen Huang scandal: a timeline",
     "description": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
     "date": "2026-11-12",
@@ -62,7 +95,7 @@
     "imageSource": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
   },
   {
-    "id": 186,
+    "id": 187,
     "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
     "description": "Nebius plans to fund its $40 billion AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data center raise questions about its financing model.",
     "date": "2026-11-12",
@@ -73,7 +106,7 @@
     "imageSource": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/"
   },
   {
-    "id": 187,
+    "id": 188,
     "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
     "description": "Powered by Gemini 4 Hydrogen, Google's AI Mode is getting better at understanding complex queries, surfacing relevant links, and delivering richer visual responses.",
     "date": "2026-11-12",
@@ -84,7 +117,7 @@
     "imageSource": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/"
   },
   {
-    "id": 188,
+    "id": 189,
     "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
     "description": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
     "date": "2026-11-12",
@@ -95,7 +128,7 @@
     "imageSource": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/"
   },
   {
-    "id": 189,
+    "id": 190,
     "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
     "description": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadership transition.",
     "date": "2026-11-12",
@@ -106,7 +139,7 @@
     "imageSource": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/"
   },
   {
-    "id": 190,
+    "id": 191,
     "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
     "description": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition.",
     "date": "2026-11-12",
@@ -117,7 +150,7 @@
     "imageSource": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/"
   },
   {
-    "id": 191,
+    "id": 192,
     "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
     "description": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
     "date": "2026-11-12",
@@ -126,38 +159,5 @@
     "category": "AI Industry",
     "imageKind": "source",
     "imageSource": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/"
-  },
-  {
-    "id": 192,
-    "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
-    "description": "SoftBank lost over $3 billion preordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
-    "date": "2026-11-12",
-    "image": "https://techcrunch.com/wp-content/uploads/2022/08/GettyImages-1294103185.jpg?resize=1200,799",
-    "link": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/"
-  },
-  {
-    "id": 193,
-    "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
-    "description": "Rather than giving consumers yet another photo-editing tool, Phota Labs aims to use advances in AI to automate the editing process so it’s easier for anyone to turn everyday moments into better photos.",
-    "date": "2026-11-12",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/11/04_Holiday_Lights_before_after.jpg?resize=1200,867",
-    "link": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/"
-  },
-  {
-    "id": 194,
-    "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
-    "description": "Nvidia's ousted CEO Jensen Huang's downfall isn’t just your run-of-the-mill salacious billionaire sex scandal. He was using his influence to push the AI industry in some very specific ways.",
-    "date": "2026-11-12",
-    "image": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2192223928.jpg?resize=1200,801",
-    "link": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
-    "category": "AI Industry",
-    "imageKind": "source",
-    "imageSource": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/"
   }
 ]

@@ -3,15 +3,15 @@
     "id": 1,
     "title": "Latent Space: The AI Engineer Podcast",
     "host": "Latent Space",
-    "description": "Latest episode: [AINews] D-Day (Decision Models Day). November 11, 2026 — Google enters the decision model market. At AI Engineer, Cloudflare showed which parts of a build failure a classifier could handle. TypeSafe AI showed off their production customers.",
-    "link": "https://latent.space/p/ainews-d-day-decision-models-day/",
+    "description": "Latest episode: [AINews] Jensen Huang resigns after 33 years leading NVIDIA. November 12, 2026 — Colette Kress takes over as interim CEO. What happens to open source/American AI leadership?",
+    "link": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
     "category": "AI Engineering",
     "image": "https://latent.space/og/8d6b08062d5b3b44031a253344d428b4ab10c8ec040b2306dccc3394a7e64ba3.jpg",
     "sourceUrl": "https://www.latent.space/podcast",
     "checkedAt": "2026-11-13",
     "imageKind": "source",
     "imageSource": "https://www.latent.space/podcast",
-    "latestEpisode": "[AINews] D-Day (Decision Models Day)"
+    "latestEpisode": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA"
   },
   {
     "id": 2,
