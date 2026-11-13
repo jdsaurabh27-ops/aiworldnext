@@ -4155,5 +4155,193 @@
       "url": "https://www.nist.gov/publications/evaluation-machine-generated-reports"
     }
   ]
+},
+{
+ "slug": "evaluate-ai-job-offer",
+ "title": "How to evaluate an AI job offer: role scope, written terms and scam checks",
+ "intro": "Verify the employer, translate an AI title into real work, compare the complete offer and record the terms you need before accepting, declining or asking for clarification.",
+ "checkedAt": "13 November 2026",
+ "kind": "AI jobs and careers decision guide",
+ "sections": [
+  [
+   "Start with the decision, not the excitement",
+   "Create one record for the offer before comparing it with another role or your current work. Save the employer legal name, job title, work location, employment type, compensation, proposed start date, decision deadline, recruiter and hiring manager. Mark every item as confirmed in writing, stated verbally or still unknown. A recognizable brand, urgent deadline or impressive AI title should not replace this baseline."
+  ],
+  [
+   "Verify the employer through an independent route",
+   "Open the employer website yourself, find its careers or contact page and confirm that the organization, role and recruiter are connected. Check that the sender uses the expected company domain, then contact the company through a phone number or address you found independently if anything conflicts. The U.S. Federal Trade Commission warns that fake recruiters can impersonate known employers, rush candidates through an offer and use convincing letters or interviews. Do not rely only on links, phone numbers or documents supplied by the recruiter."
+  ],
+  [
+   "Stop if the process asks you to pay or move money",
+   "Do not pay a registration, training, equipment, software, verification or security fee to get a job. Do not deposit a check and send part of the money elsewhere, buy gift cards, transfer cryptocurrency or route packages or payments through your account. India’s National Career Service says its services are free and identifies direct joining without an interview, unusually high pay for easy tasks, personal-email recruitment and registration fees as warning signs. Genuine hiring costs and equipment arrangements should be explained through verified employer channels."
+  ],
+  [
+   "Confirm the role exists and the process makes sense",
+   "Match the offer to an official vacancy, requisition number or written confirmation from the employer. Record the interview stages, people met, questions discussed and any checks still outstanding. An immediate offer after only text messages, a request for bank details before a genuine interview, pressure to keep the process secret or a role that cannot be confirmed independently are reasons to pause. A vacancy disappearing from a careers page is not proof of fraud by itself, so ask the verified employer for clarification."
+  ],
+  [
+   "Translate the AI title into actual tasks",
+   "Ask for the three to five outcomes the person will own, the proportion of time spent on each and how success will be measured. O*NET describes data-science work as analysing data, creating visualizations, validating models and presenting results. Its computer-and-information research profile instead emphasizes fundamental research, theoretical innovation and new hardware or software solutions. Use those task patterns as prompts, not as a universal job definition: two employers can use the same title for materially different work."
+  ],
+  [
+   "Ask what happens in the first 90 days",
+   "Request a realistic first-month and first-quarter plan: the problem to understand, data or systems to access, first deliverable, reviewer and decision the work will support. Ask whether the role maintains an existing model, builds a new product, evaluates vendors, creates internal automation, conducts research or mainly supports analytics. A clear answer makes the offer comparable; a vague answer may mean the scope is still being formed rather than that the role is automatically unsuitable."
+  ],
+  [
+   "Check the team, manager and operating environment",
+   "Confirm who sets priorities, who reviews technical work, the team’s current skills and where product, data, security and legal decisions sit. Ask what data is available, what quality or access limits exist, which models and infrastructure are approved, how experiments reach production and who handles incidents. For a new AI function, also ask what budget, executive sponsor and non-AI alternatives have been considered. Record answers as current statements, not promises of future resources."
+  ],
+  [
+   "Clarify employee, contractor and employer-of-record status",
+   "Write down the contracting entity, employment status, payroll country and which organization directs the work. Remote work does not by itself make a person an independent contractor; the U.S. Department of Labor explicitly identifies that assumption as a myth, while the applicable legal test varies by jurisdiction. For cross-border roles, ask who handles work authorization, payroll, social contributions, tax documents and local benefits. Obtain qualified local advice when the classification or country arrangement is unclear."
+  ],
+  [
+   "Get the material offer terms in writing",
+   "Request a written offer or contract that identifies the employer, role or task description, location, start date, contract duration, pay, payment frequency, normal hours, overtime or on-call expectations, leave, probation, notice and conditions such as references or right-to-work checks. Acas notes that clear terms can have legal effect even when agreed verbally, and the European Union’s Your Europe guidance lists written working-condition information including the parties, workplace, role, start date, remuneration and schedule. Exact rights and timing differ by country, so check the rules that apply to you before resigning or relocating."
+  ],
+  [
+   "Compare compensation as a complete package",
+   "Separate guaranteed base pay from target bonus, commission, allowances, benefits and any equity. For a bonus, ask for the formula, target, payout timing, eligibility and whether it is discretionary. For equity, ask what instrument is offered, how many units or shares, the vesting schedule, cliff, exercise or purchase price, expiry or post-employment exercise window, and what document governs it. Treat uncertain bonus and private-company equity separately from cash, and obtain financial or tax advice for a material decision."
+  ],
+  [
+   "Define the real remote or hybrid arrangement",
+   "Confirm the permitted country or region, expected office days, working-time overlap, travel, on-call work, equipment, internet or coworking support and whether the arrangement can be changed. Ask where company data may be accessed, which devices and AI tools are permitted, and what happens if you move. “Remote” in a vacancy can still mean remote only within a named country or time zone; record the written boundary that applies to this offer."
+  ],
+  [
+   "Read the clauses around information and future work",
+   "Review confidentiality, intellectual-property assignment, outside-work, non-solicitation, non-compete, monitoring, acceptable-use and AI-tool policies. Check whether the language reaches personal projects, open-source work or inventions created outside work. Do not upload the offer, employer data or material from a previous employer to an AI service unless you are authorized and the service is approved. Seek independent legal advice for clauses you do not understand or that could materially restrict future work."
+  ],
+  [
+   "Use a fictional comparison to expose unknowns",
+   "Suppose a fictional candidate receives an “AI Scientist” offer. The verified employer confirms that 70 percent of the role is model evaluation on an existing product, 20 percent is data-quality analysis and 10 percent is research. The written offer names the employing entity, employee status, base pay, bonus conditions, hybrid location and background-check condition, but the equity details and on-call expectations are missing. The candidate asks for those two items in writing and evaluates the confirmed package rather than assuming the title means unrestricted research. This example is illustrative and is not a real offer or recommendation."
+  ],
+  [
+   "Choose accept, clarify or decline",
+   "Accept only when the employer is verified, the role and manager are understood, material terms are recorded, open conditions are manageable and the complete package fits your goals and constraints. Clarify when the opportunity appears legitimate but one or more decision-critical items remain unknown; send a short numbered list and ask for a written response. Decline or stop when identity cannot be verified, payment or money movement is requested, pressure prevents reasonable review, the written terms materially contradict the process or the risk exceeds the value of continuing."
+  ],
+  [
+   "Limitations and source dates",
+   "This guide uses official guidance checked on 13 November 2026, including U.S. Federal Trade Commission job-scam guidance, India’s National Career Service, U.S. Department of Labor O*NET role profiles, Acas employment guidance, Your Europe employment-contract guidance and U.S. Department of Labor classification guidance. These sources cover different jurisdictions and cannot determine whether one offer is genuine, lawful or suitable. Requirements can change, and a checklist cannot replace employer verification or qualified legal, tax, immigration, financial or career advice."
+  ]
+ ],
+ "worksheet": {
+  "title": "AI job offer evaluation worksheet",
+  "intro": "Complete one worksheet for each offer. Link every material answer to a verified email, offer document, policy or meeting note.",
+  "columns": [
+   "Review area",
+   "Evidence to record",
+   "Ready condition"
+  ],
+  "rows": [
+   [
+    "Employer identity",
+    "Legal entity, official website, verified contact route and recruiter domain.",
+    "The employer and recruiter are independently verified."
+   ],
+   [
+    "Role existence",
+    "Official vacancy or requisition and written employer confirmation.",
+    "The employer confirms the role and hiring process."
+   ],
+   [
+    "Hiring process",
+    "Interviews, participants, checks and remaining conditions.",
+    "The sequence is plausible and unresolved checks are explicit."
+   ],
+   [
+    "Role scope",
+    "Top outcomes, task percentages and success measures.",
+    "The AI title has been translated into real work."
+   ],
+   [
+    "First 90 days",
+    "First deliverable, decision supported, reviewer and dependencies.",
+    "The initial expectations and support are credible."
+   ],
+   [
+    "Team and manager",
+    "Reporting line, collaborators, technical review and decision owners.",
+    "Ownership and escalation paths are clear."
+   ],
+   [
+    "Data and tools",
+    "Available data, approved models, infrastructure and access limits.",
+    "The promised work can be attempted within stated constraints."
+   ],
+   [
+    "Employment status",
+    "Employee or contractor status, employer entity and payroll country.",
+    "Classification and responsible employer are understood."
+   ],
+   [
+    "Cash compensation",
+    "Base, currency, pay frequency, bonus formula and allowances.",
+    "Guaranteed and conditional amounts are separated."
+   ],
+   [
+    "Benefits and equity",
+    "Benefits, equity instrument, quantity, vesting and governing documents.",
+    "Non-cash value and uncertainty are documented."
+   ],
+   [
+    "Work arrangement",
+    "Permitted location, office days, time-zone overlap, travel and on-call work.",
+    "Remote or hybrid boundaries are written."
+   ],
+   [
+    "Terms and conditions",
+    "Start, hours, leave, probation, notice and background checks.",
+    "Material terms and offer conditions are recorded."
+   ],
+   [
+    "Policies and restrictions",
+    "Confidentiality, IP, outside work, AI tools and restrictive clauses.",
+    "Material restrictions have been understood or reviewed."
+   ],
+   [
+    "Decision",
+    "Accept, clarify or decline; reasons, deadline and next action.",
+    "The choice follows evidence rather than title or urgency."
+   ]
+  ]
+ },
+ "sources": [
+  {
+   "title": "U.S. Federal Trade Commission: That job offer text is probably a scam",
+   "url": "https://consumer.ftc.gov/consumer-alerts/2026/04/job-offer-text-probably-scam"
+  },
+  {
+   "title": "U.S. Federal Trade Commission: Job scammers are looking to hire you",
+   "url": "https://consumer.ftc.gov/consumer-alerts/2025/07/job-scammers-are-looking-hire-you"
+  },
+  {
+   "title": "India National Career Service: Frequently asked questions",
+   "url": "https://www.ncs.gov.in/job-seeker/_layouts/15/ncsp/faqs.aspx"
+  },
+  {
+   "title": "O*NET OnLine: Data Scientists",
+   "url": "https://www.onetonline.org/link/summary/15-2051.00"
+  },
+  {
+   "title": "O*NET OnLine: Computer and Information Research Scientists",
+   "url": "https://www.onetonline.org/link/summary/15-1221.00"
+  },
+  {
+   "title": "Acas: What an employment contract is",
+   "url": "https://www.acas.org.uk/employment-contracts-and-the-law"
+  },
+  {
+   "title": "Acas: If a job offer is withdrawn",
+   "url": "https://www.acas.org.uk/if-your-job-offer-is-withdrawn"
+  },
+  {
+   "title": "Your Europe: Employment contracts",
+   "url": "https://europa.eu/youreurope/citizens/work/work-abroad/employment-contracts/index_en.htm"
+  },
+  {
+   "title": "U.S. Department of Labor: Myths about misclassification",
+   "url": "https://www.dol.gov/agencies/whd/flsa/misclassification/myths/detail"
+  }
+ ]
 }
 ]
