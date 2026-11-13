@@ -1,6 +1,45 @@
 [
   {
     "id": 1,
+    "title": "Introducing Gemini 4 Hydrogen",
+    "description": "Read the original report from Google DeepMind.",
+    "date": "2026-11-12",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-hydrogen__key-art__lockup__16-9.width-1300.jpg",
+    "link": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+    "category": "AI Research",
+    "author": "Google DeepMind",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+  },
+  {
+    "id": 62,
+    "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-11-12",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/6484ca4d5ff9a3d2ee52a83b/6KFZDHIJkxpICiErHLqAw.gif",
+    "link": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"
+  },
+  {
+    "id": 63,
+    "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-11-12",
+    "image": "https://huggingface.co/blog/assets/3d-lora-finetuning/thumbnail.gif",
+    "link": "https://huggingface.co/blog/3d-lora-finetuning",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/3d-lora-finetuning"
+  },
+  {
+    "id": 2,
     "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
     "description": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
     "date": "2026-11-11",
@@ -13,7 +52,7 @@
     "imageSource": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
   },
   {
-    "id": 68,
+    "id": 64,
     "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-11",
@@ -26,7 +65,7 @@
     "imageSource": "https://huggingface.co/blog/qvac/botpsy"
   },
   {
-    "id": 69,
+    "id": 65,
     "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-11",
@@ -39,7 +78,7 @@
     "imageSource": "https://huggingface.co/blog/token-pooling"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Gemini 4 Carbon is now available",
     "description": "Read the original report from Google DeepMind.",
     "date": "2026-11-10",
@@ -52,7 +91,7 @@
     "imageSource": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
     "description": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
     "date": "2026-11-10",
@@ -65,7 +104,7 @@
     "imageSource": "https://deepmind.google/blog/introducing-alphaproof-code/"
   },
   {
-    "id": 70,
+    "id": 66,
     "title": "Pay for Hugging Face Hub with your Google Cloud Account",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-10",
@@ -78,7 +117,7 @@
     "imageSource": "https://huggingface.co/blog/hub-gcp-marketplace"
   },
   {
-    "id": 71,
+    "id": 67,
     "title": "Decision Models in Hugging Face",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-10",
@@ -91,7 +130,7 @@
     "imageSource": "https://huggingface.co/blog/decision"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
     "description": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
     "date": "2026-11-09",
@@ -104,7 +143,7 @@
     "imageSource": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
   },
   {
-    "id": 72,
+    "id": 68,
     "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-09",
@@ -117,7 +156,7 @@
     "imageSource": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan"
   },
   {
-    "id": 73,
+    "id": 69,
     "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-09",
@@ -130,7 +169,7 @@
     "imageSource": "https://huggingface.co/blog/amazon/higher-order-pruning-experts"
   },
   {
-    "id": 74,
+    "id": 70,
     "title": "ToyBlocks: A controlled world for robot learning and evaluation",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-06",
@@ -143,7 +182,7 @@
     "imageSource": "https://huggingface.co/blog/allenai/toyblocks"
   },
   {
-    "id": 75,
+    "id": 71,
     "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-06",
@@ -154,44 +193,5 @@
     "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
     "imageKind": "source",
     "imageSource": "https://huggingface.co/blog/open-asr-leaderboard-liva"
-  },
-  {
-    "id": 5,
-    "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-    "description": "Read the original report from Google DeepMind.",
-    "date": "2026-11-05",
-    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.width-1300.png",
-    "link": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
-    "category": "AI Research",
-    "author": "Google DeepMind",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/"
-  },
-  {
-    "id": 76,
-    "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
-    "description": "Read the original report from Hugging Face.",
-    "date": "2026-11-05",
-    "image": "https://huggingface.co/blog/assets/phonon-closer-look/thumbnail.png",
-    "link": "https://huggingface.co/blog/phonon-tts",
-    "category": "AI Tools & Research",
-    "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://huggingface.co/blog/phonon-tts"
-  },
-  {
-    "id": 77,
-    "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
-    "description": "Read the original report from Hugging Face.",
-    "date": "2026-11-04",
-    "image": "https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/c1ik58RednXjcqrx5s2Fo.png",
-    "link": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
-    "category": "AI Tools & Research",
-    "author": "Hugging Face",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor"
   }
 ]
