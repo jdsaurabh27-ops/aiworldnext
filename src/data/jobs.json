@@ -1,6 +1,214 @@
 [
   {
-    "id": 129,
+    "id": 726,
+    "title": "Sr. Software Engineer, Machine Learning & Data Infrastructure",
+    "description": "Sr. Software Engineer, Machine Learning & Data Infrastructure at OKX. Open the official application link to review the requirements.",
+    "image": "/brand/categories/jobs.svg",
+    "link": "https://job-boards.greenhouse.io/okx/jobs/8187582003",
+    "company": "OKX",
+    "location": "San Jose, California, United States",
+    "salary": "Not specified",
+    "date": "2026-11-14",
+    "category": "Machine Learning & Data Science",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 1032,
+    "title": "Senior Research Scientist – Molecular Diagnostics",
+    "description": "Senior Research Scientist – Molecular Diagnostics at Bosch Group. Open the official application link to review the requirements.",
+    "image": "/brand/categories/jobs.svg",
+    "link": "https://jobs.smartrecruiters.com/BoschGroup/744000161596239",
+    "company": "Bosch Group",
+    "location": "Sunnyvale, CA, United States",
+    "salary": "Not specified",
+    "date": "2026-11-14",
+    "category": "AI Research",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 52,
+    "title": "Senior Data Scientist, Experimentation",
+    "description": "Senior Data Scientist, Experimentation at Robinhood. Open the official application link to review the requirements.",
+    "image": "/brand/categories/jobs.svg",
+    "link": "https://boards.greenhouse.io/robinhood/jobs/8356065?t=gh_src=&gh_jid=8356065",
+    "company": "Robinhood",
+    "location": "Menlo Park, CA",
+    "salary": "Not specified",
+    "date": "2026-11-13",
+    "category": "Machine Learning & Data Science",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 153,
+    "title": "Staff Research Scientist - Foundation & World Models",
+    "description": "Staff Research Scientist - Foundation & World Models at Datadog. Open the official application link to review the requirements.",
+    "image": "/brand/categories/jobs.svg",
+    "link": "https://careers.datadoghq.com/detail/8385205/?gh_jid=8385205",
+    "company": "Datadog",
+    "location": "Paris, France",
+    "salary": "Not specified",
+    "date": "2026-11-13",
+    "category": "AI Research",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 156,
+    "title": "Staff Research Scientist - Post-Training for Observability Native Models",
+    "description": "Staff Research Scientist - Post-Training for Observability Native Models at Datadog. Open the official application link to review the requirements.",
+    "image": "/brand/categories/jobs.svg",
+    "link": "https://careers.datadoghq.com/detail/8385200/?gh_jid=8385200",
+    "company": "Datadog",
+    "location": "Paris, France",
+    "salary": "Not specified",
+    "date": "2026-11-13",
+    "category": "AI Research",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 273,
+    "title": "Senior Machine Learning Engineer, Behavioral Detection",
+    "description": "Senior Machine Learning Engineer, Behavioral Detection at Roblox. Open the official application link to review the requirements.",
+    "image": "/brand/categories/jobs.svg",
+    "link": "https://careers.roblox.com/jobs/8311549?gh_jid=8311549",
+    "company": "Roblox",
+    "location": "San Mateo, CA, United States",
+    "salary": "Not specified",
+    "date": "2026-11-13",
+    "category": "Machine Learning & Data Science",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 339,
+    "title": "Director, Machine Learning Engineering",
+    "description": "Director, Machine Learning Engineering at Chime. Open the official application link to review the requirements.",
+    "image": "/brand/categories/jobs.svg",
+    "link": "https://boards.greenhouse.io/chime/jobs/8765680002?gh_jid=8765680002",
+    "company": "Chime",
+    "location": "San Francisco, CA, USA",
+    "salary": "Not specified",
+    "date": "2026-11-13",
+    "category": "Machine Learning & Data Science",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 345,
+    "title": "Principal Machine Learning Engineer, Vision AI",
+    "description": "Principal Machine Learning Engineer, Vision AI at Toast. Open the official application link to review the requirements.",
+    "image": "/brand/categories/jobs.svg",
+    "link": "https://careers.toasttab.com/jobs?gh_jid=8368740",
+    "company": "Toast",
+    "location": "Remote, US",
+    "salary": "Not specified",
+    "date": "2026-11-13",
+    "category": "Machine Learning & Data Science",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 346,
+    "title": "Staff Machine Learning Engineer - Vision AI",
+    "description": "Staff Machine Learning Engineer - Vision AI at Toast. Open the official application link to review the requirements.",
+    "image": "/brand/categories/jobs.svg",
+    "link": "https://careers.toasttab.com/jobs?gh_jid=8368738",
+    "company": "Toast",
+    "location": "Remote, US",
+    "salary": "Not specified",
+    "date": "2026-11-13",
+    "category": "Machine Learning & Data Science",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 563,
+    "title": "Senior Data Scientist, Brand Analytics",
+    "description": "Senior Data Scientist, Brand Analytics at DoorDash. Open the official application link to review the requirements.",
+    "image": "/brand/categories/jobs.svg",
+    "link": "https://job-boards.greenhouse.io/doordashusa/jobs/8386082",
+    "company": "DoorDash",
+    "location": "San Francisco, CA; Seattle, WA; New York, NY; Los Angeles, CA; Chicago, IL; Austin, TX; Washington D.C.",
+    "salary": "Not specified",
+    "date": "2026-11-13",
+    "category": "Machine Learning & Data Science",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 580,
+    "title": "AI Engineer",
+    "description": "AI Engineer at Netskope. Open the official application link to review the requirements.",
+    "image": "/brand/categories/jobs.svg",
+    "link": "https://www.netskope.com/company/careers/open-positions/?gh_jid=8385088",
+    "company": "Netskope",
+    "location": "Taguig, Philippines",
+    "salary": "Not specified",
+    "date": "2026-11-13",
+    "category": "AI Engineering",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 590,
+    "title": "Senior AI Engineer",
+    "description": "Senior AI Engineer at Osano. Open the official application link to review the requirements.",
+    "image": "/brand/categories/jobs.svg",
+    "link": "https://job-boards.greenhouse.io/osano/jobs/5482136008",
+    "company": "Osano",
+    "location": "Remote",
+    "salary": "Not specified",
+    "date": "2026-11-13",
+    "category": "AI Engineering",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 596,
+    "title": "Research Scientist, Open Benchmarks Red Team",
+    "description": "Research Scientist, Open Benchmarks Red Team at Snorkel AI. Open the official application link to review the requirements.",
+    "image": "/brand/categories/jobs.svg",
+    "link": "https://job-boards.greenhouse.io/snorkelai/jobs/6260926004",
+    "company": "Snorkel AI",
+    "location": "New York City, NY (Hybrid); San Francisco, CA (Hybrid); United States (Remote)",
+    "salary": "Not specified",
+    "date": "2026-11-13",
+    "category": "AI Research",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 1033,
+    "title": "Research Scientist – Molecular Diagnostics",
+    "description": "Research Scientist – Molecular Diagnostics at Bosch Group. Open the official application link to review the requirements.",
+    "image": "/brand/categories/jobs.svg",
+    "link": "https://jobs.smartrecruiters.com/BoschGroup/744000161595229",
+    "company": "Bosch Group",
+    "location": "Sunnyvale, CA, United States",
+    "salary": "Not specified",
+    "date": "2026-11-13",
+    "category": "AI Research",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 1034,
+    "title": "Junior Managers Program (Trainee) - Starte deine Leadership Journey im Bereich HR Tech, Digitalisierung und Generative AI",
+    "description": "Junior Managers Program (Trainee) - Starte deine Leadership Journey im Bereich HR Tech, Digitalisierung und Generative AI at Bosch Group. Open the official application link to review the requirements.",
+    "image": "/brand/categories/jobs.svg",
+    "link": "https://jobs.smartrecruiters.com/BoschGroup/744000161505429",
+    "company": "Bosch Group",
+    "location": "Gerlingen, BW, Germany",
+    "salary": "Not specified",
+    "date": "2026-11-13",
+    "category": "AI Engineering",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 1035,
+    "title": "Working student Deep Learning & Data Science",
+    "description": "Working student Deep Learning & Data Science at Bosch Group. Open the official application link to review the requirements.",
+    "image": "/brand/categories/jobs.svg",
+    "link": "https://jobs.smartrecruiters.com/BoschGroup/744000161437030",
+    "company": "Bosch Group",
+    "location": "Cluj-Napoca, CJ, Romania",
+    "salary": "Not specified",
+    "date": "2026-11-13",
+    "category": "AI Engineering",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 125,
     "title": "Staff Machine Learning Engineer, Ads Foundational Representations",
     "description": "Staff Machine Learning Engineer, Ads Foundational Representations at Reddit. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -13,7 +221,33 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 252,
+    "id": 215,
+    "title": "Sr. Research Scientist - Agent Flywheel",
+    "description": "Sr. Research Scientist - Agent Flywheel at Databricks. Open the official application link to review the requirements.",
+    "image": "/brand/categories/jobs.svg",
+    "link": "https://databricks.com/company/careers/open-positions/job?gh_jid=8940421002",
+    "company": "Databricks",
+    "location": "New York City, New York",
+    "salary": "Not specified",
+    "date": "2026-11-12",
+    "category": "AI Research",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 237,
+    "title": "Senior Product Manager, Fulfillment",
+    "description": "Senior Product Manager, Fulfillment at Flexport. Open the official application link to review the requirements.",
+    "image": "/brand/categories/jobs.svg",
+    "link": "https://job-boards.greenhouse.io/flexport/jobs/8337555",
+    "company": "Flexport",
+    "location": "Bellevue, Washington, United States",
+    "salary": "Not specified",
+    "date": "2026-11-12",
+    "category": "AI Engineering",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 249,
     "title": "Senior Data Scientist, Autonomous Vehicles",
     "description": "Senior Data Scientist, Autonomous Vehicles at Lyft. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -26,7 +260,46 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 553,
+    "id": 300,
+    "title": "Software Engineering Architect, Machine Learning",
+    "description": "Software Engineering Architect, Machine Learning at Zscaler. Open the official application link to review the requirements.",
+    "image": "/brand/categories/jobs.svg",
+    "link": "https://job-boards.greenhouse.io/zscaler/jobs/5290020007",
+    "company": "Zscaler",
+    "location": "Bangalore, IND",
+    "salary": "Not specified",
+    "date": "2026-11-12",
+    "category": "Machine Learning & Data Science",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 347,
+    "title": "Senior AI Engineer, People",
+    "description": "Senior AI Engineer, People at Justworks. Open the official application link to review the requirements.",
+    "image": "/brand/categories/jobs.svg",
+    "link": "https://boards.greenhouse.io/justworks/jobs/8383665?gh_jid=8383665",
+    "company": "Justworks",
+    "location": "New York",
+    "salary": "Not specified",
+    "date": "2026-11-12",
+    "category": "AI Engineering",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 372,
+    "title": "Director, Test & Evaluation, Robotics",
+    "description": "Director, Test & Evaluation, Robotics at Anduril. Open the official application link to review the requirements.",
+    "image": "/brand/categories/jobs.svg",
+    "link": "https://boards.greenhouse.io/andurilindustries/jobs/5293840007?gh_jid=5293840007",
+    "company": "Anduril",
+    "location": "Costa Mesa, California, United States",
+    "salary": "Not specified",
+    "date": "2026-11-12",
+    "category": "Robotics & AI",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 546,
     "title": "Senior Deep Learning Research Engineer",
     "description": "Senior Deep Learning Research Engineer at HackerRank. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -39,7 +312,59 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 826,
+    "id": 633,
+    "title": "Senior Data Scientist",
+    "description": "Senior Data Scientist at Figure Technologies. Open the official application link to review the requirements.",
+    "image": "/brand/categories/jobs.svg",
+    "link": "https://job-boards.greenhouse.io/figure/jobs/8934097002",
+    "company": "Figure Technologies",
+    "location": "Remote",
+    "salary": "Not specified",
+    "date": "2026-11-12",
+    "category": "Machine Learning & Data Science",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 651,
+    "title": "Clinical Research Scientist",
+    "description": "Clinical Research Scientist at Omada Health. Open the official application link to review the requirements.",
+    "image": "/brand/categories/jobs.svg",
+    "link": "https://job-boards.greenhouse.io/omadahealth/jobs/8346685",
+    "company": "Omada Health",
+    "location": "Remote, USA",
+    "salary": "Not specified",
+    "date": "2026-11-12",
+    "category": "AI Research",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 784,
+    "title": "Contract Student Worker - Machine Learning Engineer",
+    "description": "Contract Student Worker - Machine Learning Engineer at Zoox. Open the official application link to review the requirements.",
+    "image": "/brand/categories/jobs.svg",
+    "link": "https://jobs.lever.co/zoox/79cd1de5-c540-4917-8820-960f65fb8f9e/apply",
+    "company": "Zoox",
+    "location": "Boston, MA, Foster City, CA, Seattle, WA, San Diego, CA",
+    "salary": "Not specified",
+    "date": "2026-11-12",
+    "category": "Machine Learning & Data Science",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 787,
+    "title": "Data Scientist Intern [Summer 2027]",
+    "description": "Data Scientist Intern [Summer 2027] at Zoox. Open the official application link to review the requirements.",
+    "image": "/brand/categories/jobs.svg",
+    "link": "https://jobs.lever.co/zoox/0f42ac76-3821-4805-8b59-446477d1e1db/apply",
+    "company": "Zoox",
+    "location": "Foster City, CA",
+    "salary": "Not specified",
+    "date": "2026-11-12",
+    "category": "Machine Learning & Data Science",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 821,
     "title": "Firmware Engineer, Robotics",
     "description": "Firmware Engineer, Robotics at OpenAI. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -52,33 +377,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 1050,
-    "title": "Senior Research Scientist – Molecular Diagnostics",
-    "description": "Senior Research Scientist – Molecular Diagnostics at Bosch Group. Open the official application link to review the requirements.",
-    "image": "/brand/categories/jobs.svg",
-    "link": "https://jobs.smartrecruiters.com/BoschGroup/744000161220959",
-    "company": "Bosch Group",
-    "location": "Sunnyvale, CA, United States",
-    "salary": "Not specified",
-    "date": "2026-11-12",
-    "category": "AI Research",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 1051,
-    "title": "Research Scientist – Molecular Diagnostics",
-    "description": "Research Scientist – Molecular Diagnostics at Bosch Group. Open the official application link to review the requirements.",
-    "image": "/brand/categories/jobs.svg",
-    "link": "https://jobs.smartrecruiters.com/BoschGroup/744000161220150",
-    "company": "Bosch Group",
-    "location": "Sunnyvale, CA, United States",
-    "salary": "Not specified",
-    "date": "2026-11-12",
-    "category": "AI Research",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 261,
+    "id": 258,
     "title": "Principal Data Scientist, Economy Recommendations",
     "description": "Principal Data Scientist, Economy Recommendations at Roblox. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -91,7 +390,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 271,
+    "id": 268,
     "title": "Senior Data Scientist, Marketplace Economics",
     "description": "Senior Data Scientist, Marketplace Economics at Roblox. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -104,7 +403,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 302,
+    "id": 299,
     "title": "Senior Staff AI Engineer",
     "description": "Senior Staff AI Engineer at Zscaler. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -117,7 +416,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 346,
+    "id": 348,
     "title": "Senior Data Scientist - Advanced Analytics",
     "description": "Senior Data Scientist - Advanced Analytics at Justworks. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -130,7 +429,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 588,
+    "id": 582,
     "title": "Staff Machine Learning Scientist",
     "description": "Staff Machine Learning Scientist at Netskope. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -143,7 +442,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 603,
+    "id": 599,
     "title": "Staff Applied AI Engineer - Pre-Sales",
     "description": "Staff Applied AI Engineer - Pre-Sales at Snorkel AI. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -156,7 +455,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 626,
+    "id": 622,
     "title": "Machine Learning Engineering Intern (Masters/PhD) - Summer 2027",
     "description": "Machine Learning Engineering Intern (Masters/PhD) - Summer 2027 at Riot Games. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -169,7 +468,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 693,
+    "id": 690,
     "title": "Forward Deployed AI Engineer",
     "description": "Forward Deployed AI Engineer at Turing. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -182,7 +481,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 761,
+    "id": 756,
     "title": "Senior Data Scientist, Customer Value Forecasting",
     "description": "Senior Data Scientist, Customer Value Forecasting at HelloFresh. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -195,7 +494,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 765,
+    "id": 760,
     "title": "Staff Machine Learning Engineer, AdTech",
     "description": "Staff Machine Learning Engineer, AdTech at HelloFresh. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -208,7 +507,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 925,
+    "id": 909,
     "title": "Partner Applied AI Engineer, Google Cloud",
     "description": "Partner Applied AI Engineer, Google Cloud at OpenAI. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -221,7 +520,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 926,
+    "id": 910,
     "title": "Partner Applied AI Engineer, Oracle and Cloud ISV",
     "description": "Partner Applied AI Engineer, Oracle and Cloud ISV at OpenAI. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -234,20 +533,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 1052,
-    "title": "Junior Managers Program (Trainee) - Starte deine Leadership Journey im Bereich HR Tech, Digitalisierung und Generative AI",
-    "description": "Junior Managers Program (Trainee) - Starte deine Leadership Journey im Bereich HR Tech, Digitalisierung und Generative AI at Bosch Group. Open the official application link to review the requirements.",
-    "image": "/brand/categories/jobs.svg",
-    "link": "https://jobs.smartrecruiters.com/BoschGroup/744000161071861",
-    "company": "Bosch Group",
-    "location": "Gerlingen, BW, Germany",
-    "salary": "Not specified",
-    "date": "2026-11-11",
-    "category": "AI Engineering",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 12,
+    "id": 11,
     "title": "Machine Learning Engineer, Transaction Risk",
     "description": "Machine Learning Engineer, Transaction Risk at Stripe. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -260,20 +546,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 276,
-    "title": "Senior Machine Learning Engineer: Creator Tools & Automation",
-    "description": "Senior Machine Learning Engineer: Creator Tools & Automation at Roblox. Open the official application link to review the requirements.",
-    "image": "/brand/categories/jobs.svg",
-    "link": "https://careers.roblox.com/jobs/8359456?gh_jid=8359456",
-    "company": "Roblox",
-    "location": "San Mateo, CA, United States",
-    "salary": "Not specified",
-    "date": "2026-11-10",
-    "category": "Machine Learning & Data Science",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 324,
+    "id": 322,
     "title": "Senior Applied AI Engineer",
     "description": "Senior Applied AI Engineer at Scale AI. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -286,7 +559,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 399,
+    "id": 397,
     "title": "Senior Machine Learning Engineer (Applied Intelligence)",
     "description": "Senior Machine Learning Engineer (Applied Intelligence) at Anduril. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -299,7 +572,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 499,
+    "id": 493,
     "title": "Logistics Specialist, Fulfillment",
     "description": "Logistics Specialist, Fulfillment at Oura. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -312,7 +585,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 537,
+    "id": 532,
     "title": "Fulfillment Planning Analyst",
     "description": "Fulfillment Planning Analyst at Carvana. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -325,7 +598,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 547,
+    "id": 542,
     "title": "Director, Machine Learning",
     "description": "Director, Machine Learning at Narvar. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -338,7 +611,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 573,
+    "id": 566,
     "title": "Senior Manager, New Verticals - Fulfillment Strategy & Operations",
     "description": "Senior Manager, New Verticals - Fulfillment Strategy & Operations at DoorDash. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -351,20 +624,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 650,
-    "title": "Staff Scientist, Machine Learning (Genomics)",
-    "description": "Staff Scientist, Machine Learning (Genomics) at Natera. Open the official application link to review the requirements.",
-    "image": "/brand/categories/jobs.svg",
-    "link": "https://job-boards.greenhouse.io/natera/jobs/6254068004",
-    "company": "Natera",
-    "location": "San Carlos, CA",
-    "salary": "Not specified",
-    "date": "2026-11-10",
-    "category": "Machine Learning & Data Science",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 651,
+    "id": 646,
     "title": "Staff Scientist, Machine Learning (Genomics)",
     "description": "Staff Scientist, Machine Learning (Genomics) at Natera. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -377,7 +637,20 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 715,
+    "id": 647,
+    "title": "Staff Scientist, Machine Learning (Genomics)",
+    "description": "Staff Scientist, Machine Learning (Genomics) at Natera. Open the official application link to review the requirements.",
+    "image": "/brand/categories/jobs.svg",
+    "link": "https://job-boards.greenhouse.io/natera/jobs/6254068004",
+    "company": "Natera",
+    "location": "San Carlos, CA",
+    "salary": "Not specified",
+    "date": "2026-11-10",
+    "category": "Machine Learning & Data Science",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 711,
     "title": "Data Scientist – Computer Vision / AI Manipulation Detection (Risk AI)",
     "description": "Data Scientist – Computer Vision / AI Manipulation Detection (Risk AI) at Binance. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -390,7 +663,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 722,
+    "id": 718,
     "title": "Machine Learning Engineer — Risk & AI",
     "description": "Machine Learning Engineer — Risk & AI at OKX. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -403,7 +676,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 822,
+    "id": 817,
     "title": "Applied AI Engineering Manager, Startups | Greenfield",
     "description": "Applied AI Engineering Manager, Startups | Greenfield at OpenAI. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -416,7 +689,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 924,
+    "id": 908,
     "title": "Applied AI Engineering Manager, Startups | Core",
     "description": "Applied AI Engineering Manager, Startups | Core at OpenAI. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -429,7 +702,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 1053,
+    "id": 1036,
     "title": "Robotics AI Expert / Technical Product Owner (f/m/div.)",
     "description": "Robotics AI Expert / Technical Product Owner (f/m/div.) at Bosch Group. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -442,7 +715,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 1054,
+    "id": 1037,
     "title": "Expert Robotics AI (f/m/div.)",
     "description": "Expert Robotics AI (f/m/div.) at Bosch Group. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -455,7 +728,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 156,
+    "id": 152,
     "title": "Senior AI Research Engineer - LLM Training & Inference Infrastructure",
     "description": "Senior AI Research Engineer - LLM Training & Inference Infrastructure at Datadog. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -468,20 +741,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 189,
-    "title": "Research Scientist, Discovery (Engineering & Applied Sciences)",
-    "description": "Research Scientist, Discovery (Engineering & Applied Sciences) at Anthropic. Open the official application link to review the requirements.",
-    "image": "/brand/categories/jobs.svg",
-    "link": "https://job-boards.greenhouse.io/anthropic/jobs/5468930008",
-    "company": "Anthropic",
-    "location": "San Francisco, CA | New York City, NY",
-    "salary": "Not specified",
-    "date": "2026-11-09",
-    "category": "AI Research",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 307,
+    "id": 305,
     "title": "Senior Machine Learning Engineer",
     "description": "Senior Machine Learning Engineer at Checkr. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -494,7 +754,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 340,
+    "id": 338,
     "title": "Data Scientist, Dispute Risk",
     "description": "Data Scientist, Dispute Risk at Chime. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -507,7 +767,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 625,
+    "id": 621,
     "title": "Director, Machine Learning Engineering - AI Foundations",
     "description": "Director, Machine Learning Engineering - AI Foundations at Riot Games. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -520,7 +780,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 732,
+    "id": 729,
     "title": "Applied AI Engineer",
     "description": "Applied AI Engineer at AssemblyAI. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -533,7 +793,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 733,
+    "id": 730,
     "title": "Enterprise Applied AI Engineer",
     "description": "Enterprise Applied AI Engineer at AssemblyAI. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -546,7 +806,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 883,
+    "id": 874,
     "title": "Manager, Applied AI Engineering (Codex)",
     "description": "Manager, Applied AI Engineering (Codex) at OpenAI. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -559,7 +819,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 921,
+    "id": 905,
     "title": "Applied AI Engineer, Large Enterprise",
     "description": "Applied AI Engineer, Large Enterprise at OpenAI. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -572,7 +832,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 944,
+    "id": 927,
     "title": "Staff Applied AI Engineer",
     "description": "Staff Applied AI Engineer at Crusoe. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -585,7 +845,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 1055,
+    "id": 1038,
     "title": "Research Engineer - Robotics AI",
     "description": "Research Engineer - Robotics AI at Bosch Group. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -598,7 +858,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 45,
+    "id": 43,
     "title": "Senior Machine Learning Engineer",
     "description": "Senior Machine Learning Engineer at Coinbase. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -611,7 +871,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 228,
+    "id": 225,
     "title": "Staff Machine Learning Engineer - Edge AI",
     "description": "Staff Machine Learning Engineer - Edge AI at Samsara. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -624,7 +884,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 229,
+    "id": 226,
     "title": "Staff Machine Learning Engineer - Edge AI",
     "description": "Staff Machine Learning Engineer - Edge AI at Samsara. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -637,7 +897,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 312,
+    "id": 310,
     "title": "Applied AI Engineer",
     "description": "Applied AI Engineer at Scale AI. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -650,7 +910,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 443,
+    "id": 437,
     "title": "Staff Robotics Software Engineer, CUAS, Omen",
     "description": "Staff Robotics Software Engineer, CUAS, Omen at Anduril. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -663,7 +923,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 757,
+    "id": 753,
     "title": "Fulfillment Technology Analyst",
     "description": "Fulfillment Technology Analyst at HelloFresh. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -676,7 +936,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 907,
+    "id": 894,
     "title": "Robotics Test Engineer",
     "description": "Robotics Test Engineer at OpenAI. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -689,20 +949,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 915,
-    "title": "Applied AI Engineer, Enterprise - Healthcare Life Sciences (HLS)",
-    "description": "Applied AI Engineer, Enterprise - Healthcare Life Sciences (HLS) at OpenAI. Open the official application link to review the requirements.",
-    "image": "/brand/categories/jobs.svg",
-    "link": "https://jobs.ashbyhq.com/openai/6fc25168-bc4c-47a0-8601-583dfaf7fcbd/application",
-    "company": "OpenAI",
-    "location": "San Francisco, New York City, US - Remote",
-    "salary": "Not specified",
-    "date": "2026-11-06",
-    "category": "AI Engineering",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 922,
+    "id": 906,
     "title": "Applied AI Engineer, Enterprise - EDU",
     "description": "Applied AI Engineer, Enterprise - EDU at OpenAI. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -715,7 +962,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 923,
+    "id": 907,
     "title": "Data Scientist, Preparedness",
     "description": "Data Scientist, Preparedness at OpenAI. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -728,85 +975,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 1056,
-    "title": "Research Scientist- Robotics AI",
-    "description": "Research Scientist- Robotics AI at Bosch Group. Open the official application link to review the requirements.",
-    "image": "/brand/categories/jobs.svg",
-    "link": "https://jobs.smartrecruiters.com/BoschGroup/744000160309940",
-    "company": "Bosch Group",
-    "location": "Sunnyvale, CA, United States",
-    "salary": "Not specified",
-    "date": "2026-11-06",
-    "category": "Robotics & AI",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 1057,
-    "title": "Senior Research Scientist- Robotics AI",
-    "description": "Senior Research Scientist- Robotics AI at Bosch Group. Open the official application link to review the requirements.",
-    "image": "/brand/categories/jobs.svg",
-    "link": "https://jobs.smartrecruiters.com/BoschGroup/744000160309609",
-    "company": "Bosch Group",
-    "location": "Sunnyvale, CA, United States",
-    "salary": "Not specified",
-    "date": "2026-11-06",
-    "category": "Robotics & AI",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 1058,
-    "title": "SENIOR DATA SCIENTIST / AI ENGINEER",
-    "description": "SENIOR DATA SCIENTIST / AI ENGINEER at Bosch Group. Open the official application link to review the requirements.",
-    "image": "/brand/categories/jobs.svg",
-    "link": "https://jobs.smartrecruiters.com/BoschGroup/744000160208139",
-    "company": "Bosch Group",
-    "location": "Campinas, SP, Brazil",
-    "salary": "Not specified",
-    "date": "2026-11-06",
-    "category": "Machine Learning & Data Science",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 1059,
-    "title": "Development Engineer - Machine Learning (f/m/div.)",
-    "description": "Development Engineer - Machine Learning (f/m/div.) at Bosch Group. Open the official application link to review the requirements.",
-    "image": "/brand/categories/jobs.svg",
-    "link": "https://jobs.smartrecruiters.com/BoschGroup/744000160171804",
-    "company": "Bosch Group",
-    "location": "Cacia, Aveiro, Portugal",
-    "salary": "Not specified",
-    "date": "2026-11-06",
-    "category": "Machine Learning & Data Science",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 99,
-    "title": "Machine Learning Engineer",
-    "description": "Machine Learning Engineer at Reddit. Open the official application link to review the requirements.",
-    "image": "/brand/categories/jobs.svg",
-    "link": "https://job-boards.greenhouse.io/reddit/jobs/8349916",
-    "company": "Reddit",
-    "location": "San Francisco, CA",
-    "salary": "Not specified",
-    "date": "2026-11-05",
-    "category": "Machine Learning & Data Science",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 105,
-    "title": "Senior Data Scientist",
-    "description": "Senior Data Scientist at Reddit. Open the official application link to review the requirements.",
-    "image": "/brand/categories/jobs.svg",
-    "link": "https://job-boards.greenhouse.io/reddit/jobs/8355688",
-    "company": "Reddit",
-    "location": "San Francisco, CA",
-    "salary": "Not specified",
-    "date": "2026-11-05",
-    "category": "Machine Learning & Data Science",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 188,
+    "id": 186,
     "title": "Research Scientist, Discovery (Engineering & Applied Sciences)",
     "description": "Research Scientist, Discovery (Engineering & Applied Sciences) at Anthropic. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -819,7 +988,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 338,
+    "id": 336,
     "title": "Staff Machine Learning Engineer - Risk",
     "description": "Staff Machine Learning Engineer - Risk at Gusto. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -832,7 +1001,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 645,
+    "id": 641,
     "title": "Lead Bioinformatics & Machine Learning Scientist (Epigenomics)",
     "description": "Lead Bioinformatics & Machine Learning Scientist (Epigenomics) at Natera. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -845,7 +1014,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 646,
+    "id": 642,
     "title": "Lead Bioinformatics & Machine Learning Scientist (Epigenomics)",
     "description": "Lead Bioinformatics & Machine Learning Scientist (Epigenomics) at Natera. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -858,20 +1027,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 657,
-    "title": "Sr Software Engineer - Machine Learning & Data",
-    "description": "Sr Software Engineer - Machine Learning & Data at ClassPass. Open the official application link to review the requirements.",
-    "image": "/brand/categories/jobs.svg",
-    "link": "https://www.playlist.com/careers/opportunities/4727638006?gh_jid=4727638006",
-    "company": "ClassPass",
-    "location": "United States",
-    "salary": "Not specified",
-    "date": "2026-11-05",
-    "category": "Machine Learning & Data Science",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 704,
+    "id": 701,
     "title": "Staff Machine Learning Engineer",
     "description": "Staff Machine Learning Engineer at Qualtrics. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -884,7 +1040,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 1024,
+    "id": 1006,
     "title": "Growth Engineer",
     "description": "Growth Engineer at Krea AI. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -897,7 +1053,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 1068,
+    "id": 1047,
     "title": "AI Engineer l Young Talent Program",
     "description": "AI Engineer l Young Talent Program at Helloprint. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -910,7 +1066,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 61,
+    "id": 60,
     "title": "Senior Machine Learning Engineer (Growth)",
     "description": "Senior Machine Learning Engineer (Growth) at Discord. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -923,7 +1079,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 325,
+    "id": 323,
     "title": "Senior Applied AI Engineer",
     "description": "Senior Applied AI Engineer at Scale AI. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -936,7 +1092,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 500,
+    "id": 494,
     "title": "Senior Data Scientist, Hardware Quality",
     "description": "Senior Data Scientist, Hardware Quality at Oura. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -949,7 +1105,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 555,
+    "id": 548,
     "title": "Engineering Manager, Machine Learning, Ranking",
     "description": "Engineering Manager, Machine Learning, Ranking at ZipRecruiter. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -962,7 +1118,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 556,
+    "id": 549,
     "title": "Engineering Manager, Machine Learning, Ranking",
     "description": "Engineering Manager, Machine Learning, Ranking at ZipRecruiter. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -975,20 +1131,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 643,
-    "title": "Lead Bioinformatics & Machine Learning Scientist",
-    "description": "Lead Bioinformatics & Machine Learning Scientist at Natera. Open the official application link to review the requirements.",
-    "image": "/brand/categories/jobs.svg",
-    "link": "https://job-boards.greenhouse.io/natera/jobs/6239427004",
-    "company": "Natera",
-    "location": "US Remote",
-    "salary": "Not specified",
-    "date": "2026-11-04",
-    "category": "Machine Learning & Data Science",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 644,
+    "id": 639,
     "title": "Lead Bioinformatics & Machine Learning Scientist",
     "description": "Lead Bioinformatics & Machine Learning Scientist at Natera. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -1001,7 +1144,20 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 654,
+    "id": 640,
+    "title": "Lead Bioinformatics & Machine Learning Scientist",
+    "description": "Lead Bioinformatics & Machine Learning Scientist at Natera. Open the official application link to review the requirements.",
+    "image": "/brand/categories/jobs.svg",
+    "link": "https://job-boards.greenhouse.io/natera/jobs/6239427004",
+    "company": "Natera",
+    "location": "US Remote",
+    "salary": "Not specified",
+    "date": "2026-11-04",
+    "category": "Machine Learning & Data Science",
+    "imageKind": "placeholder"
+  },
+  {
+    "id": 650,
     "title": "Senior ML Engineer",
     "description": "Senior ML Engineer at Sword Health. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -1014,7 +1170,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 709,
+    "id": 706,
     "title": "Senior and Staff Data Scientist - Credit and Lending ML",
     "description": "Senior and Staff Data Scientist - Credit and Lending ML at Mercury. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -1027,7 +1183,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 730,
+    "id": 727,
     "title": "Staff Engineer, Machine Learning & Data Infrastructure",
     "description": "Staff Engineer, Machine Learning & Data Infrastructure at OKX. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -1040,7 +1196,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 809,
+    "id": 806,
     "title": "Staff / Senior Staff Machine Learning Engineer - Collision Avoidance System",
     "description": "Staff / Senior Staff Machine Learning Engineer - Collision Avoidance System at Zoox. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -1053,7 +1209,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 919,
+    "id": 904,
     "title": "Data Scientist, Analytics Enablement",
     "description": "Data Scientist, Analytics Enablement at OpenAI. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -1066,7 +1222,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 942,
+    "id": 925,
     "title": "People Research Scientist",
     "description": "People Research Scientist at Crusoe. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -1079,7 +1235,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 943,
+    "id": 926,
     "title": "People Research Scientist",
     "description": "People Research Scientist at Crusoe. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -1092,7 +1248,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 1025,
+    "id": 1007,
     "title": "Senior Data Scientist",
     "description": "Senior Data Scientist at Zilch. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -1105,7 +1261,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 1060,
+    "id": 1039,
     "title": "Data Scientist",
     "description": "Data Scientist at Delivery Hero. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -1118,7 +1274,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 1069,
+    "id": 1048,
     "title": "Junior or Medior AI Engineer",
     "description": "Junior or Medior AI Engineer at Helloprint. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -1131,7 +1287,7 @@
     "imageKind": "placeholder"
   },
   {
-    "id": 30,
+    "id": 28,
     "title": "Senior Machine Learning Engineer, Relevance",
     "description": "Senior Machine Learning Engineer, Relevance at Airbnb. Open the official application link to review the requirements.",
     "image": "/brand/categories/jobs.svg",
@@ -1140,162 +1296,6 @@
     "location": "United States",
     "salary": "Not specified",
     "date": "2026-11-03",
-    "category": "Machine Learning & Data Science",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 263,
-    "title": "Principal Machine Learning Engineer - Matchmaking",
-    "description": "Principal Machine Learning Engineer - Matchmaking at Roblox. Open the official application link to review the requirements.",
-    "image": "/brand/categories/jobs.svg",
-    "link": "https://careers.roblox.com/jobs/8257625?gh_jid=8257625",
-    "company": "Roblox",
-    "location": "San Mateo, CA, United States",
-    "salary": "Not specified",
-    "date": "2026-11-03",
-    "category": "Machine Learning & Data Science",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 278,
-    "title": "Senior Machine Learning Infrastructure Engineer, Matchmaking",
-    "description": "Senior Machine Learning Infrastructure Engineer, Matchmaking at Roblox. Open the official application link to review the requirements.",
-    "image": "/brand/categories/jobs.svg",
-    "link": "https://careers.roblox.com/jobs/8282837?gh_jid=8282837",
-    "company": "Roblox",
-    "location": "San Mateo, CA, United States",
-    "salary": "Not specified",
-    "date": "2026-11-03",
-    "category": "Machine Learning & Data Science",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 449,
-    "title": "Machine Learning Compiler Engineer",
-    "description": "Machine Learning Compiler Engineer at Jane Street. Open the official application link to review the requirements.",
-    "image": "/brand/categories/jobs.svg",
-    "link": "https://www.janestreet.com/join-jane-street/apply/8922042002?gh_jid=8922042002",
-    "company": "Jane Street",
-    "location": "New York, United States",
-    "salary": "Not specified",
-    "date": "2026-11-03",
-    "category": "Machine Learning & Data Science",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 450,
-    "title": "Machine Learning Compiler Engineer",
-    "description": "Machine Learning Compiler Engineer at Jane Street. Open the official application link to review the requirements.",
-    "image": "/brand/categories/jobs.svg",
-    "link": "https://www.janestreet.com/join-jane-street/apply/8927588002?gh_jid=8927588002",
-    "company": "Jane Street",
-    "location": "London, England, United Kingdom",
-    "salary": "Not specified",
-    "date": "2026-11-03",
-    "category": "Machine Learning & Data Science",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 514,
-    "title": "Machine Learning Engineer - New Grad",
-    "description": "Machine Learning Engineer - New Grad at SambaNova Systems. Open the official application link to review the requirements.",
-    "image": "/brand/categories/jobs.svg",
-    "link": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6240725004",
-    "company": "SambaNova Systems",
-    "location": "Austin, Texas, United States; San Jose, California, United States",
-    "salary": "Not specified",
-    "date": "2026-11-03",
-    "category": "Machine Learning & Data Science",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 638,
-    "title": "Data Scientist",
-    "description": "Data Scientist at Vestwell. Open the official application link to review the requirements.",
-    "image": "/brand/categories/jobs.svg",
-    "link": "https://job-boards.greenhouse.io/vestwell/jobs/8108241003",
-    "company": "Vestwell",
-    "location": "New York, NY | Austin, TX | King of Prussia, PA | Scottsdale, AZ",
-    "salary": "Not specified",
-    "date": "2026-11-03",
-    "category": "Machine Learning & Data Science",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 688,
-    "title": "Senior Machine Learning Engineer",
-    "description": "Senior Machine Learning Engineer at Bloomreach. Open the official application link to review the requirements.",
-    "image": "/brand/categories/jobs.svg",
-    "link": "https://job-boards.greenhouse.io/bloomreach/jobs/8349395",
-    "company": "Bloomreach",
-    "location": "India",
-    "salary": "Not specified",
-    "date": "2026-11-03",
-    "category": "Machine Learning & Data Science",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 755,
-    "title": "Principal Full-Stack Data Scientist - Foundational Models",
-    "description": "Principal Full-Stack Data Scientist - Foundational Models at StitchFix. Open the official application link to review the requirements.",
-    "image": "/brand/categories/jobs.svg",
-    "link": "https://www.stitchfix.com/careers/jobs?gh_jid=8351087&gh_jid=8351087",
-    "company": "StitchFix",
-    "location": "Remote, USA",
-    "salary": "Not specified",
-    "date": "2026-11-03",
-    "category": "Machine Learning & Data Science",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 879,
-    "title": "Applied AI Engineer, Digital Natives",
-    "description": "Applied AI Engineer, Digital Natives at OpenAI. Open the official application link to review the requirements.",
-    "image": "/brand/categories/jobs.svg",
-    "link": "https://jobs.ashbyhq.com/openai/7be58f3a-6005-42ed-86fa-77773ebfb294/application",
-    "company": "OpenAI",
-    "location": "London, UK",
-    "salary": "Not specified",
-    "date": "2026-11-03",
-    "category": "AI Engineering",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 918,
-    "title": "Counsel, AI Safety & Cyber Incident Response",
-    "description": "Counsel, AI Safety & Cyber Incident Response at OpenAI. Open the official application link to review the requirements.",
-    "image": "/brand/categories/jobs.svg",
-    "link": "https://jobs.ashbyhq.com/openai/48bd347f-c799-48ac-aa5b-1b0dfbff90f7/application",
-    "company": "OpenAI",
-    "location": "San Francisco, Washington, DC",
-    "salary": "Not specified",
-    "date": "2026-11-03",
-    "category": "AI Engineering",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 1049,
-    "title": "AI Engineer",
-    "description": "AI Engineer at Version 1. Open the official application link to review the requirements.",
-    "image": "/brand/categories/jobs.svg",
-    "link": "https://jobs.smartrecruiters.com/Version1/744000159311409",
-    "company": "Version 1",
-    "location": "London, Birmingham, Manchester, Newcastle upon Tyne, Edinburgh, Belfast, England, United Kingdom",
-    "salary": "Not specified",
-    "date": "2026-11-03",
-    "category": "AI Engineering",
-    "imageKind": "placeholder"
-  },
-  {
-    "id": 97,
-    "title": "Staff Machine Learning Engineer, Homefeed",
-    "description": "Staff Machine Learning Engineer, Homefeed at Pinterest. Open the official application link to review the requirements.",
-    "image": "/brand/categories/jobs.svg",
-    "link": "https://www.pinterestcareers.com/jobs/?gh_jid=8279563",
-    "company": "Pinterest",
-    "location": "San Francisco, CA, US; Remote, US",
-    "salary": "Not specified",
-    "date": "2026-11-02",
     "category": "Machine Learning & Data Science",
     "imageKind": "placeholder"
   }
