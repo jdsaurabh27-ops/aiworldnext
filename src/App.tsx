@@ -6,6 +6,7 @@ import PracticalGuides from './components/PracticalGuides';
 import SearchResults from './components/SearchResults';
 import Section from './components/Section';
 import Card from './components/Card';
+import { Newspaper } from 'lucide-react';
 import GoogleAnalytics from './components/GoogleAnalytics';
 import AIToolsSection from './components/AIToolsSection';
 import AIJobsSection from './components/AIJobsSection';
@@ -28,7 +29,7 @@ function App() {
           id="news"
           title="Latest AI News"
           subtitle="A short selection of source-linked developments. Visit the news page for the full feed."
-          icon={() => null}
+          icon={Newspaper}
         >
           {newsData.slice(0, 3).map((item) => (
             <Card
