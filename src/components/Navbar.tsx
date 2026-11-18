@@ -1,55 +1,41 @@
 import { useState } from 'react';
-import { Search, Home, Newspaper, BookOpen, Briefcase, Wrench, Calendar, Building2, Rocket, Bot, Mic, Users, Globe, Library, Send } from 'lucide-react';
+import { Search, Home, Newspaper, BookOpen, Briefcase, Wrench, Menu, X } from 'lucide-react';
 import SearchForm from './SearchForm';
 import BrandMark from './BrandMark';
 
-export const navLinks = [
+const navLinks = [
   { name: 'Home', href: '#home', icon: Home },
-  { name: 'AI News', href: '/news/', icon: Newspaper },
-  { name: 'AI Blogs', href: '/blogs/', icon: BookOpen },
-  { name: 'AI Jobs', href: '/jobs/', icon: Briefcase },
   { name: 'AI Tools', href: '/tools/', icon: Wrench },
-  { name: 'AI Events', href: '/events/', icon: Calendar },
-  { name: 'AI Companies', href: '/companies/', icon: Building2 },
-  { name: 'AI Startups', href: '/startups/', icon: Rocket },
-  { name: 'Robots & AI Hardware', href: '/robots/', icon: Bot },
-  { name: 'Robotics', href: '/robotics/', icon: Bot },
-  { name: 'AI Podcasts', href: '/podcasts/', icon: Mic },
-  { name: 'AI Community', href: '/community/', icon: Users },
-  { name: 'AI Directories', href: '/directories/', icon: Globe },
-  { name: 'Resources', href: '/resources/', icon: Library },
   { name: 'Guides', href: '/guides/', icon: BookOpen },
-  { name: 'Submit', href: '#submit', icon: Send },
+  { name: 'News', href: '/news/', icon: Newspaper },
+  { name: 'Jobs', href: '/jobs/', icon: Briefcase },
+  { name: 'More', href: '/discover/', icon: Menu },
 ];
 
 export default function Navbar() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <nav aria-label="Main navigation" className="bg-black border-b border-gray-800 sticky top-0 z-50">
-      <div className="bg-cyan-950 border-b border-cyan-800 px-4 py-2 flex flex-wrap justify-center items-center gap-3 text-sm text-white" role="region" aria-label="Robot enquiries announcement"><span className="inline-block w-2 h-2 rounded-full bg-orange-400 animate-pulse motion-reduce:animate-none" aria-hidden="true" /><strong>Robots for learning, malls &amp; events</strong><a href="/robots/" className="underline font-semibold text-cyan-300">Explore robots</a><a href="/robots/enquiry/" className="rounded bg-orange-400 px-3 py-1 font-bold text-black">Purchase / demo enquiry</a></div>
-      <div className="max-w-screen-2xl mx-auto px-3 sm:px-6 lg:px-8">
-        <div className="flex flex-wrap items-center justify-center sm:justify-between gap-x-4 gap-y-2 py-3">
-          <a href="#home" aria-label="AIWorldNext home" className="block shrink-0">
-            <BrandMark />
-          </a>
-          <div className="flex flex-wrap items-center justify-center gap-2">
-            <button onClick={() => setIsSearchOpen(!isSearchOpen)} aria-label="Search" aria-expanded={isSearchOpen}
-              className="p-2 text-gray-300 hover:text-neon-blue"><Search className="w-5 h-5" /></button>
-            <a href="#newsletter" className="px-3 py-2 bg-neon-blue text-black rounded-md text-sm font-semibold">Subscribe</a>
-            <a href="#support" className="px-3 py-2 bg-gray-800 text-white rounded-md text-sm font-semibold">Support</a>
-            <a href="#community" className="px-3 py-2 bg-gray-800 text-white rounded-md text-sm font-semibold">Join Community</a>
+    <nav aria-label="Main navigation" className="sticky top-0 z-50 border-b border-gray-800 bg-black/95 backdrop-blur">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="flex min-h-16 items-center justify-between gap-3">
+          <a href="/" aria-label="AIWorldNext home" className="block shrink-0"><BrandMark /></a>
+          <div className="hidden items-center gap-1 md:flex">
+            {navLinks.map(({ name, href, icon: Icon }) => (
+              <a key={name} href={href} className="inline-flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium text-gray-300 transition hover:bg-gray-900 hover:text-cyan-300">
+                <Icon className="h-4 w-4" aria-hidden="true" />{name}
+              </a>
+            ))}
+          </div>
+          <div className="flex shrink-0 items-center gap-2">
+            <button onClick={() => setIsSearchOpen(!isSearchOpen)} aria-label="Toggle search" aria-expanded={isSearchOpen} className="rounded-lg p-2 text-gray-300 hover:bg-gray-900 hover:text-cyan-300"><Search className="h-5 w-5" /></button>
+            <a href="#newsletter" className="rounded-lg bg-cyan-400 px-3 py-2 text-sm font-semibold text-gray-950 hover:bg-cyan-300">Subscribe</a>
+            <button onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label="Toggle navigation" aria-expanded={isMenuOpen} className="rounded-lg p-2 text-gray-300 hover:bg-gray-900 md:hidden">{isMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}</button>
           </div>
         </div>
-        <div className="flex flex-wrap justify-center gap-1 border-t border-gray-800 py-2">
-          {navLinks.map(({ name, href, icon: Icon }) => (
-            <a key={href} href={href} className="flex items-center gap-1.5 px-2 py-1.5 text-xs sm:text-sm font-medium text-gray-300 rounded-md hover:text-neon-blue hover:bg-gray-900 focus-visible:outline focus-visible:outline-neon-blue">
-              <Icon className="w-4 h-4 shrink-0" aria-hidden="true" /><span className="whitespace-nowrap">{name}</span>
-            </a>
-          ))}
-        </div>
-        {isSearchOpen && <div className="pb-3"><SearchForm autoFocus /></div>}
+        {isMenuOpen && <div className="grid grid-cols-2 gap-2 border-t border-gray-800 py-3 md:hidden">{navLinks.map(({name,href,icon:Icon})=><a key={name} href={href} onClick={()=>setIsMenuOpen(false)} className="flex items-center gap-2 rounded-lg px-3 py-3 text-sm text-gray-200 hover:bg-gray-900"><Icon className="h-4 w-4 text-cyan-300"/>{name}</a>)}</div>}
+        {isSearchOpen && <div className="border-t border-gray-800 py-3"><SearchForm autoFocus /></div>}
       </div>
     </nav>
   );
 }
-
