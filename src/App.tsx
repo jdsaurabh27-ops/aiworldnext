@@ -3,7 +3,6 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import PracticalGuides from './components/PracticalGuides';
-import SearchResults from './components/SearchResults';
 import Section from './components/Section';
 import Card from './components/Card';
 import { Newspaper } from 'lucide-react';
