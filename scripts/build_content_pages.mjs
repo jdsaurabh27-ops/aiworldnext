@@ -62,6 +62,7 @@ function guideWorksheet(g) {
 const relatedGuideSlugs = {
  'evaluate-ai-job-offer': ['prepare-ai-job-interview', 'build-ai-career-skills-gap-plan', 'ai-job-application-checklist'],
  'evaluate-ai-deep-research-tool': ['compare-ai-tools-with-one-task', 'verify-ai-news', 'ai-tool-privacy-checklist'],
+ 'verify-ai-news': ['evaluate-ai-deep-research-tool', 'nist-ai-rmf-update-explained', 'ai-tool-privacy-checklist'],
  'businesses-in-chatgpt-explained': ['shared-ai-training-robots-txt-explained', 'aiworldnext-seo-case-study', 'ai-tool-privacy-checklist'],
  'verify-robot-demo-autonomy': ['compare-robot-supplier-quotes', 'plan-collaborative-robot-pilot', 'plan-humanoid-robot-demo'],
  'organise-ai-hackathon': ['accessible-ai-event-checklist', 'write-an-ai-conference-talk-proposal', 'evaluate-ai-coding-agent-repository-access'],
