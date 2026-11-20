@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 3,
     "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
     "description": "Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents. At the plenary sessions, Deepu Talla,",
     "date": "2026-11-16",
@@ -11,7 +11,7 @@
     "imageSource": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/"
   },
   {
-    "id": 3,
+    "id": 5,
     "title": "Can Robots Bring Stroke Surgery to Remote Hospitals?",
     "description": "I am practicing brain surgery on a patient lying 6 meters away, out of my sight and reach. I press a foot pedal, activating the controller in my hand, and carefully steer a thin flexible",
     "date": "2026-11-16",
@@ -22,7 +22,7 @@
     "imageSource": "https://spectrum.ieee.org/telesurgery-stroke"
   },
   {
-    "id": 4,
+    "id": 6,
     "title": "28 Zero-Day Findings in Under Two Days. Is Robotics Security Keeping Pace?",
     "description": "This article is brought to you by VicOne . VicOne identified an initial set of 28 zero-day findings in less than two days using AI-assisted research across software and tools supporting the Physical AI ecosystem.",
     "date": "2026-11-16",
@@ -33,7 +33,7 @@
     "imageSource": "https://spectrum.ieee.org/zero-day-robotics-vulnerabilities-vicone-security"
   },
   {
-    "id": 5,
+    "id": 7,
     "title": "Why Skydio Built a Lopsided Drone",
     "description": "Skydio’s drones have always been magical. From MIT research and early prototypes to what I would argue is still the most advanced consumer drone ever made , this is a company that makes very cool",
     "date": "2026-11-15",
@@ -44,7 +44,7 @@
     "imageSource": "https://spectrum.ieee.org/skydio-f10-lightrunner-asymmetrical-drone"
   },
   {
-    "id": 6,
+    "id": 8,
     "title": "Video Friday: NASA PROMISEs a New Moon Rover",
     "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send",
     "date": "2026-11-13",
@@ -55,7 +55,7 @@
     "imageSource": "https://spectrum.ieee.org/video-friday-moon-rover-promise"
   },
   {
-    "id": 2,
+    "id": 4,
     "title": "AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
     "description": "Vision AI and robotics pick what’s worth recovering out of conveyor belts of used clothing, bottles and mixed recyclables, diverting thousands of tons of materials from landfills.",
     "date": "2026-11-11",
@@ -66,7 +66,18 @@
     "imageSource": "https://blogs.nvidia.com/blog/ai-recycling-startups/"
   },
   {
-    "id": 7,
+    "id": 1,
+    "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+    "description": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
+    "date": "2026-11-09",
+    "image": "https://lh3.googleusercontent.com/F1CrVEYRb8lJOyyxGgcyow-Td1de-nkp7K8MZrhjrKPANJUc0EYB754Ninn-Yrppjdb54nolOWo6Rk8iDaRNuixWwLaEKc0K9ImGooxen9fj9IOh=w1200-h630-n-nu-rw",
+    "link": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+    "category": "AI Research",
+    "imageKind": "source",
+    "imageSource": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
+  },
+  {
+    "id": 9,
     "title": "Can Agentic Robotics Solve Robotics’ Data-Scaling Problem?",
     "description": "Robotics companies are investing heavily in the belief that data will solve the most difficult problems in robotics. Once AI systems have ingested enough data from human demonstrations, the thinking goes, robots will be able",
     "date": "2026-11-09",
@@ -77,7 +88,7 @@
     "imageSource": "https://spectrum.ieee.org/agentic-robotics"
   },
   {
-    "id": 8,
+    "id": 10,
     "title": "Video Friday: Room-Scale Cable-Driven Home Robot Tidies Up",
     "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send",
     "date": "2026-11-06",
@@ -88,7 +99,7 @@
     "imageSource": "https://spectrum.ieee.org/video-friday-home-cable-robot"
   },
   {
-    "id": 9,
+    "id": 11,
     "title": "Are Drone Ports the Next Annoying Tech Neighbor?",
     "description": "Rick and Marcia LeCompte loved to watch the Cooper’s hawks that frequented a sweet-gum tree in their yard in Baton Rouge, La. But this October, the hawks were gone. Marcia LeCompte is convinced the birds",
     "date": "2026-11-04",
@@ -99,7 +110,7 @@
     "imageSource": "https://spectrum.ieee.org/drone-delivery-noise"
   },
   {
-    "id": 10,
+    "id": 12,
     "title": "Video Friday: Spot Plays to Show Its Whole-Body Manipulation",
     "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send",
     "date": "2026-10-30",
@@ -110,7 +121,7 @@
     "imageSource": "https://spectrum.ieee.org/video-friday-whole-body-manipulation"
   },
   {
-    "id": 11,
+    "id": 13,
     "title": "Your Robot’s Safety Functions Already Work. What If the Input Lies?",
     "description": "This article is brought to you by VicOne . A mobile robot slows for someone in a hallway. A collaborative arm eases its movement as a worker approaches. A humanoid pauses to let a person",
     "date": "2026-10-27",
@@ -121,7 +132,7 @@
     "imageSource": "https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone"
   },
   {
-    "id": 12,
+    "id": 14,
     "title": "Video Friday: Quadruped Robot Solves Giant Rubik’s Cube by Itself",
     "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send",
     "date": "2026-10-23",
@@ -132,7 +143,7 @@
     "imageSource": "https://spectrum.ieee.org/video-friday-rubiks-cube-robot"
   },
   {
-    "id": 13,
+    "id": 15,
     "title": "The Robot I Didn’t Expect to Build",
     "description": "Agility Robotics , the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5 . It’s designed to be the first humanoid robot that can safely",
     "date": "2026-10-19",
@@ -143,7 +154,7 @@
     "imageSource": "https://spectrum.ieee.org/agility-robotics-digit-5-redesign"
   },
   {
-    "id": 14,
+    "id": 16,
     "title": "Video Friday: When Two Robots Become One",
     "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send",
     "date": "2026-10-16",
@@ -152,16 +163,5 @@
     "category": "Robotics",
     "imageKind": "source",
     "imageSource": "https://spectrum.ieee.org/video-friday-reconfigurable-robots"
-  },
-  {
-    "id": 15,
-    "title": "Q&A: Mars Perseverance Rover Sets a Distance Record",
-    "description": "On 11 October , the Perseverance rover completed a drive that brought its total distance traveled on Mars to 28.10 miles (45.22 kilometers). This is a new record for Mars rovers, enabled in large part",
-    "date": "2026-10-13",
-    "image": "https://spectrum.ieee.org/media-library/a-long-trail-of-tire-tracks-left-across-mars-dusty-surface-by-a-space-rover.jpg?id=68423735&width=1200&height=600&coordinates=0%2C434%2C0%2C397",
-    "link": "https://spectrum.ieee.org/mars-rover-distance-record",
-    "category": "Robotics",
-    "imageKind": "source",
-    "imageSource": "https://spectrum.ieee.org/mars-rover-distance-record"
   }
 ]
