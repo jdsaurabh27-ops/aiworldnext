@@ -5,7 +5,7 @@ const seoTargets=JSON.parse(readFileSync('src/data/seo-targets.json','utf8'));
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const decode=s=>s.replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>');
 function files(dir){return readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?files(join(dir,e.name)):[join(dir,e.name)]);}
-const noindex=new Set(['/robots/enquiry/','/pay.html','/updates/']);
+const noindex=new Set(['/robots/enquiry/','/pay.html','/updates/','/newsletter/thanks/','/newsletter/confirmed/']);
 const labels={tools:'AI Tools',blogs:'AI Blogs',news:'AI News',jobs:'AI Jobs',events:'AI Events',companies:'AI Companies',startups:'AI Startups',robotics:'Robotics',robots:'Robots & AI Hardware',podcasts:'AI Podcasts',community:'AI Community',directories:'AI Directories',resources:'AI Resources',guides:'Practical AI Guides'};
 let count=0;
 for(const file of files('dist').filter(f=>f.endsWith('.html'))){
