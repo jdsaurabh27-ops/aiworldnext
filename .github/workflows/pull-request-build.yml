@@ -4,7 +4,7 @@ on:
   pull_request:
     branches: [main]
   push:
-    branches: [homepage-simplification-nov-2026]
+    branches: [seo-validation-nov-2026]
   workflow_dispatch:
 
 jobs:
@@ -16,6 +16,11 @@ jobs:
         with:
           node-version: 20
           cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
       - run: npm ci
       - run: npm run typecheck
       - run: npm run build
+      - name: Validate SEO metadata, sitemap and internal links
+        run: python scripts/check_seo.py
