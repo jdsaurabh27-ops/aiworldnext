@@ -35,13 +35,15 @@
   {
     "id": 4,
     "title": "The Batch by deeplearning.ai",
-    "description": "Andrew Ng's weekly newsletter providing insights on autonomous agents, AI trends, and practical applications for enterprise.",
+    "description": "The Batch — weekly AI news and insights from DeepLearning.AI. What matters in AI right now.",
     "image": "https://www.google.com/s2/favicons?domain=www.deeplearning.ai&sz=128",
     "link": "https://www.deeplearning.ai/the-batch",
     "category": "Newsletter",
     "imageKind": "logo",
     "logoIcon": "https://www.google.com/s2/favicons?domain=www.deeplearning.ai&sz=128",
-    "imageSource": "https://www.deeplearning.ai/the-batch"
+    "imageSource": "https://www.deeplearning.ai/the-batch",
+    "sourceUrl": "https://www.deeplearning.ai/the-batch",
+    "checkedAt": "2026-11-20"
   },
   {
     "id": 5,

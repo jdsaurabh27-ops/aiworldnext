@@ -1,32 +1,6 @@
 [
   {
     "id": 1,
-    "title": "Introducing Gemini 4 Neon",
-    "description": "Read the original report from Google DeepMind.",
-    "date": "2026-11-18",
-    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-neon__blog-header__sm.width-1300.png",
-    "link": "https://deepmind.google/blog/introducing-gemini-4-neon/",
-    "category": "AI Research",
-    "author": "Google DeepMind",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://deepmind.google/blog/introducing-gemini-4-neon/"
-  },
-  {
-    "id": 2,
-    "title": "Genie 4 is now available",
-    "description": "Read the original report from Google DeepMind.",
-    "date": "2026-11-18",
-    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/resized_ProjectGenie_Thumbnail_v02.width-1300.png",
-    "link": "https://deepmind.google/blog/genie-4-is-now-available/",
-    "category": "AI Research",
-    "author": "Google DeepMind",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://deepmind.google/blog/genie-4-is-now-available/"
-  },
-  {
-    "id": 58,
     "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-18",
@@ -39,7 +13,7 @@
     "imageSource": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin"
   },
   {
-    "id": 59,
+    "id": 2,
     "title": "Why your fine-tuning job takes longer than the FLOPs say",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-18",
@@ -52,7 +26,7 @@
     "imageSource": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
   },
   {
-    "id": 60,
+    "id": 3,
     "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-18",
@@ -65,7 +39,7 @@
     "imageSource": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse"
   },
   {
-    "id": 61,
+    "id": 4,
     "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-18",
@@ -78,7 +52,7 @@
     "imageSource": "https://huggingface.co/blog/moe-expert-streaming"
   },
   {
-    "id": 62,
+    "id": 5,
     "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-18",
@@ -91,7 +65,7 @@
     "imageSource": "https://huggingface.co/blog/rumble-2-flash"
   },
   {
-    "id": 63,
+    "id": 6,
     "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-16",
@@ -104,7 +78,7 @@
     "imageSource": "https://huggingface.co/blog/openrouter"
   },
   {
-    "id": 64,
+    "id": 7,
     "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-13",
@@ -117,7 +91,7 @@
     "imageSource": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place"
   },
   {
-    "id": 65,
+    "id": 8,
     "title": "XYBench: Helping with the problem behind the question",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-13",
@@ -130,7 +104,7 @@
     "imageSource": "https://huggingface.co/blog/allenai/xybench"
   },
   {
-    "id": 66,
+    "id": 9,
     "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-13",
@@ -143,20 +117,7 @@
     "imageSource": "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
   },
   {
-    "id": 3,
-    "title": "Introducing Gemini 4 Hydrogen",
-    "description": "Read the original report from Google DeepMind.",
-    "date": "2026-11-12",
-    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-hydrogen__key-art__lockup__16-9.width-1300.jpg",
-    "link": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-    "category": "AI Research",
-    "author": "Google DeepMind",
-    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
-    "imageKind": "source",
-    "imageSource": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
-  },
-  {
-    "id": 67,
+    "id": 10,
     "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-12",
@@ -169,7 +130,7 @@
     "imageSource": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"
   },
   {
-    "id": 68,
+    "id": 11,
     "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
     "description": "Read the original report from Hugging Face.",
     "date": "2026-11-12",
@@ -182,16 +143,55 @@
     "imageSource": "https://huggingface.co/blog/3d-lora-finetuning"
   },
   {
-    "id": 4,
-    "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
-    "description": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+    "id": 12,
+    "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+    "description": "Read the original report from Hugging Face.",
     "date": "2026-11-11",
-    "image": "https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w1200-h630-n-nu-rw",
-    "link": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
-    "category": "AI Research",
-    "author": "Google DeepMind",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/6468b319b2321e47d3267049/Emr86qw6NAueYLdIEiTTD.png",
+    "link": "https://huggingface.co/blog/qvac/botpsy",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
     "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
     "imageKind": "source",
-    "imageSource": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
+    "imageSource": "https://huggingface.co/blog/qvac/botpsy"
+  },
+  {
+    "id": 13,
+    "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-11-11",
+    "image": "https://huggingface.co/blog/assets/train-sentence-transformers/st-hf-thumbnail.png",
+    "link": "https://huggingface.co/blog/token-pooling",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/token-pooling"
+  },
+  {
+    "id": 14,
+    "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-11-10",
+    "image": "https://huggingface.co/blog/assets/hub-gcp-marketplace/thumbnail.jpg",
+    "link": "https://huggingface.co/blog/hub-gcp-marketplace",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/hub-gcp-marketplace"
+  },
+  {
+    "id": 15,
+    "title": "Decision Models in Hugging Face",
+    "description": "Read the original report from Hugging Face.",
+    "date": "2026-11-10",
+    "image": "https://huggingface.co/blog/assets/decision/thumbnail.png",
+    "link": "https://huggingface.co/blog/decision",
+    "category": "AI Tools & Research",
+    "author": "Hugging Face",
+    "authorImage": "https://ui-avatars.com/api/?name=AIWorldNext",
+    "imageKind": "source",
+    "imageSource": "https://huggingface.co/blog/decision"
   }
 ]
