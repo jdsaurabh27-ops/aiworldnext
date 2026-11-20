@@ -127,21 +127,25 @@
   },
   {
     "slug": "murf-vs-elevenlabs",
-    "title": "Murf vs ElevenLabs: how to choose for your voiceover workflow",
+    "title": "Murf vs ElevenLabs for AI Voiceovers: Workflow, Editing & Cost",
     "intro": "Compare documented editing workflows, run the same short script in both tools and check export rights before choosing a plan.",
-    "checkedAt": "15 October 2026",
+    "checkedAt": "20 November 2026",
     "sections": [
       [
         "Quick decision: start with your editing task",
-        "If you want to arrange narration alongside existing images, video and music, try Murf Studio’s block and timeline workflow. If you want a short speech sample first, try ElevenLabs Text to Speech; its Studio also supports audio and video projects. Neither description establishes which voice will sound better for your script. This is a documentation-based comparison, not a hands-on audio test."
+        "If you want to write a script, choose voices, add media and work with narration and background audio on a timeline, Murf Studio documents those controls in one project workspace. If you want to generate a speech sample from text and compare voices and models, ElevenLabs Text to Speech documents that flow, while Studio supports longer audio and video projects. These are documented workflow differences, not evidence that one service produces better audio. This is not a hands-on audio test."
       ],
       [
         "What Murf documents",
-        "Murf’s Studio guide describes a text editor, voice controls and a timeline for narration and media. Its pronunciation tools include alternative spelling and IPA. Check the selected voice, plan and current interface: controls and collaboration options are not necessarily available to every account."
+        "Murf's current Studio guide describes a text editor with voice controls, media upload and a timeline for voice blocks and background audio. It also documents a preview window and export menu. Its pronunciation guide describes smart suggestions, custom IPA, alternative spelling and locale changes for words or phrases. Check the current account and plan because availability and collaboration options can differ."
       ],
       [
         "What ElevenLabs documents",
-        "ElevenLabs Text to Speech takes a script, voice and model, with settings that depend on the model. Studio supports longer narration and video editing. Voice and model choice affect delivery, so compare more than the first default voice. Do not assume a model setting exists across all models."
+        "ElevenLabs Text to Speech asks you to enter text, select a voice, optionally adjust settings and generate audio. Its documentation says voice selection is the most important influence on output, followed by model and then settings. Studio supports longer narration and video editing. The result still needs to be checked against your script; the product documentation is not an independent quality test."
+      ],
+      [
+        "Test the language and accent you actually publish",
+        "For Hindi, English or mixed-language narration, compare the same names and code-switched sentences in both services. Murf documents language and accent filters and locale controls for pronunciation. ElevenLabs recommends a native voice for the target language because a voice may retain its original accent when speaking another language. Listen to the exact phrases on a phone speaker and record corrections rather than assuming a language label guarantees a natural result."
       ],
       [
         "A repeatable test script",
@@ -174,15 +178,15 @@
     ],
     "sources": [
       {
-        "title": "Murf Studio basics",
+        "title": "Murf Studio: Getting familiar with the Studio (checked 20 November 2026)",
         "url": "https://help.murf.ai/murf-studio-basics"
       },
       {
-        "title": "Murf pronunciation guide",
+        "title": "Murf: Pronunciation (checked 20 November 2026)",
         "url": "https://help.murf.ai/pronunciation"
       },
       {
-        "title": "ElevenLabs Text to Speech guide",
+        "title": "ElevenLabs Text to Speech product guide (checked 20 November 2026)",
         "url": "https://elevenlabs.io/docs/eleven-creative/playground/text-to-speech"
       },
       {
@@ -245,11 +249,12 @@
           "Record your result"
         ]
       ]
-    }
+    },
+    "kind": "Documentation-based comparison"
   },
   {
     "slug": "create-an-ai-voiceover",
-    "title": "How to create an AI voiceover: a practical first workflow",
+    "title": "How to Create an AI Voiceover with ElevenLabs: Step-by-Step",
     "intro": "Turn a short script into a usable narration track, then check pronunciation, pacing and publishing requirements before sharing it.",
     "sections": [
       [
@@ -266,7 +271,11 @@
       ],
       [
         "Generate a first sample in ElevenLabs",
-        "Open Text to Speech in your ElevenLabs account, enter the script and select an available voice and model. Begin with the default settings and generate a short passage before a longer project. Account options, model access and usage allowances can change, so check the current interface and plan. Do not assume every available voice will suit your language or delivery."
+        "Open Text to Speech, enter the script, choose a voice and model, then generate a short sample. ElevenLabs' current product guide explains this sequence and notes that voice choice has the greatest influence on the result, followed by model selection and then model settings. Start with a voice suited to the content and intended language; do not assume the default voice is the best fit."
+      ],
+      [
+        "Test the language, accent and names you will publish",
+        "If your video mixes Hindi and English, or includes regional names, test those exact phrases before generating the full narration. ElevenLabs recommends a native voice for the target language because a voice may retain its original accent when speaking another language. Listen to names, dates and code-switched phrases, then try a different suitable voice or rewrite a difficult phrase. This is a practical test recommendation, not a guarantee of pronunciation accuracy."
       ],
       [
         "Listen for errors, then change one thing",
@@ -274,7 +283,7 @@
       ],
       [
         "Fix a rushed ending without losing the message",
-        "If narration overruns the final scene, first remove repeated phrases and shorten the closing instruction. Keep the useful action, such as “Read the source before sharing.” Regenerate only the changed section where your editor permits it, then listen across the join for a change in loudness or tone. Avoid solving every timing problem by speeding up the entire track. Leave enough time for the final sentence to finish before the picture cuts."
+        "The current Text to Speech help page says a generated file can be downloaded immediately or later from history. It documents MP3 (128 kbps) and WAV downloads, with MP3 (192/256 kbps), M4A and FLAC available through Advanced. Confirm the options shown in your own account before planning an edit. Import the chosen file into an editor, trim silence and align it with your visuals. If you add music, check its licence and keep the narration intelligible."
       ],
       [
         "Download and edit the track",
@@ -295,15 +304,15 @@
     ],
     "sources": [
       {
-        "title": "ElevenLabs Text to Speech product guide",
+        "title": "ElevenLabs Text to Speech product guide (checked 20 November 2026)",
         "url": "https://elevenlabs.io/docs/eleven-creative/playground/text-to-speech"
       },
       {
-        "title": "Downloading generated speech",
+        "title": "ElevenLabs: How to download generated files from Text to Speech (checked 20 November 2026)",
         "url": "https://elevenlabs.io/docs/help-center/product/core-capabilities/text-to-speech/how-do-i-download-generated-files-from-text-to-speech"
       },
       {
-        "title": "Voice settings reference",
+        "title": "ElevenLabs: Edit voice settings reference (checked 20 November 2026)",
         "url": "https://elevenlabs.io/docs/api-reference/voices/settings/update"
       }
     ],
@@ -339,7 +348,9 @@
           "Give one clear action, without promising results."
         ]
       ]
-    }
+    },
+    "checkedAt": "20 November 2026",
+    "kind": "Documentation-based workflow guide"
   },
   {
     "slug": "ai-tool-privacy-checklist",
