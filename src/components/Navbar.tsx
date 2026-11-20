@@ -9,7 +9,7 @@ const navLinks = [
   { name: 'Guides', href: '/guides/', icon: BookOpen },
   { name: 'News', href: '/news/', icon: Newspaper },
   { name: 'Jobs', href: '/jobs/', icon: Briefcase },
-  { name: 'More', href: '/discover/', icon: Menu },
+  { name: 'More', href: '#more-categories', icon: Menu },
 ];
 
 export default function Navbar() {
