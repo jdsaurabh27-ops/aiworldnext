@@ -99,23 +99,25 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li><a href="/about.html" className="text-gray-400 hover:text-neon-blue transition-colors">About AIWorldNext</a></li>
               <li><a href="/guides/" className="text-gray-400 hover:text-neon-blue transition-colors">Practical guides</a></li>
-              <li><a href="#news" className="text-gray-400 hover:text-neon-blue transition-colors">AI News</a></li>
-              <li><a href="#blogs" className="text-gray-400 hover:text-neon-blue transition-colors">Blogs</a></li>
-              <li><a href="#jobs" className="text-gray-400 hover:text-neon-blue transition-colors">Jobs</a></li>
-              <li><a href="#tools" className="text-gray-400 hover:text-neon-blue transition-colors">Products</a></li>
-              <li><a href="#startups" className="text-gray-400 hover:text-neon-blue transition-colors">Startups</a></li>
+              <li><a href="/news/" className="text-gray-400 hover:text-neon-blue transition-colors">AI News</a></li>
+              <li><a href="/blogs/" className="text-gray-400 hover:text-neon-blue transition-colors">AI Blogs</a></li>
+              <li><a href="/jobs/" className="text-gray-400 hover:text-neon-blue transition-colors">Jobs</a></li>
+              <li><a href="/tools/" className="text-gray-400 hover:text-neon-blue transition-colors">AI Tools & Products</a></li>
+              <li><a href="/companies/" className="text-gray-400 hover:text-neon-blue transition-colors">Companies</a></li>
+              <li><a href="/startups/" className="text-gray-400 hover:text-neon-blue transition-colors">Startups</a></li>
             </ul>
           </div>
 
           <div>
-            <h3 className="text-white font-semibold mb-4">Community</h3>
+            <h3 className="text-white font-semibold mb-4">Community & More</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="#podcasts" className="text-gray-400 hover:text-neon-blue transition-colors">Podcasts</a></li>
-              <li><a href="#resources" className="text-gray-400 hover:text-neon-blue transition-colors">Resources</a></li>
-              <li><a href="#robotics" className="text-gray-400 hover:text-neon-blue transition-colors">Robotics</a></li>
+              <li><a href="/podcasts/" className="text-gray-400 hover:text-neon-blue transition-colors">Podcasts</a></li>
+              <li><a href="/resources/" className="text-gray-400 hover:text-neon-blue transition-colors">Resources</a></li>
+              <li><a href="/robotics/" className="text-gray-400 hover:text-neon-blue transition-colors">Robotics</a></li>
+              <li><a href="/events/" className="text-gray-400 hover:text-neon-blue transition-colors">Events</a></li>
+              <li><a href="/community/" className="text-gray-400 hover:text-neon-blue transition-colors">Community</a></li>
+              <li><a href="/directories/" className="text-gray-400 hover:text-neon-blue transition-colors">Directories</a></li>
               <li><a href="#support" className="text-gray-400 hover:text-neon-blue transition-colors">Support Us</a></li>
-              <li><a href="#community" className="text-gray-400 hover:text-neon-blue transition-colors">Forums</a></li>
-              <li><a href="#websites" className="text-gray-400 hover:text-neon-blue transition-colors">Directory</a></li>
             </ul>
           </div>
         </div>

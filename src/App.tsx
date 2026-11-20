@@ -2,242 +2,82 @@ import { lazy, Suspense } from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
-import DiscoveryHub from './components/DiscoveryHub';
-import RobotHardware from './components/RobotHardware';
 import PracticalGuides from './components/PracticalGuides';
-import SearchResults from './components/SearchResults';
 import Section from './components/Section';
 import Card from './components/Card';
+import { Newspaper } from 'lucide-react';
 import GoogleAnalytics from './components/GoogleAnalytics';
-
-const VisionSection = lazy(() => import('./components/VisionSection'));
-const SupportSection = lazy(() => import('./components/SupportSection'));
-const Newsletter = lazy(() => import('./components/Newsletter'));
-const EventsCalendar = lazy(() => import('./components/EventsCalendar'));
-const TopCompanies = lazy(() => import('./components/TopCompanies'));
-const AIJobsSection = lazy(() => import('./components/AIJobsSection'));
-const AIToolsSection = lazy(() => import('./components/AIToolsSection'));
-const SubmitSection = lazy(() => import('./components/SubmitSection'));
-import {
-  Newspaper,
-  PenTool,
-  BookOpen,
-  Rocket,
-  Bot,
-  Mic,
-  Users,
-  Globe,
-} from 'lucide-react';
-
+import AIToolsSection from './components/AIToolsSection';
+import AIJobsSection from './components/AIJobsSection';
 import newsData from './data/news.json';
-import blogsData from './data/blogs.json';
-import resourcesData from './data/resources.json';
-import startupsData from './data/startups.json';
-import roboticsData from './data/robotics.json';
-import podcastsData from './data/podcasts.json';
-import communityData from './data/community.json';
-import websitesData from './data/websites.json';
+
+const Newsletter = lazy(() => import('./components/Newsletter'));
+const SubmitSection = lazy(() => import('./components/SubmitSection'));
+const SupportSection = lazy(() => import('./components/SupportSection'));
+
+const moreCategories = [
+  ['Companies', '/companies/'],
+  ['Startups', '/startups/'],
+  ['Podcasts', '/podcasts/'],
+  ['Community', '/community/'],
+  ['Directories', '/directories/'],
+  ['Resources', '/resources/'],
+  ['Events', '/events/'],
+  ['Robotics', '/robotics/'],
+  ['AI Blogs', '/blogs/'],
+];
 
 function App() {
-  const LoadingFallback = () => (
-    <div className="flex items-center justify-center py-20">
-      <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-neon-blue"></div>
-    </div>
-  );
-
   return (
     <div className="min-h-screen bg-gray-950">
       <GoogleAnalytics />
       <Navbar />
-      <Hero />
-      <DiscoveryHub />
-      <PracticalGuides />
-      <SearchResults />
-      <div className="border-y border-gray-800 bg-gray-900/30"><div className="mx-auto max-w-7xl px-4 py-4 text-center"><p className="mb-2 text-xs font-semibold uppercase tracking-widest text-gray-400">Browse the directory</p><div className="flex flex-wrap justify-center gap-2">{['news','blogs','jobs','tools','events','companies','startups','robotics','podcasts','community','directories','resources'].map(name=><a key={name} href={`/${name}/`} className="rounded-md border border-gray-700 px-3 py-2 text-sm capitalize text-gray-200 hover:border-cyan-400 hover:text-cyan-400">{name}</a>)}</div></div></div>
-
-      <Section
-        id="news"
-        title="Latest AI News"
-        subtitle="Stay updated with the newest developments in artificial intelligence and robotics"
-        icon={Newspaper}
-      >
-        {newsData.slice(0, 6).map((item) => (
-          <Card
-            key={item.id}
-            title={item.title}
-            description={item.description}
-            image={item.image}
-                imageKind={(item as { imageKind?: string }).imageKind}
-            link={item.link}
-            date={item.date}
-            category={item.category}
-          />
-        ))}
-      </Section>
-
-      <Suspense fallback={<LoadingFallback />}><AIToolsSection /></Suspense>
-
-      <RobotHardware />
-
-      <Suspense fallback={<LoadingFallback />}><AIJobsSection /></Suspense>
-
-      <Section
-        id="blogs"
-        title="From AI publishers"
-        subtitle="External reading from linked publishers. Original AIWorldNext workflows are in Practical Guides."
-        icon={PenTool}
-      >
-        {blogsData.slice(0, 6).map((item) => (
-          <Card
-            key={item.id}
-            title={item.title}
-            description={item.description}
-            image={item.image}
-                imageKind={(item as { imageKind?: string }).imageKind}
-            link={`/blogs/#entry-${item.id}`}
-            date={item.date}
-            author={item.author}
-            authorImage={item.authorImage}
-            category={item.category}
-          />
-        ))}
-      </Section>
-
-      <Section
-        id="robotics"
-        title="Robotics Updates"
-        subtitle="Latest developments in robotics and autonomous systems"
-        icon={Bot}
-      >
-        {roboticsData.map((item) => (
-          <Card
-            key={item.id}
-            title={item.title}
-            description={item.description}
-            image={item.image}
-                imageKind={(item as { imageKind?: string }).imageKind}
-            link={item.link}
-            date={item.date}
-            category={item.category}
-          />
-        ))}
-      </Section>
-
-      <Suspense fallback={<LoadingFallback />}><EventsCalendar /></Suspense>
-
-      <Section
-        id="startups"
-        title="AI Startups to Watch"
-        subtitle="Innovative companies shaping the future of artificial intelligence"
-        icon={Rocket}
-      >
-        {startupsData.map((item) => (
-          <Card
-            key={item.id}
-            title={item.title}
-            description={item.description}
-            image={item.image}
-                imageKind={(item as { imageKind?: string }).imageKind}
-            link={item.link}
-            funding={item.funding}
-            founded={item.founded}
-            category={item.category}
-          />
-        ))}
-      </Section>
-
-      <Suspense fallback={<LoadingFallback />}><TopCompanies /></Suspense>
-
-      <Section
-        id="podcasts"
-        title="AI Podcasts"
-        subtitle="Listen to conversations with leading AI researchers and practitioners"
-        icon={Mic}
-      >
-        {podcastsData.map((item) => (
-          <Card
-            key={item.id}
-            title={item.title}
-            description={item.description}
-            image={item.image}
-                imageKind={(item as { imageKind?: string }).imageKind}
-            link={item.link}
-            host={item.host}
-            category={item.category}
-          />
-        ))}
-      </Section>
-
-      <Section
-        id="resources"
-        title="AI Resources & Learning"
-        subtitle="Educational materials, courses, and resources for AI development"
-        icon={BookOpen}
-      >
-        {resourcesData.slice(0, 6).map((item) => (
-          <Card
-            key={item.id}
-            title={item.title}
-            description={item.description}
-            image={item.image}
-                imageKind={(item as { imageKind?: string }).imageKind}
-            link={item.link}
-            category={item.category}
-          />
-        ))}
-      </Section>
-
-      <Section
-        id="community"
-        title="AI Community"
-        subtitle="Join forums, groups, and events connecting AI enthusiasts worldwide"
-        icon={Users}
-      >
-        {communityData.map((item) => (
-          <Card
-            key={item.id}
-            title={item.title}
-            description={item.description}
-            image={item.image}
-                imageKind={(item as { imageKind?: string }).imageKind}
-            link={item.link}
-            members={item.members}
-            category={item.category}
-          />
-        ))}
-      </Section>
-
-      <Section
-        id="websites"
-        title="AI Directories & Resources"
-        subtitle="Source-linked AI websites and platforms to explore"
-        icon={Globe}
-      >
-        {websitesData.map((item) => (
-          <Card
-            key={item.id}
-            title={item.title}
-            description={item.description}
-            image={item.image}
-                imageKind={(item as { imageKind?: string }).imageKind}
-            link={item.link}
-            category={item.category}
-          />
-        ))}
-      </Section>
-
-      <Suspense fallback={<LoadingFallback />}><Newsletter /></Suspense>
-
-      <Suspense fallback={<LoadingFallback />}><VisionSection /></Suspense>
-
-      <Suspense fallback={<LoadingFallback />}><SubmitSection /></Suspense>
-
-      <Suspense fallback={<LoadingFallback />}><SupportSection /></Suspense>
-
+      <main>
+        <Hero />
+        <PracticalGuides />
+        <AIToolsSection />
+        <Section
+          id="news"
+          title="Latest AI News"
+          subtitle="A short selection of source-linked developments. Visit the news page for the full feed."
+          icon={Newspaper}
+        >
+          {newsData.slice(0, 3).map((item) => (
+            <Card
+              key={item.id}
+              title={item.title}
+              description={item.description}
+              image={item.image}
+              imageKind={(item as { imageKind?: string }).imageKind}
+              link={item.link}
+              date={item.date}
+              category={item.category}
+            />
+          ))}
+        </Section>
+        <div className="mx-auto max-w-7xl px-4 pb-10 text-center">
+          <a href="/news/" className="inline-flex rounded-lg border border-gray-700 px-5 py-3 font-semibold text-cyan-300 hover:border-cyan-400">View all AI news</a>
+        </div>
+        <AIJobsSection />
+        <section id="more-categories" className="mx-auto max-w-7xl scroll-mt-24 px-4 py-8 sm:px-6 lg:px-8">
+          <div className="rounded-2xl border border-gray-800 bg-gray-900 p-6">
+            <p className="text-sm font-semibold uppercase tracking-wider text-cyan-400">Explore more</p>
+            <h2 className="mt-1 text-xl font-bold text-white">More from the AI ecosystem</h2>
+            <p className="mt-2 text-sm text-gray-300">Browse companies, startups, podcasts, community spaces, directories, events and learning resources.</p>
+            <div className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
+              {moreCategories.map(([name, href]) => (
+                <a key={href} href={href} className="rounded-lg border border-gray-700 px-4 py-3 text-sm font-medium text-gray-200 transition hover:border-cyan-400 hover:text-cyan-300">{name} <span aria-hidden="true">→</span></a>
+              ))}
+            </div>
+          </div>
+        </section>
+        <Suspense fallback={null}><Newsletter /></Suspense>
+        <Suspense fallback={null}><SubmitSection /></Suspense>
+        <Suspense fallback={null}><SupportSection /></Suspense>
+      </main>
       <Footer />
     </div>
   );
 }
 
 export default App;
-
