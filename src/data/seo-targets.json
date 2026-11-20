@@ -56,14 +56,14 @@
     "relatedLabel": "Choose a tool for a practical learning task"
   },
   "/guides/create-an-ai-voiceover/": {
-    "keyword": "how to create an AI voiceover",
-    "title": "How to Create an AI Voiceover: Script to Finished Audio",
-    "description": "Learn how to create an AI voiceover, prepare a script, check pronunciation and plan a 30-second video. Includes a storyboard and publishing checklist."
+    "keyword": "how to create an AI voiceover with ElevenLabs",
+    "title": "How to Create an AI Voiceover with ElevenLabs",
+    "description": "Create an AI voiceover with ElevenLabs: prepare a script, choose a voice, test pronunciation, download audio and check publishing rights."
   },
   "/guides/murf-vs-elevenlabs/": {
-    "keyword": "Murf vs ElevenLabs",
-    "title": "Murf vs ElevenLabs: Voiceover Workflow Comparison",
-    "description": "Compare documented Murf and ElevenLabs workflows, export checks and editing needs. Use our blank comparison worksheet; this is not a hands-on audio review."
+    "keyword": "Murf vs ElevenLabs for AI voiceovers",
+    "title": "Murf vs ElevenLabs for AI Voiceovers: Workflow & Cost",
+    "description": "Compare Murf and ElevenLabs workflows, multilingual pronunciation, editing, exports and total cost. Includes a fair test worksheet, not a product ranking."
   },
   "/guides/buy-your-first-robot/": {
     "keyword": "robot buying guide",
@@ -114,5 +114,10 @@
     "intro": "Choose a task, then follow a practical workflow. These original guides explain what to check, where human judgement matters and which limitations to consider. External publisher articles are listed separately on AI Blogs.",
     "relatedUrl": "/blogs/",
     "relatedLabel": "Explore AI blogs and publisher reading"
+  },
+  "/guides/choose-an-ai-tool/": {
+    "keyword": "how to choose an AI tool",
+    "title": "How to Choose an AI Tool: Quality, Cost & Privacy",
+    "description": "Compare AI tools using one real task. Check output quality, correction time, usage limits, privacy terms and export options with a practical worksheet."
   }
 }
