@@ -3,6 +3,8 @@ name: Pull Request Build Check
 on:
   pull_request:
     branches: [main]
+  push:
+    branches: [homepage-simplification-nov-2026]
   workflow_dispatch:
 
 jobs:
